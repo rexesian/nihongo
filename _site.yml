@@ -1,0 +1,18 @@
+name: "R"
+navbar:
+  title: "🐳"
+  href: index.html
+  right:
+    - text: "More-Nihongo"
+      href: home.html
+    - text: "Articles"
+      href: journal.html
+    - text: "Links"
+      href: links.html
+  left: 
+    - text: "Nihongo-Guide"
+      href: nihongo.html
+output:
+  html_document:
+    theme: sandstone
+output_dir: "docs"

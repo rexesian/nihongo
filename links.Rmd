@@ -1,0 +1,89 @@
+---
+title: "🥨"
+output:
+  html_document:
+    theme: sandstone
+    css: "mystyle.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+```{=html}
+<style type="text/css">
+
+body{
+      font-size: 13px;
+      font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";
+  }
+</style>
+
+```
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+```{css, echo=FALSE}
+@media(prefers-color-scheme: light) {
+  body {
+    background-color: black;
+    filter: invert(1);
+  }
+}
+```
+
+# Links {.tabset}
+
+## YT Channels
+
+❊ [Internationally-ME](https://www.youtube.com/channel/UCW_yDyDfu1bpqDNxeobW02Q)    
+❊ [Sayuri-Saying](https://www.youtube.com/c/SayuriSaying)    
+❊ [Kimono-Mom](https://www.youtube.com/c/KimonoMom/featured)    
+❊ [Nihongo-to-tabi](https://www.youtube.com/channel/UCJUQG9V0DuccWVOw8ovzTsQ)    
+❊ [Mikis-Japa-Lab](https://www.youtube.com/channel/UCjHQj9sL4_6yNpyZ_lzKYdg)    
+❊ [Haruna-Kawaguchi](https://www.youtube.com/channel/UCHi5HD9w9B-gI6Lbx43Rs7A)    
+❊ [Susuru-Tv](https://www.youtube.com/channel/UCXcjvt8cOfwtcqaMeE7-hqA)    
+❊ [Yusuke](https://www.youtube.com/channel/UCcCeJ3pQYFgvfVuMxVRWhoA)    
+❊ [Ike-chan](https://www.youtube.com/channel/UCpGJxlhKXfdOKkBhuDH6ujA)    
+❊ [Ask-Japanese](https://www.youtube.com/channel/UCOMZWkPo7ao6yGaXc954U0w)    
+❊ [Koi-Learn-Japanese](https://www.youtube.com/channel/UCkUJ2OgnNsFUU5NgtNLwOKw)    
+❊ [Tori&Izumi](https://www.youtube.com/channel/UC_Tk52ONUnWK_yZ-EtnwNAQ)    
+❊ [Nihongo-No-Mori](https://www.youtube.com/channel/UCVx6RFaEAg46xfAsD2zz16w)    
+❊ [Nihongo-Switch](https://www.youtube.com/channel/UCyT0FOewS-UczNAZC4YIMRg)   
+
+------------------------------------------------------------------------
+
+## Web Sites
+
+Irodori: <https://www.irodori.jpf.go.jp/en/index.html>
+
+------------------------------------------------------------------------
+
+## Schools
+
+AKita-Inaka School: <https://akitainakaschool.com/>
+
+------------------------------------------------------------------------
+
+## Tech Info
+
+**Anki**
+
+Install Anki Application: <https://apps.ankiweb.net>\
+Anki-Japanese Decks: <https://ankiweb.net/shared/decks/japanese>
+
+**Language Learning with Netflix**
+
+Home Site: <https://languagelearningwithnetflix.com/>\
+Chrome Plug-in: [Link-https://chrome.google.com/webstore-Netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)\
+Chrome Plug-in: [Link-https://chrome.google.com/webstore-Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb?hl=en)
+
+**Yomichan**
+
+Japanese dictionary with Anki integration\
+Chrome Plug-in: [Link-https://chrome.google.com/webstore-Yomichan](https://chrome.google.com/webstore/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami)
+
+------------------------------------------------------------------------
+
+

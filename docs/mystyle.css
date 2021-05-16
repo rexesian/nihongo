@@ -1,0 +1,23 @@
+.hljs {
+  color: 	#505050;
+  font-size: 13px;
+  font-family: "Anonymous Pro", monospace, "Helvetica Neue";
+}
+.tocify {
+  font-size: 14px;
+ /* font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";*/
+  font-family: "Helvetica Neue", "Roboto";
+}
+
+code, kbd, pre, samp {
+    font-family: "Anonymous Pro", monospace;
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+      font-family: "Roboto";
+}
+
+h1, .h1 {
+      font-size: 23px;
+}
+

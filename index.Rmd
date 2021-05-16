@@ -1,0 +1,36 @@
+---
+title: "🐳"
+output:
+  html_document:
+    theme: sandstone
+    css: "mystyle.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+```{=html}
+<style type="text/css">
+
+body{
+      font-size: 13px;
+      font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";
+  }
+</style>
+```
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+```{css, echo=FALSE}
+@media(prefers-color-scheme: light) {
+  body {
+    background-color: black;
+    filter: invert(1);
+  }
+}
+```
+
+Japanese Language Learning Site
+
+------------------------------------------------------------------------

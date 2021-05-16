@@ -1,0 +1,1292 @@
+---
+title: "🦊"
+output:
+  html_document:
+    theme: sandstone
+    css: "mystyle.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+```{=html}
+<style type="text/css">
+
+body{
+      font-size: 13px;
+      font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";
+  }
+</style>
+```
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+```{css, echo=FALSE}
+@media(prefers-color-scheme: light) {
+  body {
+    background-color: black;
+    filter: invert(1);
+  }
+}
+```
+
+```{r, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(reactable)
+library(htmltools)
+library(bslib)
+library(dplyr)
+library(purrr)
+#library(shiny)
+```
+
+```{r, echo=FALSE, message=FALSE, error=FALSE}
+wnf1 <- read_csv("rdata/Sheet 31-WNF1.csv")
+msh1 <- read_csv("rdata/Sheet 32-MSH1.csv")
+kmx1 <- read_csv("rdata/Sheet 33-KMX1.csv")
+n1k1 <- read_csv("rdata/Sheet 34-N1KNJ1.csv")
+mkk1 <- read_csv("rdata/Sheet 35-MIKI1.csv")
+ths1 <- read_csv("rdata/Sheet 36-THS1.csv")
+wbn1 <- read_csv("rdata/Sheet 37-WBNS1.csv")
+ikn1 <- read_csv("rdata/Sheet 29-SNT1.csv")
+nsw1 <- read_csv("rdata/Sheet 38-NSWS1.csv")
+ncv1 <- read_csv("rdata/Sheet 40-NVCD1.csv")
+trz1 <- read_csv("rdata/Sheet 46-TRTZ2.csv")
+tnk1 <- read_csv("rdata/Sheet 47-TNKO1.csv")
+inv1 <- read_csv("rdata/Sheet 48-INLV1.csv")
+skr1 <- read_csv("rdata/Sheet 50-SKR1.csv")
+kkch <- read_csv("rdata/Sheet 52-KKCYK.csv")
+anm1 <- read_csv("rdata/Sheet 54-ANM1.csv")
+
+```
+
+# Extended-Nihongo {.tabset}
+
+## Jlpt {.tabset}
+
+### N1 {.tabset}
+
+#### Kanji {.tabset}
+
+##### Soumatome
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  n1k1,
+  columns = list(
+      Kanji = colDef(
+      style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Base.Kanji <- n1k1$Base.Kanji[index]
+        Base.Kanji <- if (!is.na(Base.Kanji)) Base.Kanji else "Unknown"
+        Base.Reading <- n1k1$Base.Reading[index]
+        Base.Reading <- if (!is.na(Base.Reading)) Base.Reading else "Unknown"
+        Base.Meaning <- n1k1$Base.Meaning[index]
+        Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Base.Meaning),
+          div(style = list(fontSize = 22, fontWeight = 700), Base.Kanji),
+          div(style = list(fontSize = 11, fontWeight = 200), Base.Reading)
+        )
+      },
+      align = "center"
+    ),
+    Words = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Words') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- n1k1$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- n1k1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 13, fontWeight = 600), Reading),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 300
+      ),
+      Meaning = colDef(show = FALSE),
+      Reading = colDef(show = FALSE),
+      Base.Kanji = colDef(show = FALSE),
+      Base.Reading = colDef(show = FALSE),
+      Base.Meaning= colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Vocabulary {.tabset}
+
+##### Soumatome
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  ncv1,
+  columns = list(
+    Words = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Words') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Phrase <- ncv1$Phrase[index]
+        Phrase <- if (!is.na(Phrase)) Phrase else "Unknown"
+        Meaning <- ncv1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 18, fontWeight = 600), Phrase),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 300
+      ),
+      Meaning = colDef(show = FALSE),
+      Phrase = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### N2 {.tabset}
+
+------------------------------------------------------------------------
+
+## Online {.tabset}
+
+### YT {.tabset}
+
+#### Weather-news
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  wnf1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- wnf1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- wnf1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+
+
+------------------------------------------------------------------------
+
+#### Mesh-class
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  msh1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- msh1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- msh1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+
+------------------------------------------------------------------------
+
+#### Kimono-mom {.tabset}
+
+##### Gyudon
+
+```{r, echo=FALSE, message=FALSE}
+
+kmx1a <- kmx1 %>% slice(1:130)
+
+reactable(
+  kmx1a,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- kmx1a$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- kmx1a$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### Takoyaki
+
+```{r, echo=FALSE, message=FALSE}
+
+kmx1b <- kmx1 %>% slice(131:238)
+
+reactable(
+  kmx1b,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- kmx1b$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- kmx1b$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### Tendon
+
+```{r, echo=FALSE, message=FALSE}
+
+kmx1c <- kmx1 %>% slice(239:346)
+
+reactable(
+  kmx1c,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- kmx1c$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- kmx1c$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+#### Miki-fr-Jp {.tabset}
+
+##### Shiba-Inu
+
+❊ [Mikis-Fr-Japan-Shiba-Inu](https://www.youtube.com/watch?v=PryHavfyikY&t=141s)  
+
+```{r, echo=FALSE, message=FALSE}
+
+mkk1a <- mkk1 %>% slice(1:106)
+
+reactable(
+  mkk1a,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- mkk1a$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation1)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### Asakusa
+
+❊ [Mikis-Fr-Japan-Asakusa](https://www.youtube.com/watch?v=M62DRp2aDjI)
+
+```{r, echo=FALSE, message=FALSE}
+
+mkk1b <- mkk1 %>% slice(107:235)
+
+reactable(
+  mkk1b,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- mkk1b$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- mkk1b$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### Self-Intro
+
+❊ [Mikis-Fr-Japan-Self-Intro](https://www.youtube.com/watch?v=KX2Ug4_MHcE&t=399s)
+
+```{r, echo=FALSE, message=FALSE}
+
+mkk1c <- mkk1 %>% slice(236:307)
+
+reactable(
+  mkk1c,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- mkk1c$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- mkk1c$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+#### Ikechan {.tabset}
+
+##### Onsen
+
+
+```{r, echo=FALSE, message=FALSE}
+
+ikn1a <- ikn1 %>% slice(1:166)
+
+reactable(
+  ikn1a,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translate <- ikn1a$Translate[index]
+        Translate <- if (!is.na(Translate)) Translate else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translate)
+        )
+      },
+      align = "center"
+    ),
+    Translate = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+#### Tori&Izumi {.tabset}
+
+##### Kagoshima
+
+[**Tori&Izumi-Kagoshima**](https://www.youtube.com/watch?v=DUnqj2EVtVc&t=120s)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  trz1 %>% slice(1:66),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- trz1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- trz1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### traditional
+
+[**Tori&Izumi-Traditional**](https://www.youtube.com/watch?v=FypBQjuG8C0&t=99s)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  trz1 %>% slice(67:179),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- trz1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- trz1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+
+------------------------------------------------------------------------
+
+#### Ten Neko {.tabset}
+
+##### Fruits sandwich
+
+[**Ten-Neko-Sandwich**](https://www.youtube.com/watch?v=cyYpZV6QlaU&t=95s)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  tnk1 %>% slice(1:175),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- tnk1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- tnk1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### In Living {.tabset}
+
+##### Night Routine
+
+[**In-Living-Routine**](https://www.youtube.com/watch?v=Cw6fcODniKM)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  inv1 %>% slice(1:40),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- inv1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- inv1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### Morning Routine
+
+[**In-Living-Morning**](https://www.youtube.com/watch?v=IJmmMTzJtBw)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  inv1 %>% slice(41:89),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- inv1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- inv1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+
+------------------------------------------------------------------------
+
+#### Switch {.tabset}
+
+```{r, echo=FALSE, message=FALSE}
+
+nsw1a <- nsw1 %>% slice(1:117)
+
+reactable(
+  nsw1a,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Hiragana <- nsw1a$Hiragana[index]
+        Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+        Meaning <- nsw1a$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13, fontWeight = 400), Hiragana),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Hiragana = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### $akura {.tabset}
+
+##### Apex Legends
+
+[**Miyawake$akura-Apex-Legends**](https://www.youtube.com/watch?v=GXlS1T-BWVM)
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  skr1 %>% slice(1:137),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- skr1$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- skr1$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Kakochin{.tabset}
+
+##### Vlogs
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(kkch),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- kkch$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+## Series {.tabset}
+
+### TH {.tabset}
+
+#### Boys & Girls in the City {.tabset}
+
+##### P1:E1
+
+```{r, echo=FALSE, message=FALSE}
+
+ths1a <- ths1 %>% slice(1:543)
+
+reactable(
+  ths1a,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- ths1a$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### P1:E2
+
+```{r, echo=FALSE, message=FALSE}
+
+ths1b <- ths1 %>% slice(544:1082)
+
+reactable(
+  ths1b,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- ths1b$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### P1:E4
+
+```{r, echo=FALSE, message=FALSE}
+
+ths1d <- ths1 %>% slice(1083:1711)
+
+reactable(
+  ths1d,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- ths1d$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+## Anime {.tabset}
+
+### Teasing Master {.tabset}
+
+#### S2:E9
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  anm1 %>% slice(1:232),
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- anm1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+## Articles {.tabset}
+
+### NW {.tabset}
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  wbn1,
+  columns = list(
+    Article = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- wbn1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 20, fontWeight = 200), value),
+          #div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "left"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Helvetica Neue, Anonymous Pro", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
