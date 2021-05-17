@@ -1,0 +1,75 @@
+Script,Meaning,Expression,Concept
+サッカーを見るのが好きです,I like to watch soccer,⚭ Vdict + no ga suki desu,I like to
+自転車に乗るのが嫌いです,I don’t like riding a bicycle,⚭ Vdict + no ga kirai desu,I don’t like to
+ピアノを弾くのが得意です,I am good at playing piano,⚭ Vdict + no ga tokui desu,I am good at (one’s forte)
+ピアノを弾くのが上手です,I am good at playing piano,⚭ Vdict + no ga jouzu desu,I am good at
+絵を描くのが苦手です,I am not good at drawing a picture,⚭ Vdict + no ga nigate desu,I am not good at
+絵を描くのが下手です,I am bad at drawing a picture,⚭ Vdict + no ga heta desu,I am bad at
+パーティーに行くつもりです,I intend to go to the party,⚭ Vdict + tsumori,I intend to
+寝る前に本を読みます,I read a book before going to sleep,⚭ Vdict + mae ni,Before doing
+荷物を持ちましょうか,Shall I carry your bag,⚭ Vnoun + mashouka,Shall I / Shall we
+新宿に映画を見に行きます,I’ll go to Shinjuku to see a movie,⚭ Vnoun + ni ikimasu,Go to do
+昨日ケーキを食べすぎました,I ate too much cake yesterday,⚭ Vnoun + sugiru,Too much
+ラーメンが食べたいです,I want to eat ramen,⚭ Vnoun + tai,I want to
+ラーメンが食べて欲しいです,I want you to eat ramen,⚭ Vte + hoshii,I want you to
+ゆっくり話してください,Please speak slowly,⚭ Vte + kudasai,Please do
+ひらがなで書いてもらえませんか,Could I have you write it in hiragana,⚭ Vte + moraemasen ka,Could I have you
+渋谷に行ってご飯を食べる,I’ll go to Shibuya and eat some food,⚭ Vte + .. Verb,do and do
+今日早く帰ってもいいですか,May I leave early today,⚭ Vte + mo ii desu ka,May I
+充電器を借りってもいいですか,May I borrow a charger,⚭ Vte + mo ii desu ka,Is it ok to
+今日本語を勉強している,I’m studying Japanese now,⚭ Vte + iru,-ing (continuous action)
+埼玉に住んでいる,I’m living in Saitama,⚭ Vte + iru,-ing (continuous state)
+昨日の夜８時ごろお風呂に入っていた,I was taking a bath about 8pm last night,⚭ Vte + ita,I was -ing (continuous action in the past) 
+10年前パリに住んでいた,I used to live in Paris ten years ago,⚭ Vte + ita,I used to (continuous state in the past)
+まだ昼ごはんを食べていません,I haven’t eaten lunch yet,⚭ mada ~ Vte + imasen,I haven’t yet
+富士山位登ったことがあります,I have climbed Mount Fuji,⚭ Vta + koto ga arimasu,I have been to / have done
+駅まではバス行ったほうがいいですよ,It’s better to go by bus to the station,⚭ Vta + hou ga ii desu,Its better to
+映画を見たり、買い物をしたりします,I do things like watching movies and going shopping,⚭ Vtari + .. Vtari shimasu,"I do things like -ing, -ing"
+お金があったら、世界中旅行します,"If I had the money, I would travel around the world",⚭ Vtara (conditional form),If I Verb (conditional form)
+駅に着いたら、電話して下さい,"When you arrive at the station, please give me a call",⚭ Vtara (conditional form),When you Verb (conditional form)
+時間に遅れないでください,Please don’t be late,⚭ Vnai + de kudasai,Please do not
+今日は早めに帰らなきゃいけません,I have to leave earlier today,⚭ Vnakya + ikemasen,I should / must / have to
+無理しないほうがいいです,It’s better not to work too hard,⚭ Vnai + hou ga ii desu,Better not to
+日本語で書きなくてもいいです,You don’t have to write in Japanese,⚭ Vnakute + mo ii desu,You don’t have to
+いいえ、予約しなくてもいいです,"No, It’s ok to not to make a reservation",⚭ Vnakute + mo ii desu,It’ok not to
+田中さんは会社にいると思います,I think Tanaka-san is in the office,⚭ Vplain-nonpast + to omou / to omoimasu,I think..
+明日は雨が降るかもしれません,It might rain tomorrow,⚭ Vplain-nonpast + kamoshiremasen,It might..
+この曲は人気があるみたいです,This song seems to be popular,⚭ Vplain-nonpast + mitai desu,Seems to be..
+部長はもう帰ったと思います,I think the manager already went home,⚭ Vplain-past + to omou / to omoimasu,I think..
+セールは昨日までだったかもしれません,The sale might have been until yesterday,⚭ Vplain-past + kamoshiremasen,Might have been…
+じょんさんは恣意ごとを辞めたみたいです,John-san seems to have quit his job,⚭ Vplain-past + mitai desu,Seems to have been..
+ギターが弾けます,I can play the guitar,⚭ Vpot,I can (potential form)
+まいにちれんしゅうすれば、およげるようになります,"If you practice everyday, you'll eventually be able to swim",⚭ Vpot + you ni naru,To be able to
+漢字が読めるようになりました,I became able to read kanji,⚭ Vpot + you ni narimashita,I became able to
+ここから富士山が見えます,I can see Mount Fuji from here,⚭ Vpot,Can be seen / heard (potential form - see / hear)
+部長はまだ会議室にいるはずです,The manager should still be in the meeting room,⚭ Vplain + hazu desu,Should Verb (expectation)
+仕事が遺書がしのでレッスンを休みます,I'll miss the lesson because  I’m busy at work,⚭ Vplain + node,Since / Because
+これは沖縄で撮った写真です,This is a photo taken on Okinawa,⚭ Vplain + Noun,Verb Noun
+JLPT　を受けるかどうかわかりません,I don't know If I’ll take the JLPT or not,⚭ Vplain + kadouka wakaranai,I don’t know whether or not to
+近藤さんの送別会に行くかどうかまだ決めていません,I haven’t  decided if I’ll go to Kondo-san’s farewell party,⚭ Vplain + kadouka kimeteinai,I haven’t decided whether or not to
+出かける前に鍵をかけましたかどうか覚えていない,I don't remember  whether or not I locked the door before leaving,⚭ Vplain + kadouka oboeteinai,I don’t remember whether or not
+何時に来るか分からない,I don't know what time she will come,⚭ Vplain + ka wakaranai,I don't know (what / where / who)
+いつ帰るかまだ決めていません,I haven’t decided yet when to go back,⚭ Vplain + ka (mada) kimeteimasen,I haven’t decided to (yet) (QW)
+ここまでどうやって来ましたか覚えていません,I don’t remember how we arrived here,⚭ Vplain + ka oboeteimasen,I don’t remember (QW)
+自分で作ってみます,I’ll try to make it myself,⚭ Vte + miru / mimasu,Try to
+予約しておきます,I'll make the reservation (in advance),⚭ Vte + oku / okimasu,Do in advance
+桜が咲いています,The cherry blossoms are booming,⚭ Vte + iru / imasu,Has been -ing
+財布を落としてしました,"Unfortunately, I dropped my wallet",⚭ Vte + shimaishita / chatta / jatta,Ended up / Unfortunately doing
+タクシーに乗れば、間に合います,You can make if if you take a taxi,⚭ Vconditional,If (conditional form)
+もっと勉強すればよかった,I should have studied harder,⚭ Vconditional + yokatta,I should / must / have to
+どうやって注文すればいいですか,How should I order,⚭ Vconditional + ii desu ka,How / when / what should I 
+私は友達にDVDをあげました,I gave my friend the DVD,⚭ Ageru,I give (give to someone)
+友達が私にお菓子をくれました,My frend gave me  snacks,⚭ Kureru,Gives me (someone gives me )
+友達に映画のチケットをもらいました,I got tickets to the movies from my friend,⚭ Morau,I receive (receive from someone)
+私は友達に英語教えてあげました,I taught my friend English,⚭ Vte + ageru,I do (to someone)
+友達が私に日本語教えてくれました,My friend taught me Japanese,⚭ Vte + kureru,Someone do (to me)
+友達に宿題を手伝ってもらいました,I had my friend help me with my homework,⚭ Vte + morau,I have someone do
+今週は行こうと思っています,I am thinking of going this week,⚭ Vvolitional + to omotteiru,I am thinking of..
+予約しようと思ったら、いっぱいでした,"When I tried to make a reservation, it was fully booked",⚭ Vvolitional + to omottara,When I tried to do..
+外に行きましょうか・外に行こう,Shall (we) go outside,⚭ Vvolitional,Shall / Let’s / I will (volitional form)
+ポリッジが誰かに食べられた,The porridge was eaten by somebody,⚭ Vpassive,Get / done by (passive - reru / rareru)
+先生が学生に宿題をたくさんさせた,Teacher made students do lots of homework,⚭ Vcausative,Let / Made someone (causative - seru / saseru)
+私は田中さんに運転させてあげる,I let Mr. Tanaka to drive,⚭ Vcausative + ageru,I let someone (causative - seru / saseru)
+田中さんは私に運転させてくれる,Mr. Tanaka let me drive,⚭ Vcausative + kureru,Someone let me (causative - seru / saseru)
+私は田中さんに運転させてもらう,I have Mr. Tanaka to let me drive,⚭ Vcausative + morau,I have/had someone let me (causative - seru / saseru)
+朝ご飯は食べたくなかったのに、食べさせられた,"Despite not wanting to eat breakfast, I was made to eat it",⚭ Vcausative-passive,get / got made to (causative-passive - reru / rareru + seru / saseru )

@@ -82,6 +82,8 @@ srvb4 <- read_csv("rdata/Sheet 45-VRB7.csv")
 v1hme <- read_csv("rdata/Sheet 49-VCBT1.csv")
 pct1 <- read_csv("rdata/Sheet 51-PCT1.csv")
 qsn5 <- read_csv("rdata/Sheet 53-QSNT1.csv")
+vrbexp1 <- read_csv("rdata/Sheet 55-VRBXP1.csv")
+vnnexp1 <- read_csv("rdata/Sheet 56-NNXP1.csv")
 
 ```
 
@@ -4950,7 +4952,7 @@ General concept of de particle is setting a limit or a boundary
 
 <u>**Pre-Verbal Form**</u> `Modifying a verb`
 
-###### **Noun/Verb + Compound Particle + ... + Verb**
+###### **Noun/Verb + Compound Particle + .. + Verb**
 
     ・人は年を取るにつれて記憶力が衰える  
     ・店員さんはお客様に対して丁寧な言葉を使います
@@ -5188,23 +5190,7 @@ General concept of de particle is setting a limit or a boundary
 
 ------------------------------------------------------------------------
 
-### Noun Expression
-
-------------------------------------------------------------------------
-
-### Na-Adj Expression
-
-------------------------------------------------------------------------
-
-### I-Adj Expression
-
-------------------------------------------------------------------------
-
-### Verb Expression
-
-------------------------------------------------------------------------
-
-### Situational Expression  {.tabset}
+### Situational  {.tabset}
 
 #### Request
 
@@ -5290,6 +5276,146 @@ General concept of de particle is setting a limit or a boundary
     ・Please have a seat
     ・Please write in kanji
     ・Eat
+
+------------------------------------------------------------------------
+
+### Noun Expression
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(vnnexp1),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vnnexp1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vnnexp1$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vnnexp1$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div("."),
+          
+          div(style = list(fontSize = 17, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Na-Adj Expression
+
+------------------------------------------------------------------------
+
+### I-Adj Expression
+
+------------------------------------------------------------------------
+
+### Verb Expression
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  vrbexp1,
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbexp1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbexp1$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbexp1$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div("."),
+          
+          div(style = list(fontSize = 17, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -6087,7 +6213,7 @@ reactable(
         Translation <- db$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -6139,7 +6265,7 @@ reactable(
         Meaning <- pct1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 35, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
