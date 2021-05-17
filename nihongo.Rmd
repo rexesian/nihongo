@@ -5204,6 +5204,95 @@ General concept of de particle is setting a limit or a boundary
 
 ------------------------------------------------------------------------
 
+### Situational Expression  {.tabset}
+
+#### Request
+
+**①　morau** `get・have`
+
+###### to receive, to take
+
+###### **⚭　Vte + itadakitai n desuga**
+
+###### **⚭　Vte + itadakemasen **
+
+###### **⚭　Vte + itadakemasu ka **
+
+###### **⚭　Vte + moraitai n desuga **
+
+###### **⚭　Vte + moraemasen ka **
+
+###### **⚭　Vte + moraemasu ka **
+
+###### **⚭　Vte + moraenai **
+
+###### **⚭　Vte + moraeru **
+
+    ・写真を撮ってもらえませんか
+    ・ぺんを貸してもらえますか  
+
+<!-- <h> -->
+      
+    ・Could you take a picture for me?
+    ・Can I borrow your pen?
+
+**②　kureru** `give (me)`
+
+###### to give, to let (one) have
+
+###### **⚭　Vte + kudaimasenka **
+
+###### **⚭　Vte + kuremasen ka **
+
+###### **⚭　Vte + kuremasu ka **
+
+###### **⚭　Vte + kurenai **
+
+###### **⚭　Vte + kureru **
+
+###### **⚭　Vte + kure **
+
+    ・日本語を教えてくれませんか
+    ・Can you please teach me Japanese?
+
+**③　onegai** `please`
+
+###### request, favour (to ask), wish
+
+###### **⚭　O + Vnoun-base + negaishimasu **
+
+###### **⚭　O + Vnoun-base + negaimasu **
+
+    ・これをお持ち願いします
+    ・お立ち願います    
+
+<!-- <h> -->
+  
+    ・Please take this
+    ・Please stand up
+    
+**④　kudasai** `please`
+
+###### please (give me, do for me)
+
+###### **⚭　O + Vnoun-base + kudasai **
+
+###### **⚭　Vte + kudasai **
+
+###### **⚭　Vte **
+
+    ・お座りください
+    ・漢字で書いてください  
+    ・食べて   
+
+<!-- <h> -->
+  
+    ・Please have a seat
+    ・Please write in kanji
+    ・Eat
+
+------------------------------------------------------------------------
+
 ## Special Topics {.tabset}
 
 ### あいだ
@@ -6574,6 +6663,100 @@ reactable(
       # Show species under character names
       cell = function(value, index) {
         Transcript <- v1hme9$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Places
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hme10 <- v1hme %>% select(Places) %>%
+  separate(Places, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme10  <- v1hme10 [sample(1:nrow(na.omit(v1hme10 ))),]
+
+reactable(
+  v1hme10 ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme10$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Transportation
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hme11 <- v1hme %>% select(Transportation) %>%
+  separate(Transportation, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme11  <- v1hme11 [sample(1:nrow(na.omit(v1hme11 ))),]
+
+reactable(
+  na.omit(v1hme11) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme11$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
           div(style = list(fontSize = 35, fontWeight = 700), value),
