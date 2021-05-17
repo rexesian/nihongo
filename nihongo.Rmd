@@ -2724,7 +2724,7 @@ reactable(
 #### Nominalizer
 
 **Nominalization** is the process of turning words/phrases into nouns/noun phrases that aren't nouns.\
-The two nominalizer are **no** and **koto**.
+The two nominalizers are **no** and **koto**.
 
 **①　no**`to~・~ing・that`
 
@@ -2804,6 +2804,7 @@ The two nominalizer are **no** and **koto**.
     ・運転するのは簡単です
     ・野球をするのは楽しいです
     ・漢字を覚えるのは面白くない
+    ・こうやって振り返るのって面白いよね
     
 <!-- <h>   -->
 
@@ -2811,6 +2812,7 @@ The two nominalizer are **no** and **koto**.
     ・Driving is easy
     ・Playing baseball is fun
     ・Memorizing Kanji is not interesting
+    ・Looking back like this is interesting
 
 `Using perception verbs`
 
@@ -2876,7 +2878,6 @@ The two nominalizer are **no** and **koto**.
     ・It’s important to practice everyday
     ・Studying Kanji is necessary
     ・Is that really possible?
-    
 
 `Following a grammatical pattern`・`A notable experience`  
 
@@ -2884,7 +2885,7 @@ The two nominalizer are **no** and **koto**.
 
     ・日本に行ったことがあります
     ・寿司を食べたことがあります
-    ・何度か日本食を食べたことがります
+    ・何度か日本食を食べたことがあります
 
 <!-- <h>   -->
     

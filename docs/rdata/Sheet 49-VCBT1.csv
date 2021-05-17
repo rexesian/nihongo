@@ -47,7 +47,7 @@ Time,Food,Home,Daily,Weather,Kitchen,Cooking,Supermarket,Health
 "朝# morning","ハンバーグ# hamburger",,"休む# to rest","予報# forecast",,"生卵# raw egg",,"気持ち胃が悪い# feel sick"
 "昼# day, midday","ハンバーガー# hamburger",,"疲れたら、休んでください# If you get tired, Please take a rest","梅雨# rainy season",,"ゆで卵# boiled egg",,"目がかゆい# have an itchy eye"
 "晩# evening","ステーキ# steak",,"片付ける# to clean up","朝起きたら雪が積もってて、びっくりした# when I wake up this morning, I was shocked to see all the snow piled up",,"月桂樹の葉# laurel leaves",,"目をこする# rub one’s eye"
-"夜# night","ポテト# potato",,"使ったらちゃんと片付けておいてください# Please clean it up properly after done using it","時刻は5時6分を回っております# the time has turned to 5:06",,"だし# dashi (Japanese soup stock made from fish and kelp) ",,"目をかく# rub one’s eye"
+"夜# night","ポテト# potato",,"使ったらちゃんと片付けておいてください# Please clean it up properly after done using it","時刻は5時6分を回っております# the time has turned to 5:06",,"だし# dashi (Japanese soup stock made from fish and kelp) ",whet,"目をかく# rub one’s eye"
 "夕方# evening","お菓子# snacks, sweets",,"後片付け# tidying up","ここからはお天気情報をお知らせいたします# from here, we will let you know the weather forecast",,"かつお節# bonito flakes",,"風邪を引いてつらい# feel terrible of colds"
 "今朝# this morning","甘いもの# sweet foods",,"帰る# to go home","現在、島原半島三市には、注意報は発表されておりません# There are no warnings issued for the three cities of Shimabara Peninsula at this time",,"煮干し# dried sardines",,"アレルギーがある# have an allergy"
 "今晩# this evening","アイスクリーム# ice cream",,"そろそろ帰りましょう# Let’s go home soon","警報# alarm, warning ",,"秤# weighing scale",,"頭ががんがんする# have a pounding headache"
@@ -86,7 +86,7 @@ Time,Food,Home,Daily,Weather,Kitchen,Cooking,Supermarket,Health
 "先々週# the week before last","朝食# breakfast",,"私はちょっと風邪を引いているので家でする板ですが# I staying at home because I have a slight cold",,,"鍋で野菜を煮る# cook the vegetables in a pot",,"具合が悪い# feel bad"
 "先日# the other day","夕食# dinner",,"起床する# to get up",,,"鍋で肉を焼く# roast the meat in a pan",,"顔色がいい# good complexion"
 "当日# that day, day of (something)","食卓# dining table",,"研修中は6時起床です# I’ve been getting up at 6 during my training",,,"鍋に油を入れて熱し# Heat the oil in a pan",,"顔色が悪い# bad complexion"
-"翌日# the following day","こんな高級なお肉がうちの食卓に上がるのは、年に1回くらいです# such top grade meat only makes it our dining table about once a year",,"就寝する# to go to bed",,,"牛肉と玉ねぎを入れて炒める# あdd beef and onions and stir-fry",,"病気が治る# be cured of a disease"
+"翌日# the following day","こんな高級なお肉がうちの食卓に上がるのは、年に1回くらいです# such top grade meat only makes it our dining table about once a year",,"就寝する# to go to bed",,,"牛肉と玉ねぎを入れて炒める# add beef and onions and stir-fry",,"病気が治る# be cured of a disease"
 "近いうちに# soon, in the near future","ごうちそうする# to treat",,"病院では就寝時間が決まっています# Bedtime at the hospital is fixed",,,"牛肉の色変わったら、ジャガイモを加えて炒める# when the beef has changed colour, add the potatoes and fry",,"病気を治す# cure a disease"
 "後日# later, in the future","先輩にお昼をごうちそうしてもらった# my senior treated me to lunch",,"寝坊する# to　oversleep",,,"2の鍋に水と調味料を全部入れ# put all the water and seasonings in 2 pots",,"風邪が治る# get over a cold"
 "今後# hereafter, in the future","昨日のパーティーはすごいごちそうだったね# yesterday’s party was real feast, wasn’t it?",,"明日、寝坊したら起こしてね# Wake me up if I oversleep tomorrow",,,"ジャガイモが柔らかくなるまで煮る# cook until the potatoes are soft",,"風邪を治す# cure a cold"
@@ -150,39 +150,57 @@ Time,Food,Home,Daily,Weather,Kitchen,Cooking,Supermarket,Health
 ,,,,,,"そうしたら、紙の上に取り出します# then take it out onto a piece of paper",,"内科# internal medicine"
 ,,,,,,"味は付けてありませんから# since it is not seasoned",,"外科# surgery (department)"
 ,,,,,,"食べる時は作っておいたつゆにつけて食べてください# when you eat it, dip it in the sauce you have made",,"内服薬# medicine taken internally"
-,,,,,,,,"痛い# painful, sore, hurts"
-,,,,,,,,"動かす# to move, mobilize (something)"
-,,,,,,,,"動く# (something) moves"
-,,,,,,,,"切る# to cut"
-,,,,,,,,"凝る# to have stiffness"
-,,,,,,,,"吸う# to inhale, to smoke"
-,,,,,,,,"出す# to take, prescribe, submit"
-,,,,,,,,"詰まる# to clog"
-,,,,,,,,"計る# to measure"
-,,,,,,,,"休む# to rest, to be absent"
-,,,,,,,,"付ける# to attach, apply"
-,,,,,,,,"出る# to come out"
-,,,,,,,,"疲れる# get tired"
-,,,,,,,,"止める# to stop (something)"
-,,,,,,,,"忘れる# to forget"
-,,,,,,,,"上げる# to raise"
-,,,,,,,,"下げる# to lower"
-,,,,,,,,"ここはどうですか# how does it feel here"
-,,,,,,,,"おきく口を開けて下さい# open your mouth wide"
-,,,,,,,,"上だけ脱いで下さい# take off your top"
-,,,,,,,,"後ろをむいて下さい# turn around"
-,,,,,,,,"仰向けになって下さい# lie on your back"
-,,,,,,,,"うつ伏せになって下さい# lie face down"
-,,,,,,,,"大きく息を吸って下さい# take a deep breath"
-,,,,,,,,"夜遅くまで起きている# stay up late at night"
-,,,,,,,,"無理をする# to overstrain"
-,,,,,,,,"色々なことを忘れる# forget various things"
-,,,,,,,,"健康に気をつける# take care of yourself"
-,,,,,,,,"対策# countermeasure"
-,,,,,,,,"緊急# urgency, emergency"
-,,,,,,,,"急増# rapid increase"
-,,,,,,,,"次々# in succession, one by one"
-,,,,,,,,"超# super-, hyper-, extreme​"
-,,,,,,,,"最多# most (numerous)"
-,,,,,,,,"激辛# extremely hot (spicy)​"
-,,,,,,,,"体育祭# athletic festival, sports day"
+,,,,,,"もも肉が美味しいよね# The thighs are delicious",,"痛い# painful, sore, hurts"
+,,,,,,"鶏肉# chicken",,"動かす# to move, mobilize (something)"
+,,,,,,"たまご# egg",,"動く# (something) moves"
+,,,,,,"片栗粉# potato starch",,"切る# to cut"
+,,,,,,"小麦粉# wheat flour",,"凝る# to have stiffness"
+,,,,,,"小麦# wheat",,"吸う# to inhale, to smoke"
+,,,,,,"料理酒# cooking sake ",,"出す# to take, prescribe, submit"
+,,,,,,"醤油# soy sauce",,"詰まる# to clog"
+,,,,,,"ごま油#　 sesame oil",,"計る# to measure"
+,,,,,,"しょうがチューブ# ginger in tube",,"休む# to rest, to be absent"
+,,,,,,"にんにくチュ ーブ# garlic in tube",,"付ける# to attach, apply"
+,,,,,,"以上が本日唐揚げに使っていく材料となります# these are the ingredients we will be using for the fried chicken today",,"出る# to come out"
+,,,,,,"そして今日はもう１品おつまみ作ります# and I'll make one more snack today",,"疲れる# get tired"
+,,,,,,"きゅうり# cucumber",,"止める# to stop (something)"
+,,,,,,"一味唐辛子# cayenne pepper powder ",,"忘れる# to forget"
+,,,,,,"白だし# seasoning (white soup stock)",,"上げる# to raise"
+,,,,,,"塩昆布# thin strips of kombu cooked in soy sauce, etc. then dried",,"下げる# to lower"
+,,,,,,"まずきゅうりから# Start with the cucumbers",,"ここはどうですか# how does it feel here"
+,,,,,,"初めに袋を用意します# first, prepare the bag",,"おきく口を開けて下さい# open your mouth wide"
+,,,,,,"きゅうりを下処理します# prep the cucumber, put down the cucumber and process/deal with it",,"上だけ脱いで下さい# take off your top"
+,,,,,,"袋中に入れて白だし、ごま油、にんにく、一味唐辛子、塩昆布# put in a bag and add white soup stock, sesame oil, garlic, chili pepper, and salted kelp",,"後ろをむいて下さい# turn around"
+,,,,,,"きゅうりと調味料たちを適量ずつ袋に入れる# Put the cucumbers and the seasonings in right amount in the bag",,"仰向けになって下さい# lie on your back"
+,,,,,,"本当は棒があったらいいんですけど# I really wish I had a stick",,"うつ伏せになって下さい# lie face down"
+,,,,,,"ごま油の瓶でたたききゅうりにする# use the sesame oil bottle to hit the cucumber",,"大きく息を吸って下さい# take a deep breath"
+,,,,,,"叩き# finely chopped fish or meat, mince, hitting, beating",,"夜遅くまで起きている# stay up late at night"
+,,,,,,"しばらく冷蔵庫に入れておきます# I'll leave it in the fridge for a while",,"無理をする# to overstrain"
+,,,,,,"そしたら次は唐揚げを漬けていきます# spicy",,"色々なことを忘れる# forget various things"
+,,,,,,"漬ける# to soak (in), to steep, to dip, to pickle, to preserve",,"健康に気をつける# take care of yourself"
+,,,,,,"鶏肉を一口サイズに切ります# cut the chicken into bite-sized pieces",,"対策# countermeasure"
+,,,,,,"材料をぶち込みます# throw in the ingredients",,"緊急# urgency, emergency"
+,,,,,,"ぶち込む# to throw, to toss, to cast, to hit, to strike, to smash",,"急増# rapid increase"
+,,,,,,"よく揉んでおく# squeeze well",,"次々# in succession, one by one"
+,,,,,,"揉む# to rub, to crumple, to massage",,"超# super-, hyper-, extreme​"
+,,,,,,"これを30分漬けておきます# spicy",,"最多# most (numerous)"
+,,,,,,"じゃあ、また30分後に会いましょう# okay, I'll see you in half an hour",,"激辛# extremely hot (spicy)​"
+,,,,,,"30分経ったので# it's been half an hour",,"体育祭# athletic festival, sports day"
+,,,,,,"さっきのお肉に卵を入れる# put the egg in the meat",,
+,,,,,,"めっちゃいい匂いする# it smells so good",,
+,,,,,,"卵を入れたらまた揉みます# After putting the egg, knead/rub it again",,
+,,,,,,"練る# to knead, to thicken into a paste",,
+,,,,,,"それではいよいよ、粉をかけて# Now it's time to sprinkle the powder",,
+,,,,,,"いよいよ# more and more, at last, finally",,
+,,,,,,"揚げていきたいと思います# I'd like to fry it",,
+,,,,,,"片栗粉と小麦粉を同じぐらいずつで混ぜる# mix the potato starch and flour in equal parts",,
+,,,,,,"肉を入れて粉をまぶします# Add the meat and dust with flour",,
+,,,,,,"塗す# to cover (smear, sprinkle) (with) ",,
+,,,,,,"衣をつけるところまで完成しました# until to the point of putting the coating, it’s done",,
+,,,,,,"フライパンに油入れます# add oil to the frying pan",,
+,,,,,,"箸がチョルチョルチョル〜ってなるぐらい# around the chopsticks sizzles",,
+,,,,,,"揚げていきますよ、いよいよ# I'm going to fry it up, here we go",,
+,,,,,,"揚げたら一回出す# I'll serve it once it's fried",,
+,,,,,,"「唐揚げは2度揚げするのよ」って言ってたから# He said, ”You have to fry them twice”",,
+,,,,,,"言われたことは忠実に守る# I'll do exactly as I'm told",,
+,,,,,,"この間に余熱で火が通って# during this time, the residual heat will cook it",,
