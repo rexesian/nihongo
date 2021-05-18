@@ -1,19 +1,22 @@
 Script,Meaning,Expression,Concept
 うえの棚には辞書ばかり置いてあります,There are only dictionaries on the top shelf,⚭ Noun + bakari,only
 りんごだけを買いました,I only bought apples,⚭ Noun + dake,only
-,,⚭ Noun + bakari de naku,not only
-,,⚭ Noun + dake de naku,not only
-,,⚭ Noun + demo,even
-,,⚭ Noun + hodo,as much as
-,,⚭ Noun + jou,from the standpoint of
-,,⚭ Noun + kusai,smell of
-,,⚭ Noun + mitai,"look like, appear to be, (noun)-like"
-,,⚭ Noun + rashii,"look like, appear to be"
-,,⚭ Noun + nashi (de),"must, have to (obligation)"
-,,⚭ Noun + nante,such (things) as
-,,⚭ Noun + ni kansuru / kanshite,"as far as, related to, concerning, about"
-,,⚭ Noun + ni taisuru / taishite,"towards, against, regarding, in contrast with"
-,,⚭ Noun + ni tsuite,"concerning, regarding, about"
+花ばかりでなく花瓶も売っています,"Not only do they sell flowers, but vases as well!",⚭ Noun + bakari de naku,not only
+洋服だけでなく靴も必要ですう,"I need not only clothes, but shoes as well",⚭ Noun + dake de naku,not only
+社長さんでも行きました,Even the company president went,⚭ Noun + demo,even
+なおこほど上手ではありません,"As much as Naoko, I'm not as good he is",⚭ Noun + hodo,as much as
+コーラを三本ほど飲みました,I drank about three Cokes,⚭ Noun + hodo,"about, approximately"
+歴史上の重要さを考えておきましょう,Let’s consider its historical importance (from standpoint of history),⚭ Noun + jou,from the standpoint of
+台所は魚くさいです,The kitchen smells of fish,⚭ Noun + kusai,smell of
+お医者さんは外人みたいです,The doctor looks like a foreigner,⚭ Noun + mitai,"look like, appear to be, (noun)-like"
+鈴木さんの主人はとてもおとこらしい人です,Mrs. Suzuki’s husband is a very manly person,⚭ Noun + rashii,"look like, appear to be"
+セーターなしで出かけてしまいました,I went out without a sweater,⚭ Noun + nashi (de),"must, have to (obligation)"
+コンピューターなんてわからないのです,I don’t understand such things as computers,⚭ Noun + nante,such (things) as
+その問題に関する正確な資料が得られない,No accurate information in relation to the problem can be obtained,⚭ Noun + ni kansuru / kanshite,"as far as, related to, concerning, about"
+鈴木さんは日本の歴史に関して話しました,Suzuki spoke about Japanese history,⚭ Noun + ni kansuru / kanshite,"as far as, related to, concerning, about"
+経済に対する報告書はまだ読んでいません,I have not yet read the report concerning economics,⚭ Noun + ni taisuru / taishite,"towards, against, regarding, in contrast with, about"
+私は日本の政治制度について研究しています,I am doing a researching regarding Japanese political system,⚭ Noun + ni taisuru / taishite,"towards, against, regarding, in contrast with, about"
+試験の結果について、先生に聞いてください,Please ask the teacher about the results of the exam,⚭ Noun + ni tsuite,about
 ,,⚭ Noun + ni ki ga tsuku,"notice, take notice of"
 ,,⚭ Noun + ni ki wo tsukeru,"pay attention to, be careful of, watch (out for)"
 ,,⚭ Noun + ni okeru,"in, at, on (a specific area)"

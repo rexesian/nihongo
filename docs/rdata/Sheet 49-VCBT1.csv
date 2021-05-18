@@ -21,66 +21,66 @@ Time,Food,Home,Daily,Weather,Kitchen,Cooking,Supermarket,Health,Places,Transport
 "今、5時10分前です# it’s 10 minutes to 5 now","牛肉# beef","家具# furniture","ちょっと待って。まだ着替えてない# Just a minute, I haven’t changed yet","曇ってきたね。雨が降るかもしれない# It turned cloudy. Maybe it’ll rain","残り物を温める# warm up left over food","砂糖# sugar","ポイントカードはお持ちですか# do you have a point card","ひざ# knee","カフェ# cafe","駅# station"
 "9時15分￥過ぎに家を出ました# I left house at a quarter past 9","魚# fish","机# desk","化粧# makeup, cosmetics","雲# clouds","ビールを冷やす# chill the beer","塩# salt","はい、持っています# yes, I have","つま先# toes","ファーストフード店# fast food outlet","最寄りの駅どこですか# where is the nearest station?"
 "半# half","卵# egg","椅子# chair","私は朝と夜に、歯を磨いています# I brush my teeth in the morning and at night","暑い# hot weather","ビールが冷えている# the beer is chilled","ソース# sauce","ポイとカードをお作りしましょうか# would you like to make a point card","かかと# heel","スーパー# supermarket","乗る# to ride, to board"
-"午前# morning","ハム# ham","これをあそこの棚に置いてください# Please put this on the shelf over there","いつも8時ごろに家で出ます# I usually leave the house at around 8:00 o’clock","寒い# cold weather",,"ケチャップ# ketchup","はい、お願いします# yes, please","曲げる# bend","コンビニ# convenience store",
-"午前中# in the morning","ソーセージ# sausage","本棚# bookshelf","出かける時は、窓を閉めます# I close the windows when I go out","暖かい# warm",,"辛子# mustard","いいえ、けっこです# no, thank you","回す# to turn, rotate","~屋# shop",
-"正午# noon","チーズ# cheese","あそこの丸いテーブルを使います# I'll use the round table over there","鍵# lock","涼しい# cool (weather)",,"マヨネーズ# mayonnaise","ポイントを利用になりますか# would you like to use you points?","伸ばす# to stretch","パン屋# bakery",
-"午後# afternoon","とうふ# tofu","ソファ# sofa","鍵をかける# to lock","蒸し暑い# humid",,"サラダ油# salad oil","レジ袋はご利用ですか# do you need a plastic bag","上げる# to raise","本屋# bookstore",
-"今日# today","ご飯# cooked rice","ベッド# bed","鍵、かけてきた# Did you lock up?","風# wind",,"バター# butter","レジ袋は有料ですが、よろしでしょうか# there is a charge for plastic bag, Is that ok?","下げる# to lower","薬屋# drug store, pharmacy",
-"明日# tomorrow","ライス# rice","家電# appliance","ごみ# trash","吹く# to blow",,"溶かしバター# melted butter","別々の袋にお入れしましょうか# would you like me to put in separate bags","よく眠る# sleep well","花屋# flourist",
-"明後日# the day after tomorrow","みそ汁# miso soup",,"ごみを出す# take out the trash","台風# typhoon",,"無塩バター# unsalted butter","袋はお分けしましょうか# In separate bags?","ゆっくり休む# rest well","電気店# electric goos store",
-"昨日# yesterday","うどん# udon, wheat noodles",,"出かける時にゴミを出してくれない# Could you take out the trash when you leave?","照る# to shine",,"有塩バター# salted butter","お箸はおつけいたしますか# would you like some chopsticks?","昼寝する# to take a nap, siesta","不動産屋# real estate agent",
-"一昨日# the day before yesterday","そば# soba, buckwheat noodles",,"掃除# cleaning","日差し# sunlight",,"マーガリン# margarine","お箸は何膳おつけしますか# how many chopsticks do you need?","食事する# to have a meal","店# shop, store",
-"今週# this week","ラーメン# ramen",,"お客さん来るから、部屋を掃除しないと# We have guests coming so he have to clean the room","にわか雨# showers",,"のり# seaweed","いち膳、お願いします# one (chopstick) please","おやつ# snack","商店街# shopping district, shopping street, downtown",
-"来週# next week","パン# bread",,"掃除機# vacuum cleaner","嵐# storm",,"味噌# miso","いっぽん、お願いします# one (chopstick) please","バランス# balance","病院# hosspital",
-"再来週# the week after next","サラダ# salad",,"洗濯# laundry","日が照っているうちに洗濯物を干そう# Let’s put the laundry out to dry while the sum’s shining",,"材料# ingredients","お支払い方法はどのようにされますか# how would you like to pay?","栄養# nutrition","歯医者# dentist",
-"先週# last week","スープ# soup",,"洗濯機# washing machine","今日は日差しが強なあ。日焼け止めを持ってくればよかった# The suns is really strong today, I should have brought some sunblock along",,"粉# flour","クレジットカードで払います# i’ll pay by credit ","転ぶ# fall down, fall over",,
-"今月# this month","カレー# curry",,"クリーニング# dry cleaner’s","曇っているけど、雨は降らないそうです# It’s cloudy but it’s not going to rain apparently",,"薄力粉# rice flour","現金で払います# i’ll pay by cash","めまいがする# feel dizzy",,
-"来月# next month","牛丼# rice bowl topped with beef",,"これもクリーニングに出したほうがいいね# We should get this dry cleaned too","にわか雨だたらすぐ止むよ# It juts just a shower, it’ll stop soon",,"強力粉# bread flour","お会計 1,200円でございます# that will be 1,200 yen","頭痛がする# have a headache",,
-"再来月# the　month after next","寿司# sushi",,"料理# cooking","もうすぐ嵐になるんじゃない# A storm is coming soon right?",,"中力粉# all purpose flour","1,200円になります# that will be 1,200 yen","胃がいたい# have a stomachache",,
-"先月# last month","おにぎり# rice ball",,"留守# being away","積む# to pile up, to stack, to load, to pack",,"コンスターチ# constarch","2,000円お預かりします# you have deposit 2,000 yen","腰が痛い# have a back pain",,
-"今年# this year","さしみ# sashimi, raw fish",,"おばさんに電話したけど、留守だった# I called my aunt but i got the answering machine","積もる# to pile up, to accumulate, to estimate ",,"片栗粉# potato starch","800円のお返しです# here’s 800 yen change","息が苦しい# feel suffocated",,
-"来年# next year","天ぷら# tempura",,"留守番# house-sitting","天候# weather",,"ベーキングパウダー# baking powder","お釣りは800円です# the change is 800 yen","苦しむ# be in pain",,
-"再来年# the year after next","すきやき# sukiyaki",,"留守番電話# answering machine","気候# climate",,"イースト# yeast","暗証番号を入力してください# please enter your pin","鼻がつまる# be stuffed up",,
-"去年# last year","スパゲティ# spaghetti",,"留守番電話にメッセージ残してください# Please leave message on my answering machine","気温# temperature",,"卵# egg","こちらにサイんをお願いします# Please sign here","鼻をかむ# blow one’s nose",,
-"昨年# last year","ピザ# pizza",,"働く# to work","湿度# level of humidity",,"卵白# egg white","ありがとうございました# thank you","吐き気がする# feel sick",,
-"一昨年# the year before last","サンドイッチ# sandwich",,"一日何時間くらい働いているんですか# How many hours do you work a day?","蒸し暑い# humid",,"卵黄# egg yolk ","またおこしくださいませ# please come back again","吐く# vomit",,
-"朝# morning","ハンバーグ# hamburger",,"休む# to rest","予報# forecast",,"生卵# raw egg",,"気持ち胃が悪い# feel sick",,
-"昼# day, midday","ハンバーガー# hamburger",,"疲れたら、休んでください# If you get tired, Please take a rest","梅雨# rainy season",,"ゆで卵# boiled egg",,"目がかゆい# have an itchy eye",,
-"晩# evening","ステーキ# steak",,"片付ける# to clean up","朝起きたら雪が積もってて、びっくりした# when I wake up this morning, I was shocked to see all the snow piled up",,"月桂樹の葉# laurel leaves",,"目をこする# rub one’s eye",,
-"夜# night","ポテト# potato",,"使ったらちゃんと片付けておいてください# Please clean it up properly after done using it","時刻は5時6分を回っております# the time has turned to 5:06",,"だし# dashi (Japanese soup stock made from fish and kelp) ",,"目をかく# rub one’s eye",,
-"夕方# evening","お菓子# snacks, sweets",,"後片付け# tidying up","ここからはお天気情報をお知らせいたします# from here, we will let you know the weather forecast",,"かつお節# bonito flakes",,"風邪を引いてつらい# feel terrible of colds",,
-"今朝# this morning","甘いもの# sweet foods",,"帰る# to go home","現在、島原半島三市には、注意報は発表されておりません# There are no warnings issued for the three cities of Shimabara Peninsula at this time",,"煮干し# dried sardines",,"アレルギーがある# have an allergy",,
-"今晩# this evening","アイスクリーム# ice cream",,"そろそろ帰りましょう# Let’s go home soon","警報# alarm, warning ",,"秤# weighing scale",,"頭ががんがんする# have a pounding headache",,
-"今夜# tonight","ケーキ# cake",,"買い物# shopping","続きまして島原地方今日これからのお天気は曇り# the weather in Shimabara area will be cloudy from now on",,"計量カップ# measuring cup",,"きりきりする# have a sharp pain",,
-"春# spring","チーズケーキ# cheesecake",,"風呂# bath","現在の気温は23度、北の風、風速秒4メートルです# the current temperature is 23 degrees celsius with a north wind of 4 meters per hour",,"計量スプーン# measuring spoon",,"下痢する# have a diarrhea",,
-"夏# summer","チョコレート# chocolate",,"お風呂に入る# to take a bath","続きまして明日、7月18日土曜日から24日金曜日までの週間お天気です# Continuing on, the week’s weather from tomorrow, Saturday July 18th until Friday the 24th",,"小匙# tea spoon",,"すぎすぎする# have a throbbing pain",,
-"秋# fall","クッキー# cookie",,"電気# lights","明日は晴れ時々曇り# Tomorrow will be sunny and sometimes cloudy",,"中匙# meddle size the spoon",,"吐き気がする# feel nausea",,
-"冬# winter","ドーナツ# donut",,"電気をつける# to turn on the lights","予想最高気温29度# expected maximum temperature is 29 degrees celsius",,"大匙# table spoon",,"鼻水が出る# have a runny nose",,
-"季節# season","ガム# gum",,"電気を消す# to turn off the lights","最低気温21度# minimum temperature is 21 degrees celsius",,"カップ１杯# a cup of",,"腫れる# swell",,
-"毎# every","あめ# candy",,"寝る# to sleep","降水確率10%# 10% chance of precipitation",,"半カップ# a half cup of",,"ひりひりする# stinging pain",,
-"毎朝# every morning","おつまみ# tidbits, snacks",,"昨日はよく寝られましたか# Did you sleep well last night?","明日は日差しが届いて# tomorrow the sunlight will return and..",,"粉をふるう# sift the flour",,"震える# to tremble",,
-"毎週# every week","飲み物# drinks",,"パジャマ# pajama","夏を感じる暑さになりそうです# it's going to be hot, like summer!",,"バターを塗る# spread the butter",,"骨を折る# break a bone",,
-"毎月# every month","ホット# hot",,"生活# life","猛暑日になる可能性もあります# there is the possibility that it will become an extremely hot day",,"バターを溶かす# melt the butter",,"めまいがする# fell dizzy",,
-"毎年# every year","アイス# iced",,"今の生活には慣れました# I’ve gotten to used to my life now","こまめに水分を摂って# drink plenty of water",,"卵を泡立てる# wisk the eggs",,"新型# new strain",,
-"毎日# every day","コーヒー# coffee",,"通う# to go regularly, to attend","熱中症対策を心がけてください# Please take precautions against heat stroke",,"クリームを泡立てる# whip the cream",,"重症# serious illness",,
-"毎晩# every night","アイスコーヒー# iced coffee",,"父は、週に１回、病院に通っています# My father goes to the doctor once a week","供給# supply, provision",,"よく混ぜる# mix well",,"医療# medical care",,
-"日本にきたのは何年ですか# What year did you come to japan","紅茶# black tea ",,"帰宅する# going home","水分補給しようね# supply yourself with water",,"軽く混ぜる# mix lightly",,"けがする# be injured",,
-"その日はだめです# I can’t make it on that day","アイスティー # iced tea",,"暮らす# to live","補給# supply, supplying, replenishment​",,"ざっくり混ぜる# mix roughly",,"血が出る# blood comes out",,
-"月に一度、集まりました# We get together once a month","牛乳# milk",,"子供の時からずっとここで暮らしています# I’ve lived here ever since when I was a child",,,"ゆっくり混ぜる# mix slowly",,"骨を折る# broken bone",,
-"今日は何日ですか# What’s the date today?","ミルク# milk",,"暮らし# living",,,"手で混ぜる# mix by hands",,"やけどする# get burned",,
-"日にちは決まりましたか# Has the date been decided?","コーラ# cola",,"田舎暮らし# country living",,,"野菜を洗う# wash the veggies",,"マスクをする# wear a mask",,
-"お休みは何曜日ですか# Which days you get off?","ジュース# juice",,"一人暮らし# living alone",,,"タマネギをむ# peen an onion",,"目薬# eyedrops",,
-"どの週がいいですか# Which week is good for you?","水# water",,"下宿する# boarding",,,"材料を刻む# chop the ingredients",,"氷で冷やす# cool by ice",,
-"週末はいつも何をしていますか# What do you usually do during the weekends?","お湯# hot water",,"学生の頃は、親戚の家に下宿しています# When I was in college, I lived in a relatives home",,,"大きめに切る# cut in large pieces",,"元気がある# healthy, lively",,
-"ここから東京まで何時間かかりますか# How long does it take to Tokyo from here?","ビール# beer",,"化粧する# makeup",,,"３センチ幅に切る# cut into 3cm pieces",,"元気がない# unhealthy, unlively",,
-"最初の15日間は無料です# It’s free for first 15 days","酒# alcohol",,"洗濯物# laundry",,,"水を切る# drain the water",,"せきが出る# coughing",,
-"セールは土日の2日間です# The sale runs for 2 days","ワイン# wine",,"剃る# to shave",,,"30分置いておく# leave it for 30 minutes",,"くしゃみが出る# sneeze",,
-"夏に2週間、国に帰ります# I going home for 2 weeks in summer","アルコール# alcohol",,"ひげを剃る# to shave one’s face",,,"野菜と肉を切る# cut vegetables and meat",,"熱がある# fever",,
-"日本に来て、まだ３ヶ月です# It’s only been 3 months since i came to Japan","ドリンク# drink",,"眠る# to sleep",,,"肉、玉ねぎ、にんじん、ジャガイモをよく炒める# stir-fry the meat, onions, carrots and potatoes well",,"寒気がする# chill, shiver",,
-"ここに５年住んでいます# I’ve been living here for 5 years","味見する# to taste",,"原因はよく分からないんだけど、最近、よく眠れないんです# I don’t know why I can’t sleep well recently",,,"水を入れて# add water",,"眠い# sleepy",,
-"来月、一日休みをとります# I’m going to take a one day leave next month","味わう# to savour, relish",,"寝る# to go to bed, to lie, to sleep",,,"肉が柔らかくなるまで# until the meat is tender",,"気分がいい# feel good ",,
-"昨日# yesterday","かじる# bite",,"こんなところで寝ると風邪ひくよ# You’’l catch cold if you fall asleep there",,,"30分くらい煮る# simmer for about 30 minutes",,"気分が悪い# feel bad",,
-"一昨日# the day before yesterday","食う# to eat",,"分別する# sorting",,,"火を止めて、カレールーを入れ# turn off the heat and add the curry roux",,"調子がいい# in good form",,
+"午前# morning","ハム# ham","これをあそこの棚に置いてください# Please put this on the shelf over there","いつも8時ごろに家で出ます# I usually leave the house at around 8:00 o’clock","寒い# cold weather",,"ケチャップ# ketchup","はい、お願いします# yes, please","曲げる# bend","コンビニ# convenience store","降りる# to get off"
+"午前中# in the morning","ソーセージ# sausage","本棚# bookshelf","出かける時は、窓を閉めます# I close the windows when I go out","暖かい# warm",,"辛子# mustard","いいえ、けっこです# no, thank you","回す# to turn, rotate","~屋# shop","乗り換える# to transfer"
+"正午# noon","チーズ# cheese","あそこの丸いテーブルを使います# I'll use the round table over there","鍵# lock","涼しい# cool (weather)",,"マヨネーズ# mayonnaise","ポイントを利用になりますか# would you like to use you points?","伸ばす# to stretch","パン屋# bakery","乗り換え# transfer"
+"午後# afternoon","とうふ# tofu","ソファ# sofa","鍵をかける# to lock","蒸し暑い# humid",,"サラダ油# salad oil","レジ袋はご利用ですか# do you need a plastic bag","上げる# to raise","本屋# bookstore","乗り場# boarding gate, platform, terminal"
+"今日# today","ご飯# cooked rice","ベッド# bed","鍵、かけてきた# Did you lock up?","風# wind",,"バター# butter","レジ袋は有料ですが、よろしでしょうか# there is a charge for plastic bag, Is that ok?","下げる# to lower","薬屋# drug store, pharmacy","ホーム# platform"
+"明日# tomorrow","ライス# rice","家電# appliance","ごみ# trash","吹く# to blow",,"溶かしバター# melted butter","別々の袋にお入れしましょうか# would you like me to put in separate bags","よく眠る# sleep well","花屋# flourist","番線# track number"
+"明後日# the day after tomorrow","みそ汁# miso soup",,"ごみを出す# take out the trash","台風# typhoon",,"無塩バター# unsalted butter","袋はお分けしましょうか# In separate bags?","ゆっくり休む# rest well","電気店# electric goos store","切符# ticket"
+"昨日# yesterday","うどん# udon, wheat noodles",,"出かける時にゴミを出してくれない# Could you take out the trash when you leave?","照る# to shine",,"有塩バター# salted butter","お箸はおつけいたしますか# would you like some chopsticks?","昼寝する# to take a nap, siesta","不動産屋# real estate agent","チケット# ticket"
+"一昨日# the day before yesterday","そば# soba, buckwheat noodles",,"掃除# cleaning","日差し# sunlight",,"マーガリン# margarine","お箸は何膳おつけしますか# how many chopsticks do you need?","食事する# to have a meal","店# shop, store","改札# gate"
+"今週# this week","ラーメン# ramen",,"お客さん来るから、部屋を掃除しないと# We have guests coming so he have to clean the room","にわか雨# showers",,"のり# seaweed","いち膳、お願いします# one (chopstick) please","おやつ# snack","商店街# shopping district, shopping street, downtown","急行# express"
+"来週# next week","パン# bread",,"掃除機# vacuum cleaner","嵐# storm",,"味噌# miso","いっぽん、お願いします# one (chopstick) please","バランス# balance","病院# hosspital","特急# super express"
+"再来週# the week after next","サラダ# salad",,"洗濯# laundry","日が照っているうちに洗濯物を干そう# Let’s put the laundry out to dry while the sum’s shining",,"材料# ingredients","お支払い方法はどのようにされますか# how would you like to pay?","栄養# nutrition","歯医者# dentist","快速# rapid"
+"先週# last week","スープ# soup",,"洗濯機# washing machine","今日は日差しが強なあ。日焼け止めを持ってくればよかった# The suns is really strong today, I should have brought some sunblock along",,"粉# flour","クレジットカードで払います# i’ll pay by credit ","転ぶ# fall down, fall over",,"各駅# every station, local train"
+"今月# this month","カレー# curry",,"クリーニング# dry cleaner’s","曇っているけど、雨は降らないそうです# It’s cloudy but it’s not going to rain apparently",,"薄力粉# rice flour","現金で払います# i’ll pay by cash","めまいがする# feel dizzy",,"各駅停車# train that stops at every station, local train "
+"来月# next month","牛丼# rice bowl topped with beef",,"これもクリーニングに出したほうがいいね# We should get this dry cleaned too","にわか雨だたらすぐ止むよ# It juts just a shower, it’ll stop soon",,"強力粉# bread flour","お会計 1,200円でございます# that will be 1,200 yen","頭痛がする# have a headache",,"席# seat"
+"再来月# the　month after next","寿司# sushi",,"料理# cooking","もうすぐ嵐になるんじゃない# A storm is coming soon right?",,"中力粉# all purpose flour","1,200円になります# that will be 1,200 yen","胃がいたい# have a stomachache",,"道# road, route"
+"先月# last month","おにぎり# rice ball",,"留守# being away","積む# to pile up, to stack, to load, to pack",,"コンスターチ# constarch","2,000円お預かりします# you have deposit 2,000 yen","腰が痛い# have a back pain",,"道路# road"
+"今年# this year","さしみ# sashimi, raw fish",,"おばさんに電話したけど、留守だった# I called my aunt but i got the answering machine","積もる# to pile up, to accumulate, to estimate ",,"片栗粉# potato starch","800円のお返しです# here’s 800 yen change","息が苦しい# feel suffocated",,"通り# street, road"
+"来年# next year","天ぷら# tempura",,"留守番# house-sitting","天候# weather",,"ベーキングパウダー# baking powder","お釣りは800円です# the change is 800 yen","苦しむ# be in pain",,"交差点# intersection"
+"再来年# the year after next","すきやき# sukiyaki",,"留守番電話# answering machine","気候# climate",,"イースト# yeast","暗証番号を入力してください# please enter your pin","鼻がつまる# be stuffed up",,"角# corner"
+"去年# last year","スパゲティ# spaghetti",,"留守番電話にメッセージ残してください# Please leave message on my answering machine","気温# temperature",,"卵# egg","こちらにサイんをお願いします# Please sign here","鼻をかむ# blow one’s nose",,"信号# traffic light"
+"昨年# last year","ピザ# pizza",,"働く# to work","湿度# level of humidity",,"卵白# egg white","ありがとうございました# thank you","吐き気がする# feel sick",,"踏切# railroad crossing"
+"一昨年# the year before last","サンドイッチ# sandwich",,"一日何時間くらい働いているんですか# How many hours do you work a day?","蒸し暑い# humid",,"卵黄# egg yolk ","またおこしくださいませ# please come back again","吐く# vomit",,"駐車場# parking lot"
+"朝# morning","ハンバーグ# hamburger",,"休む# to rest","予報# forecast",,"生卵# raw egg",,"気持ち胃が悪い# feel sick",,"橋# bridge"
+"昼# day, midday","ハンバーガー# hamburger",,"疲れたら、休んでください# If you get tired, Please take a rest","梅雨# rainy season",,"ゆで卵# boiled egg",,"目がかゆい# have an itchy eye",,"歩道橋# over bridge, pedestrian overpass"
+"晩# evening","ステーキ# steak",,"片付ける# to clean up","朝起きたら雪が積もってて、びっくりした# when I wake up this morning, I was shocked to see all the snow piled up",,"月桂樹の葉# laurel leaves",,"目をこする# rub one’s eye",,"トンネル# tunnel"
+"夜# night","ポテト# potato",,"使ったらちゃんと片付けておいてください# Please clean it up properly after done using it","時刻は5時6分を回っております# the time has turned to 5:06",,"だし# dashi (Japanese soup stock made from fish and kelp) ",,"目をかく# rub one’s eye",,"港# port"
+"夕方# evening","お菓子# snacks, sweets",,"後片付け# tidying up","ここからはお天気情報をお知らせいたします# from here, we will let you know the weather forecast",,"かつお節# bonito flakes",,"風邪を引いてつらい# feel terrible of colds",,"空港# airport"
+"今朝# this morning","甘いもの# sweet foods",,"帰る# to go home","現在、島原半島三市には、注意報は発表されておりません# There are no warnings issued for the three cities of Shimabara Peninsula at this time",,"煮干し# dried sardines",,"アレルギーがある# have an allergy",,"遅れる# to be late"
+"今晩# this evening","アイスクリーム# ice cream",,"そろそろ帰りましょう# Let’s go home soon","警報# alarm, warning ",,"秤# weighing scale",,"頭ががんがんする# have a pounding headache",,"乗り遅れる# to miss (a train, bus, etc.), to fail to keep up with"
+"今夜# tonight","ケーキ# cake",,"買い物# shopping","続きまして島原地方今日これからのお天気は曇り# the weather in Shimabara area will be cloudy from now on",,"計量カップ# measuring cup",,"きりきりする# have a sharp pain",,"出発する# to leave, to depart, set off"
+"春# spring","チーズケーキ# cheesecake",,"風呂# bath","現在の気温は23度、北の風、風速秒4メートルです# the current temperature is 23 degrees celsius with a north wind of 4 meters per hour",,"計量スプーン# measuring spoon",,"下痢する# have a diarrhea",,"着く# to arrive"
+"夏# summer","チョコレート# chocolate",,"お風呂に入る# to take a bath","続きまして明日、7月18日土曜日から24日金曜日までの週間お天気です# Continuing on, the week’s weather from tomorrow, Saturday July 18th until Friday the 24th",,"小匙# tea spoon",,"すぎすぎする# have a throbbing pain",,"止まる# to stop"
+"秋# fall","クッキー# cookie",,"電気# lights","明日は晴れ時々曇り# Tomorrow will be sunny and sometimes cloudy",,"中匙# meddle size the spoon",,"吐き気がする# feel nausea",,"止める# to stop, park"
+"冬# winter","ドーナツ# donut",,"電気をつける# to turn on the lights","予想最高気温29度# expected maximum temperature is 29 degrees celsius",,"大匙# table spoon",,"鼻水が出る# have a runny nose",,"停める# to stop, to turn off, to park, to prevent"
+"季節# season","ガム# gum",,"電気を消す# to turn off the lights","最低気温21度# minimum temperature is 21 degrees celsius",,"カップ１杯# a cup of",,"腫れる# swell",,"通る# to pass, to go through"
+"毎# every","あめ# candy",,"寝る# to sleep","降水確率10%# 10% chance of precipitation",,"半カップ# a half cup of",,"ひりひりする# stinging pain",,"曲がる# to turn left/right"
+"毎朝# every morning","おつまみ# tidbits, snacks",,"昨日はよく寝られましたか# Did you sleep well last night?","明日は日差しが届いて# tomorrow the sunlight will return and..",,"粉をふるう# sift the flour",,"震える# to tremble",,"渡る# to cross over, to go across "
+"毎週# every week","飲み物# drinks",,"パジャマ# pajama","夏を感じる暑さになりそうです# it's going to be hot, like summer!",,"バターを塗る# spread the butter",,"骨を折る# break a bone",,"歩道橋を渡る# cross a footbridge"
+"毎月# every month","ホット# hot",,"生活# life","猛暑日になる可能性もあります# there is the possibility that it will become an extremely hot day",,"バターを溶かす# melt the butter",,"めまいがする# fell dizzy",,"赤信号だから渡れない# The red light is on, so you shouldn't cross"
+"毎年# every year","アイス# iced",,"今の生活には慣れました# I’ve gotten to used to my life now","こまめに水分を摂って# drink plenty of water",,"卵を泡立てる# wisk the eggs",,"新型# new strain",,"左右をよく見て渡る# look left and right carefully before crossing"
+"毎日# every day","コーヒー# coffee",,"通う# to go regularly, to attend","熱中症対策を心がけてください# Please take precautions against heat stroke",,"クリームを泡立てる# whip the cream",,"重症# serious illness",,"橋を渡る# cross a bridge"
+"毎晩# every night","アイスコーヒー# iced coffee",,"父は、週に１回、病院に通っています# My father goes to the doctor once a week","供給# supply, provision",,"よく混ぜる# mix well",,"医療# medical care",,"渡す# to carry across, to traverse, to hand over, to pass"
+"日本にきたのは何年ですか# What year did you come to japan","紅茶# black tea ",,"帰宅する# going home","水分補給しようね# supply yourself with water",,"軽く混ぜる# mix lightly",,"けがする# be injured",,"越える# to cross over, to cross, to pass through, to pass over"
+"その日はだめです# I can’t make it on that day","アイスティー # iced tea",,"暮らす# to live","補給# supply, supplying, replenishment​",,"ざっくり混ぜる# mix roughly",,"血が出る# blood comes out",,"超える# to cross over, to cross, to pass through, to pass over"
+"月に一度、集まりました# We get together once a month","牛乳# milk",,"子供の時からずっとここで暮らしています# I’ve lived here ever since when I was a child",,,"ゆっくり混ぜる# mix slowly",,"骨を折る# broken bone",,"川を越える# cross a river"
+"今日は何日ですか# What’s the date today?","ミルク# milk",,"暮らし# living",,,"手で混ぜる# mix by hands",,"やけどする# get burned",,"山を超える# cross a mountain"
+"日にちは決まりましたか# Has the date been decided?","コーラ# cola",,"田舎暮らし# country living",,,"野菜を洗う# wash the veggies",,"マスクをする# wear a mask",,"縦断する# running through, cutting across, travelling across"
+"お休みは何曜日ですか# Which days you get off?","ジュース# juice",,"一人暮らし# living alone",,,"タマネギをむ# peen an onion",,"目薬# eyedrops",,"バイクで日本を縦断する# travel across Japan by motorbike"
+"どの週がいいですか# Which week is good for you?","水# water",,"下宿する# boarding",,,"材料を刻む# chop the ingredients",,"氷で冷やす# cool by ice",,"ここは交通の便がいいから、人気があります# this place is very popular because of its convenient transportation"
+"週末はいつも何をしていますか# What do you usually do during the weekends?","お湯# hot water",,"学生の頃は、親戚の家に下宿しています# When I was in college, I lived in a relatives home",,,"大きめに切る# cut in large pieces",,"元気がある# healthy, lively",,"車の免許は持っていますか# do you have a car license?"
+"ここから東京まで何時間かかりますか# How long does it take to Tokyo from here?","ビール# beer",,"化粧する# makeup",,,"３センチ幅に切る# cut into 3cm pieces",,"元気がない# unhealthy, unlively",,"いつも8時25分の電車に乗ります# I always take the 8:25 train"
+"最初の15日間は無料です# It’s free for first 15 days","酒# alcohol",,"洗濯物# laundry",,,"水を切る# drain the water",,"せきが出る# coughing",,"お金は、バスを降りる時に払います# you can pay when you get off the bus"
+"セールは土日の2日間です# The sale runs for 2 days","ワイン# wine",,"剃る# to shave",,,"30分置いておく# leave it for 30 minutes",,"くしゃみが出る# sneeze",,"次の駅で急行に乗り換えてください# please transfer to the express train at the next station"
+"夏に2週間、国に帰ります# I going home for 2 weeks in summer","アルコール# alcohol",,"ひげを剃る# to shave one’s face",,,"野菜と肉を切る# cut vegetables and meat",,"熱がある# fever",,"これだと、乗り換えなしで行けるので便利です# this is a convenient way to get there without changing trains"
+"日本に来て、まだ３ヶ月です# It’s only been 3 months since i came to Japan","ドリンク# drink",,"眠る# to sleep",,,"肉、玉ねぎ、にんじん、ジャガイモをよく炒める# stir-fry the meat, onions, carrots and potatoes well",,"寒気がする# chill, shiver",,"バス乗り場# bus terminal"
+"ここに５年住んでいます# I’ve been living here for 5 years","味見する# to taste",,"原因はよく分からないんだけど、最近、よく眠れないんです# I don’t know why I can’t sleep well recently",,,"水を入れて# add water",,"眠い# sleepy",,"新幹線乗り場# shinkansen boarding platform"
+"来月、一日休みをとります# I’m going to take a one day leave next month","味わう# to savour, relish",,"寝る# to go to bed, to lie, to sleep",,,"肉が柔らかくなるまで# until the meat is tender",,"気分がいい# feel good ",,"駅のホームにも売店があります# there is also a kiosk on the train platform"
+"昨日# yesterday","かじる# bite",,"こんなところで寝ると風邪ひくよ# You’’l catch cold if you fall asleep there",,,"30分くらい煮る# simmer for about 30 minutes",,"気分が悪い# feel bad",,"2番線の電車は急行横浜行きます# the train on track 2 is the express train bound for Yokohama"
+"一昨日# the day before yesterday","食う# to eat",,"分別する# sorting",,,"火を止めて、カレールーを入れ# turn off the heat and add the curry roux",,"調子がいい# in good form",,"切符売り場# ticket window, ticket vending area"
 "昨年# last year","食欲# apetite",,"あそこにゴミの分別の仕方が書いてあるよ# Over there tells you how to sort trash for disposal",,,"弱火でさらに30分くらい煮込む# simmer on a low heat for another 30 minutes",,"調子が悪い# in bad shape",,
 "しあさって# three days from today","昼食# lunch",,"留守番する# staying at home",,,"やかんでお湯沸かす# boil water in a kettle",,"具合がいい# feel good",,
 "先々週# the week before last","朝食# breakfast",,"私はちょっと風邪を引いているので家でする板ですが# I staying at home because I have a slight cold",,,"鍋で野菜を煮る# cook the vegetables in a pot",,"具合が悪い# feel bad",,

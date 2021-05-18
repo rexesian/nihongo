@@ -84,6 +84,8 @@ pct1 <- read_csv("rdata/Sheet 51-PCT1.csv")
 qsn5 <- read_csv("rdata/Sheet 53-QSNT1.csv")
 vrbexp1 <- read_csv("rdata/Sheet 55-VRBXP1.csv")
 vnnexp1 <- read_csv("rdata/Sheet 56-NNXP1.csv")
+adjexp1 <- read_csv("rdata/Sheet 57-ADJXP1.csv")
+tchnl <- read_csv("rdata/Sheet 58-TCHN1.csv")
 
 ```
 
@@ -3517,7 +3519,120 @@ Describes the current condition of the subject due to consequence of past occurr
 
 ###### Special Topics
 
-**Conditional-Form**`条件形`
+**Conditional-Form**   
+
+**①　to**`if・when`
+
+**⚭　Vdict + to**
+
+(1) When the result of the condition can be predicted naturally
+(2) When the result is known to happen customarily 
+(3) When the result occurs generally and repeatedly
+
+<!-- <h> -->
+
+    ・まっすぐ行くと学校があります
+    ・朝起きると顔を洗います
+    ・冬になると寒くなります
+
+<!-- <h> -->
+
+    ・If you go straight, you will find a school
+    ・When I wake up in the morning, I wash my face
+    ・When winter comes, It gets cold
+
+(✖︎)	It cannot be used if it includes speakers intention, judgment, permission, opinion, request and etc.
+
+**②　tara**`if・when`
+
+**⚭　Vta + ra**
+
+(1) When the result of the condition can be predicted naturally
+(2) When the condition and result occurs only once 
+(3) When you express volition, requests, invitations, make suggestions 
+(4) When you express hypothetical conditions
+
+<!-- <h> -->
+
+    ・まっすぐ行ったら学校があります
+    ・明日雨が降ったら家にいます
+    ・暇だったら山へ行きたいです
+    ・何を買ったらいいですか
+    ・よかったら食べてみてください
+    ・コーヒーにしたらどう
+
+<!-- <h> -->
+
+    ・If you go straight, there is a school
+    ・If it rains tomorrow, I'll stay home
+    ・When I'm free, I want to go to the mountains
+    ・What should I buy?
+    ・You can try it if you want
+    ・How about a cup of coffee?
+
+(✖︎)	It cannot be used if it is not chronological order
+
+**③　ba**`if・when`
+
+**⚭　Vcmd-base + ba**
+
+(1) When the result of the condition can be predicted naturally
+(2) When the result occurs generally and repeatedly 
+(3) When you express universal truth and customs
+(4) When you express to do something (should/wish) 
+(5) When you are seeking advice  (how to/when to/where to/whom/what to)
+
+<!-- <h> -->
+
+    ・まっすぐ行けば学校があります
+    ・冬になれば寒くなります
+    ・もっと勉強すれば日本語が上手なります
+    ・もっと勉強すればよかった
+    ・どうやって注文すればいいですか
+    ・いつ申し込めばいいですか
+    ・誰に聞けばいいですか
+    ・いくら払えばいいですか
+    ・何時に来ればいいですか
+    ・新宿へどう行けばいいですか
+
+<!-- <h> -->
+
+    ・If you go straight, there is a school
+    ・When winter comes, it gets cold
+    ・If I study more, my Japanese will improve
+    ・I should have studied harder
+    ・How do I place an order?
+    ・When do I need to apply?
+    ・Who should I ask?
+    ・How much do I have to pay?
+    ・What time should I come?
+    ・How can I get to Shinjuku?
+
+(✖︎)	It cannot be used if S2 includes something negative (S2 is usually a positive outcome)
+
+**④　nara**
+
+**⚭　Vdict + nara**`if・if it is the case`
+
+(1) When you express advice, requests, invitations
+(2) When you express S1->S2, or S2->S1 
+(3) When you include what the other person said or thoughts is confirmed and used as condition
+
+<!-- <h> -->
+
+    ・頭が痛いなら寝た方がいいです
+    ・お酒を飲むなら運転しません
+    ・田中さんが行くなら私も行きます
+    ・コンビニに行くならおやつ買ってくれませんか
+
+<!-- <h> -->
+
+    ・If your head hurts, you'd better get some sleep
+    ・I don't drive if I'm going to drink
+    ・If Mr. Tanaka is going, I'm going too
+    ・If you're going to the convenience store, could you please buy me a snack?
+
+(✖︎)	It cannot be used if the results mere fact which occurs naturally
 
 ------------------------------------------------------------------------
 
@@ -3653,7 +3768,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Suru Verbs
+###### SVerbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -3715,11 +3830,7 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
-
-##### More Verbs  {.tabset}
-
-###### 1
+###### RVerbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -3755,12 +3866,11 @@ reactable(
           div(style = list(fontSize = 40, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
           div(style = list(fontSize = 11, fontWeight = 200), Type),
-          div( "." ),
-          div(style = list(fontSize = 14, fontWeight = 200), s1),
-          div(style = list(fontSize = 14, fontWeight = 200), s2),
-          div(style = list(fontSize = 14, fontWeight = 200), s3),
-          div(style = list(fontSize = 14, fontWeight = 200), s4),
-          div(style = list(fontSize = 14, fontWeight = 200), s5),
+          div(style = list(fontSize = 15, fontWeight = 200), s1),
+          div(style = list(fontSize = 15, fontWeight = 200), s2),
+          div(style = list(fontSize = 15, fontWeight = 200), s3),
+          div(style = list(fontSize = 15, fontWeight = 200), s4),
+          div(style = list(fontSize = 15, fontWeight = 200), s5),
         )
       },
       align = "center", minWidth = 400
@@ -3798,7 +3908,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### 2
+###### MVerbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -3912,7 +4022,80 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Auxiliaries/Helpers
+#### Auxiliaries/Helpers {.tabset}
+
+##### Aux-Adj {.tabset}
+
+###### rashii
+
+**rashii**`seem・look like・apparently`
+
+**⚭　V/I-Adj/Na-Adj/N + rashii**
+
+(1) The preceding sentence is the speakers conjecture base on what he has heard, read or seen
+
+<!-- <h> -->
+
+    ・杉本さんはもう帰ったらしいです
+    ・このあたりはとても静からしいです
+    ・その話は本当らしい
+
+<!-- <h> -->
+
+    ・Sugimoto-san seems to have gone home already
+    ・It seems that this area is very quiet
+    ・Apparently the story is true
+
+------------------------------------------------------------------------
+
+##### Aux-Verbs  {.tabset}
+
+###### ageru
+
+**ageru**`doing something for someone`
+
+**⚭　Vte + ageru**
+
+(1) Someone gives an action as a favor to someone not within the group
+(2) The status of giver and receiver is about equal
+
+<!-- <h> -->
+
+    ・靴をはかせてあげよう
+    ・私はなおみさんに英語を教えてあげた
+    ・田中さんはスミスさんに本を貸してあげた
+
+<!-- <h> -->
+
+    ・Let me help you get your shoes on
+    ・I taught Naomi some English
+    ・Mr. Tanaka lent Mr. Smith a bookい
+
+------------------------------------------------------------------------
+
+##### Aux-Others  {.tabset}
+
+###### souda
+
+**souda**`I hear that・I heard that`
+
+**⚭　V/I-Adj/Na-Adj/N + sou da/sou desu**
+
+(1) Indicates that the information expressed by the preceding sentence is what the speaker heard
+
+<!-- <h> -->
+
+    ・日本の肉はとても高いそうだ
+    ・清水さんはお酒を飲まないそうです
+    ・長澤さんは英語がとても上手だそうです
+    ・キングさんは英語の先生だそうだ
+
+<!-- <h> -->
+
+    ・I heard that meat in Japan is very expensive
+    ・I heard that Shimizu-san doesn't drink alcohol
+    ・I heard that Ms. Nagasawa speaks very good English
+    ・I heard that Mr. King is a teacher of English
 
 ------------------------------------------------------------------------
 
@@ -4882,7 +5065,7 @@ General concept of de particle is setting a limit or a boundary
     ・魚を食べただけだ    
     ・本だけを借りた
     ・本を借りただけです  
-    ・この家はお気いだけです   
+    ・この家は大きいだけです   
     ・あの人だけが私を理解してくれる   
     ・ちょっとだけお借りします   
     ・このお菓子はいろが綺麗なだけです    
@@ -4892,14 +5075,14 @@ General concept of de particle is setting a limit or a boundary
 
     ・Only Yuki-san came
     ・I ate only fish
-    ・I just ate a fish, that's all
-    ・I borrowed books only
+    ・I just ate a fish
+    ・I borrowed only books 
     ・I just borrowed a book
-    ・This house is big, that's all
+    ・This house is just big
     ・Only he undestands me
     ・I'll borrow it for just a little while
-    ・This cake has pretty colors, that's all
-    ・In the morning I just drink a cup of coffee, that's all
+    ・This cake is just pretty colors
+    ・I just drink a cup of coffee in the morning
 
 ------------------------------------------------------------------------
 
@@ -5308,9 +5491,7 @@ reactable(
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div("."),
-          
-          div(style = list(fontSize = 17, fontWeight = 700), Expression),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -5345,11 +5526,69 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Na-Adj Expression
+### Adj Expression
 
-------------------------------------------------------------------------
+```{r echo=FALSE, message=FALSE}
 
-### I-Adj Expression
+reactable(
+  na.omit(adjexp1),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- adjexp1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- adjexp1$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- adjexp1$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(""),
+          
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -5382,9 +5621,9 @@ reactable(
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div("."),
+          div(""),
           
-          div(style = list(fontSize = 17, fontWeight = 700), Expression),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -6394,6 +6633,7 @@ reactable(
     🆃 Most certainly, When would you like to make a reservation?
     🅲 On the 20th, at 7 o'clock for 2 people please
 
+------------------------------------------------------------------------
 
 ## Categories {.tabset}
 
@@ -6883,6 +7123,118 @@ reactable(
       # Show species under character names
       cell = function(value, index) {
         Transcript <- v1hme11$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### School
+
+------------------------------------------------------------------------
+
+### Hobbies
+
+------------------------------------------------------------------------
+
+### Nature
+
+------------------------------------------------------------------------
+
+### Work
+
+------------------------------------------------------------------------
+
+## Technical {.tabset}
+
+### Electricity
+
+```{r, echo=FALSE, message=FALSE}
+
+tchnl1 <- tchnl %>% select(Electricity) %>%
+  separate(Electricity, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+# tchnl1  <- tchnl1 [sample(1:nrow(na.omit(tchnl1 ))),]
+
+reactable(
+  na.omit(tchnl1) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- tchnl1$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Electronics
+
+```{r, echo=FALSE, message=FALSE}
+
+tchnl2 <- tchnl %>% select(Electronics) %>%
+  separate(Electronics, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+# tchnl2  <- tchnl2 [sample(1:nrow(na.omit(tchnl2 ))),]
+
+reactable(
+  na.omit(tchnl2) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- tchnl2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
           div(style = list(fontSize = 35, fontWeight = 700), value),
