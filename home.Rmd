@@ -622,6 +622,57 @@ reactable(
 
 ------------------------------------------------------------------------
 
+##### Okinawa
+
+❊ [Mikis-Fr-Japan-Okinawa](https://www.youtube.com/watch?v=a6WrrPG_RKE&t=190s)
+
+```{r, echo=FALSE, message=FALSE}
+
+mkk1d <- mkk1 %>% slice(308:391)
+
+reactable(
+  mkk1d,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- mkk1d$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- mkk1d$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Time = colDef(show = FALSE),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
 #### Ikechan {.tabset}
 
 ##### Onsen

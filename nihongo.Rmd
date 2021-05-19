@@ -9229,9 +9229,9 @@ reactable(
 
 ## Fun Corner {.tabset}
 
-### 英語-日本語
+### 英語-日本語 {.tabset}
 
-### Simple Questions
+#### Simple Questions
 
 **How can I get to Shinjuku?**  
 
@@ -9265,6 +9265,14 @@ reactable(
 あなたのタイプはどんな人？    
 どんな人がタイプですか？    
 どんな人がタイプなの？　　　　
+
+**Excuse me, I want to order**   
+
+すいません、注文したい   
+すいません、注文したいです   
+すいません、注文したいんですが   
+すいません、注文したいのですが    
+すいません、注文したいんですけど   
 
 **I would like to order please**   
 
