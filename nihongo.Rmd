@@ -3688,6 +3688,61 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
 
 ------------------------------------------------------------------------
 
+###### ageru
+
+**ageru**`doing something for someone`・`completion`・`raising up・going up`  
+
+**⚭　Vte + ageru** `doing something for someone`  
+
+(1) Someone gives an action as a favor to someone not within the group
+(2) The status of giver and receiver is about equal
+
+<!-- <h> -->
+
+    ・靴をはかせてあげよう
+    ・私はなおみさんに英語を教えてあげた
+    ・田中さんはスミスさんに本を貸してあげた
+
+<!-- <h> -->
+
+    ・Let me help you get your shoes on
+    ・I taught Naomi some English
+    ・Mr. Tanaka lent Mr. Smith a book
+
+**⚭　V~~masu~~ + ageru**`completion`
+
+(1) Indicates completion
+
+<!-- <h> -->
+
+    ・論文をかき上げたら、連絡します
+    ・私はたくさんの洗濯物を洗い上げた
+    ・料理人は野菜を炒め上げた
+
+<!-- <h> -->
+
+    ・I'll let you know when I've finished my paper
+    ・I washed up a lot of laundry
+    ・The cook finished stir-frying the vegetables
+
+**⚭　V~~masu~~ + ageru**`raising up・going up`
+
+(1) Indicates something raising up or going up
+
+<!-- <h> -->
+
+    ・消費の拡大は経済成長を上方向に押し上げる
+    ・男は、近くにあった大きな岩を抱え上げ、投げ飛ばした
+    ・彼女は大きな魚を釣り上げた
+
+<!-- <h> -->
+
+    ・An increase in consumption will push economic growth upward
+    ・The man lifted up a nearby boulder and hurled it
+    ・She reeled in a big fish
+
+------------------------------------------------------------------------
+
 ###### au
 
 **au**`do something together・do something to each other`
@@ -4142,65 +4197,52 @@ reactable(
     ・It seems that this area is very quiet
     ・Apparently the story is true
 
+###### souda
+
+**souda**`seem・look・look like・appear`
+
+**⚭　V~~masu~~/I-Adj~~i~~/Na-Adj/N + rashii**
+
+(1) The preceding sentence is the speakers conjecture base on what he sees or feels.
+
+<!-- <h> -->
+
+    ・杉本さんはもう帰ったらしいです
+    ・このあたりはとても静からしいです
+    ・その話は本当らしい
+
+<!-- <h> -->
+
+    ・Sugimoto-san seems to have gone home already
+    ・It seems that this area is very quiet
+    ・Apparently the story is true
+
 ------------------------------------------------------------------------
 
 ##### Aux-Verbs  {.tabset}
 
 ###### ageru
 
-**ageru**
-`doing something for someone`  
-`completion`
-`raising up・going up`
+**ageru**`doing something for someone`  
 
-**⚭　Vte + ageru** `doing something for someone`  
+**⚭　Vte + ageru**
 
 (1) Someone gives an action as a favor to someone not within the group
 (2) The status of giver and receiver is about equal
 
 <!-- <h> -->
 
-    ・靴をはかせてあげよう
-    ・私はなおみさんに英語を教えてあげた
-    ・田中さんはスミスさんに本を貸してあげた
-
+    ・雨が降りそうだ
+    ・あの車は高そうだ
+    ・あのステーキは美味しそうだった
+    ・この辺りは静かそうだ
+    
 <!-- <h> -->
 
-    ・Let me help you get your shoes on
-    ・I taught Naomi some English
-    ・Mr. Tanaka lent Mr. Smith a book
-    
-<!-- **⚭　V~~masu~~ + ageru**`completion` -->
-
-<!-- (1) Indicates completion -->
-
-<!-- <!-- <h> --> -->
-
-<!--     ・論文をかき上げたら、連絡します -->
-<!--     ・私はたくさんの洗濯物を洗い上げた -->
-<!--     ・料理人は野菜を炒め上げた -->
-
-<!-- <!-- <h> --> -->
-
-<!--     ・I'll let you know when I've finished my paper -->
-<!--     ・I washed up a lot of laundry -->
-<!--     ・The cook finished stir-frying the vegetables -->
-
-<!-- **⚭　V~~masu~~ + ageru**`raising up・going up` -->
-
-<!-- (1) Indicates something raising up or going up -->
-
-<!-- <!-- <h> --> -->
-
-<!--     ・消費の拡大は経済成長を上方向に押し上げる -->
-<!--     ・男は、近くにあった大きな岩を抱え上げ、投げ飛ばした -->
-<!--     ・彼女は大きな魚を釣り上げた -->
-
-<!-- <!-- <h> --> -->
-
-<!--     ・An increase in consumption will push economic growth upward -->
-<!--     ・The man lifted up a nearby boulder and hurled it -->
-<!--     ・She reeled in a big fish -->
+    ・It looks like it will rain
+    ・That car looks expensive
+    ・That steak looked delicious
+    ・TThis neighborhood looks quiet
 
 ------------------------------------------------------------------------
 
@@ -4227,6 +4269,72 @@ reactable(
     ・I heard that Shimizu-san doesn't drink alcohol
     ・I heard that Ms. Nagasawa speaks very good English
     ・I heard that Mr. King is a teacher of English
+    
+###### mitai   
+
+**mitai**`looks like・seems・look`
+
+**⚭　V/I-Adj/Na-Adj/N + mitai desu**
+
+(1) Indicates that the information expressed by the preceding sentence is what the speaker sees
+
+<!-- <h> -->
+
+    ・おじいちゃんは散歩に行くみたいです
+    ・青木さん会社を辞めたみたいですよ
+    ・赤ちゃんが寝ているみたいだから静かにした方がいい
+    ・彼女は猫みたいですね
+
+<!-- <h> -->
+
+    ・Grandpa seems to be going for a walk
+    ・Mr. Aoki seems to have quit the company
+    ・It looks like the baby's sleeping, so you'd better be quiet
+    ・She looks like a cat
+    
+**⚭　V/I-Adj/Na-Adj/N + mitai + na + Noun**   
+**⚭　V/I-Adj/Na-Adj/N + mitai + ni + Verb**   
+
+<!-- <h> -->
+
+    ・猫みたいな彼女が欲しい
+    ・彼女はモデルみたいな美しい
+    ・あの子はまるで犬みたいに食べる
+
+<!-- <h> -->
+
+    ・I want a girlfriend who looks like a cat
+    ・She's beautiful, like a model
+    ・That girl eats like a dog
+
+###### kamo
+
+**kamo**`might`
+
+**⚭　V/I-Adj/Na-Adj/N + kamo**   
+**⚭　V/I-Adj/Na-Adj/N + kamoshirenai**    
+**⚭　V/I-Adj/Na-Adj/N + kamoshiremasen**    
+
+(1) Indicates that the information expressed by the preceding sentence might happen or not
+
+<!-- <h> -->
+
+    ・そろそろ梅雨入りかもね
+    ・これは無料じゃないかも
+    ・週末は雪がふるかもしれませんね
+    ・母は今頃寝てるかもしれません
+    ・母は今頃寝てるかもしれません
+    ・うちに財布を忘れたかもしれない
+    ・今セールやってるかもしれない
+
+<!-- <h> -->
+
+    ・The rainy season might start soon
+    ・This might not be free
+    ・It might snow this weekend
+    ・Mother might be sleeping rigth now
+    ・I might have left my wallet at home
+    ・There might be a sale going on right now
 
 ------------------------------------------------------------------------
 
