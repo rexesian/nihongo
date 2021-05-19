@@ -1154,9 +1154,9 @@ A more detailed explanations will be encountered along the way for each item.
 
 **① And**
 
-    ・彼女はフランス語が話せる。しかも流ちょうに
-    ・ちょっと話をしただけ、 それも小声で    
-    ・さらに命令のあるまで待つう     
+    ・彼女はフランス語が話せる。しかも流ちょうに話せる
+    ・ちょっと話をしただけ、 それも小声で話ます  
+    ・さらに命令のあるまで待つ    
     ・あの人は頭がいい。そのうえ性格してもいい    
     ・それに家の鍵を入れていましたう    
     ・また、人とも親しく付き合ってなかなか社交的だ    
@@ -1165,7 +1165,7 @@ A more detailed explanations will be encountered along the way for each item.
 
 <!-- <h> -->
 
-    ・She speaks French. Moreover she's fluently
+    ・She speaks French. Moreover she's speaks fluently
     ・We talked for a monment, In addition to that we did it in a low voice
     ・Furthermore, we will wait for further instructions
     ・He's a smart guy. In addition, he's got a great personality
@@ -3636,7 +3636,101 @@ Describes the current condition of the subject due to consequence of past occurr
 
 ------------------------------------------------------------------------
 
-##### Verb Phrase
+##### Compound Verbs {.tabset}
+
+A **compound verb** is a verb that consists of two verbs creating a specific meaning.   
+Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) **V1**(regard as one word)
+
+###### komu
+
+**komu**`in・into・deeply`
+
+**⚭　V~~masu~~ + komu**
+
+(1) Creates an inward direction or
+(2) An action takes place deep in something or someone
+
+<!-- <h> -->
+
+    ・知らない男が部屋に入り込んできた
+    ・昨日は風邪で寝込んでしまった
+    ・彼は落とし穴に落ち込んだ
+    ・彼はプールに飛び込んだ
+    ・彼女は洗濯物を家の中に取り込んだ 
+    ・彼らはコンクリートを型に流し込んだ
+    ・雪解け水が山から川に流れ込んだ
+    ・遅れていた乗客が機内に走り込んで来た
+    ・ギターは弾き込めば弾き込むほど良い音になる
+    ・電車の中で友達と話し込んで、駅を乗り過ごしてしまった
+    ・ワニは人を川の中に引きずり込んだ
+    ・窓が開いていたので、雨が降り込んだ
+    ・彼は、自分の靴を磨き込んで、ピカピカにした
+    ・私はマニュアルを何度も読み込んだ
+    ・オリンピックを前に、選手たちは泳ぎ込んだ
+
+<!-- <h> -->
+
+    ・A stranger came into the room
+    ・Yesterday I was completly put into sleep due to colds
+    ・He fell into the hole
+    ・He jumped into the pool
+    ・She brought her laundry back into the house
+    ・They poured the concrete into the mold
+    ・The newly-melted slush flowed into the river from the mountain
+    ・A delayed passenger came running into the cabin
+    ・A guitar's sound gets better the more you play it
+    ・I was talking with my friends on the train and missed the station
+    ・The crocodile dragged the man into the river
+    ・The window was open, and the rain poured in
+    ・He polished his shoes, making them shine
+    ・I read the manual over and over
+    ・The swimmers drilled themselves in swimming ahead of the Olympics
+
+------------------------------------------------------------------------
+
+###### au
+
+**au**`do something together・do something to each other`
+
+**⚭　V~~masu~~ + au**
+
+(1) To do something mutually together
+
+<!-- <h> -->
+
+    ・喜び合ってくれる人、監視みあってくれる人が本当の友達だ
+    ・二人は小さなことで言い合っていた
+    ・この家庭では両親と子供がよく話し合う
+    ・僕たちはお金を出し合って、アパートを借りている
+    ・男女が公園の ベンチで抱き合っている
+    ・剣士は互いに打ち合った
+    ・子供たちは押し合った
+    ・彼は店員に値引きを掛け合った
+    ・私はニューヨークで彼と知り合った
+    ・彼らは友達と手を取り合って喜んだ
+    ・二人は向かい合って座った
+    ・私の家は友達の家と向かい合って建っている
+    ・私は昔の友達とばったり行き合った
+    ・キミは、彼女と気持ちを分かり合う努力が必要だ
+    ・喜びも悲しみも分け合うのが本当の友達だ
+
+<!-- <h> -->
+
+    ・People who rejoice and watch each other are true friends
+    ・They were arguing over the smallest things
+    ・In this family, parents and children talk a lot
+    ・We jointly contribute money to rent an apartment
+    ・A man and a woman are hugging on a park bench
+    ・The kendoka struck each other
+    ・The children pushed each other
+    ・He tried to haggle with the shopkeeper to lower the price
+    ・I first got to know him in New York
+    ・They grasped their friends' hands and rejoiced
+    ・The two of them sat facing each other
+    ・My house and my friend's house face each other
+    ・I happened to run into an old friend
+    ・You need to try to understand each others feelings
+    ・True friends share all of their joys and sorrows.
 
 ------------------------------------------------------------------------
 
@@ -4024,6 +4118,8 @@ reactable(
 
 #### Auxiliaries/Helpers {.tabset}
 
+**Auxiliaries** or **Helpers** are attached at the end of word or sentence to give nuance to the meaning.
+
 ##### Aux-Adj {.tabset}
 
 ###### rashii
@@ -4052,9 +4148,12 @@ reactable(
 
 ###### ageru
 
-**ageru**`doing something for someone`
+**ageru**
+`doing something for someone`  
+`completion`
+`raising up・going up`
 
-**⚭　Vte + ageru**
+**⚭　Vte + ageru** `doing something for someone`  
 
 (1) Someone gives an action as a favor to someone not within the group
 (2) The status of giver and receiver is about equal
@@ -4069,7 +4168,39 @@ reactable(
 
     ・Let me help you get your shoes on
     ・I taught Naomi some English
-    ・Mr. Tanaka lent Mr. Smith a bookい
+    ・Mr. Tanaka lent Mr. Smith a book
+    
+<!-- **⚭　V~~masu~~ + ageru**`completion` -->
+
+<!-- (1) Indicates completion -->
+
+<!-- <!-- <h> --> -->
+
+<!--     ・論文をかき上げたら、連絡します -->
+<!--     ・私はたくさんの洗濯物を洗い上げた -->
+<!--     ・料理人は野菜を炒め上げた -->
+
+<!-- <!-- <h> --> -->
+
+<!--     ・I'll let you know when I've finished my paper -->
+<!--     ・I washed up a lot of laundry -->
+<!--     ・The cook finished stir-frying the vegetables -->
+
+<!-- **⚭　V~~masu~~ + ageru**`raising up・going up` -->
+
+<!-- (1) Indicates something raising up or going up -->
+
+<!-- <!-- <h> --> -->
+
+<!--     ・消費の拡大は経済成長を上方向に押し上げる -->
+<!--     ・男は、近くにあった大きな岩を抱え上げ、投げ飛ばした -->
+<!--     ・彼女は大きな魚を釣り上げた -->
+
+<!-- <!-- <h> --> -->
+
+<!--     ・An increase in consumption will push economic growth upward -->
+<!--     ・The man lifted up a nearby boulder and hurled it -->
+<!--     ・She reeled in a big fish -->
 
 ------------------------------------------------------------------------
 
@@ -4121,7 +4252,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
     ・今朝雨が降ります
     ・本がある
     ・紅葉がきれいです
-    ・今日友達が来ま
+    ・今日友達が来ます
 
 <!-- <h> -->
 

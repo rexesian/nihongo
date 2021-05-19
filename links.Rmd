@@ -57,12 +57,14 @@ body{
 ## Web Sites
 
 Irodori: <https://www.irodori.jpf.go.jp/en/index.html>
+Lexicon: <https://db4.ninjal.ac.jp/vvlexicon/en/>
+Kanshudo: <https://www.kanshudo.com/>
 
 ------------------------------------------------------------------------
 
 ## Schools
 
-AKita-Inaka School: <https://akitainakaschool.com/>
+Akita-Inaka School: <https://akitainakaschool.com/>
 
 ------------------------------------------------------------------------
 
