@@ -830,6 +830,114 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### Meaning-Only
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  ggg,
+  columns = list(
+       Meaning = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Meaning') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Meaning'] === prevRow['Meaning']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Words = colDef(show = FALSE),
+      Hiragana = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Reading-Only
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  ggg,
+  columns = list(
+       Hiragana = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Hiragana') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Hiragana'] === prevRow['Hiragana']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Words = colDef(show = FALSE),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
 # Structure {.tabset}
 
 ## Structure {.tabset}
@@ -4173,7 +4281,7 @@ reactable(
 
 #### Auxiliaries/Helpers {.tabset}
 
-**Auxiliaries** or **Helpers** are attached at the end of word or sentence to give nuance to the meaning.
+**Auxiliaries** or **Helpers** are attached at the end of word or sentence to give nuance.
 
 ##### Aux-Adj {.tabset}
 
@@ -4323,7 +4431,6 @@ reactable(
     ・これは無料じゃないかも
     ・週末は雪がふるかもしれませんね
     ・母は今頃寝てるかもしれません
-    ・母は今頃寝てるかもしれません
     ・うちに財布を忘れたかもしれない
     ・今セールやってるかもしれない
 
@@ -4346,9 +4453,9 @@ reactable(
 
 ## Particles {.tabset}
 
-### が {.tabset}
+### が
 
-#### Usage
+<!-- #### Usage -->
 
 The **general concept** of **ga** particle is that it marks the **main actor** or **the noun being described** in the sentence.
 
@@ -4406,9 +4513,9 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 ###### **⚭　Question-word + ga + verb/adjective/noun**
 
+    ・誰が来ましたか
     ・誰が本ですか
     ・どれがいいですか
-    ・誰が来ましたか
     ・何が問題なのか
     ・背景には何があるのか
 
@@ -4488,51 +4595,51 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
     ・もう一日休暇をとりたいんですが…
     ・I would like to take one more day of vacation..
 
-#### Remarks
+<!-- #### Remarks -->
 
-<u>**Translation Interpretations**</u>
+<!-- <u>**Translation Interpretations**</u> -->
 
-###### Ⓤ This kind of translation is necessary to relate it to Japanese Grammar/Structure more pricisely.
+<!-- ###### Ⓤ This kind of translation is necessary to relate it to Japanese Grammar/Structure more pricisely. -->
 
-###### Legend:
+<!-- ###### Legend: -->
 
-     Ⓙ  Japanese sentence
-     Ⓔ  English natural translation
-     Ⓤ  Japanese-pattern English translation
+<!--      Ⓙ  Japanese sentence -->
+<!--      Ⓔ  English natural translation -->
+<!--      Ⓤ  Japanese-pattern English translation -->
 
-<!-- <h> -->
+<!-- <!-- <h> --> -->
 
-     Ⓙ  アイスクリームが食べたい
-     Ⓔ  I want to eat ice cream
-     Ⓤ  (As for me), Ice cream is desirable to eat
+<!--      Ⓙ  アイスクリームが食べたい -->
+<!--      Ⓔ  I want to eat ice cream -->
+<!--      Ⓤ  (As for me), Ice cream is desirable to eat -->
 
-     Ⓙ  英語が話せます
-     Ⓔ  I can speak english
-     Ⓤ  (As for me), English is possible to speak 
-     
-     Ⓙ  すしが好き
-     Ⓔ  I like sushi
-     Ⓤ  (As for me), Sushi is pleasing/likeable
-       
-     Ⓙ  車がほしい
-     Ⓔ  I want a car
-     Ⓤ  (As for me), Car is desirable
-           
-     Ⓙ  やさいが嫌いです
-     Ⓔ  I don’t like vegetable
-     Ⓤ  (As for me), Vegeatable is undesirable 
-            
-     Ⓙ  料理ができません
-     Ⓔ  I can’t cook
-     Ⓤ  (As for me), Cooking is not possible 
+<!--      Ⓙ  英語が話せます -->
+<!--      Ⓔ  I can speak english -->
+<!--      Ⓤ  (As for me), English is possible to speak  -->
 
-     Ⓙ  この漢字の意味が分かりますか
-     Ⓔ  Do you understand the meaning of this kanji?
-     Ⓤ  (As for me), The meaning of the kanji is understandable     
+<!--      Ⓙ  すしが好き -->
+<!--      Ⓔ  I like sushi -->
+<!--      Ⓤ  (As for me), Sushi is pleasing/likeable -->
 
-     Ⓙ  この漢字の意味が分かりますか
-     Ⓔ  To go to Japan, one needs money
-     Ⓤ  (As for me), To got to Japan, Money is necessary/requisite  
+<!--      Ⓙ  車がほしい -->
+<!--      Ⓔ  I want a car -->
+<!--      Ⓤ  (As for me), Car is desirable -->
+
+<!--      Ⓙ  やさいが嫌いです -->
+<!--      Ⓔ  I don’t like vegetable -->
+<!--      Ⓤ  (As for me), Vegeatable is undesirable  -->
+
+<!--      Ⓙ  料理ができません -->
+<!--      Ⓔ  I can’t cook -->
+<!--      Ⓤ  (As for me), Cooking is not possible  -->
+
+<!--      Ⓙ  この漢字の意味が分かりますか -->
+<!--      Ⓔ  Do you understand the meaning of this kanji? -->
+<!--      Ⓤ  (As for me), The meaning of the kanji is understandable      -->
+
+<!--      Ⓙ  この漢字の意味が分かりますか -->
+<!--      Ⓔ  To go to Japan, one needs money -->
+<!--      Ⓤ  (As for me), To got to Japan, Money is necessary/requisite   -->
 
 ------------------------------------------------------------------------
 
@@ -5438,15 +5545,21 @@ General concept of de particle is setting a limit or a boundary
     ・暇な時にはどんなことをして過ごしますか
     ・東京にいた時はいろいろ楽しい経験をした
     ・家を出た時に忘れ物気がついた
+    ・韓国へ行く時成田ででカメラを買いました
+    ・韓国へ行った時南山タワーの前で写真を撮りました
+
+<!-- <h> -->
 
     ・When my mother read books, she wears glasses
     ・When I got married, my grandmother cried
     ・When I am happy or sad, I often listen to this music
     ・When there is an earthquake, put out the fire immediately
     ・When I was a child, I lived in a small village in the country
-    ・What do you do in your spare time?
+    ・When it is your spare time, what do you do ?
     ・When I was in Tokyo, I had a lot of fun experiences
     ・When I left home, I realised I forgot something 
+    ・When I went to Korea, I bought a camera at Narita Airport
+    ・When I went to Korea, I took a picture in front of the Namsan Tower
 
 **②　ながら ◦ While doing (Verb)**
 
@@ -5609,6 +5722,122 @@ General concept of de particle is setting a limit or a boundary
 ------------------------------------------------------------------------
     
 #### Intermediate・Advance {.tabset}
+
+##### Object of Action
+
+**①　について ◦ About**
+
+###### **⚭　N  + nitsuite**`pre-verbal form`
+
+###### **⚭　N  + nitsuite + no + N**`pre-nominal form`
+
+###### Express the meaning of ‘about or regarding something’
+
+    ・この町の歴史について調べてみようと思っている
+    ・あの人について私は何も知らない
+    ・この日本文化史について話します
+    ・今夜は国の教育制度について考えてみましょう
+    ・この日本文化史についてのレポートは大変できている
+    ・その点については全面的に賛成は出来ない
+    ・事故の原因について究明する
+    ・将来についての夢を語った
+
+<!-- <h> -->
+
+    ・I'm going to do some research about the history of this town
+    ・I don't know anything about that man
+    ・I'm going to talk about this history of Japanese culture
+    ・Tonight, let's think about our country's education system
+    ・This report about the history of Japanese culture is very well done
+    ・I can't fully agree with you about that point
+    ・I will investigate about the cause of the accident
+    ・He talked about his dreams concerning his future
+
+**②　に関して ◦ About・Regarding・ In Relation to**
+
+###### **⚭　N  + nikanshite**`pre-verbal form`
+
+###### **⚭　N  + nikansuru + N**`pre-nominal form`
+
+###### **⚭　N  + nikanshite + no + N**`pre-nominal form`
+
+###### Express the meaning of ‘concerning something’ or ‘as to something’
+
+    ・この問題に関してもう少し考える必要がある
+    ・その事件に関して学校から報告があった
+    ・本件に関しては現在調査しております
+    ・その問題に関して質問したいことがある
+    ・コンピュータに関する彼の知識は相当なものだ
+    ・その事件に関しての報告はまだ受けていない
+    ・地質学に関しての本を読んでいる
+    ・車の修理に関してどうしましたか
+
+<!-- <h> -->
+
+    ・I need to think about this issue some more
+    ・I got a report from the school about the incident
+    ・We are currently investigating in relation this matter
+    ・I'd like to ask you a few questions about that issue
+    ・His knowledge regarding computers is quite impressive
+    ・I haven't received a report in relation to that incident yet
+    ・I'm reading a book about geology
+    ・What did you do about repairing your car?
+
+**③　に対して ◦ Towards・Against・Regarding**
+
+###### **⚭　N  + nitaishite**`pre-verbal form`
+
+###### **⚭　N  + nitaisuru + N**`pre-nominal form`
+
+###### **⚭　N  + nitaishite + no + N**`pre-nominal form`
+
+###### Express the meaning of ‘toward something/state/event’
+
+    ・私の質問に対して何も答えてくれなかった
+    ・彼は女性に対しては親切に指導してくれる
+    ・私の発言に対して彼は猛烈に攻撃を加えてきた
+    ・砂3に対して1の割合で土を混ぜます
+    ・学生一人に対して20平米のスペースが確保されている
+    ・子供に対して短気を起こしてはいけない
+    ・私の疑問に対する答えはなかなか得られない
+    ・書画に対する造詣が深い
+    ・店員さんはお客様に対して丁寧な言葉を使います
+    ・お年寄りに対してもっと親切にするべきです
+
+<!-- <h> -->
+
+    ・He didn't answer in reagrds to any of my questions
+    ・He's a kind mentor towards women
+    ・He has been fiercely against my remarks
+    ・Mix the soil at a ratio of 1 to 3 sand
+    ・20 square meters of space is secured for each student
+    ・Don't lose your temper with your children
+    ・Answers to my questions are hard to come by
+    ・Profound knowledge regarding calligraphy
+    ・Shopkeepers use polite words towards the customers
+    ・We should be more kind towards the elderly
+
+**④　に応えて ◦ In Response to・In Accordance with**
+
+###### **⚭　N  + nikotaete**`pre-verbal form`
+
+###### **⚭　N  + nikotaeru + N**`pre-nominal form`
+
+###### Taking action in accordance with nouns expressing question, expectation, hope
+
+###### Express the meaning of ‘to realise something’
+
+    ・両親の期待に応えて私はイギリスに留学した
+    ・社員の要求に応えて労働時間を短縮した
+    ・消費者のニーズに応えてわが社は新製品を開発した
+    ・私の要望に応えて父はお昼ご飯にラーメンを作った
+
+<!-- <h> -->
+
+    ・In response to my parents' expectations, I went to England to study
+    ・Reduced working hours in response to employees' demands
+    ・In response to consumer needs, we have developed a new product
+    ・In response to my request, my father made ramen noodles for lunch
 
 ------------------------------------------------------------------------
 
@@ -8995,6 +9224,71 @@ reactable(
 ------------------------------------------------------------------------
 
 ## Reading {.tabset}
+
+------------------------------------------------------------------------
+
+## Fun Corner {.tabset}
+
+### 英語-日本語
+
+### Simple Questions
+
+**How can I get to Shinjuku?**  
+
+新宿への行き方を教えてください    
+新宿へはどうやって行けばいいですか？       
+新宿へはどうやって行けばいいのですか？　　　　  
+新宿への行き方は？　　  
+
+**Who should I ask?**　　 
+
+誰に聞けばいいの？　　  
+誰に聞けばいいのか？　　  
+誰に頼めばいいのですか？　　  
+誰に聞けばいいのでしょうか？  　　　
+
+**What time should I come?**  
+
+何時に行けばいいですか？    
+何時に来ればいいの？    
+何時に来ればいいのか？    　
+
+**How about a cup of coffee?**     
+
+コーヒーでも飲みませんか？   
+コーヒーはいかがですか？    
+コーヒーはどうですか？     　　
+
+**What kind of person is your type?**   
+
+あなたのタイプはどんな人ですか？    
+あなたのタイプはどんな人？    
+どんな人がタイプですか？    
+どんな人がタイプなの？　　　　
+
+**I would like to order please**   
+
+注文したいのですが     
+注文したいと思います     
+注文したいのですが、お願いします           
+
+**Can I have the bill, please?**
+
+お会計をお願いします   
+お会計をお願いできますか？   
+お勘定お願いします   
+請求書をいただけますか？
+
+**Can you take a picture of me please?**   
+
+私の写真を撮ってくれませんか    
+私の写真を撮ってもらえますか    
+私の写真を撮ってくれません？   
+
+**Could I have you to take a picture of me please?**
+
+私の写真を撮ってもらえませんか   
+私の写真を撮っていただけますか   
 
 ------------------------------------------------------------------------
 
