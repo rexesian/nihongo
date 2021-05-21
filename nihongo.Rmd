@@ -3998,12 +3998,12 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(250:449),
+  srvb2 %>% slice(250:526),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(250:449))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(250:526))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
           div(style = list(fontSize = 35, fontWeight = 700), value),
