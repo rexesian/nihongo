@@ -86,6 +86,8 @@ vrbexp1 <- read_csv("rdata/Sheet 55-VRBXP1.csv")
 vnnexp1 <- read_csv("rdata/Sheet 56-NNXP1.csv")
 adjexp1 <- read_csv("rdata/Sheet 57-ADJXP1.csv")
 tchnl <- read_csv("rdata/Sheet 58-TCHN1.csv")
+trvy <- read_csv("rdata/Sheet 60-TRSTVY1.csv")
+phvrb <- read_csv("rdata/Sheet 59-PVRB1.csv")
 
 ```
 
@@ -3259,40 +3261,32 @@ A **verb** is a word that expresses the physical or mental activities carried ou
 ##### Groups
 
 **Godan**`Consonant-Stem`  
-In the dictionary form, Godan verbs may end with *-u*,*-tsu*,*-ru*,*-mu*,*-bu*,*-nu*,*-ku*,*-gu*,*-su*.
+In the dictionary form, Godan verbs may end with **-u**,**-tsu**,**-ru**,**-mu**,**-bu**,**-nu**,**-ku**,**-gu**,**-su**.
 
     ・買う・待つ・知る・読む・遊ぶ・死ぬ・書く・泳ぐ・話す
-
-<!-- <h> -->
-
     ・buy・wait・know・read・play・die・write・swim・talk
 
 **Ichidan**`Vowel-Stem`  
-In the dictionary form, Ichidan verbs all ends with either *-eru* or *-iru*.
+In the dictionary form, Ichidan verbs all ends with either **-eru** or **-iru**.
 
-*eru*
+(1) eru
+
+<!-- <h>  -->
 
     ・あげる・出る・晴れる・食べる
-
-<!-- <h> -->
-
     ・to raise・to leave・to clear up・to eat
 
-*iru*
+(2) iru
+
+<!-- <h>  -->
 
     ・きる・見る・落ちる・いる
-
-<!-- <h> -->
-
     ・to wear・to see・to fall・be located
 
 **Irregular**  
-There are only 2 irregular verbs in Japanese: *suru(do)*, *kuru(come)*.
+There are only 2 irregular verbs in Japanese: **suru(do)**, **kuru(come)**.
 
     ・来る・勉強する・電話する
-
-<!-- <h> -->
-
     ・to come・to study・to call
 
 ------------------------------------------------------------------------
@@ -3332,9 +3326,6 @@ They express events, movements or the spontaneous changes undergone by the subje
 Describes the state of a person, animal or thing. 
 
     ・いる・いる・ある・できる・飲める
-
-<!-- <h>  -->
-
     ・need・to exist/have (animate things)・to exist/have (inanimate things)・can do・can drink (all potential verbs) 
  
 <!-- <h>  -->
@@ -3351,8 +3342,25 @@ Describes the state of a person, animal or thing.
 
 ###### Active
 
-**Action verbs **   
+**Active・Durative・Continual verbs**   
 Expresses actions that a person, animal, organization, etc. performs.
+I takes some time or duration to complete the action.
+
+    ・食べる・飲む・歩く・走る・踊る
+    ・歌う・泳ぐ・まつ・話す・聞く
+    ・読む・書く・見る・泣く・教える
+    ・見せる・使う・作る・笑う・休む
+    ・飛ぶ・考える・会う・住む・勉強する
+
+<!-- <h>  -->
+
+    ・eat・drink・walk・run・dance
+    ・sing・swim・wait・talk・hear
+    ・read・write・see・cry・teach
+    ・show・use・make・laugh・rest
+    ・fly・think・meet・live・study
+
+<!-- <h>  -->
 
     ・私は晩ご飯を食べました
     ・犬が吠えました    
@@ -3370,9 +3378,6 @@ Expresses actions that a person, animal, organization, etc. performs.
 Can be either a stative or active verb.
 
     ・見える・聞こえろ・分かる・違う・似合う
-
-<!-- <h>  -->
-
     ・be visible・be audible・understand・differ・be suitable
 
 ------------------------------------------------------------------------
@@ -3381,57 +3386,45 @@ Can be either a stative or active verb.
 
 **Punctual・Momentary verbs**   
 Are events that takes place in a moment.  
-
-*Transition from one state to another*
-
-    ・知る・死ぬ・入る・咲く・空く・閉じる・壊れる 
-
-<!-- <h>  -->
-
-    ・to realize・to die・to enter・to bloom・to be vacant・to close・to break apart
-
-*Start of action or motion from static state*
-
-    ・散る・立つ・落ちる・倒れる
+(1) Transition from one state to another   
+(2) Start of action or motion from static state   
+(3) Arrival of completion   
 
 <!-- <h>  -->
 
-    ・to fall/scatter・to stand up・to fall (from height)・to fall over
-
-*Arrival of completion*
-
-    ・着く・届く・触れる
+    ・知る・死ぬ・入る・出る・咲く・空く・開く・閉じる・壊れる 
+    ・散る・立つ・落ちる・倒れる・行く・来る・始まる・付く
+    ・着く・届く・触れる・止める・終わる・座る・打つ・跳ぶ・寝る
+    ・困る・乗る・上げる・もらう・疲れる・起きる・結婚する
+    ・帰る・言う・忘れる・貸す・借りる・覚える・なる・ける・合う
 
 <!-- <h>  -->
-
-    ・to arrive・to reach・to touch
-    
-*More Examples*
-
-    ・上げる・もらう・疲れる・困る・乗・始まる・終わる・打つ・出る・座る
-    ・起きる・結婚する・行く・来る・帰る・言う・忘れる・貸す・借りる・飛ぶ
+   
+    ・to realize・to die・to enter・to gout・to bloom・to be vacant・to open・to close・to break apart
+    ・to fall/scatter・to stand up・to fall (from height)・to fall over ・to go・to come・to begin・to attach
+    ・to arrive・to reach・to touch・to stop・to end・to sit・to hit・to jump・to go to bed
+    ・to get in trouble・to get on・to give・to receive・to get tired・to wake up・to marry
+    ・to go home・to say・to forget・to lend・to borrow・to remamber・to become・to kick・to match
 
 ------------------------------------------------------------------------
 
 ###### Non-Volitional
 
-**Non-Volitional verbs**   
-Usually does not take the volitional form, the imperative and potential form.
-
-**Emotive** 
-
-    ・喜ぶ・悲しむ・怒る・嫌う・好む・困る・苦しむ
+**Non-Volitional verbs** 
+The outcome of the action is not controlled by the subject in any case.    
+In onset, development and outcome are out of the subject´s control.   
+Usually does not take the volitional form, the imperative and potential form.   
+(1) Emotive   
+(2) Non-Emotive   
 
 <!-- <h>  -->
 
-    ・be pleased・be sad・be angry・hate・like・trouble・suffer
-
-**Non-Emotive** 
-
+    ・喜ぶ・悲しむ・怒る・嫌う・好む・困る・苦しむ
     ・できる・いる・知る・見える・聞こえる・分かる・違う・似合う・疲れる
 
 <!-- <h>  -->
 
+    ・be pleased・be sad・be angry・hate・like・trouble・suffer
     ・can do・need・to know・be visible・be audible・understand・differ・suitable・get tired
 
 ------------------------------------------------------------------------
@@ -3442,10 +3435,17 @@ Usually does not take the volitional form, the imperative and potential form.
 Takes the particle "to" for the direct object.
 
     ・結婚する・喧嘩する・会う・合う・打つかる・相談する    
+    ・marry・fight・meet・match・bump into・consult
+
+<!-- <h>  -->
+   
+    ・親友と結婚する
+    ・駅前で友達と待ち合わせる
 
 <!-- <h>  -->
 
-    ・marry・fight・meet・match・bump into・consult
+    ・I'm marrying my best friend
+    ・I’ll meet my friends in front of the station
 
 ------------------------------------------------------------------------
 
@@ -3454,12 +3454,21 @@ Takes the particle "to" for the direct object.
 **Movement verbs**    
 Can take Vmasu ni to express purpose.
 
-    ・行く・来る・帰る・入る・出る・寄る  
+    ・行く・来る・帰る・入る・出る・立ち寄る  
+    ・go・come・return・enter・get out・stop by
 
 <!-- <h>  -->
 
-    ・go・come・return・enter・get out・stop by
-    
+    ・日本に勉強に行きます
+    ・ご飯を食べに帰りましょう
+    ・日本へ英語を教えに来ます
+
+<!-- <h>  -->
+   
+    ・I'm going to Japan to study
+    ・Let's go home for dinner
+    ・I'm coming to Japan to teach English
+
 ------------------------------------------------------------------------
 
 ###### Active-Punctual
@@ -3468,10 +3477,9 @@ Can take Vmasu ni to express purpose.
 Can be either be a active or punctual verb.
 
     ・着る・取る・変わる・注文する
+    ・wear・take・change・order
 
 <!-- <h>  -->
-
-    ・wear・take・change・order
 
 ------------------------------------------------------------------------
 
@@ -3538,6 +3546,8 @@ Describes a habitual or repeated action.
 **Existing-Condition**`Resultative`
 
 Describes the current condition of the subject due to consequence of past occurrence.
+Transitive verbs are being used in this case.
+Indicates that the past occurrence was done by someone and not by you.
 
     ・戸が開けてある
     ・壁にカレンダーがかけてありますよ    
@@ -3545,7 +3555,7 @@ Describes the current condition of the subject due to consequence of past occurr
 <!-- <h>  -->
 
     ・The door has been opened (by someone)
-    ・The calendar has been hanged on the wall
+    ・The calendar has been changed on the wall
 
 ------------------------------------------------------------------------
 
@@ -3912,7 +3922,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(1:64))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -3954,7 +3964,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(65:249))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -3988,15 +3998,15 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(250:340),
+  srvb2 %>% slice(250:449),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(65:249))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(250:449))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4051,7 +4061,7 @@ reactable(
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
 
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 35, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), Romaji),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -4120,14 +4130,14 @@ reactable(
         s5 <- srvb3$s5[index]
         s5 <- if (!is.na(s5)) s5 else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 35, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 11, fontWeight = 200), Type),
-          div(style = list(fontSize = 15, fontWeight = 200), s1),
-          div(style = list(fontSize = 15, fontWeight = 200), s2),
-          div(style = list(fontSize = 15, fontWeight = 200), s3),
-          div(style = list(fontSize = 15, fontWeight = 200), s4),
-          div(style = list(fontSize = 15, fontWeight = 200), s5),
+          div(style = list(fontSize = 11, fontWeight = 200), Type)
+          # div(style = list(fontSize = 15, fontWeight = 200), s1),
+          # div(style = list(fontSize = 15, fontWeight = 200), s2),
+          # div(style = list(fontSize = 15, fontWeight = 200), s3),
+          # div(style = list(fontSize = 15, fontWeight = 200), s4),
+          # div(style = list(fontSize = 15, fontWeight = 200), s5),
         )
       },
       align = "center", minWidth = 400
@@ -4190,7 +4200,7 @@ reactable(
         Meaning <- srvb4$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 35, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -4222,6 +4232,123 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+###### TVerbs
+
+```{r, echo=FALSE, message=FALSE}
+
+trvy1 <- trvy %>% select(TVerbs, IVerbs) %>%
+  separate(TVerbs, into = c('Trans.Verb','Transcript1'), sep = '\\:') %>%
+  separate(IVerbs, into = c('Itrans.Verb','Transcript2'), sep = '\\:') %>%
+  select(Trans.Verb,Transcript1,Itrans.Verb,Transcript2)
+trvy1 <- trvy1[sample(1:nrow(na.omit(trvy1))),]
+
+reactable(
+  na.omit(trvy1),
+  columns = list(
+    Trans.Verb = colDef(
+      cell = function(value, index) {
+        Transcript1 <- trvy1$Transcript1[index]
+        Transcript1 <- if (!is.na(Transcript1)) Transcript1 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript1)
+        )
+      },
+      align = "center"
+    ),
+    Itrans.Verb = colDef(
+      cell = function(value, index) {
+        Transcript2 <- trvy1$Transcript2[index]
+        Transcript2 <- if (!is.na(Transcript2)) Transcript2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript2)
+        )
+      },
+      align = "center"
+    ),
+    Transcript1 = colDef(show = FALSE),
+    Transcript2 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### PVerbs
+
+```{r echo=FALSE, message=FALSE}
+
+phvrb <- phvrb[sample(1:nrow(na.omit(phvrb))),]
+
+reactable(
+  na.omit(phvrb),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- phvrb$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
@@ -4750,6 +4877,8 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 ### に
 
+The **general concept** of **ni** is indicating a **contact**.
+
 **①　Place of existence**
 `in・at・on`
 
@@ -4757,7 +4886,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 ###### **⚭　Stative Verb: いる・ある**
 
-###### **⚭　Punctual Verb-te + iru/aru: 暮らす・根ざす・残る・落ち着く・住む・泊まる・勤める・浮かぶ・横たわる・座る・立つ**
+###### **⚭　Verb-te + iru/aru: 暮らす・根ざす・残る・落ち着く・住む・泊まる・勤める・浮かぶ・横たわる・座る・立つ**
 
     ・駅の前にデパートがあります
     ・私の家族は香港にいます
@@ -4943,8 +5072,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 ### で
 
-**Note:**
-General concept of de particle is setting a limit or a boundary
+The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **①　Place of action**
 `at`
@@ -6265,7 +6393,9 @@ reactable(
 
 ###### Express that the outcome is different from what was expected or predicted
 
-###### Expression of expectation, intention, or desire such as と思っていた(I thought), つもりだった(I intended), てほしかった(I wanted someone to)
+###### Expression of expectation, intention, or desire such as:
+
+###### と思っていた(I thought), つもりだった(I intended), てほしかった(I wanted someone to)
 
     ・合格すると思っていたのに、不合格だった
     ・今晩中に電話するつもりだったのに、うっかり忘れました    
@@ -6285,7 +6415,7 @@ reactable(
 
 ###### Often used wheb the speaker is critizing or complaining about someone else's actions
 
-###### End of a counter-factual conditional snetence
+###### End of a counter-factual conditional sentence
 
     ・スピードを出すから事故を起こしたんだ。ゆっくり走れと行っておいたのに
     ・絶対来るとあんなに固く約束したのに   
@@ -6303,7 +6433,9 @@ reactable(
 
 ###### **⚭　N+demo.. noni**
 
-###### Expresses the development of a logical argument if it’s is such-and-such, but that was not result/case for others (could be less or more)
+###### Expresses the development of a logical argument if it’s is such-and-such,
+
+###### But that was not result/case for others (could be less or more)
 
     ・電気屋でも直せないのにあなたに直せるはずがないじゃないの
     ・九州でもこんなに寒いのにまして北海道はどんなに寒いだろう   
@@ -9297,6 +9429,16 @@ reactable(
 
 私の写真を撮ってもらえませんか   
 私の写真を撮っていただけますか   
+
+**I will pick it up this afternoon**
+
+今日の午後に取りに行きます
+今日の午後に取りに行く予定です
+
+**Can I leave my luggage here for a while**
+
+荷物を一時的に預けることはできますか？
+荷物を一時的に預けることができますか？
 
 ------------------------------------------------------------------------
 
