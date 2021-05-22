@@ -3451,20 +3451,26 @@ Takes the particle "to" for the direct object.
 
 ###### Movement
 
-**Movement verbs**    
-Can take Vmasu ni to express purpose.
+**Movement verbs**  
+Use particle ni to indicate the destination of the movement.   
+Use particle e to indicate the direction of the movement.    
+Can take V~~masu~~ ni to express purpose.    
 
     ・行く・来る・帰る・入る・出る・立ち寄る  
     ・go・come・return・enter・get out・stop by
 
 <!-- <h>  -->
 
+    ・日本に行きます
+    ・韓国へ行きます
     ・日本に勉強に行きます
     ・ご飯を食べに帰りましょう
     ・日本へ英語を教えに来ます
 
 <!-- <h>  -->
    
+    ・I'm going to Japan
+    ・I'm going to Korea
     ・I'm going to Japan to study
     ・Let's go home for dinner
     ・I'm coming to Japan to teach English
@@ -4367,7 +4373,12 @@ reactable(
 **①　Copula**
 `da → de`
 
-###### **Noun/Na-Adj + de**
+###### **⚭　Noun/Na-Adj + de**
+
+    ・doubutsu   ⇢   doubutsude 
+    ・kirei      ⇢   kireide
+
+<!-- <h> -->
 
     ・ウンさんは中国人でキムさんは韓国人です 
     ・りなさんはきれいでやさしいです
@@ -4380,7 +4391,12 @@ reactable(
 **②　I-Adjective**
 `i → kute`
 
-###### **I-Adj + kute**
+###### **⚭　I-Adj + kute**
+
+    ・yasui   ⇢   yasukute
+    ・okii    ⇢   okikute
+
+<!-- <h> -->
 
     ・この辞書は安くて便利だ
     ・あの家は大きくて美しい
@@ -4394,7 +4410,12 @@ reactable(
 `Verb → Noun-base form`
 `Verb → Te-form`
 
-###### **Vte/Vnoun**
+###### **⚭　Vnoun/Vte**
+
+    ・okiru     ⇢   oki
+    ・taberu    ⇢   tabete
+
+<!-- <h> -->
 
     ・私は朝六時に起き、夜十時ごろ寝る
     ・山田さんはラメンを食べてビールを飲む
@@ -4408,7 +4429,7 @@ reactable(
 
 #### Auxiliaries/Helpers {.tabset}
 
-**Auxiliaries** or **Helpers** are attached at the end of word or sentence to give nuance.
+**Auxiliaries** or **Helpers** are attached at the end of a word or a sentence to give nuance.
 
 ##### Aux-Adj {.tabset}
 
@@ -4416,11 +4437,9 @@ reactable(
 
 **rashii**`seem・look like・apparently`
 
-**⚭　V/I-Adj/Na-Adj/N + rashii**
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + rashii + (da/desu)**</p> 
 
-(1) The preceding sentence is the speakers conjecture base on what he has heard, read or seen
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) The preceding sentence is the speakers conjecture base on what he has heard, read or seen</p> 
 
     ・杉本さんはもう帰ったらしいです
     ・このあたりはとても静からしいです
@@ -4431,41 +4450,28 @@ reactable(
     ・Sugimoto-san seems to have gone home already
     ・It seems that this area is very quiet
     ・Apparently the story is true
+
+<p style="font-size:12px;">**⚭　N + rashii**</p> 
+
+<p style="font-size:12px;">(❖) Attached to a noun to describe likeness in inner characteristics</p> 
+
+    ・男らしい男が好きだ
+    ・今日は冬らしい寒い日です
+    ・女らしい仕草
+
+<!-- <h> -->
+
+    ・I like a manly man
+    ・It's a cold, wintery day today
+    ・feminine/girly gesture
 
 ###### souda
 
 **souda**`seem・look・look like・appear`
 
-**⚭　V~~masu~~/I-Adj~~i~~/Na-Adj/N + rashii**
+<p style="font-size:12px;">**⚭　V~~masu~~/I-Adj~~i~~/Na-Adj/N + sou + (da/desu)**</p> 
 
-(1) The preceding sentence is the speakers conjecture base on what he sees or feels.
-
-<!-- <h> -->
-
-    ・杉本さんはもう帰ったらしいです
-    ・このあたりはとても静からしいです
-    ・その話は本当らしい
-
-<!-- <h> -->
-
-    ・Sugimoto-san seems to have gone home already
-    ・It seems that this area is very quiet
-    ・Apparently the story is true
-
-------------------------------------------------------------------------
-
-##### Aux-Verbs  {.tabset}
-
-###### ageru
-
-**ageru**`doing something for someone`  
-
-**⚭　Vte + ageru**
-
-(1) Someone gives an action as a favor to someone not within the group
-(2) The status of giver and receiver is about equal
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) The preceding sentence is the speakers conjecture base on what he sees or feels</p> 
 
     ・雨が降りそうだ
     ・あの車は高そうだ
@@ -4477,43 +4483,36 @@ reactable(
     ・It looks like it will rain
     ・That car looks expensive
     ・That steak looked delicious
-    ・TThis neighborhood looks quiet
+    ・This neighborhood looks quiet
+    
+###### youda
 
-------------------------------------------------------------------------
+**youda**`seem・look as if・look like・appear`
 
-##### Aux-Others  {.tabset}
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj+na/N+no + you + (da/desu)**</p> 
 
-###### souda
+<p style="font-size:12px;">(❖) The preceding sentence is the speakers conjecture base on what he sees in connection with logical reasoning and judgment</p> 
+<p style="font-size:12px;">(❖) Expresses the likelihood of something or the likeness of something to something</p> 
 
-**souda**`I hear that・I heard that`
-
-**⚭　V/I-Adj/Na-Adj/N + sou da/sou desu**
-
-(1) Indicates that the information expressed by the preceding sentence is what the speaker heard
-
+    ・杉山さんはアメリカへいくようだ
+    ・この問題は学生にはちょっと難しいようだ
+    ・木村さんは昨日お酒を飲んだようだ
+    ・ここは昔学校だったようだ
+    
 <!-- <h> -->
 
-    ・日本の肉はとても高いそうだ
-    ・清水さんはお酒を飲まないそうです
-    ・長澤さんは英語がとても上手だそうです
-    ・キングさんは英語の先生だそうだ
-
-<!-- <h> -->
-
-    ・I heard that meat in Japan is very expensive
-    ・I heard that Shimizu-san doesn't drink alcohol
-    ・I heard that Ms. Nagasawa speaks very good English
-    ・I heard that Mr. King is a teacher of English
+    ・It appears that Mr. Sugiyama is going to America
+    ・This problem seems to be a bit difficult for students
+    ・It seems that Mr. Kimura drank sake yesterday
+    ・Looks like this place used to be a school
     
 ###### mitai   
 
 **mitai**`looks like・seems・look`
 
-**⚭　V/I-Adj/Na-Adj/N + mitai desu**
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + mitai desu**</p> 
 
-(1) Indicates that the information expressed by the preceding sentence is what the speaker sees
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) Indicates that the information expressed by the preceding sentence is what the speaker sees</p> 
 
     ・おじいちゃんは散歩に行くみたいです
     ・青木さん会社を辞めたみたいですよ
@@ -4526,14 +4525,15 @@ reactable(
     ・Mr. Aoki seems to have quit the company
     ・It looks like the baby's sleeping, so you'd better be quiet
     ・She looks like a cat
-    
-**⚭　V/I-Adj/Na-Adj/N + mitai + na + Noun**   
-**⚭　V/I-Adj/Na-Adj/N + mitai + ni + Verb**   
 
-<!-- <h> -->
+<p style="font-size:12px;">**⚭　N + mitai**</p> 
+<p style="font-size:12px;">**⚭　N + mitai + na + Noun** </p>   
+<p style="font-size:12px;">**⚭　N + mitai + ni + Verb/Adj** </p>   
+
+<p style="font-size:12px;">(❖) Attached to a noun to describe likeness in appearance</p> 
 
     ・猫みたいな彼女が欲しい
-    ・彼女はモデルみたいな美しい
+    ・彼女はモデルみたいに美しい
     ・あの子はまるで犬みたいに食べる
 
 <!-- <h> -->
@@ -4542,17 +4542,130 @@ reactable(
     ・She's beautiful, like a model
     ・That girl eats like a dog
 
+###### tai
+
+**tai**`want・would like`
+
+<p style="font-size:12px;">**⚭　V~~masu~~ + tai + (da/desu)**</p> 
+
+<p style="font-size:12px;">(❖) Expresses a desire to something</p>  
+
+    ・ケーキが食べたいです
+    ・コーヒーが飲みたいです
+    ・つめたい水が飲みたいです
+    
+<!-- <h> -->
+
+    ・I want to eat cake
+    ・I'd like some coffee
+    ・I'd like to drink some cold water
+    
+<p style="font-size:12px;">(❖) Logical translation of the sentences</p> 
+
+    ・(As for me), Cake is desirable to eat
+    ・(As for me), Coffee is desirable to drink
+    ・(As for me), Cold water is desirable to drink
+
+<p style="font-size:12px;">(❖) Use particle o when indicating place of passage</p> 
+
+    ・私は早くこの電車を降りたい
+    ・私は公園を歩きたい
+    ・鳥になって空を飛びたいです
+    
+<!-- <h> -->
+
+    ・I want to get off this train
+    ・I want to walk in the park
+    ・I want to be a bird and fly in the sky
+
+<p style="font-size:12px;">(❖) Use particle o when a passive verb was used i the sentence</p> 
+
+    ・ジョンに顔面を殴られたい
+    ・蛇に足を噛まれたい
+    ・私は先生にこの絵を褒められたい
+    
+<!-- <h> -->
+   
+    ・I want to get hit at the face by John
+    ・I want to get bitten at my legs by a snake
+    ・I want to have this picture praised by my teacher
+
+###### garu
+
+**garu**`show signs of`
+
+<p style="font-size:12px;">**⚭　Vta~~i~~/I-Adj-~~i~~/Na-Adj + garu**</p> 
+
+<p style="font-size:12px;">(❖) Showing a sign of something</p> 
+
+    ・和男はスポーツかーを欲しがった
+    ・上田さんはアイスクリむを食べたがった
+    ・スーザンは一人でさびしがっています
+    ・子供が眠たがっている
+    
+<!-- <h> -->
+
+    ・Kazuo wanted a sports car
+    ・Ueda-san wanted to eat ice cream
+    ・Susan is alone and lonely
+    ・The child wants to sleep
+
+------------------------------------------------------------------------
+
+##### Aux-Verbs  {.tabset}
+
+###### ageru
+
+**ageru**`doing something for someone`  
+
+<p style="font-size:12px;">**⚭　Vte + ageru**</p> 
+
+<p style="font-size:12px;">(❖) Someone gives an action as a favor to someone not within the group</p> 
+<p style="font-size:12px;">(❖) The status of giver and receiver is about equal</p> 
+
+    ・私は信雄さんにネクタイを買ってあげた
+    ・リマさんに英語を教えてあげました
+    ・田中さんはスミスさんに本を貸してあげた
+    
+<!-- <h> -->
+
+    ・I bought a tie for Nobuo
+    ・I taught Rima English
+    ・Mr. Tanaka lent Mr. Smith a book
+
+------------------------------------------------------------------------
+
+##### Aux-Others  {.tabset}
+
+###### souda
+
+**souda**`I hear that・I heard that`
+
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + sou da/sou desu**</p> 
+
+<p style="font-size:12px;">(❖) Indicates that the information expressed by the preceding sentence is what the speaker heard</p> 
+
+    ・日本の肉はとても高いそうだ
+    ・清水さんはお酒を飲まないそうです
+    ・長澤さんは英語がとても上手だそうです
+    ・キングさんは英語の先生だそうだ
+
+<!-- <h> -->
+
+    ・I heard that meat in Japan is very expensive
+    ・I heard that Shimizu-san doesn't drink alcohol
+    ・I heard that Ms. Nagasawa speaks very good English
+    ・I heard that Mr. King is a teacher of English
+
 ###### kamo
 
 **kamo**`might`
 
-**⚭　V/I-Adj/Na-Adj/N + kamo**   
-**⚭　V/I-Adj/Na-Adj/N + kamoshirenai**    
-**⚭　V/I-Adj/Na-Adj/N + kamoshiremasen**    
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + kamo** </p>   
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + kamoshirenai** </p>    
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + kamoshiremasen** </p>    
 
-(1) Indicates that the information expressed by the preceding sentence might happen or not
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) Indicates that the information expressed by the preceding sentence might happen or not</p> 
 
     ・そろそろ梅雨入りかもね
     ・これは無料じゃないかも
@@ -4569,6 +4682,24 @@ reactable(
     ・Mother might be sleeping rigth now
     ・I might have left my wallet at home
     ・There might be a sale going on right now
+    
+###### darou
+
+**darou**`probably・guess`
+
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + darou/deshou**</p>  
+
+<p style="font-size:12px;">(❖) Indicates that the information expressed by the preceding sentence is not based on any particular info or evidence</p> 
+
+    ・あのアパートは高いでしょう
+    ・かこちんさんはスキーが上手だろう
+    ・あの人は韓国人だろう
+
+<!-- <h> -->
+
+    ・That apartment probably expensive
+    ・Kakocin-san is probably good at skiing
+    ・That man is probably Korean
 
 ------------------------------------------------------------------------
 
@@ -4788,7 +4919,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 **②　Negative sentence**
 
-###### **⚭　Noun + wa + ... \~nai**
+###### **⚭　Noun + wa + .. ~nai**
 
     ・私はいきません   
     ・私は車は持っていません
@@ -4814,7 +4945,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 **④　Contrastive sentence**
 
-###### **⚭　X wa ... ga , Y wa**
+###### **⚭　X wa .. ga , Y wa**
 
     ・英語はわかりますが中国語はわかりません
     ・I understand English but I don’t understand Chinese
@@ -4825,7 +4956,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 **①　Direct object of the verb(*vt*)**
 
-###### **⚭　Noun + wo + ... + verb**
+###### **⚭　Noun + wo + .. + verb**
 
     ・毎朝はパンと卵を食べます
     ・コーヒーを飲みましょう
@@ -4839,7 +4970,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 **②　Indicates place of passage**
 
-###### **⚭　Noun + wo + ... + verb(walk/cross)**
+###### **⚭　Noun + wo + .. + verb(walk/cross)**
 
     ・あの橋を渡ります
     ・犬と一緒に公園を散歩しました
@@ -4853,7 +4984,7 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
 **③　Place of departure**
 
-###### **⚭　Noun + wo + ... + verb(get off/out of/go out/leave)**
+###### **⚭　Noun + wo + .. + verb(get off/out of/go out/leave)**
 
     ・地下鉄を降りてバスに乗ります
     ・バスを降りて5分くらい歩きます
@@ -6055,6 +6186,150 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・Please have a seat
     ・Please write in kanji
     ・Eat
+
+------------------------------------------------------------------------
+
+#### Wants
+
+**①　tai** `I want to・I would like to`
+
+###### **⚭　V~~masu~~  + tai**
+
+###### Expresses a person desire to do something (First person)
+
+    ・僕は野球が見たい
+    ・僕はラーメンが食べたい  
+
+<!-- <h> -->
+  
+    ・I want to watch baseball
+    ・I want to eat ramen
+
+**②　tagatteiru** `Someone wants to・Someone would like to`
+
+###### **⚭　V~~masu~~  + tagatteiru**
+
+###### Expresses a person desire to do something (Third person)
+
+    ・みきさんは車を買いたがっている
+    ・三木は釣りをしたがっている  
+
+<!-- <h> -->
+  
+    ・Miki wants to buy a car
+    ・Miki wants to go fishing
+    
+(❖) Exceptions   
+(1) In the paste tense   
+(2) In indirect speech   
+(3) In semi-direct speech   
+(4) In explanatory situation   
+(5) In conjecture expression   
+
+    ・和男はとても行きたかった
+    ・一郎も行きたいと言っている  
+    ・敏子は日本へ帰りたいそうだ 
+    ・野村さんはあなたと話したいんですよ 
+    ・丸山さんは紀子と踊りたいらしい 
+
+<!-- <h> -->
+  
+    ・Kazuo wanted to go so badly
+    ・Ichiro says he wants to go, too
+    ・I heard that Toshiko wants to go back to Japan
+    ・Mr. Nomura wants to talk with you
+    ・It seems like Maruyama-san wants to dance with Noriko
+
+**③　tehoshii** `I want you want to・I would like you to`    
+**③　temoraitai** `I want you want to・I would like you to`    
+**③　teitadakitai** `I want you want to・I would like you to`    
+
+###### **⚭　Vte + hoshii/moraitai/itadakitai**
+
+###### Expresses a person desire for someone to do something (First person)
+
+###### Use **teitadakitai** when you want someone with higher status to do something
+
+    ・私は子供達に私と一緒に住んでほしい
+    ・私はあなたに英語を教えてもらおたい
+    ・私は吉田先生に来ていただきたい  
+
+<!-- <h> -->
+  
+    ・I want my children to live with me
+    ・I want you to teach me English
+    ・I would like Prof. Yoshida to come
+    
+**④　tehoshigatteiru** `Someone wants you to do・Someone would like to you to do`    
+**④　temoraitagatteiru** `Someone wants you to do・Someone would like to you to do`    
+
+###### **⚭　Vte + hoshigatteiru/moraitagatteiru**
+
+###### Expresses a person desire for someone to do something (Third person)
+
+    ・アダムスさんはフランシスにこの仕事をしてもらいたがっている
+    ・弘子さんは木村さんにこの花を買ってほしがっている
+
+<!-- <h> -->
+  
+    ・Mr. Adams wants Francis to do this job for him
+    ・Hiroko-san wants Kimura-san to buy these flowers
+
+(❖) Exceptions   
+(1) In the paste tense   
+(2) In indirect speech   
+(3) In semi-direct speech   
+(4) In explanatory situation   
+(5) In conjecture expression    
+
+**⑤　hoshii** `I want something`    
+
+###### **⚭　N + ga + hoshii**
+
+###### Expresses a person desire for something (First person)
+
+    ・私は車が欲しい
+    ・私は日本人の友達が欲しい
+
+<!-- <h> -->
+  
+    ・I want a car
+    ・I want a Japanese friend
+
+**⑥　hoshigatteiru** `Someone want something`  
+
+###### **⚭　N + ga + hoshigatteiru**
+
+###### Expresses a person desire for something (Third person)
+
+    ・弟は僕の自転車をほし欲しがっている
+    ・みちこさんはパソコンを欲しがっている
+
+<!-- <h> -->
+  
+    ・My brother wants my bike
+    ・Michiko wants a computer
+
+(❖) Exceptions   
+(1) In the paste tense   
+(2) In indirect speech   
+(3) In semi-direct speech   
+(4) In explanatory situation   
+(5) In conjecture expression   
+
+    ・モーリスさんはいいスマホが欲しかった
+    ・ジョイも欲しいと言っている 
+    ・オスカーも欲しいそうだ 
+    ・パメラはイヤリングが欲しいんです
+    ・フランシスは腕時計が欲しいらしい 
+
+<!-- <h> -->
+  
+    ・Mr. Maurice wanted a good phone
+    ・Joy says she wants it, too
+    ・I heard that Oscar wants it, too
+    ・Pamela wants a pair of earrings
+    ・It seems like Francis wants a watch
 
 ------------------------------------------------------------------------
 
