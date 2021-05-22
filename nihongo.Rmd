@@ -4598,17 +4598,17 @@ reactable(
 
 <p style="font-size:12px;">(❖) Showing a sign of something</p> 
 
+    ・子供が眠たがっている    
     ・和男はスポーツかーを欲しがった
-    ・上田さんはアイスクリむを食べたがった
     ・スーザンは一人でさびしがっています
-    ・子供が眠たがっている
+    ・上田さんはアイスクリむを食べたがった
     
 <!-- <h> -->
 
-    ・Kazuo wanted a sports car
-    ・Ueda-san wanted to eat ice cream
-    ・Susan is alone and lonely
     ・The child wants to sleep
+    ・Kazuo wanted a sports car
+    ・Susan is alone and lonely
+    ・Ueda-san wanted to eat ice cream
 
 ------------------------------------------------------------------------
 
@@ -4632,6 +4632,57 @@ reactable(
     ・I bought a tie for Nobuo
     ・I taught Rima English
     ・Mr. Tanaka lent Mr. Smith a book
+
+------------------------------------------------------------------------
+
+###### kureru
+
+**kureru**`someone doing something for me`  
+
+<p style="font-size:12px;">**⚭　Vte + kureru**</p> 
+
+<p style="font-size:12px;">(❖) Someone gives an action as a favor to someone within the group</p> 
+
+    ・父はカメラを買ってくれた
+    ・母はケーキを焼いてくれた
+    ・友達は日本語を教えてくている
+    
+<!-- <h> -->
+
+    ・My father bought me a camera
+    ・My mother baked a cake for me
+    ・My friend is teaching me Japanese
+
+<p style="font-size:12px;">(❖) When the main verb is intransitive don't use ni rather use no tame ni as marker for recipient</p> 
+
+    ・みんなは私のために働いてくれた
+    ・Everyone worked for my sake
+
+------------------------------------------------------------------------
+
+###### morau
+
+**morau**`receive something from someone`  
+
+<p style="font-size:12px;">**⚭　Vte + morau**</p> 
+
+<p style="font-size:12px;">(❖) Someone receives some benefit from someone not within the group</p>   
+<p style="font-size:12px;">(❖) The status of giver and receiver is about equal</p>   
+
+    ・父にカメラを買ってもらった
+    ・友達に来てもらいました
+    ・木村さんは大野さんに車を貸してもらった
+    
+<!-- <h> -->
+
+    ・I had my father bought a camera for me
+    ・I had my friend come over for me
+    ・Mr. Kimura had Mr. Ono to lend him his car
+
+<p style="font-size:12px;">(❖) When the giver is of higher status than the receiver use itadaku instead of kureru</p> 
+
+    ・私は先生に本を貸していただいた
+    ・I had a teacher who lend me a book
 
 ------------------------------------------------------------------------
 
