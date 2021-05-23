@@ -3928,7 +3928,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(1:64))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -3970,7 +3970,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(65:249))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4012,7 +4012,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(250:526))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4054,7 +4054,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(528:586))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4096,7 +4096,49 @@ reactable(
         Meaning <- (srvb2 %>% slice(595:625))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 2SKN&1S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(722:745),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(722:745))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4138,7 +4180,7 @@ reactable(
         Meaning <- (srvb2 %>% slice(1089:1107))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4180,7 +4222,133 @@ reactable(
         Meaning <- (srvb2 %>% slice(1108:1136))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 4S2KN&1S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(1137:1143),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(1137:1143))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 2S2KN&2S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(1144:1151),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(1144:1151))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 2KN&CM
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(1180:1190),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(1180:1190))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -4237,7 +4405,7 @@ reactable(
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
 
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), Romaji),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -4308,7 +4476,7 @@ reactable(
         s5 <- srvb3$s5[index]
         s5 <- if (!is.na(s5)) s5 else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
           div(style = list(fontSize = 11, fontWeight = 200), Type)
           # div(style = list(fontSize = 15, fontWeight = 200), s1),
@@ -4378,7 +4546,7 @@ reactable(
         Meaning <- srvb4$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -4431,7 +4599,7 @@ reactable(
         Transcript1 <- trvy1$Transcript1[index]
         Transcript1 <- if (!is.na(Transcript1)) Transcript1 else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript1)
         )
       },
@@ -4496,7 +4664,7 @@ reactable(
         Meaning <- phvrb$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
@@ -8412,14 +8580,14 @@ reactable(
         D <- qsn5$D[index]
         D  <- if (!is.na(D )) D  else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), A),
           div(style = list(fontSize = 15, fontWeight = 200), B),
           div(style = list(fontSize = 15, fontWeight = 200), C),
           div(style = list(fontSize = 15, fontWeight = 200), D)
         )
       },
-      align = "center", minWidth = 400
+      align = "left", minWidth = 400
       ),
       A = colDef(show = FALSE),
       B = colDef(show = FALSE),
@@ -8845,11 +9013,11 @@ Be around at Intermediate level in a year
 
 -   Intermediate Book for Kanji
 
-    -   Focuses on the upper part of the target spectrum
+    <!-- -   Focuses on the upper part of the target spectrum -->
 
 -   Additional Kanji's from other resources
 
-    -   Focuses on other stuffs
+    <!-- -   Focuses on other stuffs -->
 
 **2. Learn 5000++ Vocabulary**
 
@@ -8857,16 +9025,16 @@ Be around at Intermediate level in a year
 
 -   Learn words by different categories
 
-    -   Use Nihongo Speed Master Up to N2 level and other book resource
+    <!-- -   Use Nihongo Speed Master Up to N2 level and other book resource -->
 
     -   Everyday Japanese
 
-        -   Focuses on different kind of situations on how to act or react
+        <!-- -   Focuses on different kind of situations on how to act or react -->
 
     -   Casual Japanese thru Social Media (YT, Podcast, etc..)
 
-        -   Focuses on casual phrases
-        -   Mining of scripts from online resource
+        <!-- -   Focuses on casual phrases -->
+        <!-- -   Mining of scripts from online resource -->
 
 **3. Online Mining**
 
@@ -8877,11 +9045,11 @@ Be around at Intermediate level in a year
 
 -   Use this platform to organize my notes
 
-<u>**Remarks**</u>:
+<!-- <u>**Remarks**</u>: -->
 
-    No writing!! Typing only... Why?... To save up time and concentrate on mining.
-    Words could appear several times so that actual number of words could be less.
-    Repetitive words are fine. It does helps in remembering or recalling words usually.
+<!--     No writing!! Typing only... Why?... To save up time and concentrate on mining. -->
+<!--     Words could appear several times so that actual number of words could be less. -->
+<!--     Repetitive words are fine. It does helps in remembering or recalling words usually. -->
 
 ------------------------------------------------------------------------
 
