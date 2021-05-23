@@ -525,3 +525,613 @@ Verbs,Meaning
 すわる【座る】,to sit
 まわる【回る】,to go around
 よわる【弱る】 ,"to weaken, to be troubled, to be downcast, to be emaciated, to be dejected, to be perplexed, to impair"
+すれちがう【すれ違う】,"to pass by one another, to disagree, to miss each other"
+あざわらう【あざ笑う】,"to sneer at, to ridicule "
+うるおう【潤う】,"to be moist, to be damp, to get wet, to profit by, to be watered, to receive benefits, to favor, to charm "
+たたかう【戦う】,"to fight, to battle, to combat"
+あつかう【扱う】,"to handle, to deal with, to treat"
+うたがう【疑う】,"to doubt, to distrust, to be suspicious of, to suspect "
+したがう【従う】,"o abide (by the rules), to obey, to follow, to accompany"
+あらそう【争う】,"to dispute, to argue, to be at variance, to compete"
+まかなう【賄う】,"to give board to, to provide meals, to pay"
+おぎなう【補う】,to compensate for
+おこなう【行う】,to do
+うしなう【失う】,"to lose, to part with"
+やしなう【養う】,"to rear, to maintain, to cultivate"
+ともなう【伴う】,"to accompany, to bring with, to be accompanied by, to be involved in"
+うらなう【占う】,"to forecast, to predict"
+ととのう【整う】,"to be prepared, to be in order, to be put in order, to be arranged"
+うやまう【敬う】,"to show respect, to honour"
+ただよう【漂う】,"to drift about, to float, to hang in air"
+つくろう【繕う】,"to mend, to repair, to fix, to patch up, to darn, to tidy up, to adjust, to trim "
+つまずく【躓く】,"to stumble, to trip"
+しりぞく【退く】,"to retreat, to recede, to withdraw"
+いただく【頂く】,"to receive, to take food or drink"
+つらぬく【貫く】,to go through
+みちびく【導く】,"to be guided, to be shown"
+かたぶく【傾く】,"to incline toward, to slant, to lurch, to heel over, to be disposed to, to trend toward, to be prone to"
+あざむく【欺く】,to deceive
+おもむく【赴く】,"to go, to proceed, to repair to, to become"
+かたむく【傾く】,"to incline toward, to slant, to lurch "
+かがやく【輝く】,"to shine, to glitter, to sparkle"
+ささやく【囁く】,"to whisper, to murmur "
+つぶやく【呟く】,"to mutter, to murmur"
+はたらく【働く】,to work
+おどろく【驚く】,to be surprised
+もよおす【催す】,"to hold (a meeting), to give (a dinner), to feel, to show signs of, to develop symptoms of, to feel (sick)"
+うながす【促す】,"to urge, to press, to suggest, to demand, to stimulate, to quicken, to incite, to invite (attention to)"
+ほどこす【施す】,"to donate, to give, to conduct, to apply, to perform"
+あらわす【表す】,"to express, to show, to reveal"
+あらわす【現す】,"to show, to indicate, to display"
+あらわす【著す】,"to write, to publish"
+たがやす【耕す】,"to till, to plow, to cultivate "
+たのしむ【楽む】,to enjoy oneself 
+つつしむ【慎む】,"to be careful, to be chaste or discreet, to abstain or refrain"
+いとなむ【営む】,"to carry on (e.g. in ceremony), to run a business"
+うらやむ【羨む】,to envy
+よろこぶ【喜ぶ】,to be delighted
+たっとぶ【尊ぶ】,"to value, to prize, to esteem"
+さえぎる【遮る】,"to interrupt, to intercept, to obstruct"
+ののしる【罵る】,"to speak ill of, to abuse"
+さえずる【囀る】,"to sing, to chirp, to twitter"
+おこたる【怠る】,"to neglect, to be off guard, to be feeling better"
+あやつる【操る】,"to manipulate, to operate, to pull strings"
+はかどる【捗る】,"to make progress, to move right ahead (with the work), to advance"
+しゃべる【喋る】,"to talk, to chat, to chatter "
+あやまる【謝る】,to apologize
+あやまる【誤る】,to make a mistake
+ほうむる【葬る】,"to bury, to inter, to entomb, to consign to oblivion, to shelve "
+かたよる【偏る】,"to be one-sided, to incline, to be partial, to be prejudiced, to lean, to be biased"
+いたわる【労る】,"to pity, to sympathize with, to console, to care for, to be kind to"
+ことわる【断る】,"to refuse, to decline, to dismiss"
+たまわる【賜る】,"to grant, to bestow"
+くつがえす【覆す】,"to overturn, to upset, to overthrow, to undermine"
+こころざす【志す】,"to plan, to intend, to aspire to, to set aims (sights on)"
+よみがえる【蘇る】,"to be resurrected, to be revived, to be resuscitated, to be rehabilitated"
+とどこおる【滞る】,"to stagnate, to be delayed"
+へりくだる【謙る】,to deprecate oneself and praise the listener
+たてまつる【奉る】,"to offer, to present, to revere, to do respectfully"
+つかさどる【司る】,"to rule, to govern, to administer"
+さかのぼる【遡る】,"to go back, to go upstream, to make retroactive"
+むかう【向かう】,to face
+ゆらぐ【揺らぐ】,"to swing, to sway, to shake, to tremble"
+もとづく【基づく】,"to be grounded on, to be based on, to be due to, to originate from "
+あかす【明かす】,"to pass, spend, to reveal, to divulge"
+いかす【生かす】,"to revive, to resuscitate, to make use of"
+せかす【急かす】,"to hurry, to urge on"
+とかす【溶かす】,"to melt, to dissolve"
+ぬかす【抜かす】,"to omit, to leave out"
+まかす【負かす】,to defeat
+わかす【沸かす】,"to boil, to heat"
+こがす【焦がす】,"to burn, to scorch, to singe, to char"
+にがす【逃がす】,"to let loose, to set free, to let escape"
+はがす【剥がす】,"to tear off, to peel off, to rip off, to strip off, to skin, to flay, to disrobe, to deprive of, to detach"
+つくす【尽くす】,"to exhaust, to run out, to serve (a person), to befriend"
+なくす【無くす】,to lose something
+なくす【亡くす】,to lose someone
+おこす【起こす】,"to raise, to cause, to wake someone"
+よこす【寄こす】,"to send, to forward"
+すごす【過ごす】,"to pass, to spend, to go through, to tide over"
+はたす【果たす】,"to accomplish, to fulfill, to carry out, to achieve"
+みたす【満たす】,"to satisfy, to ingratiate, to fill, to fulfill"
+おとす【落とす】,"to drop, to lose, to let fall "
+とばす【飛ばす】,"to skip over, to omit"
+のばす【伸ばす】,"to lengthen, to stretch, to reach out, to grow (beard)"
+のばす【延ばす】,"to lengthen, to stretch, to reach out, to grow (beard)"
+さます【覚ます】,to awaken
+さます【冷ます】,"to cool, to dampen, to let cool"
+すます【済ます】,"to finish, to get it over with, to settle, to conclude, to pay back"
+すます【澄ます】,"to clear, to make clear, to be unruffled, to look unconcerned, to look demure, look prim, put on airs"
+はやす【生やす】,"to grow, to cultivate, to wear beard"
+ひやす【冷やす】 ,"to cool, to refrigerate"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+やっつける【やっ付ける】 ,to beat
+ぶらさげる【ぶら下げる】 ,"to hang, to suspend, to dangle, to swing"
+やりとげる【やり遂げる】 ,to accomplish
+そこなう【損なう】,"to harm, to hurt, to injure, to damage, to fail in doing"
+さからう【逆らう】,"to go against, to oppose, to disobey, to defy"
+あじわう【味わう】,"to taste, to savor, to relish"
+にぎわう【賑わう】,"to prosper, to flourish, to do thriving business, to be crowded with people"
+うごかす【動かす】,"to move, to shift"
+おどかす【脅かす】,"to threaten, to coerce "
+かわかす【乾かす】,"to dry (clothes, etc), to desiccate"
+ころがす【転がす】,to roll
+およぼす【及ぼす】,"to exert, to cause, to exercise"
+ほろぼす【滅ぼす】,"to destroy, to overthrow, to wreck, to ruin "
+なやます【悩ます】,"to afflict, to torment, to harass, to molest"
+はげます【励ます】,"to encourage, to cheer, to raise (the voice)"
+ついやす【費やす】,"to spend, to devote, to waste "
+おくらす【遅らす】,"to retard, to delay "
+こごらす【凝らす】,"to freeze, to congeal"
+もたらす【齎らす】,"to bring, to take, to bring about"
+かなしむ【悲しむ】,"to be sad, to mourn for, to regret"
+くるしむ【苦しむ】,"to suffer, to grain, to be worried"
+したしむ【親しむ】,"to be intimate with, to befriend"
+たのしむ【楽しむ】,to enjoy oneself
+あからむ【赤らむ】,"to become red, to redden, to blush"
+あやぶむ【危ぶむ】,"to fear, to have misgivings, to be doubtful to mistrust"
+ふくらむ【膨らむ】,"to expand, to swell (out), to get big, to become inflated"
+ひきいる【率いる】,"to lead, to spearhead (a group), to command (troops)"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+おどろかす【驚かす】,"to surprise, to frighten, to create a stir"
+あつらえる【誂える】,"to give an order, to place an order"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+であう【出会う】,"to meet by chance, to come across, to happen to encounter"
+であう【出合う】,"to meet by chance, to come across, to happen to encounter, to hold a rendezvous, to have a date"
+にあう【似合う】,"to suit, to match, to become, to be like"
+せおう【背負う】,"to be burdened with, to carry on back or shoulder"
+しまう【仕舞う】,"to finish, to close, to do something completely, to put away, to put an end to"
+みまう【見舞う】,"to ask after (health), to visit"
+もがく【藻掻く】,"to struggle, to wriggle, to be impatient"
+きづく【気付く】,"to notice, to recognize, to become aware of"
+めざす【目指す】,"to aim at, to have an eye on"
+めだつ【目立つ】,"to be conspicuous, to stand out"
+しきる【仕切る】,"to partition, to divide, to mark off, to settle accounts, to toe the mark"
+できる【出切る】,"to be out of, to have no more at hand"
+くぎる【区切る】,"to punctuate, to cut off, to mark off, to stop, to put an end to "
+しける【湿気る】,"to be damp, to be moist"
+ねだる【強請る】,"te tease, to coax, to solicit, to demand"
+どなる【怒鳴る】,"to shout, to yell"
+まねる【真似る】,"to mimic, to imitate"
+いばる【威張る】,"to be proud, to swagger"
+はやる【流行る】,"to flourish, to thrive, to be popular, to come into fashion"
+つきあう【付合う】,"to associate with, to keep company with, to get on with"
+からかう【揶揄う】,"to ridicule, to tease, to banter with, to make fun of"
+まちがう【間違う】,"to make a mistake, to be incorrect, to be mistaken"
+てつだう【手伝う】,to assist
+ふるまう【振舞う】,"to behave, to conduct oneself, to entertain (vt)"
+にかよう【似通う】,to resemble closely
+しはらう【支払う】,to pay
+ためらう【躊躇う】,to hesitate
+おちつく【落着く】,"to calm down, to settle down"
+きずつく【傷付く】,"to be hurt, to be wounded, to get injured"
+かたづく【片付く】,"to put in order, to dispose of, to solve"
+ちかづく【近付く】,"to approach, to get near, to get acquainted with, to get closer"
+ながびく【長引く】,"to be prolonged, to drag on"
+ばらまく【散蒔く】,"to disseminate, yo scatter, to give money freely"
+みなおす【見直す】,"to look again, to get a better opinion of"
+みのがす【見逃す】,"to miss, to overlook, to leave at large"
+ゆびさす【指差す】,to point at
+みわたす【見渡す】,"to look out over, to survey (scene), to take an extensive view of "
+ひきだす【引出す】,"to pull out, to take out, to draw out, to withdraw"
+やくだつ【役立つ】,"to be useful, to be helpful, to serve the purpose"
+ほほえむ【微笑む】,to smile
+うらぎる【裏切る】,"to betray, to turn traitor to, to double-cross"
+よこぎる【横切る】,"to cross (e.g. arms), to traverse"
+みおくる【見送る】,"(1) to see off, to farewell,(2) to escort,(3) to let pass"
+きかざる【着飾る】,to dress up
+かさばる【嵩張る】,"to be bulky, to be unwieldy, to grow voluminous "
+かたよる【片寄る】,"to be one-sided, to incline, to be partial"
+ちかよる【近寄る】,"to approach, to draw near"
+しゃれる【洒落る】,"to joke, to play on words, to dress stylishly"

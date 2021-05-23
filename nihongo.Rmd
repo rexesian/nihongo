@@ -3913,9 +3913,9 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
 
 ------------------------------------------------------------------------
 
-##### Verb List {.tabset}
+##### Verb Syl {.tabset}
 
-###### 0KNJ
+###### 0KN
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3957,7 +3957,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### 1SKNJ&1S
+###### 1SKN&1S
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3999,7 +3999,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### 2SKNJ&1S
+###### 2SKN&1S
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -4041,7 +4041,177 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### SVerbs
+###### 3SKN&1S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(528:586),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(528:586))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 1KN&2S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(595:625),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(595:625))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 2KN&1S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(1089:1107),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(1089:1107))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### 3S2KN&1S
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  srvb2 %>% slice(1108:1136),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- (srvb2 %>% slice(1108:1136))$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### Verb List {.tabset}
+
+###### SVrbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -4103,7 +4273,9 @@ reactable(
 
 ```
 
-###### RVerbs
+------------------------------------------------------------------------
+
+###### RVrbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -4181,7 +4353,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### MVerbs
+###### MVrbs
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -4241,7 +4413,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### TVerbs
+###### TVrbs
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -4299,7 +4471,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### PVerbs
+###### PVrbs
 
 ```{r echo=FALSE, message=FALSE}
 
