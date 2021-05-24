@@ -8434,6 +8434,104 @@ reactable(
 
 ### Work
 
+
+------------------------------------------------------------------------
+
+### Random {.tabset}
+
+#### Words/Phrase
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hmec <- v1hme %>% select(Categories) %>%
+  separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hmec  <- v1hmec [sample(1:nrow(na.omit(v1hmec ))),]
+
+reactable(
+  na.omit(v1hmec) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hmec$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value)
+          # div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+
+```
+
+------------------------------------------------------------------------
+
+#### Words/Phrase&Meaning
+
+```{r, echo=FALSE, message=FALSE}
+
+# v1hmed <- v1hme %>% select(Categories) %>%
+#   separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>%
+#   select(Script,Transcript)
+# v1hmed  <- v1hmed [sample(1:nrow(na.omit(v1hmed ))),]
+
+reactable(
+  na.omit(v1hmec) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hmec$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 ------------------------------------------------------------------------
 
 ## Technical {.tabset}
