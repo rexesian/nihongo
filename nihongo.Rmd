@@ -1265,23 +1265,23 @@ A more detailed explanations will be encountered along the way for each item.
 **① And**
 
     ・彼女はフランス語が話せる。しかも流ちょうに話せる
-    ・ちょっと話をしただけ、 それも小声で話ます  
-    ・さらに命令のあるまで待つ    
+    ・ちょっと話をしただけ。 それも小声で話ます  
+    ・彼は料理を二人分も食べた。さらに、食後ケーキも食べた   
     ・あの人は頭がいい。そのうえ性格してもいい    
-    ・それに家の鍵を入れていましたう    
-    ・また、人とも親しく付き合ってなかなか社交的だ    
+    ・小川さんは仕事が早い。 それに、正確だ  
+    ・ノートパソコンは場所を取らない。また、持ち運びにも便利だ    
     ・8時まで日本語の宿題うおした。それから映画をみに出かけた    
     ・僕は駅前の喫茶店に行った。そしてそこで友達を待っていた    
 
 <!-- <h> -->
 
-    ・She speaks French. Moreover she's speaks fluently
-    ・We talked for a monment, In addition to that we did it in a low voice
-    ・Furthermore, we will wait for further instructions
+    ・She speaks French. Moreover, she's speaks fluently
+    ・We talked for a monment.In addition to that we did it in a low voice
+    ・He ate two portions of food. Furthermore, he had an after-dinner cake
     ・He's a smart guy. In addition, he's got a great personality
-    ・Besides, I kept my house key in it
-    ・He's also quite social, getting along well with people.
-    ・I worked on my Japanese homework until 8 o'clock. An then I went out to see a movie
+    ・Mr. Ogawa is a fast worker. In addition, he's accurate
+    ・Laptops do not take up much space. Likewise, they are convenient to carry around
+    ・I worked on my Japanese homework until 8 o'clock. And then, I went out to see a movie
     ・I went to a coffee shop in front of the station. And there I was waiting for my friend
 
 **② But**
@@ -8422,18 +8422,236 @@ reactable(
 
 ### School
 
+```{r, echo=FALSE, message=FALSE}
+
+v1hme13 <- v1hme %>% select(School) %>%
+  separate(School, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme13  <- v1hme13 [sample(1:nrow(na.omit(v1hme13 ))),]
+
+reactable(
+  na.omit(v1hme13) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme13$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 ------------------------------------------------------------------------
 
-### Hobbies
+### Interests
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hme15 <- v1hme %>% select(Interest) %>%
+  separate(Interest, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme15  <- v1hme15 [sample(1:nrow(na.omit(v1hme15 ))),]
+
+reactable(
+  na.omit(v1hme15) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme15$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
 ### Nature
 
+```{r, echo=FALSE, message=FALSE}
+
+v1hme14 <- v1hme %>% select(Nature) %>%
+  separate(Nature, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme14  <- v1hme14 [sample(1:nrow(na.omit(v1hme14 ))),]
+
+reactable(
+  na.omit(v1hme14) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme14$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 ------------------------------------------------------------------------
 
 ### Work
 
+```{r, echo=FALSE, message=FALSE}
+
+v1hme16 <- v1hme %>% select(Work) %>%
+  separate(Work, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme16  <- v1hme16 [sample(1:nrow(na.omit(v1hme16 ))),]
+
+reactable(
+  na.omit(v1hme16) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme16$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Person
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hme12 <- v1hme %>% select(Person) %>%
+  separate(Person, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme12  <- v1hme12 [sample(1:nrow(na.omit(v1hme12 ))),]
+
+reactable(
+  na.omit(v1hme12) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme12$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -8481,7 +8699,6 @@ reactable(
 
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
-
 
 ```
 
