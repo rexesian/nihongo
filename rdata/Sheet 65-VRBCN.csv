@@ -62,7 +62,7 @@ Script,Meaning,Expression,Concept
 ,,⚭ Vnoun + tsuzukeru,continue doing
 ,,⚭ Vnoun + yasui,easy to (creates a true adjective)
 おじさんは捨てるほどお金を持っています,Uncle has money to throw away extensively,⚭ Vdict・Vru + hodo,"to the extent, so much that"
-できるかぎり、どりょくします,I will try to the extent that it is possible,⚭ Vdict・Vru + kagiri,"to the extent that, in so far as, within the limits of"
+できるかぎり、努力します,I will try to the extent that it is possible,⚭ Vdict・Vru + kagiri,"to the extent that, in so far as, within the limits of"
 行くかわりに電話をしました,I phoned instead of going,⚭ Vdict・Vru + kawari (ni),"instead of, in place of, in exchange for"
 テニスをする気があれば、一緒にしましょうか,"If you’re a mind to play tennis, shall we play together",⚭ Vdict・Vru + ki ga aru,"be of a mind to, to have a mind to"
 今日病気で、仕事をする気がしません,Today I am sick and don’t feel like working,⚭ Vdict・Vru + ki ga suru,"feel like doing, willing to do"
@@ -89,3 +89,12 @@ Script,Meaning,Expression,Concept
 明日電車で行くつもりです,I intend  to go by train tomorrow,⚭ Vdict・Vru + tsumori (desu),intend to
 明日出かけられるように準備しています,I am preparing to be able to depart tomorrow,⚭ Vdict・Vru + you ni,in order to
 明日テニスをする予定です,I plan to play tennis tomorrow,⚭ Vdict・Vru + yotei (desu),plan to
+,,⚭ Vcmd,abrupt command
+,,⚭ Vcmd + ba → Vcnd,if / when (i) do (conditional)
+,,⚭ Vcmd + ba yokatta (desu),"should have done, wish to do"
+,,⚭ suru → sureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
+,,⚭ kuru → kureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
+,,⚭ Vcmd + ru → Vpot,potential form ( group 1 verbs: yodan)
+,,⚭ Vcmd + rareru → Vpot,potential form ( group 2 verbs: ichidan)
+,,⚭ suru → dekiru,potential form ( suru: dekiru)
+,,⚭ kuru → kureru,potential form ( kuru: kureru)

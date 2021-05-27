@@ -136,7 +136,7 @@ There are 3 writing system used in Japanese namely the **Kanji**, **Hiragana** a
 
 ## Kanji {.tabset}
 
-**Kanji** is base on Chinese characters which represents a word and a meaning.
+**Kanji** was based on Chinese characters which represents a word and a meaning.
 
 ### Level 1 {.tabset}
 
@@ -3570,9 +3570,105 @@ Indicates that the past occurrence was done by someone and not by you.
 
 **Endings** are added to the end of verbs to create special forms which gives more a specific meaning or function.
 
+###### Table
+
+![](/Users/yshancid/Documents/R/nihongo/tvrb.jpg)
+
+**Forms**
+
+<p style="font-size:12px;">(❖) **Vnai-Form (Negative Non Past Casual)**</p>
+
+    ・kau     ⇢   kawanai
+    ・taberu  ⇢   tabenai
+    ・miru    ⇢   minai
+    ・kuru    ⇢   konai
+    ・suru    ⇢   shinai
+
+<p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past Casual)**</p>
+
+    ・kau     ⇢   kawanakatta
+    ・taberu  ⇢   tabenakatta
+    ・miru    ⇢   minakatta
+    ・kuru    ⇢   konakatta
+    ・suru    ⇢   shinakatta
+    
+<p style="font-size:12px;">(❖) **Vmasu-Form (Non Past Polite)**</p>
+
+    ・kau     ⇢   kaimasu
+    ・taberu  ⇢   tabemasu
+    ・miru    ⇢   mimasu
+    ・kuru    ⇢   kimasu
+    ・suru    ⇢   shimasu
+
+<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past Polite)**</p>
+
+    ・kau     ⇢   kaimasen
+    ・taberu  ⇢   tabemasen
+    ・miru    ⇢   mimasen
+    ・kuru    ⇢   kurimasen
+    ・suru    ⇢   shirimasen
+
+<p style="font-size:12px;">(❖) **Vmashita-Form (Past Polite)**</p>
+
+    ・kau     ⇢   kaimashita
+    ・taberu  ⇢   tabemashita
+    ・miru    ⇢   mimashita
+    ・kuru    ⇢   kimashita
+    ・suru    ⇢   shimashita
+
+<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past Polite)**</p>
+
+    ・kau     ⇢   kaimasen deshita
+    ・taberu  ⇢   tabemasen deshita
+    ・miru    ⇢   mimasen deshita
+    ・kuru    ⇢   kurimasen deshita
+    ・suru    ⇢   shirimasen deshita
+    
+<p style="font-size:12px;">(❖) **Vdict-Form (Dictionary Form)**</p>
+
+    ・kau     ⇢   kau
+    ・taberu  ⇢   taberu
+    ・miru    ⇢   miru
+    ・kuru    ⇢   kuru
+    ・suru    ⇢   suru
+
+<p style="font-size:12px;">(❖) **Vte-Form (Te Form)**</p>
+
+    ・kau     ⇢   katte
+    ・matsu   ⇢   matte
+    ・shiru   ⇢   shitte
+    ・kaku    ⇢   kaite
+    ・oyogu   ⇢   oyoide
+    ・hanasu  ⇢   hanashite
+    ・shinu   ⇢   shinde
+    ・yomu    ⇢   yonde
+    ・asobu   ⇢   asonde
+    ・taberu  ⇢   tabete
+    ・miru    ⇢   mite
+    ・kuru    ⇢   kite
+    ・suru    ⇢   shite
+
+<p style="font-size:12px;">(❖) **Vta-Form (Ta Form)**</p>
+
+    ・kau     ⇢   katta
+    ・matsu   ⇢   matta
+    ・shiru   ⇢   shitta
+    ・kaku    ⇢   kaita
+    ・oyogu   ⇢   oyoida
+    ・hanasu  ⇢   hanashita
+    ・shinu   ⇢   shinda
+    ・yomu    ⇢   yonda
+    ・asobu   ⇢   asonda
+    ・taberu  ⇢   tabeta
+    ・miru    ⇢   mita
+    ・kuru    ⇢   kita
+    ・suru    ⇢   shita
+
+------------------------------------------------------------------------
+
 ###### V1
 
-**Vn - Negative-Base**
+**Negative-Base**
 
 <p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p>
 
@@ -3591,7 +3687,7 @@ Indicates that the past occurrence was done by someone and not by you.
     ・taberu  ⇢   tabe
     ・miru    ⇢   mi
 
-<p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
+<p style="font-size:12px;">(❖) **Irregular Verb (Negative Base)**</p>
 
     ・kuru    ⇢   ko
     ・suru    ⇢   shi
@@ -3684,17 +3780,83 @@ reactable(
 
 **Passive-Form**
 
+<p style="font-size:12px;">(❖) **Godan Verb (Passive・Receptive Form)**</p>
+
+    ・kau     ⇢   kawareru
+    ・matsu   ⇢   matareru
+    ・shiru   ⇢   shirareru
+    ・kaku    ⇢   kakareru
+    ・oyogu   ⇢   oyogareru
+    ・hanasu  ⇢   hanasareru
+    ・shinu   ⇢   shinareru
+    ・yomu    ⇢   yomareru
+    ・asobu   ⇢   asobareru
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Passive・Receptive Form)**</p>
+
+    ・taberu  ⇢   taberareru
+    ・miru    ⇢   mirareru
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Passive・Receptive Form)**</p>
+
+    ・kuru    ⇢   korareru
+    ・suru    ⇢   sareru
+
 ------------------------------------------------------------------------
 
 ###### V1.2
 
 **Causative-Form**
 
+<p style="font-size:12px;">(❖) **Godan Verb (Causative Form)**</p>
+
+    ・kau     ⇢   kawaseru
+    ・matsu   ⇢   mataseru
+    ・shiru   ⇢   shiraseru
+    ・kaku    ⇢   kakaseru
+    ・oyogu   ⇢   oyogaseru
+    ・hanasu  ⇢   hanasaseru
+    ・shinu   ⇢   shinaseru
+    ・yomu    ⇢   yomaseru
+    ・asobu   ⇢   asobaseru
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Causative Form)**</p>
+
+    ・taberu  ⇢   tabesaseru
+    ・miru    ⇢   misaseru
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Causative Form)**</p>
+
+    ・kuru    ⇢   kosaseru
+    ・suru    ⇢   saseru
+
 ------------------------------------------------------------------------
 
 ###### V1.3
 
 **Causative-Passive-Form**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Causative Form)**</p>
+
+    ・kau     ⇢   kawaserareru
+    ・matsu   ⇢   mataserareru
+    ・shiru   ⇢   shiraserareru
+    ・kaku    ⇢   kakaserareru
+    ・oyogu   ⇢   oyogaserareru
+    ・hanasu  ⇢   hanasaserareru
+    ・shinu   ⇢   shinaserareru
+    ・yomu    ⇢   yomaserareru
+    ・asobu   ⇢   asobaserareru
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Causative Form)**</p>
+
+    ・taberu  ⇢   tabesaserareru
+    ・miru    ⇢   misaserareru
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Causative Form)**</p>
+
+    ・kuru    ⇢   kosaserareru
+    ・suru    ⇢   saserareru
 
 ------------------------------------------------------------------------
 
@@ -3719,7 +3881,7 @@ reactable(
     ・taberu  ⇢   tabe
     ・miru    ⇢   mi
 
-<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+<p style="font-size:12px;">(❖) **Irregular Verb (Noun Base)**</p>
 
     ・kuru    ⇢   ki
     ・suru    ⇢   shi
@@ -3816,10 +3978,9 @@ reactable(
 
 ###### V3
 
-**Dictionary**
+**Dictionary-Form**
 
-
-<p style="font-size:12px;">(❖) **Godan Verb (Noun Base)**</p>
+<p style="font-size:12px;">(❖) **Godan Verb (Dictionary Form)**</p>
 
     ・kau     ⇢   kau
     ・matsu   ⇢   matsu
@@ -3831,33 +3992,15 @@ reactable(
     ・yomu    ⇢   yomu
     ・asobu   ⇢   asobu
 
-<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+<p style="font-size:12px;">(❖) **Ichidan Verb (Dictionary Form)**</p>
 
     ・taberu  ⇢   taberu
     ・miru    ⇢   miru
 
-<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+<p style="font-size:12px;">(❖) **Irregular Verb (Dictionary Form)**</p>
 
     ・kuru    ⇢   kuru
     ・suru    ⇢   suru
-
-**Forms**
-
-<p style="font-size:12px;">(❖) **Vmasu-Form (Non Past) ⚭ Vnoun + masu**</p>
-
-    ・kau     ⇢   kaimasu
-    ・taberu  ⇢   tabemasu
-    ・miru    ⇢   mimasu
-    ・kuru    ⇢   kimasu
-    ・suru    ⇢   shimasu
-
-<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past) ⚭ Vnoun + masen**</p>
-
-    ・kau     ⇢   kaimasen
-    ・taberu  ⇢   tabemasen
-    ・miru    ⇢   mimasen
-    ・kuru    ⇢   kurimasen
-    ・suru    ⇢   shirimasen
 
 <p style="font-size:12px;">(❖) **More Endings/Forms**</p>
 
@@ -3923,36 +4066,145 @@ reactable(
 
 ```
 
-
 ------------------------------------------------------------------------
 
 ###### V4.1
 
-**Command-Base**`命令形`
+**Command-Base**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p>
+
+    ・kau     ⇢   kae
+    ・matsu   ⇢   mate
+    ・shiru   ⇢   shire
+    ・kaku    ⇢   kake
+    ・oyogu   ⇢   oyoge
+    ・hanasu  ⇢   hanase
+    ・shinu   ⇢   shine
+    ・yomu    ⇢   yome
+    ・asobu   ⇢   asobe
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
+
+    ・taberu  ⇢   tabere
+    ・miru    ⇢   mire
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
+
+    ・kuru    ⇢   kure
+    ・suru    ⇢   sure
 
 ------------------------------------------------------------------------
 
 ###### V4.2
 
-**Potential-Form**`可能形`
+**Potential-Form**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Volitional Form)**</p>
+
+    ・kau     ⇢   kaeru
+    ・matsu   ⇢   materu
+    ・shiru   ⇢   shireru
+    ・kaku    ⇢   kakeru
+    ・oyogu   ⇢   oyogeru
+    ・hanasu  ⇢   hanaseru
+    ・shinu   ⇢   shineru
+    ・yomu    ⇢   yomeru
+    ・asobu   ⇢   asoberu
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Volitional Form)**</p>
+
+    ・taberu  ⇢   taberareuu
+    ・miru    ⇢   mirareru
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Volitional Form)**</p>
+
+    ・kuru    ⇢   korareru
+    ・suru    ⇢   dekiru
 
 ------------------------------------------------------------------------
 
 ###### V5
 
-**Volitional-Form**`意向形`
+**Volitional-Form**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Volitional Form)**</p>
+
+    ・kau     ⇢   kaou
+    ・matsu   ⇢   matou
+    ・shiru   ⇢   shirou
+    ・kaku    ⇢   kakou
+    ・oyogu   ⇢   oyogou
+    ・hanasu  ⇢   hanasou
+    ・shinu   ⇢   shinou
+    ・yomu    ⇢   yomou
+    ・asobu   ⇢   asobou
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Volitional Form)**</p>
+
+    ・taberu  ⇢   taberou
+    ・miru    ⇢   mirou
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Volitional Form)**</p>
+
+    ・kuru    ⇢   koyou
+    ・suru    ⇢   shiyou
 
 ------------------------------------------------------------------------
 
 ###### V6
 
-**Te-Form**`て形`
+**Te-Form**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Te Form)**</p>
+
+    ・kau     ⇢   katte
+    ・matsu   ⇢   matte
+    ・shiru   ⇢   shite
+    ・kaku    ⇢   kaite
+    ・oyogu   ⇢   oyoide
+    ・hanasu  ⇢   hanashite
+    ・shinu   ⇢   shinde
+    ・yomu    ⇢   yonde
+    ・asobu   ⇢   asonde
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Te Form)**</p>
+
+    ・taberu  ⇢   tabete
+    ・miru    ⇢   mite
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Te Form)**</p>
+
+    ・kuru    ⇢   kite
+    ・suru    ⇢   shite
 
 ------------------------------------------------------------------------
 
 ###### V7
 
-**Ta-Form**`た形`
+**Ta-Form**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Ta Form)**</p>
+
+    ・kau     ⇢   katta
+    ・matsu   ⇢   matta
+    ・shiru   ⇢   shita
+    ・kaku    ⇢   kaita
+    ・oyogu   ⇢   oyoida
+    ・hanasu  ⇢   hanashita
+    ・shinu   ⇢   shinda
+    ・yomu    ⇢   yonda
+    ・asobu   ⇢   asonda
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Ta Form)**</p>
+
+    ・taberu  ⇢   tabeta
+    ・miru    ⇢   mita
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Ta Form)**</p>
+
+    ・kuru    ⇢   kita
+    ・suru    ⇢   shita
 
 ------------------------------------------------------------------------
 
@@ -6110,7 +6362,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ------------------------------------------------------------------------
 
-### Double particles　 {.tabset}
+### Double particles {.tabset}
 
 #### には
 
@@ -6226,7 +6478,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ------------------------------------------------------------------------
 
-### Others　 {.tabset}
+### Others {.tabset}
 
 #### から
 
