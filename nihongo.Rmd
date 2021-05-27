@@ -88,6 +88,7 @@ adjexp1 <- read_csv("rdata/Sheet 57-ADJXP1.csv")
 tchnl <- read_csv("rdata/Sheet 58-TCHN1.csv")
 trvy <- read_csv("rdata/Sheet 60-TRSTVY1.csv")
 phvrb <- read_csv("rdata/Sheet 59-PVRB1.csv")
+vrben <- read_csv("rdata/Sheet 65-VRBCN.csv")
 
 ```
 
@@ -97,7 +98,7 @@ phvrb <- read_csv("rdata/Sheet 59-PVRB1.csv")
 
 ## Foreword
 
-This site is a collection of notes taken from different books and online reference materials related to Japanese learning. The aim of this collection is to give an idea on how start learning the language and to be able to progress until as much as fluent as a native speaker.
+This site is a collection of notes taken from different books and online reference materials related to Japanese learning. The aim of this collection is to give an idea on how start learning the language and to be able to progress at some level.
 
 ------------------------------------------------------------------------
 
@@ -3571,43 +3572,357 @@ Indicates that the past occurrence was done by someone and not by you.
 
 ###### V1
 
-**Negative-Base**`ない形`
+**Vn - Negative-Base**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p>
+
+    ・kau     ⇢   kawa
+    ・matsu   ⇢   mata
+    ・shiru   ⇢   shira
+    ・kaku    ⇢   kaka
+    ・oyogu   ⇢   oyoga
+    ・hanasu  ⇢   hanasa
+    ・shinu   ⇢   shina
+    ・yomu    ⇢   yoma
+    ・asobu   ⇢   asoba
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
+
+    ・taberu  ⇢   tabe
+    ・miru    ⇢   mi
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
+
+    ・kuru    ⇢   ko
+    ・suru    ⇢   shi
+
+**Forms**
+
+<p style="font-size:12px;">(❖) **Vnai-Form (Negative Non Past) ⚭ Vn + nai**</p>
+
+    ・kau     ⇢   kawanai
+    ・taberu  ⇢   tabenai
+    ・miru    ⇢   minai
+    ・kuru    ⇢   konai
+    ・suru    ⇢   shinai
+
+<p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past) ⚭ Vn + nakatta**</p>
+
+    ・kau     ⇢   kawanakatta
+    ・taberu  ⇢   tabenakatta
+    ・miru    ⇢   minakatta
+    ・kuru    ⇢   konakatta
+    ・suru    ⇢   shinakatta
+
+<p style="font-size:12px;">(❖) **More Endings/Forms**</p>
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbena <- vrben %>% slice(1:28)
+
+reactable(
+  na.omit(vrbena),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbena$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbena$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbena$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
 ###### V1.1
 
-**Passive-Form**`受け形`
+**Passive-Form**
 
 ------------------------------------------------------------------------
 
 ###### V1.2
 
-**Causative-Form**`使役形`
+**Causative-Form**
 
 ------------------------------------------------------------------------
 
 ###### V1.3
 
-**Causative-Passive-Form**`使役-受け形`
+**Causative-Passive-Form**
 
 ------------------------------------------------------------------------
 
 ###### V2
 
-**Noun-Base**`名詞形`
+**Noun-Base**
+
+<p style="font-size:12px;">(❖) **Godan Verb (Noun Base)**</p>
+
+    ・kau     ⇢   kai
+    ・matsu   ⇢   machi
+    ・shiru   ⇢   shiri
+    ・kaku    ⇢   kaki
+    ・oyogu   ⇢   oyogi
+    ・hanasu  ⇢   hanashi
+    ・shinu   ⇢   shini
+    ・yomu    ⇢   yomi
+    ・asobu   ⇢   asobi
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+
+    ・taberu  ⇢   tabe
+    ・miru    ⇢   mi
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+
+    ・kuru    ⇢   ki
+    ・suru    ⇢   shi
+
+**Forms**
+
+<p style="font-size:12px;">(❖) **Vmasu-Form (Non Past) ⚭ Vnoun + masu**</p>
+
+    ・kau     ⇢   kaimasu
+    ・taberu  ⇢   tabemasu
+    ・miru    ⇢   mimasu
+    ・kuru    ⇢   kimasu
+    ・suru    ⇢   shimasu
+
+<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past) ⚭ Vnoun + masen**</p>
+
+    ・kau     ⇢   kaimasen
+    ・taberu  ⇢   tabemasen
+    ・miru    ⇢   mimasen
+    ・kuru    ⇢   kurimasen
+    ・suru    ⇢   shirimasen
+
+<p style="font-size:12px;">(❖) **More Endings/Forms**</p>
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbenb <- vrben %>% slice(32:36)
+
+reactable(
+  na.omit(vrbenb),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbenb$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbenb$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbenb$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
 ###### V2.1
 
-**Masu-Form**`ます形`
+**Masu-Form**
 
 ------------------------------------------------------------------------
 
 ###### V3
 
-**Dictionary**`辞書形`
+**Dictionary**
+
+
+<p style="font-size:12px;">(❖) **Godan Verb (Noun Base)**</p>
+
+    ・kau     ⇢   kau
+    ・matsu   ⇢   matsu
+    ・shiru   ⇢   shiru
+    ・kaku    ⇢   kaku
+    ・oyogu   ⇢   oyogu
+    ・hanasu  ⇢   hanasu
+    ・shinu   ⇢   shinu
+    ・yomu    ⇢   yomu
+    ・asobu   ⇢   asobu
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+
+    ・taberu  ⇢   taberu
+    ・miru    ⇢   miru
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
+
+    ・kuru    ⇢   kuru
+    ・suru    ⇢   suru
+
+**Forms**
+
+<p style="font-size:12px;">(❖) **Vmasu-Form (Non Past) ⚭ Vnoun + masu**</p>
+
+    ・kau     ⇢   kaimasu
+    ・taberu  ⇢   tabemasu
+    ・miru    ⇢   mimasu
+    ・kuru    ⇢   kimasu
+    ・suru    ⇢   shimasu
+
+<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past) ⚭ Vnoun + masen**</p>
+
+    ・kau     ⇢   kaimasen
+    ・taberu  ⇢   tabemasen
+    ・miru    ⇢   mimasen
+    ・kuru    ⇢   kurimasen
+    ・suru    ⇢   shirimasen
+
+<p style="font-size:12px;">(❖) **More Endings/Forms**</p>
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbenc <- vrben %>% slice(63:90)
+
+reactable(
+  na.omit(vrbenc),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbenc$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbenc$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbenc$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
@@ -5104,8 +5419,6 @@ reactable(
 
 ### が
 
-<!-- #### Usage -->
-
 The **general concept** of **ga** particle is that it marks the **main actor** or **the noun being described** in the sentence.
 
 **①　Subject of the sentence**
@@ -5243,52 +5556,6 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 
     ・もう一日休暇をとりたいんですが…
     ・I would like to take one more day of vacation..
-
-<!-- #### Remarks -->
-
-<!-- <u>**Translation Interpretations**</u> -->
-
-<!-- ###### Ⓤ This kind of translation is necessary to relate it to Japanese Grammar/Structure more pricisely. -->
-
-<!-- ###### Legend: -->
-
-<!--      Ⓙ  Japanese sentence -->
-<!--      Ⓔ  English natural translation -->
-<!--      Ⓤ  Japanese-pattern English translation -->
-
-<!-- <!-- <h> --> -->
-
-<!--      Ⓙ  アイスクリームが食べたい -->
-<!--      Ⓔ  I want to eat ice cream -->
-<!--      Ⓤ  (As for me), Ice cream is desirable to eat -->
-
-<!--      Ⓙ  英語が話せます -->
-<!--      Ⓔ  I can speak english -->
-<!--      Ⓤ  (As for me), English is possible to speak  -->
-
-<!--      Ⓙ  すしが好き -->
-<!--      Ⓔ  I like sushi -->
-<!--      Ⓤ  (As for me), Sushi is pleasing/likeable -->
-
-<!--      Ⓙ  車がほしい -->
-<!--      Ⓔ  I want a car -->
-<!--      Ⓤ  (As for me), Car is desirable -->
-
-<!--      Ⓙ  やさいが嫌いです -->
-<!--      Ⓔ  I don’t like vegetable -->
-<!--      Ⓤ  (As for me), Vegeatable is undesirable  -->
-
-<!--      Ⓙ  料理ができません -->
-<!--      Ⓔ  I can’t cook -->
-<!--      Ⓤ  (As for me), Cooking is not possible  -->
-
-<!--      Ⓙ  この漢字の意味が分かりますか -->
-<!--      Ⓔ  Do you understand the meaning of this kanji? -->
-<!--      Ⓤ  (As for me), The meaning of the kanji is understandable      -->
-
-<!--      Ⓙ  この漢字の意味が分かりますか -->
-<!--      Ⓔ  To go to Japan, one needs money -->
-<!--      Ⓤ  (As for me), To got to Japan, Money is necessary/requisite   -->
 
 ------------------------------------------------------------------------
 
@@ -8701,6 +8968,54 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+### Mastery
+
+```{r, echo=FALSE, message=FALSE}
+
+v1hme17 <- v1hme %>% select(Mastery) %>%
+  separate(Mastery, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+v1hme17  <- v1hme17 [sample(1:nrow(na.omit(v1hme17 ))),]
+
+reactable(
+  na.omit(v1hme17) ,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- v1hme17$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 
 ------------------------------------------------------------------------
 

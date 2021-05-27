@@ -1,0 +1,18 @@
+Sample Verb,,Stem of the Verb,V1-Vn,V2-Vnoun・Vmasu,V3-Vdict,V4-Vcmd,V4.1-Vpot,V5-Vvol,V6-Vte,V7-Vta
+,,,Negative-Base,Noun-Base,Dictionary-Form,Command-Base,Potential-Form,Volitional-Form,Te-Form,Ta-From
+Yodan(Group 1),,,,,,,,,,
+,kau,ka,wa,i,u,e,eru,ou,tte,tta
+,matsu,ma,ta,chi,tsu,te,teru,tou,tte,tta
+,shiru,shi,ra,ri,ru,re,reru,rou,tte,tta
+,kaku,ka,ka,ki,ku,ke,keru,kou,ite,ita
+,oyogu,oyo,ga,gi,gu,ge,geru,gou,ide,ida
+,hanasu,hana,sa,shi,su,se,seru,sou,shite,shita
+,shinu,shi,na,ni,nu,ne,neru,nou,nde,nda
+,yomu,yo,ma,mi,mu,me,meru,mou,nde,nda
+,asobu,aso,ba,bi,bu,be,beru,bou,nde,nda
+Ichidan (Group 2),,,,,,,,,,
+,taberu,tabe,-,-,ru,re,rareru,you,te,ta
+,miru,mi,-,-,ru,re,rareru,you,te,ta
+Irregular,,,,,,,,,,
+,kuru,-,ko,ki,kuru,kure,korareru,koyou,kite,kita
+,suru,-,shi,shi,suru,sure,dekiru,shiyou,shite,shita

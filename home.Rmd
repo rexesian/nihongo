@@ -59,6 +59,7 @@ inv1 <- read_csv("rdata/Sheet 48-INLV1.csv")
 skr1 <- read_csv("rdata/Sheet 50-SKR1.csv")
 kkch <- read_csv("rdata/Sheet 52-KKCYK.csv")
 anm1 <- read_csv("rdata/Sheet 54-ANM1.csv")
+ykrn1 <- read_csv("rdata/Sheet 63-YKRN1.csv")
 
 ```
 
@@ -1023,21 +1024,74 @@ reactable(
 
 #### $akura {.tabset}
 
-##### Apex Legends
+##### Apex Legends1
 
 [**Miyawake$akura-Apex-Legends**](https://www.youtube.com/watch?v=GXlS1T-BWVM)
 
 ```{r, echo=FALSE, message=FALSE}
 
+skr1a <- skr1 %>% slice(138:311)
+
 reactable(
-  skr1 %>% slice(1:137),
+  skr1a,
   columns = list(
     Script = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Translation1 <- skr1$Translation1[index]
+        Translation1 <- skr1a$Translation1[index]
         Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
-        Translation2 <- skr1$Translation2[index]
+        Translation2 <- skr1a$Translation2[index]
+        Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1),
+          div("MT:  ", style = list(fontSize = 11), Translation2)
+        )
+      },
+      align = "center"
+    ),
+    Translation1 = colDef(show = FALSE),
+    Translation2 = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### Apex Legends2
+
+[**Miyawake$akura-Apex-Legends**](https://www.youtube.com/watch?v=st_dQzxRPo4)
+
+```{r, echo=FALSE, message=FALSE}
+
+skr2 <- skr1 %>% slice(138:311)
+
+reactable(
+  skr2,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation1 <- skr2$Translation1[index]
+        Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
+        Translation2 <- skr2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -1094,6 +1148,53 @@ reactable(
       align = "center"
     ),
     Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Yukirinu{.tabset}
+
+##### Snowboard
+
+```{r, echo=FALSE, message=FALSE}
+
+ykrn1a <- ykrn1 %>% slice(1:104)
+
+reactable(
+  ykrn1a,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- ykrn1a$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
 
   ),
   defaultPageSize = 1,
