@@ -3974,6 +3974,28 @@ reactable(
 
 **Masu-Form**
 
+<p style="font-size:12px;">(❖) **Godan Verb (Masu Form)**</p>
+
+    ・kau     ⇢   kaimasu
+    ・matsu   ⇢   machimasu
+    ・shiru   ⇢   shirimasu
+    ・kaku    ⇢   kakimasu
+    ・oyogu   ⇢   oyogimasu
+    ・hanasu  ⇢   hanashimasu
+    ・shinu   ⇢   shinimasu
+    ・yomu    ⇢   yomimasu
+    ・asobu   ⇢   asobimasu
+
+<p style="font-size:12px;">(❖) **Ichidan Verb (Masu Form)**</p>
+
+    ・taberu  ⇢   tabemasu
+    ・miru    ⇢   mimasu
+
+<p style="font-size:12px;">(❖) **Irregular Verb (Masu Form)**</p>
+
+    ・kuru    ⇢   kimasu
+    ・suru    ⇢   shimasu
+
 ------------------------------------------------------------------------
 
 ###### V3
