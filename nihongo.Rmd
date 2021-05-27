@@ -2049,7 +2049,7 @@ A word or groups of words that modifies a noun comes before the noun.
     ・In June last year my sister married a high school teacher
 
 **③　Noun + Noun **
-`Affiliation/Characteristic/Apposition`
+`Affiliation/Characterization/Apposition`
 
 ###### **⚭　Noun1 + no + Noun2 ** → Noun1's Noun2/Noun2 of Noun1
 
@@ -2176,7 +2176,7 @@ A word or groups of words that modifies a noun comes before the noun.
     ・Many models
 
 **⑩　Number + Counter + Noun**
-`Characterize a Noun`
+`Characterizing a Noun`
 
 ###### **⚭　Number + Counter + no + Noun**
 
@@ -2372,7 +2372,7 @@ A word or groups of words that modifies a noun comes before the noun.
 
 ###### **⚭　noun ka noun** → Noun or Noun
 
-###### **⚭　noun, noun matawa noun**→  Noun, Noun or Noun
+###### **⚭　noun, noun matawa noun** → Noun, Noun or Noun
 
     ・ぺんと本（と）
     ・寿司やラーメンやご飯（や）
@@ -2583,7 +2583,7 @@ reactable(
         Meaning <- da$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -2793,7 +2793,7 @@ reactable(
         Reading <- advb1$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
@@ -3092,39 +3092,39 @@ The two nominalizers are **no** and **koto**.
 
 **Time**
 
-    ・秒    byou         ◦ seconds
-    ・分    fun/pun/bun  ◦ minutes
-    ・月　  kagetsu      ◦ number of months
-    ・月　  tsuki        ◦ number of months
-    ・年　  nen          ◦ number of years
-    ・時間  jikan        ◦ number of hours
+    ・秒　　byou         ◦ seconds
+    ・分　　fun/pun/bun  ◦ minutes
+    ・月　　kagetsu      ◦ number of months
+    ・月　　tsuki        ◦ number of months
+    ・年　　nen          ◦ number of years
+    ・時間　jikan        ◦ number of hours
     ・週間　shuukan      ◦ number of weeks
 
 **Numerical Value**
 
-    ・十　 juu   ◦ tens
-    ・百　 hyaku ◦ hundreds
-    ・千　 sen   ◦ thousand
-    ・万　 man   ◦ ten thousand
+    ・十　juu   ◦ tens
+    ・百　hyaku ◦ hundreds
+    ・千　sen   ◦ thousand
+    ・万　man   ◦ ten thousand
 
 **Percentage**
 
-    ・割　 wari ◦ percent
+    ・割　wari ◦ percent
 
 **Weight**
 
-    ・キロ　      kiro       ◦ kilo
-    ・グラム　    guramu     ◦ gram
+    ・キロ　　　　kiro       ◦ kilo
+    ・グラム　　　guramu     ◦ gram
     ・ミリグラム　miriguramu ◦ milligram
 
 **Distance**
 
-    ・メートル　 metoru ◦ meter
-    ・センチ　   senchi ◦ centimeter
+    ・メートル　　metoru ◦ meter
+    ・センチ　　　senchi ◦ centimeter
 
 **Volume**
 
-    ・リットル   rittoru ◦ liter
+    ・リットル　　rittoru ◦ liter
 
 ------------------------------------------------------------------------
 
@@ -3169,28 +3169,28 @@ The two nominalizers are **no** and **koto**.
 `目 ◦ め ◦ is added to indicate order`
 
     ・3 杯目　◦ Third bowl
-    ・3 回目  ◦ Third time
-    ・1 軒目  ◦ First house/building
-    ・4 個目  ◦ Fourth one
+    ・3 回目　◦ Third time
+    ・1 軒目　◦ First house/building
+    ・4 個目　◦ Fourth one
     ・2 人目　◦ The second person
 
 <!-- <h> -->
 
-    ・一列目の席   ◦ The first row seat
-    ・一番目の子　 ◦ The first girl
-    ・一つ目の信号 ◦ The first traffic light
-    ・いくつ目の駅 ◦ The nth station (How many stations?)
+    ・一列目の席　　◦ The first row seat
+    ・一番目の子　　◦ The first girl
+    ・一つ目の信号　◦ The first traffic light
+    ・いくつ目の駅　◦ The nth station (How many stations?)
 
 **Prefix**
 `第 ◦ だい ◦ is added to indicate order`
 
-    ・第一課　   ◦ The first chapter
-    ・第二期　　 ◦ The second term
-    ・第二段階　 ◦ The second stage
-    ・第一次産業 ◦ Primary industry
-    ・第一次予防 ◦ Primary prevention
-    ・第二次集団 ◦ Secondary group
-    ・第二次製品 ◦ Secondary product
+    ・第一課　　　◦ The first chapter
+    ・第二期　　　◦ The second term
+    ・第二段階　　◦ The second stage
+    ・第一次産業　◦ Primary industry
+    ・第一次予防　◦ Primary prevention
+    ・第二次集団　◦ Secondary group
+    ・第二次製品　◦ Secondary product
 
 ------------------------------------------------------------------------
 
@@ -3199,9 +3199,9 @@ The two nominalizers are **no** and **koto**.
 **Adverbs**
 
     ・多い　　　ooi      ◦ many
-    ・少し　　　sukoshi　◦ a few, a little
+    ・少し　　　sukoshi  ◦ a few, a little
     ・ちょっと　chotto   ◦ a few, a little
-    ・たくさん　takusan　◦ a lot, plenty, many
+    ・たくさん　takusan  ◦ a lot, plenty, many
 
 ------------------------------------------------------------------------
 
@@ -3262,24 +3262,20 @@ A **verb** is a word that expresses the physical or mental activities carried ou
 ##### Groups
 
 **Godan**`Consonant-Stem`  
-In the dictionary form, Godan verbs may end with **-u**,**-tsu**,**-ru**,**-mu**,**-bu**,**-nu**,**-ku**,**-gu**,**-su**.
+In the dictionary form, Godan verbs may end with **u**,**tsu**,**ru**,**mu**,**bu**,**nu**,**ku**,**gu**,**su**.
 
     ・買う・待つ・知る・読む・遊ぶ・死ぬ・書く・泳ぐ・話す
     ・buy・wait・know・read・play・die・write・swim・talk
 
 **Ichidan**`Vowel-Stem`  
-In the dictionary form, Ichidan verbs all ends with either **-eru** or **-iru**.
+In the dictionary form, Ichidan verbs all ends with either **eru** or **iru**.
 
-(1) eru
-
-<!-- <h>  -->
+(❖) eru
 
     ・あげる・出る・晴れる・食べる
     ・to raise・to leave・to clear up・to eat
 
-(2) iru
-
-<!-- <h>  -->
+(❖) iru
 
     ・きる・見る・落ちる・いる
     ・to wear・to see・to fall・be located
@@ -4230,7 +4226,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### Special Topics
+###### Vcnd
 
 **Conditional-Form**   
 

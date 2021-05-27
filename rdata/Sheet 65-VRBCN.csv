@@ -89,8 +89,11 @@ Script,Meaning,Expression,Concept
 明日電車で行くつもりです,I intend  to go by train tomorrow,⚭ Vdict・Vru + tsumori (desu),intend to
 明日出かけられるように準備しています,I am preparing to be able to depart tomorrow,⚭ Vdict・Vru + you ni,in order to
 明日テニスをする予定です,I plan to play tennis tomorrow,⚭ Vdict・Vru + yotei (desu),plan to
-,,⚭ Vcmd,abrupt command
-,,⚭ Vcmd + ba → Vcnd,if / when (i) do (conditional)
+話せ!,Speak!,⚭ Vcmd,abrupt command
+黙れ!,Shut up!,⚭ Vcmd,abrupt command
+止め!,Stop it!,⚭ Vcmd,abrupt command
+急げば間に合います,"If we hurry, we can make it",⚭ Vcmd + ba → Vba,if / when (i) do (conditional)
+アイスクリームは少しだけ食べればいいです,"If you only eat a little ice cream, it’s okay",⚭ Vcmd + ba → Vba,if / when (i) do (conditional)
 ,,⚭ Vcmd + ba yokatta (desu),"should have done, wish to do"
 ,,⚭ suru → sureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
 ,,⚭ kuru → kureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
@@ -98,3 +101,8 @@ Script,Meaning,Expression,Concept
 ,,⚭ Vcmd + rareru → Vpot,potential form ( group 2 verbs: ichidan)
 ,,⚭ suru → dekiru,potential form ( suru: dekiru)
 ,,⚭ kuru → kureru,potential form ( kuru: kureru)
+,,⚭ Vvol,let’s ..  (informal inclusive command)
+,,⚭ Vvol + ka,shall we ..  (informal inclusive query)
+,,⚭ Vvol + to omou,i think i will
+,,⚭ Vvol + to suru,be about to
+,,⚭ Vvol + to shite iru,be about to (progressive form)
