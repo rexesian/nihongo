@@ -3,10 +3,10 @@ navbar:
   title: "🐳"
   href: index.html
   right:
+    - text: "Zutto-Nihongo"
+      href: journal.html
     - text: "More-Nihongo"
       href: home.html
-    - text: "Articles"
-      href: journal.html
     - text: "Links"
       href: links.html
   left: 

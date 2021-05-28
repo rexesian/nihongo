@@ -1016,7 +1016,7 @@ Introduction of **A - Main Carriage** and **B - Engine**.
     ・John-san ga amerika-jin desu
     ・John is an American
 
-###### 'da/desu' - copula
+###### 'da・desu' - copula
 
 ------------------------------------------------------------------------
 
@@ -4170,7 +4170,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### V6
+gg###### V6
 
 **Te-Form**
 
