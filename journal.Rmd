@@ -25,8 +25,8 @@ body {
 
 .hljs {
   color: 	#505050;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 200;
   font-family: "Helvetica Neue";
 }
 
@@ -45,11 +45,10 @@ body {
 }
 ```
 
-# 日本語 {.tabset}
 
-## Nihongo-Guide {.tabset}
+# Nihongo-Guide {.tabset}
 
-### Structure
+## Structure
 
     ・花子さんが来た  
     ・空が青い  
@@ -86,9 +85,9 @@ body {
 
 ------------------------------------------------------------------------
 
-### Elements {.tabset}
+## Elements {.tabset}
 
-#### Initial Carriage
+### Initial Carriage
 
     ・彼女はフランス語が話せる。しかも流ちょうに話せる
     ・ちょっと話をしただけ。 それも小声で話ます  
@@ -142,7 +141,7 @@ body {
     
 ------------------------------------------------------------------------    
     
-#### Main Carriage
+### Main Carriage
 
     ・今夜は月がきれいですね
     ・さっき田中さんが来ましたよ 
