@@ -4,6 +4,10 @@ output:
   html_document:
     theme: sandstone
     css: "mystyle.css"
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
 ---
 
 ```{r setup, include=FALSE}
@@ -43,7 +47,9 @@ body {
 
 # 日本語 {.tabset}
 
-## Structure
+## Nihongo-Guide {.tabset}
+
+### Structure
 
     ・花子さんが来た  
     ・空が青い  
@@ -80,9 +86,9 @@ body {
 
 ------------------------------------------------------------------------
 
-## Elements {.tabset}
+### Elements {.tabset}
 
-### Initial Carriage
+#### Initial Carriage
 
     ・彼女はフランス語が話せる。しかも流ちょうに話せる
     ・ちょっと話をしただけ。 それも小声で話ます  
@@ -136,7 +142,7 @@ body {
     
 ------------------------------------------------------------------------    
     
-### Main Carriage
+#### Main Carriage
 
     ・今夜は月がきれいですね
     ・さっき田中さんが来ましたよ 
@@ -250,5 +256,6 @@ body {
     ・どう考えてみてもそれはおかしいよ
 
 ------------------------------------------------------------------------
-    
-------------------------------------------------------------------------
+# 
+
+ϞϞ(๑⚈ ․̫ ⚈๑)∩
