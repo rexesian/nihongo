@@ -4170,7 +4170,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-gg###### V6
+###### V6
 
 **Te-Form**
 
@@ -10206,7 +10206,7 @@ reactable(
         Transcript <- evdw1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10253,7 +10253,7 @@ reactable(
         Transcript <- evdw2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 50, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
