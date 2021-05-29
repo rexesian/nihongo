@@ -56,7 +56,7 @@ body{
 
 ## Web Sites
 
-Nippon.com: <https://www.nippon.com/ja/>
+Nippon.com: <https://www.nippon.com/ja/>   
 Kanshudo: <https://www.kanshudo.com/>  
 Yahoo-Kids: <https://kids.yahoo.co.jp>  
 NHK-School: <https://www.nhk.or.jp/school/>  

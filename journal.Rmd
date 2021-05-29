@@ -19,15 +19,15 @@ knitr::opts_chunk$set(echo = TRUE)
 <style type="text/css">
 
 body {
-      font-size: 15px;
+      font-size: 13px;
       font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";
 }
 
-.hljs {
-  color: 	#505050;
-  font-size: 15px;
-  font-family: "Anonymous Pro", "Helvetica Neue";
-}
+<!-- .hljs { -->
+<!--   color: 	#505050; -->
+<!--   font-size: 15px; -->
+<!--   font-family: "Anonymous Pro", "Helvetica Neue"; -->
+<!-- } -->
 
 </style>
 
@@ -256,6 +256,39 @@ body {
 ------------------------------------------------------------------------
 
 # Nihongo-Reading {.tabset}
+
+## Web-News-Easy {.tabset}
+
+### 1
+
+**[米を育てる農家の手伝いをするロボット](https://www3.nhk.or.jp/news/easy/k10013051601000/k10013051601000.html)**
+
+山形県鶴岡市の会社が、薬を使わないで米を育てる農家の手伝いをするロボットを作りました。  
+ロボットの大きさは、幅が1.2m、高さが20cmぐらいです。  
+ソーラーパネルとGPSがついていて、太陽の光から作った電気を使って、自動で動きます。  
+このロボットを田んぼに入れて、スクリューを回すと、水が濁ります。  
+水の中に光が入らなくなって、米が育つのに邪魔になる草が大きくなりません。  
+ロボットを作った人は「将来、米を育てる農家の仕事を少なくすることが必要になります。  
+田んぼの草をとるのは大変な仕事なので、ロボットで手伝いたいです」と話していました。  
+
+------------------------------------------------------------------------
+
+### 2
+
+**[スーパームーンの皆既月食　月が全部見えなくなる](https://www3.nhk.or.jp/news/easy/k10013053271000/k10013053271000.html)**
+
+26日、太陽と地球と月がまっすぐに並んで、地球の影で月が見えなくなる皆既月食がありました。   
+この日は、月と地球がいちばん近い日でした。  
+いちばん遠い日と比べると、月が14％大きく見えて、「スーパームーン」と呼ばれています。   
+午後6時44分、皆既月食が始まりました。
+午後8時9分から午後8時28分までの19分は、月が全部見えなくなりました。  
+皆既月食は、空に雲がなかった東北地方や北海道、小笠原諸島などで見ることができました。  
+仙台市で見た小学校6年生の男の子は「去年から楽しみにしていました。   
+初めて見ましたが、きれいでした」と話していました。
+国立天文台によると、次に日本で皆既月食が見えるのは来年の11月8日です。  
+スーパームーンの皆既月食が日本で見えるのは、2033年10月ごろです。 
+
+------------------------------------------------------------------------
 
 ## Ramen
 
@@ -534,6 +567,121 @@ body {
 先人たちはどの時代にあっても、外来文化を常に和風に改め、日本独自のものとして受容してきた。さまざまな文化を混合し、折衷し、新奇なものを創造しつつ、時間の経過を経て、それを京都の伝統という文脈に取り込んできた。各時代の歴史的・文化的営為が「洛中洛外」と総称される空間と時間の中にふんだんに埋め込まれている（後編に続く）。
 
 バナー写真＝室町時代の京都の市中とその郊外の名所などが俯瞰（ふかん）的に描かれた洛中洛外図（アフロ)
+
+------------------------------------------------------------------------
+
+# Nihongo-Notes {.tabset}
+
+## Web-News-Easy {.tabset}
+
+### 1
+
+山形県 ○ やまがたけん ○ Yamagata Prefecture (Tohoku Area)   
+鶴岡市 ○ つるおかし ○ Tsuruoka City   
+農家 ○ のうか ○ farmer   
+幅 ○ はば ○ width・breadth   
+ソーラーパネル ○ solar panel   
+光 ○ ひかり ○ light   
+太陽 ○ たいよう ○ sun   
+自動 ○ 自動 ○ automatic   
+濁ります ○ にごります ○ to become muddy・to become cloudy・to become dull   
+邪魔 ○ じゃま ○ hindrance・obstacle・nuisance   
+草 ○ くさ ○ grass・weeds   
+少なくする ○ すくなくする ○ to reduce   
+
+山形県鶴岡市の会社が、薬を使わないで米を育てる農家の手伝いをするロボットを作りました   
+A company in Tsuruoka City, Yamagata Prefecture, has created a robot that helps farmers grow rice without using chemicals (medicine)　
+
+ソーラーパネルとGPSがついていて  
+It's got a solar panel and GPS   
+
+自動で動きます  
+It runs automatically  
+
+このロボットを田んぼに入れて、スクリューを回すと、水が濁ります   
+When this robot is placed in a rice paddy and the screw is turned, the water becomes muddy!　　
+
+米が育つのに邪魔になる草が大きくなりません   
+Grasses that interfere with the growth of rice will not grow　　
+
+ロボットを作った人は「将来、米を育てる農家の仕事を少なくすることが必要になります  
+The person who created the robot said, "In the future, we will need to reduce the workload of farmers who grow rice  
+
+田んぼの草をとるのは大変な仕事なので、ロボットで手伝いたいです」と話していました   
+Weeding the rice paddies is a tough job, so I want to help with the robot," he said   
+
+------------------------------------------------------------------------
+
+## Ramen
+
+日本で育ち ○ にほんでそだち ○ grow・breed in Japan  
+世界に進出した ○ せかいにしんしゅつ ○  advancing・expanding・emerging in the world  
+数多 ○ あまた ○  many・a lot・much・multitude  
+
+ラーメンという料理ほど独特な存在はなく  
+There is no more unique existence than the dish of ramen  
+
+同時に ○ どうじに ○ coincident with・while・simultaneously  
+業態 ○ ぎょうたい ○ business condition・line of business  
+独特 ○ どくとく ○ peculiarity・uniqueness・characteristic  
+存在 ○ そんざい ○ existence・being
+
+同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
+At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant   
+
+源流 ○ げんりゅう ○  source・origin of something continuous (language, culture, etc)   
+麺 ○ めん ○  noodles  
+
+客観的 ○ きゃっかんてき ○  objective   
+客観的に見て ○ きゃっかんてきにみて ○  looking objectively   
+客観的に見ても ○ きゃっかんてきにみても ○ even if you look at it objectively   
+
+客観的に見ても間違いのないところである    
+There is no mistake even if you look at it objectively    
+
+日本で最初にラーメンを出したと言われる   
+Said to be the first to serve ramen in Japan   
+
+来々軒 ○ らいらいけん ○  Rairaiken　　　  
+浅草 ○ あさくさ ○  Asakusa   
+年創業 ○ としそうぎょう ○  year of establishment   　　
+
+日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
+Rairaiken" (Asakusa, established in 1910), said to be the first restaurant in Japan to serve ramen, was a Chinese restaurant for the masses that also served shumai (fried pork dumplings) and Chinese rice bowls   
+
+------------------------------------------------------------------------
+
+# Nihongo-Grammar {.tabset}
+
+## Ramen
+
+(❖) 程 ○ ほど ○  extent・degree・measure・limit・as much as   
+
+(1) (compare A and B)  
+      
+    (1.1) A is not as (adjective) as B    
+      -  AはBほど背が高くない    
+      -  AはBほどかわいくない 
+
+    (1.2) A はB ほど (verb) ない   
+      -  AはBほど勉強しない  
+      -  AはBほど飲まない  
+          
+(2) Not like ~・Not as ~   
+    
+    (2.1) ~ほどではありません。(polite)・~ほどではない   
+      -  先生ほどではありません   
+      -  先生ほどではないけどね   
+
+(3) Not as ~ as someone has imagined・thought・expected    
+    
+    (3.1) 思ったほど ○ おもったほど ○ as ~ as someone thought    
+      -  試験は、思ったほど難しくなかった  
+      -  僕は静香ちゃんが思っているほどモテないから心配しないで 
+      -  その店は評判ほど悪い店ではありませんでした
+      
+    (3.2) 想像していたほど ○そうぞうしていたほど ○ many as ~ as someone imagined  
+    (3.3) 想像していたほど ○ きたいしていたほど ○ many as ~ as someone expected   
 
 ------------------------------------------------------------------------
 
