@@ -3209,13 +3209,29 @@ The two nominalizers are **no** and **koto**.
 
 ##### Prefix
 
-A **prefix** is a short element that is attached to the beginning of a word to add an additional meaning to or to change the meaning of the word.
+A **prefix** is a short element that is attached to the beginning of a word to add an additional meaning to or to change the meaning of the word.  
+
+    ・お　　olite prefix        お手紙・letter・お上手・skillful・忙しい・busy
+    ・可　　able, ible          可燃物・flammable thing・可溶性・solubility
+    ・各　　each, several       各国・each country・各部屋・each room
+    ・片　　one                 片手・one hand・片一方・one of the two・片時・a monent
+    ・逆　　counter, reverse    逆効果・counter productive・逆コース・reverse course
+    ・ご　　polite prefix       ご家族・your family・ご結婚・marriage
+    ・準　　semi, quasi, assoc  準決勝・semi-final・準会員・associate member
+    ・諸　　many, various       諸設備・many facilities・諸物価・various prices
+    ・素　　bare                素足・bare foot・素焼き・unglazed pottery
+    ・全　　whole, entire       全国民・the whole nation・全人口・entire population
+    ・総　　grand, general      総選挙・general election・総合計・grand total
 
 ------------------------------------------------------------------------
 
 ##### Suffix
 
-A **suffix** is a short element that is attached to the end of a word to change the meaning of or to add an additional meaning to the word.
+A **suffix** is a short element that is attached to the end of a word to change the meaning of or to add an additional meaning to the word.   
+
+    ・家　　er, ian, ist      音楽家・musician・専門家・specialist・資本家・capilist
+    ・可　　able, ible        可燃物・flammable thing・可溶性・solubility
+    ・限り　limited to, only  今週限り・limited to this week・一度限り・only once
 
 ------------------------------------------------------------------------
 
@@ -5184,7 +5200,7 @@ reactable(
         Transcript1 <- trvy1$Transcript1[index]
         Transcript1 <- if (!is.na(Transcript1)) Transcript1 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript1)
         )
       },
