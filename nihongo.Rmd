@@ -3232,6 +3232,12 @@ A **suffix** is a short element that is attached to the end of a word to change 
     ・家　　er, ian, ist      音楽家・musician・専門家・specialist・資本家・capilist
     ・可　　able, ible        可燃物・flammable thing・可溶性・solubility
     ・限り　limited to, only  今週限り・limited to this week・一度限り・only once
+    ・方　　how to, a way of  読み方・how to read・way of reading
+    ・方　　plural marker     あなた方・you・先生方・the teachers
+    ・形　　shaped            卵形・egg-shaped・三日月形・cresent
+    ・型　　type, model       箱型・box type・A型・type A・1990年型・1990 model
+    ・がち　tend to, often    忘れがち・tend to・病気がち・often get ill
+    ・ぎみ　verging on        太りぎみ・verging on obesity・風邪ぎみ・have a slight cold
 
 ------------------------------------------------------------------------
 
