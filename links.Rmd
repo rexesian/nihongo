@@ -60,8 +60,9 @@ Nippon.com: <https://www.nippon.com/ja/>
 Kanshudo: <https://www.kanshudo.com/>  
 Yahoo-Kids: <https://kids.yahoo.co.jp>  
 NHK-School: <https://www.nhk.or.jp/school/>  
-Lexicon: <https://db4.ninjal.ac.jp/vvlexicon/en/>  
-Irodori: <https://www.irodori.jpf.go.jp/en/index.html>  
+Lexicon: <https://db4.ninjal.ac.jp/vvlexicon/en/>   
+Irodori: <https://www.irodori.jpf.go.jp/en/index.html>   
+Nihongo-Switch: <https://nihongoswitch.com>    
 
 ------------------------------------------------------------------------
 
