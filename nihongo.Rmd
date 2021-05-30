@@ -9456,91 +9456,6 @@ reactable(
 
 # Exam Guide {.tabset}
 
-## Reading {.tabset}
-
-------------------------------------------------------------------------
-
-## Grammar {.tabset}
-
-------------------------------------------------------------------------
-
-## Listening {.tabset}
-
-------------------------------------------------------------------------
-
-## Questions {.tabset}
-
-### N5
-
-```{r, echo=FALSE, message=FALSE}
-
-set.seed(3841)
-qsn5 <- qsn5[sample(1:nrow(qsn5)),]
-
-reactable(
-  qsn5,
-  columns = list(
-       Question = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Question') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Question'] === prevRow['Question']) {
-            return { visibility: 'Question' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        A <- qsn5$A[index]
-        A  <- if (!is.na(A )) A  else "Unknown"
-        B <- qsn5$B[index]
-        B  <- if (!is.na(B )) B  else "Unknown"
-        C <- qsn5$C[index]
-        C  <- if (!is.na(C )) C  else "Unknown"
-        D <- qsn5$D[index]
-        D  <- if (!is.na(D )) D  else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
-          div(style = list(fontSize = 15, fontWeight = 200), A),
-          div(style = list(fontSize = 15, fontWeight = 200), B),
-          div(style = list(fontSize = 15, fontWeight = 200), C),
-          div(style = list(fontSize = 15, fontWeight = 200), D)
-        )
-      },
-      align = "left", minWidth = 400
-      ),
-      A = colDef(show = FALSE),
-      B = colDef(show = FALSE),
-      C = colDef(show = FALSE),
-      D = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-```
-
-
-------------------------------------------------------------------------
-
 ## Words {.tabset}
 
 ### N5
@@ -9886,6 +9801,184 @@ reactable(
       ),
       Meaning = colDef(show = FALSE),
       Reading = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+```
+
+------------------------------------------------------------------------
+
+## Grammar {.tabset}
+
+### N5 {.tabset}
+
+#### 1
+
+**dake** `only, just`
+
+###### **⚭　Vplain/I-Adj/Na-Adj+da/N + dake**
+
+    ・朝はコーヒーをいっぱい飲むだけです 
+    ・この本は高いだけでおもしりくない
+    ・あの先生には一度だけ会いました
+    ・テニスは好きなだけで上手じゃない 
+
+<!-- <h> -->
+
+    ・In the morning, I just drink a cup of coffee, that’s all
+    ・This book is just expensive and is not interesting
+    ・I met that professor only once
+    ・I just like tennis and I’m not good at it
+
+**darou** `probably`
+
+###### **⚭　Vplain/I-Adj/Na-Adj/N + darou**
+
+    ・アンダーソンさんは日本へ行くだろう
+    ・アンダーソンさんはたぶん日本へ行くだろう
+    ・アンダーソンさんはきっと日本へ行くだろう
+    ・あのアパートは高いだろう
+    ・あの人は中国人だろう
+    ・ロジャーはスキーが上手だろう
+
+<!-- <h> -->
+
+    ・Ms. Anderson will probably go to Japan
+    ・Ms. Anderson will most probably go to Japan
+    ・Ms. Anderson will most likely go to Japan
+    ・That apartment is probably expensive
+    ・That man is probably Chinese
+    ・Roger is probably good at skiing
+
+------------------------------------------------------------------------
+
+#### 2
+
+**kara** `because・since`
+
+###### **⚭　Vplain/I-Adj/Na-Adj+da/N+da + kara**
+
+    ・宿題がいっぱいあるから、遊べない
+    ・一生懸命勉強したから大学入学試験位合格した
+    ・寒いから、窓を閉めてください
+    ・あの人はいつもとてもしずかだから、一度も話したことがない
+    ・大事なしけんだから、がんばる
+
+<!-- <h> -->
+
+    ・I can't play because I have a lot of homework
+    ・I passed the university entrance examination because I studied hard
+    ・Please close the window because its cold
+    ・That person is always really quiet, so I haven’t ever talked to them
+    ・This is a very important test, so I will do my best!
+    
+**keredomo・kedo** `but・although・though`  
+
+###### **⚭　Vplain/I-Adj/Na-Adj+da/N+da + kara**
+
+    ・入ってもいいけどしずかにしてくださいね
+    ・あそびたいけど宿題はまだ終わってない
+    ・これは給料は良くないけどやりがいのある仕事だ
+
+<!-- <h> -->
+
+    ・You can enter but please be quite
+    ・I want to play but my homework isn't over yet
+    ・This is a poorly paid but rewarding job
+
+**kurai・gurai** `about・approximately`
+
+###### **⚭　Number/Counter/Demonstrative/Interrogative + kurai/gurai**
+
+    ・四冊くらい
+    ・百人くらい
+    ・家から学校までどのぐらいかかりますか
+    ・きむさんはどれぐらい日本語勉強していますか
+    ・その車はいくらぐらいでしたか
+
+<!-- <h> -->
+
+    ・about four (books)
+    ・about a hundred (people)"
+    ・Approximately, how long does it take from your home to school?
+    ・About how long does Mr. Kim is studying Japanese?
+    ・About how much was that car?
+
+------------------------------------------------------------------------
+
+## Reading {.tabset}
+
+------------------------------------------------------------------------
+
+## Listening {.tabset}
+
+------------------------------------------------------------------------
+
+## Questions {.tabset}
+
+### N5
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(3841)
+qsn5 <- qsn5[sample(1:nrow(qsn5)),]
+
+reactable(
+  qsn5,
+  columns = list(
+       Question = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Question') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Question'] === prevRow['Question']) {
+            return { visibility: 'Question' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        A <- qsn5$A[index]
+        A  <- if (!is.na(A )) A  else "Unknown"
+        B <- qsn5$B[index]
+        B  <- if (!is.na(B )) B  else "Unknown"
+        C <- qsn5$C[index]
+        C  <- if (!is.na(C )) C  else "Unknown"
+        D <- qsn5$D[index]
+        D  <- if (!is.na(D )) D  else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 800), value),
+          div(style = list(fontSize = 15, fontWeight = 200), A),
+          div(style = list(fontSize = 15, fontWeight = 200), B),
+          div(style = list(fontSize = 15, fontWeight = 200), C),
+          div(style = list(fontSize = 15, fontWeight = 200), D)
+        )
+      },
+      align = "left", minWidth = 400
+      ),
+      A = colDef(show = FALSE),
+      B = colDef(show = FALSE),
+      C = colDef(show = FALSE),
+      D = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
