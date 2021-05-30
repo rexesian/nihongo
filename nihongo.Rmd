@@ -1040,7 +1040,7 @@ Introduction of **A - Main Carriage** and **B - Engine**.
 ###### **⚭　Sentence(Noun-Ending) + de + Sentence**
 
     ・ウンさんは中国人でキムさんは韓国人です 
-    ・Wong-san is Chinese and Mr. Kim is Korean
+    ・Mr.Wong is Chinese and Mr. Kim is Korean
 
 ###### **⚭　Sentence(Vnoun-base-Ending) + Sentence**
 
@@ -5701,7 +5701,49 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Conjuctions
+#### Conjuctions {.tabset}
+
+##### atode
+
+**atode** `after・afterwards`
+
+###### **⚭　Vta/N+no + atode**
+
+###### A state or action happens after a state or action takes place but not always immediately
+
+    ・日本へ行った後で病気になりました
+    ・授業の後で図書館に行きました
+    ・ご飯を食べた後ですぐ勉強しました
+    ・食事の後でテニスをした 
+
+<!-- <h> -->
+
+    ・I got sick after I went to Japan
+    ・I went to the library after class
+    ・I studied right after I ate my dinner
+    ・We played tennis after dinner
+
+------------------------------------------------------------------------
+
+##### kara
+
+**kara** `after・since`
+
+###### **⚭　Vte + kara**
+
+###### After or since a point in tie at which something takes place
+
+    ・雪子は晩御飯を食べてから映画に行った
+    ・私は友達に電話してから家に出た
+    ・彼女はいつもシャワーを浴びてから寝ます
+    ・私たちがこの家を買ってからもう10年になる 
+
+<!-- <h> -->
+
+    ・After eating her dinner, Yukiko  went to a movie
+    ・After I calling my friend, I left for home
+    ・After taking a shower, She went to bed
+    ・It's been ten years since we bought this house
 
 ------------------------------------------------------------------------
 
