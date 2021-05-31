@@ -4376,12 +4376,11 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
 
 **komu**`in・into・deeply`
 
-**⚭　V~~masu~~ + komu**
+<p style="font-size:12px;">**⚭　V~~masu~~ + komu**</p>
 
-(1) Creates an inward direction or
-(2) An action takes place deep in something or someone
+<p style="font-size:12px;">(❖) Creates an inward direction or</p>
 
-<!-- <h> -->
+<p style="font-size:12px;">(❖) An action takes place deep in something or someone</p>
 
     ・知らない男が部屋に入り込んできた
     ・昨日は風邪で寝込んでしまった
@@ -4423,12 +4422,11 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
 
 **ageru**`doing something for someone`・`completion`・`raising up・going up`  
 
-**⚭　Vte + ageru** `doing something for someone`  
+<p style="font-size:12px;">**⚭　Vte + ageru** `doing something for someone`</p>
 
-(1) Someone gives an action as a favor to someone not within the group
-(2) The status of giver and receiver is about equal
+<p style="font-size:12px;">(❖) Someone gives an action as a favor to someone not within the group</p>
 
-<!-- <h> -->
+<p style="font-size:12px;">(❖) The status of giver and receiver is about equal</p>
 
     ・靴をはかせてあげよう
     ・私はなおみさんに英語を教えてあげた
@@ -4440,11 +4438,9 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
     ・I taught Naomi some English
     ・Mr. Tanaka lent Mr. Smith a book
 
-**⚭　V~~masu~~ + ageru**`completion`
+<p style="font-size:12px;">**⚭　V~~masu~~ + ageru**`completion`</p>
 
-(1) Indicates completion
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) Indicates completion</p>
 
     ・論文をかき上げたら、連絡します
     ・私はたくさんの洗濯物を洗い上げた
@@ -4456,11 +4452,9 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
     ・I washed up a lot of laundry
     ・The cook finished stir-frying the vegetables
 
-**⚭　V~~masu~~ + ageru**`raising up・going up`
+<p style="font-size:12px;">**⚭　V~~masu~~ + ageru**`raising up・going up`</p>
 
-(1) Indicates something raising up or going up
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) Indicates something raising up or going up</p>
 
     ・消費の拡大は経済成長を上方向に押し上げる
     ・男は、近くにあった大きな岩を抱え上げ、投げ飛ばした
@@ -4478,11 +4472,9 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
 
 **au**`do something together・do something to each other`
 
-**⚭　V~~masu~~ + au**
+<p style="font-size:12px;">**⚭　V~~masu~~ + au**</p>
 
-(1) To do something mutually together
-
-<!-- <h> -->
+<p style="font-size:12px;">(❖) To do something mutually together</p>
 
     ・喜び合ってくれる人、監視みあってくれる人が本当の友達だ
     ・二人は小さなことで言い合っていた
@@ -4517,6 +4509,151 @@ Forms: (G1) **V1~~masu~~ + V**, (G2) **V1te + V2**, (G3) **prefix + V1**, (G4) *
     ・I happened to run into an old friend
     ・You need to try to understand each others feelings
     ・True friends share all of their joys and sorrows.
+
+------------------------------------------------------------------------
+
+###### iku/kuru
+
+**iku/kuru**`sequential`  
+
+<p style="font-size:12px;">**⚭　Vte + iku ** `go after doing`</p>
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `come back after doing`</p>
+
+<p style="font-size:12px;">(❖) The agent does something in some point in time and moves from there</p>
+
+<p style="font-size:12px;">(❖) The agent goes and does something and then returns</p>
+
+    ・ここでご飯食べていく
+    ・コンビニで買っていくね
+    ・中国へ行く前に中国語を勉強していきます
+    ・病院へ行く途中で、お見舞いの花を買っていきます    
+    ・ご飯食べてくる
+    ・駅まで食べてきた
+    ・えっ、もうお茶の時間ですか。じゃ、ちょっと手を洗ってきます
+    ・あっ、コーヒーの豆がない。ちょっと待っていてください。すぐ近くの店で買っていきますから
+
+<!-- <h> -->
+
+    ・I'm going to have dinner here and go
+    ・I'll get some at the convenience store and go there
+    ・I will study Chinese before I go to China
+    ・On the way to the hospital, I'll buy some flowers
+    ・I'm gonna go get some food and will come back
+    ・I ate my way to the station and came here
+    ・What, is it time for tea already? I'm going to go wash my hands
+    ・Oh, I don't have any coffee beans. Please wait for a moment. I'll go buy some at a store nearbyい
+
+**iku/kuru**`simulataneous`  
+
+<p style="font-size:12px;">**⚭　Vte + iku ** `do go`</p>
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `do come`</p>
+
+<p style="font-size:12px;">(❖) Indicates a means or state of movement or that the agent is doing some action during the movement</p>
+
+    ・時間がないから、タクシー乗っていきます
+    ・飛行機のなかで眠ってきました
+    ・明日は、お弁当を持ってきてください
+    ・日曜日に弟を動物園へ連れていきました
+
+<!-- <h> -->
+
+    ・I don't have time, so I'll take a taxi
+    ・I fell asleep on the plane
+    ・Tomorrow, please bring your lunch
+    ・I took my brother to the zoo on Sunday
+
+**iku/kuru**`directional (movement)`  
+
+<p style="font-size:12px;">**⚭　Vte + iku ** `go away・go out/in`</p>
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `come out/in`</p>
+
+<p style="font-size:12px;">(❖) Gives directionality to verbs of movement and to verbs have the nuance of movement </p>
+
+<p style="font-size:12px;">(❖) Shows the proximity or estrangement toward or away from someone or something </p>
+
+
+    ・落ちてきた
+    ・飛んでいちゃった
+    ・落ちていっちゃった
+    ・蝶々が飛んできた
+    ・授業が終わって、学生たちが教室から出てきます
+    ・授業が始まって、学生たちが教室に入っていきます
+    ・授業が始まって、学生たちが教室に入ってきます
+    ・授業が終わって、学生たちが教室から出ていきます
+
+<!-- <h> -->
+
+    ・It's falling in
+    ・It just flew away
+    ・It just fell off
+    ・A butterfly flew over me
+    ・Students are coming out of the classroom after class
+    ・Students enter the classroom at the beginning of class
+    ・Students come into the classroom at the beginning of class
+    ・Students are leaving the classroom at the end of the class
+    
+**iku/kuru**`directional (change)`  
+
+<p style="font-size:12px;">**⚭　Vte + iku ** `go (change)`</p>
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `become (change)`</p>
+
+<p style="font-size:12px;">(❖) Gives directional change to verbs and have the nuance of going up/down or become something </p>
+
+    ・N4になると漢字がだんだん多くなっていきます
+    ・薬を飲んだらだんだん具合が良くなってきた
+
+<!-- <h> -->
+
+    ・When it comes to N4, the number of kanji will gradually increase
+    ・I took some medicine and I'm feeling better and better
+
+**iku/kuru**`directional (time)`  
+
+<p style="font-size:12px;">**⚭　Vte + iku ** `(from here) to keep/continue`</p>
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `(until now) to keep/continue`</p>
+
+<p style="font-size:12px;">(❖) Expresses a continuation of some action from present to future </p>
+
+<p style="font-size:12px;">(❖) Expresses a continuation of some action from the past into the future </p>
+
+    ・例文を守っていきましょう
+    ・十年間日本語を勉強してきました
+    ・日本人は漢字使ってきた
+    ・これからも、漢字を使っていくだろう
+    ・今日まで1人で頑張ってきました。これからはあなたと一緒になかよくやっていきましょう
+
+<!-- <h> -->
+
+    ・Let's follow the example
+    ・I've been studying Japanese for ten years
+    ・The Japanese have always used Kanji
+    ・From now on, I will continue to use kanji
+    ・I've been doing my best by myself until today. Let's do well with you from now on
+
+**iku/kuru**`perceptional (change)`  
+
+<p style="font-size:12px;">**⚭　Vte + kuru ** `started to`</p>
+
+<p style="font-size:12px;">(❖) Indicates a beginning of a change perceive through senses</p>
+
+<p style="font-size:12px;">(❖) Indicates an appearance or a beginning of change </p>
+
+    ・雨が降っていきた
+    ・頭が痛くなってきた
+    ・左に方に山が見えてくるでしょう
+    ・寒いと思ったら、ほら、雪が降ってきましたよ
+
+<!-- <h> -->
+
+    ・It's going to rain
+    ・My head is starting to hurt
+    ・You will see a mountain to the left
+    ・If you think it's cold, look, it's snowing!
 
 ------------------------------------------------------------------------
 
@@ -6969,6 +7106,72 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・暗くならならないうちに家に帰らなければなりません 
     ・ふと外を見ると気がつかないうちに雨が降り出していた
     ・今は上手に話せなくても練習を重ねるうちに上手になる
+
+------------------------------------------------------------------------
+
+##### Comparison
+
+**①　より ◦ than**
+
+###### **⚭　N1 wa ~ N2 + yori + (mo)**
+
+###### N1 is more or less than N2 (standard)
+
+###### Compares a topic to a separate standard
+
+###### Superlatives are expressed by interrogatives
+
+    ・今日はきのうより暖かいです
+    ・このアパートは前のアパートより便利です
+    ・水は空気より重い
+    ・かたかなの言葉は漢字の言葉より易しいですか
+    ・父は家族の中でだれよりも早く起きます 
+    ・人間の命は何よりたいせつです
+    ・僕はステーキより魚の方が好きだ
+    ・今年の冬は昨年よりも寒い
+    ・仕事は思ったよりも大変だった
+
+<!-- <h> -->
+
+    ・It's warmer today than yesterday
+    ・This apartment is more convenient than the last one
+    ・Water is heavier than air
+    ・Are words in katakana easier than words in kanji?
+    ・My father wakes up earlier than anyone else in the family
+    ・Human life is most important than anything else
+    ・I like fish better than steak
+    ・This winter is colder than last year
+    ・The job was harder than I thought it would be
+
+**②　より~の方が ◦ than ~ is better**
+
+###### **⚭　N1 + yori + N2 nohouga**
+
+###### **⚭　V1 + yori + V2 houga**
+
+###### Compares two things and wants to say that one item is a greater or lesser degree of some attribute than the other
+
+###### Can be appended on other parts of speech other than nouns
+
+    ・デパートの品物よりスーパーの品物の方が安い 
+    ・私は海より山の方が好きです 
+    ・私は日本酒よりビールの方をよく飲みます
+    ・この店は日曜日より月曜日や火曜日の方がお客さんが多いです
+    ・やらずに後悔するよりは無理にでもやってみた方がいい
+    ・一人で食べるよりみんなと一緒に食べる方が楽しいです
+    ・東京駅に行く時はバスで行くより電車で行くほうが早いです
+    ・このシャツの方がさっき見たより色がきれいだ
+
+<!-- <h> -->
+
+    ・Supermarket goods are cheaper than department store goods 
+    ・I prefer the mountains to the sea
+    ・I drink beer more often than sake
+    ・This store has more customers on Mondays and Tuesdays than on Sundays
+    ・It's better to force yourself to try than to not try and regret it
+    ・It's more fun to eat with others than alone
+    ・When I go to Tokyo Station, it's faster to go by train than by bus
+    ・This shirt is more colorful than the one I saw earlier
 
 ------------------------------------------------------------------------
     
