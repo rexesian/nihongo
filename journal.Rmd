@@ -1037,7 +1037,7 @@ body {
 
 # Nihongo-Notes {.tabset}
 
-## ■
+## ‣
 
 ------------------------------------------------------------------------
 
@@ -1138,7 +1138,7 @@ Rairaiken" (Asakusa, established in 1910), said to be the first restaurant in Ja
 
 # Nihongo-Grammar {.tabset}
 
-## ■
+## ‣
 
 ------------------------------------------------------------------------
 
