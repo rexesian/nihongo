@@ -89,6 +89,7 @@ tchnl <- read_csv("rdata/Sheet 58-TCHN1.csv")
 trvy <- read_csv("rdata/Sheet 60-TRSTVY1.csv")
 phvrb <- read_csv("rdata/Sheet 59-PVRB1.csv")
 vrben <- read_csv("rdata/Sheet 65-VRBCN.csv")
+knjdu <- read_csv("rdata/Sheet 66-KNJDU.csv")
 
 ```
 
@@ -138,7 +139,9 @@ There are 3 writing system used in Japanese namely the **Kanji**, **Hiragana** a
 
 **Kanji** was based on Chinese characters which represents a word and a meaning.
 
-### Level 1 {.tabset}
+### Level {.tabset}
+
+#### Level 1 {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -215,7 +218,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Level 2 {.tabset}
+#### Level 2 {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -292,7 +295,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Level 3 {.tabset}
+#### Level 3 {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -369,7 +372,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Level 4 {.tabset}
+#### Level 4 {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -446,7 +449,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Level 5 {.tabset}
+#### Level 5 {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -523,7 +526,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Levels 1-5
+#### Levels 1-5
 
 ```{r, echo=FALSE, message=FALSE}
 alv <- bind_rows(knjd1, knjd2)
@@ -586,9 +589,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Random-w {.tabset}
+#### Random-w {.tabset}
 
-#### W/Meaning
+##### W/Meaning
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -618,7 +621,7 @@ reactable(
         Meaning <- ggg$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -652,7 +655,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### W/Reading
+##### W/Reading
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -675,7 +678,7 @@ reactable(
         Hiragana <- ggg$Hiragana[index]
         Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
         tagList(
-          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 11), Hiragana)
         )
       },
@@ -709,7 +712,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### W/Reading & Meaning
+##### W/Reading & Meaning
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -734,7 +737,7 @@ reactable(
         Meaning <- ggg$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -769,7 +772,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Words-Only
+##### Words-Only
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -799,7 +802,7 @@ reactable(
        # Hiragana <- ggg$Hiragana[index]
        # Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
         tagList(
-          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
          # div(style = list(fontSize = 10), Hiragana)
         )
       },
@@ -833,7 +836,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Meaning-Only
+##### Meaning-Only
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -854,7 +857,7 @@ reactable(
       }"),
       cell = function(value, index) {
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value)
+          div(style = list(fontSize = 20, fontWeight = 800), value)
         )
       },
       align = "center", minWidth = 400
@@ -887,7 +890,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Reading-Only
+##### Reading-Only
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -908,13 +911,139 @@ reactable(
       }"),
       cell = function(value, index) {
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value)
+          div(style = list(fontSize = 20, fontWeight = 800), value)
         )
       },
       align = "center", minWidth = 400
       ),
       Words = colDef(show = FALSE),
       Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Category {.tabset}
+
+#### Movement
+
+```{r echo=FALSE, message=FALSE}
+
+knjdu1 <- knjdu  %>% slice(1:85)
+
+reactable(
+  knjdu1,
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- knjdu1$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Script <- knjdu1$Script[index]
+        Script <- if (!is.na(Script)) Script else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 13, fontWeight = 200), Reading),
+          div(style = list(fontSize = 22, fontWeight = 800), Script)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Reading = colDef(show = FALSE),
+      Script = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Feelings
+
+```{r echo=FALSE, message=FALSE}
+
+knjdu2 <-  knjdu  %>% slice(86:111)
+
+reactable(
+  knjdu2,
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- knjdu2$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Script <- knjdu2$Script[index]
+        Script <- if (!is.na(Script)) Script else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 13, fontWeight = 200), Reading),
+          div(style = list(fontSize = 22, fontWeight = 800), Script)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Reading = colDef(show = FALSE),
+      Script = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
