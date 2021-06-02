@@ -8840,6 +8840,84 @@ The meaning and nuances are pretty exactly the same with slight difference
     ・Wow! What a sumptuous lunch!
     ・What! 3000 yen is too much!
     ・I'm not like Michelle, I'm poor!
+    
+------------------------------------------------------------------------
+
+### まま
+
+**①　To leave** `to leave.. someting on`
+
+###### **⚭　Vta + mama**
+
+###### Expresses leaving something on
+
+    ・けしょうしたままねた
+    ・まどをあけたままだ
+    ・電気つけたままだ
+    ・電気つけたままだったよ
+    ・電気つけたままにしないで
+    ・テレビをつけたまま仕事に行ってしまった
+
+<!-- <h> -->
+
+    ・I slept with my make-up on
+    ・I left the window open
+    ・I left the lights on
+    ・You left the light  on
+    ・Don’t leave the light on
+    ・I went to work, leaving the TV on
+
+**②　As it is** `the way it is・as it is`
+
+###### **⚭　kono/sono/arino + mama**
+
+###### Expresses something as it is
+
+    ・そのままでいいよ
+    ・そのままでかんぺきだよ
+    ・ありのままでかんぺきだよ
+    ・このまままっすぐいってください
+    ・このままでいたら
+    ・そのままでいいよ
+
+<!-- <h> -->
+
+    ・You are perfect the way you are
+    ・You are perfect the way you are
+    ・You are perfect the way you are
+    ・Please keep going straight
+    ・If I stay like this..
+    ・Leave it like that..(it’s ok)
+
+**③  Stay as** `stay as`
+
+###### **⚭　I-Adj/Na-Adj+na/N+no + mama**
+
+###### Expresses something as it is
+
+    ・若いままでいたい
+    ・けんこうなままでいてね
+    ・ずっと学生のままでいたい
+
+<!-- <h> -->
+
+    ・I want to stay young
+    ・Please stay healthy
+    ・I’d like to be a student forever
+
+**④　Without (leaving)** `without.. ing`
+
+###### **⚭　Vnai + mama**
+
+###### Expresses without doing or leaving something on
+
+    ・英語が話せないままアメリカに行った
+    ・彼は休まないままずっと働いている
+
+<!-- <h> -->
+
+    ・I went to US without being able to speak English
+    ・He works constantly without taking a break
 
 ------------------------------------------------------------------------
 
@@ -9282,7 +9360,7 @@ reactable(
         Transcript <- v1hme1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9376,7 +9454,7 @@ reactable(
         Transcript <- v1hme6$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9423,7 +9501,7 @@ reactable(
         Transcript <- v1hme2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9470,7 +9548,7 @@ reactable(
         Transcript <- v1hme7$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9517,7 +9595,7 @@ reactable(
         Transcript <- v1hme4$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9564,7 +9642,7 @@ reactable(
         Transcript <- v1hme8$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9611,7 +9689,7 @@ reactable(
         Transcript <- v1hme5$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9658,7 +9736,7 @@ reactable(
         Transcript <- v1hme9$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9705,7 +9783,7 @@ reactable(
         Transcript <- v1hme10$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9752,7 +9830,7 @@ reactable(
         Transcript <- v1hme11$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9799,7 +9877,7 @@ reactable(
         Transcript <- v1hme13$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9846,7 +9924,7 @@ reactable(
         Transcript <- v1hme15$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9893,7 +9971,7 @@ reactable(
         Transcript <- v1hme14$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9940,7 +10018,7 @@ reactable(
         Transcript <- v1hme16$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -9987,7 +10065,7 @@ reactable(
         Transcript <- v1hme12$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10034,7 +10112,7 @@ reactable(
         Transcript <- v1hme17$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10083,7 +10161,7 @@ reactable(
         Transcript <- v1hmec$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10130,7 +10208,7 @@ reactable(
         Transcript <- v1hmec$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value)
+          div(style = list(fontSize = 30, fontWeight = 700), value)
           # div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10226,7 +10304,7 @@ reactable(
         Transcript <- tchnl1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -10273,7 +10351,7 @@ reactable(
         Transcript <- tchnl2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -11979,6 +12057,7 @@ reactable(
 v1hmec <- v1hme %>% select(Categories) %>%
   separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>%
   select(Script,Transcript)
+set.seed(5672)
 v1hmec  <- v1hmec [sample(1:nrow(na.omit(v1hmec ))),]
 
 reactable(
