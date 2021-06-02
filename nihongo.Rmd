@@ -9041,6 +9041,98 @@ reactable(
     🆃 Most certainly, When would you like to make a reservation?
     🅲 On the 20th, at 7 o'clock for 2 people please
 
+###### **Telling the reservation**
+
+    🆃 いらっしゃいませ　
+    🅲 マイク・ジョンソンです。7時2名で予約しました
+    🆃 マイク様ですね。お待ちしておりました。こちらへどうぞ
+
+<!-- <h> -->
+
+    🆃 Welcome!　
+    🅲 I'm Mike Johnson and I have a reservation for two at 7:00
+    🆃 You must be Mike. We've been expecting you. This way, please
+
+###### **Recommendation**
+
+    🆃 このレストランのおすすめ料理はなんですか　
+    🅲 豚骨ラーメンでございます
+    🆃 いいですね。ではそれをお願いします
+    🅲 かしこまりました
+
+<!-- <h> -->
+
+    🆃 What is the best dish in this restaurant?　
+    🅲 Pork bone ramen, sir.
+    🆃 That sounds good. I'll have some of that, please.
+    🅲 Most certainly
+
+###### **Seating preference**
+
+    🆃 いらっしゃいませ。何名様ですか
+    🅲 えーっと。6人あのう、できれば、個室がいいんですが..
+    🆃 かしこまりました。少々お待ちください
+
+<!-- <h> -->
+
+    🆃 Welcome. How many people are in your party?
+    🅲 Well, 6 peoplw. Uhm, if possible, we would like to have a private room 
+    🆃 Most certainly. Please wait a moment
+
+###### **Asking a menu**
+
+    🆃 すみません。メニューお願いします
+    🅲 はい、かしこまりました
+    🆃 あ、英語のメニューはありますか
+    🅲 はい、ございます。今、お持ちします
+
+<!-- <h> -->
+
+    🆃 Excuse me. Menu, please
+    🅲 Yes, most certainly
+    🆃 Oh, do you have a menu in English?
+    🅲 Yes, we do. I'll bring one immediately
+
+###### **Asking food if contains..**
+
+    🆃 この料理に豚肉入っていますか
+    🅲 いいえ、入っていません。それは鶏肉です
+    🆃 そうですか。では、これをお願いします
+
+<!-- <h> -->
+
+    🆃 Is there any pork in this dish?
+    🅲 No, there is no pork in this dish. It's chicken
+    🆃 I see. I'll have this one, please
+
+###### **Asking about the food dish**
+
+    🆃 すみません。「板わさ」ってなんですか
+    🅲 かまぼこですよ。醤油とわさび召し上がってください
+    🆃 「かまぼこ」って肉ですか
+    🅲 いいえ、違います。魚です
+
+<!-- <h> -->
+
+    🆃 I'm sorry. What's "itawasa"?
+    🅲 It's kamaboko. Please enjoy it with soy sauce and wasabi
+    🆃 Is "kamaboko" meat?
+    🅲 No, it's not. It's fish
+    
+###### **Ordering**
+
+    🆃 すみません。ビール4つとウーロン茶2つ、お願いします
+    🅲 ビールを4つとウーロン茶を2つですね
+    🆃 それから、焼き鳥の盛り合わせとサラダ、お願いします
+    🅲 焼き鳥の盛り合わせとサラダですね。かしこまりました
+
+<!-- <h> -->
+
+    🆃 Excuse me. Four beers and two oolong teas, please.
+    🅲 Four beers and two oolong teas, please.
+    🆃 And some assorted grilled chicken and salad, please.
+    🅲 Assorted yakitori and salad. Most certainly
+
 ------------------------------------------------------------------------
 
 ## Categories {.tabset}
