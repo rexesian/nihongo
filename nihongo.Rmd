@@ -10932,69 +10932,7 @@ reactable(
 
 # Learning Strategy {.tabset}
 
-## Details
-
-<u>**Goal**</u>:\
-Be around at Intermediate level in a year
-
-<u>**Strategy**</u>:\
-①. Kanji and Vocabulary with minimum grammar points but with some amount of listening - First 6 months\
-②. Grammar, Reading and Listening - Next 4 months\
-③. General review and catch up - Last 2 months
-
-<u>**Schedule**</u>:\
-5 days - Kanji, Words mining and Site building\
-2 days - Review and Site building
-
-**①. Kanji and Vocabulary**
-
-**1. Learn 1000++ Kanji**
-
--   Kanshudo Kanji Collection by Usefulness Level - Up to level 4
-
--   Intermediate Book for Kanji
-
-    <!-- -   Focuses on the upper part of the target spectrum -->
-
--   Additional Kanji's from other resources
-
-    <!-- -   Focuses on other stuffs -->
-
-**2. Learn 5000++ Vocabulary**
-
--   Kanshudo Words Collection by Usefulness Level - Up to level 4
-
--   Learn words by different categories
-
-    <!-- -   Use Nihongo Speed Master Up to N2 level and other book resource -->
-
-    -   Everyday Japanese
-
-        <!-- -   Focuses on different kind of situations on how to act or react -->
-
-    -   Casual Japanese thru Social Media (YT, Podcast, etc..)
-
-        <!-- -   Focuses on casual phrases -->
-        <!-- -   Mining of scripts from online resource -->
-
-**3. Online Mining**
-
--   Word variability and diversity
--   Casual and Practical Expressions
-
-**4. Site Building**
-
--   Use this platform to organize my notes
-
-<!-- <u>**Remarks**</u>: -->
-
-<!--     No writing!! Typing only... Why?... To save up time and concentrate on mining. -->
-<!--     Words could appear several times so that actual number of words could be less. -->
-<!--     Repetitive words are fine. It does helps in remembering or recalling words usually. -->
-
-------------------------------------------------------------------------
-
-## Kanji & Vocabulary {.tabset}
+## Reading {.tabset}
 
 ### Kanji {.tabset}
 
@@ -11131,9 +11069,9 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-### Words & Phrases {.tabset}
+### Vocabulary {.tabset}
 
-#### Vocabulary 5000++
+#### Words 5000++
 
 **Download:**\
 [**Level1:500**](https://github.com/rexesian/japanese/blob/main/Level1VC.pdf) ❊ **Level2:1500** ❊ **Level3:3000** ❊ **Level4:5000** ❊
@@ -11227,7 +11165,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Everyday Japanese {.tabset}
+#### Daily {.tabset}
 
 ##### Work
 
@@ -11323,7 +11261,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Typ-Day
+##### Usual
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -11370,9 +11308,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Online Mining {.tabset}
+### Online {.tabset}
 
-#### Words & Expressions
+#### Expressions
 
 **Words/Expressions**
 
@@ -11436,7 +11374,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Sentence Mining
+#### Sentences
 
 **Sentences/Phrases/Clauses**
 
@@ -11960,9 +11898,7 @@ reactable(
 
 ## Listening {.tabset}
 
-------------------------------------------------------------------------
 
-## Reading {.tabset}
 
 ------------------------------------------------------------------------
 
@@ -12129,94 +12065,6 @@ reactable(
 )
 
 ```
-
-------------------------------------------------------------------------
-
-### 英語-日本語 {.tabset}
-
-#### Simple Questions
-
-**How can I get to Shinjuku?**  
-
-新宿への行き方を教えてください    
-新宿へはどうやって行けばいいですか？       
-新宿へはどうやって行けばいいのですか？　　　　  
-新宿への行き方は？　　  
-
-**Who should I ask?**　　 
-
-誰に聞けばいいの？　　  
-誰に聞けばいいのか？　　  
-誰に頼めばいいのですか？　　  
-誰に聞けばいいのでしょうか？  　　　
-
-**What time should I come?**  
-
-何時に行けばいいですか？    
-何時に来ればいいの？    
-何時に来ればいいのか？    　
-
-**How about a cup of coffee?**     
-
-コーヒーでも飲みませんか？   
-コーヒーはいかがですか？    
-コーヒーはどうですか？     　　
-
-**What kind of person is your type?**   
-
-あなたのタイプはどんな人ですか？    
-あなたのタイプはどんな人？    
-どんな人がタイプですか？    
-どんな人がタイプなの？　　　　
-
-**Excuse me, I want to order**   
-
-すいません、注文したい   
-すいません、注文したいです   
-すいません、注文したいんですが   
-すいません、注文したいのですが    
-すいません、注文したいんですけど   
-
-**I would like to order please**   
-
-注文したいのですが     
-注文したいと思います     
-注文したいのですが、お願いします           
-
-**Can I have the bill, please?**
-
-お会計をお願いします   
-お会計をお願いできますか？   
-お勘定お願いします   
-請求書をいただけますか？
-
-**Can you take a picture of me please?**   
-
-私の写真を撮ってくれませんか    
-私の写真を撮ってもらえますか    
-私の写真を撮ってくれません？   
-
-**Could I have you to take a picture of me please?**
-
-私の写真を撮ってもらえませんか   
-私の写真を撮っていただけますか   
-
-**Can I leave my luggage here for a while**
-
-荷物を一時的に預けることはできますか？   
-荷物を一時的に預けることができますか？   
-
-**I will pick it up this afternoon**
-
-今日の午後に取りに行きます   
-今日の午後に取りに行く予定です   
-
-**I will come back and pick it up at around 3:00pm today**
-
-今日の午後3時頃に取りに来ます    
-今日の午後3時頃に引き取りに来ます    
-今日の午後3時頃に取りに来る予定です    
-今日の午後3時頃に引き取りに来る予定です    
 
 ------------------------------------------------------------------------
 
