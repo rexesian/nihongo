@@ -8885,6 +8885,7 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
 )
 ```
+
 ------------------------------------------------------------------------
 
 ### Basic Words
@@ -9095,15 +9096,15 @@ reactable(
 
 ###### **Asking food if contains..**
 
-    🆃 この料理に豚肉入っていますか
-    🅲 いいえ、入っていません。それは鶏肉です
-    🆃 そうですか。では、これをお願いします
+    🅲 この料理に豚肉入っていますか
+    🆃 いいえ、入っていません。それは鶏肉です
+    🅲 そうですか。では、これをお願いします
 
 <!-- <h> -->
 
-    🆃 Is there any pork in this dish?
-    🅲 No, there is no pork in this dish. It's chicken
-    🆃 I see. I'll have this one, please
+    🅲 Is there any pork in this dish?
+    🆃 No, there is no pork in this dish. It's chicken
+    🅲 I see. I'll have this one, please
 
 ###### **Asking about the food dish**
 
@@ -9132,6 +9133,132 @@ reactable(
     🅲 Four beers and two oolong teas, please.
     🆃 And some assorted grilled chicken and salad, please.
     🅲 Assorted yakitori and salad. Most certainly
+
+###### **Asking food that has not arrived**
+
+    🅲 サラダ遅いね
+    🅲 そうだね。すみません、サラダがまだなんですけど
+    🆃 お待たせして申し訳ありません。すぐお持ちします
+
+<!-- <h> -->
+
+    🅲 The salad is late isn't it?
+    🅲 That's right. Excuse me, the salad has not arrived yet
+    🆃 I'm sorry to keep you waiting. It will be brought out soon
+
+###### **Paying the bill**
+
+    🅲 すみません。お会計、お願いします
+    🆃 はい、9,000円になります
+    🅲 みんな、割り勘でいいかな
+    🅲 えーっと、1人1,500円ずつ
+
+<!-- <h> -->
+
+    🅲 Excuse me. Can I have the bill, please?
+    🆃 Yes, that'll be 9,000 yen
+    🅲 Let's split the bill, shall we?
+    🅲 Let's see, 1,500 yen each
+    
+###### **More phrases**
+
+    🆀 何名様ですか
+    🆀 2人です
+    🆀 申し訳ございません。只今、満席です
+    🆀 待ち時間はどのくらいですか
+    🆀 どのくらい待ちますか
+    🆀 ご予約はされていますか
+    🆀 7時に予約している~です
+    🆀 いいえ、予約はしていないです
+    🆀 ご案内いたします
+    🆀 お好きな席どうぞ
+    🆀 お好きな席お座りください
+    🆀 メニューもらえますか
+    🆀 ご注文はお決まりですか
+    🆀 いいえ、まだ決まってないです
+    🆀 また後で言います
+    🆀 では、また後でお伺いいたします
+    🆀 天ぷら定食ください    
+    🆀 チーズハンバーグで    
+    🆀 チーズハンバーグとコーヒー
+    🆀 これをください
+    🆀 何がおすすめですか
+    🆀 お飲み物は何なさいますか
+    🆀 コーヒーください
+    🆀 いいえ、大丈夫
+    🆀 この料理に卵は入っていますか
+    🆀 アレルギーなので、卵抜きで作ってもらえますか
+    🆀 お飲み物はいつお待ちしましょうか
+    🆀 先にお願いします
+    🆀 一緒にお願いします
+    🆀 食後にお願いします
+    🆀 以上です
+    🆀 とりあえずこれで大丈夫です
+    🆀 すみません。注文したものがまだ来ないんですが
+    🆀 すみません。これ注文したものと違います
+    🆀 これ注文していないです
+    🆀 取り皿もらえますか
+    🆀 お水もらえますか
+    🆀 おしぼりもらえますか
+    🆀 お手洗いはどこですか
+    🆀 タバコはどこで吸えますか
+    🆀 こちらのお皿、お下げしてもよろしいですか
+    🆀 はい、お願いします
+    🆀 まだ食べています
+    🆀 お会計お願いします
+    🆀 カード使えますか
+    🆀 お会計、別々にできますか
+    🆀 領収書もらえますか
+    
+<!-- <h> -->
+
+    🆀 How many people?
+    🆀 Two, person
+    🆀 We're sorry. We are full right now
+    🆀 How long is the wait time?
+    🆀 How long will I have to wait?
+    🆀 Do you have a reservation?
+    🆀 I have a reservation at 7:00
+    🆀 No, I don't have a reservation
+    🆀 Follow me, please
+    🆀 Please have a seat anywhere you like
+    🆀 Please have a seat anywhere you like
+    🆀 Can I have a menu?
+    🆀 Are you ready to order?
+    🆀 No, I haven't decided yet
+    🆀 I'll tell you later
+    🆀 Then I'll ask you again later
+    🆀 Tempura set meal, please 
+    🆀 Cheese hamburger, please  
+    🆀 Cheese hamburger and coffee
+    🆀 I'll have this one, please
+    🆀 What do you recommend?
+    🆀 What would you like to drink?
+    🆀 Coffee, please
+    🆀 No, I'm fine
+    🆀 Do you have any eggs in this dish?
+    🆀 I'm allergic to eggs, can you make it without them?
+    🆀 When would you like your drinks?
+    🆀 Before the meal, please
+    🆀 With the meal, please
+    🆀 After the meal, please
+    🆀 That's all
+    🆀 That would be all for now
+    🆀 Excuse me. My order hasn't come yet
+    🆀 Excuse me. This is not what I ordered
+    🆀 I didn't order this
+    🆀 Can I have some small plates?
+    🆀 Can I have a glass of water?
+    🆀 Can I have a wet towel?
+    🆀 Where is the restroom?
+    🆀 Where can I smoke?
+    🆀 May I take your plates?
+    🆀 Yes, please
+    🆀 I'm still eating
+    🆀 Can I have the bill please
+    🆀 Do you accept credit cards?
+    🆀 Can we pay separately?
+    🆀 Can I get a receipt?
 
 ------------------------------------------------------------------------
 
@@ -11845,7 +11972,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-####  Random
+####  Vocabulary
 
 ```{r, echo=FALSE, message=FALSE}
 
