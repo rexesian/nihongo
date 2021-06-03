@@ -8938,7 +8938,7 @@ reactable(
         Translation <- db$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -8991,7 +8991,7 @@ reactable(
         Meaning <- pct1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -10257,6 +10257,102 @@ reactable(
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value)
           div(style = list(fontSize = 20, fontWeight = 700), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+## Usage {.tabset}
+
+### Verbs
+
+```{r, echo=FALSE, message=FALSE}
+
+cvhme <- v1hme %>% select(Verbs) %>%
+  separate(Verbs, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+cvhme <- cvhme[sample(1:nrow(na.omit(cvhme))),]
+
+reactable(
+  cvhme,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- cvhme$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Adverbs
+
+```{r, echo=FALSE, message=FALSE}
+
+cdhme <- v1hme %>% select(Adverbs) %>%
+  separate(Adverbs, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+cdhme <- cdhme[sample(1:nrow(na.omit(cdhme))),]
+
+reactable(
+  cdhme,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- cdhme$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
         )
       },
       align = "center"

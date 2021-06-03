@@ -33,6 +33,13 @@ body {
     font-family: "Kosugi Maru", "Honoka Maru-Gothic", "Anonymous Pro", "Helvetica Neue";
 }
 
+.tocify {
+  color: 	#505050;
+  font-size: 14px;
+  font-family: "Kosugi Maru", "Helvetica Neue", "Roboto";
+}
+
+
 <!-- code, kbd, pre, samp { -->
 <!--     font-size: 13px; -->
 <!--     font-family: "Anonymous Pro", monospace; -->
@@ -54,9 +61,9 @@ body {
 ```
 
 
-# Nihongo-Guide {.tabset}
+# 日本語-案内 {.tabset}
 
-## Structure
+## 構造
 
     ・花子さんが来た  
     ・空が青い  
@@ -93,9 +100,9 @@ body {
 
 ------------------------------------------------------------------------
 
-## Elements {.tabset}
+##  初歩 {.tabset}
 
-### Initial Carriage
+### 初舞台
 
     ・彼女はフランス語が話せる。しかも流ちょうに話せる
     ・ちょっと話をしただけ。 それも小声で話ます  
@@ -149,7 +156,7 @@ body {
     
 ------------------------------------------------------------------------    
     
-### Main Carriage {.tabset}
+### 本舞台 {.tabset}
 
 #### 1
 
@@ -276,9 +283,9 @@ body {
 
 ------------------------------------------------------------------------
 
-# Nihongo-Reading {.tabset}
+# 日本語-読書 {.tabset}
 
-## Web-News-Easy {.tabset}
+## ウェブ・ニュース・平易 {.tabset}
 
 ### 1
 
@@ -352,12 +359,13 @@ body {
     しかしコンビニの前などには、酒を飲む人たちが集まっていました。   
     このため渋谷区の職員たちが駅の周りを歩いて、1人1人に、酒を飲むのをやめて家に帰るように言いました。  
     そして捨ててあった缶などのごみを拾いました。  
-    渋谷区の職員は「外で酒を飲むと気持ちが大きくなって、ほかの人が困ることや、ウイルスがうつるようなことをする人もいます。  
+    渋谷区の職員は「外で酒を飲むと気持ちが大きくなって、ほかの人が困ることや、  
+    ウイルスがうつるようなことをする人もいます。  
     これからも外で飲まないように言い続けます」と話していました  
 
 ------------------------------------------------------------------------
 
-## Ramen
+## ラーメン
 
 **[ラーメンからRAMENへ――進化を続ける日本育ちの麺料理](https://www.nippon.com/ja/japan-topics/c09801/?cx_recs_click=true)**
 
@@ -407,7 +415,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Purple-Flower
+## 藤:紫色の花
 
 **[【書評】紫色の高貴な花が織り成す文化誌：有岡利幸著『藤と日本人』](https://www.nippon.com/ja/japan-topics/bg900282/)**
 
@@ -525,7 +533,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Yuujo-tachi
+## 遊女たち
 
 **[守貞が見た江戸の遊女たち : 『守貞漫稿』(その9)](https://www.nippon.com/ja/japan-topics/g01083/)**
 
@@ -583,7 +591,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Kyoto-Rekishi
+## 京都:歴史文化都市
 
 **[京都（前編）：疫病や戦火、災害に見舞われた1200年の歴史文化都市](https://www.nippon.com/ja/japan-topics/g00993/)**
 
@@ -635,7 +643,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Onomatopoeia
+## 日本:オノマトペ
 
 **[日本語再発見（1）オノマトペの不思議な世界](https://www.nippon.com/ja/views/b05602/?cx_recs_click=true)**
 
@@ -725,7 +733,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Railway-View
+## 鉄道絶景
 
 **[鉄道絶景：列車と自然が織りなす日本の春夏秋冬](https://www.nippon.com/ja/images/i00055/?cx_recs_click=true)**
 
@@ -787,7 +795,7 @@ body {
 
 ------------------------------------------------------------------------
 
-## Ichiran-Ramen
+## 豚骨ラーメン:一蘭
 
 **[台湾に「博多の魂」豚骨ラーメンを広めた「一蘭」――人気の秘密を分析する](https://www.nippon.com/ja/japan-topics/c09802/)**
 
@@ -861,11 +869,11 @@ body {
     
 ------------------------------------------------------------------------
 
-## Podcast {.tabset}
+## ポッドキャスト {.tabset}
 
-### Nihongo-Switch {.tabset}
+### 日本語-スイッチ {.tabset}
 
-#### 65
+#### 六十五
 
 **[JAPANESE DILEMMA WITH KATAKANA-KOTOBA](https://nihongoswitch.com/podcast-transcripts/ep65-katakana-kotoba)**
 
@@ -969,7 +977,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 63
+#### 六十三
 
 **[TALK LIKE A NINJA](https://nihongoswitch.com/transcript)**  
 
@@ -1035,13 +1043,13 @@ body {
 
 ------------------------------------------------------------------------
 
-# Nihongo-Notes {.tabset}
+# 日本語-筆記 {.tabset}
 
 ## ‣
 
 ------------------------------------------------------------------------
 
-## Web-News-Easy {.tabset}
+## ウェブ・ニュース・平 {.tabset}
 
 ### 1
 
@@ -1097,80 +1105,86 @@ Weeding the rice paddies is a tough job, so I want to help with the robot," he s
 
 ------------------------------------------------------------------------
 
-## Ramen
+## ラーメン
 
-日本で育ち・にほんでそだち・grow・breed in Japan  
-世界に進出した・せかいにしんしゅつ・advancing・expanding・emerging in the world  
-数多・あまた・ many・a lot・much・multitude  
+日本で育ち・にほんでそだち`grow・breed in Japan`   
+世界に進出した・せかいにしんしゅつ`advancing・expanding・emerging in the world`  
+数多・あまた`many・a lot・much・multitude`  
 
-ラーメンという料理ほど独特な存在はなく  
-There is no more unique existence than the dish of ramen  
+    ラーメンという料理ほど独特な存在はなく  
+    There is no more unique existence than the dish of ramen  
 
-同時に・どうじに・coincident with・while・simultaneously  
-業態・ぎょうたい・business condition・line of business  
-独特・どくとく・peculiarity・uniqueness・characteristic  
-存在・そんざい・existence・being
+同時に・どうじに`coincident with・while・simultaneously`  
+業態・ぎょうたい`business condition・line of business`  
+独特・どくとく`peculiarity・uniqueness・characteristic`  
+存在・そんざい`existence・being`
 
-同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
-At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant   
+    同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
+    At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant   
 
-源流・げんりゅう・source・origin of something continuous (language, culture, etc)   
-麺・めん・noodles  
+源流・げんりゅう`source・origin of something continuous (language, culture, etc)`   
+麺・めん`noodles`  
 
-客観的・きゃっかんてき・ objective   
-客観的に見て・きゃっかんてきにみて・looking objectively   
-客観的に見ても・きゃっかんてきにみても・even if you look at it objectively   
+客観的・きゃっかんてき`objective`   
+客観的に見て・きゃっかんてきにみて`looking objectively`   
+客観的に見ても・きゃっかんてきにみても`even if you look at it objectively`   
 
-客観的に見ても間違いのないところである    
-There is no mistake even if you look at it objectively    
+    客観的に見ても間違いのないところである    
+    There is no mistake even if you look at it objectively    
 
-日本で最初にラーメンを出したと言われる   
-Said to be the first to serve ramen in Japan   
+    日本で最初にラーメンを出したと言われる   
+    Said to be the first to serve ramen in Japan   
 
-来々軒・らいらいけん・ Rairaiken　　　  
-浅草・あさくさ・Asakusa   
-年創業・としそうぎょう・year of establishment   　　
+来々軒・らいらいけん`Rairaiken`  　　　  
+浅草・あさくさ`Asakusa`    
+年創業・としそうぎょう`year of establishment`   　　
 
-日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
-Rairaiken" (Asakusa, established in 1910), said to be the first restaurant in Japan to serve ramen, was a Chinese restaurant for the masses that also served shumai (fried pork dumplings) and Chinese rice bowls   
+    日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、 
+    Rairaiken" (Asakusa, founded in 1910) is said to be the first ramen restaurant in Japan  
+    
+    焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
+    It was a Chinese restaurant for the masses that also served siumai (fried pork dumplings) and Chinese rice bowls  
 
 ------------------------------------------------------------------------
 
-# Nihongo-Grammar {.tabset}
+# 日本語-文法 {.tabset}
 
 ## ‣
 
 ------------------------------------------------------------------------
 
-## Ramen
+## ラーメン
 
-(❖) 程・ほど・extent・degree・measure・limit・as much as   
+(❖) 程・ほど`extent・degree・measure・limit・as much as`
 
-(1) (compare A and B)  
-      
-    (1.1) A is not as (adjective) as B    
-      -  AはBほど背が高くない    
-      -  AはBほどかわいくない 
+① Compare A and B
 
-    (1.2) A はB ほど (verb) ない   
-      -  AはBほど勉強しない  
-      -  AはBほど飲まない  
-          
-(2) Not like ~・Not as ~   
+AはBほど (adjective) ない    
+
+      ・AはBほど背が高くない    
+      ・AはBほどかわいくない 
+
+AはBほど (verb) ない   
+
+      ・AはBほど勉強しない  
+      ・AはBほど飲まない  
+  
+② Not like ~・Not as ~   
     
-    (2.1) ~ほどではありません。(polite)・~ほどではない   
-      -  先生ほどではありません   
-      -  先生ほどではないけどね   
+ほどではありません・ほどではない  
 
-(3) Not as ~ as someone has imagined・thought・expected    
+      ・先生ほどではありません   
+      ・先生ほどではないけどね   
+
+③ Not as ~ as someone has imagined・thought・expected    
     
-    (3.1) 思ったほど ○ おもったほど ○ as ~ as someone thought    
-      -  試験は、思ったほど難しくなかった  
-      -  僕は静香ちゃんが思っているほどモテないから心配しないで 
-      -  その店は評判ほど悪い店ではありませんでした
-      
-    (3.2) 想像していたほど ○そうぞうしていたほど ○ many as ~ as someone imagined  
-    (3.3) 想像していたほど ○ きたいしていたほど ○ many as ~ as someone expected   
+思ったほど・おもったほど`as ~ as someone thought`    
+想像していたほど・そうぞうしていたほど`many as ~ as someone imagined`  
+想像していたほど・きたいしていたほど`many as ~ as someone expected`    
+
+      ・試験は、思ったほど難しくなかった  
+      ・その店は評判ほど悪い店ではありませんでした
+      ・僕は静香ちゃんが思っているほどモテないから心配しないで 
 
 ------------------------------------------------------------------------
 
