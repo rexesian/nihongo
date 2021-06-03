@@ -23,11 +23,6 @@ body {
       font-family: "Anonymous Pro", "Helvetica Neue", "Roboto";
 }
 
-<!-- body { -->
-<!--       font-size: 15px; -->
-<!--       font-family: "Honoka Maru-Gothic", "Anonymous Pro", "Helvetica Neue", "Roboto"; -->
-<!-- } -->
-
 .hljs {
     font-size: 14px;
     font-family: "Kosugi Maru", "Honoka Maru-Gothic", "Anonymous Pro", "Helvetica Neue";
@@ -39,11 +34,14 @@ body {
   font-family: "Kosugi Maru", "Helvetica Neue", "Roboto";
 }
 
+<!-- h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 { -->
+<!--     font-family: "Kosugi Maru", Anonymous Pro", monospace; -->
+<!-- } -->
 
 <!-- code, kbd, pre, samp { -->
-<!--     font-size: 13px; -->
-<!--     font-family: "Anonymous Pro", monospace; -->
+<!--     font-family: "Kosugi Maru", "Anonymous Pro", monospace; -->
 <!-- } -->
+
 </style>
 
 ```
@@ -102,7 +100,9 @@ body {
 
 ##  初歩 {.tabset}
 
-### 初舞台
+### 初舞台 {.tabset}
+
+#### 1
 
     ・彼女はフランス語が話せる。しかも流ちょうに話せる
     ・ちょっと話をしただけ。 それも小声で話ます  
@@ -129,7 +129,12 @@ body {
     ・なぜなら彼は病気だったからです
     ・例えば、君は英語が好きですか
     ・金がない。つまり、貧乏なんです
-    ・要するに彼らは間違っている    
+    ・要するに彼らは間違っている  
+
+------------------------------------------------------------------------
+
+#### 2
+
     ・結局は金の問題だ    
     ・そんなことをするなんて、ほんとに馬鹿というか、困った人だ
     ・相変わらず彼は公園でランチを食べています
@@ -1049,9 +1054,11 @@ body {
 
 ------------------------------------------------------------------------
 
-## ウェブ・ニュース・平 {.tabset}
+## 語彙 {.tabset}
 
-### 1
+### ウェブ・ニュース・平 {.tabset}
+
+#### 1
 
 山形県・やまがたけん・Yamagata Prefecture (Tohoku Area)   
 鶴岡市・つるおかし・Tsuruoka City   
@@ -1089,23 +1096,23 @@ Weeding the rice paddies is a tough job, so I want to help with the robot," he s
 
 ------------------------------------------------------------------------
 
-### 2
+#### 2
 
 ------------------------------------------------------------------------
 
-### 3
+#### 3
 
 ------------------------------------------------------------------------
 
-### 4
+#### 4
 
 ------------------------------------------------------------------------
 
-### 5
+#### 5
 
 ------------------------------------------------------------------------
 
-## ラーメン
+### ラーメン
 
 日本で育ち・にほんでそだち`grow・breed in Japan`   
 世界に進出した・せかいにしんしゅつ`advancing・expanding・emerging in the world`  
@@ -1147,13 +1154,9 @@ Weeding the rice paddies is a tough job, so I want to help with the robot," he s
 
 ------------------------------------------------------------------------
 
-# 日本語-文法 {.tabset}
+## 文法 {.tabset}
 
-## ‣
-
-------------------------------------------------------------------------
-
-## ラーメン
+### ラーメン
 
 (❖) 程・ほど`extent・degree・measure・limit・as much as`
 
@@ -1161,20 +1164,20 @@ Weeding the rice paddies is a tough job, so I want to help with the robot," he s
 
 AはBほど (adjective) ない    
 
-      ・AはBほど背が高くない    
-      ・AはBほどかわいくない 
+    ・AはBほど背が高くない    
+    ・AはBほどかわいくない 
 
 AはBほど (verb) ない   
 
-      ・AはBほど勉強しない  
-      ・AはBほど飲まない  
+    ・AはBほど勉強しない  
+    ・AはBほど飲まない  
   
 ② Not like ~・Not as ~   
     
 ほどではありません・ほどではない  
 
-      ・先生ほどではありません   
-      ・先生ほどではないけどね   
+    ・先生ほどではありません   
+    ・先生ほどではないけどね   
 
 ③ Not as ~ as someone has imagined・thought・expected    
     
@@ -1182,9 +1185,9 @@ AはBほど (verb) ない
 想像していたほど・そうぞうしていたほど`many as ~ as someone imagined`  
 想像していたほど・きたいしていたほど`many as ~ as someone expected`    
 
-      ・試験は、思ったほど難しくなかった  
-      ・その店は評判ほど悪い店ではありませんでした
-      ・僕は静香ちゃんが思っているほどモテないから心配しないで 
+    ・試験は、思ったほど難しくなかった  
+    ・その店は評判ほど悪い店ではありませんでした
+    ・僕は静香ちゃんが思っているほどモテないから心配しないで 
 
 ------------------------------------------------------------------------
 
