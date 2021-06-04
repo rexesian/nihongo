@@ -950,7 +950,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu1 <- knjdu  %>% slice(1:85)
+knjdu1 <- knjdu  %>% slice(1:108)
 
 reactable(
   knjdu1,
@@ -1012,7 +1012,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(86:131)
+knjdu2 <-  knjdu  %>% slice(230:275)
 
 reactable(
   knjdu2,
@@ -1074,7 +1074,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(220:237)
+knjdu2 <-  knjdu  %>% slice(364:381)
 
 reactable(
   knjdu2,
@@ -1136,7 +1136,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(350:362)
+knjdu2 <-  knjdu  %>% slice(494:506)
 
 reactable(
   knjdu2,
@@ -5694,7 +5694,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Recall
+##### Recall {.tabset}
 
 ###### 1
 
@@ -5730,6 +5730,40 @@ reactable(
     )
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+reactable(
+  srvb2 %>% slice(1:64),
+  columns = list(
+    Meaning = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Verbs <- (srvb2 %>% slice(1:64))$Verbs[index]
+        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), Verbs),
+          div(style = list(fontSize = 11, fontWeight = 200), value)
+        )
+      },
+      align = "center"
+    ),
+    Verbs = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  # theme = reactableTheme(
+  #   # Vertically center cells
+  #   cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+  #   searchInputStyle = list(
+  #     paddingLeft = "8px",
+  #     paddingTop = "8px",
+  #     paddingBottom = "8px",
+  #     width = "100%"
+  #   )
+  # ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
   
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
@@ -5776,6 +5810,39 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
+reactable(
+  srvb2 %>% slice(65:249),
+  columns = list(
+    Meaning = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Verbs <- (srvb2 %>% slice(65:249))$Verbs[index]
+        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), Verbs),
+          div(style = list(fontSize = 11, fontWeight = 200), value)
+        )
+      },
+      align = "center",
+    ),
+    Verbs = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  # theme = reactableTheme(
+  #   # Vertically center cells
+  #   cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+  #   searchInputStyle = list(
+  #     paddingLeft = "8px",
+  #     paddingTop = "8px",
+  #     paddingBottom = "8px",
+  #     width = "100%"
+  #   )
+  # ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
 ```
 
 ------------------------------------------------------------------------

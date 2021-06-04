@@ -12,10 +12,15 @@ Script,Meaning,Expression,Concept
 聞かなければ分かりません,You won’t know if you don’t ask,⚭ Vn + nakereba,if (i) don’t  (conditional negative)
 お友達が来なければ電話をしてください,"If your friend doesn't show up, give us a call",⚭ Vn + nakereba,if (i) don’t  (conditional negative)
 お金がなければ困ります,"If you don't have money, you're in trouble",⚭ aru → nakereba,if (i) don’t  (conditional negative)
-,,⚭ Vn + nakereba narimasen,"must, have to (obligation)"
-,,⚭ Vn + nakute,"without doing, not doing (te-form of nai)"
-,,⚭ Vn + nakute mo,even if (i) don’t
-,,⚭ Vn + nakute mo ii (desu),it’s ok not to
+帰らなければなりません,I have to go back,⚭ Vn + nakereba narimasen,"must, have to (obligation)"
+お金がなければなりません,You have to have money,⚭ aru → nakereba narimasen,"must, have to (obligation)"
+お客さんが来なくてどうしますか,"If your guest does not come, What will you do?",⚭ Vn + nakute,"without doing, not doing (te-form of nai)"
+手紙を書かなくて電話をしました,"I didn’t write a letter, I telephoned",⚭ Vn + nakute,not this but that (te-form of nai)
+お金がなくて買いませんでした,"I didn't have any money, (so) I didn’t buy",⚭ aru → nakute,"without doing, not doing (te-form of nai)"
+会社に行かなくても仕事があります,"Even if I don’t go to the company, I still have to work",⚭ Vn + nakute mo,even if (i) don’t
+車がなくても行かなかればなりません,"Even if you don’t have a car, you have to go",⚭ aru → nakute mo,even if (i) don’t
+わさびを食べなくてもいいです,It’s ok not to eat wasabi,⚭ Vn + nakute mo ii (desu),it’s ok not to
+車がなくてもいいです,It’s ok not to have a car,⚭ aru → nakute mo ii (desu),it’s ok not to
 ,,⚭ Vn + nakute (wa) ikemasen,"must, have to (obligation)"
 ,,⚭ Vn + nakute (wa) dame desu,"must, have to (obligation)"
 ,,⚭ Vn + nai to ikemasen,"must, have to (obligation)"
