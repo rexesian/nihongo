@@ -12203,7 +12203,7 @@ reactable(
 v1hmec <- v1hme %>% select(Categories) %>%
   separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>%
   select(Script,Transcript)
-set.seed(5672)
+# set.seed(5672)
 v1hmec  <- v1hmec [sample(1:nrow(na.omit(v1hmec ))),]
 
 reactable(
