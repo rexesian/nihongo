@@ -35,37 +35,37 @@ Script,Meaning,Expression,Concept
 ,,⚭ Vn + serareru / saserareru,I  got let/made do it (causative-passive form)
 ,,⚭ Vn + zuni,without doing 
 ,,⚭ Vn + zuni wa irarenai,can’t help but do
-彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnoun,verb into noun
-小説の初めは一番大切です,The beginning of a novel is the most important,⚭ Vnoun,verb into noun
-お手紙を読み、すぐに返事を書きました,I read your letter and wrote you back straight away,⚭ Vnoun,connective form
-一時間ぐらい商店街を歩き回りました,We walked around the shopping street for about an hour,⚭ Vnoun + verb,compound form
-三人はホテルのロビーで話し会いました,The three of them met in the hotel lobby,⚭ Vnoun + verb,compound form
-,,⚭ Vnoun + agaru,"do upwards, be finished"
-,,⚭ Vnoun + ageru,"do for someone, do upwards, finish doing (transitive)"
-,,⚭ Vnoun + dasu,"do suddenly, suddenly starts doing"
-,,⚭ Vnoun + hajimeru,begin doing
-,,⚭ Vnoun + kata,"way / method of doing, how to  (verb to noun)"
-,,⚭ Vnoun + komu,do in / into
-,,⚭ Vnoun + masu,normal polite present / future form
-,,⚭ Vnoun + mashita,normal polite past form
-,,⚭ Vnoun + masen,normal polite present / future negative form
-,,⚭ Vnoun + masen deshita,normal polite past negative form
-,,⚭ Vnoun + mashou,"normal polite inclusive command, let’s …"
-,,⚭ Vnoun + mashou ka,"normal polite inclusive query, shall we …"
-,,⚭ Vnoun + nagara,while doing 
-,,⚭ Vnoun + nasai,abrupt command
-,,⚭ Vnoun + ni iku / kuru,go / come somewhere to do
-,,⚭ Vnoun + nikui ,difficult to (creates a true adjective)
-,,⚭ Vnoun + owaru ,finish doing
-,,⚭ Vnoun + sou (desu),"appears to be about to, looks like"
-,,⚭ Vnoun + sugiru,do too much
-,,⚭ Vnoun + tagaru,"want to, wish to"
-,,⚭ Vnoun + tai (desu),want to
-,,⚭ Vnoun + takatta,wanted to
-,,⚭ Vnoun + takunai,don’t want to
-,,⚭ Vnoun + takunakatta,didn’t wanted to
-,,⚭ Vnoun + tsuzukeru,continue doing
-,,⚭ Vnoun + yasui,easy to (creates a true adjective)
+彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnn,verb into noun
+小説の初めは一番大切です,The beginning of a novel is the most important,⚭ Vnn,verb into noun
+お手紙を読み、すぐに返事を書きました,I read your letter and wrote you back straight away,⚭ Vnn,connective form
+一時間ぐらい商店街を歩き回りました,We walked around the shopping street for about an hour,⚭ Vnn + verb,compound form
+三人はホテルのロビーで話し会いました,The three of them met in the hotel lobby,⚭ Vnn + verb,compound form
+,,⚭ Vnn + agaru,"do upwards, be finished"
+,,⚭ Vnn + ageru,"do for someone, do upwards, finish doing (transitive)"
+,,⚭ Vnn + dasu,"do suddenly, suddenly starts doing"
+,,⚭ Vnn + hajimeru,begin doing
+,,⚭ Vnn + kata,"way / method of doing, how to  (verb to noun)"
+,,⚭ Vnn + komu,do in / into
+,,⚭ Vnn + masu,normal polite present / future form
+,,⚭ Vnn + mashita,normal polite past form
+,,⚭ Vnn + masen,normal polite present / future negative form
+,,⚭ Vnn + masen deshita,normal polite past negative form
+,,⚭ Vnn + mashou,"normal polite inclusive command, let’s …"
+,,⚭ Vnn + mashou ka,"normal polite inclusive query, shall we …"
+,,⚭ Vnn + nagara,while doing 
+,,⚭ Vnn + nasai,abrupt command
+,,⚭ Vnn + ni iku / kuru,go / come somewhere to do
+,,⚭ Vnn + nikui ,difficult to (creates a true adjective)
+,,⚭ Vnn + owaru ,finish doing
+,,⚭ Vnn + sou (desu),"appears to be about to, looks like"
+,,⚭ Vnn + sugiru,do too much
+,,⚭ Vnn + tagaru,"want to, wish to"
+,,⚭ Vnn + tai (desu),want to
+,,⚭ Vnn + takatta,wanted to
+,,⚭ Vnn + takunai,don’t want to
+,,⚭ Vnn + takunakatta,didn’t wanted to
+,,⚭ Vnn + tsuzukeru,continue doing
+,,⚭ Vnn + yasui,easy to (creates a true adjective)
 おじさんは捨てるほどお金を持っています,Uncle has money to throw away extensively,⚭ Vdict・Vru + hodo,"to the extent, so much that"
 できるかぎり、努力します,I will try to the extent that it is possible,⚭ Vdict・Vru + kagiri,"to the extent that, in so far as, within the limits of"
 行くかわりに電話をしました,I phoned instead of going,⚭ Vdict・Vru + kawari (ni),"instead of, in place of, in exchange for"
@@ -97,15 +97,21 @@ Script,Meaning,Expression,Concept
 話せ!,Speak!,⚭ Vcmd,abrupt command
 黙れ!,Shut up!,⚭ Vcmd,abrupt command
 止め!,Stop it!,⚭ Vcmd,abrupt command
+勉強せよ,Study!,⚭ suru → seyo,abrupt command
+やれ,Do!,⚭ yaru → yare,abrupt command
+来い,Come!,⚭ kuru → koi,abrupt command
 急げば間に合います,"If we hurry, we can make it",⚭ Vcmd + ba → Vba,if / when (i) do (conditional)
 アイスクリームは少しだけ食べればいいです,"If you only eat a little ice cream, it’s okay",⚭ Vcmd + ba → Vba,if / when (i) do (conditional)
-,,⚭ Vcmd + ba yokatta (desu),"should have done, wish to do"
-,,⚭ suru → sureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
-,,⚭ kuru → kureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
-,,⚭ Vcmd + ru → Vpot,potential form ( group 1 verbs: yodan)
-,,⚭ Vcmd + rareru → Vpot,potential form ( group 2 verbs: ichidan)
-,,⚭ suru → dekiru,potential form ( suru: dekiru)
-,,⚭ kuru → kureru,potential form ( kuru: kureru)
+早く食べればよかったです,I should have eaten sooner,⚭ Vcmd + ba yokatta (desu),"should have done, wish to do"
+勉強すればよかったです,I should have studied,⚭ suru → sureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
+早く来ればよかったです,I should have come earlier,⚭ kuru → kureba yokatta (desu),"should have done, wish to do (kuru: kureba, suru: sureba)"
+日本語が読めますか,Can you read Japanese?,⚭ Vcmd + ru → Vpot,potential form ( group 1 verbs: yodan)
+日本語が話せますか,Can you speak Japanese?,⚭ Vcmd + ru → Vpot,potential form ( group 1 verbs: yodan)
+辛いものは食べられますか？,Can you eat spicy food?,⚭ Vcmd + rareru → Vpot,potential form ( group 2 verbs: ichidan)
+静かに勉強できますか？,Can you study quietly?,⚭ suru → dekiru,potential form ( suru: dekiru)
+お手洗いをちょっとお借りできますか,Can I use your restroom for a moment?,⚭ suru → dekiru,potential form ( suru: dekiru)
+わたしはにほんごをはなすことができる,I can speak Japanese.,⚭ suru → dekiru,potential form ( suru: dekiru)
+明日は来れるかな？,Can you come tomorrow?,⚭ kuru → kureru,potential form ( kuru: kureru)
 ,,⚭ Vvol,let’s ..  (informal inclusive command)
 ,,⚭ Vvol + ka,shall we ..  (informal inclusive query)
 ,,⚭ Vvol + to omou,i think i will
