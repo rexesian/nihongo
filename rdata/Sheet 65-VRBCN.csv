@@ -112,8 +112,16 @@ Script,Meaning,Expression,Concept
 お手洗いをちょっとお借りできますか,Can I use your restroom for a moment?,⚭ suru → dekiru,potential form ( suru: dekiru)
 わたしはにほんごをはなすことができる,I can speak Japanese.,⚭ suru → dekiru,potential form ( suru: dekiru)
 明日は来れるかな？,Can you come tomorrow?,⚭ kuru → kureru,potential form ( kuru: kureru)
-,,⚭ Vvol,let’s ..  (informal inclusive command)
-,,⚭ Vvol + ka,shall we ..  (informal inclusive query)
-,,⚭ Vvol + to omou,i think i will
-,,⚭ Vvol + to suru,be about to
-,,⚭ Vvol + to shite iru,be about to (progressive form)
+もう遅いから帰ろう,"It's late already, Let's go home",⚭ Vvol,let’s ..  (informal inclusive command)
+ビーチに来よう,Let's come to the beach,⚭ kuru → koyou,let’s ..  (informal inclusive command)
+明日試験ですから勉強しようよ,"We have an exam tomorrow, Let's study",⚭ suru → shiyou,let’s ..  (informal inclusive command)
+1時半に始めようか,Shall we start at 1:30?,⚭ Vvol + ka,shall we ..  (informal inclusive query)
+明日また来ようか,Shall we come again tomorrow?,⚭ Vvol + ka,shall we ..  (informal inclusive query)
+今日友達の家に行こうと思います,I think I will go my friend's house today,⚭ Vvol + to omou,i think i will
+明日また来ようと思っています,I am thinking I will come again tomorrow,⚭ Vvol + to omou,i think i will
+ドアを開けようとしたが鍵がかかっていました,"I tried to open the door, but it was locked",⚭ Vvol + to suru,"be about to, try to, attempt to"
+お風呂に入ろうとしたら電話がかかってきた,"When I was about to take a bath, the phone rang",⚭ Vvol + to suru,"be about to, try to, attempt to"
+会社からまさに出ようとした時雨が降ってきた,"When I was just about to leave the office, it started to rain",⚭ Vvol + to suru,"be about to, try to, attempt to"
+電車に乗ろうとしたときにドアが閉まって乗れなかった,"When I tried to get on the train, the door closed and I couldn't get on",⚭ Vvol + to suru,"be about to, try to, attempt to"
+先生は授業を始めようとしています,The teacher is about to start class,⚭ Vvol + to shite iru,"be about to, try to, attempt to (progressive form)"
+警察に電話しようとしています,He is about to call the police,⚭ Vvol + to shite iru,"be about to, try to, attempt to (progressive form)"
