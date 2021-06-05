@@ -4657,6 +4657,68 @@ reactable(
     ・kuru    ⇢   kite
     ・suru    ⇢   shite
 
+```{r, echo=FALSE, message=FALSE}
+
+vrbvl <- vrben %>% slice(132:139)
+
+reactable(
+  na.omit(vrbvl),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbvl$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbvl$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbvl$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
 ------------------------------------------------------------------------
 
 ###### V7
@@ -4684,6 +4746,68 @@ reactable(
 
     ・kuru    ⇢   kita
     ・suru    ⇢   shita
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbta <- vrben %>% slice(158:172)
+
+reactable(
+  na.omit(vrbta),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbta$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbta$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbta$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 

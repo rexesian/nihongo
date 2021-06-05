@@ -125,3 +125,49 @@ Script,Meaning,Expression,Concept
 電車に乗ろうとしたときにドアが閉まって乗れなかった,"When I tried to get on the train, the door closed and I couldn't get on",⚭ Vvol + to suru,"be about to, try to, attempt to"
 先生は授業を始めようとしています,The teacher is about to start class,⚭ Vvol + to shite iru,"be about to, try to, attempt to (progressive form)"
 警察に電話しようとしています,He is about to call the police,⚭ Vvol + to shite iru,"be about to, try to, attempt to (progressive form)"
+家へ帰って食事をしました,We went home and had dinner,⚭ Vte + .. + verb,continuation form (series of action)
+食べてきました,I ate and came,⚭ Vte + .. + verb,continuation form (series of action)
+タバコを吸って病気になりました,I smoked and got sick,⚭ Vte + .. + verb,continuation form (series of action)
+今日は高校の友達と会って新宿で一緒にランチしました,Today I met a high school friend and we had lunch together in Shinjuku,⚭ Vte + .. + verb,continuation form (series of action)
+今日は起きて、学校に行って、授業を受けて、家に帰りました,"Today, I woke up, then I went to school, then I took a class, then I went home",⚭ Vte + .. + verb,continuation form (series of action)
+地図を書いてあげましょうか,Shall I draw you a map,⚭ Vte + ageru,do for someone
+友達に見せてやろうと思います,I think I will show it to my friends,⚭ Vte + yaru,do for someone
+手紙はもう書いてあります,The letter have already been written,⚭ Vte + aru,has been done
+電気はもう点けてありました,The lights have already been turned on,⚭ Vte + aru,has been done
+お母さんに買って欲しいです,I want my mom to buy it,⚭ Vte + hoshii (desu),I want someone to do
+野菜を食べて欲しかったです,I wanted you to eat your vegetables,⚭ Vte + hoshii (desu),I want someone to do
+見て欲しいものがあります,I want you to see something,⚭ Vte + hoshii (desu),I want someone to do
+部屋が散らかっているから片付けてほしい,The room is cluttered so I want you to clean it up,⚭ Vte + hoshii (desu),I want someone to do
+,,⚭ Vte + iku,"do and then go, do before going"
+,,⚭ Vte + iru,continuous action (progressive form)
+,,⚭ Vte + iru,continuous state (resultative form)
+,,⚭ Vte + iru,habitual (repetitive form)
+,,⚭ Vte + itadaki,have someone do
+,,⚭ Vte + morau,have someone do
+,,⚭ Vte + kara,after doing
+,,⚭ Vte + kudasai,please do (polite request)
+,,⚭ Vte + kuru,"do and come back, do / done before  coming"
+,,⚭ Vte + miru,"do and see, try doing"
+,,⚭ Vte + mo,even if (i) do
+,,⚭ Vte + mo ii (desu),it’s ok to
+,,⚭ Vte + mo daijoubu (desu),it’s ok to
+,,⚭ Vte + mo kamaimasen,it’s ok to
+,,⚭ Vte + oku,"do for a leter purpose, do and set aside"
+,,⚭ Vte + shimau,"do completely, irrevocably, irretrievably"
+,,⚭ Vte + wa ikemasen,its not ok to
+,,⚭ Vte + wa dame desu,its not ok to
+少し休んだ,I rated a little,⚭ Vta,informal past 
+私は日本料理を食べた,I ate Japanese food,⚭ Vta,informal past 
+食べた後出かけました,"After we ate, went out",⚭ Vta + ato,"after doing, after having done"
+終わった後電話をします,"After I'm done, I'll call you ",⚭ Vta + ato,"after doing, after having done"
+いま食べたばかりです,I just ate,⚭ Vta + bakari (desu),have just done
+鈴木さんがついたばかりだと思います,I think Mr. Suzuki just arrived,⚭ Vta + bakari (desu),have just done
+ロンドンに行ったことがありますか,Have you ever been to London?,⚭ Vta + koto ga aru,"have (ever) done, had been"
+刺身を食べたことがありません,I've never eaten raw fish before,⚭ Vta + koto ga aru,"have (ever) done, had been"
+お友達が今電話をしたらどうしますか,What would you do if your friend called you right now?,⚭ Vta + ra,if (i) do / did 
+お金がなくなったら困ります,I would be in trouble if my money ran out,⚭ Vta + ra,if (i) do / did 
+学校が終わってから手紙を書いたり音楽を聞いたりします,"After school, I write letters and listen to music",⚭ Vta + ri~tari suru,non-sequential series of verbs
+先生が言ったために信じました,"Because the teacher said, I believed it",⚭ Vta + tame (ni),because (i) did. because of
+手紙を受けたために電話をしました,"Because I received your letter, I called you ",⚭ Vta + tame (ni),because (i) did. because of
+気分が悪いですがよく寝なかったためです,"I don't feel well, but that's because I didn't sleep well",⚭ Vta + tame (ni),because (i) did. because of
+今食事が終わったところです,I've just finished dinner,⚭ Vta + tokoro (desu),"just did, have just done, the point of having done"
