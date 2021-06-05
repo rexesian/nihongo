@@ -27,12 +27,12 @@ Script,Meaning,Expression,Concept
 ,,⚭ Vn + nakya,"must, have to (obligation)"
 ,,⚭ Vn + nakucha,"must, have to (obligation)"
 ,,⚭ Vn + naito,"must, have to (obligation)"
-,,⚭ Vn + reru / rareru,I got /done by someone(passive form)
-,,⚭ Vn + seru / saseru,let/made someone do (causative form)
+,,⚭ Vn + reru / rareru,I got / done by someone(passive form)
+,,⚭ Vn + seru / saseru,let / made someone do (causative form)
 ,,⚭ Vn + sete / sasete + ageru,I let someone do (causative form)
 ,,⚭ Vn + sete / sasete + kureru,someone let me do (causative form)
-,,⚭ Vn + sete / sasete + morau,I have/had someone to let me do (causative form)
-,,⚭ Vn + serareru / saserareru,I  got let/made do it (causative-passive form)
+,,⚭ Vn + sete / sasete + morau,I have / had someone to let me do (causative form)
+,,⚭ Vn + serareru / saserareru,I got let / made do it (causative-passive form)
 ,,⚭ Vn + zuni,without doing 
 ,,⚭ Vn + zuni wa irarenai,can’t help but do
 彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnn,verb into noun
@@ -167,7 +167,7 @@ Script,Meaning,Expression,Concept
 お友達が今電話をしたらどうしますか,What would you do if your friend called you right now?,⚭ Vta + ra,if (i) do / did 
 お金がなくなったら困ります,I would be in trouble if my money ran out,⚭ Vta + ra,if (i) do / did 
 学校が終わってから手紙を書いたり音楽を聞いたりします,"After school, I write letters and listen to music",⚭ Vta + ri~tari suru,non-sequential series of verbs
-先生が言ったために信じました,"Because the teacher said, I believed it",⚭ Vta + tame (ni),because (i) did. because of
-手紙を受けたために電話をしました,"Because I received your letter, I called you ",⚭ Vta + tame (ni),because (i) did. because of
-気分が悪いですがよく寝なかったためです,"I don't feel well, but that's because I didn't sleep well",⚭ Vta + tame (ni),because (i) did. because of
+先生が言ったために信じました,"Because the teacher said, I believed it",⚭ Vta + tame (ni),because (i) did because of
+手紙を受けたために電話をしました,"Because I received your letter, I called you ",⚭ Vta + tame (ni),because (i) did because of
+気分が悪いですがよく寝なかったためです,"I don't feel well, but that's because I didn't sleep well",⚭ Vta + tame (ni),because (i) did because of
 今食事が終わったところです,I've just finished dinner,⚭ Vta + tokoro (desu),"just did, have just done, the point of having done"
