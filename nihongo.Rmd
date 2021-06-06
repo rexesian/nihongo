@@ -950,7 +950,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu1 <- knjdu  %>% slice(1:108)
+knjdu1 <- knjdu  %>% slice(1:139)
 
 reactable(
   knjdu1,
@@ -4659,7 +4659,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbvl <- vrben %>% slice(132:139)
+vrbvl <- vrben %>% slice(127:142)
 
 reactable(
   na.omit(vrbvl),
@@ -4749,7 +4749,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbta <- vrben %>% slice(158:172)
+vrbta <- vrben %>% slice(160:172)
 
 reactable(
   na.omit(vrbta),

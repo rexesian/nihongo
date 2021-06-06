@@ -129,7 +129,7 @@ Script,Meaning,Expression,Concept
 食べてきました,I ate and came,⚭ Vte + .. + verb,continuation form (series of action)
 タバコを吸って病気になりました,I smoked and got sick,⚭ Vte + .. + verb,continuation form (series of action)
 今日は高校の友達と会って新宿で一緒にランチしました,Today I met a high school friend and we had lunch together in Shinjuku,⚭ Vte + .. + verb,continuation form (series of action)
-今日は起きて、学校に行って、授業を受けて、家に帰りました,"Today, I woke up, then I went to school, then I took a class, then I went home",⚭ Vte + .. + verb,continuation form (series of action)
+今日は起きて、学校に行って、授業を受けて、家に帰った,"Today, I woke up, then I went to school, then I took a class, then I went home",⚭ Vte + .. + verb,continuation form (series of action)
 地図を書いてあげましょうか,Shall I draw you a map,⚭ Vte + ageru,do for someone
 友達に見せてやろうと思います,I think I will show it to my friends,⚭ Vte + yaru,do for someone
 手紙はもう書いてあります,The letter have already been written,⚭ Vte + aru,has been done
@@ -138,7 +138,9 @@ Script,Meaning,Expression,Concept
 野菜を食べて欲しかったです,I wanted you to eat your vegetables,⚭ Vte + hoshii (desu),I want someone to do
 見て欲しいものがあります,I want you to see something,⚭ Vte + hoshii (desu),I want someone to do
 部屋が散らかっているから片付けてほしい,The room is cluttered so I want you to clean it up,⚭ Vte + hoshii (desu),I want someone to do
-,,⚭ Vte + iku,"do and then go, do before going"
+先生と話して行きましょう,Let’s talk with the teacher and go,⚭ Vte + iku,"do and then go, do before going"
+この本を持って行きます,I will take this book with me,⚭ motte + iku,"take and go, take with you (something)"
+映画にいくなのなら妹も連れていきなさい,"If you go to the movies, take your sister with you",⚭ tsurete + iku,"take and go, take with you (someone)"
 ,,⚭ Vte + iru,continuous action (progressive form)
 ,,⚭ Vte + iru,continuous state (resultative form)
 ,,⚭ Vte + iru,habitual (repetitive form)
