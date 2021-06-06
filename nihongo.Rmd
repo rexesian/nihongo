@@ -950,7 +950,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu1 <- knjdu  %>% slice(1:139)
+knjdu1 <- knjdu  %>% slice(1:184)
 
 reactable(
   knjdu1,
