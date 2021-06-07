@@ -589,9 +589,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Random-w {.tabset}
+#### Random {.tabset}
 
-##### W/Meaning
+##### Words
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -600,8 +600,174 @@ ggg <- bind_rows(ggg, knjd3)
 ggg <- bind_rows(ggg, knjd4)
 ggg <- bind_rows(ggg, knjd4)
 ggg <- ggg %>% select(Words, Meaning, Hiragana)
-# set.seed(3856)
+set.seed(3261)
 ggg <- ggg[sample(1:nrow(ggg)),]
+reactable(
+  ggg,
+  columns = list(
+       Words = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Words') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+       # Hiragana <- ggg$Hiragana[index]
+       # Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+         # div(style = list(fontSize = 10), Hiragana)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Hiragana = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### Meaning
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  ggg,
+  columns = list(
+       Meaning = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Meaning') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Meaning'] === prevRow['Meaning']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        tagList(
+          div(style = list(fontSize = 20, fontWeight = 800), value)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Words = colDef(show = FALSE),
+      Hiragana = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### Reading
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  ggg,
+  columns = list(
+       Hiragana = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Hiragana') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Hiragana'] === prevRow['Hiragana']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 800), value)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Words = colDef(show = FALSE),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### W/Meaning
+
+```{r, echo=FALSE, message=FALSE}
+
+
 reactable(
   ggg,
   columns = list(
@@ -770,177 +936,7 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
 
-##### Words-Only
-
-```{r, echo=FALSE, message=FALSE}
-
-# ggg <- bind_rows(knjd1, knjd2)
-# ggg <- bind_rows(ggg, knjd3)
-# ggg <- bind_rows(ggg, knjd4)
-# ggg <- bind_rows(ggg, knjd4)
-# ggg <- ggg %>% select(Words, Meaning, Hiragana)
-# set.seed(3856)
-# ggg <- ggg[sample(1:nrow(ggg)),]
-reactable(
-  ggg,
-  columns = list(
-       Words = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Words') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-       # Hiragana <- ggg$Hiragana[index]
-       # Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
-        tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
-         # div(style = list(fontSize = 10), Hiragana)
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE),
-      Hiragana = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-
-```
-
-------------------------------------------------------------------------
-
-##### Meaning-Only
-
-```{r echo=FALSE, message=FALSE}
-
-reactable(
-  ggg,
-  columns = list(
-       Meaning = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Meaning') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Meaning'] === prevRow['Meaning']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        tagList(
-          div(style = list(fontSize = 20, fontWeight = 800), value)
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Words = colDef(show = FALSE),
-      Hiragana = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-
-```
-
-------------------------------------------------------------------------
-
-##### Reading-Only
-
-```{r echo=FALSE, message=FALSE}
-
-reactable(
-  ggg,
-  columns = list(
-       Hiragana = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Hiragana') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Hiragana'] === prevRow['Hiragana']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        tagList(
-          div(style = list(fontSize = 20, fontWeight = 800), value)
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Words = colDef(show = FALSE),
-      Meaning = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-
-```
 
 ------------------------------------------------------------------------
 
