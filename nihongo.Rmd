@@ -3150,10 +3150,12 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Nominalizer
+#### Nominalizer {.tabset}
 
 **Nominalization** is the process of turning words/phrases into nouns/noun phrases that aren't nouns.\
 The two nominalizers are **no** and **koto**.
+
+##### no
 
 **①　no**`to~・~ing・that`
 
@@ -3267,7 +3269,11 @@ The two nominalizers are **no** and **koto**.
     ・I hear a sound crumbling
     ・I hear someone singing
     ・I felt the house shake
-    
+
+------------------------------------------------------------------------
+
+##### koto
+
 **②　koto**`to~・~ing・that`
 
 ###### **koto** is use when referring to
@@ -8546,8 +8552,8 @@ reactable(
           div(style = list(fontSize = 11, fontWeight = 200), Remark),
           div("•"),
           div(style = list(fontSize = 14, fontWeight = 700), State),         
-          div(style = list(fontSize = 18, fontWeight = 700), Convo1),
-          div(style = list(fontSize = 18, fontWeight = 700), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 700), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 700), Convo2),
           div(style = list(fontSize = 11, fontWeight = 200), Tconvo1),
           div(style = list(fontSize = 11, fontWeight = 200), Tconvo2),
         )
