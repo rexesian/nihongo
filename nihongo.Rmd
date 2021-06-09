@@ -3561,11 +3561,182 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 ------------------------------------------------------------------------
 
-#### Time
+#### Time {.tabset}
+
+##### Hours
+
+**Nanjikan desu ka?**`How many hours?`
+
+    ・一時間     ichijikan
+    ・二時間     nijikan
+    ・三時間     sanjikan
+    ・四時間     yojikan
+    ・五時間     gojikan
+    ・六時間     rokujikan
+    ・七時間     shichijikan
+    ・八時間     hachijikan
+    ・九時間     kujikan
+    ・十時間     juujikan
+    ・十一時間   juuichijikan
+    ・十二時間   juunijikan
 
 ------------------------------------------------------------------------
 
-#### Location
+##### Minutes
+
+**Nanpun desu ka?**`How many minutes?`
+
+    ・一分　　ippun
+    ・二分　　nifun
+    ・三分　　sanpun
+    ・四分　　yonpun
+    ・五分　　gofun
+    ・六分　　roppun
+    ・七分　　nanafun
+    ・八分　　happun
+    ・九分　　kyuufun
+    ・十分　　juppun
+    ・十一分　juuichipun
+    ・十二分　juunifun
+    ・十五分　juugofun
+    ・三十分　sanjuppun
+
+------------------------------------------------------------------------
+
+##### Seconds
+
+**Nanbyou desu ka?**`How many seconds?`
+
+    ・一秒　　ichibyou
+    ・二秒　　nibyou
+    ・三秒　　sanbyou
+    ・四秒　　yonbyou
+    ・五秒　　gobyou
+    ・六秒　　rokubyou
+    ・七秒　　nanabyou
+    ・八秒　　hachibyou
+    ・九秒　　kyuubyou
+    ・十秒　　juubyou
+    ・十一秒　juuichibyou
+    ・十二秒　juunibyou
+
+------------------------------------------------------------------------
+
+##### Time Expression
+
+**Nanji desu ka?**`What time is it`
+
+    ・１時　　　　　ichiji             1 o'clock
+    ・２時　　　　　niji               2 o'clock
+    ・３時　　　　　sanji              3 o'clock
+    ・３時５分　　　sanjigofun         3:05
+    ・３時半　　　　sanjihan           3:30
+    ・午後３時５分　gogo sanjigofun    3:05 pm
+    ・午前３時５分　gozen sanjigofun   3:05 am
+
+<!-- <h>  -->
+    
+    ・もう７時だ　　　It's 7 o'clock already
+    ・もう７時すぎだ　It's already past 7
+    ・７時頃にね　　　See you about 7
+    ・７時前にね　　　See you a liitle before 7
+    ・７時過ぎにね　　See you alittle past 7
+    ・７時５分前　　　5 minutes before 7 o'clock
+    ・７時５分過ぎ　　5 minutes past 7 o'clock
+
+<!-- <h>  -->
+
+    ・９時に終わる　　　　　I'll be done at 9:00
+    ・９時に終わった　　　　I finished at 9:00
+    ・９時で終わる　　　　　It will be over at 9:00
+    ・９時まで終わる　　　　It will be until 9:00
+    ・６時まで待ちなさい　　Wait till 6:00
+    ・７時に起きた　　　　　I woke up at 7:00
+    ・７時に帰ってきた　　　I'll be back at 7:00
+    ・今晩６時まで暇です　　I'm free until 6:00 this evening
+    ・普通午後１１時に寝る　I usually go to bed at 11:00pm
+
+------------------------------------------------------------------------
+
+#### Location {.tabset}
+
+##### Place of existence
+
+**Place of existence**
+
+    ・駅の前にお店があります
+    ・ペンをテーブルの上に置く
+    ・私の家族は香港にいます
+    ・机の上に本があります
+    ・私たちは東京駅の近くに住んでいます
+
+<!-- <h> -->
+
+    ・There is a store in front of the station
+    ・Place the pen on the table
+    ・My family is in Hongkong
+    ・There is a book on my desk
+    ・We live near Tokyo Station
+
+------------------------------------------------------------------------
+
+##### Place of action
+
+**Place of action**
+
+    ・図書館で勉強しています
+    ・喫茶店で話しています
+    ・映画館で映画を見ています
+    ・レストランでケーキを食べています
+
+<!-- <h> -->
+
+    ・I'm studying in the library
+    ・Talking in a coffee shop
+    ・Watching a movie at the cinema
+    ・Eating a cake at a restaurant
+
+------------------------------------------------------------------------
+
+##### Place of destination
+
+**Place of destination**
+
+    ・私は日本に行きます
+    ・ヨーロッパに行きたいです
+    ・昨日早く家に帰りました
+    ・日本に戻ってきてください
+
+<!-- <h> -->
+
+    ・I'm going to Japan
+    ・I want to go to Europe
+    ・I went home early yesterday
+    ・Please come back to Japan
+
+------------------------------------------------------------------------
+
+##### Place of direction
+
+**Place of direction**
+
+    ・こちらへどうぞ
+    ・日本へ来てください
+    ・私たちは秋田県へ行きます
+    ・こちらへお進みください
+
+<!-- <h> -->
+
+    ・Please come this way
+    ・Please come to Japan!
+    ・We're going to Akita Prefecture
+    ・Please proceed this way
+
+------------------------------------------------------------------------
+
+##### Relative Position
+
+**Relative position**
 
 ------------------------------------------------------------------------
 
