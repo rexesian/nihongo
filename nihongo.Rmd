@@ -9034,7 +9034,7 @@ reactable(
 
 ###### Expresses purpose but with limited expressions comes after like:
 
-###### 使う(use), 必要(necessary), 不可欠(indispensable/essential) and かかる(to indicate how much time is needed)
+###### 使う(use), 役立つ(useful), 必要(necessary), 不可欠(essential) and かかる(to indicate how much time is needed)
 
     ・この道具はパイプを切るのに使います
     ・暖房は冬を快適に過ごすのに不可欠です   
@@ -9165,7 +9165,7 @@ reactable(
 
 **①　Purpose** `In order to・for・So that`
 
-###### **⚭　Vru/Vnai + you(ni)**
+###### **⚭　Vru/Vnai/Vpot + you(ni)**
 
 ###### Expresses purpose, both subject of both clauses may differ
 
@@ -9203,9 +9203,7 @@ reactable(
 
 ###### Often use しない, してください, お願いします but can be omitted
 
-###### Ni in youni is possible to be omitted but
-
-###### Negative clause (Vnai+youni) it’s unusual
+###### "Ni" in youni is possible to be omitted but negative clause (Vnai+youni) it’s unusual
 
     ・忘れ物をしないようにしてください
     ・時間内に終了するようにお願いしなす
@@ -9231,7 +9229,7 @@ reactable(
 
 ###### Expresses one’s or another’s hopes, prayers and wishes 
 
-###### Often uses 折る(pray), 折念(say a prayer), 念じる(pray silently), 望む(desire),　願う(wish), 希望(hope), 期待(expect) in the latter verb
+###### Often uses 折る(pray), 折念(say a prayer), 望む(desire),　願う(wish), 希望(hope), 期待(expect) in the latter verb
 
 ###### Often used to bring a speech or letter to a close
 
@@ -9375,33 +9373,29 @@ reactable(
 
 ###### Habitual attitude toward something
 
-    ・私は肉を小さく切って、子供にも食べられるようにした
-    ・大きな活字を使い、老人にも読みやすいようになる
     ・できるだけ英会おテレビを見るようにしている
     ・油ものは食べないようにしている
     ・できるだけ日本語で話すようにしています
     ・わからないことは先生にいくようにしている
-    ・ジョンはメアリが行けるようにした
-    ・ジョンわ行けるようにした
     ・成績がよくなるようにした
     ・人に会うときは、約束の時間を守るようにしましょう
     ・パソコンは長い時間、続けてしないようにしています
-    ・わたしは健康のために、毎晩、1 時間ぐらい歩くようにしている
+    ・わたしは健康のために、毎晩、1 時間ぐらい歩くようにしているい
+    ・私は肉を小さく切って、子供にも食べられるようにした
+    ・ジョンはメアリが行けるようにした
 
 <!-- <h> -->
 
-    ・I cut the meat into small pieces so that even the children could eat it
-    ・We use large print so that it's easy for the elderly to read
     ・I try to watch as much Eikaiwa TV as possible
     ・I try not to eat fried foods
     ・I try to speak in Japanese as much as possible
     ・I make a point of asking my teacher about things I don't understand
-    ・John made sure that Mary could go
-    ・John made it possible for him to go
     ・I made sure my grades were good
     ・When you meet people, try to keep your appointments
     ・I try not to use the computer for long periods of time
     ・I try to walk for about an hour every evening to keep fit
+    ・I cut the meat into small pieces and made sure that even children could eat it
+    ・John made sure that Mary could go
 
 ------------------------------------------------------------------------
 
