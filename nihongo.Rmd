@@ -3640,7 +3640,7 @@ A **suffix** is a short element that is attached to the end of a word to change 
     ・もう７時すぎだ　It's already past 7
     ・７時頃にね　　　See you about 7
     ・７時前にね　　　See you a liitle before 7
-    ・７時過ぎにね　　See you alittle past 7
+    ・７時過ぎにね　　See you a little past 7
     ・７時５分前　　　5 minutes before 7 o'clock
     ・７時５分過ぎ　　5 minutes past 7 o'clock
 
@@ -3766,13 +3766,15 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 <!-- <h> -->
    
-    ・山の上の教会が美しい
-    ・The church on top of the mountain is beautiful
-
-<!-- <h> -->
-   
     ・箱の中の猫は眠っている
-    ・The cat inside the box is asleep
+    ・山の上の教会が美しい
+    ・隣の席の女の子が美しい
+
+<!-- <h> -->   
+
+    ・The cat inside the box is asleep   
+    ・The church on top of the mountain is beautiful
+    ・The girl sitting next to me is beautiful
 
 向こう: "beyond" or "other side"
 
