@@ -3738,6 +3738,72 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 **Relative position**
 
+    ・箱の中
+    ・箱の外
+    ・テーブルの上
+    ・テーブルの下
+
+<!-- <h> -->
+
+    ・Inside the box
+    ・Outside the box
+    ・On top of the table
+    ・Under the table
+
+<!-- <h> -->
+
+    ・駅の前
+    ・駅の後ろ
+    ・道の左側
+    ・道の右側
+
+<!-- <h> -->
+
+    ・In front of the station
+    ・Behind the station
+    ・Left side of the road
+    ・Right side of the road
+
+<!-- <h> -->
+   
+    ・山の上の教会が美しい
+    ・The church on top of the mountain is beautiful
+
+<!-- <h> -->
+   
+    ・箱の中の猫は眠っている
+    ・The cat inside the box is asleep
+
+向こう: "beyond" or "other side"
+
+    ・海は木の向こうです
+    ・The ocean is beyond the trees
+
+ちかく: "near" or "close"
+
+    ・そのがっこうはいえのちかくです
+    ・That school is near the house
+    
+となり: "next" or "beside"
+
+    ・いえのとなりはきょうかいです
+    ・Next door to the house is the church
+    
+そば："near" or "beside"
+
+    ・いえのそばに川があります
+    ・There is a river near the house
+    
+よこ："beside"
+
+    ・いえのよこにでんちゅうがあります
+    ・There is a utility pole beside the house 
+
+反対側："other side" or "opposite side"
+
+    ・道路の反対側にお店があります
+    ・The store is on the other side of the road 
+
 ------------------------------------------------------------------------
 
 ### Engine {.tabset}
