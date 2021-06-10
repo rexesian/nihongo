@@ -9688,6 +9688,74 @@ The meaning and nuances are pretty exactly the same with slight difference
 
 ------------------------------------------------------------------------
 
+### ないで
+
+**①　naide** `without doing・not doing`
+
+###### **⚭　Vnai + de + S**
+
+###### Without doing or not doing the first clause proceed with doing the second clause as it is
+
+###### A ないで B → A を しません. B を します
+
+    ・めがねをかけないで教えています
+    ・砂糖を入れないでコーヒーを飲みます
+    ・傘を持たないで出かけました
+    ・教科書を見ないで答えてください
+
+<!-- <h> -->
+
+    ・I teach without wearing glasses
+    ・I drink my coffee without sugar
+    ・I went out without an umbrella
+    ・Please answer without looking at the textbook
+
+**②　nakute** `due to/since (not doing/having)`
+
+###### **⚭　V~~nai~~/I-Adj~~i~~+ku/Na-Adj+de・ja/N+ga + nakute + S**
+
+###### First clause is the reason that causes the second clause
+
+###### Second clause often use to show feelings or emotions
+
+###### A なくて B → A は B の理由です
+
+    ・家族に会えなくて寂しいです
+    ・お金がなくて友達借りました
+    ・今日は寒くなくてよかったです
+    ・おばけじゃなくて安心しました　
+
+<!-- <h> -->
+
+    ・Since I couldn't see my see my family, I feel lonely
+    ・Since I didn't have any money, I borrowed from a friend
+    ・Since it's not cold today, I'm glad 
+    ・Since it's not a ghost, I'm relieved
+
+**③　zuni** `without doing・not doing`
+
+###### **⚭　Vn + zuni + S**
+
+###### Without doing or not doing the first clause proceed with doing the second clause as it is
+
+###### Primarily used in written language
+
+###### A ないで B → A を しません. B を します
+
+    ・めがねをかけずに教えています
+    ・砂糖を入れずにコーヒーを飲みます
+    ・傘を持たずに出かけました
+    ・教科書を見ずに答えてください
+
+<!-- <h> -->
+
+    ・I teach without wearing glasses
+    ・I drink my coffee without sugar
+    ・I went out without an umbrella
+    ・Please answer without looking at the textbook
+
+------------------------------------------------------------------------
+
 # Vocabulary {.tabset}
 
 ## Basic  {.tabset}

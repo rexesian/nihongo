@@ -1,71 +1,71 @@
 Script,Meaning,Expression,Concept
-日本語が分からない,I don't understand Japanese,⚭ Vn + nai,"do not, will not (informal negative)"
-日本食は食べないです,I don't eat Japanese food,⚭ Vn + nai,"do not, will not (informal negative)"
+日本語が分からない,I don't understand Japanese,⚭ Vn + nai → Vnai,"do not, will not (informal negative)"
+日本食は食べないです,I don't eat Japanese food,⚭ Vn + nai → Vnai,"do not, will not (informal negative)"
 お金がないです,I have no money,⚭ aru → nai,"do not, will not (informal negative)"
-宿題をしないで学校に出かけてしまいました,I left for school without doing my homework,⚭ Vn + naide,"without doing, without having done"
-ここでタバコを吸わないでください,Please don't smoke in here,⚭ Vn + naide kudasai,please don’t (negative request)
-英語がわらなかった,I didn't understand English,⚭ Vn + nakatta ,in-formal past negative
-お友達は昨日来なかったです,Your friend didn't show up yesterday,⚭ Vn + nakatta ,in-formal past negative
-お金がなかったです,I didn't have any money,⚭ aru → nakatta,in-formal past negative
-行かなかったらお母さんは怒るでしょう,Your mother will be very angry if you don't go,⚭ Vn + nakattara,if / when (i) don’t (conditional negative)
+宿題をしないで学校に出かけてしまいました,I left for school without doing my homework,⚭ Vn + naide → Vnaide,"without doing, without having done"
+ここでタバコを吸わないでください,Please don't smoke in here,⚭ Vn + naide kudasai → Vnaide kudasai,please don’t (negative request)
+英語がわらなかった,I didn't understand English,⚭ Vn + nakatta → Vnakatta,in-formal past negative
+お友達は昨日来なかったです,Your friend didn't show up yesterday,⚭ Vn + nakatta → Vnakatta,in-formal past negative
+お金がなかったです,I didn't have any money,⚭ Vn + nakatta → Vnakatta,in-formal past negative
+行かなかったらお母さんは怒るでしょう,Your mother will be very angry if you don't go,⚭ Vn + nakatta → Vnakattara,if / when (i) don’t (conditional negative)
 お金がなかったら困ると思います,I think I'd be in trouble if I didn't have the money,⚭ aru → nakattara,if / when (i) don’t (conditional negative)
-聞かなければ分かりません,You won’t know if you don’t ask,⚭ Vn + nakereba,if (i) don’t  (conditional negative)
-お友達が来なければ電話をしてください,"If your friend doesn't show up, give us a call",⚭ Vn + nakereba,if (i) don’t  (conditional negative)
+聞かなければ分かりません,You won’t know if you don’t ask,⚭ Vn + nakereba → Vnakereba,if (i) don’t  (conditional negative)
+お友達が来なければ電話をしてください,"If your friend doesn't show up, give us a call",⚭ Vn + nakereba → Vnakereba,if (i) don’t  (conditional negative)
 お金がなければ困ります,"If you don't have money, you're in trouble",⚭ aru → nakereba,if (i) don’t  (conditional negative)
-帰らなければなりません,I have to go back,⚭ Vn + nakereba narimasen,"must, have to (obligation)"
+帰らなければなりません,I have to go back,⚭ Vn + nakereba narimasen → Vnakereba narimasen,"must, have to (obligation)"
 お金がなければなりません,You have to have money,⚭ aru → nakereba narimasen,"must, have to (obligation)"
-お客さんが来なくてどうしますか,"If your guest does not come, What will you do?",⚭ Vn + nakute,"without doing, not doing (te-form of nai)"
-手紙を書かなくて電話をしました,"I didn’t write a letter, I telephoned",⚭ Vn + nakute,not this but that (te-form of nai)
+お客さんが来なくてどうしますか,"If your guest does not come, What will you do?",⚭ Vn + nakute → Vnakute,"without doing, not doing (te-form of nai)"
+手紙を書かなくて電話をしました,"I didn’t write a letter, I telephoned",⚭ Vn + nakute → Vnakute,not this but that (te-form of nai)
 お金がなくて買いませんでした,"I didn't have any money, (so) I didn’t buy",⚭ aru → nakute,"without doing, not doing (te-form of nai)"
-会社に行かなくても仕事があります,"Even if I don’t go to the company, I still have to work",⚭ Vn + nakute mo,even if (i) don’t
+会社に行かなくても仕事があります,"Even if I don’t go to the company, I still have to work",⚭ Vn + nakute mo → Vnakute mo,even if (i) don’t
 車がなくても行かなかればなりません,"Even if you don’t have a car, you have to go",⚭ aru → nakute mo,even if (i) don’t
-わさびを食べなくてもいいです,It’s ok not to eat wasabi,⚭ Vn + nakute mo ii (desu),it’s ok not to
+わさびを食べなくてもいいです,It’s ok not to eat wasabi,⚭ Vn + nakute mo ii (desu) → Vnakute mo ii (desu),it’s ok not to
 車がなくてもいいです,It’s ok not to have a car,⚭ aru → nakute mo ii (desu),it’s ok not to
-,,⚭ Vn + nakute (wa) ikemasen,"must, have to (obligation)"
-,,⚭ Vn + nakute (wa) dame desu,"must, have to (obligation)"
-,,⚭ Vn + nai to ikemasen,"must, have to (obligation)"
-,,⚭ Vn + nakya,"must, have to (obligation)"
-,,⚭ Vn + nakucha,"must, have to (obligation)"
-,,⚭ Vn + naito,"must, have to (obligation)"
-,,⚭ Vn + reru / rareru,I got / done by someone(passive form)
-,,⚭ Vn + seru / saseru,let / made someone do (causative form)
-,,⚭ Vn + sete / sasete + ageru,I let someone do (causative form)
-,,⚭ Vn + sete / sasete + kureru,someone let me do (causative form)
-,,⚭ Vn + sete / sasete + morau,I have / had someone to let me do (causative form)
-,,⚭ Vn + serareru / saserareru,I got let / made do it (causative-passive form)
-,,⚭ Vn + zuni,without doing 
-,,⚭ Vn + zuni wa irarenai,can’t help but do
-彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnn,verb into noun
-小説の初めは一番大切です,The beginning of a novel is the most important,⚭ Vnn,verb into noun
-お手紙を読み、すぐに返事を書きました,I read your letter and wrote you back straight away,⚭ Vnn,connective form
-一時間ぐらい商店街を歩き回りました,We walked around the shopping street for about an hour,⚭ Vnn + verb,compound form
-三人はホテルのロビーで話し会いました,The three of them met in the hotel lobby,⚭ Vnn + verb,compound form
-,,⚭ Vnn + agaru,"do upwards, be finished"
-,,⚭ Vnn + ageru,"do for someone, do upwards, finish doing (transitive)"
-,,⚭ Vnn + dasu,"do suddenly, suddenly starts doing"
-,,⚭ Vnn + hajimeru,begin doing
-,,⚭ Vnn + kata,"way / method of doing, how to  (verb to noun)"
-,,⚭ Vnn + komu,do in / into
-,,⚭ Vnn + masu,normal polite present / future form
-,,⚭ Vnn + mashita,normal polite past form
-,,⚭ Vnn + masen,normal polite present / future negative form
-,,⚭ Vnn + masen deshita,normal polite past negative form
-,,⚭ Vnn + mashou,"normal polite inclusive command, let’s …"
-,,⚭ Vnn + mashou ka,"normal polite inclusive query, shall we …"
-,,⚭ Vnn + nagara,while doing 
-,,⚭ Vnn + nasai,abrupt command
-,,⚭ Vnn + ni iku / kuru,go / come somewhere to do
-,,⚭ Vnn + nikui ,difficult to (creates a true adjective)
-,,⚭ Vnn + owaru ,finish doing
-,,⚭ Vnn + sou (desu),"appears to be about to, looks like"
-,,⚭ Vnn + sugiru,do too much
-,,⚭ Vnn + tagaru,"want to, wish to"
-,,⚭ Vnn + tai (desu),want to
-,,⚭ Vnn + takatta,wanted to
-,,⚭ Vnn + takunai,don’t want to
-,,⚭ Vnn + takunakatta,didn’t wanted to
-,,⚭ Vnn + tsuzukeru,continue doing
-,,⚭ Vnn + yasui,easy to (creates a true adjective)
+,,⚭ Vn + nakute (wa) ikemasen → Vnakute (wa) ikemasen,"must, have to (obligation)"
+,,⚭ Vn + nakute (wa) dame desu → Vnakute (wa) dame desu,"must, have to (obligation)"
+,,⚭ Vn + naito ikemasen → Vnaito ikemasen,"must, have to (obligation)"
+,,⚭ Vn + nakya → Vnakya,"must, have to (obligation)"
+,,⚭ Vn + nakucha → Vnakucha,"must, have to (obligation)"
+,,⚭ Vn + naito → Vnaito,"must, have to (obligation)"
+,,⚭ Vn + reru/rareru → Vreru/rareru,I got / done by someone(passive form)
+,,⚭ Vn + seru/saseru → Vseru/saseru,let / made someone do (causative form)
+,,⚭ Vn + sete/sasete + ageru → Vsete/sasete ageru,I let someone do (causative form)
+,,⚭ Vn + sete/sasete + kureru → Vsete/saste kureru,someone let me do (causative form)
+,,⚭ Vn + sete/sasete + morau → Vsete/sasete morau,I have / had someone to let me do (causative form)
+,,⚭ Vn + serareru/saserareru → Vserareru/saserareru,I got let / made do it (causative-passive form)
+,,⚭ Vn + zuni → Vzuni,without doing 
+,,⚭ Vn + zuni wa irarenai → Vzuni wa irarenai,can’t help but do
+彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnn → Vnoun,verb into noun
+小説の初めは一番大切です,The beginning of a novel is the most important,⚭ Vnn → Vnoun,verb into noun
+お手紙を読み、すぐに返事を書きました,I read your letter and wrote you back straight away,⚭ Vnn → Vnoun,connective form
+一時間ぐらい商店街を歩き回りました,We walked around the shopping street for about an hour,⚭ Vnn + verb → Vverb,compound form
+三人はホテルのロビーで話し会いました,The three of them met in the hotel lobby,⚭ Vnn + verb → Vverb,compound form
+,,⚭ Vnn + agaru → Vagaru,"do upwards, be finished"
+,,⚭ Vnn + ageru → Vageru,"do for someone, do upwards, finish doing (transitive)"
+,,⚭ Vnn + dasu → Vdasu,"do suddenly, suddenly starts doing"
+,,⚭ Vnn + hajimeru → Vhajimeru,begin doing
+,,⚭ Vnn + kata → Vkata,"way / method of doing, how to  (verb to noun)"
+,,⚭ Vnn + komu → Vkomu,do in / into
+,,⚭ Vnn + masu → Vmasu,normal polite present / future form
+,,⚭ Vnn + mashita → Vmashita,normal polite past form
+,,⚭ Vnn + masen → Vmasen,normal polite present / future negative form
+,,⚭ Vnn + masen deshita → Vmasen deshita,normal polite past negative form
+,,⚭ Vnn + mashou → Vmashou,"normal polite inclusive command, let’s …"
+,,⚭ Vnn + mashou ka → Vmashou ka,"normal polite inclusive query, shall we …"
+,,⚭ Vnn + nagara → Vnagara,while doing 
+,,⚭ Vnn + nasai → Vnasai,abrupt command
+,,⚭ Vnn + ni iku/kuru → Vni iku/kuru,go / come somewhere to do
+,,⚭ Vnn + nikui → Vnikui,difficult to (creates a true adjective)
+,,⚭ Vnn + owaru → Vowaru,finish doing
+,,⚭ Vnn + sou (desu) → Vsou (desu),"appears to be about to, looks like"
+,,⚭ Vnn + sugiru → Vsugiru,do too much
+,,⚭ Vnn + tagaru → Vtagaru,"want to, wish to"
+,,⚭ Vnn + tai (desu) → Vtai (desu),want to
+,,⚭ Vnn + takatta → Vtakatta,wanted to
+,,⚭ Vnn + takunai → Vtakunai,don’t want to
+,,⚭ Vnn + takunakatta → Vtakunakatta,didn’t wanted to
+,,⚭ Vnn + tsuzukeru → Vtzusukeru,continue doing
+,,⚭ Vnn + yasui → Vyasui,easy to (creates a true adjective)
 おじさんは捨てるほどお金を持っています,Uncle has money to throw away extensively,⚭ Vdict・Vru + hodo,"to the extent, so much that"
 できるかぎり、努力します,I will try to the extent that it is possible,⚭ Vdict・Vru + kagiri,"to the extent that, in so far as, within the limits of"
 行くかわりに電話をしました,I phoned instead of going,⚭ Vdict・Vru + kawari (ni),"instead of, in place of, in exchange for"
