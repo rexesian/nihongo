@@ -4291,7 +4291,7 @@ Indicates that the past occurrence was done by someone and not by you.
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbena <- vrben %>% slice(1:22)
+vrbena <- vrben %>% slice(1:33)
 
 reactable(
   na.omit(vrbena),
@@ -4378,6 +4378,68 @@ reactable(
 
     ・kuru    ⇢   korareru
     ・suru    ⇢   sareru
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbenp <- vrben %>% slice(34:47)
+
+reactable(
+  na.omit(vrbenp),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- vrbenp$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Expression <- vrbenp$Expression[index]
+        Expression <- if (!is.na(Expression)) Expression else "Unknown"
+        Concept <- vrbenp$Concept[index]
+        Concept <- if (!is.na(Concept)) Concept else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 11, fontWeight = 200), Concept),
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Expression = colDef(show = FALSE),
+      Concept = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -4485,7 +4547,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbenb <- vrben %>% slice(37:41)
+vrbenb <- vrben %>% slice(55:59)
 
 reactable(
   na.omit(vrbenb),
@@ -4605,7 +4667,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbenc <- vrben %>% slice(68:95)
+vrbenc <- vrben %>% slice(86:113)
 
 reactable(
   na.omit(vrbenc),
@@ -4695,7 +4757,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbcmd <- vrben %>% slice(96:106)
+vrbcmd <- vrben %>% slice(114:124)
 
 reactable(
   na.omit(vrbcmd),
@@ -4785,7 +4847,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbptn <- vrben %>% slice(107:113)
+vrbptn <- vrben %>% slice(125:131)
 
 reactable(
   na.omit(vrbptn),
@@ -4875,7 +4937,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbvl <- vrben %>% slice(114:126)
+vrbvl <- vrben %>% slice(132:144)
 
 reactable(
   na.omit(vrbvl),
@@ -4965,7 +5027,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbvl <- vrben %>% slice(127:142)
+vrbvl <- vrben %>% slice(145:160)
 
 reactable(
   na.omit(vrbvl),
@@ -5055,7 +5117,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbta <- vrben %>% slice(160:172)
+vrbta <- vrben %>% slice(178:192)
 
 reactable(
   na.omit(vrbta),
@@ -11437,7 +11499,7 @@ reactable(
         Meaning <- jl5$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11498,7 +11560,7 @@ reactable(
         Meaning <- jl4$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11560,7 +11622,7 @@ reactable(
         Meaning <- jl3$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11621,7 +11683,7 @@ reactable(
         Meaning <- jl2$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11682,7 +11744,7 @@ reactable(
         Meaning <- jl1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11743,7 +11805,7 @@ reactable(
         Meaning <- ws$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -11975,7 +12037,7 @@ kc1 <- kc1[sample(1:nrow(kc1)),]
 reactable(
   kc1,
   columns = list(
-       Words = colDef(style = list(fontSize = "40px", fontWeight = 800), align = "center")
+       Words = colDef(style = list(fontSize = "30px", fontWeight = 800), align = "center")
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
@@ -12020,7 +12082,7 @@ reactable(na.omit(kc2), showPageSizeOptions = FALSE,
                 Kanji = colDef(
                 cell = function(value, index) {
                   tagList(
-                  div(style = list(fontSize = 40, fontWeight = 800), value)
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
               )
             },
             align = "center"
@@ -12066,7 +12128,7 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
                 Kanji = colDef(
                 cell = function(value, index) {
                   tagList(
-                  div(style = list(fontSize = 40, fontWeight = 800), value)
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
               )
             },
             align = "center"
@@ -12098,8 +12160,7 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 #### Words 5000++
 
-**Download:**\
-[**Level1:500**](https://github.com/rexesian/japanese/blob/main/Level1VC.pdf) ❊ **Level2:1500** ❊ **Level3:3000** ❊ **Level4:5000** ❊
+
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -12117,7 +12178,7 @@ reactable(na.omit(kv1), showPageSizeOptions = FALSE,
                 Kanji = colDef(
                 cell = function(value, index) {
                   tagList(
-                  div(style = list(fontSize = 40, fontWeight = 800), value)
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
               )
             },
             align = "center"
@@ -12142,9 +12203,6 @@ reactable(na.omit(kv1), showPageSizeOptions = FALSE,
 
 #### Intermediate
 
-**Download:**\
-[**Intermediate Words**](https://github.com/rexesian/japanese/blob/main/Level1VC.pdf) ❊
-
 ```{r, echo=FALSE, message=FALSE}
 
 intw <- intw[sample(1:nrow(intw)),]
@@ -12159,7 +12217,7 @@ reactable(
         Reading <- intw$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 600), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
@@ -12210,7 +12268,7 @@ reactable(
         Transcript <- evdw1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -12257,7 +12315,7 @@ reactable(
         Transcript <- evdw2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -12304,7 +12362,7 @@ reactable(
         Transcript <- evdw3$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -12335,7 +12393,7 @@ reactable(
 
 ### Online {.tabset}
 
-#### Expressions
+#### 1
 
 **Words/Expressions**
 
@@ -12365,7 +12423,7 @@ reactable(
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
-          div(style = list(fontSize = 13, fontWeight = 600), Hiragana),
+          # div(style = list(fontSize = 13, fontWeight = 600), Hiragana),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
@@ -12399,7 +12457,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Sentences
+#### 2
 
 **Sentences/Phrases/Clauses**
 
@@ -12449,7 +12507,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 1
+#### 3
 
 [**Sayuri Saying-Aquarium Trip**](https://www.youtube.com/watch?v=WozmuIV4ARA)
 
@@ -12494,7 +12552,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 2
+#### 4
 
 [**Kimono Mom-Japanese Stew-Oden**](https://www.youtube.com/watch?v=ccqw0Z_IWQs)
 
@@ -12540,7 +12598,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 3
+#### 5
 
 [**Meshclass Japanese-Sumimasen**](https://www.youtube.com/watch?v=jQhCrdms4bE)
 
@@ -12592,7 +12650,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 4
+#### 6
 
 [**Sayuri Saying-Garden Ritsurin**](https://www.youtube.com/watch?v=-HuFge-7fbI)
 
@@ -12637,7 +12695,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 5
+#### 7
 
 [**Meshclass Japanese-You ni**](https://www.youtube.com/watch?v=PHthNzwbYXU)
 
@@ -12683,7 +12741,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 6
+#### 8
 
 [**Tori&Izumi-Hot-Springs**](https://www.youtube.com/watch?v=zvkDGS3REwk)
 
@@ -12732,7 +12790,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 7
+#### 9
 
 [**Tori&Izumi-Foggy-Hotel**](https://www.youtube.com/watch?v=8WC1d3LcGQs)
 
@@ -12781,7 +12839,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 8
+#### 10
 
 [**Nihongo-No-Mori-Lemon**](https://www.youtube.com/watch?v=DdsFtjmSnak&t=166s)
 
@@ -12830,7 +12888,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 9
+#### 11
 
 [**Nihongo-Switch-Morning-Motivation**](https://www.youtube.com/watch?v=YkPuUqhuQ3c)
 
@@ -12875,7 +12933,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 10
+#### 12
 
 [**Weather-News-Fans-Saya**](https://www.youtube.com/watch?v=Ydxc4Ewh8So)
 
