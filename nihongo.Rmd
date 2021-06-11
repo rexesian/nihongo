@@ -91,6 +91,7 @@ phvrb <- read_csv("rdata/Sheet 59-PVRB1.csv")
 vrben <- read_csv("rdata/Sheet 65-VRBCN.csv")
 knjdu <- read_csv("rdata/Sheet 66-KNJDU.csv")
 smexp <- read_csv("rdata/Sheet 69-EXPPH.csv")
+kndsh <- read_csv("rdata/Sheet 70-KNDSH.csv")
 
 ```
 
@@ -1229,6 +1230,79 @@ reactable(
       ),
       Reading = colDef(show = FALSE),
       Script = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### More
+
+```{r echo=FALSE, message=FALSE}
+
+# kndsh <- kndsh[sample(1:nrow(kndsh)),]
+
+reactable(
+  na.omit(kndsh),
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Core <- na.omit(kndsh)$Core[index]
+        Core <- if (!is.na(Core)) Core else "Unknown"
+        Onyomi <- na.omit(kndsh)$Onyomi[index]
+        Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
+        Kunyomi <- na.omit(kndsh)$Kunyomi[index]
+        Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
+        Words <- na.omit(kndsh)$Words[index]
+        Words <- if (!is.na(Words)) Words else "Unknown"
+        Meaning <- na.omit(kndsh)$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Core),
+          div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
+          div(style = list(fontSize = 22, fontWeight = 800), Words),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Core = colDef(show = FALSE),
+      Onyomi = colDef(show = FALSE),
+      Kunyomi = colDef(show = FALSE),
+      Words = colDef(show = FALSE),
+      Meaning = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
