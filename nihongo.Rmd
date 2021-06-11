@@ -11371,6 +11371,53 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### Adjectives
+
+```{r, echo=FALSE, message=FALSE}
+
+adhme <- v1hme %>% select(Adjectives) %>%
+  separate(Adjectives, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+adhme <- adhme[sample(1:nrow(na.omit(adhme))),]
+
+reactable(
+  adhme,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- adhme$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Technical {.tabset}
 
 ### Electricity
