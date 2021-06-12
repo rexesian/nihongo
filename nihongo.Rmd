@@ -1012,7 +1012,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(185:332)
+knjdu2 <-  knjdu  %>% slice(185:355)
 
 reactable(
   knjdu2,
