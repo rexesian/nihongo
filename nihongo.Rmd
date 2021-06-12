@@ -1012,7 +1012,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(185:297)
+knjdu2 <-  knjdu  %>% slice(185:332)
 
 reactable(
   knjdu2,
@@ -1074,7 +1074,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(319:336)
+knjdu2 <-  knjdu  %>% slice(459:476)
 
 reactable(
   knjdu2,
@@ -1136,7 +1136,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(449:461)
+knjdu2 <-  knjdu  %>% slice(589:601)
 
 reactable(
   knjdu2,
@@ -1256,7 +1256,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### More
+### More {.tabset}
+
+#### Words
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -1294,6 +1296,152 @@ reactable(
           div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
           div(style = list(fontSize = 22, fontWeight = 800), Words),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Core = colDef(show = FALSE),
+      Onyomi = colDef(show = FALSE),
+      Kunyomi = colDef(show = FALSE),
+      Words = colDef(show = FALSE),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### W/Meaning
+
+```{r echo=FALSE, message=FALSE}
+
+kndsm <- kndsh[sample(1:nrow(kndsh)),]
+
+reactable(
+  na.omit(kndsm),
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Core <- na.omit(kndsm)$Core[index]
+        Core <- if (!is.na(Core)) Core else "Unknown"
+        Onyomi <- na.omit(kndsm)$Onyomi[index]
+        Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
+        Kunyomi <- na.omit(kndsm)$Kunyomi[index]
+        Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
+        Words <- na.omit(kndsm)$Words[index]
+        Words <- if (!is.na(Words)) Words else "Unknown"
+        Meaning <- na.omit(kndsm)$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 800), value),
+          # div(style = list(fontSize = 11, fontWeight = 200), Core),
+          # div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
+          div(style = list(fontSize = 30, fontWeight = 800), Words),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Core = colDef(show = FALSE),
+      Onyomi = colDef(show = FALSE),
+      Kunyomi = colDef(show = FALSE),
+      Words = colDef(show = FALSE),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Random
+
+```{r echo=FALSE, message=FALSE}
+
+kndsr <- kndsh[sample(1:nrow(kndsh)),]
+
+reactable(
+  na.omit(kndsr),
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Core <- na.omit(kndsr)$Core[index]
+        Core <- if (!is.na(Core)) Core else "Unknown"
+        Onyomi <- na.omit(kndsr)$Onyomi[index]
+        Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
+        Kunyomi <- na.omit(kndsr)$Kunyomi[index]
+        Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
+        Words <- na.omit(kndsr)$Words[index]
+        Words <- if (!is.na(Words)) Words else "Unknown"
+        Meaning <- na.omit(kndsr)$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 800), value),
+          # div(style = list(fontSize = 11, fontWeight = 200), Core),
+          # div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
+          div(style = list(fontSize = 30, fontWeight = 800), Words),
+          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
       align = "center", minWidth = 400
@@ -5676,15 +5824,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1:64))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1:64))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5718,15 +5870,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(65:249))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(65:249))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5760,15 +5916,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(250:526))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(250:526))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5802,15 +5962,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(528:586))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(528:586))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5844,15 +6008,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(595:625))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(595:625))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5886,15 +6054,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(722:745))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(722:745))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5928,15 +6100,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1089:1107))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1089:1107))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -5970,15 +6146,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1108:1136))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1108:1136))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -6012,15 +6192,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1137:1143))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1137:1143))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -6054,15 +6238,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1144:1151))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1144:1151))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -6096,15 +6284,19 @@ reactable(
       cell = function(value, index) {
         Meaning <- (srvb2 %>% slice(1180:1190))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- (srvb2 %>% slice(1180:1190))$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
     ),
-    Meaning = colDef(show = FALSE)
-
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
