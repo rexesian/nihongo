@@ -12345,7 +12345,7 @@ kc1 <- bind_rows(kc1, knjd3)
 kc1 <- bind_rows(kc1, knjd4)
 kc1 <- bind_rows(kc1, knjd4)
 kc1 <- kc1 %>% select(Words)
-set.seed(5627)
+set.seed(2567)
 kc1 <- kc1[sample(1:nrow(kc1)),]
 reactable(
   kc1,
