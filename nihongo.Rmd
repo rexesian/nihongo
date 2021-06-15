@@ -11943,6 +11943,392 @@ reactable(
 
 # Exam Guide {.tabset}
 
+## Kanji {.tabset}
+
+### L1
+
+```{r, echo=FALSE, message=FALSE}
+
+ff1 <- ff1[sample(1:nrow(ff1)),]
+
+reactable(
+  ff1,
+  columns = list(
+    # Kanji = colDef(
+    #   style = JS("function(rowInfo, colInfo, state) {
+    #     var firstSorted = state.sorted[0]
+    #     if (!firstSorted || firstSorted.id === 'Kanji') {
+    #       var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+    #       if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+    #         return { visibility: 'hidden' }
+    #       }
+    #     }
+    #   }"),
+    #   cell = function(value, index) {
+    #     Core <- ff1$Core[index]
+    #     Core <- if (!is.na(Core)) Core else "Unknown"
+    #     tagList(
+    #       # div(style = list(fontSize = 50, fontWeight = 700), value),
+    #       # div(style = list(fontSize = 11), Core)
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    # Meaning = colDef(minWidth = 180, align = "center"),
+    # Hiragana = colDef(style = list(fontSize = "13px"), align = "center"),
+    Kanji = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Hiragana = colDef(show = FALSE),
+    Core = colDef(show = FALSE),
+    
+    Words = colDef(
+      minWidth = 280,
+      style = list(fontSize = "25px", fontWeight = 700), align = "center",
+       cell = function(value, index) {
+          Hiragana <- ff1$Hiragana[index]
+          Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+          Meaning <- ff1$Meaning[index]
+          Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+          tagList(
+             div(style = list(fontSize = 30, fontWeight = 800), value)
+             # div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
+             # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+         )
+       }
+    )
+  ),
+  outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", 
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L2
+
+```{r, echo=FALSE, message=FALSE}
+
+ff2 <- ff2[sample(1:nrow(ff2)),]
+
+reactable(
+  ff2,
+  columns = list(
+    # Kanji = colDef(
+    #   style = JS("function(rowInfo, colInfo, state) {
+    #     var firstSorted = state.sorted[0]
+    #     if (!firstSorted || firstSorted.id === 'Kanji') {
+    #       var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+    #       if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+    #         return { visibility: 'hidden' }
+    #       }
+    #     }
+    #   }"),
+    #   cell = function(value, index) {
+    #     Core <- ff2$Core[index]
+    #     Core <- if (!is.na(Core)) Core else "Unknown"
+    #     tagList(
+    #       div(style = list(fontSize = 50, fontWeight = 800), value),
+    #       div(style = list(fontSize = 11), Core)
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    # Meaning = colDef(minWidth = 180, align = "center"),
+    # Words = colDef(style = list(fontSize = "25px", fontWeight = 700), align = "center"),
+    # Hiragana = colDef(style = list(fontSize = "13px"), align = "center"),
+    Kanji = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Hiragana = colDef(show = FALSE),
+    Core = colDef(show = FALSE),
+    Words = colDef(
+      minWidth = 280,
+      style = list(fontSize = "25px", fontWeight = 700), align = "center",
+       cell = function(value, index) {
+          Hiragana <- ff2$Hiragana[index]
+          Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+          Meaning <- ff2$Meaning[index]
+          Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+          tagList(
+             div(style = list(fontSize = 30, fontWeight = 700), value)
+             # div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
+             # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+         )
+       }
+    )
+  ),
+  outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L3
+
+```{r, echo=FALSE, message=FALSE}
+
+ff3 <- ff3[sample(1:nrow(ff3)),]
+
+reactable(
+  ff3,
+  columns = list(
+    # Kanji = colDef(
+    #   style = JS("function(rowInfo, colInfo, state) {
+    #     var firstSorted = state.sorted[0]
+    #     if (!firstSorted || firstSorted.id === 'Kanji') {
+    #       var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+    #       if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+    #         return { visibility: 'hidden' }
+    #       }
+    #     }
+    #   }"),
+    #   cell = function(value, index) {
+    #     Core <- ff3$Core[index]
+    #     Core <- if (!is.na(Core)) Core else "Unknown"
+    #     tagList(
+    #       div(style = list(fontSize = 50, fontWeight = 800), value),
+    #       div(style = list(fontSize = 11), Core)
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    # Meaning = colDef(minWidth = 180, align = "center"),
+    # Words = colDef(style = list(fontSize = "25px", fontWeight = 700), align = "center"),
+    # Hiragana = colDef(style = list(fontSize = "13px"), align = "center"),
+    Kanji = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Hiragana = colDef(show = FALSE),
+    Core = colDef(show = FALSE),
+    Words = colDef(
+      minWidth = 280,
+      style = list(fontSize = "25px", fontWeight = 700), align = "center",
+       cell = function(value, index) {
+          Hiragana <- ff3$Hiragana[index]
+          Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+          Meaning <- ff3$Meaning[index]
+          Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+          tagList(
+             div(style = list(fontSize = 30, fontWeight = 700), value)
+             # div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
+             # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+         )
+       }
+    )
+  ),
+  outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555",
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L4
+```{r, echo=FALSE, message=FALSE}
+
+ff4 <- ff4[sample(1:nrow(ff4)),]
+
+reactable(
+  ff4,
+  columns = list(
+    # Kanji = colDef(
+    #   style = JS("function(rowInfo, colInfo, state) {
+    #     var firstSorted = state.sorted[0]
+    #     if (!firstSorted || firstSorted.id === 'Kanji') {
+    #       var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+    #       if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+    #         return { visibility: 'hidden' }
+    #       }
+    #     }
+    #   }"),
+    #   cell = function(value, index) {
+    #     Core <- ff4$Core[index]
+    #     Core <- if (!is.na(Core)) Core else "Unknown"
+    #     tagList(
+    #       div(style = list(fontSize = 50, fontWeight = 800), value),
+    #       div(style = list(fontSize = 11), Core)
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    # Meaning = colDef(minWidth = 180, align = "center"),
+    # Words = colDef(style = list(fontSize = "25px", fontWeight = 700), align = "center"),
+    # Hiragana = colDef(style = list(fontSize = "13px"), align = "center"),
+    Kanji = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Hiragana = colDef(show = FALSE),
+    Core = colDef(show = FALSE),
+    Words = colDef(
+      minWidth = 280,
+      style = list(fontSize = "25px", fontWeight = 700), align = "center",
+       cell = function(value, index) {
+          Hiragana <- ff4$Hiragana[index]
+          Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+          Meaning <- ff4$Meaning[index]
+          Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+          tagList(
+             div(style = list(fontSize = 30, fontWeight = 700), value)
+             # div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
+             # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+         )
+       }
+    )
+  ),
+  outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555",
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L5
+
+```{r, echo=FALSE, message=FALSE}
+
+ff5 <- ff5[sample(1:nrow(ff5)),]
+
+reactable(
+  ff5,
+  columns = list(
+    # Kanji = colDef(
+    #   style = JS("function(rowInfo, colInfo, state) {
+    #     var firstSorted = state.sorted[0]
+    #     if (!firstSorted || firstSorted.id === 'Kanji') {
+    #       var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+    #       if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+    #         return { visibility: 'hidden' }
+    #       }
+    #     }
+    #   }"),
+    #   cell = function(value, index) {
+    #     Core <- ff5$Core[index]
+    #     Core <- if (!is.na(Core)) Core else "Unknown"
+    #     tagList(
+    #       div(style = list(fontSize = 50, fontWeight = 800), value),
+    #       div(style = list(fontSize = 11), Core)
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    # Meaning = colDef(minWidth = 180, align = "center"),
+    # Words = colDef(style = list(fontSize = "25px", fontWeight = 700), align = "center"),
+    # Hiragana = colDef(style = list(fontSize = "13px"), align = "center"),
+    Kanji = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Hiragana = colDef(show = FALSE),
+    Core = colDef(show = FALSE),
+    Words = colDef(
+      minWidth = 280,
+      style = list(fontSize = "25px", fontWeight = 700), align = "center",
+       cell = function(value, index) {
+          Hiragana <- ff5$Hiragana[index]
+          Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
+          Meaning <- ff5$Meaning[index]
+          Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+          tagList(
+             div(style = list(fontSize = 30, fontWeight = 700), value)
+             # div(style = list(fontSize = 13, fontWeight = 200), Hiragana),
+             # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+         )
+       }
+    )
+  ),
+  outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555",
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Words {.tabset}
 
 ### N5
