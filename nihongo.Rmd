@@ -127,7 +127,7 @@ There are 3 writing system used in Japanese namely the **Kanji**, **Hiragana** a
 
 **Hiragana** is a phonetic script used to represent Japanese sound.
 
-![](/Users/yshancid/Documents/R/nihongo/hh.jpg)
+![](hh.jpg)
 
 ------------------------------------------------------------------------
 
@@ -135,7 +135,7 @@ There are 3 writing system used in Japanese namely the **Kanji**, **Hiragana** a
 
 **Katakana** is a phonetic script used to represent Foreign loan words.
 
-![](/Users/yshancid/Documents/R/nihongo/hk.jpg)
+![](hk.jpg)
 
 ------------------------------------------------------------------------
 
@@ -4532,7 +4532,7 @@ Indicates that the past occurrence was done by someone and not by you.
 
 ###### Table
 
-![](/Users/yshancid/Documents/R/nihongo/tvrb.jpg)
+![](tvrb.jpg)
 
 **Forms**
 
