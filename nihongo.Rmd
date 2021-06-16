@@ -3550,7 +3550,7 @@ The two nominalizers are **no** and **koto**.
 `A back referral`   
 `Using perception verbs`  
 
-<!-- <h>   -->
+----
 
 `A specific instance of an activity`
 
@@ -3661,7 +3661,7 @@ The two nominalizers are **no** and **koto**.
 
 ###### **koto** is use when referring to
 
-`A abstract concept or thinking`   
+`An abstract concept or thinking`   
 `A significant knowledge or concept`   
 `A notable experience`   
 `A decision`   
@@ -3669,7 +3669,7 @@ The two nominalizers are **no** and **koto**.
 `A nominalized Engine`   
 `Following a grammatical pattern`
 
-<!-- <h>   -->
+----
 
 `A abstract concept or thinking`
 
@@ -4117,7 +4117,9 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 ------------------------------------------------------------------------
 
-##### Relative Position
+##### Relative Position {.tabset}
+
+###### 1
 
 **Relative position**
 
@@ -4159,6 +4161,10 @@ A **suffix** is a short element that is attached to the end of a word to change 
     ・The church on top of the mountain is beautiful
     ・The girl sitting next to me is beautiful
 
+------------------------------------------------------------------------
+
+###### 2
+
 向こう: "beyond" or "other side"
 
     ・海は木の向こうです
@@ -4188,6 +4194,45 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
     ・道路の反対側にお店があります
     ・The store is on the other side of the road 
+    
+------------------------------------------------------------------------
+
+###### 3
+
+    ・表　　　　　　　front
+    ・裏　　　　　　　back
+    ・中央　　　　　　center
+    ・道路の端　　　　road edge/shoulder
+    ・部屋の隅　　　　room center
+    ・奥　　　　　　　back/inner/depth
+    ・底　　　　　　　bottom
+    ・正面　　　　　　front
+    ・向かいの家　　　house opposite
+    ・斜め　　　　　　diagonal
+    ・斜めに切る　　　cut diagonal
+    ・隣の席　　　　　seat next to
+    ・手前　　　　　　before/this side of
+    ・先　　　　　　　ahead/beyond
+    ・辺り　　　　　　vicinity
+    ・側　　　　　　　side
+    ・公園の周り　　　around the park
+    ・周辺の環境　　　surrounding environment
+    ・同じ方向　　　　same direction
+    ・逆の方向　　　　opposite direction
+    ・向き　　　　　　direction/orientation
+    ・右向き　　　　　facing right
+    ・南向き　　　　　facing south
+    ・向きを変える　　change direction
+    ・交差点　　　　　intersection
+    ・四角　　　　　　crossroads, street corner
+    ・歩道　　　　　　sidewalk
+    ・横断歩道　　　　pedestrian crossing
+    ・車道　　　　　　road
+    ・突き当たり　　　end of the road
+    ・踏切り　　　　　railroad crossing
+    ・横切り　　　　　to cross
+    ・沿って　　　　　to follow
+    ・道に迷う　　　　to get lost
 
 ------------------------------------------------------------------------
 
@@ -4254,7 +4299,7 @@ There are only 2 irregular verbs in Japanese: **suru(do)**, **kuru(come)**.
 
 ##### Types
 
-**Transitive**   
+**Transitive**`Action`   
 Transitive verbs are verbs that take a direct object. They express what an agent does.
 
     ・私はよく本を借ります
@@ -4265,7 +4310,7 @@ Transitive verbs are verbs that take a direct object. They express what an agent
     ・I often borrow books
     ・My father bought a new car
 
-**Intransitive**   
+**Intransitive**`Descriptive`   
 Intransitive verbs are verbs that do not take a direct object.   
 They express events, movements or the spontaneous changes undergone by the subject. 
 
@@ -4910,21 +4955,37 @@ reactable(
 
 **Forms**
 
-<p style="font-size:12px;">(❖) **Vmasu-Form (Non Past) ⚭ Vnoun + masu**</p>
+<p style="font-size:12px;">(❖) **Vnagara-Form (Non Past) ⚭ Vnn + nagara**</p>
 
-    ・kau     ⇢   kaimasu
-    ・taberu  ⇢   tabemasu
-    ・miru    ⇢   mimasu
-    ・kuru    ⇢   kimasu
-    ・suru    ⇢   shimasu
+    ・kau     ⇢   kainagara
+    ・taberu  ⇢   tabenagara
+    ・miru    ⇢   minagara
+    ・kuru    ⇢   kinagara
+    ・suru    ⇢   shinagara
 
-<p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past) ⚭ Vnoun + masen**</p>
+<p style="font-size:12px;">(❖) **Vnikui-Form (Negative Non Past) ⚭ Vnn + nikui**</p>
 
-    ・kau     ⇢   kaimasen
-    ・taberu  ⇢   tabemasen
-    ・miru    ⇢   mimasen
-    ・kuru    ⇢   kurimasen
-    ・suru    ⇢   shirimasen
+    ・kau     ⇢   kainikui
+    ・taberu  ⇢   tabenikui
+    ・miru    ⇢   minikui
+    ・kuru    ⇢   kinikui
+    ・suru    ⇢   shinikui
+
+<p style="font-size:12px;">(❖) **Vsugiru-Form (Negative Non Past) ⚭ Vnn + sugiru**</p>
+
+    ・kau     ⇢   kaisugiru
+    ・taberu  ⇢   tabesugiru
+    ・miru    ⇢   misugiru
+    ・kuru    ⇢   kisugiru
+    ・suru    ⇢   shisugiru
+
+<p style="font-size:12px;">(❖) **Vta-Form (Negative Non Past) ⚭ Vnn + tai**</p>
+
+    ・kau     ⇢   kaitai
+    ・taberu  ⇢   tabetai
+    ・miru    ⇢   mitai
+    ・kuru    ⇢   kitai
+    ・suru    ⇢   shitai
 
 <p style="font-size:12px;">(❖) **More Endings/Forms**</p>
 
@@ -5017,6 +5078,32 @@ reactable(
 
     ・kuru    ⇢   kimasu
     ・suru    ⇢   shimasu
+
+**Forms**
+
+<p style="font-size:12px;">(❖) **Vmashita-Form (Past) ⚭ Vnn + mashita**</p>
+
+    ・kau     ⇢   kaimashita
+    ・taberu  ⇢   tabemashita
+    ・miru    ⇢   mimashita
+    ・kuru    ⇢   kimashita
+    ・suru    ⇢   shimashita
+
+<p style="font-size:12px;">(❖) **Vnakatta-Form (Negative) ⚭ Vnn + masen**</p>
+
+    ・kau     ⇢   kaimasen
+    ・taberu  ⇢   tabemasen
+    ・miru    ⇢   mimasen
+    ・kuru    ⇢   kimasen
+    ・suru    ⇢   shimasen
+
+<p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past) ⚭ Vnn + masen deshita**</p>
+
+    ・kau     ⇢   kaimasen deshita
+    ・taberu  ⇢   tabemasen deshita
+    ・miru    ⇢   mimasen deshita
+    ・kuru    ⇢   kimasen deshita
+    ・suru    ⇢   shimasen deshita
 
 ------------------------------------------------------------------------
 

@@ -382,8 +382,8 @@ body {
     中国に返す日が遅くなったために、シャンシャンは今も上野動物園にいます。  
     8日から動物園のウェブサイトでは、最近のシャンシャンのビデオを見ることができます。シャンシャンは、   
     体の重さが90kg以上になって、元気に遊んだり、餌を食べたりしています。　　
-    動物園は「シャンシャンが生まれてから今までのビデオなども、ウェブサイトで見ることができるようにします」と言っています。  
-    上野動物園は5か月ぐらい休んでいましたが、6月4日に開きました。入ることができる人を少なくしていて、予約が必要です。
+    動物園は「シャンシャンが生まれてから今までのビデオなども、ウェブサイトで見ることができるようにします」と言っています。
+    上野動物園は5か月ぐらい休んでいましたが、6月4日に開きました。入ることができる人を少なくしていて、予約が必要です。  
 
 ------------------------------------------------------------------------
 
@@ -1071,43 +1071,43 @@ body {
 
 ### 語彙 {.tabset}
 
-#### ウェブ・ニュース・平 {.tabset}
+#### Web-News-Easy {.tabset}
 
 ##### 1
 
-山形県・やまがたけん・Yamagata Prefecture (Tohoku Area)   
-鶴岡市・つるおかし・Tsuruoka City   
-農家・のうか・farmer   
-幅・はば・width・breadth   
-ソーラーパネル・solar panel   
-光・ひかり・light   
-太陽・たいよう・sun   
-自動・自動・automatic   
-濁ります・にごります・to become muddy・to become cloudy・to become dull   
-邪魔・じゃま・hindrance・obstacle・nuisance   
-草・くさ・grass・weeds   
-少なくする・すくなくする・to reduce   
+山形県・やまがたけん・`Yamagata Prefecture (Tohoku Area)`   
+鶴岡市・つるおかし・`Tsuruoka City`   
+農家・のうか・`farmer`   
+幅・はば・width・`breadth`   
+ソーラーパネル・`solar panel`   
+光・ひかり・`light`   
+太陽・たいよう・`sun`   
+自動・自動・`automatic`   
+濁ります・にごります・`to become muddy・to become cloudy・to become dull`   
+邪魔・じゃま・hindrance・`obstacle・nuisance`   
+草・くさ・`grass・weeds`   
+少なくする・すくなくする・`to reduce`   
 
 山形県鶴岡市の会社が、薬を使わないで米を育てる農家の手伝いをするロボットを作りました   
-A company in Tsuruoka City, Yamagata Prefecture, has created a robot that helps farmers grow rice without using chemicals (medicine)　
+`A company in Tsuruoka City, Yamagata Prefecture, has created a robot that helps farmers grow rice without using chemicals (medicine)`　
 
 ソーラーパネルとGPSがついていて  
-It's got a solar panel and GPS   
+`It's got a solar panel and GPS`   
 
 自動で動きます  
-It runs automatically  
+`It runs automatically`  
 
 このロボットを田んぼに入れて、スクリューを回すと、水が濁ります   
-When this robot is placed in a rice paddy and the screw is turned, the water becomes muddy!　　
+`When this robot is placed in a rice paddy and the screw is turned, the water becomes muddy!`　　
 
 米が育つのに邪魔になる草が大きくなりません   
-Grasses that interfere with the growth of rice will not grow　　
+`Grasses that interfere with the growth of rice will not grow`　　
 
 ロボットを作った人は「将来、米を育てる農家の仕事を少なくすることが必要になります  
-The person who created the robot said, "In the future, we will need to reduce the workload of farmers who grow rice  
+`The person who created the robot said, "In the future, we will need to reduce the workload of farmers who grow rice`  
 
 田んぼの草をとるのは大変な仕事なので、ロボットで手伝いたいです」と話していました   
-Weeding the rice paddies is a tough job, so I want to help with the robot," he said   
+`Weeding the rice paddies is a tough job, so I want to help with the robot," he said`   
 
 ------------------------------------------------------------------------
 
@@ -1127,45 +1127,51 @@ Weeding the rice paddies is a tough job, so I want to help with the robot," he s
 
 ------------------------------------------------------------------------
 
-#### ラーメン
+##### 6
 
-日本で育ち・にほんでそだち`grow・breed in Japan`   
-世界に進出した・せかいにしんしゅつ`advancing・expanding・emerging in the world`  
-数多・あまた`many・a lot・much・multitude`  
+------------------------------------------------------------------------
 
-    ラーメンという料理ほど独特な存在はなく  
-    There is no more unique existence than the dish of ramen  
+#### Nippon.com {.tabset}
 
-同時に・どうじに`coincident with・while・simultaneously`  
-業態・ぎょうたい`business condition・line of business`  
-独特・どくとく`peculiarity・uniqueness・characteristic`  
-存在・そんざい`existence・being`
+##### ラーメン
 
-    同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
-    At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant   
+日本で育ち・にほんでそだち・`grow・breed in Japan`   
+世界に進出した・せかいにしんしゅつ・`advancing・expanding・emerging in the world`  
+数多・あまた・すうた・`many・a lot・much・multitude`  
 
-源流・げんりゅう`source・origin of something continuous (language, culture, etc)`   
-麺・めん`noodles`  
+ラーメンという料理ほど独特な存在はなく  
+`There is no more unique existence than the dish of ramen`   
 
-客観的・きゃっかんてき`objective`   
-客観的に見て・きゃっかんてきにみて`looking objectively`   
-客観的に見ても・きゃっかんてきにみても`even if you look at it objectively`   
+同時に・どうじに・`coincident with・while・simultaneously`  
+業態・ぎょうたい・`business condition・line of business`  
+独特・どくとく・`peculiarity・uniqueness・characteristic`  
+存在・そんざい・`existence・being`
 
-    客観的に見ても間違いのないところである    
-    There is no mistake even if you look at it objectively    
+同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
+`At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant`    
 
-    日本で最初にラーメンを出したと言われる   
-    Said to be the first to serve ramen in Japan   
+源流・げんりゅう・`source・origin of something continuous (language, culture, etc)`   
+麺・めん・`noodles`  
 
-来々軒・らいらいけん`Rairaiken`  　　　  
-浅草・あさくさ`Asakusa`    
-年創業・としそうぎょう`year of establishment`   　　
+客観的・きゃっかんてき・`objective`   
+客観的に見て・きゃっかんてきにみて・`looking objectively`   
+客観的に見ても・きゃっかんてきにみても・`even if you look at it objectively`   
 
-    日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、 
-    Rairaiken" (Asakusa, founded in 1910) is said to be the first ramen restaurant in Japan  
+客観的に見ても間違いのないところである    
+`There is no mistake even if you look at it objectively`    
+
+日本で最初にラーメンを出したと言われる   
+`Said to be the first to serve ramen in Japan`     
+
+来々軒・らいらいけん・`Rairaiken`  　　　  
+浅草・あさくさ・`Asakusa`    
+年創業・としそうぎょう・`year of establishment`   　　
+
+日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、 
+`Rairaiken" (Asakusa, founded in 1910) is said to be the first ramen restaurant in Japan`   
     
-    焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
-    It was a Chinese restaurant for the masses that also served siumai (fried pork dumplings) and Chinese rice bowls  
+焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
+`It was a Chinese restaurant for the masses that also served siomai (fried pork dumplings) and Chinese rice bowls`   
 
 ------------------------------------------------------------------------
 
