@@ -94,6 +94,9 @@ Chrome Plug-in: [Link-https://chrome.google.com/webstore-Yomichan](https://chrom
 
 ## Downloads
 
+**Kanji by Level:**  
+[**Level1:80**](https://github.com/rexesian/japanese/blob/main/Kanji_Level1.pdf)  
+
 **Vocabulary by Level:**  
 [**Level1:500**](https://github.com/rexesian/japanese/blob/main/Level1VC.pdf)  
 [**Level2:1500**]  
