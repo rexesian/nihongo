@@ -7552,8 +7552,8 @@ The **general concept** of **ga** particle is that it marks the **main actor** o
 <!-- <h> -->
 
     ・Who came?
-    ・Which is better?
     ・Whose book is this?
+    ・Which is better?
     ・What is the problem?
     ・What is in the background?  
 
