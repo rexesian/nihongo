@@ -21,18 +21,16 @@ body {
 
 .hljs {
     font-size: 15px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    <!-- font-family: "Mplus 1p", "Kosugi Maru", "Honoka Maru-Gothic", "Anonymous Pro", "Helvetica Neue"; -->
-    font-weight: 100;
+    font-family: 'Mplus 1p', 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
     line-height: 1.5;
 }
 
 .tocify {
   color: 	#505050;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  <!-- font-family: "Mplus 1p", "Kosugi Maru", "Helvetica Neue", "Roboto"; -->
-  font-weight: 100;
+  font-family: 'Mplus 1p', 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
   line-height: 1.5;
 }
 
