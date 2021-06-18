@@ -21,6 +21,24 @@ body{
 ```
 <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 
+```{css, echo=FALSE}
+.my-tbl {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.my-header {
+  border-width: 1px;
+}
+
+.my-col {
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.my-row:hover {
+  background-color: #f5f8ff;
+}
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -199,7 +217,7 @@ reactable(
     )
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", 
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
@@ -13987,8 +14005,8 @@ rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
 reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
           striped = FALSE, compact = FALSE,
           bordered = TRUE, highlight = TRUE,
-          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
-          showPageInfo = FALSE, defaultPageSize = 10,
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers", pagination = FALSE,
+          showPageInfo = FALSE, defaultPageSize = 10, height = 550,
           style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           
           # columns = list(
@@ -13998,7 +14016,14 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
           # ),
 
     theme = reactableTheme(
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 500),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 300),
+    
+    # headerStyle = list(
+    #   "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+    #   "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+    #   borderColor = "#555"
+    # ),
+    
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
