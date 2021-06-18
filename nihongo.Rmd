@@ -92,6 +92,7 @@ vrben <- read_csv("rdata/Sheet 65-VRBCN.csv")
 knjdu <- read_csv("rdata/Sheet 66-KNJDU.csv")
 smexp <- read_csv("rdata/Sheet 69-EXPPH.csv")
 kndsh <- read_csv("rdata/Sheet 70-KNDSH.csv")
+rdngr <- read_csv("rdata/Sheet 72-RDNG1.csv")
 
 ```
 
@@ -6907,7 +6908,9 @@ reactable(
       },
       align = "center"
     ),
-    Verbs = colDef(show = FALSE)
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
 
   ),
   defaultPageSize = 1,
@@ -6941,7 +6944,9 @@ reactable(
       },
       align = "center"
     ),
-    Verbs = colDef(show = FALSE)
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
 
   ),
   defaultPageSize = 1,
@@ -6983,7 +6988,9 @@ reactable(
       },
       align = "center"
     ),
-    Verbs = colDef(show = FALSE)
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
 
   ),
   defaultPageSize = 1,
@@ -7017,7 +7024,9 @@ reactable(
       },
       align = "center",
     ),
-    Verbs = colDef(show = FALSE)
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
 
   ),
   defaultPageSize = 1,
@@ -9122,6 +9131,46 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・I heard that Oscar wants it, too
     ・Pamela wants a pair of earrings
     ・It seems like Francis wants a watch
+
+------------------------------------------------------------------------
+
+#### Wish
+
+**①　tai** `I want to・I would like to`  
+
+------------------------------------------------------------------------
+
+#### Should
+
+**①　tai** `I want to・I would like to`  
+
+------------------------------------------------------------------------
+
+#### Must/Have 
+
+**①　nakeraba ikenai/naranai/dame desu** `Must do・Have to do`  
+**①　nakute ikenai/naranai/dame desu** `Must do・Have to do`  
+**①　naito ikenai/naranai/dame desu** `Must do・Have to do`  
+
+###### **⚭　Vnakereba + (ha) + ikenai/naranai/dame desu**
+###### **⚭　Vnakute + (ha) + ikenai/naranai/dame desu**
+###### **⚭　Vnaito + (ha) + ikenai/naranai/dame desu**
+
+    ・毎日学校に行かなくてはなりません
+    ・宿題をしなくてはいけなかった
+    
+<!-- <h>   -->
+
+    ・I must to go to school every day
+    ・I had to do my homework
+
+**②　nakucha** `Must do・Have to do`  
+**②　nakya** `Must do・Have to do`  
+**②　naito** `Must do・Have to do`  
+
+###### **⚭　Vn + nakucha**
+###### **⚭　Vn + nakya**
+###### **⚭　Vn + naito**
 
 ------------------------------------------------------------------------
 
@@ -13925,6 +13974,44 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 ```
+
+------------------------------------------------------------------------
+
+### Random {.tabset}
+
+####  Words
+
+```{r, echo=FALSE, message=FALSE}
+
+rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
+reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
+          striped = FALSE, compact = FALSE,
+          bordered = TRUE, highlight = TRUE,
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+          showPageInfo = FALSE, defaultPageSize = 10,
+          style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          
+          # columns = list(
+          #   Words = colDef(
+          #     align = "center"
+          #    )
+          # ),
+
+    theme = reactableTheme(
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 500),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
 
 ## Listening {.tabset}
 
