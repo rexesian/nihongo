@@ -12180,6 +12180,7 @@ reactable(
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
