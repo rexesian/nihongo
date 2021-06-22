@@ -113,6 +113,7 @@ kndsh <- read_csv("rdata/Sheet 70-KNDSH.csv")
 rdngr <- read_csv("rdata/Sheet 72-RDNG1.csv")
 extexp <- read_csv("rdata/Sheet 76-EXTEXP.csv")
 esnexp <- read_csv("rdata/Sheet 77-ESNEXP.csv")
+cstexp <- read_csv("rdata/Sheet 78-CSTEXP.csv")
 
 ```
 
@@ -12213,6 +12214,104 @@ reactable(
       Convo7 = colDef(show = FALSE),
       Convo8 = colDef(show = FALSE),
       Convo9 = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Customer Service Exp
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(cstexp),
+  columns = list(
+       Expression = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Expression') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Expn <- cstexp$Expn[index]
+        Expn <- if (!is.na(Expn)) Expn else "Unknown"
+        Trans <- cstexp$Trans[index]
+        Trans <- if (!is.na(Expn)) Trans else "Unknown"
+        Notice <- cstexp$Notice[index]
+        Notice <- if (!is.na(Expn)) Notice else "Unknown"
+        Convo1 <- cstexp$Convo1[index]
+        Convo1 <- if (!is.na(Expn)) Convo1 else "Unknown"          
+        Convo2 <- cstexp$Convo2[index]
+        Convo2 <- if (!is.na(Expn)) Convo2 else "Unknown"  
+        Convo3 <- cstexp$Convo3[index]
+        Convo3 <- if (!is.na(Expn)) Convo3 else "Unknown"          
+        Convo4 <- cstexp$Convo4[index]
+        Convo4 <- if (!is.na(Expn)) Convo4 else "Unknown" 
+        Convo5 <- cstexp$Convo5[index]
+        Convo5 <- if (!is.na(Expn)) Convo5 else "Unknown"  
+        Convo6 <- cstexp$Convo6[index]
+        Convo6 <- if (!is.na(Expn)) Convo6 else "Unknown"  
+        Convo7 <- cstexp$Convo7[index]
+        Convo7 <- if (!is.na(Expn)) Convo7 else "Unknown"  
+        Convo8 <- cstexp$Convo8[index]
+        Convo8 <- if (!is.na(Expn)) Convo8 else "Unknown"  
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 15, fontWeight = 700), Expn),
+          div(style = list(fontSize = 14, fontWeight = 700), Trans),
+          div(style = list(fontSize = 11, fontWeight = 200), Notice),
+          div("•"),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo3),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo4),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo5),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo6),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo7),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo8),
+        )
+      },
+      align = "left", minWidth = 400
+      ),
+      Expn = colDef(show = FALSE),
+      Trans = colDef(show = FALSE),
+      Notice = colDef(show = FALSE),
+      Convo1 = colDef(show = FALSE),
+      Convo2 = colDef(show = FALSE),
+      Convo3 = colDef(show = FALSE),
+      Convo4 = colDef(show = FALSE),
+      Convo5 = colDef(show = FALSE),
+      Convo6 = colDef(show = FALSE),
+      Convo7 = colDef(show = FALSE),
+      Convo8 = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
