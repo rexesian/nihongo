@@ -124,13 +124,13 @@ esnexp <- read_csv("rdata/Sheet 77-ESNEXP.csv")
 
 ## Foreword
 
-This site is a collection of notes taken from different books and online reference materials related to Japanese learning. The aim of this collection is to give an idea on how start learning the language and to be able to progress at some level.
+This is a collection of notes taken from different books and online reference materials related to Japanese learning. The aim of this collection is to give an idea on how start learning the language and to be able to progress at some level.
 
 ------------------------------------------------------------------------
 
 ## Disclaimer
 
-I am no by any means a language teacher so if there any doubts please do a cross-reference from other resources.
+In any doubts please do a cross-reference from other resources.
 
 ------------------------------------------------------------------------
 
@@ -4431,7 +4431,7 @@ Are events that takes place in a moment.
     ・to fall/scatter・to stand up・to fall (from height)・to fall over ・to go・to come・to begin・to attach
     ・to arrive・to reach・to touch・to stop・to end・to sit・to hit・to jump・to go to bed
     ・to get in trouble・to get on・to give・to receive・to get tired・to wake up・to marry
-    ・to go home・to say・to forget・to lend・to borrow・to remamber・to become・to kick・to match
+    ・to go home・to say・to forget・to lend・to borrow・to remember・to become・to kick・to match
 
 ------------------------------------------------------------------------
 
@@ -7163,7 +7163,7 @@ reactable(
 
 <p style="font-size:12px;">**⚭　N + rashii**</p> 
 
-<p style="font-size:12px;">(❖) Attached to a noun to describe likeness in inner characteristics</p> 
+<p style="font-size:12px;">(❖) Attached to a noun to describe likeness (intrinsic characteristics)</p> 
 
     ・男らしい男が好きだ
     ・今日は冬らしい寒い日です
@@ -7174,6 +7174,8 @@ reactable(
     ・I like a manly man
     ・It's a cold, wintery day today
     ・feminine/girly gesture
+
+------------------------------------------------------------------------
 
 ###### souda
 
@@ -7195,6 +7197,30 @@ reactable(
     ・That steak looked delicious
     ・This neighborhood looks quiet
     
+<p style="font-size:12px;">**⚭　I-Adj~~i~~ + kuna~~i~~ + sasou + (da/desu)**</p> 
+
+<p style="font-size:12px;">**⚭　I-Adj~~i~~/Na-Adj/N + sou + janai/jaarimasen**</p> 
+
+<p style="font-size:12px;">**⚭　V~~masu~~ + sou + (ni)(mo) + nai/arimasen**</p> 
+
+<p style="font-size:12px;">(❖) Negative Expression</p> 
+
+    ・そのケーキは美味しくなさそうです
+    ・そのケーキは美味おいしそうじゃない
+    ・雨が降ふりそうにもない 
+    ・雨が降ふりそうにない 
+    ・雨が降ふりそうもない 
+    
+<!-- <h> -->
+    
+    ・That cake doesn't look delicious
+    ・That cake doesn't look delicious
+    ・It doesn't look like it's going to rain
+    ・It's not gonna rain
+    ・It's not gonna rain 
+
+------------------------------------------------------------------------
+
 ###### youda
 
 **youda**`seem・look as if・look like・appear`
@@ -7215,7 +7241,9 @@ reactable(
     ・This problem seems to be a bit difficult for students
     ・It seems that Mr. Kimura drank sake yesterday
     ・Looks like this place used to be a school
-    
+
+------------------------------------------------------------------------
+
 ###### mitai   
 
 **mitai**`looks like・seems・look`
@@ -7251,6 +7279,8 @@ reactable(
     ・I want a girlfriend who looks like a cat
     ・She's beautiful, like a model
     ・That girl eats like a dog
+
+------------------------------------------------------------------------
 
 ###### tai
 
@@ -7299,6 +7329,8 @@ reactable(
     ・I want to get hit at the face by John
     ・I want to get bitten at my legs by a snake
     ・I want to have this picture praised by my teacher
+
+------------------------------------------------------------------------
 
 ###### garu
 
@@ -8613,9 +8645,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・伺う前にお電話します
     ・試験の前に映画を見に行った
 
-**④　後で・後 ◦ After**
+**④　後で・後に・後 ◦ After**
 
-###### **⚭　Vta/N+no + atode/ato**
+###### **⚭　Vta/N+no + atode/atoni/ato**
 
 ###### One action or condition succeeds the other
 
@@ -8623,14 +8655,19 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ###### When action or condition is continuing ato is used rather than atode
 
+###### ato ni refers to a specific point in time (i.e. at the end of an event)
+
+###### ato de refers to time after an event in general
+
     ・食事の後で少し算法しませんか
     ・この薬は食べた後で飲みませんか
     ・このビデオあなたが見た後で私にも貸してください
     ・祭りの後ゴミがいっぱいだった
     ・祖父はみんなとお茶を飲んだ後ずっと本を読んでいます
-    ・食事の前に軽く飲みませんか
-    ・伺う前にお電話します
-    ・試験の前に映画を見に行った
+    ・食たべた後に歯をみがきます
+    ・晩ばんごはんの後にアイスを食べた
+    ・私宿題をした後でテレビを見ます
+    ・学校の後あとで勉強します
 
 **⑤　てから ◦ After doing (Verb)**
 
