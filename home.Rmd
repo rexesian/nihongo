@@ -73,7 +73,9 @@ n2k2 <- read_csv("rdata/Sheet 80-N2KNJ2.csv")
 
 #### Kanji {.tabset}
 
-##### Soumatome
+##### Soumatome {.tabset}
+
+###### Learn
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -125,6 +127,93 @@ reactable(
           div(style = list(fontSize = 40, fontWeight = 800), value),
           div(style = list(fontSize = 13, fontWeight = 600), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 300
+      ),
+      Meaning = colDef(show = FALSE),
+      Reading = colDef(show = FALSE),
+      Base.Kanji = colDef(show = FALSE),
+      Base.Reading = colDef(show = FALSE),
+      Base.Meaning= colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### Recall
+
+```{r echo=FALSE, message=FALSE}
+
+reactable(
+  n1k1,
+  columns = list(
+      Kanji = colDef(
+      style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Base.Kanji <- n1k1$Base.Kanji[index]
+        Base.Kanji <- if (!is.na(Base.Kanji)) Base.Kanji else "Unknown"
+        Base.Reading <- n1k1$Base.Reading[index]
+        Base.Reading <- if (!is.na(Base.Reading)) Base.Reading else "Unknown"
+        Base.Meaning <- n1k1$Base.Meaning[index]
+        Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 50, fontWeight = 800), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Base.Meaning),
+          div(style = list(fontSize = 22, fontWeight = 700), Base.Kanji),
+          div(style = list(fontSize = 11, fontWeight = 200), Base.Reading)
+        )
+      },
+      align = "center"
+    ),
+    Words = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Words') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- n1k1$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- n1k1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value)
+          # div(style = list(fontSize = 13, fontWeight = 600), Reading),
+          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
       align = "center", minWidth = 300

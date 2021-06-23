@@ -114,6 +114,7 @@ rdngr <- read_csv("rdata/Sheet 72-RDNG1.csv")
 extexp <- read_csv("rdata/Sheet 76-EXTEXP.csv")
 esnexp <- read_csv("rdata/Sheet 77-ESNEXP.csv")
 cstexp <- read_csv("rdata/Sheet 78-CSTEXP.csv")
+knjcmm <- read_csv("rdata/Sheet 81-KNJCMM.csv")
 
 ```
 
@@ -11948,6 +11949,60 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### Compounds
+
+```{r, echo=FALSE, message=FALSE}
+
+knjcmm <- knjcmm[sample(1:nrow(na.omit(knjcmm))),]
+
+reactable(
+  knjcmm,
+  columns = list(
+    Kanji = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- knjcmm$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- knjcmm$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Knj1 <- knjcmm$Knj1[index]
+        Knj1 <- if (!is.na(Knj1)) Knj1 else "Unknown"
+        Knj2 <- knjcmm$Knj2[index]
+        Knj2 <- if (!is.na(Knj2)) Knj2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 13), Knj1, "・", Knj2),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE),
+    Reading = colDef(show = FALSE),
+    Knj1 = colDef(show = FALSE),
+    Knj2 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Expressions {.tabset}
 
 ### Simple Exp
@@ -12432,6 +12487,74 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+## Notes {.tabset}
+
+### Dialouge {.tabset}
+
+#### Restaurant
+
+    ・お飲み物は何になさいますか?
+    ・What would you like to drink?
+    ・かしこまりました。こちらがメニューです。それでは、お水をお持ちします
+    ・Cetainly. Here is the menu. And I'll get you some water
+    ・お水です。ご注文はお決まりですか?
+    ・Here is the water. Have you decided what to order?
+    ・いえ、まだです。もう少し時間をください
+    ・No, not yet. Just give me a little more time
+    ・もちろんです。ごゆっくりどうぞ。
+    ・Of course. Please take your time
+    ・もう少し後の方がよろしいですか?
+    ・Would you like me to do it a little later?
+    ・それでは、ご注文は何になさいますか?
+    ・What would you like to order?
+    ・チキンのスプリング、グリーンサラダをください
+    ・Chicken springs, green salad, please
+    ・かしこまりました。こちらのサラダにはスープが付つきます
+    ・Certainly. This salad is served with soup
+    ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?
+    ・Would you like creamy tomato soup or minestrone?
+    ・その他にご注 文はございますか?
+    ・Do you have any other orders?
+    ・いえ、以上です
+    ・No, more than that
+    ・お待たせしました。スープとサラダでございます
+    ・Thank you for waiting. Here is the soup and the salad
+    ・御用のある時にはお知らせください
+    ・Please let me know if you need anything else
+    ・お食事はお済みでしょうか?
+    ・Are you done with your meal?
+    ・デザートのメニューはご覧になりますか?
+    ・Would you like to see the dessert menu?
+    ・いえ、結構です。お会計をお願いします
+    ・No, thank you. Can I have the bill, please?
+
+------------------------------------------------------------------------
+
+#### Icecream
+
+    ・アイスクリームをお試しになりますか?
+    ・Would you like to try some ice cream?
+    ・はい。でも、何にしようか迷っています
+    ・Yes. But I'm not sure what to choose
+    ・何かお好きなお味はありますか?
+    ・Do you have a favorite flavor?
+    ・チョコレートとストロベリー、バニラを試食してみませんか?
+    ・Why don't you try chocolate, strawberry and vanilla?
+    ・私には少し甘すぎるみたいです
+    ・It's a little too sweet for me
+    ・次はバニラを試してみてもいいですか?
+    ・Can I try the vanilla next?
+    ・チョコレートよりこちらのほうが好みです
+    ・Than the chocolate, I prefer this one
+    ・ストロベリーが一 番 人気なんですよ
+    ・Strawberry is the most popular
+    ・良かったです!どれになさいますか?
+    ・Great! Which one would you like?
+    ・コーンとカップ、どちらになさいますか?
+    ・Would you like a cone or a cup?
 
 ------------------------------------------------------------------------
 
