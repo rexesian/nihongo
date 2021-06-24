@@ -30,8 +30,8 @@ Time,Script,Translation1,Translation2
 1:38,IZ: たまたま空いてたんでね TR: ダブルベッドは数が少ないし、すぐ埋まるからね,IZ: This number was just vacant. TR: Because there are few double beds and they fill up quickly.,IZ: It happened to be vacant TR: Double beds are few and will fill up soon.
 1:45,TR: 予約する時これしかないんだもんね,TR: There are only such when booking,TR: This is the only way to make a reservation
 1:49,IZ: 確かにね たまたまですよ マジで,"IZ: Yes, it's an accident","IZ: It's definitely a coincidence, really"
-1:51,IZ: 大体1つのベッドで寝るし... TR: そう 狭い(笑),IZ: We usually sleep in the same bed ... TR: We'll have to sleep on this together,IZ: I usually sleep in one bed ... TR: That's so small (laughs)
-1:54,TR: 家より狭い(笑),TR: Closer than home,TR: Smaller than home (laughs)
+1:51,IZ: 大体1つのベッドで寝るし... TR: そう 狭い,IZ: We usually sleep in the same bed ... TR: We'll have to sleep on this together,IZ: I usually sleep in one bed ... TR: That's so small (laughs)
+1:54,TR: 家より狭い,TR: Closer than home,TR: Smaller than home (laughs)
 1:57,TR: まあ しょうがないよね,TR: What to do,"TR: Well, it can't be helped."
 1:59,IZ: どうしたの？,IZ: What happened?,IZ: What's wrong?
 2:02,IZ: 雨降ってる？ TR: うん さっき降ってた,"IZ: Is it raining? TR: Yes, rain",IZ: Is it raining? TR: Yeah it was raining a while ago
@@ -111,19 +111,19 @@ Time,Script,Translation1,Translation2
 6:43,TR: なんにも見えない すごいね,TR: You can't see anything at all !!,"TR: I can't see anything, it's amazing"
 6:46,IZ: これやばくない？ すごいね,IZ: Wow !!!,IZ: Isn't this bad? amazing
 6:51,IZ: すごいタイミングできたね,IZ: We were out of luck with the weather,IZ: You got a great timing
-6:53,"IZ: ""MIST""とか""ウォーキングデッド""みたい TR: たしかに""MIST""っぽい(笑)","IZ: Like the movie MIST or The Walking Dead. TR: Exactly, similar to ""MIST""","IZ: Like ""MIST"" or ""The Walking Dead"" TR: Certainly like ""MIST"" (laughs)"
-6:56,T&Z: 怖いー(笑),T&Z: Scary,T & Z: I'm scared (laughs)
+6:53,"IZ: ""MIST""とか""ウォーキングデッド""みたい TR: たしかに""MIST""っぽい","IZ: Like the movie MIST or The Walking Dead. TR: Exactly, similar to ""MIST""","IZ: Like ""MIST"" or ""The Walking Dead"" TR: Certainly like ""MIST"" (laughs)"
+6:56,T&Z: 怖いー,T&Z: Scary,T & Z: I'm scared (laughs)
 6:59,IZ: 逆に面白いね... この霧がかった...,"IZ: On the contrary, it became even more interesting because of the fog","IZ: On the contrary, it's funny ... this fog ..."
 7:04,IZ: かつて栄えたリゾートホテル....,IZ: The resort hotel that once flourished ...,IZ: A resort hotel that once prospered ...
 7:07,IZ: 本当にいい所ですよ？,IZ: Is this a really good hotel?,"IZ: It's a really nice place, isn't it?"
 7:10,IZ: でもすげーいいねぇ 設備とか綺麗だねー,IZ: Pool and equipment are good,"IZ: But it's great, the equipment is beautiful, isn't it?"
-7:14,TR: だろうね(笑),TR: Not visible. but probably,TR: Probably (laughs)
-7:16,TR: 多分(笑) IZ: 多分ね(笑),TR: Maybe IZ: Maybe,TR: Maybe (laughs) IZ: Maybe (laughs)
+7:14,TR: だろうね,TR: Not visible. but probably,TR: Probably (laughs)
+7:16,TR: 多分(笑) IZ: 多分ね,TR: Maybe IZ: Maybe,TR: Maybe (laughs) IZ: Maybe (laughs)
 7:19,TR: 朝頑張ってプールをキレイにしてくれたのにね...,TR: The staff washed the pool diligently in the morning ...,TR: You worked hard in the morning to clean the pool ...
 7:23,IZ: スタッフさんがね...,IZ: Staff ... yes,IZ: The staff ...
 7:28,IZ: レアでいいね,"IZ: A rare landscape, so let's consider it lucky",IZ: Rare and good
-7:30,TR: レアを楽しむIZUMI(笑),TR: IZUMI enjoys rarity,TR: Enjoying rare IZUMI (laughs)
-7:34,TR: ポジティブだね(笑),TR: Optimist,TR: It's positive (laughs)
+7:30,TR: レアを楽しむIZUMI,TR: IZUMI enjoys rarity,TR: Enjoying rare IZUMI (laughs)
+7:34,TR: ポジティブだね,TR: Optimist,TR: It's positive (laughs)
 7:36,IZ: なんか俺ら霧に合いがちだよね？,"IZ: We often encounter fog, no?","IZ: Somehow we tend to go with the fog, right?"
 7:40,TR: 雨男なのかな？それとも私が...,TR: Maybe we call rain ...,TR: Is it a rain man? Or I ...
 7:46,TR: 2人ともかな... IZ: 霧男と霧女....,"TR: Both are ""rainy"" IZ: Man and Woman of the Mist",TR: I wonder if they are both ... IZ: Kirio and Kirio ...
