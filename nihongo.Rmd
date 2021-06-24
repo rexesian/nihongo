@@ -13761,8 +13761,8 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
           striped = FALSE, compact = FALSE,
           bordered = TRUE, highlight = TRUE,
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers", pagination = FALSE,
-          showPageInfo = FALSE, defaultPageSize = 10, height = 550,
-          style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          showPageInfo = TRUE, defaultPageSize = 10, height = 550,
+          style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 200),
           
           # columns = list(
           #   Words = colDef(
@@ -13771,7 +13771,7 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
           # ),
 
     theme = reactableTheme(
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 500),
     
     # headerStyle = list(
     #   "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
@@ -13790,7 +13790,6 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 )
 
 ```
-
 
 ------------------------------------------------------------------------
 
