@@ -22,7 +22,7 @@ Orig,Reading,Verbs,Meaning
 どなる,どなる,どなる,"to shout, to yell"
 あびる,あびる,あびる,"to bathe, to shower"
 あぶる,あぶる,あぶる,to scorch
-ダブる,ダブる,ダブる,"to coincide (fall on the same day), to have two of something, to repeat a school year after failing"
+ダブる,ダブる,ダブる,"to coincide, to have two of something, to repeat a school year after failing"
 サボる,サボる,サボる,"to be truant, to be idle, to sabotage by slowness"
 くれる,くれる,くれる,to give
 ずれる,ずれる,ずれる,"to slide, to slip off"
@@ -75,7 +75,7 @@ Orig,Reading,Verbs,Meaning
 すう【吸う】,すう,吸う,"to smoke, to suck, to breathe in, to inhale "
 そう【沿う】,そう,沿う,"to run along, to follow, to comply with"
 そう【添う】,そう,添う,"to accompany, to become married, to comply with "
-とう【問う】,とう,問う,"to ask, to inquire, to question, to charge (i.e. with a crime), to accuse, without regard to (neg) "
+とう【問う】,とう,問う,"to ask, to inquire, to question, to charge, to accuse, without regard to (neg) "
 ぬう【縫う】,ぬう,縫う,"to sew, to stitch, to weave one's way (e.g. through a crowd) "
 はう【這う】,はう,這う,"to creep, to crawl"
 まう【舞う】,まう,舞う,"to dance, to flutter about, to revolve "
@@ -624,99 +624,207 @@ Orig,Reading,Verbs,Meaning
 すます【澄ます】,すます,澄ます,"to clear, to make clear, to be unruffled, to look unconcerned, to look demure, look prim, put on airs"
 はやす【生やす】,はやす,生やす,"to grow, to cultivate, to wear beard"
 ひやす【冷やす】 ,ひやす,冷やす,"to cool, to refrigerate"
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
+ふやす【増やす】,ふやす,増やす,"to increase, to add to, to augment "
+ふやす【殖やす】,ふやす,殖やす,"to increase, to add to, to augment "
+もやす【燃やす】,もやす,燃やす,to burn
+あらす【荒らす】,あらす,荒らす,"to lay waste, to devastate, to damage, to invade, to break into "
+くらす【暮らす】,くらす,暮らす,"to live, to get along"
+そらす【逸らす】,そらす,逸らす,"to turn away, to avert "
+ちらす【散らす】,ちらす,散らす,"to scatter, to disperse, to distribute"
+てらす【照らす】,てらす,照らす,"to shine on, to illuminate"
+ならす【鳴らす】,ならす,鳴らす,"to ring, to sound, to chime, to beat, to snort (nose)"
+ならす【慣らす】,ならす,慣らす,to accustom
+ならす【馴らす】,ならす,馴らす,"to domesticate, to tame"
+ぬらす【濡らす】,ぬらす,濡らす,"to wet, to soak, to dip"
+へらす【減らす】,へらす,減らす,"to abate, to decrease, to diminish, to shorten "
+もらす【漏らす】,もらす,漏らす,"to let leak, to reveal"
+ずらす【ずらす】,ずらす,ずらす,"to put off, to delay"
+おろす【降ろす】,おろす,降ろす,"to take down, to launch, to drop "
+あわす【合わす】,あわす,合わす,"to join together, to face, to unite, to be opposite, to combine, to connect"
+かわす【交わす】,かわす,交わす,"to exchange (messages), to dodge, to parry, to avoid, to turn aside"
+うかぶ【浮かぶ】,うかぶ,浮かぶ,"to float, to rise to surface, to come to mind"
+くやむ【悔やむ】,くやむ,悔やむ,to mourn
+おいる【老いる】,おいる,老いる,"to age, to grow old"
+しいる【強いる】,しいる,強いる,"to force, to compel, to coerce"
+うえる【植える】,うえる,植える,"to plant, to grow"
+うえる【飢える】,うえる,飢える,to starve
+おえる【終える】,おえる,終える,to finish
+かえる【変える】,かえる,変える,to change
+かえる【替える】,かえる,替える,"to exchange, to interchange, to substitute, to replace"
+かえる【換える】,かえる,換える,"to exchange, to interchange, to substitute, to replace"
+かえる【代える】,かえる,代える,"to exchange, to interchange, to substitute, to replace"
+きえる【消える】,きえる,消える,to disappear
+こえる【越える】,こえる,越える,"to exceed, to cross over, to cross "
+こえる【超える】,こえる,超える,"to exceed, to cross over, to cross "
+さえる【冴える】,さえる,冴える,"to be clear, to br serene, to be cold, to be skillful"
+すえる【据える】,すえる,据える,"to set (table), to lay (foundation), to place (gun), to apply (moxa)"
+そえる【添える】,そえる,添える,"to add to, to attach, to append, to accompany, to garnish, to imitate, to annex"
+たえる【耐える】,たえる,耐える,"to bear, to endure"
+たえる【絶える】,たえる,絶える,"to die out, to peter out, to become extinct "
+たえる【堪える】,たえる,堪える,"to bear, to stand, to endure, to put up with, to support, to withstand, to resist, to brave, to be fit for"
+にえる【煮える】,にえる,煮える,"to boil, to cook, to be cooked"
+はえる【生える】,はえる,生える,"to grow, to spring up, to cut (teeth)"
+はえる【映える】,はえる,映える,"to shine, to look attractive, to look pretty"
+ひえる【冷える】,ひえる,冷える,to grow cold
+ふえる【増える】,ふえる,増える,to increase
+ふえる【殖える】,ふえる,殖える,"to increase, to multiply"
+ほえる【吠える】,ほえる,吠える,"to bark, to bay, to howl, to bellow, to roar, to cry"
+みえる【見える】,みえる,見える,to be in sight
+もえる【燃える】,もえる,燃える,"to burn, to get fired up"
+うかる【受かる】,うかる,受かる,to pass (examination)
+かかる【掛かる】,かかる,掛かる,"to take (e.g. time, only, etc), to hang"
+わかる【分かる】,わかる,分かる,to be understood
+あがる【上がる】,あがる,上がる,"to enter, to go up, to rise, to climb up, to advance, to appreciate, to be promoted, to improve "
+さがる【下がる】,さがる,下がる,"to hang down, to abate, to retire, to fall, to step back"
+まがる【曲がる】,まがる,曲がる,"to turn, to bend"
+あきる【飽きる】,あきる,飽きる,"to get tired of, to lose interest in, to have enough"
+いきる【生きる】,いきる,生きる,to live
+おきる【起きる】,おきる,起きる,to get up
+つきる【尽きる】,つきる,尽きる,"to be used up, to be　run out, to be exhausted, to be consumed, to come to an end "
+すぎる【過ぎる】,すぎる,過ぎる,to exceed
+あける【開ける】,あける,開ける,to open
+あける【明ける】,あける,明ける,"to dawn, to become　daylight"
+いける【活ける】,いける,活ける,to arrange (flowers)
+うける【受ける】,うける,受ける,to take a lesson or test
+かける【掛ける】,かける,掛ける,to hang something
+かける【欠ける】,かける,欠ける,to be lacking
+かける【駆ける】,かける,駆ける,"to run (race esp. horse), to gallop, to canter "
+かける【賭ける】,かける,賭ける,"to wager, to bet, to risk, to stake, to gamble "
+さける【避ける】,さける,避ける,"to avoid (physical contact), o ward off, to avert "
+さける【裂ける】,さける,裂ける,"to split, to tear, to burst"
+つける【漬ける】,つける,漬ける,"to soak, to pickle "
+つける【付ける】,つける,付ける,"to attach, to join, to add, to append"
+つける【着ける】,つける,着ける,"to attach, to join, to add, to append"
+つける【点ける】,つける,点ける,"to turn on, to switch on, to light up"
+つける【浸ける）,つける,浸ける）,"to dip, to soak"
+とける【解ける】,とける,解ける,"to come untied, to come apart"
+とける【溶ける】,とける,溶ける,"to melt, to thaw, to fuse, to dissolve"
+どける【退ける】,どける,退ける,"to remove, to take away, to dislodge, to put something out of the way"
+ぬける【抜ける】,ぬける,抜ける,"to come out, to fall out, to be omitted"
+ばける【化ける】,ばける,化ける,"o appear in disguise, to take the form of, to change for the worse"
+ふける【更ける】,ふける,更ける,"to get late, to advance, to wear on"
+ふける【老ける】,ふける,老ける,to age
+まける【負ける】,まける,負ける,to lose
+むける【向ける】,むける,向ける,"to turn towards, to point"
+やける【焼ける】,やける,焼ける,"to burn, to be roasted"
+わける【分ける】,わける,分ける,"to divide, to separate"
+あげる【上げる】,あげる,上げる,to give
+あげる【揚げる】,あげる,揚げる,"to lift, to fry"
+あげる【挙げる】,あげる,挙げる,"to raise, to fly"
+こげる【焦げる】,こげる,焦げる,"to burn, to be burned"
+さげる【下げる】,さげる,下げる,"to hang, to lower, to move back"
+つげる【告げる】,つげる,告げる,to inform
+とげる【遂げる】,とげる,遂げる,"to accomplish, to achieve, to carry out"
+なげる【投げる】,なげる,投げる,to throw or cast away 
+にげる【逃げる】,にげる,逃げる,to escape
+はげる【剥げる】,はげる,剥げる,"to come off, to be worn off, to fade, to discolor"
+まげる【曲げる】,まげる,曲げる,"to bend, to crook, to lean"
+おこる【起こる】,おこる,起こる,"to occur, to happen"
+ささる【刺さる】,ささる,刺さる,"to stick, to be stuck"
+なさる【為さる】,なさる,為さる,to do
+まざる【混ざる】,まざる,混ざる,"to associate with, to mingle with, to join"
+まざる【交ざる】,まざる,交ざる,"to be mixed, to be blended with, to associate with, to mingle with, to join"
+とじる【閉じる】,とじる,閉じる,"to close (e.g. book, eyes), to shut "
+とじる【綴じる】,とじる,綴じる,"to bind, to file"
+はじる【恥じる】,はじる,恥じる,to feel ashamed
+まじる【混じる】,まじる,混じる,"to be mixed, to be blended with, to associate with "
+まじる【交じる】,まじる,交じる,"to be mixed, to be blended with, to associate with"
+かする【化する】,かする,化する,"to change into, to convert into, to transform, to be"
+きせる【着せる】,きせる,着せる,"to put clothes on (someone), to dress, to clothe, to cover, to coat"
+のせる【乗せる】,のせる,乗せる,"to take on board, to give a ride "
+のせる【載せる】,のせる,載せる,"to place on (something), to take on board. to give a ride"
+みせる【見せる】,みせる,見せる,to show
+やせる【痩せる】,やせる,痩せる,to become thin
+よせる【寄せる】,よせる,寄せる,"to collect, to gather, to add, to put aside "
+まぜる【混ぜる】,まぜる,混ぜる,"to mix, to stir"
+まぜる【交ぜる】,まぜる,交ぜる,"to be mixed, to be blended with "
+あたる【当たる】,あたる,当たる,"to be hit, to be successful, to be equivalent to"
+おちる【落ちる】,おちる,落ちる,to fall or drop
+おちる【落ちる】,おちる,落ちる,"to fail (e.g. exam), to fall down, to drop"
+くちる【朽ちる】,くちる,朽ちる,to rot
+みちる【満ちる】,みちる,満ちる,"to be full, to rise (tide), to mature, to expire"
+あてる【当てる】,あてる,当てる,"to hit, to apply a patch"
+あてる【宛てる】,あてる,宛てる,to address
+すてる【捨てる】,すてる,捨てる,to throw away 
+たてる【立てる】,たてる,立てる,to stand something up
+たてる【建てる】,たてる,建てる,to build
+はてる【果てる】,はてる,果てる,"to end, to be finished, to be exhausted, to die, to perish"
+もてる【持てる】,もてる,持てる,"to be able to possess s (hold, get, etc.), to be well liked, to be popular, to endure"
+なでる【撫でる】,なでる,撫でる,"to brush gently, to stroke"
+ゆでる【茹でる】,ゆでる,茹でる,to boil 
+かねる【兼ねる】,かねる,兼ねる,"to hold (position), to serve, to be unable"
+はねる【跳ねる】,はねる,跳ねる,"to jump, to leap"
+あびる【浴びる】,あびる,浴びる,"to bathe, to bask in he sun, to shower "
+おびる【帯びる】,おびる,帯びる,"to wear (sword, decoration, etc.), to carry, to be entrusted (e.g. with a mission), to take on"
+さびる【錆びる】,さびる,錆びる,"to rust, to become rusty"
+のびる【伸びる】,のびる,伸びる,"to stretch, to extend, to make progress, to grow (beard, body height) "
+のびる【延びる】,のびる,延びる,to be prolonged
+わびる【詫びる】,わびる,詫びる,to apologize
+たべる【食べる】,たべる,食べる,to eat
+のべる【述べる】,のべる,述べる,"to state, to express, to mention "
+きまる【決まる】,きまる,決まる,"to be decided, to be settled, to look good in (clothes)"
+しまる【閉まる】,しまる,閉まる,"to close, to be closed"
+そまる【染まる】,そまる,染まる,to dye
+たまる【溜まる】,たまる,溜まる,"to collect, to gather, to save"
+つまる【詰まる】,つまる,詰まる,"to be blocked, to be packed"
+とまる【止まる】,とまる,止まる,to come to a halt
+とまる【泊まる】,とまる,泊まる,to lodge at
+とまる【留まる】,とまる,留まる,"to be fixed, to abide, to stay"
+はまる【填まる】,はまる,填まる,"to get into, to go into, to fit, to be fit for, to suit, to fall into, to plunge into, to be deceived, to be"
+しみる【染みる】,しみる,染みる,"to pierce, to permeate"
+うめる【埋める】,うめる,埋める,"to bury, to fill up, to fill (a seat, a vacant position)"
+きめる【決める】,きめる,決める,to decide
+こめる【込める】,こめる,込める,"to include, to put into"
+さめる【覚める】,さめる,覚める,"to wake, to wake up"
+さめる【冷める】,さめる,冷める,"to become cool, to wear off, to abate, to subside"
+しめる【閉める】,しめる,閉める,to close something
+しめる【締める】,しめる,締める,to tie
+しめる【占める】,しめる,占める,"to comprise, to account for, to make up, to hold, to occupy "
+せめる【責める】,せめる,責める,"to condemn, to blame, to criticize"
+せめる【攻める】,せめる,攻める,"to attack, to assault"
+そめる【染める】,そめる,染める,"to dye, to colour"
+ためる【溜める】,ためる,溜める,"to amass, to accumulate"
+つめる【詰める】,つめる,詰める,to
+とめる【止める】,とめる,止める,to
+とめる【泊める】,とめる,泊める,to
+なめる【嘗める】,なめる,嘗める,to
+はめる【填める】,はめる,填める,to
+ほめる【褒める】,ほめる,褒める,to
+もめる【揉める】,もめる,揉める,to
+やめる【止める】,やめる,止める,to
+やめる【辞める】,やめる,辞める,to
+ほめる【ほめる】,ほめる,ほめる,to
+つもる【積もる】,つもる,積もる,to
+おりる【降りる】,おりる,降りる,to
+おりる【下りる】,おりる,下りる,to
+かりる【借りる】,かりる,借りる,to
+こりる【懲りる】,こりる,懲りる,to
+たりる【足りる】,たりる,足りる,to
+いれる【入れる】,いれる,入れる,to
+うれる【売れる】,うれる,売れる,to
+おれる【折れる】,おれる,折れる,to
+かれる【枯れる】,かれる,枯れる,to
+かれる【涸れる】,かれる,涸れる,to
+きれる【切れる】,きれる,切れる,to
+くれる【暮れる】 ,くれる,暮れる,to
+くれる【呉れる】,くれる,呉れる,to
+すれる【擦れる】,すれる,擦れる,to
+それる【逸れる】,それる,逸れる,to
+たれる【垂れる】,たれる,垂れる,to
+とれる【取れる】,とれる,取れる,to
+なれる【慣れる】,なれる,慣れる,to
+なれる【馴れる】,なれる,馴れる,to
+ぬれる【濡れる】,ぬれる,濡れる,to
+はれる【晴れる】,はれる,晴れる,to
+はれる【腫れる】,はれる,腫れる,to
+ふれる【触れる】,ふれる,触れる,to
+もれる【漏れる】,もれる,漏れる,to
+ゆれる【揺れる】,ゆれる,揺れる,to
+われる【割れる】,われる,割れる,to
+うわる【植わる】,うわる,植わる,to
+おわる【終わる】,おわる,終わる,to
+かわる【変わる】,かわる,変わる,to
+かわる【代わる】,かわる,代わる,to
 やっつける【やっ付ける】 ,やっつける,やっ付ける,to beat
 ぶらさげる【ぶら下げる】 ,ぶらさげる,ぶら下げる,"to hang, to suspend, to dangle, to swing"
 やりとげる【やり遂げる】 ,やりとげる,やり遂げる,to accomplish
@@ -744,6 +852,59 @@ Orig,Reading,Verbs,Meaning
 あやぶむ【危ぶむ】,あやぶむ,危ぶむ,"to fear, to have misgivings, to be doubtful to mistrust"
 ふくらむ【膨らむ】,ふくらむ,膨らむ,"to expand, to swell (out), to get big, to become inflated"
 ひきいる【率いる】,ひきいる,率いる,"to lead, to spearhead (a group), to command (troops)"
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
 ,,,
 ,,,
 ,,,

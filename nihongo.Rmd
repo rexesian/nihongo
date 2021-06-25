@@ -6227,14 +6227,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(528:586),
+  srvb2 %>% slice(529:586),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(528:586))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(529:586))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(528:586))$Reading[index]
+        Reading <- (srvb2 %>% slice(529:586))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6273,14 +6273,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(595:625),
+  srvb2 %>% slice(595:785),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(595:625))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(595:785))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(595:625))$Reading[index]
+        Reading <- (srvb2 %>% slice(595:785))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6319,14 +6319,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(722:745),
+  srvb2 %>% slice(830:853),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(722:745))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(830:853))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(722:745))$Reading[index]
+        Reading <- (srvb2 %>% slice(830:853))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6365,14 +6365,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1089:1107),
+  srvb2 %>% slice(1250:1268),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1089:1107))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1250:1268))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1089:1107))$Reading[index]
+        Reading <- (srvb2 %>% slice(1250:1268))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6411,14 +6411,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1108:1136),
+  srvb2 %>% slice(1269:1297),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1108:1136))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1269:1297))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1108:1136))$Reading[index]
+        Reading <- (srvb2 %>% slice(1269:1297))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6457,14 +6457,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1137:1143),
+  srvb2 %>% slice(1298:1304),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1137:1143))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1298:1304))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1137:1143))$Reading[index]
+        Reading <- (srvb2 %>% slice(1298:1304))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6503,14 +6503,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1144:1151),
+  srvb2 %>% slice(1305:1312),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1144:1151))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1305:1312))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1144:1151))$Reading[index]
+        Reading <- (srvb2 %>% slice(1305:1312))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6549,14 +6549,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1180:1190),
+  srvb2 %>% slice(1341:1351),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1180:1190))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1341:1351))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1180:1190))$Reading[index]
+        Reading <- (srvb2 %>% slice(1341:1351))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -6912,21 +6912,23 @@ reactable(
 
 ##### Recall {.tabset}
 
-###### 1
+###### Phrase
 
 ```{r, echo=FALSE, message=FALSE}
 
+srvb2a <- srvb2 %>% slice(1:785)
+srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
+
 reactable(
-  srvb2 %>% slice(1:64),
+  srvb2a,
   columns = list(
     Meaning = colDef(
-      # Show species under character names
       cell = function(value, index) {
-        Verbs <- (srvb2 %>% slice(1:64))$Verbs[index]
+        Verbs <- srvb2a$Verbs[index]
         Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
         tagList(
-          div(style = list(fontSize = 20, fontWeight = 700), value),
-          # div(style = list(fontSize = 11), Verbs)
+          div(style = list(fontSize = 18, fontWeight = 700), value),
+          div(style = list(fontSize = 13, fontWeight = 200), Verbs)
         )
       },
       align = "center"
@@ -6952,121 +6954,6 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
-reactable(
-  srvb2 %>% slice(1:64),
-  columns = list(
-    Meaning = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Verbs <- (srvb2 %>% slice(1:64))$Verbs[index]
-        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
-        tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), Verbs),
-          div(style = list(fontSize = 11, fontWeight = 200), value)
-        )
-      },
-      align = "center"
-    ),
-    Verbs = colDef(show = FALSE),
-    Orig = colDef(show = FALSE),
-    Reading = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 1,
-  # theme = reactableTheme(
-  #   # Vertically center cells
-  #   cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-  #   searchInputStyle = list(
-  #     paddingLeft = "8px",
-  #     paddingTop = "8px",
-  #     paddingBottom = "8px",
-  #     width = "100%"
-  #   )
-  # ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### 2
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  srvb2 %>% slice(65:249),
-  columns = list(
-    Meaning = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Verbs <- (srvb2 %>% slice(65:249))$Verbs[index]
-        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
-        tagList(
-          div(style = list(fontSize = 20, fontWeight = 700), value),
-          # div(style = list(fontSize = 11), Verbs)
-        )
-      },
-      align = "center"
-    ),
-    Verbs = colDef(show = FALSE),
-    Orig = colDef(show = FALSE),
-    Reading = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-reactable(
-  srvb2 %>% slice(65:249),
-  columns = list(
-    Meaning = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Verbs <- (srvb2 %>% slice(65:249))$Verbs[index]
-        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
-        tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), Verbs),
-          div(style = list(fontSize = 11, fontWeight = 200), value)
-        )
-      },
-      align = "center",
-    ),
-    Verbs = colDef(show = FALSE),
-    Orig = colDef(show = FALSE),
-    Reading = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 1,
-  # theme = reactableTheme(
-  #   # Vertically center cells
-  #   cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-  #   searchInputStyle = list(
-  #     paddingLeft = "8px",
-  #     paddingTop = "8px",
-  #     paddingBottom = "8px",
-  #     width = "100%"
-  #   )
-  # ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
 ```
 
 ------------------------------------------------------------------------
