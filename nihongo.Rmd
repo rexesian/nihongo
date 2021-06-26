@@ -6960,20 +6960,6 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### Notes
-
-三時にお得意さんと会う約束がある`I have an appointment with a client at 3:00`  
-われわれの意見はいつも合わない`Our opinions always doesn't match`  
-彼らは災難に遭っても冷静であった`They were calm in the face of disaster`  
-思ったことをそのまま言う`Just say what you think as it is`  
-私は全速力で彼の後を追った`I chased him at full speed`  
-親は子供を学校に通わせる義務を負う`Parents have a duty to send their children to school`  
-これらの本は一般の書店で買えます`These books can be bought at any bookseller's`  
-この猫は人に飼われていた猫だね`This cat used to belong to someone`  
-一席の講演を請われる`I was asked to give a speech`  
-
-------------------------------------------------------------------------
-
 #### Copula
 
 **①　da**`Informal`
@@ -12441,106 +12427,6 @@ reactable(
 
 ------------------------------------------------------------------------
 
-## Notes {.tabset}
-
-### Dialouge {.tabset}
-
-#### Restaurant
-
-    ・お飲み物は何になさいますか?
-    ・What would you like to drink?
-    ・かしこまりました。こちらがメニューです。それでは、お水をお持ちします
-    ・Cetainly. Here is the menu. And I'll get you some water
-    ・お水です。ご注文はお決まりですか?
-    ・Here is the water. Have you decided what to order?
-    ・いえ、まだです。もう少し時間をください
-    ・No, not yet. Just give me a little more time
-    ・もちろんです。ごゆっくりどうぞ。
-    ・Of course. Please take your time
-    ・もう少し後の方がよろしいですか?
-    ・Would you like me to do it a little later?
-    ・それでは、ご注文は何になさいますか?
-    ・What would you like to order?
-    ・チキンのスプリング、グリーンサラダをください
-    ・Chicken springs, green salad, please
-    ・かしこまりました。こちらのサラダにはスープが付つきます
-    ・Certainly. This salad is served with soup
-    ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?
-    ・Would you like creamy tomato soup or minestrone?
-    ・その他にご注文はございますか?
-    ・Do you have any other orders?
-    ・いえ、以上です
-    ・No, more than that
-    ・お待たせしました。スープとサラダでございます
-    ・Thank you for waiting. Here is the soup and the salad
-    ・御用のある時にはお知らせください
-    ・Please let me know if you need anything else
-    ・お食事はお済みでしょうか?
-    ・Are you done with your meal?
-    ・デザートのメニューはご覧になりますか?
-    ・Would you like to see the dessert menu?
-    ・いえ、結構です。お会計をお願いします
-    ・No, thank you. Can I have the bill, please?
-
-------------------------------------------------------------------------
-
-#### Icecream
-
-    ・アイスクリームをお試しになりますか?
-    ・Would you like to try some ice cream?
-    ・はい。でも、何にしようか迷っています
-    ・Yes. But I'm not sure what to choose
-    ・何かお好きなお味はありますか?
-    ・Do you have a favorite flavor?
-    ・チョコレートとストロベリー、バニラを試食してみませんか?
-    ・Why don't you try chocolate, strawberry and vanilla?
-    ・私には少し甘すぎるみたいです
-    ・It's a little too sweet for me
-    ・次はバニラを試してみてもいいですか?
-    ・Can I try the vanilla next?
-    ・チョコレートよりこちらのほうが好みです
-    ・Than the chocolate, I prefer this one
-    ・ストロベリーが一 番 人気なんですよ
-    ・Strawberry is the most popular
-    ・良かったです!どれになさいますか?
-    ・Great! Which one would you like?
-    ・コーンとカップ、どちらになさいますか?
-    ・Would you like a cone or a cup?
-
-------------------------------------------------------------------------
-
-#### Newcar
-
-    ・そんなに高くなくて、信頼性の高い車がいいな
-    ・I'd like a car that's not that expensive and reliable
-    ・うん、ネットで探してみようか
-    ・Yeah, I'll look for it online
-    ・これ見て。4,000ドルで、1万マイルはしか走っていないよ
-    ・Look at this one. It’s $4,000 and it only has ten thousand miles on it
-    ・とても安いね。何か問 題があるのかもしれないよ?
-    ・It's very cheap. Maybe there's something wrong with it?
-    ・そうかもね。もう少し見てみよう
-    ・Maybe so. Let's take a closer look
-    ・何年式の車?
-    ・What year is it?
-    ・そんなに古くないね
-    ・It's not that old
-    ・良い色だね!リストに追加しておこう
-    ・Oh, that’s a good color. Let’s add that car to our list
-    ・かなり走ってるね
-    ・That's quite a run
-    ・そうだね。でも、この会社の車は耐久性があるよ
-    ・Yes, it is. But this company's cars are very durable
-    ・確かにそうだね。車の状態はいいの?
-    ・That's for sure. Is the car in good condition?
-    ・リアバンパーに小さな凹みがある。でも、それ以外は大丈夫みたい
-    ・There is a small dent in the rear bumper. But other than that it looks fine
-    ・そうしよう
-    ・Let's do that
-
-
-------------------------------------------------------------------------
-
 ## Learn {.tabset}
 
 ### Reading {.tabset}
@@ -13775,6 +13661,143 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 )
 
 ```
+
+------------------------------------------------------------------------
+
+## Notes {.tabset}
+
+### Dialouge {.tabset}
+
+#### Restaurant
+
+    ・お飲み物は何になさいますか?
+    ・What would you like to drink?
+    ・かしこまりました。こちらがメニューです。それでは、お水をお持ちします
+    ・Cetainly. Here is the menu. And I'll get you some water
+    ・お水です。ご注文はお決まりですか?
+    ・Here is the water. Have you decided what to order?
+    ・いえ、まだです。もう少し時間をください
+    ・No, not yet. Just give me a little more time
+    ・もちろんです。ごゆっくりどうぞ。
+    ・Of course. Please take your time
+    ・もう少し後の方がよろしいですか?
+    ・Would you like me to do it a little later?
+    ・それでは、ご注文は何になさいますか?
+    ・What would you like to order?
+    ・チキンのスプリング、グリーンサラダをください
+    ・Chicken springs, green salad, please
+    ・かしこまりました。こちらのサラダにはスープが付つきます
+    ・Certainly. This salad is served with soup
+    ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?
+    ・Would you like creamy tomato soup or minestrone?
+    ・その他にご注文はございますか?
+    ・Do you have any other orders?
+    ・いえ、以上です
+    ・No, more than that
+    ・お待たせしました。スープとサラダでございます
+    ・Thank you for waiting. Here is the soup and the salad
+    ・御用のある時にはお知らせください
+    ・Please let me know if you need anything else
+    ・お食事はお済みでしょうか?
+    ・Are you done with your meal?
+    ・デザートのメニューはご覧になりますか?
+    ・Would you like to see the dessert menu?
+    ・いえ、結構です。お会計をお願いします
+    ・No, thank you. Can I have the bill, please?
+
+------------------------------------------------------------------------
+
+#### Icecream
+
+    ・アイスクリームをお試しになりますか?
+    ・Would you like to try some ice cream?
+    ・はい。でも、何にしようか迷っています
+    ・Yes. But I'm not sure what to choose
+    ・何かお好きなお味はありますか?
+    ・Do you have a favorite flavor?
+    ・チョコレートとストロベリー、バニラを試食してみませんか?
+    ・Why don't you try chocolate, strawberry and vanilla?
+    ・私には少し甘すぎるみたいです
+    ・It's a little too sweet for me
+    ・次はバニラを試してみてもいいですか?
+    ・Can I try the vanilla next?
+    ・チョコレートよりこちらのほうが好みです
+    ・Than the chocolate, I prefer this one
+    ・ストロベリーが一 番 人気なんですよ
+    ・Strawberry is the most popular
+    ・良かったです!どれになさいますか?
+    ・Great! Which one would you like?
+    ・コーンとカップ、どちらになさいますか?
+    ・Would you like a cone or a cup?
+
+------------------------------------------------------------------------
+
+#### Newcar
+
+    ・そんなに高くなくて、信頼性の高い車がいいな
+    ・I'd like a car that's not that expensive and reliable
+    ・うん、ネットで探してみようか
+    ・Yeah, I'll look for it online
+    ・これ見て。4,000ドルで、1万マイルはしか走っていないよ
+    ・Look at this one. It’s $4,000 and it only has ten thousand miles on it
+    ・とても安いね。何か問 題があるのかもしれないよ?
+    ・It's very cheap. Maybe there's something wrong with it?
+    ・そうかもね。もう少し見てみよう
+    ・Maybe so. Let's take a closer look
+    ・何年式の車?
+    ・What year is it?
+    ・そんなに古くないね
+    ・It's not that old
+    ・良い色だね!リストに追加しておこう
+    ・Oh, that’s a good color. Let’s add that car to our list
+    ・かなり走ってるね
+    ・That's quite a run
+    ・そうだね。でも、この会社の車は耐久性があるよ
+    ・Yes, it is. But this company's cars are very durable
+    ・確かにそうだね。車の状態はいいの?
+    ・That's for sure. Is the car in good condition?
+    ・リアバンパーに小さな凹みがある。でも、それ以外は大丈夫みたい
+    ・There is a small dent in the rear bumper. But other than that it looks fine
+    ・そうしよう
+    ・Let's do that
+    
+------------------------------------------------------------------------
+
+### Verbs
+
+三時にお得意さんと会う約束がある`I have an appointment with a client at 3:00`  
+われわれの意見はいつも合わない`Our opinions always doesn't match`  
+彼らは災難に遭っても冷静であった`They were calm in the face of disaster`  
+思ったことをそのまま言う`Just say what you think as it is`  
+私は全速力で彼の後を追った`I chased him at full speed`  
+親は子供を学校に通わせる義務を負う`Parents have a duty to send their children to school`  
+これらの本は一般の書店で買えます`These books can be bought at any bookseller's`  
+この猫は人に飼われていた猫だね`This cat used to belong to someone`  
+一席の講演を請われる`I was asked to give a speech`  
+
+------------------------------------------------------------------------
+
+### Words
+
+発売`sale; offering for sale; release; launch`  
+発行`publication; issue; raising an event`  
+身長`height (of body); stature`  
+協力`cooperation; collaboration`  
+歌手`singer`  
+機械`machine; mechanism`  
+目的`purpose; goal; aim; objective; intention`  
+学習`study; learning; tutorial`  
+時代`period; epoch; era; age; the times`  
+直接`direct; immediate; personal; firsthand`  
+以下`not exceeding; and downward; below`  
+事実`fact; truth; reality`  
+責任`duty; responsibility; liability`  
+残る`to remain; to be left`  
+物質`material; substance`  
+工場`factory; plant; mill; workshop`  
+技術`technology; engineering; technique; skill; art`  
+
+
 
 ------------------------------------------------------------------------
 
