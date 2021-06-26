@@ -13834,6 +13834,16 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 商品`commodity; article of commerce; goods`  
 注目`notice; attention; observation`  
 人物`person; character; figure`  
+方向`direction; orientation; bearing; way; course of action`  
+将来`future (usually near); prospects`  
+作業`work; operation; manufacturing; fatigue duty`  
+原因`cause; origin; source`  
+使用`use; application; employment; utilization`  
+以前`ago; since; before; previous`  
+時期`time; season; period; phase; stage`  
+判断`judgment; judgement; decision; conclusion`  
+教育`education; schooling; training; instruction; teaching`  
+試合`match; game; bout; contest`  
 
 
 ------------------------------------------------------------------------
