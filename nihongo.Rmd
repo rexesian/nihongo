@@ -12693,7 +12693,15 @@ reactable(na.omit(kv3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### Intermediate
+###### L4
+
+------------------------------------------------------------------------
+
+###### L5
+
+------------------------------------------------------------------------
+
+###### Int
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -13777,7 +13785,9 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-### Words
+### Words {.tabset}
+
+#### L1
 
 発売`sale; offering for sale; release; launch`  
 発行`publication; issue; raising an event`  
@@ -13807,6 +13817,40 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 程度`degree; amount; grade; standard`  
 研究`study; research; investigation`  
 交通`traffic; transportation; communication`  
+活動`activity; action`  
+実際`reality; actuality; truth; fact`  
+状況`state of affairs; situation; circumstances`  
+期待`expectation; anticipation; hope`  
+方法`method; process; manner; way; means`  
+会場`assembly hall; meeting place; venue`  
+発見`discovery; detection; finding`  
+努力`effort; exertion; endeavour; endeavor`  
+市民`citizen; citizenry; public`  
+関係`relation; relationship; connection`  
+不足`insufficiency; deficiency; shortage; dissatisfaction`  
+以来`since; henceforth`  
+理由`reason; pretext; motive`  
+立場`position; situation; viewpoint; standpoin`  
+商品`commodity; article of commerce; goods`  
+注目`notice; attention; observation`  
+人物`person; character; figure`  
+
+
+------------------------------------------------------------------------
+
+#### L2
+
+------------------------------------------------------------------------
+
+#### L3
+
+------------------------------------------------------------------------
+
+#### L4
+
+------------------------------------------------------------------------
+
+#### L5
 
 ------------------------------------------------------------------------
 
