@@ -72,6 +72,8 @@ k1 <- read_csv("rdata/Sheet 7-KNJ1K.csv")
 k2 <- read_csv("rdata/Sheet 8-INTK.csv")
 k3 <- read_csv("rdata/Sheet 9-SPTK.csv")
 v1 <- read_csv("rdata/Sheet 10-VC1.csv")
+v2 <- read_csv("rdata/Sheet 86-VC2.csv")
+v3 <- read_csv("rdata/Sheet 87-VC3.csv")
 s1 <- read_csv("rdata/Sheet 11-SS1.csv")
 m1 <- read_csv("rdata/Sheet 12-KMM1.csv")
 j1 <- read_csv("rdata/Sheet 13-MJ1.csv")
@@ -6958,6 +6960,20 @@ reactable(
 
 ------------------------------------------------------------------------
 
+###### Notes
+
+三時にお得意さんと会う約束がある`I have an appointment with a client at 3:00`  
+われわれの意見はいつも合わない`Our opinions always doesn't match`  
+彼らは災難に遭っても冷静であった`They were calm in the face of disaster`  
+思ったことをそのまま言う`Just say what you think as it is`  
+私は全速力で彼の後を追った`I chased him at full speed`  
+親は子供を学校に通わせる義務を負う`Parents have a duty to send their children to school`  
+これらの本は一般の書店で買えます`These books can be bought at any bookseller's`  
+この猫は人に飼われていた猫だね`This cat used to belong to someone`  
+一席の講演を請われる`I was asked to give a speech`  
+
+------------------------------------------------------------------------
+
 #### Copula
 
 **①　da**`Informal`
@@ -12668,7 +12684,7 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 ##### Vocabulary {.tabset}
 
-###### Words 5000++
+###### L1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -12677,6 +12693,88 @@ kv1 <- kv1 %>% pivot_longer(everything())
 kv1 <- kv1 %>% rename(Kanji = value)
 
 reactable(na.omit(kv1), showPageSizeOptions = FALSE, 
+          striped = FALSE, compact = FALSE, 
+          bordered = TRUE, highlight = TRUE, 
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+          showPageInfo = FALSE, defaultPageSize = 1,
+          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          columns = list(
+                Kanji = colDef(
+                cell = function(value, index) {
+                  tagList(
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
+              )
+            },
+            align = "center"
+        ),
+    name = colDef(show = FALSE)),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### L2
+
+```{r, echo=FALSE, message=FALSE}
+
+kv2 <- as_tibble(v2)
+kv2 <- kv2 %>% pivot_longer(everything())
+kv2 <- kv2 %>% rename(Kanji = value)
+
+reactable(na.omit(kv2), showPageSizeOptions = FALSE, 
+          striped = FALSE, compact = FALSE, 
+          bordered = TRUE, highlight = TRUE, 
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+          showPageInfo = FALSE, defaultPageSize = 1,
+          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          columns = list(
+                Kanji = colDef(
+                cell = function(value, index) {
+                  tagList(
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
+              )
+            },
+            align = "center"
+        ),
+    name = colDef(show = FALSE)),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### L3
+
+```{r, echo=FALSE, message=FALSE}
+
+kv3 <- as_tibble(v3)
+kv3 <- kv3 %>% pivot_longer(everything())
+kv3 <- kv3 %>% rename(Kanji = value)
+
+reactable(na.omit(kv3), showPageSizeOptions = FALSE, 
           striped = FALSE, compact = FALSE, 
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
