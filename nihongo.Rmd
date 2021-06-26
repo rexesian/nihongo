@@ -13796,8 +13796,17 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 物質`material; substance`  
 工場`factory; plant; mill; workshop`  
 技術`technology; engineering; technique; skill; art`  
-
-
+作家`author; writer; novelist; artist`  
+運動`exercise; physical training; work-out`  
+報告`report; information`  
+本来`originally; primarily`  
+用意`preparation; arrangements; provision; getting ready`  
+機能`function; facility; faculty; feature`  
+見学`inspection; study by observation; field trip; tour`  
+同様`same; similar; like; equal`  
+程度`degree; amount; grade; standard`  
+研究`study; research; investigation`  
+交通`traffic; transportation; communication`  
 
 ------------------------------------------------------------------------
 
