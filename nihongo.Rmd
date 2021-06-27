@@ -13844,7 +13844,32 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 判断`judgment; judgement; decision; conclusion`  
 教育`education; schooling; training; instruction; teaching`  
 試合`match; game; bout; contest`  
-
+文章`writing; composition; essay; article; passage`  
+土地`plot of land; lot; soil; locality; region`  
+行動`action; conduct; behaviour; behavior`  
+分野`field; sphere; realm; division; branch`  
+相手`companion; partner; company`  
+経済`economy; economics`  
+運転`operation (of a machine, etc.); operating; running`  
+開始`start; commencement; beginning; initiation`  
+記録`record; minutes; document; to record; to document`  
+記事`article; news story; report; account`  
+戦争`war; fighting; fierce competition`  
+発表`announcement; publication; presenting; statement`  
+情報`information; news; intelligence; advices`  
+文字`letter (of alphabet); character; writing`  
+複雑`complex; complicated; intricate; mixed (feelings)`  
+地震`earthquake`  
+自身`(one's) self; oneself`  
+数字`numeral; figure; digit; numeric character`  
+可能`possible; potential; practicable; feasible`  
+位置`place; situation; position; location`  
+確認`confirmation; verification; validation; review`  
+地域`area; region`  
+産業`industry; livelihood; occupation`  
+仕方`way; method; means; resource; course`  
+失敗`failure; mistake; blunder`  
+代表`representative; representation; delegation; type; example`  
 
 ------------------------------------------------------------------------
 
