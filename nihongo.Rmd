@@ -74,6 +74,8 @@ k3 <- read_csv("rdata/Sheet 9-SPTK.csv")
 v1 <- read_csv("rdata/Sheet 10-VC1.csv")
 v2 <- read_csv("rdata/Sheet 86-VC2.csv")
 v3 <- read_csv("rdata/Sheet 87-VC3.csv")
+v4 <- read_csv("rdata/Sheet 88-VC4.csv")
+v5 <- read_csv("rdata/Sheet 89-VC5.csv")
 s1 <- read_csv("rdata/Sheet 11-SS1.csv")
 m1 <- read_csv("rdata/Sheet 12-KMM1.csv")
 j1 <- read_csv("rdata/Sheet 13-MJ1.csv")
@@ -12181,15 +12183,15 @@ reactable(
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
           div(style = list(fontSize = 14, fontWeight = 200), Trans),
           div("•"),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo1),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo2),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo3),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo4),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo5),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo6),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo7),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo8),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo9),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo3),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo4),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo5),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo6),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo7),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo8),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo9),
         )
       },
       align = "left", minWidth = 400
@@ -12281,14 +12283,14 @@ reactable(
           div(style = list(fontSize = 14, fontWeight = 700), Trans),
           div(style = list(fontSize = 11, fontWeight = 200), Notice),
           div("•"),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo1),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo2),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo3),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo4),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo5),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo6),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo7),
-          div(style = list(fontSize = 20, fontWeight = 700), Convo8),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo3),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo4),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo5),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo6),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo7),
+          div(style = list(fontSize = 20, fontWeight = 500), Convo8),
         )
       },
       align = "left", minWidth = 400
@@ -12695,9 +12697,83 @@ reactable(na.omit(kv3), showPageSizeOptions = FALSE,
 
 ###### L4
 
+```{r, echo=FALSE, message=FALSE}
+
+kv4 <- as_tibble(v4)
+kv4 <- kv4 %>% pivot_longer(everything())
+kv4 <- kv4 %>% rename(Kanji = value)
+
+reactable(na.omit(kv4), showPageSizeOptions = FALSE, 
+          striped = FALSE, compact = FALSE, 
+          bordered = TRUE, highlight = TRUE, 
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+          showPageInfo = FALSE, defaultPageSize = 1,
+          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          columns = list(
+                Kanji = colDef(
+                cell = function(value, index) {
+                  tagList(
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
+              )
+            },
+            align = "center"
+        ),
+    name = colDef(show = FALSE)),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  )
+)
+
+```
+
 ------------------------------------------------------------------------
 
 ###### L5
+
+```{r, echo=FALSE, message=FALSE}
+
+kv5 <- as_tibble(v5)
+kv5 <- kv5 %>% pivot_longer(everything())
+kv5 <- kv5 %>% rename(Kanji = value)
+
+reactable(na.omit(kv5), showPageSizeOptions = FALSE, 
+          striped = FALSE, compact = FALSE, 
+          bordered = TRUE, highlight = TRUE, 
+          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+          showPageInfo = FALSE, defaultPageSize = 1,
+          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          columns = list(
+                Kanji = colDef(
+                cell = function(value, index) {
+                  tagList(
+                  div(style = list(fontSize = 30, fontWeight = 800), value)
+              )
+            },
+            align = "center"
+        ),
+    name = colDef(show = FALSE)),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -13886,6 +13962,25 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 ------------------------------------------------------------------------
 
 #### L5
+
+------------------------------------------------------------------------
+
+#### RN
+
+発展`development/growth/expansion`  
+発達`development/growth`  
+展開`development/progression/unfolding/expansion`  
+開発`development/exploitation`  
+現像`development (of film)/photographic processing`  
+成長`growth/development/growing up`  
+進展`progress/development`  
+発育`(physical) growth/development`  
+進歩`progress/advance/improvement/development`  
+開拓`reclamation/cultivation/development`  
+生育`birth and growth/development/breeding`  
+養成`training/education/development/cultivation`  
+造成`development of land/preparation/reclamation`  
+整備`maintenance/servicing`  
 
 ------------------------------------------------------------------------
 

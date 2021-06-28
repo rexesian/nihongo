@@ -294,9 +294,11 @@ body {
 
 ## 日本語-読書 {.tabset}
 
-### Web-News-Easy {.tabset}
+### Web-News {.tabset}
 
-#### 1
+#### Easy {.tabset}
+
+##### 1
 
 **[米を育てる農家の手伝いをするロボット](https://www3.nhk.or.jp/news/easy/k10013051601000/k10013051601000.html)**
 
@@ -310,7 +312,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 2
+##### 2
 
 **[スーパームーンの皆既月食　月が全部見えなくなる](https://www3.nhk.or.jp/news/easy/k10013053271000/k10013053271000.html)**
 
@@ -327,7 +329,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 3
+##### 3
 
 **[雨がたくさん降って避難が必要なときに出る情報が変わった](https://www3.nhk.or.jp/news/easy/k10013040561000/k10013040561000.html)**
 
@@ -342,7 +344,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 4
+##### 4
 
 **[日本は雨の季節　雨がたくさん降った所では気をつけて](https://www3.nhk.or.jp/news/easy/k10013034771000/k10013034771000.html)**
 
@@ -358,7 +360,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 5
+##### 5
 
 **[渋谷区の職員が駅の周りを歩きながら「外で酒を飲まないで」](https://www3.nhk.or.jp/news/easy/k10013004231000/k10013004231000.html)**
 
@@ -374,7 +376,7 @@ body {
     
 ------------------------------------------------------------------------
 
-#### 6
+##### 6
 
 **[パンダのシャンシャン　もうすぐ4歳の誕生日](https://www3.nhk.or.jp/news/easy/k10013074721000/k10013074721000.html)**
 
@@ -387,7 +389,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 7
+##### 7
 
 **[台風が近くに来たときに気をつけること](https://www3.nhk.or.jp/news/easy/article/disaster_typhoon.html)**
 
@@ -405,7 +407,7 @@ body {
 
 ------------------------------------------------------------------------
 
-#### 8
+##### 8
 
 **[雨がたくさん降っているときに気をつけること](https://www3.nhk.or.jp/news/easy/article/disaster_rain.html)**
 
@@ -425,6 +427,169 @@ body {
     
     ５．危険な場所や避難する場所がわかる「ハザードマップ」
     「ハザードマップ」は、雨がたくさん降ったときに危険な場所や避難する場所などがかいてある地図です。県や市などのウェブサイトでも見ることができます。家や会社の周りが安全かどうか調べておきましょう。
+
+------------------------------------------------------------------------
+
+#### Standard {.tabset}
+
+##### Bags
+
+    ランドセル 人気の色は？金額は？ “ラン活”最新事情
+    2021年6月24日 21時11分
+
+    毎日、大事に背負って学校に。
+
+    教科書や持ち物を詰めすぎてパンパンに。
+
+    時に乱暴に振り回してしまって…
+
+    小学校の頃の思い出といつも一緒にあったランドセル。
+
+    コロナ禍の今、少し変化が起きているようなんです。
+
+    この記事でわかること
+    ・悩む女の子、そのとき男の子は…
+    ・ことしの人気1位は○○色
+    ・購入額は？時期は？
+    ・ランドセル最新トレンド
+    ・コロナ禍で売り場に変化
+    
+    女の子は悩むけど、男の子は…
+    ランドセルを購入する時には悲喜こもごものドラマがあります。
+
+    先日、あるツイートが話題になりました。
+    
+    投稿したのは、5歳の娘を持つ40代の女性。
+
+    来年4月、娘が小学生になるのにあわせてランドセルを買いに行った際の出来事でした。
+
+    このツイートには共感が集まって8万5000以上の「いいね」がつきました。
+
+    さらにたくさんのコメントがついて、思い出話に花が咲きました。
+    
+    人気の色 1位に異変が…
+    子どもたちを悩ませるランドセルの色。
+
+    実は、ことし人気1位が入れ代わる異変があったんです。
+
+    かばんメーカーでつくる団体、日本鞄協会ランドセル工業会は「ランドセルに関する購入調査」を毎年発表しています。
+
+    小学校に進学する子どものいる親を中心に1500人が回答しました。
+
+    ことしの調査で購入したランドセルの色を訪ねたところ、女の子の1位は去年の赤に代わって「紫／薄紫」になりました。
+    「紫／薄紫」が1位になるのは初めてです。
+    
+    この理由をランドセル工業会の担当者に聞くと「アニメ映画などでお姫様の服装に紫色が使われるケースがあり、人気が出ているのではないか」ということでした。
+    
+    女の子の順位では「うす茶」も初めて5位以内に入るなど人気が分散する傾向で、色の好みが多様になっているということです。
+
+    一方で男の子の色の順位は、2018年の調査開始以来まったく変化がなく、常に60～70％が「黒」を選んでいます。
+
+    冒頭で紹介したツイートのとおり、男の子は女の子ほど色にこだわっていないのかもしれません。
+    購入金額が過去最高！
+    気になるお金についての調査もありました。
+
+    購入した人のうち一番多い価格帯は、27.8％が選んだ「6万5000円以上」。
+
+    平均は5万5339円で、去年より1739円上昇して、過去最高になりました。
+
+    購入金額は、年々上がっています。
+    
+    支払いは「両親」が42.8％の一方で、「祖父母」が53％となっていて、金額が上昇する中でおじいちゃんおばあちゃんが頼りになっているのかもしれません。
+    「ラン活」が激化？ 購入のピークは
+    では、皆さんいつごろランドセルを購入しているのでしょうか。
+
+    過去には年末やお盆など、頼みの祖父母に会う帰省の時期が購入のピークになっていたということですが、年々前倒しされています。
+
+    去年は5月から8月にかけて多くの人が購入していました。
+    
+    まさにこの時期、6月ごろは“ラン活”がピークにさしかかっているかもしれません。
+    “ラン活” に変化
+    実際、来年4月の入学に向けた“ラン活”はどうなっているのでしょうか。
+
+    専門店の売り場を取材すると、いろいろな変化が見えてきました。
+
+    人気の色1位が「紫」になったと調査結果を紹介しましたが、最近のランドセル選びの最大のトレンドは色の多様化だといいます。
+
+    店内には、紫だけでなく、水色や鮮やかな緑、ピンクに白と、確かに色とりどりのランドセルが並んでいました。
+    
+    ドラゴンが人気になったわけ
+    一方、少し意外に感じてしまうランドセルも人気だといいます。
+
+    「剣とドラゴンの力強さを背に、勇敢な一歩を踏み出そう」
+
+    そんなコピーを掲げて、側面や内側にはドラゴンや剣をあしらった紋章がたくさん。
+    
+    このランドセルが男の子向けで、売り上げナンバー1だというのです。
+
+    6年間使うには、少し子どもっぽすぎるのでは…
+    
+    背景には、実は子育ての意識の変化があるのかもしれません。
+    最新トレンドは？ “光る” “守る”
+    ほかにも、今の時流に合わせたランドセルも登場しています。
+
+    まず、ランドセルの縁の部分が夜間に車などのライトに照らされると明るく光る加工がされている“光る”ランドセルです。
+
+    暗い夜道や雨の日でも認識されやすくなるため、子どもが事故に遭わないよう心配する保護者から好評だそうです。
+    
+    また、ICT教育の本格化で、タブレット端末を収納できる専用のポケットがついているランドセルも人気があるそうです。
+
+    大型のタブレットもすっぽりと収納でき、“守る”ことができます。
+    中には、素材にこだわった高級なランドセルもあります。
+
+    「革のダイヤモンド」といわれる貴重な馬の尻の革「コードバン」や、高級なヌメ革を使った物だと、値段は10万円以上に。
+
+    なんと、高い物では14万円もします。
+    
+    性別問わず好きな色を
+    男の子は「黒」、女の子は「赤」。
+
+    こうした固定観念にとらわれない色とデザインを取り入れた商品も登場しています。
+
+    土屋鞄製造所は、子どもたちが性別にとらわれず自分の好きな色を選べるように、ことしから新しいシリーズを販売しています。
+
+    落ち着いた赤やグレーなど5色のランドセルは、すっきりとしたデザインで、男の子でも女の子でも選びやすくしました。
+    
+    背景にあるのが、多様性を求める意識の高まりです。
+
+    この店は、来年春に小学校に入学する子どもを持つ保護者300人余りに対してアンケートを行いました。
+
+    自分が小学生の頃に使っていたランドセルは「黒」か「赤」だというのが9割を占めたのに対し、ランドセルの色は「性別による固定観念が無いほうがいい」という回答が8割にのぼりました。
+    
+    こうした多様性に応える新シリーズのランドセルは、販売開始から3か月間の売り上げで、トップ5の商品のうち4つを占めるほど人気だということです。
+    
+    ランドセル売り場は、コロナ禍で例年とちょっと違っている所もあるようです。
+
+    大手スーパーのイトーヨーカドーはことし3月、バーチャル店舗を開店しました。
+
+    気になったランドセルを画面上でクリックすると、価格や性能といった詳しい説明を見ることができ、担当者が性能を説明する動画も現れます。
+
+    気に入ったら、実際の店舗を訪れなくても、サイト上で購入できます。
+    
+    みんなが選べるように
+    たくさんの種類が選べるようになったランドセルですが、決して安くないのも事実です。
+
+    子どもたちみんながランドセルを背負って新入学を迎えられるよう、支援する動きもあります。
+
+    茨城県結城市はことしから、小学校に入学する子どもがいるすべての家庭を対象に、ランドセルの支給を始めました。
+
+    しかも、用意したのは7種類です。
+    
+    黒や赤だけでなく、流行の紫に、男女を選ばない茶色など。
+
+    できるだけ希望に応えられるようにと、多くの種類をそろえました。
+
+    さらに、不要になったランドセルを回収して、必要な人に渡す動きも出ています。
+
+    奈良市にある「ランドセルの木ノ下」がことし2月から始めた「ランドセルバンク」という取り組み。
+
+    回収したランドセルを店でクリーニングして、糸のほつれを直し、きれいな状態に仕上げてプレゼントします。
+    
+    希望する人には来店してもらい、好きな物を選んでもらうほか、遠くの人には送ることもしています。
+
+    これまでに全国から200個ほどのランドセルが寄せられ、ことしは40人近くの新1年生にランドセルをプレゼントすることができました。
+    
+    例年、盛り上がりを見せる“ラン活”には、親や周りの人の子どもへの思いがいっぱい詰まっているようです。
 
 ------------------------------------------------------------------------
 
@@ -1347,7 +1512,9 @@ body {
 
 ### Articles {.tabset}
 
-#### 1
+#### Numbered {.tabset}
+
+##### 1
 
     ｢ハクトウワシ｣米国ワイオミング州, グランドティトン国立公園
     北米大陸に広く分布するハクトウワシはアメリカ合衆国の国鳥。米国の国章やさまざまな機関の記章にあしらわれているほか、ロサンゼルスオリンピックではイーグルサムというマスコットキャラクターにもなりました.
@@ -1360,7 +1527,7 @@ The bald eagle is a large bird with a wingspan of over two meters. It usually li
 
 ------------------------------------------------------------------------
 
-#### 2
+##### 2
 
     ｢ミナミセミクジラの尾びれ｣南アフリカ, ヘルマナス沖
     ここは南アフリカ、ヘルマナスの沖合。この海は世界有数のホエール・ウォッチングエリアとして知られています。この尾びれは、ミナミセミクジラのもの。南半球全域におよそ一万頭が生息していると言われています.
@@ -1373,7 +1540,7 @@ The behavior called "sailing," in which the tail fin sticks out of the water, is
 
 ------------------------------------------------------------------------
 
-#### 3
+##### 3
 
     ｢ヒマワリに止まるルリノジコ｣米国
     写真はアメリカ大陸に生息するルリノジコです。体長は 11.5～13 cmで、メスは一年中茶色ですが、オスは夏の間、鮮やかな青色になります。4 月から 5 月に北へ、そして 9 月から 10 月に南へ移動します。渡りは主に夜に行われ、星を頼りに方角を認識しているという研究があります.
@@ -1386,7 +1553,7 @@ During the migration season, their small bodies make the long journey across the
 
 ------------------------------------------------------------------------
 
-#### 4
+##### 4
 
     ｢ハルツ狭軌鉄道｣ドイツ, ハルツ国立公園
     今日は｢大寒｣。暦の上で、一年のうちで最も寒くなる日です。寒稽古が行われたり、日本酒の大寒しぼりが醸造されるのもこのころです.
@@ -1399,7 +1566,7 @@ The Harz National Park is also covered with white snow, giving it a cold appeara
 
 ------------------------------------------------------------------------
 
-#### 5
+##### 5
 
     ｢トリグラウ国立公園ソチャ川の吊り橋｣スロベニア
     今日は国連が定める世界自転車デーです。写真はトリグラウ国立公園のソチャ川、イタリア語でイゾンツォ川と呼ばれる川の上の吊り橋を渡るサイクリストたちです。その水の色は「エメラルドの美しさ」と謳われます.
@@ -1412,7 +1579,7 @@ Triglav National Park is the only national park in Slovenia. It is named after T
 
 ------------------------------------------------------------------------
 
-#### 6
+##### 6
 
     ｢ホッキョクグマ｣ノルウェー, スヴァールバル諸島
     写真は、ホッキョクグマの寒中水泳です。欧米諸国では、冬の間に寒中水泳を楽しむ人も多く、新年チャリティーイベントとして寒中水泳大会が行われたりするようです。わざわざ寒いときに泳がなくても、と思うでしょうが、ホッキョクグマにとっては、氷に覆われた冬こそ狩りの季節です.
@@ -1423,15 +1590,243 @@ This photo shows a polar bear swimming in the cold. In Western countries, many p
 
 Polar bears are very good swimmers, with their large paws equipped with paddles. They gently ambush seals in the water and kill their prey in an instant. Here in the Svalbard archipelago, it is often said that there are more bears than people, but polar bears are well protected and it is forbidden to look for them. We are very lucky to be able to see them.
 
+
+------------------------------------------------------------------------
+
+#### News {.tabset}
+
+##### Izakaya
+
+    訪日外国人に『日本で一番お気に入りの場所はどこか』質問すると多くの人が「居酒屋」と答えます。私たち日本人も居酒屋はよく利用します。居酒屋では飲み放題プランや宴会プランなどがあるので、大勢での食事会などで利用することが多いです。
+    
+    居酒屋の特徴は、メニューの種類がとても豊富です。おにぎり、お寿司、刺身、うどん、焼き鳥など、代表的な日本食が揃っています。また、お酒やデザートの種類も豊富に揃っています。メニューも写真付きやタブレットで品を見ながら選ぶ事ができ、外国人も注文しやすくなっています。
+    
+    また、居酒屋は普通のレストランよりも値段が安く、内装も和風なので日本の雰囲気も楽しめ、手軽にリアルな日本料理を楽しむことが出来ます。
+
+If you ask foreigners visiting Japan “Where is your favorite place in Japan?”, many of them will answer ‘izakaya’. We Japanese also often visit izakaya. Izakaya offer all-you-can-drink plans and banquet plans, so they’are often used for dinner parties with many people.
+
+Izakaya are characterized by a wide variety of menu items. Typical Japanese dishes such as onigiri (rice balls), sushi, sashimi, udon, and yakitori are available. There is also a wide variety of drinks and desserts on offer. You can choose from a menu with pictures or view the items on a tablet, making it easy for foreigners to order.
+
+Izakaya are cheaper than restaurants, and the decor is Japanese, so you can enjoy a Japanese atmosphere and real Japanese food easily.
+
+------------------------------------------------------------------------
+
+##### Starbucks
+
+    昨年の6月に手話が共通語となる日本国内初の『スターバックス　サイニングストアが東京　国立市にオープンしました。この店舗は、聴者（聴覚に障害がない人）と聴覚に障害のある人の従業員が共に働き、主なコミュニケーション方法は手話を使用しています。
+
+    店舗のコンセプトは“Infinite Possibilities”(無限の可能性)聴覚に障害のあるスタッフやお客様にとって、ありのままの自分でいられる場所であり、障害のある若者にとって夢や未来を描ける場所。そしてこの店舗を訪れた誰もが新たな気づきを得られる場所になることを目指しているそうです。
+
+    このように、多様な人々が自分らしく過ごし、活躍できる居場所がもっとたくさん増える世の中に変わっていくと良いですね。
+
+In June of last year, the first Starbucks Signing store in Japan opened in Kokuritsu City, Tokyo Prefecture, where sign language is a common language.
+The store is staffed by both hearing and hearing-impaired employees, and uses sign language as the primary method of communication.
+
+The concept of the store is “Infinite Possibilities,” a place where hearing-impaired staff and customers can be who they are, and where young people with disabilities can envision their dreams and futures, and a place where everyone who visits the store can gain new insights.
+
+I hope that the world will change to become a place where more and more diverse people can live and work as themselves.
+
+------------------------------------------------------------------------
+
+##### Nara-Deer
+
+    日本の観光名所の一つである奈良公園。毎日たくさんの観光客が訪れます。奈良公園には公園に住んでいる自然の鹿がたくさんいます。観光客は鹿たちに鹿用のせんべいをあげることが出来ます。鹿も観光客からせんべいをもらえる事を知っているので、たくさんの鹿が観光客に寄ってきます。
+
+    ですが、ここ数ヶ月はコロナウイルスの影響で、観光客が激減してしまいました。鹿せんべいを食べる事が減った鹿たちですが、これは鹿にとって良い事だったようです。実は奈良公園の鹿たちは鹿せんべいの食べ過ぎでお腹を壊し気味だったようでした。少し柔らかいふんをしていたのです。食べ過ぎがなくなった現在は、健康的な丸くて黒いふんが出るようになり、お腹の調子がよくなったようです。
+
+Nara Park is one of the most popular tourist attractions in Japan. It is visited by many tourists every day. In Nara Park, there are many natural deer that live in the park. Tourists can give crackers to the deer. The deer know that they can get crackers from tourists, so many of them come close to the tourists.
+
+However, the number of tourists has decreased drastically in recent months due to the coronavirus. The deer have been eating fewer rice crackers, but this seems to have been a good thing for them. In fact, the deer in Nara Park seemed to have an upset stomach due to eating too many rice crackers. They were a little soft and lumpy. Now that they have stopped overeating, they produce healthy round and black feces, and their stomachs seem to have improved.
+
+------------------------------------------------------------------------
+
+##### Monkeys-Spring
+
+    長野県の北部に上信越高原国立公園の地獄谷があります。標高８５０メートルのところに雪と雪に覆われた崖と渓谷の高原にあります。この場所は、1年のほぼ３分の１が雪に覆われています。そこにはたくさんの天然温泉があります。
+
+    この天然温泉を発見したのは人間だけはありません。１９６０年代の初めにニホンザルは渓谷の上にある高い森から降りてきました。そして体を温めるために温泉を利用し始めました。
+
+    現在もニホンザルたちが体を温めるために、温泉に入りにやってきます。今では世界中の人々に愛され、多くの研究家や写真家なども温泉に入る猿を観察しに地獄谷を訪れます。
+
+In the northern part of Nagano Prefecture, there is Jigokudani in Joshinetsu Kogen National Park. It is located at an altitude of 850 meters on a plateau of snow and snow covered cliffs and valleys. This place is covered with snow for almost a third of the year. There are many natural hot springs there.
+
+Humans are not the only ones who have discovered these natural hot springs. In the early 1960s, Japanese monkeys came down from the high forests above the canyon and started using the hot springs to warm themselves.
+
+Even today, Japanese monkeys still come to take a bath in the hot spring to warm up their bodies. Many researchers and photographers visit Jigokudani to observe the monkeys bathing in the hot springs.
+
+------------------------------------------------------------------------
+
+##### Free-Meal
+
+    岡山市の市内に変わったシステムを取り入れた食堂『ぽん太』がオープンしました。１時間お店の手伝いをすれば、８００円分の食券がもらえるシステムです。岡山弁ではお手伝いする事を『てご』と言い、この食堂では『てご制度』と呼ばれています。
+    
+    『てご』はお手伝いなので、雇用関係はありません。なので、会社員、主婦、子どもなど誰でも出来ます。会社員の男性が仕事の合間に開店準備を手伝ったり、小学生の女の子がイスやテーブルの掃除を手伝うことができます。
+
+    食堂の座席数は１１席。今は１人でご飯を食べる人が多いので、知らない客同士でも話が出来て、楽しく食べれる食堂になっています。
+
+Ponta," a diner with an unusual system, has opened in Okayama City, where people can get 800 yen worth of meal coupons if they help out at the restaurant for one hour. In the Okayama dialect, helping is called "Tego," and this diner calls it the "Tego System.
+    
+Since "Tego" is a helping hand, there is no employment relationship. Therefore, anyone can do it, including office workers, housewives, and children. A company employee can help with the opening preparations in between work, or an elementary school girl can help clean the chairs and tables.
+
+The cafeteria has 11 seats. Nowadays, many people eat dinner alone, so the cafeteria is a place where customers who don't know each other can talk and enjoy eating together.
+
+------------------------------------------------------------------------
+
+##### Chanko-Hot-Pot
+
+    冬の寒い日は、鍋料理を食べて体を温めたくなります。鍋料理の一つであるちゃんこ鍋は、お相撲さんが毎日食べる料理として知られています。
+    
+    お相撲さんはこのちゃんこ鍋を食べて、大きな体を作ります。お相撲さんはいっぱい食べることも修行の一つです。大きな体を作ることはお相撲さんにとってとても大切です。お相撲さんはちゃんこ鍋を丼で１０杯くらい食べます。
+
+    「ちゃん」と言うのは「お父さん」と言う意味で、「こ」は子供の意味です。子供と一緒に食べる鍋で、鍋の中にはいろんな野菜や魚、肉などが入っています。味の種類もたくさんあり、飽きる事がありません。
+
+On cold winter days, we like to eat hot pot dishes to warm ourselves up. Chanko-nabe, one of the hot pot dishes, is known as a dish that sumo wrestlers eat every day.
+    
+Sumo wrestlers build their big bodies by eating chanko-nabe. Eating a lot of food is part of the training for sumo wrestlers. Building a big body is very important for sumo wrestlers. Sumo wrestlers eat about 10 bowls of chanko-nabe.
+
+The word "chan" means "father" and "ko" means "child. It is a nabe that is eaten with children, and the nabe is filled with various vegetables, fish, and meat. There are many different flavors to choose from, so you will never get bored.
+
+------------------------------------------------------------------------
+
+### Stories {.tabset}
+
+#### Train
+
+    アヤコは毎日電車に乗ります。仕事に行くとき、買い物に行くとき、友達に会うとき、英会話のレッスンに行くとき、映画を見に行くとき、電車に乗ります。平日に仕事へ行くとき、アヤコは毎日同じ人達と同じ電車に乗ります。週末に出かけるとき、いつも違う人達が電車に乗ります。アヤコは電車に乗るとき、いつも不思議に思うことがあります。この人達は、どこから来て、どこへ行くのかな?今日は6月15日、日曜日の朝です。もうすぐ夏です。とてもいい天気 です。今日、アヤコは電車に乗って新しい映画を見に行きます。アヤコはゆっくり電車の中を見ました。日曜日の朝なので、電車に乗っている人は少ないです。アヤコの目の前には、小さな男の子と若い男の人が一緒に座っています。男の子はタブレットでビデオを見ています。若い男の人は電車の窓の外を眺めています。この二人は親子かな?生徒と先生かな?アヤコの隣に、女の人が一人で座っています。その女の人は青いワンピースを着ています。そして、携帯電話でだれかにメッセージを送っています。青いワンピースを着て、どこに行くんだろう?仕事の面接かな?それとも、友達の結婚式かな? アヤコは周りを見ます。見たことがある女の人がいます。その女の人はドアの近くに立って、本を読んでいます。アヤコは仕事に行くとき、毎日その人を見ます。でも、その女の人と話したことはありません。その女の人はいつも本を読んでいます。どうしよう?話してみようかな? でも、何を話そうかな?  アヤコは一生懸命考えます。一分、三分、そして十分が経ちました。次の駅で、アヤコは降りなければいけません。どうしよう?何を言おう?時間がない。電車は次の駅に到着します。その女の人も同じ駅で降りました。アヤコは急いで電車を降りて、大きな声でその人に話しかけました。「あの、こんにちは!」その人は返事をしませんでした。そして、歩いていきました。 アヤコはがっかりしました。そして、アヤコは映画館に行きました。アヤコが映画館に着いたとき、その女の人も映画館にいました。アヤコは、その女の人にあいさつをしようと思いました。その人は、字幕の映画を見たいので、映画館のスタッフと話していました。その人は、耳が不自由でした。だから、アヤコがあいさつしたとき、聞こえませんでした。そして、アヤコはその女の人に手紙を書きました。「一緒に映画を見ませんか?」今、アヤコは毎日電車でその女の人とノートとペンを使って映画の話をします。
+    
+Ayako rides trains every day. When she goes to work, goes shopping, meets with friends, goes to an English-conversation lesson, or goes to the movies, she rides trains. When she goes to work on weekdays, Ayako always rides the same train every day with the same people. When she goes out on weekends, there are always different people on the train. Whenever Ayako rides a train, there is something she always wonders about. Where do these people come from and where do these people go? Today is June 15th and it is a Sunday morning. Summer is just around the corner. It is a nice day. Today, Ayako takes the train and goes to see a new movie. Ayako slowly looked around in the train. Because it is a Sunday morning, there are not many people riding it. In front of Ayako, there are a small boy and a young man sitting together. The boy is watching a video on a tablet. The young man is looking outside the window of the train. Are they a child and father? Or, are they a student and teacher? Next to Ayako, there is a woman sitting by herself. She is wearing a blue dress and sending a message to someone on her cellphone. Where is she going in a blue dress? Does she have a job interview? Or, is she going to her friend’s wedding? Ayako is looking around. There is someone that she has seen before. This woman is standing near a door and reading a book. When she goes to work, Ayako sees this woman every day. But she has never talked to her before. This woman is always reading a book. What do I do? Maybe I want to talk to her? But what should I talk about? Ayako is thinking about what to say very hard. One minute, three minutes, ten minutes have passed. She needs to get off at the next station. What do I do? What do I say? There is no time left. The train stops at the next station. And the woman also got off at the same station. Ayako got off the train hurriedly and got to talk to the woman in a loud voice. “Um, hello!” The woman did not answer to Ayako and just walked away.  Ayako got disappointed. Ayako then went to the movie theater. When she arrived at the theater, that woman was also there. Ayako thought she was now going to say hi to her. The woman wanted to watch a subtitled movie so she was talking to a staff member of the theater. She was deaf. That’s why she could not hear it when Ayako said hi to her. Ayako then wrote a letter to the woman. “Would you like to watch a movie together?” Now Ayako and the woman talk about movies everyday on the train using a notebook and pen.
+
+------------------------------------------------------------------------
+
+#### Mountaineer
+
+    登山家は、山にある小屋で暮らしています。一人で元気に暮らしています。毎朝、三時間山を登ります。そして、野菜を育てて、食べています。登山家は、病院に行ったことがありません。とても元気なので、病気になったことがありません。今日も昼にキノコをとりに行きます。登山家は、キノコについてよく知っています。食べられるキノコと食べられないキノコがあります。その夜、登山家は病気になって、初めて救急車を電話で呼びました。病院に着いたとき、医者は言いました。「食べられないキノコを食べましたか?キノコはとても危険なので、気を付けてください。でも、もう大丈夫です。でも、目が悪くなっています。知っていましたか?休んだ方がいいですよ。」そして、登山家は毎年病院に行って、健康診断を受けます。
+
+A mountaineer lives in his hut in the mountains. He lives alone and has a very healthy life. Every morning, he goes on a hike for three hours. He grows vegetables and eats them. The mountaineer has never been to the hospital before. Because he lives a healthy life, he has never gotten sick. This afternoon, he goes to pick mushrooms in the mountains. The mountaineer knows a lot about mushrooms. There are mushrooms that are edible as well as mushrooms that are inedible. When he arrived at the hospital, the doctor said: “Did you eat inedible mushrooms? You have to be careful since mushrooms can be very dangerous. But everything is fine now. By the way, your eyes are getting weak. Did you know that? You should take a good rest.” Since then, the mountaineer goes to the hospital to receive a checkup every year
+
+------------------------------------------------------------------------
+
+### Dialogues {.tabset}
+
+#### 中級 {.tabset}
+
+##### 1 {.tabset}
+
+###### 1.1
+
+    🅰 早く片付けなさい。
+    🄱 わかってるって。今やろうって思ったのに！
+    🅰 いつもそう言うだけじゃない。
+    🄱 だって、いつもそう思ってるときに言うから。
+    
+<!-- <h> -->
+
+    🅰 雨降ってきそうだよ。傘持ってったら？
+    🄱 いいよ、めんどくさいし。
+    🅰 ほら、折りたたみだから。
+    🄱 いい、いい。そんなにどしゃぶりにはならないならないでしょ。
+
+<!-- <h> -->
+
+    🅰 ほら、この人どう？
+    🄱 いやだー。私の興味じゃない。
+    🅰 でもほら、年収だってこんなにあんのよ。
+    🄱 お金があればいいってもんじゃないでしょ。
+
+<!-- <h> -->
+
+    🅰 さすが、一流ホテルだけのことはあるね。
+    🄱 何感心してんの？
+    🅰 見てよ。あのシャンデリアの大きさ！
+    🄱 本当！直径５メートルはあるね。
+<!-- <h> -->
+
+    🅰 ぐずぐずしてないでさっさと出かけなさい
+    🄱 ちょっとお腹が痛くて..。
+    🅰 大丈夫。いつも通りテストが終われば、すぐ治るから。
+    🄱 違うってば~。今日は本当に痛いんだよ。
+
+<!-- <h> -->
+
+    🅰 ねー。このCMの人、中田友美恵だよね？ほら、この前のドラまに出てた..。
+    🄱 え、そう？わかんなかったよ。
+    🅰 うん、印象違うもんね。
+    🄱 そうだねー。あのドラマの時は老け役だったからね。
+
+------------------------------------------------------------------------
+
+###### 1.2
+
+------------------------------------------------------------------------
+
+###### 1.3
+
+------------------------------------------------------------------------
+
+##### 2 {.tabset}
+
+###### 2.1
+
+------------------------------------------------------------------------
+
+#### 上級 {.tabset}
+
+##### 1 {.tabset}
+
+###### 1.1
+
+    🅰 コーヒー、入れてくれない？。
+    🄱 いいよ、インスタンと？それとも豆からひく？
+    🅰 じゃ、せっかくだから豆からひいてもらおうかな。
+    🄱 え、めんどうなー。インスタントじゃだめ？
+    🅰 だったら、最初から聞くなよ。
+
+<!-- <h> -->
+
+    🅰 ううん、また胃がシクシク痛み出した。
+    🄱 どうしたの？胃炎？
+    🅰 将来のことを考え始めると痛くなるんだよ。
+    🄱 このご時勢、もっと図太く生きなきゃ。
+
+<!-- <h> -->
+
+    🅰 ちょっと、私、怒ってるんだけど。
+    🄱 え？何でそんなにプンプン怒っての？僕、なんか悪いことをした？
+    🅰 ふざけないで！前の彼女とデートしてるの見ちゃったんだから。
+    🄱 あ、あれは偶然会って立ち話してただけだよ。そばにいたなら、声かけてくれればよかったのにー。
+
+<!-- <h> -->
+
+    🅰 ねー、何もそんなにツンツンしなくて..。
+    🄱 いいえ。怒るなって言われても、今度ばかりは無理です。
+    🅰 だから、あれは君の誤解だって、さっきから言ってるだろう。
+    🄱 偶然会っても、立ち話なんてしてほしくないのよね、私としては..。
+<!-- <h> -->
+
+    🅰 そんなにキンキンどなったら、周りの人が見るだろう。
+    🄱 見られたって構いません。悪いのはあなたなんだし..。
+    🅰 わかったわかった、謝ります。もう二度と君を傷つけるようなことはしません。
+    🄱 本当？心からそう思ってる？
+    🅰 もちろんだよ。僕の心の中には君しかいないって！
+
+<!-- <h> -->
+
+    🅰 ねー。もう１２月も半ばだし、そろそろおせちのこと考えないとね。
+    🄱 うーん、適当に決めてくれよ。家事は君に任せてあるんだから..。
+    🅰 あ、そう？じゃー、おせちなしっていう選択でもいいわけね。大体、おせち食べるのはあなただけなんだから。
+    🄱 それを言っちゃ、身もふたもないな。
+
 ------------------------------------------------------------------------
 
 ## 日本語-筆記 {.tabset}
 
 ### 語彙 {.tabset}
 
-#### Web-News-Easy {.tabset}
+#### Web-News {.tabset}
 
-##### 1
+##### Easy {.tabset}
+
+###### 1
 
 山形県・やまがたけん・`Yamagata Prefecture (Tohoku Area)`   
 鶴岡市・つるおかし・`Tsuruoka City`   
@@ -1469,23 +1864,40 @@ Polar bears are very good swimmers, with their large paws equipped with paddles.
 
 ------------------------------------------------------------------------
 
-##### 2
+###### 2
 
 ------------------------------------------------------------------------
 
-##### 3
+###### 3
 
 ------------------------------------------------------------------------
 
-##### 4
+###### 4
 
 ------------------------------------------------------------------------
 
-##### 5
+###### 5
 
 ------------------------------------------------------------------------
 
-##### 6
+###### 6
+
+------------------------------------------------------------------------
+
+##### Standard {.tabset}
+
+###### Bags
+
+ランドセル`Backpack for elementary school children`  
+人気の色は？`What are the most popular colors?`  
+金額は？`What's the amount?`  
+最新事情`Latest circumstances/conditions/situation/state`  
+背負って`to carry on one's back`  
+教科書や持ち物を詰めすぎてパンパンに  
+`Overstuffed with textbooks and personal belongings`  
+持ち物`personal effects`  
+詰めすぎ`packed/stuffed too much`  
+パンパンに`bulging/filled to bursting`
 
 ------------------------------------------------------------------------
 
@@ -1493,42 +1905,32 @@ Polar bears are very good swimmers, with their large paws equipped with paddles.
 
 ##### ラーメン
 
-日本で育ち・にほんでそだち・`grow・breed in Japan`   
-世界に進出した・せかいにしんしゅつ・`advancing・expanding・emerging in the world`  
-数多・あまた・すうた・`many・a lot・much・multitude`  
-
+日本で育ち`grow・breed in Japan`   
+世界に進出した`advancing・expanding・emerging in the world`  
+数多`many・a lot・much・multitude`  
 ラーメンという料理ほど独特な存在はなく  
 `There is no more unique existence than the dish of ramen`   
-
-同時に・どうじに・`coincident with・while・simultaneously`  
-業態・ぎょうたい・`business condition・line of business`  
-独特・どくとく・`peculiarity・uniqueness・characteristic`  
-存在・そんざい・`existence・being`
-
+同時に`coincident with・while・simultaneously`  
+業態`business condition・line of business`  
+独特`peculiarity・uniqueness・characteristic`  
+存在`existence・being`  
 同時に「ラーメン店」という業態も他の飲食店には見られない独特な業態である  
 `At the same time, the "ramen restaurant" business is a unique type of business that cannot be found in any other restaurant`    
-
-源流・げんりゅう・`source・origin of something continuous (language, culture, etc)`   
-麺・めん・`noodles`  
-
-客観的・きゃっかんてき・`objective`   
-客観的に見て・きゃっかんてきにみて・`looking objectively`   
-客観的に見ても・きゃっかんてきにみても・`even if you look at it objectively`   
-
+源流`source・origin of something continuous (language, culture, etc)`   
+麺`noodles`  
+客観的`objective`   
+客観的に見て`looking objectively`   
+客観的に見ても`even if you look at it objectively`   
 客観的に見ても間違いのないところである    
 `There is no mistake even if you look at it objectively`    
-
 日本で最初にラーメンを出したと言われる   
 `Said to be the first to serve ramen in Japan`     
-
-来々軒・らいらいけん・`Rairaiken`  　　　  
-浅草・あさくさ・`Asakusa`    
-年創業・としそうぎょう・`year of establishment`   　　
-
+来々軒`Rairaiken`  　　　  
+浅草`Asakusa`    
+年創業`year of establishment`   　　
 日本で最初にラーメンを出したと言われる『来々軒』（浅草・1910年創業）は、 
 `Rairaiken" (Asakusa, founded in 1910) is said to be the first ramen restaurant in Japan`   
-    
-焼売（シューマイ）や中華丼なども提供する大衆向けの中華料理店であった   
+焼売や中華丼なども提供する大衆向けの中華料理店であった   
 `It was a Chinese restaurant for the masses that also served siomai (fried pork dumplings) and Chinese rice bowls`   
 
 ------------------------------------------------------------------------
@@ -1560,9 +1962,9 @@ AはBほど (verb) ない
 
 ③ Not as ~ as someone has imagined・thought・expected    
     
-思ったほど・おもったほど`as ~ as someone thought`    
-想像していたほど・そうぞうしていたほど`many as ~ as someone imagined`  
-想像していたほど・きたいしていたほど`many as ~ as someone expected`    
+思ったほど`as ~ as someone thought`    
+想像していたほど`many as ~ as someone imagined`  
+想像していたほど`many as ~ as someone expected`    
 
     ・試験は、思ったほど難しくなかった  
     ・その店は評判ほど悪い店ではありませんでした
