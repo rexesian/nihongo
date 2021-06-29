@@ -6620,8 +6620,12 @@ reactable(
         Romaji <- if (!is.na(Romaji)) Romaji else "Unknown"
         Meaning <- srvb1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-
+        Kanji1 <- srvb1$Kanji1[index]
+        Kanji1 <- if (!is.na(Kanji1)) Kanji1 else "Unknown"
+        Kanji2 <- srvb1$Kanji2[index]
+        Kanji2 <- if (!is.na(Kanji2)) Kanji2 else "Unknown"
         tagList(
+          div(style = list(fontSize = 13), Kanji1, "・", Kanji2),
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 200), Romaji),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)

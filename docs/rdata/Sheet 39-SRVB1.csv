@@ -1,11 +1,11 @@
 Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 愛用する,aiyō,(trans.),"to use regularly,patronize","愛 - love, affection, care, to love","用 - use, errand, task, to use"
-アクセスする,akusesu,(intrans.),to access (for Internet),na,na
+アクセスする,akusesu,(intrans.),to access (for Internet),・,・
 案内する,annai,(trans.),"to guide, lead","案 - idea, plan, proposal, expectation, to be anxious","内 - inside, among, within"
 安心する,anshin,(intrans.),"to be relieved, feel secure","安 - cheap, relax, contented","心 - mind, heart, spirit"
 安定する,antei,(intrans.),"to be steady, stable","安 - cheap, relax, contented","定 - determine, fix, establish, to decide"
-アップする,appu,(trans.),to upload (for Internet),na,na
-アレンジする,arenji,(trans.),to arrange,na,na
+アップする,appu,(trans.),to upload (for Internet),・,・
+アレンジする,arenji,(trans.),to arrange,・,・
 爆発する,bakuhatsu,(intrans.),"to explode, burst, blow up","爆 - bomb, burst open, pop, split","発 - departure, discharge, publish, emit"
 弁護する,bengo,(trans.),"to defend, testify for","弁 - valve, petal, braid, speech, dialect","護 - safeguard, protect"
 勉強する,benkyō,(trans.),"to study, to give a discount","勉 - exertion, endeavour, strive",強 - strong
@@ -13,26 +13,26 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 防止する,bōshi,(trans.),"to prevent, keep in check","防 - ward off, defend, protect, resist","止 - stop, halt"
 募集する,boshū,(trans.),"to recruit, collect","募 - recruit, campaign, gather","集 - gather, meet, congregate"
 分析する,bunseki,(trans.),"to analyze, break down","分 - part, minute of time, segment","析 - chop, divide, tear, analyze"
-チャレンジする,charenji,(intrans.),to challenge,,
+チャレンジする,charenji,(intrans.),to challenge,・,・
 遅刻する,chikoku,(intrans.),"to be late, tardy","遅 - slow, late, back, later","刻 - engrave, cut fine, chop, time"
 貯金する,chokin,(intrans.),to save money,"貯 - savings, store, lay in",金 - gold
 調査する,chōsa,(trans.),"to investigate, inquire into, examine","調 - tune, tone, meter, key (music), investigate",査 - investigate
 調整する,chōsei,(trans.),"to regulate, adjust","調 - tune, tone, meter, key (music), investigate","整 - organize, arranging, tune, tone"
-ちゅうちょする,chūcho,(trans.),"to hesitate, waver, vacillate",,
+ちゅうちょする,chūcho,(trans.),"to hesitate, waver, vacillate",・,・
 注意する,chūi,(intrans.),"to be careful of, pay attention to","注 - pour, irrigate, shed (tears), flow into","意 - idea, mind, heart, taste, thought"
 中継する,chūkei,(trans.),to relay (a broadcast),"中 - in, inside, middle, mean, center","継 - inherit, succeed, continue, patch"
 忠告する,chūkoku,(trans.),to warn,"忠 - loyalty, fidelity, faithfulness","告 - revelation, tell, inform, announce"
 注目する,chūmoku,(trans.),"to observe, take notice of","注 - pour, irrigate, shed (tears), flow into","目 - eye, class, look, insight"
 注文する,chūmon,(trans.),"to order (food, goods)","注 - pour, irrigate, shed (tears), flow into","文 - sentence, literature, style, art"
 中止する,chūshi,(trans.),"to stop, discontinue, call off","中 - in, inside, middle, mean, center","止 - stop, halt"
-ダウンロードする,daunrōdo,(trans.),to download (for Internet),na,na
+ダウンロードする,daunrōdo,(trans.),to download (for Internet),・,・
 妥協する,dakyō,(intrans.),to compromise,"妥 - gentle, peace, depravity","協 - co-, cooperation"
-ダンスする,dansu,(intrans.),to dance,na,na
+ダンスする,dansu,(intrans.),to dance,・,・
 電話する,denwa,(intrans.),to make a telephone call,電 - electricity,"話 - tale, talk"
 独立する,dokuritsu,(intrans.),to become independent,"独 - single, alone, spontaneously","立 - stand up, rise, set up"
 同意する,dōi,(intrans.),"to agree, approve","同 - same, agree, equal","意 - idea, mind, heart, taste, thought"
 導入する,dōnyū,(trans.),"to bring in, introduce","導 - guidance, leading, conduct, usher","入 - enter, insert"
-ドラッグする,doraggu,(trans.),to drag with a (computer) mouse,na,na
+ドラッグする,doraggu,(trans.),to drag with a (computer) mouse,・,・
 努力する,doryoku,(intrans.),"to make an effort, work hard","努 - toil, diligent, as much as possible","力 - power, strength, strong, strain"
 営業する,eigyō,(trans.),"to do business, be open","営 - occupation, camp, perform, build","業 - business, vocation, arts, performance"
 影響する,eikyō,(intrans.),"to influence, affect","影 - shadow, silhouette, phantom","響 - echo, sound, resound, ring, vibrate"
@@ -41,8 +41,8 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 援助する,enjo,(trans.),"to assist, help, support, aid","援 - abet, help, save","助 - help, rescue, assist"
 延期する,enki,(trans.),"to postpone, put off","延 - prolong, stretching","期 - period, time, date, term"
 遠慮する,enryo,(trans.),"to refrain, hold back","遠 - distant, far","慮 - prudence, thought, concern, consider"
-ファックスする,fakkusu,(trans.),to fax,na,na
-フォローする,forō,(trans.),to follow on line,na,na
+ファックスする,fakkusu,(trans.),to fax,・,・
+フォローする,forō,(trans.),to follow on line,・,・
 復活する,fukkatsu,(trans.),"to revive, restore","復 - restore, return to, revert, resume","活 - lively, resuscitation, being helped, living"
 復習する,fukushū,(trans.),"to review, go over","復 - restore, return to, revert, resume",習 - learn
 復讐する,fukushū,(intrans.),to revenge,"復 - restore, return to, revert, resume","讐 - enemy, revenge"
@@ -57,7 +57,7 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 誤解する,gokai,(trans.),to misunderstand,"誤 - mistake, err, do wrong, mislead","解 - unravel, notes, key, explanation"
 合格する,gōkaku,(intrans.),to pass an examination,"合 - fit, suit, join","格 - status, rank, capacity, character"
 合計する,gōkei,(trans.),"to add up, total","合 - fit, suit, join","計 - plot, plan, scheme, measure"
-ハグする,hagu,(trans.),to hug,na,na
+ハグする,hagu,(trans.),to hug,・,・
 廃止する,haishi,(trans.),"to abolish, do away with, repeal","廃 - abolish, obsolete, cessation, discarding","止 - stop, halt"
 配達する,haitatsu,(trans.),to deliver,"配 - distribute, spouse, exile, rationing","達 - accomplished, reach, arrive, attain"
 破壊する,hakai,(trans.)(intrans.),"to destroy, break, ruin","破 - rend, rip, tear, break, destroy","壊 - demolition, break, destroy"
@@ -89,14 +89,14 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 依頼する,irai,(trans.),"to request, ask","依 - reliant, depend on, consequently, therefore","頼 - trust, request"
 一致する,itchi,(intrans.),"to agree with, be in unison","一 - one, one radical (no.1)","致 - doth, do, send, forward, cause, exert, incur"
 意図する,ito,(trans.),"to intend to do, make a goal","意 - idea, mind, heart, taste, thought, desire, care","図 - map, drawing, plan, extraordinary"
-ジャンプする,janpu,(intrans.),to jump,na,na
+ジャンプする,janpu,(intrans.),to jump,・,・
 実験する,jikken,(trans.),to experiment,"実 - reality, truth, seed, fruit, nut","験 - verification, effect, testing"
 実行する,jikkō,(trans.),"to carry out, execute","実 - reality, truth, seed, fruit, nut","行 - going, journey, carry out, conduct"
 自慢する,jiman,(trans.),"to be proud, boast of, take pride in",自 - oneself,"慢 - ridicule, laziness"
 自立する,jiritsu,(intrans.),to become independent,自 - oneself,"立 - stand up, rise, set up"
 辞職する,jishoku,(trans.),to resign,"辞 - resign, word, term, expression","職 - post, employment, work"
 実現する,jitsugen,(intrans.,"to be realized, come true","実 - reality, truth, seed, fruit, nut","現 - present, existing, actual"
-ジョギングする,jogingu,(intrans.),to jog,na,na
+ジョギングする,jogingu,(intrans.),to jog,・,・
 上映する,jōei,(trans.),to show a film,"上 - above, up","映 - reflect, reflection, projection"
 譲歩する,jōho,(trans.),"to concede, give way to","譲 - defer, turnover, transfer, convey","歩 - walk, counter for steps"
 上昇する,jōshō,(intrans.),"to go up, rise, ascend","上 - above, up",昇 - rise up
@@ -124,7 +124,7 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 仮定する,katei,(trans.),"to assume, suppose","仮 - sham, temporary, interim, assumed (name)","定 - determine, fix, establish, decide"
 活動する,katsudō,(intrans.),to be active,"活 - lively, resuscitation, being helped, living","動 - move, motion, change, confusion, shift"
 活躍する,katsuyaku,(intrans.),"be active in, take an active part","活 - lively, resuscitation, being helped, living","躍 - leap, dance, skip"
-カットする,katto,(trans.),to cut,na,na
+カットする,katto,(trans.),to cut,・,・
 経営する,keiei,(trans.),"to manage, conduct, run (a business)","経 - sutra, longitude, pass thru, expire, warp","営 - occupation, perform, build, conduct (business)"
 経過する,keika,(intrans.),"to pass, elapse, expire","経 - sutra, longitude, pass thru, expire, warp","過 - overdo, exceed, go beyond, error"
 計画する,keikaku,(trans.),to plan,"計 - plot, plan, scheme, measure","画 - brush-stroke, picture"
@@ -133,34 +133,34 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 契約する,keiyaku,(trans.),"to contract, make a contract with","契 - pledge, promise, vow","約 - promise, approximately, to shrink"
 結婚する,kekkon,(intrans.),to marry,"結 - tie, bind, contract, join, organize, do up hair",婚 - marriage
 見物する,kenbutsu,(trans.),to go sightseeing,"見 - see, hopes, chances, idea, opinion, look at","物 - thing, object, matter"
-けんかする,kenka,(intrans.),"to quarrel, fight",na,na
+けんかする,kenka,(intrans.),"to quarrel, fight",・,・
 研究する,kenkyū,(trans.),"to study, research","研 - polish, study of, sharpen","究 - research, study"
 研修する,kenshū,(trans.),"to study, train, intern","研 - polish, study of, sharpen","修 - discipline, conduct oneself well, study, master"
 検討する,kentō,(trans.),"to examine, investigate, think over","検 - examination, investigate","討 - chastise, attack, defeat, destroy, conquer"
 欠席する,kesseki,(intrans.),to be absent,"欠 - lack, gap, fail, yawning radical","席 - seat, mat, occasion, place"
 決心する,kesshin,(intrans.),"to make up one’s mind, decide","決 - decide, fix, agree upon, appoint","心 - mind, heart, spirit"
 決定する,kettei,(trans.),"to decide, determine","決 - decide, fix, agree upon, appoint","定 - determine, fix, establish, decide"
-キープする,kiipu,(trans.),to keep,na,na
-キックする,kikku,(trans.),to kick,na,na
+キープする,kiipu,(trans.),to keep,・,・
+キックする,kikku,(trans.),to kick,・,・
 緊張する,kinchō,(intrans.),"to be tense, nervous","緊 - tense, solid, hard, reliable, tight","張 - lengthen, counter for stringed instr., stretch"
 記念する,kinen,(trans.),to commemorate,"記 - scribe, account, narrative","念 - wish, sense, idea, thought, feeling, desire"
 記録する,kiroku,(trans.),"to record, write down","記 - scribe, account, narrative",録 - record
-キスする,kisu,(intrans.),to kiss,,
+キスする,kisu,(intrans.),to kiss,・,・
 期待する,kitai,(trans.),"to expect, hope","期 - period, time, date, term","待 - wait, depend on"
 攻撃する,kōgeki,(trans.),"to attack, charge, criticize","攻 - aggression, attack, criticize, polish","撃 - beat, attack, defeat, conquer"
 工事する,kōji,(intrans.),to construct,"工 - craft, construction","事 - matter, thing, fact, business, reason, possibly"
 後悔する,kōkai,(trans.),"to regret, repent, be sorry","後 - behind, back, later","悔 - repent, regret"
 交換する,kōkan,(trans.),to exchange,"交 - mingle, mixing, association, coming & going","換 - interchange, period, change, convert, replace"
 混乱する,konran,(intrans.),"to be confused, be in disorder","混 -mix, blend, confuse","乱 - riot, war, disorder, disturb"
-コントロールする,kontorōru,(trans.),to control,na,na
-コピーする,kopii,(trans.),to make a copy,na,na
+コントロールする,kontorōru,(trans.),to control,・,・
+コピーする,kopii,(trans.),to make a copy,・,・
 考慮する,kōryo,(trans.),"to consider, think over","考 - consider, think over","慮 - prudence, thought, concern, consider"
 交流する,kōryū,(intrans.),"to exchange (ideas, culture)","交 - mingle, mixing, association, coming & going","流 - current, a sink, flow, forfeit"
 故障する,koshō,(intrans.),to break down,"故 - especially, intentionally, reason, cause","障 - hinder, hurt, harm"
 交渉する,kōshō,(intrans.),to negotiate,"交 - mingle, mixing, association, coming & going","渉 - ford, go cross, transit, ferry, import, involve"
 交代する,kōtai,(intrans.),"to take turns, take a person’s place","交 - mingle, mixing, association, coming & going","代 - substitute, change, convert, replace, period, age"
-クリックする,kurikku,(trans.),to click with a mouse,na,na
-キャンセルする,kyanseru,(trans.),to cancel,na,na
+クリックする,kurikku,(trans.),to click with a mouse,・,・
+キャンセルする,kyanseru,(trans.),to cancel,・,・
 拒否する,kyohi,(trans.),"to refuse, reject, deny","拒 - repel, refuse, reject, decline","否 - negate, no, noes, refuse, decline, deny"
 教育する,kyōiku,(trans.),to educate,"教 - teach, faith, doctrine","育 - bring up, grow up, raise, rear"
 許可する,kyoka,(trans.),to permit,"許 - permit, approve","可 - can, passable, mustn't, should not, do not"
@@ -170,11 +170,11 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 救助する,kyūjo,(trans.),"to rescue, help","救 - salvation, save, help, rescue, reclaim","助 - help, rescue, assist"
 休憩する,kyūkei,(intrans.),"to rest, take a break","休 - rest, day off, retire, sleep","憩 - recess, rest, relax, repose"
 吸収する,kyūshū,(trans.),to absorb,"吸 - suck, imbibe, inhale, sip","収 - income, obtain, reap, pay, supply, store"
-メールする,mēru,(intrans.),to send an email,na,na
+メールする,mēru,(intrans.),to send an email,・,・
 迷惑する,meiwaku,(intrans.),to be troubled/annoyed,"迷 - astray, be perplexed, in doubt, lost, err","惑 - beguile, delusion, perplexity"
 面接する,mensetsu,(intrans.),to interview,"面 - mask, face, features, surface","接 - touch, contact, adjoin, piece together"
-ミックスする,mikkusu,(trans.),to mix,na,na
-ミスする,misu,(trans.,"to make a mistake, to miss",na,na
+ミックスする,mikkusu,(trans.),to mix,・,・
+ミスする,misu,(trans.,"to make a mistake, to miss",・,・
 黙認する,mokunin,(trans.),to permit or approve tacitly,"黙 - silence, become silent, stop speaking","認 - acknowledge, witness, discern, recognize"
 矛盾する,mujun,(intrans.),"to be contradictory, to conflict","矛 - halberd, arms, festival float","盾 - shield, escutcheon, pretext"
 無視する,mushi,(trans.),"to ignore, disregard","無 - nothingness, none, ain't, nothing, nil, not","視 - inspection, regard as, see, look at"
@@ -185,16 +185,16 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 応援する,ōen,(trans.),"to aid, support, encourage, cheer","応 - apply, answer, yes, ok, reply, accept","援 - abet, help, save"
 往復する,ōfuku,(intrans.),to go and return,"往 - journey, travel, chase away, let go, going","復 - restore, return to, revert, resume"
 応用する,ōyō,(trans.),"to apply, put into practice","応 - apply, answer, yes, ok, reply, accept","用 - use, errand, task"
-パスする,pasu,(trans.）,to pass (mainly used in sports),na,na
+パスする,pasu,(trans.）,to pass (mainly used in sports),・,・
 落第する,rakudai,(intrans.),"to fail an exam, be rejected","落 - fall, drop, come down, village, hamlet","第 - No., residence"
 落選する,rakusen,(intrans.),to be defeated in an election,"落 - fall, drop, come down, village, hamlet","選 - elect, select, choose, prefer"
 連絡する,renraku,(intrans.,"to contact, get in touch","連 - to take along, lead, join, connect, party, gang","絡 - to entwine, coil around, get caught in"
 練習する,renshū,(trans.),"to practice, exercise","練 - practice, gloss, train, drill, polish, refine",習 - learn
-リードする,riido,(trans.),to lead,na,na
+リードする,riido,(trans.),to lead,・,・
 理解する,rikai,(trans.),"to understand, comprehend","理 - logic, arrangement, reason, justice, truth","解 - unravel, notes, key, explanation"
 離婚する,rikon,(intrans.),to divorce,"離 - detach, separation, disjoin, digress",婚 - marriage
 利用する,riyō,(trans.),to make use of,"利 - profit, advantage, benefit","用 - use, errand, task"
-ロックする,rokku,(trans.),to lock,na,na
+ロックする,rokku,(trans.),to lock,・,・
 録音する,rokuon,(trans.),to record (sound),録 - record,"音 - sound, noise"
 浪費する,rōhi,(trans.),"to waste (money or time), throw away","浪 - wandering, waves, billows, reckless","費 - expense, cost, spend, consume, waste"
 旅行する,ryokō,(intrans.),to travel,"旅 - trip, travel","行 - going, journey, carry out, conduct, to go"
@@ -215,7 +215,7 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 洗濯する,sentaku,(trans.),to wash (clothes),"洗 - to wash, inquire into, probe","濯 - laundry, wash, pour on,  to rinse"
 説明する,setsumei,(trans.),to explain,"説 - opinion, theory, rumor, to explain","明 - bright, light, the day breaks"
 節約する,setsuyaku,(trans.),"to economize, skimp, save","節 - node, season, period, occasion, verse, clause","約 - promise, approximately, to shrink"
-セットする,setto,(trans.),to set,na,na
+セットする,setto,(trans.),to set,・,・
 説得する,settoku,(trans.),to persuade,"説 - opinion, theory, rumor, to explain","得 - gain, get, find, earn, acquire, can, may, able to"
 世話する,sewa,(trans.),"to take care of, look after (someone)","世 - generation, world, society, public","話 - tale, talk"
 指導する,shidō,(trans.),to lead guide,"指 - finger, point to, indicate, put into","導 - guidance, leading, conduct, usher"
@@ -258,14 +258,14 @@ Kanji,Romaji,Type,Meaning,Kanji1,Kanji2
 卒業する,sotsugyō,(trans.),to graduate from,"卒 - graduate, soldier, private, die","業 - business, vocation, arts, performance"
 想像する,sōzō,(trans.),"to imagine, guess","想 - concept, think, idea, thought","像 - statue, picture, image, figure, portrait"
 推薦する,suisen,(trans.),to recommend,"推 - conjecture, infer, guess, suppose, support, push","薦 - recommend, mat, advise, encourage, offer"
-スタートする,sutāto,(intrans.),to start,na,na
+スタートする,sutāto,(intrans.),to start,・,・
 逮捕する,taiho,(trans.),"to arrest, apprehend","逮 - apprehend, chase","捕 - catch, capture"
 退院する,taiin,(intrans.),to be released from a hospital,"退 - retreat, withdraw, retire, resign, repel, expel, reject","院 - Inst., institution, temple, mansion, school"
 対立する,tairitsu,(intrans.),to be opposed,"対 - vis-a-vis, opposite, even, equal, versus, anti-","立 - stand up, rise, set up"
 探検する,tanken,(trans.),to explore,"探 - grope, search, look for","検 - examination, investigate"
 担当する,tantō,(trans.),to take charge of,"担 - shouldering, carry, raise, bear","当 - hit, right, appropriate, himself"
 達成する,tassei,(trans.),"to achieve, attain, accomplish","達 - accomplished, reach, arrive, attain","成 - turn into, become, get, grow, elapse, reach"
-タッチする,tacchi,(intrans.),to touch,na,na
+タッチする,tacchi,(intrans.),to touch,・,・
 提案する,teian,(trans.),"to propose, suggest","提 - propose, take along","案 - plan, suggestion, draft, ponder"
 提出する,teishutsu,(trans.),"to submit, present","提 - propose, take along","出 - exit, leave, go out, come out, put out, protrude"
 徹夜する,tetsuya,(intrans.),to work all night,"徹 - penetrate, clear, pierce, strike home","夜 - night, evening "
