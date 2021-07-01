@@ -1,12 +1,59 @@
-Kanji,Base.Reading,Base.Meaning,Words,Reading,Meaning
-導,"DOU, michibi-ku","guidance, leading, conduct",指導,しどう,"guidance, leadership, instruction, direction, coaching"
-導,"DOU, michibi-ku","guidance, leading, conduct",導入,どうにゅう,"introduction, bringing in, leading in, installation"
-導,"DOU, michibi-ku","guidance, leading, conduct",誘導,ゆうどう,"guidance, leading, induction, introduction, incitement, inducement"
-導,"DOU, michibi-ku","guidance, leading, conduct",先導,せんどう,"guidance, leadership, leading the way"
-導,"DOU, michibi-ku","guidance, leading, conduct",主導,しゅどう,"leadership, initiative, spearhead"
-導,"DOU, michibi-ku","guidance, leading, conduct",導く,みちびく,"to guide, to lead, to show the way, to conduct, to derive, to deduce"
-誘,"YUU, saso-u","entice, lead, tempt, invite",誘惑,ゆうわく,"temptation, allurement, lure, enticement, seduction"
-誘,"YUU, saso-u","entice, lead, tempt, invite",勧誘,かんゆう,"invitation, solicitation, canvassing, canvasing, inducement, persuasion"
-誘,"YUU, saso-u","entice, lead, tempt, invite",誘拐,ゆうかい,"abduction, kidnapping, kidnaping"
-誘,"YUU, saso-u","entice, lead, tempt, invite",誘導,ゆうどう,"guidance, leading, induction, introduction, incitement, inducement"
-誘,"YUU, saso-u","entice, lead, tempt, invite",誘う,さそう,"to invite, to ask, to call (for), to take (someone) along, to tempt, to lure, to entice"
+Kanji,Base.Reading,Base.Meaning,Words,Reading,Meaning,s1,s2
+導,"DOU, michibi-ku","guidance, leading, conduct",指導,しどう,"guidance, leadership, instruction, direction, coaching",子供たちを指導する立場にある人,救急隊員に応急手当のし方を指導してもらう
+導,"DOU, michibi-ku","guidance, leading, conduct",導入,どうにゅう,"introduction, bringing in, leading in, installation",新しい技術を導入する,コンピューターを導入する
+導,"DOU, michibi-ku","guidance, leading, conduct",誘導,ゆうどう,"guidance, leading, induction, introduction, incitement, inducement",人々を避難場所へ誘導する,避難する場合は係員の誘導に従ってください
+導,"DOU, michibi-ku","guidance, leading, conduct",先導,せんどう,"guidance, leadership, leading the way",案内者に先導されて,先導的役割を果たす
+導,"DOU, michibi-ku","guidance, leading, conduct",主導,しゅどう,"leadership, initiative, spearhead",内閣主導の政策決定,国内需要主導の経済成長
+導,"DOU, michibi-ku","guidance, leading, conduct",導く,みちびく,"to guide, to lead, to show the way, to conduct, to derive, to deduce",案内人に導かれて,状況を有利な方向に導く
+誘,"YUU, saso-u","entice, lead, tempt, invite",誘惑,ゆうわく,"temptation, allurement, lure, enticement, seduction",,
+誘,"YUU, saso-u","entice, lead, tempt, invite",勧誘,かんゆう,"invitation, solicitation, canvassing, canvasing, inducement, persuasion",,
+誘,"YUU, saso-u","entice, lead, tempt, invite",誘拐,ゆうかい,"abduction, kidnapping, kidnaping",,
+誘,"YUU, saso-u","entice, lead, tempt, invite",誘導,ゆうどう,"guidance, leading, induction, introduction, incitement, inducement",,
+誘,"YUU, saso-u","entice, lead, tempt, invite",誘う,さそう,"to invite, to ask, to call (for), to take (someone) along, to tempt, to lure, to entice",,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",訪問,ほうもん,"call, visit",,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",訪日,ほうにち,visit to Japan,,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",来訪,らいほう,"visit, call",,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",訪問者,ほうもんしゃ,visitor,,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",戸別訪問,こうべつほうもん,door-to-door visit,,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",訪ねる,たずねる,"to visit, to call on, to pay a visit to",,
+訪,"HOU, tazu-neru, otozu-reru","call on, visit, look up",訪れる,おとずれる,"to visit, to call on, to arrive (season, time, etc. ), to appear, to come",,
+堪,"KAN, TAN, ta-eru, tama-ru, kora-eru","withstand, endure, support, resist",堪能,たんのう,"proficient, skillful, enjoying, satisfaction",,
+堪,"KAN, TAN, ta-eru, tama-ru, kora-eru","withstand, endure, support, resist",堪える,たえる,"to bear, to endure, to support, to withstand, to be fit for",,
+堪,"KAN, TAN, ta-eru, tama-ru, kora-eru","withstand, endure, support, resist",堪らない,たまらない,"intolerable, unbearable, irresistible",,
+堪,"KAN, TAN, ta-eru, tama-ru, kora-eru","withstand, endure, support, resist",堪える,こらえる,"to bear, to stand, to endure, to restrain, to control, to put up with",,
+志,SHI,"intention, plan, aspire, motive",意志,いし,"will, volition, intention, intent",,
+志,SHI,"intention, plan, aspire, motive",同志,どうし,"like-mindedness, on same mind, shared sentiment",,
+志,SHI,"intention, plan, aspire, motive",志望,しぼう,"wish, desire, ambition",,
+志,SHI,"intention, plan, aspire, motive",志向,しこう,"intention, aim, preference (for), orientation (towards a goal)​",,
+志,SHI,"intention, plan, aspire, motive",志願,しがん,"aspiration, volunteering, desire, application",,
+志,SHI,"intention, plan, aspire, motive",闘志,とうし,"fighting spirit, (will to) fight",,
+志,SHI,"intention, plan, aspire, motive",有志,ゆうし,"interested person, volunteer, supporter",,
+想,SOU,"concept, think, idea, thought",理想,りそう,"ideal, ideals​",,
+想,SOU,"concept, think, idea, thought",予想,よそう,"expectation, anticipation, prediction, forecast, conjecture",,
+想,SOU,"concept, think, idea, thought",思想,しそう,"thought, idea, ideology",,
+想,SOU,"concept, think, idea, thought",想像,そうぞう,"imagination, guess",,
+想,SOU,"concept, think, idea, thought",空想,くうそう,"daydream, fantasy, fancy, vision",,
+想,SOU,"concept, think, idea, thought",連想,れんそう,"association (of ideas), being reminded (of something), suggestion",,
+想,SOU,"concept, think, idea, thought",感想,かんそう,"impressions, thoughts, feelings, reactions",,
+想,SOU,"concept, think, idea, thought",発想,はっそう,"idea, conception, way of thinking, approach, expression",,
+想,SOU,"concept, think, idea, thought",愛想,あいそう,"amiability, friendliness, affability, sociability, fondness, affection",,
+想,SOU,"concept, think, idea, thought",構想,こうそう,"plan, plot, idea, conception, vision, scheme",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成功,せいこう,"success, hit",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",賛成,さんせい,"approval, agreement, support, favour, favor",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",結成,けっせい,"formation, combination",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成長,せいちょう,"growth, development, growing up, becoming an adult",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成績,せいせき,"results, record, grades, marks",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",完成,かんせい,"complete, completion, perfection, accomplishment",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",構成,こうせい,"composition, construction, formation, makeup, structure, organization",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成人,せいじん,adult,,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",作成,さくせい,"drawing up, preparing, writing, framing, making, producing, creating",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成立,せいりつ,"formation, establishment, materialization, coming into existence, conclusion, being valid",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成分,せいぶん,"ingredient, component, composition",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",達成,たっせい,"achievement, attainment, accomplishment, realization",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成果,せいか,"result, outcome, fruits (of one's labors), product",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",形成,けいせい,"formation, molding, making up, taking form",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成年,せいねん,"adult age, majority",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成熟,せいじゅく,"maturity, ripeness",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",育成,いくせい,"rearing, training, nurture, cultivation, promotion",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",養成,ようせい,"training, education, development, cultivation",,
+成,"SEI, na-ru, na-su","turn into, become, get, grow",成る,なる,"to become, to get, to grow, to turn, to reach",,
