@@ -133,7 +133,7 @@ reactable(
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -174,6 +174,7 @@ reactable(
 
 ###### Recall
 
+n1k1 <- n1k1[sample(1:nrow(n1k1)),]
 ```{r echo=FALSE, message=FALSE}
 
 reactable(
@@ -229,7 +230,7 @@ reactable(
           # div(style = list(fontSize = 13, fontWeight = 600), Reading),
           # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -388,7 +389,7 @@ reactable(
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -430,6 +431,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
+n2k2 <- n2k2[sample(1:nrow(n2k2)),]
 reactable(
   n2k2,
   columns = list(
@@ -480,7 +482,7 @@ reactable(
           # div(style = list(fontSize = 13, fontWeight = 600), Reading),
           # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -611,6 +613,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
+n3k3 <- n3k3[sample(1:nrow(n3k3)),]
 reactable(
   n3k3,
   columns = list(
@@ -748,7 +751,7 @@ reactable(
           div(style = list(fontSize = 13, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning),
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -790,6 +793,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
+rnlv <- rnlv[sample(1:nrow(rnlv)),]
 reactable(
   rnlv,
   columns = list(
@@ -840,7 +844,7 @@ reactable(
           # div(style = list(fontSize = 13, fontWeight = 600), Reading),
           # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
           div("•"),
-          div(style = list(fontSize = 13, fontWeight = 200), s1),
+          div(style = list(fontSize = 14, fontWeight = 200), s1),
           div(style = list(fontSize = 14, fontWeight = 200), s2),
         )
       },
@@ -927,8 +931,6 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
 )
 ```
-
-
 
 ------------------------------------------------------------------------
 
