@@ -1348,53 +1348,53 @@ reactable(
 
 ### Usage {.tabset}
 
+<!-- #### Verbs -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   na.omit(srvb2 %>% slice(65:1300)), -->
+<!--   columns = list( -->
+<!--     Verbs = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- srvb2$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         Reading <- srvb2$Reading[index] -->
+<!--         Reading <- if (!is.na(Reading)) Reading else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 30, fontWeight = 700), value), -->
+<!--           # div(style = list(fontSize = 13), Reading), -->
+<!--           # div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Reading = colDef(show = FALSE), -->
+<!--     Meaning = colDef(show = FALSE), -->
+<!--     Orig = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
 #### Verbs
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  na.omit(srvb2 %>% slice(65:1300)),
-  columns = list(
-    Verbs = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Meaning <- srvb2$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- srvb2$Reading[index]
-        Reading <- if (!is.na(Reading)) Reading else "Unknown"
-        tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
-          # div(style = list(fontSize = 13), Reading),
-          # div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Reading = colDef(show = FALSE),
-    Meaning = colDef(show = FALSE),
-    Orig = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-#### Random
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1415,8 +1415,8 @@ reactable(
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
-          # div(style = list(fontSize = 13), Reading),
-          # div(style = list(fontSize = 11), Meaning)
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
@@ -1445,6 +1445,116 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### Chars {.tabset}
+
+#### Learn
+
+```{r, echo=FALSE, message=FALSE}
+
+knjcmm <- knjcmm[sample(1:nrow(na.omit(knjcmm))),]
+
+reactable(
+  knjcmm,
+  columns = list(
+    Kanji = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- knjcmm$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- knjcmm$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Knj1 <- knjcmm$Knj1[index]
+        Knj1 <- if (!is.na(Knj1)) Knj1 else "Unknown"
+        Knj2 <- knjcmm$Knj2[index]
+        Knj2 <- if (!is.na(Knj2)) Knj2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 13), Knj1, "・", Knj2),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE),
+    Reading = colDef(show = FALSE),
+    Knj1 = colDef(show = FALSE),
+    Knj2 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Recall
+
+```{r, echo=FALSE, message=FALSE}
+
+knjcmm <- knjcmm[sample(1:nrow(na.omit(knjcmm))),]
+
+reactable(
+  knjcmm,
+  columns = list(
+    Kanji = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- knjcmm$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- knjcmm$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Knj1 <- knjcmm$Knj1[index]
+        Knj1 <- if (!is.na(Knj1)) Knj1 else "Unknown"
+        Knj2 <- knjcmm$Knj2[index]
+        Knj2 <- if (!is.na(Knj2)) Knj2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 13), Knj1, "・", Knj2),
+          div(style = list(fontSize = 30, fontWeight = 700), value)
+          # div(style = list(fontSize = 11), Reading),
+          # div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE),
+    Reading = colDef(show = FALSE),
+    Knj1 = colDef(show = FALSE),
+    Knj2 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
 ### More {.tabset}
 
 #### Words
@@ -1454,11 +1564,9 @@ reactable(
 # kndsh <- kndsh[sample(1:nrow(kndsh)),]
 
 reactable(
-  na.omit(kndsh),
+  kndsh,
   columns = list(
        Kanji = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
         style = JS("function(rowInfo, colInfo, state) {
         var firstSorted = state.sorted[0]
         if (!firstSorted || firstSorted.id === 'Kanji') {
@@ -1469,30 +1577,51 @@ reactable(
         }
       }"),
       cell = function(value, index) {
-        Core <- na.omit(kndsh)$Core[index]
+        Core <- kndsh$Core[index]
         Core <- if (!is.na(Core)) Core else "Unknown"
-        Onyomi <- na.omit(kndsh)$Onyomi[index]
+        Onyomi <- kndsh$Onyomi[index]
         Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
-        Kunyomi <- na.omit(kndsh)$Kunyomi[index]
+        Kunyomi <- kndsh$Kunyomi[index]
         Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
-        Words <- na.omit(kndsh)$Words[index]
-        Words <- if (!is.na(Words)) Words else "Unknown"
-        Meaning <- na.omit(kndsh)$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 45, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Core),
-          div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
-          div(style = list(fontSize = 22, fontWeight = 800), Words),
+          div(style = list(fontSize = 11, fontWeight = 200), Onyomi, ", " , Kunyomi)
+        )
+      },
+      align = "center", minWidth = 100
+      ),
+      Words = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Words') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Words'] === prevRow['Words']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Words <- kndsh$Words[index]
+        Words <- if (!is.na(Words)) Words else "Unknown"
+        Meaning <- kndsh$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- kndsh$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 800), Words),
+          div(style = list(fontSize = 11, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
-      align = "center", minWidth = 400
+      align = "center", minWidth = 280
       ),
+      
       Core = colDef(show = FALSE),
       Onyomi = colDef(show = FALSE),
       Kunyomi = colDef(show = FALSE),
       Words = colDef(show = FALSE),
+      Reading = colDef(show = FALSE),
       Meaning = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
@@ -1527,7 +1656,7 @@ reactable(
 kndsm <- kndsh[sample(1:nrow(kndsh)),]
 
 reactable(
-  na.omit(kndsm),
+  kndsm,
   columns = list(
        Kanji = colDef(
          #style = list(fontSize = "50px", fontWeight = 700), align = "center"
@@ -1542,21 +1671,21 @@ reactable(
         }
       }"),
       cell = function(value, index) {
-        Core <- na.omit(kndsm)$Core[index]
+        Core <- kndsm$Core[index]
         Core <- if (!is.na(Core)) Core else "Unknown"
-        Onyomi <- na.omit(kndsm)$Onyomi[index]
+        Onyomi <- kndsm$Onyomi[index]
         Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
-        Kunyomi <- na.omit(kndsm)$Kunyomi[index]
+        Kunyomi <- kndsm$Kunyomi[index]
         Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
-        Words <- na.omit(kndsm)$Words[index]
+        Words <- kndsm$Words[index]
         Words <- if (!is.na(Words)) Words else "Unknown"
-        Meaning <- na.omit(kndsm)$Meaning[index]
+        Meaning <- kndsm$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- kndsm$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
         tagList(
-          # div(style = list(fontSize = 35, fontWeight = 800), value),
-          # div(style = list(fontSize = 11, fontWeight = 200), Core),
-          # div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
           div(style = list(fontSize = 30, fontWeight = 800), Words),
+          div(style = list(fontSize = 11, fontWeight = 200), Reading),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
@@ -1566,6 +1695,7 @@ reactable(
       Onyomi = colDef(show = FALSE),
       Kunyomi = colDef(show = FALSE),
       Words = colDef(show = FALSE),
+      Reading = colDef(show = FALSE),
       Meaning = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
@@ -1600,7 +1730,7 @@ reactable(
 kndsr <- kndsh[sample(1:nrow(kndsh)),]
 
 reactable(
-  na.omit(kndsr),
+  kndsr,
   columns = list(
        Kanji = colDef(
          #style = list(fontSize = "50px", fontWeight = 700), align = "center"
@@ -1615,22 +1745,18 @@ reactable(
         }
       }"),
       cell = function(value, index) {
-        Core <- na.omit(kndsr)$Core[index]
+        Core <- kndsr$Core[index]
         Core <- if (!is.na(Core)) Core else "Unknown"
-        Onyomi <- na.omit(kndsr)$Onyomi[index]
+        Onyomi <- kndsr$Onyomi[index]
         Onyomi <- if (!is.na(Onyomi)) Onyomi else "Unknown"
-        Kunyomi <- na.omit(kndsr)$Kunyomi[index]
+        Kunyomi <- kndsr$Kunyomi[index]
         Kunyomi <- if (!is.na(Kunyomi)) Kunyomi else "Unknown"
-        Words <- na.omit(kndsr)$Words[index]
+        Words <- kndsr$Words[index]
         Words <- if (!is.na(Words)) Words else "Unknown"
-        Meaning <- na.omit(kndsr)$Meaning[index]
+        Meaning <- kndsr$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          # div(style = list(fontSize = 35, fontWeight = 800), value),
-          # div(style = list(fontSize = 11, fontWeight = 200), Core),
-          # div(style = list(fontSize = 11, fontWeight = 200), Onyomi, " " , Kunyomi),
           div(style = list(fontSize = 30, fontWeight = 800), Words),
-          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
       align = "center", minWidth = 400
@@ -1639,6 +1765,7 @@ reactable(
       Onyomi = colDef(show = FALSE),
       Kunyomi = colDef(show = FALSE),
       Words = colDef(show = FALSE),
+      Reading = colDef(show = FALSE),
       Meaning = colDef(show = FALSE)
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
