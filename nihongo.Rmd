@@ -14148,96 +14148,96 @@ reactable(
 
 #### Restaurant
 
-    ・お飲み物は何になさいますか?
-    ・What would you like to drink?
-    ・かしこまりました。こちらがメニューです。それでは、お水をお持ちします
-    ・Cetainly. Here is the menu. And I'll get you some water
-    ・お水です。ご注文はお決まりですか?
-    ・Here is the water. Have you decided what to order?
-    ・いえ、まだです。もう少し時間をください
-    ・No, not yet. Just give me a little more time
-    ・もちろんです。ごゆっくりどうぞ。
-    ・Of course. Please take your time
-    ・もう少し後の方がよろしいですか?
-    ・Would you like me to do it a little later?
-    ・それでは、ご注文は何になさいますか?
-    ・What would you like to order?
-    ・チキンのスプリング、グリーンサラダをください
-    ・Chicken springs, green salad, please
-    ・かしこまりました。こちらのサラダにはスープが付つきます
-    ・Certainly. This salad is served with soup
-    ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?
-    ・Would you like creamy tomato soup or minestrone?
-    ・その他にご注文はございますか?
-    ・Do you have any other orders?
-    ・いえ、以上です
-    ・No, more than that
-    ・お待たせしました。スープとサラダでございます
-    ・Thank you for waiting. Here is the soup and the salad
-    ・御用のある時にはお知らせください
-    ・Please let me know if you need anything else
-    ・お食事はお済みでしょうか?
-    ・Are you done with your meal?
-    ・デザートのメニューはご覧になりますか?
-    ・Would you like to see the dessert menu?
-    ・いえ、結構です。お会計をお願いします
-    ・No, thank you. Can I have the bill, please?
+    ・お飲み物は何になさいますか?  
+    ・What would you like to drink?  
+    ・かしこまりました。こちらがメニューです。それでは、お水をお持ちします  
+    ・Cetainly. Here is the menu. And I'll get you some water  
+    ・お水です。ご注文はお決まりですか?  
+    ・Here is the water. Have you decided what to order?  
+    ・いえ、まだです。もう少し時間をください  
+    ・No, not yet. Just give me a little more time  
+    ・もちろんです。ごゆっくりどうぞ。  
+    ・Of course. Please take your time  
+    ・もう少し後の方がよろしいですか?  
+    ・Would you like me to do it a little later?  
+    ・それでは、ご注文は何になさいますか?  
+    ・What would you like to order?  
+    ・チキンのスプリング、グリーンサラダをください  
+    ・Chicken springs, green salad, please  
+    ・かしこまりました。こちらのサラダにはスープが付つきます  
+    ・Certainly. This salad is served with soup  
+    ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?  
+    ・Would you like creamy tomato soup or minestrone?  
+    ・その他にご注文はございますか?  
+    ・Do you have any other orders?  
+    ・いえ、以上です  
+    ・No, more than that  
+    ・お待たせしました。スープとサラダでございます  
+    ・Thank you for waiting. Here is the soup and the salad  
+    ・御用のある時にはお知らせください  
+    ・Please let me know if you need anything else  
+    ・お食事はお済みでしょうか?  
+    ・Are you done with your meal?  
+    ・デザートのメニューはご覧になりますか?  
+    ・Would you like to see the dessert menu?  
+    ・いえ、結構です。お会計をお願いします  
+    ・No, thank you. Can I have the bill, please?  
 
 ------------------------------------------------------------------------
 
 #### Icecream
 
-    ・アイスクリームをお試しになりますか?
-    ・Would you like to try some ice cream?
-    ・はい。でも、何にしようか迷っています
-    ・Yes. But I'm not sure what to choose
-    ・何かお好きなお味はありますか?
-    ・Do you have a favorite flavor?
-    ・チョコレートとストロベリー、バニラを試食してみませんか?
-    ・Why don't you try chocolate, strawberry and vanilla?
-    ・私には少し甘すぎるみたいです
-    ・It's a little too sweet for me
-    ・次はバニラを試してみてもいいですか?
-    ・Can I try the vanilla next?
-    ・チョコレートよりこちらのほうが好みです
-    ・Than the chocolate, I prefer this one
-    ・ストロベリーが一 番 人気なんですよ
-    ・Strawberry is the most popular
-    ・良かったです!どれになさいますか?
-    ・Great! Which one would you like?
-    ・コーンとカップ、どちらになさいますか?
-    ・Would you like a cone or a cup?
+    ・アイスクリームをお試しになりますか?  
+    ・Would you like to try some ice cream?  
+    ・はい。でも、何にしようか迷っています  
+    ・Yes. But I'm not sure what to choose  
+    ・何かお好きなお味はありますか?  
+    ・Do you have a favorite flavor?  
+    ・チョコレートとストロベリー、バニラを試食してみませんか?  
+    ・Why don't you try chocolate, strawberry and vanilla?  
+    ・私には少し甘すぎるみたいです  
+    ・It's a little too sweet for me  
+    ・次はバニラを試してみてもいいですか?  
+    ・Can I try the vanilla next?  
+    ・チョコレートよりこちらのほうが好みです  
+    ・Than the chocolate, I prefer this one  
+    ・ストロベリーが一 番 人気なんですよ  
+    ・Strawberry is the most popular  
+    ・良かったです!どれになさいますか?  
+    ・Great! Which one would you like?  
+    ・コーンとカップ、どちらになさいますか?  
+    ・Would you like a cone or a cup?  
 
 ------------------------------------------------------------------------
 
 #### Newcar
 
-    ・そんなに高くなくて、信頼性の高い車がいいな
-    ・I'd like a car that's not that expensive and reliable
-    ・うん、ネットで探してみようか
-    ・Yeah, I'll look for it online
-    ・これ見て。4,000ドルで、1万マイルはしか走っていないよ
-    ・Look at this one. It’s $4,000 and it only has ten thousand miles on it
-    ・とても安いね。何か問 題があるのかもしれないよ?
-    ・It's very cheap. Maybe there's something wrong with it?
-    ・そうかもね。もう少し見てみよう
-    ・Maybe so. Let's take a closer look
-    ・何年式の車?
-    ・What year is it?
-    ・そんなに古くないね
-    ・It's not that old
-    ・良い色だね!リストに追加しておこう
-    ・Oh, that’s a good color. Let’s add that car to our list
-    ・かなり走ってるね
-    ・That's quite a run
-    ・そうだね。でも、この会社の車は耐久性があるよ
-    ・Yes, it is. But this company's cars are very durable
-    ・確かにそうだね。車の状態はいいの?
-    ・That's for sure. Is the car in good condition?
-    ・リアバンパーに小さな凹みがある。でも、それ以外は大丈夫みたい
-    ・There is a small dent in the rear bumper. But other than that it looks fine
-    ・そうしよう
-    ・Let's do that
+    ・そんなに高くなくて、信頼性の高い車がいいな  
+    ・I'd like a car that's not that expensive and reliable  
+    ・うん、ネットで探してみようか  
+    ・Yeah, I'll look for it online  
+    ・これ見て。4,000ドルで、1万マイルはしか走っていないよ  
+    ・Look at this one. It’s $4,000 and it only has ten thousand miles on it  
+    ・とても安いね。何か問 題があるのかもしれないよ?  
+    ・It's very cheap. Maybe there's something wrong with it?  
+    ・そうかもね。もう少し見てみよう  
+    ・Maybe so. Let's take a closer look  
+    ・何年式の車?  
+    ・What year is it?  
+    ・そんなに古くないね  
+    ・It's not that old  
+    ・良い色だね!リストに追加しておこう  
+    ・Oh, that’s a good color. Let’s add that car to our list  
+    ・かなり走ってるね  
+    ・That's quite a run  
+    ・そうだね。でも、この会社の車は耐久性があるよ  
+    ・Yes, it is. But this company's cars are very durable  
+    ・確かにそうだね。車の状態はいいの?  
+    ・That's for sure. Is the car in good condition?  
+    ・リアバンパーに小さな凹みがある。でも、それ以外は大丈夫みたい  
+    ・There is a small dent in the rear bumper. But other than that it looks fine  
+    ・そうしよう  
+    ・Let's do that  
     
 ------------------------------------------------------------------------
 
