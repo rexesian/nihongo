@@ -2712,9 +2712,7 @@ A mountaineer lives in his hut in the mountains. He lives alone and has a very h
 
 ### Categories {.tabset}
 
-#### Verbs {.tabset}
-
-##### 1
+#### Verbs
 
     🅅 給料が上がりました。
     🆅 風邪で熱が39度まで上がった。
