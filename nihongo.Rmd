@@ -122,7 +122,7 @@ knjcmm <- read_csv("rdata/Sheet 81-KNJCMM.csv")
 vbphr <- read_csv("rdata/Sheet 83-VBPH.csv")
 snvbp <- read_csv("rdata/Sheet 95-SNTA1.csv")
 msntc <- read_csv("rdata/Sheet 91-MSNTC.csv")
-
+snpts <- read_csv("rdata/Sheet 98-MSNTC.csv")
 
 
 ```
@@ -12705,7 +12705,7 @@ reactable(
         Meaning <- vcb1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           # div(style = list(fontSize = 13, fontWeight = 600), Hiragana),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -12761,7 +12761,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -12805,7 +12805,7 @@ reactable(
         Translation <- s1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -12850,7 +12850,7 @@ reactable(
         Translation2 <- m1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -12896,7 +12896,7 @@ reactable(
         Translation <- j1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -12948,7 +12948,7 @@ reactable(
         Translation <- s2$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -12993,7 +12993,7 @@ reactable(
         Translation2 <- j2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -13041,7 +13041,7 @@ reactable(
         Translation2 <- z1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -13090,7 +13090,7 @@ reactable(
         Translation2 <- z2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -13139,7 +13139,7 @@ reactable(
         Translation2 <- n1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -13186,7 +13186,7 @@ reactable(
         Translation <- sws1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -13233,7 +13233,7 @@ reactable(
         Translation2 <- nwr1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -13335,7 +13335,7 @@ reactable(
         Transcript <- evdw1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -13382,7 +13382,7 @@ reactable(
         Transcript <- evdw2$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -13429,7 +13429,7 @@ reactable(
         Transcript <- evdw3$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -13816,7 +13816,7 @@ reactable(
         Reading <- intw$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value)
+          div(style = list(fontSize = 25, fontWeight = 800), value)
           # div(style = list(fontSize = 13, fontWeight = 600), Reading),
           # div(style = list(fontSize = 11), Meaning)
         )
@@ -13863,7 +13863,7 @@ reactable(
         Translation <- vbphr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -13980,7 +13980,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Snippets {.tabset}
+##### Exerpts {.tabset}
 
 ###### Random
 
@@ -14040,6 +14040,221 @@ reactable(
 ------------------------------------------------------------------------
 
 ###### Notes
+
+------------------------------------------------------------------------
+
+##### Snippets {.tabset}
+
+###### RN1
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(1736)
+snpts <- snpts[sample(1:nrow(snpts)),]
+
+snpts1 <- snpts %>% slice(1:200)
+snpts2 <- snpts %>% slice(201:400)
+snpts3 <- snpts %>% slice(401:600)
+snpts4 <- snpts %>% slice(601:800)
+snpts5 <- snpts %>% slice(801:996)
+reactable(
+  snpts1,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts1$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN2
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts2,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts2$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN3
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts3,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts3$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN4
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts4,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts4$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN5
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts5,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts5$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
