@@ -14049,7 +14049,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1736)
+set.seed(1816)
 snpts <- snpts[sample(1:nrow(snpts)),]
 
 snpts1 <- snpts %>% slice(1:200)
