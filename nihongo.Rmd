@@ -123,6 +123,7 @@ vbphr <- read_csv("rdata/Sheet 83-VBPH.csv")
 snvbp <- read_csv("rdata/Sheet 95-SNTA1.csv")
 msntc <- read_csv("rdata/Sheet 91-MSNTC.csv")
 snpts <- read_csv("rdata/Sheet 98-MSNTC.csv")
+snptr <- read_csv("rdata/Sheet 99-MASNTC.csv")
 
 
 ```
@@ -13894,7 +13895,6 @@ reactable(
 
 ###### RC
 
-
 ```{r echo=FALSE, message=FALSE, error=FALSE}
 
 reactable(
@@ -14252,6 +14252,95 @@ reactable(
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RNC
+
+```{r echo=FALSE, message=FALSE, error=FALSE}
+
+snptr <- snptr[sample(1:nrow(snptr)),]
+
+reactable(
+  na.omit(snptr),
+  columns = list(
+       Script = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Expression') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        s2 <- snptr$s2[index]
+        s2 <- if (!is.na(s2)) s2 else "Unknown"
+        s3 <- snptr$s3[index]
+        s3 <- if (!is.na(s3)) s3 else "Unknown"
+        s4 <- snptr$s4[index]
+        s4 <- if (!is.na(s4)) s4 else "Unknown"
+        s5 <- snptr$s5[index]
+        s5 <- if (!is.na(s5)) s5 else "Unknown"          
+        s6 <- snptr$s6[index]
+        s6 <- if (!is.na(s6)) s6 else "Unknown"  
+        s7 <- snptr$s7[index]
+        s7 <- if (!is.na(s7)) s7 else "Unknown"          
+        s8 <- snptr$s8[index]
+        s8 <- if (!is.na(s8)) s8 else "Unknown" 
+        s9 <- snptr$s9[index]
+        s9 <- if (!is.na(s9)) s9 else "Unknown"  
+        s10 <- snptr$s10[index]
+        s10 <- if (!is.na(s10)) s10 else "Unknown"  
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", value),
+          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s2),
+          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s3),
+          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s4),
+          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s5),
+          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s6),
+          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s7),
+          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s8),
+          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s9),
+          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s10)
+        )
+      },
+      align = "left", minWidth = 400
+      ),
+      s2 = colDef(show = FALSE),
+      s3 = colDef(show = FALSE),
+      s4 = colDef(show = FALSE),
+      s5 = colDef(show = FALSE),
+      s6 = colDef(show = FALSE),
+      s7 = colDef(show = FALSE),
+      s8 = colDef(show = FALSE),
+      s9 = colDef(show = FALSE),
+      s10 = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
 )
 
 ```
@@ -15516,11 +15605,152 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### N3 {.tabset}
+
+#### TR {.tabset}
+
+##### C1 
+
+1.1 **始める**`started to・begin to`**⚭　V~~masu~~ + hajimeru**
+
+    ・日本語を習い始めたのは半年前です  
+    ・I started learning Japanese six months ago.
+    
+1.2 **終わる**`to end・done doing・finish doing`**⚭　V~~masu~~ + owaru**
+
+    ・その本読み終わったら貸してもらえませんか  
+    ・When you finish reading that book, can I borrow it?
+
+2.1 **ように言われる**`I get/got told・I was told`**⚭　Vru/Vnai+ you ni iwareru**
+
+    ・医者にお酒を飲まないように言われました
+    ・The doctor told me not to drink alcohol
+
+2.2 **ように注意する**`I get/got cautioned・I was cautioned`**⚭　Vru/Vnai+ you ni chuui sareru**
+
+    ・先生に宿題を忘れないように注意された
+    ・The teacher cautioned me not to forget my homework
+    
+2.3 **ようにら飲まれる**`I get/got asked・I was asked`**⚭　Vru/Vnai+ you ni tanomareru**
+
+    ・佐藤さんに会議の前に資料をコピーしておくように頼まれた
+    ・Mr. Sato asked me to make copies of the documents before the meeting
+
+2.4 **ようにいう iu**`I tell/told`**⚭　Vru/Vnai+ you ni iu**
+
+    ・医者にお酒を飲まないように言った
+    ・I told the doctor not to drink alcohol
+
+2.5 **ように注意する**`I caution/cautioned`**⚭　Vru/Vnai+ you ni chuui suru**
+
+    ・先生に宿題を忘れないように注意した
+    ・I cautioned the teacher not to forget my homework
+    
+2.6 **ように頼む**`I ask/asked`**⚭　Vru/Vnai+ you ni tanomu**
+
+    ・佐藤さんに会議の前に資料をコピーしておくように頼んだ
+    ・I asked Ms. Sato to make copies of the materials before the meeting
+
+3.1 **という**`describe something (external relative clause)`**⚭　Plain-From + toiu + N**
+
+    ・最近は大学卒業しても就職が難しいという話を聞きました
+    ・I've heard that it's difficult to find a job after graduating from college these days
+
+4.1 **だろうと思う**`I guess/think that it seems/probably`**⚭　Plain-From + darou + to omou **
+
+    ・外国で一人暮らしをするのは寂しいだろうと思う
+    ・I think it seems to be lonely to live alone in a foreign country
+
+5.1 **なさそうだ**`It looks/seems that its not`**⚭　I-Adj~~i~~/Na-Adj+ja/N+ja + nasasou da/datta**
+
+    ・この仕事はそんなに大変じゃなさそうだ
+    ・This kind of a job doesn't seem so hard
+
+------------------------------------------------------------------------
+
+##### C2
+
+6.1 **と**`if・when (noticed something you had not been aware until that time)`**⚭　Vru + to**
+
+    ・待ち合わせの場所に着くと友達はもう来ていた  
+    ・When I arrived at the meeting, my friend had already come
+    
+6.2 **たら**`if・when (noticed something you had not been aware until that time)`**⚭　Vru + tara**
+
+    ・屋上に上がったら東京スカイツリー見えた  
+    ・I went up to the rooftop and saw the Tokyo Sky Tree
+
+7.1 **ほど**`to that extent (describe unusual condition/degree)`**⚭　Vru/Vnai/I-Adj/Na-Adj/N + hodo**
+
+    ・富士山登って降りてきた時はもう一歩も歩けないほど疲れていた  
+    ・When I climbed Mt. Fuji and came down, I was so tired I couldn't take another step
+
+8.1 **ていく**`go after doing・do go・go away・to keep(describe temporal and spatial changes/action)`**⚭　Vte + iku**
+
+    ・冬になると渡り鳥は南の方へ飛んでいく  
+    ・In the winter, migratory birds fly south
+
+8.2 **てくる**`come back after doing・do come・come in・to continue(describe temporal, spatial & perceptional changes)`**⚭　Vte + kuru**
+
+    ・日本じんは昔から魚を食べてきました  
+    ・Japanese carrots have been eating fish for a long time
+
+9.1 **続ける**`action going on continuously`**⚭　V~~masu~~ + tsuzukeru**
+
+    ・この薬は途中でやめないで1週間飲み続けてください  
+    ・Please do not stop taking this medicine halfway, but continue taking it for one week
+    
+10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)`**⚭　Vru/N + nara**
+
+    ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
+    ・If you are going on a trip to Hokkaido, February is the best time to go.
+
+------------------------------------------------------------------------
+
+##### C3
+
+11.1 **って**`called (give a name)`**⚭　N + tte +N**
+
+    ・長野県の戸隠ってとこる  
+    ・A place called Togakushi in Nagano Prefecture
+    
+12.1 **せてもらう**`I have/had someone let me (obtain permission from another person)`**⚭　Vsase~~ru~~+ te morau**
+
+    ・ここに荷物を置かせてもらってもいいですか  
+    ・Do you mind if I put my stuff here?
+
+12.2 **せてくれる**`Someone let me (someone give me permission)`**⚭　Vsase~~ru~~+ te kureru**
+
+    ・この会社は自分の意見を自由に言わせてくれる  
+    ・This company allows me to express my opinions freely
+
+8.1 **ていく**`go after doing・do go・go away・to keep(describe temporal and spatial changes/action)`**⚭　Vte + iku**
+
+    ・冬になると渡り鳥は南の方へ飛んでいく  
+    ・In the winter, migratory birds fly south
+
+8.2 **てくる**`come back after doing・do come・come in・to continue(describe temporal, spatial & perceptional changes)`**⚭　Vte+ kuru**
+
+    ・日本じんは昔から魚を食べてきました  
+    ・Japanese carrots have been eating fish for a long time
+
+9.1 **続ける**`action going on continuously`**⚭　V~~masu~~ + tsuzukeru**
+
+    ・この薬は途中でやめないで1週間飲み続けてください  
+    ・Please do not stop taking this medicine halfway, but continue taking it for one week
+    
+10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)`**⚭　Vru/N + nara**
+
+    ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
+    ・If you are going on a trip to Hokkaido, February is the best time to go.
+
+------------------------------------------------------------------------
+
 ## Reading {.tabset}
 
-### Try {.tabset}
+### TR {.tabset}
 
-#### 1
+#### C1
 
     先週の日曜日、りんさんと富士山に登った。途中までバスで行って、そこから登り始めた。登る前に水を買った店で、酸素缶も持っていくように言われた。山上は空気ガ少ないから必要になるかもしれないそうだ。空気が薄いと病気になる人もいるということを思い出したが、富士山は小学生でも登れると聞いたので、大丈夫だろうと思った。だから買わなかった。私は富士山をしたことはないが、富士山は険しい山じゃないし、それほど大変じゃなさそうだった。
 
@@ -15529,7 +15759,7 @@ I've never done Mt. Fuji before, but it's not a steep mountain and it didn't see
 
 ------------------------------------------------------------------------
 
-#### 2
+#### C2
 
     でも、登ってみると、本当に大変だった。途中で立っているのもつらいほど足が重くなった。もうやめたいと思ったが、前をみると、どんどん登っていくりんさんが見えた。りんさんが頑張っているのに、諦めるのはくやしいから、私も登り続けた。
     後で聞いたら、りんさんも途中でやめようと思ったけど、私は後ろから登ってくるのが見えたから頑張ったと言っていた。大変だったが、一番上までいけと本当によかった。だから、もしこれから富士山に登る人がいたら、上まで行きたいなら、友達と一緒に行くことをおすすめしたい。もちろん酸素缶も持っていった方がいい。
