@@ -4,26 +4,26 @@ Base.Kanji,Base.Reading,Kanji,Base.Meaning,Words,Reading,Meaning,s1,s2
 古,ko,固,harden,固定,こてい,fixing,骨折した腕を固定する,固定的な男女役割分担
 古,ko,固,harden,固有,こゆう,"peculiar to, inherent, native",酸化しないのは金固有の性質だ,神道は日本固有の宗教である
 古,ko,個,individual,個性,こせい,"individuality, personality",はっきりした個性,彼らは個性が発達している
-古,ko,故,"happenstance, the late",事故,じこ,accident,,
-古,ko,故,"happenstance, the late",故人,こじん,the deceased,,
-古,ko,湖,lake,琵琶湖,びわこ,lake Biwa,,
-古,ko,湖,lake,湖畔,こはん,lakeside,,
-五,go,五,five,五十音,ごじゅうおん,the Japanese syllabary,,
-五,go,五,five,五輪,ごりん,the Olympics,,
-五,go,語,language,言語,げんご,language,,
-五,go,語,language,語句,ごく,words and phrases,,
-五,go,悟,enlightenment,覚悟,かくご,preparedness,,
-未,mi,未,"still, not yet",未知,みち,unknown,,
-未,mi,未,"still, not yet",未定,みてい,"undecided, indefinite",,
-未,mi,未,"still, not yet",未来,みらい,the future,,
-未,mi,未,"still, not yet",未満,みまん,"less than, under, below​",,
-未,mi,味,"flavor, taste ",中味,なかみ,contents,,
-未,mi,味,"flavor, taste ",味覚,みかく,taste,,
-未,mi,味,"flavor, taste ",調味料,ちょうみりょう,"seasoning, flavouring",,
-未,mi,魅,charm,魅力,みりょく,charm,,
-未,mi,魅,charm,魅了,みりょう,fascinating,,
-工,kou,工,craft,加工,かこう,"processing, manufacturing",,
-工,kou,工,craft,工場,こうじょう,"factory, plant",,
+古,ko,故,"happenstance, the late",事故,じこ,accident,事故が起こってからでは遅い,この踏切はとかく事故が多い
+古,ko,故,"happenstance, the late",故人,こじん,the deceased,故人の遺志により,今は故人となった先生
+古,ko,湖,lake,琵琶湖,びわこ,lake Biwa,琵琶湖が見えてきた,琵琶湖は日本最大の湖です
+古,ko,湖,lake,湖畔,こはん,lakeside,湖畔にはかなり多くのホテルが有る,はその夜湖畔のホテルに宿泊した
+五,go,五,five,五十音,ごじゅうおん,the Japanese syllabary,五十音順,五十音図
+五,go,五,five,五輪,ごりん,the Olympics,五輪大会,五輪のマーク
+五,go,語,language,言語,げんご,language,彼は言語が明瞭である,どの言語にも方言がある
+五,go,語,language,語句,ごく,words and phrases,この語句の意味は何ですか？,自分の辞書でその語句を調べてごらん
+五,go,悟,enlightenment,覚悟,かくご,preparedness,多少の危険は覚悟のうえだ,彼らは決死の覚悟で敵陣に踏み込んだ
+未,mi,未,"still, not yet",未知,みち,unknown,未知の世界に分け入る,私には未知の問題である
+未,mi,未,"still, not yet",未定,みてい,"undecided, indefinite",出帆の日は未定だ,これについてのスケジュールは未定だ
+未,mi,未,"still, not yet",未来,みらい,the future,未来図を描く,君たちには明るい未来がある
+未,mi,未,"still, not yet",未満,みまん,"less than, under, below​",１８歳未満入場お断り,厚さ３センチ未満の板
+未,mi,味,"flavor, taste ",中味,なかみ,contents,あの男には中身がない,包みの中身をあらためる
+未,mi,味,"flavor, taste ",味覚,みかく,taste,松茸は秋の味覚である,彼の料理は私の味覚を満足させた
+未,mi,味,"flavor, taste ",調味料,ちょうみりょう,"seasoning, flavouring",調味料入門,胡椒などお好みの調味料を入れます
+未,mi,魅,charm,魅力,みりょく,charm,この絵は構図に魅力がある,観光地として魅力のある都市
+未,mi,魅,charm,魅了,みりょう,fascinating,その演奏に魅了された,一目で彼女に魅了された
+工,kou,工,craft,加工,かこう,"processing, manufacturing",原料を加工して商品を作る,豆腐や味噌は大豆を加工した食品だ
+工,kou,工,craft,工場,こうじょう,"factory, plant",その工場は来年から製造をはじめる,テレビを製造している工場を訪問します
 工,kou,工,craft,工業,こうぎょう,manufacturing industry,,
 工,kou,工,craft,工学,こうがく,engineering,,
 工,kou,工,craft,工事,こうじ,construction work,,
