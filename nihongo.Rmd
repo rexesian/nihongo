@@ -19,6 +19,8 @@ body{
   }
 </style>
 ```
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 
 ```{css, echo=FALSE}
@@ -12366,15 +12368,15 @@ reactable(
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
           div(style = list(fontSize = 11, fontWeight = 200), Trans),
           div("•"),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo1),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo2),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo3),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo4),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo5),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo6),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo7),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo8),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo9),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo3),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo4),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo5),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo6),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo7),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo8),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo9),
         )
       },
       align = "left", minWidth = 400
@@ -12466,14 +12468,14 @@ reactable(
           div(style = list(fontSize = 14, fontWeight = 700), Trans),
           div(style = list(fontSize = 11, fontWeight = 200), Notice),
           div("•"),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo1),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo2),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo3),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo4),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo5),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo6),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo7),
-          div(style = list(fontSize = 20, fontWeight = 500), Convo8),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo1),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo2),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo3),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo4),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo5),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo6),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo7),
+          div(style = list(fontSize = 20, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo8),
         )
       },
       align = "left", minWidth = 400
@@ -14005,8 +14007,8 @@ reactable(
         Meaning <- msntc$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value),
-          div(style = list(fontSize = 11, fontWeight = 500), Meaning),
+          div(style = list(fontSize = 17, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), value),
+          div(style = list(fontSize = 12, fontWeight = 500, fontFamily = "Anonymous Pro" ), Meaning),
         )
       },
       align = "left", minWidth = 400
@@ -14019,7 +14021,7 @@ reactable(
   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 350),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 450),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -14049,14 +14051,20 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1816)
+set.seed(1718)
 snpts <- snpts[sample(1:nrow(snpts)),]
 
 snpts1 <- snpts %>% slice(1:200)
 snpts2 <- snpts %>% slice(201:400)
 snpts3 <- snpts %>% slice(401:600)
 snpts4 <- snpts %>% slice(601:800)
-snpts5 <- snpts %>% slice(801:996)
+snpts5 <- snpts %>% slice(801:1000)
+snpts6 <- snpts %>% slice(1001:1200)
+snpts7 <- snpts %>% slice(1201:1400)
+snpts8 <- snpts %>% slice(1401:1600)
+snpts9 <- snpts %>% slice(1601:1800)
+snpts10 <- snpts %>% slice(1801:2000)
+snpts11 <- snpts %>% slice(2001:2200)
 reactable(
   snpts1,
   columns = list(
@@ -14227,6 +14235,252 @@ reactable(
     Script = colDef(
       cell = function(value, index) {
         Meaning <- snpts5$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN6
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts6,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts6$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN7
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts7,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts7$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN8
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts8,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts8$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN9
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts9,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts9$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN10
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts10,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts10$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN11
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts11,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts11$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
           div(style = list(fontSize = 25, fontWeight = 600), value),
