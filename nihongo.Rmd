@@ -14136,6 +14136,10 @@ snpts8 <- snpts %>% slice(1401:1600)
 snpts9 <- snpts %>% slice(1601:1800)
 snpts10 <- snpts %>% slice(1801:2000)
 snpts11 <- snpts %>% slice(2001:2200)
+snpts12 <- snpts %>% slice(2201:2400)
+snpts13 <- snpts %>% slice(2401:2600)
+snpts14 <- snpts %>% slice(2601:2800)
+
 reactable(
   snpts1,
   columns = list(
@@ -14552,6 +14556,129 @@ reactable(
     Script = colDef(
       cell = function(value, index) {
         Meaning <- snpts11$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN12
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts12,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts12$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN13
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts13,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts13$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### RN14
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  snpts14,
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts14$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
           div(style = list(fontSize = 25, fontWeight = 600), value),
