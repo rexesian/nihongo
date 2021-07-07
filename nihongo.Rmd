@@ -127,7 +127,7 @@ msntc <- read_csv("rdata/Sheet 91-MSNTC.csv")
 snpts <- read_csv("rdata/Sheet 98-MSNTC.csv")
 snptr <- read_csv("rdata/Sheet 99-MASNTC.csv")
 knjwb <- read_csv("rdata/Sheet 100-KNJWB.csv")
-
+knjrn <- read_csv("rdata/Sheet 97-RNDMWV.csv")
 
 ```
 
@@ -1661,7 +1661,7 @@ reactable(
 
 ### Web {.tabset}
 
-#### Learn
+#### SM
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1691,7 +1691,7 @@ reactable(
         w9 <- knjwb$w9[index]
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
-          div(style = list(fontSize = 35, fontWeight = 700), value),
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
           div(style = list(fontSize = 25, fontWeight = 500), w1, "・", w2, "・", w3),
           div(style = list(fontSize = 25, fontWeight = 500), w4, "・", w5, "・", w6),
           div(style = list(fontSize = 25, fontWeight = 500), w7, "・", w8, "・", w9),
@@ -1708,6 +1708,70 @@ reactable(
     w7 = colDef(show = FALSE),
     w8 = colDef(show = FALSE),
     w9 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### RN
+
+```{r, echo=FALSE, message=FALSE}
+
+knjrn <- knjrn[sample(1:nrow(na.omit(knjrn))),]
+
+reactable(
+  knjrn,
+  columns = list(
+    Words = colDef(
+      cell = function(value, index) {
+        w1 <- knjrn$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "Unknown"
+        w2 <- knjrn$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knjrn$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knjrn$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knjrn$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knjrn$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knjrn$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knjrn$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 500), value, "・", w1, "・", w2),
+          div(style = list(fontSize = 25, fontWeight = 500), w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 25, fontWeight = 500), w6, "・", w7, "・", w8)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
