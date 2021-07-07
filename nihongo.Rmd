@@ -1024,6 +1024,55 @@ reactable(
 
 ```
 
+------------------------------------------------------------------------
+
+#### SW {.tabset}
+
+##### S1
+
+```{r, echo=FALSE, message=FALSE}
+
+# cnx1 <- cnv1 %>% select(Script)
+# cnx1 <- cnx1 %>% 
+#   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
+#   select(Script,Transcript)
+cnx1 <- cnx1[sample(1:nrow(cnx1)),]
+
+reactable(
+  cnx1,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- cnx1$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value)
+          # div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -1643,9 +1692,9 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 25, fontWeight = 200), w1, "・", w2, "・", w3),
-          div(style = list(fontSize = 25, fontWeight = 200), w4, "・", w5, "・", w6),
-          div(style = list(fontSize = 25, fontWeight = 200), w7, "・", w8, "・", w9),
+          div(style = list(fontSize = 25, fontWeight = 500), w1, "・", w2, "・", w3),
+          div(style = list(fontSize = 25, fontWeight = 500), w4, "・", w5, "・", w6),
+          div(style = list(fontSize = 25, fontWeight = 500), w7, "・", w8, "・", w9),
         )
       },
       align = "center"
