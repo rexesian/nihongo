@@ -131,6 +131,7 @@ knjrn <- read_csv("rdata/Sheet 97-RNDMWV.csv")
 vrn3 <- read_csv("rdata/Sheet 101-VRN3.csv")
 vrn4 <- read_csv("rdata/Sheet 102-VRN4.csv")
 vrn2 <- read_csv("rdata/Sheet 103-VRN2.csv")
+yrmp <- read_csv("rdata/Sheet 106-YRCMP.csv")
 
 ```
 
@@ -12119,8 +12120,6 @@ reactable(
 
 ### Jlpt {.tabset}
 
-
-
 #### N2  {.tabset}
 
 ##### LN
@@ -13791,6 +13790,311 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
       fontSize = "11px"
     )
   )
+)
+
+```
+
+------------------------------------------------------------------------
+
+## Anime {.tabset}
+
+### YURU-CAMP  {.tabset}
+
+#### S1.EP3
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp3 <- yrmp %>% select(Script.EP3, Meaning.EP3)
+
+reactable(
+  na.omit(yrmp3),
+  columns = list(
+    Script.EP3 = colDef(
+      cell = function(value, index) {
+        Meaning.EP3 <- yrmp3$Meaning.EP3[index]
+        Meaning.EP3 <- if (!is.na(Meaning.EP3)) Meaning.EP3 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP3)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP3 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP4
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp4 <- yrmp %>% select(Script.EP4, Meaning.EP4)
+
+reactable(
+  na.omit(yrmp4),
+  columns = list(
+    Script.EP4 = colDef(
+      cell = function(value, index) {
+        Meaning.EP4 <- yrmp4$Meaning.EP4[index]
+        Meaning.EP4 <- if (!is.na(Meaning.EP4)) Meaning.EP4 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP4)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP4 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP5
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp5 <- yrmp %>% select(Script.EP5, Meaning.EP5)
+
+reactable(
+  na.omit(yrmp5),
+  columns = list(
+    Script.EP5 = colDef(
+      cell = function(value, index) {
+        Meaning.EP5 <- yrmp5$Meaning.EP5[index]
+        Meaning.EP5 <- if (!is.na(Meaning.EP5)) Meaning.EP5 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP5)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP5 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP6
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp6 <- yrmp %>% select(Script.EP6, Meaning.EP6)
+
+reactable(
+  na.omit(yrmp6),
+  columns = list(
+    Script.EP6 = colDef(
+      cell = function(value, index) {
+        Meaning.EP6 <- yrmp6$Meaning.EP6[index]
+        Meaning.EP6 <- if (!is.na(Meaning.EP6)) Meaning.EP6 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP6)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP6 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP7
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp7 <- yrmp %>% select(Script.EP7, Meaning.EP7)
+
+reactable(
+  na.omit(yrmp7),
+  columns = list(
+    Script.EP7 = colDef(
+      cell = function(value, index) {
+        Meaning.EP7 <- yrmp7$Meaning.EP7[index]
+        Meaning.EP7 <- if (!is.na(Meaning.EP7)) Meaning.EP7 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP7)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP7 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP8
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp8 <- yrmp %>% select(Script.EP8, Meaning.EP8)
+
+reactable(
+  na.omit(yrmp8),
+  columns = list(
+    Script.EP8 = colDef(
+      cell = function(value, index) {
+        Meaning.EP8 <- yrmp8$Meaning.EP8[index]
+        Meaning.EP8 <- if (!is.na(Meaning.EP8)) Meaning.EP8 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP8)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP8 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP9
+
+```{r, echo=FALSE, message=FALSE}
+
+yrmp9 <- yrmp %>% select(Script.EP9, Meaning.EP9)
+
+reactable(
+  na.omit(yrmp9),
+  columns = list(
+    Script.EP9 = colDef(
+      cell = function(value, index) {
+        Meaning.EP9 <- yrmp9$Meaning.EP9[index]
+        Meaning.EP9 <- if (!is.na(Meaning.EP9)) Meaning.EP9 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Meaning.EP9)
+        )
+      },
+      align = "center"
+    ),
+    Meaning.EP9 = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
