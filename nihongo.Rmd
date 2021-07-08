@@ -130,6 +130,7 @@ knjwb <- read_csv("rdata/Sheet 100-KNJWB.csv")
 knjrn <- read_csv("rdata/Sheet 97-RNDMWV.csv")
 vrn3 <- read_csv("rdata/Sheet 101-VRN3.csv")
 vrn4 <- read_csv("rdata/Sheet 102-VRN4.csv")
+vrn2 <- read_csv("rdata/Sheet 103-VRN2.csv")
 
 ```
 
@@ -12117,6 +12118,106 @@ reactable(
 ------------------------------------------------------------------------
 
 ### Jlpt {.tabset}
+
+
+
+#### N2  {.tabset}
+
+##### LN
+
+```{r, echo=FALSE, message=FALSE}
+
+# vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
+
+reactable(
+  vrn2 %>% slice(1:10),
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Reading <- vrn2$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- vrn2$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### RC
+
+```{r, echo=FALSE, message=FALSE}
+
+# vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
+
+reactable(
+  vrn2 %>% slice(1:10),
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Reading <- vrn2$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- vrn2$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 700), value)
+          # div(style = list(fontSize = 11), Reading),
+          # div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
 
 #### N3  {.tabset}
 

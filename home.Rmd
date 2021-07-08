@@ -1478,18 +1478,20 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+trz1a <- trz1 %>% slice(1:66)
+
 reactable(
-  trz1 %>% slice(1:66),
+  trz1a,
   columns = list(
     Script = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Translation1 <- trz1$Translation1[index]
+        Translation1 <- trz1a$Translation1[index]
         Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
-        Translation2 <- trz1$Translation2[index]
+        Translation2 <- trz1a$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -1527,18 +1529,20 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+trz1b <- trz1 %>% slice(67:179)
+
 reactable(
-  trz1 %>% slice(67:179),
+  trz1b,
   columns = list(
     Script = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Translation1 <- trz1$Translation1[index]
+        Translation1 <- trz1b$Translation1[index]
         Translation1 <- if (!is.na(Translation1)) Translation1 else "Unknown"
-        Translation2 <- trz1$Translation2[index]
+        Translation2 <- trz1b$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 25, fontWeight = 700), value),
           div("HT:  ", style = list(fontSize = 11), Translation1),
           div("MT:  ", style = list(fontSize = 11), Translation2)
         )
