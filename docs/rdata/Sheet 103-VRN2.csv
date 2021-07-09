@@ -9,223 +9,56 @@ Words,Reading,Meaning
 下降,かこう,descent
 概論,がいろん,"introduction, outline, general remarks"
 蓋,ふた,"cover, lid"
-街角,,
-まちかど,,
-street corner,,
-N2,,
-くるむ,,
-to wrap up,,
-N2,,
-平凡,,
-へいぼん,,
-common,,
-N2,,
-きっかけ,,
-chance,,
-N2,,
-TOP 2500,,
-基準,,
-きじゅん,,
-standard,,
-N2,,
-TOP 2500,,
-性別,,
-せいべつ,,
-distinction by sex,,
-N2,,
-TOP 10000,,
-ビルディング,,
-building,,
-N2,,
-姪,,
-めい,,
-niece,,
-N2,,
-スピーカー,,
-speaker,,
-N2,,
-TOP 5000,,
-体操,,
-たいそう,,
-gymnastics,,
-N2,,
-TOP 10000,,
-めいめい,,
-each,,
-N2,,
-体制,,
-たいせい,,
-order,,
-N2,,
-TOP 5000,,
-体積,,
-たいせき,,
-capacity,,
-N2,,
-器具,,
-きぐ,,
-utensil,,
-N2,,
-TOP 10000,,
-鳴らす,,
-ならす,,
-to ring; ...,,
-N2,,
-TOP 10000,,
-性質,,
-せいしつ,,
-nature,,
-N2,,
-TOP 5000,,
-飢饉,,
-ききん,,
-famine,,
-N2,,
-平日,,
-へいじつ,,
-weekday; ...,,
-N2,,
-TOP 2500,,
-当たり前,,
-あたりまえ,,
-natural; ...,,
-N2,,
-TOP 2500,,
-相違,,
-そうい,,
-difference,,
-N2,,
-フリー,,
-free; ...,,
-N2,,
-TOP 2500,,
-尖る,,
-とがる,,
-to taper to a point; ...,,
-N2,,
-迷信,,
-めいしん,,
-superstition,,
-N2,,
-体系,,
-たいけい,,
-system,,
-N2,,
-TOP 10000,,
-当てはまる,,
-あてはまる,,
-to apply (a rule),,
-N2,,
-TOP 5000,,
-外部,,
-がいぶ,,
-the outside; ...,,
-N2,,
-TOP 5000,,
-よこす,,
-to send; ...,,
-N2,,
-売り切れる,,
-うりきれる,,
-to be sold out,,
-N2,,
-TOP 10000,,
-売り切れ,,
-うりきれ,,
-sold-out,,
-N2,,
-TOP 10000,,
-性能,,
-せいのう,,
-ability,,
-N2,,
-TOP 2500,,
-低下,,
-ていか,,
-fall,,
-N2,,
-TOP 2500,,
-湯気,,
-ゆげ,,
-steam,,
-N2,,
-姓,,
-せい,,
-surname; ...,,
-N2,,
-TOP 2500,,
-楕円,,
-だえん,,
-ellipse,,
-N2,,
-危うい,,
-あやうい,,
-dangerous; ...,,
-N2,,
-争う,,
-あらそう,,
-to compete; ...,,
-N2,,
-TOP 10000,,
-治める,,
-おさめる,,
-to govern; ...,,
-N2,,
-レジャー,,
-leisure,,
-N2,,
-TOP 10000,,
-宣伝,,
-せんでん,,
-publicity,,
-N2,,
-TOP 5000,,
-よそ,,
-another place; ...,,
-N2,,
-TOP 10000,,
-灯油,,
-とうゆ,,
-lamp oil,,
-N2,,
-灯台,,
-とうだい,,
-lighthouse; ...,,
-N2,,
-純情,,
-じゅんじょう,,
-pure heart,,
-N2,,
-純粋,,
-じゅんすい,,
-pure,,
-N2,,
-TOP 5000,,
-専制,,
-せんせい,,
-despotism,,
-N2,,
-釣り合う,,
-つりあう,,
-to balance; ...,,
-N2,,
-吊る,,
-つる,,
-to hang; ...,,
-N2,,
-TOP 5000,,
-お待たせしました,,
-おまたせしました,,
-Thank you for waiting,,
-N2,,
-明け方,,
-あけがた,,
-dawn,,
-N2,,
-悠々,,
-ゆうゆう,,
-quiet,,
-N2,,
+街角,まちかど,street corner
+くるむ,くるむ,to wrap up
+平凡,へいぼん,common
+きっかけ,きっかけ,chance
+基準,きじゅん,standard
+性別,せいべつ,distinction by sex
+ビルディング,ビルディング,building
+姪,めい,niece
+スピーカー,スピーカー,speaker
+体操,たいそう,gymnastics
+めいめい,めいめい,each
+体制,たいせい,order
+体積,たいせき,capacity
+器具,きぐ,utensil
+鳴らす,ならす,to ring
+性質,せいしつ,nature
+飢饉,ききん,famine
+平日,へいじつ,weekday
+当たり前,あたりまえ,natural
+相違,そうい,difference
+フリー,フリー,free
+尖る,とがる,to taper to a point
+迷信,めいしん,superstition
+体系,たいけい,system
+当てはまる,あてはまる,to apply (a rule)
+外部,がいぶ,the outside
+よこす,よこす,to send
+売り切れる,うりきれる,to be sold out
+売り切れ,うりきれ,sold-out
+性能,せいのう,ability
+低下,ていか,fall
+湯気,ゆげ,steam
+姓,せい,surname
+楕円,だえん,ellipse
+危うい,あやうい,dangerous
+争う,あらそう,to compete
+治める,おさめる,to govern
+レジャー,レジャー,leisure
+宣伝,せんでん,publicity
+よそ,よそ,another place; ...
+灯油,とうゆ,lamp oil
+灯台,とうだい,lighthouse
+純情,じゅんじょう,pure heart
+純粋,じゅんすい,pure
+専制,せんせい,despotism
+釣り合う,つりあう,to balance
+吊る,つる,to hang
+お待たせしました,おまたせしました,Thank you for waiting
+明け方,あけがた,dawn
+悠々,ゆうゆう,quiet
 フライパン,,
 fry pan,,
 N2,,
