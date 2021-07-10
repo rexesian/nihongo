@@ -4753,9 +4753,233 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Onomatope
+#### Onomatope {.tabset}
 
 **Onomatope** is a word or group of words which have their meaning indicated by the sounds they mimic.
+
+##### NSW 
+
+1.	日本語がペラペラになるぞ。  
+    You will become fluent in Japanese.
+
+2.	漢字がすらすら読めた。  
+    I can read kanji easily.
+
+3.	少しずつコツコツ勉強したからね。  
+    I've studied hard, little by little.
+
+4.	これからも一生懸命練習しよう。  
+    Let's keep practicing hard from now on.
+    
+5.	どんどん日本語で話してみるよ。  
+    Try to speak Japanese more and more
+
+6.	間違えても、くよくよしないで。  
+    Don't worry if you make a mistake.
+
+7.	いやいや勉強しても、仕方がない。   
+    You can't help it if you study it reluctantly.
+
+8.	だんだん上手になるからね。   
+    You'll get better and better at it gradually
+
+9.	厳しい先生が、ビシビシ教えてくれるよ。   
+    A strict teacher will teach you hard
+
+10.	学校の中はガヤガヤうるさかった。  
+    It was clamorously noisy in the school.
+
+11.	みんな、ペチャクチャしゃべっていたし。   
+    Everyone was chattering.
+
+12.	先生が来たら、シーンと静かになった。   
+    When the teacher arrived, the scene became quiet.
+
+13.	ソワソワして落ち着かないね。   
+    I'm so nervous and restless.
+
+14.	デートなんだ。ドキドキするなあ。   
+    It's a date. I'm so excited
+
+15.	それでウキウキしてるんだ。   
+    That's what's making me so happy.
+
+16.	もう行かなきゃ。バタバタだぁ。   
+    I have to go. I'm in a flurry.
+
+17.	バタン！痛い、ドアに指をはさんだ。   
+    Bang! Ouch, I stuck my finger in the door.
+
+18.	危ない。あ～、ハラハラする。   
+    Dangerous. Oh, I'm on edge.
+
+19.	そんなにガミガミ言わないで。   
+    Don't be so nagging.
+
+20.	グズグズしてるから、時間が無くなるんだよ。   
+    You're goofing off, and you're running out of time.
+
+21.	*てきぱき仕事ができる人になりたいな。
+
+22.	*ブツブツ文句を言っても、しょうがない。
+
+23.	明日から日本だ。*ワクワクするなあ。
+
+24.	*アタフタしないように、準備しようっと。
+
+25.	*さっさとやることやろう。
+
+26.	このスーツケースは、*ずっしり重いね。
+
+27.	*ヨイショ、ヨイショ。運ぶのが大変だよ。
+
+28.	これぐらいだったら、*楽々持てるけどな。
+
+29.	*ゴロゴロ転がしていくから、だいじょうぶ。
+
+30.	*そろそろ寝ようかな。
+
+31.	一日が*あっという間に終わっちゃったね。
+
+32.	パスポートは*ちゃんと持った?
+
+33.	*しっかり家のカギも閉めて。
+
+34.	まだ、時間は*たっぷりあるよ。
+
+35.	もうおなかが*ペコペコ。
+
+36.	*チャチャッとごはんを作ろうか。
+
+37.	*パクパクよく食べるね。
+
+38.	うっ、食べすぎて、胃が*ムカムカする。
+
+39.	頭が*ズキズキ痛い。
+
+40.	*ブラブラ散歩(さんぽ)でもしようかな。
+
+41.	*のんびりその辺を歩いてくるよ。
+
+42.	明日は、予定が*ぎっしり詰(つ)まってるよ。
+
+43.	今日は、部屋で*まったり映画でも見る?
+
+44.	映画を見ながら、*ウトウトねむっちゃった。
+
+45.	朝まで、*ぐっすり眠れた?
+
+46.	時差ボケで、*なかなか眠れなかった。
+
+47.	トイレに行って*すっきりした。
+
+48.	新宿の街は*ごちゃごちゃしてるね。
+
+49.	ヤバそうな人も*ウロウロしてる。
+
+50.	*ぼんやりしてると、迷子(まいご)になりそう。
+
+51.	ゲームをしてたから、目が*チカチカする。
+
+52.	しまった。*うっかりサイフを忘れてきた。
+
+53.	わっ、*びっくりした！驚かさないでよ。
+
+54.	太って、服が*パツンパツン。
+
+55.	やせたら、パンツが*ぶかぶか。
+
+56.	このサイズは*ぴったり。
+
+57.	どうしたの、*むっつりして。つまらない?
+
+58.	たくさん歩いて、*くたくた。
+
+59.	ねえ、あのおじさん、*ジロジロ見てるよ。
+
+60.	あの人も、こっちを*チラチラ見てるよね。
+
+61.	向こうで*こそこそ話してるね。
+
+62.	あっ、チョコが顔に*ベッタリついてる。だからか！
+
+63.	あの人*キョロキョロしてる。道に迷ったんじゃない?
+
+64.	どの人? あの筋肉*モリモリの人?
+
+65.	首の骨を*ポキポキ鳴らしてるよ。こわっ!
+
+66.	*びくびくしないで。だいじょうぶだよ。
+
+67.	なんだか、*ムシムシ暑いね。
+
+68.	*じっとり汗(あせ)が出てきた。
+
+69.	*ピカッ、ゴロゴロ。雷(かみなり)がなってる。
+
+70.	*ザーザー雨が降ってきた。
+
+71.	カサがなくて、*ビショビショになっちゃった。
+
+72.	*ハックション、くしゃみが出ちゃった。
+
+73.	*プ～、おならも出ちゃった。
+
+74.	*ズルズル鼻水も出る。
+
+75.	背中が*ゾクゾクする。カゼかな。
+
+76.	なんだか*くらくらして倒(たお)れそう。
+
+77.	まだ予定が*はっきりしないんだ。
+
+78.	今日の予定は中止だね。*ガッカリしないで。
+
+79.	彼はめずらしく、*しょんぼり落ち込んでた。
+
+80.	*よしよし。慰(なぐさ)めてあげよう。
+
+81.	あれ、地震? *ゆらゆら揺れてる。
+
+82.	また!?　もう地震には*うんざり。
+
+83.	朝起きたばかりで、髪の毛が*ぼさぼさ。
+
+84.	シャワーを浴びて、*さっぱりした。
+
+85.	髪の毛も肌も*ツヤツヤになったよ。
+
+86.	ここのケーキは、*ふんわり*フワフワ柔らかいね。
+
+87.	上にソースが*とろーりかかってて、最高。
+
+88.	納豆(なっとう)って、*ネバネバしてるんだね。
+
+89.	新鮮な野菜は、*パリパリしておいしい。
+
+90.	今日はみんなで*ワイワイ遊ぼう。
+
+91.	マンガを読んで*ゲラゲラ笑った。
+
+92.	この電車は*ガラガラに空いてるね。
+
+93.	いいじゃん。*のびのび座れるよ。
+
+94.	あの二人、*そっくり。双子(ふたご)みたい。
+
+95.	ちょっと*ベタベタ触らないで。
+
+96.	そんなに*ずけずけ言ったら、きらわれるよ。
+
+97.	もう恋なんて、*こりごりだ。
+
+98.	何*イライラしてるの?
+
+99.	*ニコニコ笑っていようよ。
+
+100. *パーッと楽しいことしようね。
+
+https://nihongoswitch.com/podcast-transcripts/ep66-shadowing-2
 
 ------------------------------------------------------------------------
 
@@ -13062,7 +13286,7 @@ reactable(
 # vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
 
 reactable(
-  vrn2 %>% slice(1:60),
+  vrn2 %>% slice(1:115),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -13110,7 +13334,7 @@ reactable(
 # vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
 
 reactable(
-  vrn2 %>% slice(1:60),
+  vrn2 %>% slice(1:115),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -17983,7 +18207,360 @@ reactable(
 
 ### N5 {.tabset}
 
-#### 1
+#### SM {.tabset}
+
+##### C1 
+
+1.1 **は**`indicates the topic`**⚭　N + wa**
+
+    ・私はカナダから来ました 
+    ・I come from Canada.
+    
+1.2 **は**`indicates comparison of topics`**⚭　N + wa .. ga .. N + wa**
+
+    ・私は肉は食べますが魚は食べません 
+    ・I eat meat, but not fish.
+
+1.3 **は**`indicates emphasis on the action or state`**⚭　N + wa ..  N + ga**
+
+    ・東京は人が多いです 
+    ・Tokyo is very crowded.  
+
+2.1 **が**`indicates and emphasize the subject`**⚭　N + ga**
+
+    ・車が早いです 
+    ・The car is fast.
+
+2.2 **が**`attached to a question word`**⚭　QW + ga**
+
+    ・どれが田中さんのコップですか 
+    ・Which one is Mr. Tanaka's cup?  
+    
+3.1 **を**`leaving a place`**⚭　N + wo**
+
+    ・東京駅で電車を降ります 
+    ・Get off the train at Tokyo Station.   
+
+3.2 **を**`express place of passage`**⚭　N + wo**
+
+    ・毎朝公園を散歩します 
+    ・I take a walk in the park every morning.
+
+4.1 **と**`express beign together with someone`**⚭　N + to**
+
+    ・母と買い物をしました 
+    ・I did some shopping with my mother.
+    
+------------------------------------------------------------------------
+
+##### C2
+
+5.1 **に**`indicates destination`**⚭　N + ni**
+
+    ・友達誕生日パーティーに行きます 
+    ・I'm going to a friend's birthday party.
+    
+5.2 **に**`indicates a point in time`**⚭　N + ni**
+
+    ・月曜日にきて下さい 
+    ・Please come back on Monday.
+
+5.3 **に**`indicates the recepient of the action`**⚭　N + ni**
+
+    ・友達に会います 
+    ・I'm meeting a friend.
+    
+5.4 **に**`indicates place of existence`**⚭　N + ni**
+
+    ・駅の前にデパートがあります 
+    ・There is a department store in front of the station.
+
+6.1 **で**`indicates place of action`**⚭　N + de**
+
+    ・図書館で勉強します 
+    ・I'll study at the library. 
+
+6.2 **で**`indicates means, way or method`**⚭　N + de**
+
+    ・電車で行きます 
+    ・I'll go by train. 
+
+6.3 **で**`use as ingredient or material`**⚭　N + de**
+
+    ・肉と野菜で料理を作りました 
+    ・I cooked with meat and vegetables.
+
+6.4 **で**`termination of time`**⚭　N + de**
+
+    ・もう二週間で夏休みになります 
+    ・It will be summer vacation in two weeks.
+
+6.4 **で**`indicates range`**⚭　N + de**
+
+    ・世界で一番長い川はナイル川です 
+    ・The longest river in the world is the Nile.
+    
+6.2 **で**`indicates reason`**⚭　N + de**
+
+    ・病気で学校を休みました
+    ・I missed school because I was sick.
+
+7.1 **も**`express similar situation or things`**⚭　N + mo**
+
+    ・私もパーティーに行きます 
+    ・I'm going to the party too.
+
+------------------------------------------------------------------------
+
+##### C3
+
+8.1 **か**`or`**⚭　N + ka + N (ka)**
+
+    ・明日か明後日田中さんに電話します 
+    ・I'll call Mr. Tanaka tomorrow or the next day.
+    
+9.1 **や**`and`**⚭　N + ya + N**
+
+    ・駅の前にはコンビニや銀行があります 
+    ・There are convenience stores and banks in front of the station.
+
+9.2 **など**`etc`**⚭　N + ya + N  + nado**
+
+    ・駅の前にはコンビニや銀行などがあります 
+    ・There are convenience stores, banks and etc in front of the station.
+    
+10.1 **から~まで**`from~until`**⚭　N + kara + N + made**
+
+    ・テストは15日から18日までです 
+    ・The test will be from the 15th to the 18th.
+    
+11.1 **ごろ**`around (point in time)`**⚭　N + goro**
+
+    ・明日の昼ごろ来てください 
+    ・Please come back tomorrow around noon.
+
+12.1 **くらい・ぐらい**`about・around (approx. amount or degree)`**⚭　N +  kurai/gurai**
+
+    ・駅までタクシーで1000円ぐらいかかります 
+    ・It costs about 1,000 yen to take a cab to the station.
+
+13.1 **だけ**`only・just`**⚭　N + dake**
+
+    ・10分だけ休みましょう 
+    ・Let's just rest for ten minutes.
+
+14.1 **では**`location of action & emphasis`**⚭　N + de wa**
+
+    ・会社の食堂で食べます
+    ・I'll eat at the company cafeteria.
+
+14.2 **へは**`direction & emphasis`**⚭　N + e wa**
+
+    ・東京駅へは何で行きますか
+    ・Why do you go to Tokyo Station?
+
+14.3 **には**`place of existence & emphasis`**⚭　N + ni wa**
+
+    ・この町には図書館がありません
+    ・There is no library in this town.
+
+------------------------------------------------------------------------
+
+##### C4
+
+15.1 **だれ・どなた**`who`**⚭　dare/donata**
+
+    ・これはだれのペンですか 
+    ・Whose pen is this?
+    
+15.2 **なに・なん**`what`**⚭　nani/nan*
+
+    ・これはなに本ですか 
+    ・What book is this?
+
+15.3 **どこ**`where`**⚭　doko**
+
+    ・駅の前にはコンビニや銀行などがあります 
+    ・There are convenience stores, banks and etc in front of the station.
+
+15.4 **どちら**`which`**⚭　dochira**
+
+    ・お国はどちらですか？ 
+    ・Which country are you from? 
+    
+15.5 **どう**`how・what`**⚭　dou**
+
+    ・あなたの旅はどうでしたか？
+    ・How was your trip?
+
+15.6 **どうやって**`how・in what way`**⚭　douyatte**
+
+    ・どうやってそれを知ったのですか？ 
+    ・How do you know that?
+
+15.7 **何で**`how・why`**⚭　nande**
+
+    ・なんでもっと早く言ってくれなかったの？
+    ・Why didn't you tell me earlier?
+
+15.8 **どうして**`how・why`**⚭　doushite**
+
+    ・その赤ちゃんはどうして泣くの？
+    ・Why is that baby crying?
+
+15.9 **なぜ**`why`**⚭　naze**
+
+    ・なぜ今日は駅にタクシーが全く無いのだろう
+    ・Why are there no taxis at the station today?
+
+15.10 **どんな**`what kind of`**⚭　donna + N**
+
+    ・どんな音楽が好きですか 
+    ・What kind of music do you like?
+
+15.11 **どの**`which`**⚭　dono + N**
+
+    ・私にはどのサイズが合うでしょうか 
+    ・What size do you think I take?
+
+15.12 **いくつ**`how many・how old`**⚭　ikutsu**
+
+    ・帽子はいくつ持ってるんですか
+    ・How many caps do you own?
+
+15.13 **どちら**`which・which one・which way・where`**⚭　dochira*
+
+    ・ジャイアンツとドラゴンズのどちらが好きですか
+    ・Which do you like better, the Giants or the Dragons?
+
+15.14 **いつ**`when`**⚭　itsu**
+
+    ・いつ東京に行くの？
+    ・When are you going to Tokyo?
+
+------------------------------------------------------------------------
+
+##### C5
+
+16.1 **なにか**`something`**⚭　nanika**
+
+    ・お腹がすきましたね。何か食べましょう 
+    ・I'm starving. Let's get something to eat. 
+    
+16.2 **どこか**`somewher`**⚭　dokoka**
+
+    ・明日どこかに行きますか 
+    ・Are you going somewhere tomorrow?
+
+16.3 **だれか**`someone`**⚭　dareka**
+
+    ・教室に誰かいますか 
+    ・Is there someone in the classroom?
+
+16.4 **いつか**`sometime`**⚭　itsuka**
+
+    ・いつかフランスに行きたいです？ 
+    ・I want to go to France someday.
+    
+17.1 **だれも~ません・ないです**`no one`**⚭　daremo~masen/nai desu**
+
+    ・誰もないです
+    ・No one.
+
+17.2 **どこにも~ません・ないです**`nowhere・not anywhere`**⚭　dokonimo~masen・nai desu**
+
+    ・どこにも行かなかったです 
+    ・I didn't go anywhere.
+
+17.3 **なにも~ません・ないです**`nothing・won't anything`**⚭　nanimo~masen・nai desu**
+
+    ・何も食べなかったです
+    ・I did not eat anything.
+
+18.1 **どれでも**`whichever・any of them`**⚭　doredemo**
+
+    ・どれでも100円です？
+    ・Any of them is 100 yen.
+
+18.2 **なんでも**`anything`**⚭　nandemo**
+
+    ・私は何でも食べます
+    ・I'll eat anything.
+
+18.3 **だれでも**`anyone・anybody`**⚭　daredemo**
+
+    ・この問題は誰でもできます 
+    ・Anyone can do this problem.
+
+18.4 **いつでも**`anytime`**⚭　itsudemo**
+
+    ・いつでも来てください 
+    ・Come back anytime.
+
+18.5 **どこでも**`anywhere`**⚭　dokodemo**
+
+    ・どこでも行きます
+    ・I'll go anywhere.
+
+19.1 **どうですか**`how・how about`**⚭　dou desu ka**
+
+    ・コーヒーはどうですか
+    ・How about some coffee?
+
+19.2 **いかがですか**`how・how about`**⚭　ikaga desu ka**
+
+    ・新しい会社はいかがですか
+    ・How's the new company?
+
+------------------------------------------------------------------------
+
+##### C6
+
+20.1 **で**`te-form (connective form)`**⚭　N/Na-Adj + de**
+
+    ・先生は綺麗で優しいです 
+    ・The teacher is beautiful and kind.
+
+20.2 **なくて**`te-form (connective form - Negative)`**⚭　N/Na-Adj + jana~~i~~/dewana~~i~~ + nakute**
+
+    ・あの人は先生じゃなくて学生です 
+    ・He is not a teacher, He is a student.
+    
+20.3 **くて**`te-form (connective form)`**⚭　I-Adj-~~i~~ + de**
+
+    ・このバッグは色もよくて形もいいです 
+    ・This bag has a nice color and a nice shape.
+
+20.4 **なくて**`te-form (connective form - Negative)`**⚭　I-Adj-~~i~~+ku + nakute**
+
+    ・昨日のレストランはお美味しくなくて高かったです 
+    ・Yesterday's restaurant was not good and expensive.
+
+21.1 **て**`te-form (connective form)`**⚭　Vte**
+
+    ・朝起きて朝ごはんを食べて散歩に行きます 
+    ・I wake up, eat breakfast, and go for a walk.
+
+22.1 **てから**`After doing`**⚭　Vte + kara**
+
+    ・手を洗ってからご飯を食べましょう
+    ・After washing hands, Let's eat.
+    
+23.1 **それから**`and then・after that`**⚭　sorekara**
+
+    ・ピザをお願いします。それからコーヒーもお願いします
+    ・I'll have a pizza, please. And then some coffee, please.
+
+23.2 **そして**`and・and the`**⚭　soshite**
+
+    ・兄が頭がいいです。そして優しいです 
+    ・My brother is very smart. And he's kind. 
+
+------------------------------------------------------------------------
+
+#### AP {.tabset}
+
+##### 1
 
 **dake** `only, just`
 
@@ -18023,7 +18600,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### 2
+##### 2
 
 **kara** `because・since`
 
