@@ -18203,6 +18203,74 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### ET {.tabset}
+
+#### N5 {.tabset}
+
+------------------------------------------------------------------------
+
+#### N4 {.tabset}
+
+##### CK {.tabset}
+
+###### C1
+
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">今週、近くのスーパーがセール中だったので、友達と一緒に行きました。ほとんどの品物が三割引きで、肉や魚半額でした。私の家は家族が多いので、安く買えると嬉しいです。特に冷凍食品はお弁当の時に便利なので、安い時に必ず買います。</p> 
+
+This week, a nearby supermarket was having a sale, so I went there with a friend. Most of the items were discounted by 30%, and meat and fish were half price. I have a large family, so I am happy when I can buy things at a discount. Frozen foods are especially convenient for lunch boxes, so I always buy them when they are cheap.
+
+------------------------------------------------------------------------
+
+###### C2
+
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">来月、会社の先輩の結婚式に行く。ちょうどいい服がないので、デパートへ買い物に行った。でも、スーツやドレスなどをいろいろ着てみても、全然決められない。ショッピングは楽しいけれど、少し疲れる。四季まであと一ヶ月あるから、ゆっくり探そう。</p> 
+
+I'm going to a senior colleague's wedding next month. I don't have just the right clothes, so I went shopping at a department store. But after trying on various suits and dresses, I couldn't decide at all. Shopping is fun, but it's a little tiring. There's still a month left before the four seasons, so I'll take my time.
+
+------------------------------------------------------------------------
+
+###### C3
+
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">となりの娘さんは結婚していますが、近くに住んでいるので、よく隣遊び来ています。そして、いつも私の家の駐車場のまいに車を止めて、挨拶もしません。
+短い時間ならかまいませんが、長い間止めていると、用事があって出かけたくても、車が出せません。とても困ります。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">どうして怒っているのか、わけは知りませんが、あまり大きな声でさわぐとあなたのほうが変な人と思われてしまいます。もう少し静かに話したほうがいいですよ。</p> 
+
+My next-door neighbor's daughter is married, but she lives nearby, so she often comes over to play next door. She always parks her car in my parking lot and doesn't even say hello.
+I don't mind if he parks his car for a short time, but if he parks his car for a long time, even if I want to go out for something, I can't get out of my car. It's very annoying!  
+I don't know why you're angry, but if you talk too loudly, people will think you're strange. You should speak more quietly.
+
+------------------------------------------------------------------------
+
+###### C4
+
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：もしもし、セナですが。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：あ、セナさん、こんにちは。いつもお世話になっています。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：さっき子どもが学校から手紙を持ってきました。でも、漢字が多くて、よくわからないんです。教えていただきたいんですが..。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：手紙ですね。ちっと待ってください。えーと、来週の日曜日に、特別な授業があります。お母さんやお父さんに見てもらいます。日曜日に行うので、なるべく出席してください。かわりに、月曜日が休みになるそうですよ。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：困ったがったら、遠慮しないで、何でも相談してくださいね。</p> 
+<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：どうもありがとうございます。</p> 
+
+Senna: Hello, this is Senna.  
+Kimura: Oh, hello, Senna-san. Thank you for all your help.  
+Senna: My child just brought me a letter from school. But there are so many kanji characters in it that I don't understand it. I'd like you to tell me...  
+Kimura: It's a letter. Please wait a minute. Let's see, next Sunday, there will be a special class. I would to have the parents to watch the class. Since it will be held on a Sunday, please try to attend. In exchange for it, Monday will be a day off.  
+Kimura: If you need help, please don't hesitate to ask for anything!  
+Senna: Thank you very much!
+
+------------------------------------------------------------------------
+
+#### N3 {.tabset}
+
+------------------------------------------------------------------------
+
+#### N2 {.tabset}
+
+------------------------------------------------------------------------
+
+#### N1 {.tabset}
+
+------------------------------------------------------------------------
+
 ## Grammar {.tabset}
 
 ### N5 {.tabset}
@@ -18778,6 +18846,14 @@ reactable(
     ・Approximately, how long does it take from your home to school?
     ・About how long does Mr. Kim is studying Japanese?
     ・About how much was that car?
+
+------------------------------------------------------------------------
+
+### N4 {.tabset}
+
+#### TR {.tabset}
+
+##### C1 
 
 ------------------------------------------------------------------------
 
