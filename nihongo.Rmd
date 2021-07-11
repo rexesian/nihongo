@@ -18558,6 +18558,133 @@ reactable(
 
 ------------------------------------------------------------------------
 
+##### C7
+
+24.1 **ほしい**`wants something`**⚭　N + ga + hoshii**
+
+    ・私は猫が欲しい 
+    ・I want a cat.
+
+25.1 **たい**`wants to do (tai-form)`**⚭　Vtai (desu)**
+
+    ・ステーキが食べたいです 
+    ・I want to eat steak.
+    
+26.1 **ている**`progrssive-action (teiru-form)`**⚭　Vte + iru**
+
+    ・今妹はピアノを弾いています 
+    ・Now my sister plays the piano.
+
+26.2 **ている**`continuous-state (teiru-form)`**⚭　Vte + iru**
+
+    ・姉はアメリカに住んでいます 
+    ・My sister lives in the United States.
+
+26.3 **ている**`habitual-state (teiru-form)`**⚭　Vte + iru**
+
+    ・毎日あのお店は新鮮魚介類を売っている 
+    ・Every day that store sells fresh seafood.
+
+27.1 **てください**`please do..`**⚭　Vte + kudasai**
+
+    ・ちょっと待ってください 
+    ・Please wait a minute.
+
+27.2 **ないでください**`please do not`**⚭　Vnaide + kudasai**
+
+    ・タバコは吸わないでください 
+    ・Please don't smoke.
+
+28.1 **ね**`ending particle (expresses agreement)`**⚭　S + ne**
+
+    ・今日もまた雨ですね 
+    ・It's raining again today.
+
+28.2 **よ**`ending particle (informning)`**⚭　S + yo**
+
+    ・雨が降っていますよ 
+    ・It's raining.
+
+------------------------------------------------------------------------
+
+##### C8
+
+29.1 **~に もらいます**`receive from`**⚭　~ni.. + moraimasu**
+
+    ・クリスマスに母にセーターをもらいました 
+    ・I received a sweater from my mother for Christmas.
+
+29.2 **~から もらいます**`receive from``**⚭　~kara.. + moraimasu**
+
+    ・父から時計をもらいました 
+    ・I received a watch from my father.
+    
+30.1 **が くれます**`give me`**⚭　ga.. + kuremasu**
+
+    ・友達がチョコレートをくれました 
+    ・My friend gave me some chocolates.
+
+31.1 **に あげます**`give to`**⚭　ni.. + agemasu**
+
+    ・妹にこのスカートをあげます 
+    ・I'll give this skirt to my sister.
+
+32.1 **ましょう**`let's (volitional-polite-form)`**⚭　Vmashou**
+
+    ・近いから歩きましょう 
+    ・It's close enough. Let's walk.
+
+32.2 **ましょうか**`shall (volitional-polite-question-form)`**⚭　Vmashou + ka**
+
+    ・明日どこで会いましょうか 
+    ・Where shall we meet tomorrow?
+
+33.1 **ませんか**`why don't we/you do (masu-polite-negative-question-form)`**⚭　Vmasen + ka**
+
+    ・いい天気ですね。公園に行きませんか
+    ・It's a beautiful day. Why don't we go to the park?
+
+------------------------------------------------------------------------
+
+##### C9
+
+34.1 **い形容詞+名詞**`noun modification`**⚭　I-Adj + Noun**
+
+    ・綺麗で優しい先生 
+    ・Beautiful and kind teacher.
+
+34.2 **な形容詞+名詞**`noun modification`**⚭　Na-Adj+na + Noun**
+
+    ・優しくて綺麗な先生 
+    ・A kind and beautiful teacher.
+
+34.3 **名詞+名詞**`noun modification`**⚭　Noun + no + Noun**
+
+    ・駅の近くの本屋 
+    ・A bookstore near the station
+
+34.4 **文節+名詞**`noun modification`**⚭　Relative Clause( [no/ga] Adjectival) + Noun**
+
+    ・髪が長い人・髪の長い人 
+    ・A person with long hair
+
+34.5 **動詞+名詞**`noun modification`**⚭　Relative Clause( Verbal-Non polite) + Noun**
+
+    ・田中さんが働いている会社 
+    ・The company where Mr. Tanaka works.
+    
+<!-- <H> -->
+
+    ・昨日買った車 
+    ・The car I bought yesterday.
+    
+<!-- <H> -->
+    
+    ・田中さんが作るごはん 
+    ・Food prepared by Mr. Tanaka
+
+------------------------------------------------------------------------
+
 #### AP {.tabset}
 
 ##### 1
