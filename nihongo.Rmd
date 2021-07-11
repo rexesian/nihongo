@@ -2414,7 +2414,7 @@ reactable(
           div(style = list(fontSize = 13), Knj1, "・", Knj2),
           div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Reading),
-          div(style = list(fontSize = 11), Meaning)
+          div(style = list(fontSize = 13), Meaning)
         )
       },
       align = "center"
@@ -7705,14 +7705,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(595:785),
+  srvb2 %>% slice(595:827),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(595:785))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(595:827))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(595:785))$Reading[index]
+        Reading <- (srvb2 %>% slice(595:827))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -7746,19 +7746,19 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### 2SKN&1S
+###### 2SKN&2S
 
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(830:853),
+  srvb2 %>% slice(831:879),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(830:853))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(831:879))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(830:853))$Reading[index]
+        Reading <- (srvb2 %>% slice(831:879))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -7797,14 +7797,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1250:1268),
+  srvb2 %>% slice(1251:1269),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1250:1268))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1251:1269))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1250:1268))$Reading[index]
+        Reading <- (srvb2 %>% slice(1251:1269))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -7843,14 +7843,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1269:1297),
+  srvb2 %>% slice(1270:1298),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1269:1297))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1270:1298))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1269:1297))$Reading[index]
+        Reading <- (srvb2 %>% slice(1270:1298))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -7889,14 +7889,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1298:1304),
+  srvb2 %>% slice(1299:1304),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1298:1304))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1299:1304))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1298:1304))$Reading[index]
+        Reading <- (srvb2 %>% slice(1299:1304))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
@@ -7981,14 +7981,14 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 reactable(
-  srvb2 %>% slice(1341:1351),
+  srvb2 %>% slice(1342:1351),
   columns = list(
     Verbs = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Meaning <- (srvb2 %>% slice(1341:1351))$Meaning[index]
+        Meaning <- (srvb2 %>% slice(1342:1351))$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Reading <- (srvb2 %>% slice(1341:1351))$Reading[index]
+        Reading <- (srvb2 %>% slice(1342:1351))$Reading[index]
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),

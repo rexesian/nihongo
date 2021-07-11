@@ -784,47 +784,48 @@ Orig,Reading,Verbs,Meaning
 せめる【攻める】,せめる,攻める,"to attack, to assault"
 そめる【染める】,そめる,染める,"to dye, to colour"
 ためる【溜める】,ためる,溜める,"to amass, to accumulate"
-つめる【詰める】,つめる,詰める,to
-とめる【止める】,とめる,止める,to
-とめる【泊める】,とめる,泊める,to
-なめる【嘗める】,なめる,嘗める,to
-はめる【填める】,はめる,填める,to
-ほめる【褒める】,ほめる,褒める,to
-もめる【揉める】,もめる,揉める,to
-やめる【止める】,やめる,止める,to
-やめる【辞める】,やめる,辞める,to
-ほめる【ほめる】,ほめる,ほめる,to
-つもる【積もる】,つもる,積もる,to
-おりる【降りる】,おりる,降りる,to
-おりる【下りる】,おりる,下りる,to
-かりる【借りる】,かりる,借りる,to
-こりる【懲りる】,こりる,懲りる,to
-たりる【足りる】,たりる,足りる,to
-いれる【入れる】,いれる,入れる,to
-うれる【売れる】,うれる,売れる,to
-おれる【折れる】,おれる,折れる,to
-かれる【枯れる】,かれる,枯れる,to
-かれる【涸れる】,かれる,涸れる,to
-きれる【切れる】,きれる,切れる,to
-くれる【暮れる】 ,くれる,暮れる,to
-くれる【呉れる】,くれる,呉れる,to
-すれる【擦れる】,すれる,擦れる,to
-それる【逸れる】,それる,逸れる,to
-たれる【垂れる】,たれる,垂れる,to
-とれる【取れる】,とれる,取れる,to
-なれる【慣れる】,なれる,慣れる,to
-なれる【馴れる】,なれる,馴れる,to
-ぬれる【濡れる】,ぬれる,濡れる,to
-はれる【晴れる】,はれる,晴れる,to
-はれる【腫れる】,はれる,腫れる,to
-ふれる【触れる】,ふれる,触れる,to
-もれる【漏れる】,もれる,漏れる,to
-ゆれる【揺れる】,ゆれる,揺れる,to
-われる【割れる】,われる,割れる,to
-うわる【植わる】,うわる,植わる,to
-おわる【終わる】,おわる,終わる,to
-かわる【変わる】,かわる,変わる,to
-かわる【代わる】,かわる,代わる,to
+つめる【詰める】,つめる,詰める,"to pack, to shorten, to work out (details)"
+とめる【留める】,とめる,留める,"to fasten, to turn off, to detain "
+とめる【止める】,とめる,止める,to stop something
+とめる【泊める】,とめる,泊める,"to give shelter to, to lodge "
+なめる【嘗める】,なめる,嘗める,"to lick, to taste, to experience, to make fun of,  to make light of, to put down"
+はめる【填める】,はめる,填める,"to get in, to insert, to put on, to make love"
+ほめる【褒める】,ほめる,褒める,"to praise, to admire, to speak well"
+もめる【揉める】,もめる,揉める,"to disagree, to dispute"
+やめる【止める】,やめる,止める,to stop
+やめる【辞める】,やめる,辞める,to retire
+ほめる【ほめる】,ほめる,ほめる,to praise
+つもる【積もる】,つもる,積もる,to pile up
+おりる【降りる】,おりる,降りる,"to get off, to descend"
+おりる【下りる】,おりる,下りる,"to get off, to descend"
+かりる【借りる】,かりる,借りる,to borrow
+こりる【懲りる】,こりる,懲りる,"to to learn by experience, to be disgusted with"
+たりる【足りる】,たりる,足りる,to enough
+いれる【入れる】,いれる,入れる,to put in
+うれる【売れる】,うれる,売れる,to be sold
+おれる【折れる】,おれる,折れる,to break or be folded
+かれる【枯れる】,かれる,枯れる,"to wither, to die (plant), to be blasted (plant)"
+かれる【涸れる】,かれる,涸れる,"to dry up, to run out"
+きれる【切れる】,きれる,切れる,"to cut well, to be sharp, to break off"
+くれる【暮れる】 ,くれる,暮れる,"to get dark, to come to an end"
+くれる【呉れる】,くれる,呉れる,"to give, to let one have, to do for one, to be given"
+すれる【擦れる】,すれる,擦れる,"to rub, to chafe, to wear, to become sophisticated"
+それる【逸れる】,それる,逸れる,"to stray (turn) from subject, to get lost, to go astray"
+たれる【垂れる】,たれる,垂れる,"to hang, to droop, to drop, to lower, to pull down, to dangle, to sag, to drip, to ooze, to trickle, to leave "
+とれる【取れる】,とれる,取れる,"to come off, to be taken off, to be removed"
+なれる【慣れる】,なれる,慣れる,to grow accustomed to
+なれる【馴れる】,なれる,馴れる,"to become domesticated, to become tame"
+ぬれる【濡れる】,ぬれる,濡れる,to get wet
+はれる【晴れる】,はれる,晴れる,to be sunny
+はれる【腫れる】,はれる,腫れる,"to swell (from inflammation), to be become swollen"
+ふれる【触れる】,ふれる,触れる,"to touch, to be touched, to touch on a subject, to feel, to violate (law, copyright, etc.), to perceive, t"
+もれる【漏れる】,もれる,漏れる,"to leak out, to escape, to come through, to shine through, to filter out, to be omitted"
+ゆれる【揺れる】,ゆれる,揺れる,"to shake, to sway"
+われる【割れる】,われる,割れる,to break
+うわる【植わる】,うわる,植わる,to be planted
+おわる【終わる】,おわる,終わる,"to finish, to close"
+かわる【変わる】,かわる,変わる,to change
+かわる【代わる】,かわる,代わる,"to take the place of, to relieve, to be substituted for, to be exchanged, to change places with, to take "
 やっつける【やっ付ける】 ,やっつける,やっ付ける,to beat
 ぶらさげる【ぶら下げる】 ,ぶらさげる,ぶら下げる,"to hang, to suspend, to dangle, to swing"
 やりとげる【やり遂げる】 ,やりとげる,やり遂げる,to accomplish
@@ -852,31 +853,31 @@ Orig,Reading,Verbs,Meaning
 あやぶむ【危ぶむ】,あやぶむ,危ぶむ,"to fear, to have misgivings, to be doubtful to mistrust"
 ふくらむ【膨らむ】,ふくらむ,膨らむ,"to expand, to swell (out), to get big, to become inflated"
 ひきいる【率いる】,ひきいる,率いる,"to lead, to spearhead (a group), to command (troops)"
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
+もちいる【用いる】,もちいる,用いる,"to use, to make use of"
+あたえる【与える】,あたえる,与える,"to give, to present, to award"
+あまえる【甘える】,あまえる,甘える,"to behave like a spoiled child, to fawn on"
+おさえる【押える】,おさえる,押える,"to stop, to restrain, to seize, to repress, to suppress, to press down"
+おしえる【教える】,おしえる,教える,"to teach, to tell"
+おびえる【怯える】,おびえる,怯える,"to become frightened, to have a nightmare"
+おぼえる【覚える】,おぼえる,覚える,to remember
+かかえる【抱える】,かかえる,抱える,to hold or carry under or in the arms
+かぞえる【数える】,かぞえる,数える,to count
+かなえる【叶える】,かなえる,叶える,"to grant (request, wish)"
+かまえる【構える】,かまえる,構える,to set up
+きたえる【鍛える】,きたえる,鍛える,"to forge, to drill, to temper, to train, to discipline"
+くわえる【加える】,くわえる,加える,"to append, to sum up, to add up"
+さかえる【栄える】,さかえる,栄える,"to prosper, to flourish"
+こごえる【凍える】,こごえる,凍える,"to freeze, to be chilled, to be frozen"
+ささえる【支える】,ささえる,支える,"to support, to hold, to maintain"
+こたえる【答える】,こたえる,答える,to answer
+そなえる【備える】,そなえる,備える,"to furnish, to provide for, to equip, to install"
+そなえる【具える】,そなえる,具える,to be furnished with
+そびえる【聳える】,そびえる,聳える,"to rise, to tower, to soar"
+そろえる【揃える】,そろえる,揃える,"to put things in order, to arrange, to make uniform, to get something ready"
+たとえる【例える】,たとえる,例える,"to compare, to liken, to speak figuratively, to illustrate, to use a simile"
+ちがえる【違える】,ちがえる,違える,to change
+つかえる【仕える】,つかえる,仕える,"to serve, to work for"
+つたえる【伝える】,つたえる,伝える,to report
 ,,,
 ,,,
 ,,,
