@@ -135,6 +135,7 @@ vrn1 <- read_csv("rdata/Sheet 104-VRN1.csv")
 vrn5 <- read_csv("rdata/Sheet 105-VRN5.csv")
 yrmp <- read_csv("rdata/Sheet 106-YRCMP.csv")
 vrnm <- read_csv("rdata/Sheet 107-MMWRD.csv")
+wvbrb <- read_csv("rdata/Sheet 108-WRDSVRB.csv")
 
 ```
 
@@ -2240,31 +2241,44 @@ reactable(
 
 ### Usage {.tabset}
 
-<!-- #### Verbs -->
+<!-- #### WVerbs -->
 
 <!-- ```{r, echo=FALSE, message=FALSE} -->
 
 <!-- reactable( -->
-<!--   na.omit(srvb2 %>% slice(65:1300)), -->
+<!--   wvbrb, -->
 <!--   columns = list( -->
-<!--     Verbs = colDef( -->
+<!--     Kanji = colDef( -->
 <!--       # Show species under character names -->
 <!--       cell = function(value, index) { -->
-<!--         Meaning <- srvb2$Meaning[index] -->
+<!--         Meaning <- wvbrb$Meaning[index] -->
 <!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
-<!--         Reading <- srvb2$Reading[index] -->
+<!--         Reading <- wvbrb$Reading[index] -->
 <!--         Reading <- if (!is.na(Reading)) Reading else "Unknown" -->
+<!--         w1 <- wvbrb$w1[index] -->
+<!--         w1 <- if (!is.na(w1)) w1 else "Unknown" -->
+<!--         w2 <- wvbrb$w2[index] -->
+<!--         w2 <- if (!is.na(w2)) w2 else "Unknown" -->
+<!--         w3 <- wvbrb$w3[index] -->
+<!--         w3 <- if (!is.na(w3)) w3 else "Unknown" -->
 <!--         tagList( -->
-<!--           div(style = list(fontSize = 30, fontWeight = 700), value), -->
-<!--           # div(style = list(fontSize = 13), Reading), -->
-<!--           # div(style = list(fontSize = 11), Meaning) -->
+<!--           div(style = list(fontSize = 20, fontWeight = 700), value), -->
+<!--           div(style = list(fontSize = 11), Reading), -->
+<!--           div(style = list(fontSize = 11), Meaning), -->
+<!--           div(style = list(fontSize = 13), "・"), -->
+<!--           div(style = list(fontSize = 17, fontWeight = 500), w1), -->
+<!--           div(style = list(fontSize = 17, fontWeight = 500), w2), -->
+<!--           # div(style = list(fontSize = 17, fontWeight = 500), w3), -->
 <!--         ) -->
 <!--       }, -->
 <!--       align = "center" -->
 <!--     ), -->
 <!--     Reading = colDef(show = FALSE), -->
 <!--     Meaning = colDef(show = FALSE), -->
-<!--     Orig = colDef(show = FALSE) -->
+<!--     w1 = colDef(show = FALSE), -->
+<!--     w2 = colDef(show = FALSE), -->
+<!--     w3 = colDef(show = FALSE) -->
+
 <!--   ), -->
 <!--   defaultPageSize = 1, -->
 <!--   theme = reactableTheme( -->
@@ -2286,7 +2300,7 @@ reactable(
 
 <!-- ------------------------------------------------------------------------ -->
 
-#### Verbs
+#### RVerbs
 
 ```{r, echo=FALSE, message=FALSE}
 
