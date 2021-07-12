@@ -17447,6 +17447,63 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### Roommate
+
+    ・うん、元気。でも、ちょっと困りごとがあって
+    ・Yeah, I'm fine. But I'm having a little trouble
+    ・すぐに新しいルームメイトを探さなくちゃいけないの
+    ・I need to find a new roommate soon
+    ・サラが引っ越したの?
+    ・Sarah moved out?
+    ・そうなの。彼女、ロサンゼルスで仕事が見つかって
+    ・That's right. She got a job in Los Angeles
+    ・そうなんだ!それはよかったね
+    ・Oh, yeah! That's good to know
+    ・うん、彼女にとってはね
+    ・Yes, for her
+    ・サラはパーフェクトなルームメイトだったし
+    ・And Sarah was the perfect roommate.
+    ・どうやったらサラと同じくらい良い人が見つけられるんだろう
+    ・I don't know how I'm going to find someone as good as Sara
+    ・うーん、パーフェクトなルームメイトが見つかるかはわからないけど
+    ・Hmm, I don't know if I'll ever find the perfect roommate
+    ・誰か良い人が見つかるよ
+    ・You'll find someone good
+    ・そうだといいんだけど
+    ・I hope you're right
+    ・誰か住むところを探している人、知ってる?
+    ・Do you know anyone who is looking for a place to live? Do you know anyone?
+    ・うーん、友 達のレベッカに聞いてみるよ
+    ・Hmm, I'll ask my friend Rebecca
+    ・町に近いところに住みたいって言ってたから。すぐ連絡するね
+    ・She said she wanted to live closer to town. I'll be in touch soon.
+    ・リズ、まだルームメイト探してる?
+    ・Liz, are you still looking for a roommate?
+    ・レベッカに聞いてみたけど、興味あるって言ってたよ
+    ・I asked Rebecca about it. She said she'd be interested
+    ・君に会って話をして、アパートを見たいって
+    ・He wants to meet you, talk to you, see your apartment
+    ・それはいいニュースね!もちろん。私の電話番号伝えてくれる?
+    ・That's good news! Of course. Can you give them my phone number? Will you?
+    ・いいよ。でも、一つ問題があって
+    ・It's fine. But there's just one problem
+    ・レベッカは猫を飼っているんだ。君は猫が嫌いだよね
+    ・Rebecca has a cat. I know you don't like cats
+    ・その猫っていい猫?
+    ・Is that a good cat?
+    ・うん、良い子だよ。いかした猫だよ。犬みたいにふるまうんだ
+    ・Yeah, he's a good boy. He's a nice cat. He acts like a dog
+    ・レベッカと猫に会ってみる。もしかしたら猫を好きになるかもしれないし!
+    ・Rebecca and I are going to meet a cat. Maybe you'll even like the cat!
+    ・そうだね!まあ、最初から決めつけないようにね
+    ・Yes, it is! Well, don't be the first to assume
+    ・ルームメイトが必要なんだから
+    ・Because I need a roommate
+    ・そうだよね。そうする
+    ・You're right. I will
+
+------------------------------------------------------------------------
+
 ### Verbs
 
 三時にお得意さんと会う約束がある`I have an appointment with a client at 3:00`  
