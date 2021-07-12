@@ -12064,6 +12064,23 @@ reactable(
     🆀 ご案内いたします
     🆀 お好きな席どうぞ
     🆀 お好きな席お座りください
+    
+<!-- <h> -->
+
+    🆀 How many people?
+    🆀 Two, person
+    🆀 We're sorry. We are full right now
+    🆀 How long is the wait time?
+    🆀 How long will I have to wait?
+    🆀 Do you have a reservation?
+    🆀 I have a reservation at 7:00
+    🆀 No, I don't have a reservation
+    🆀 Follow me, please
+    🆀 Please have a seat anywhere you like
+    🆀 Please have a seat anywhere you like    
+     
+<!-- <h> -->
+   
     🆀 メニューもらえますか
     🆀 ご注文はお決まりですか
     🆀 いいえ、まだ決まってないです
@@ -12077,6 +12094,25 @@ reactable(
     🆀 お飲み物は何なさいますか
     🆀 コーヒーください
     🆀 いいえ、大丈夫
+      
+<!-- <h> -->
+      
+    🆀 Can I have a menu?
+    🆀 Are you ready to order?
+    🆀 No, I haven't decided yet
+    🆀 I'll tell you later
+    🆀 Then I'll ask you again later
+    🆀 Tempura set meal, please 
+    🆀 Cheese hamburger, please  
+    🆀 Cheese hamburger and coffee
+    🆀 I'll have this one, please
+    🆀 What do you recommend?
+    🆀 What would you like to drink?
+    🆀 Coffee, please
+    🆀 No, I'm fine
+      
+<!-- <h> -->
+      
     🆀 この料理に卵は入っていますか
     🆀 アレルギーなので、卵抜きで作ってもらえますか
     🆀 お飲み物はいつお待ちしましょうか
@@ -12088,6 +12124,23 @@ reactable(
     🆀 すみません。注文したものがまだ来ないんですが
     🆀 すみません。これ注文したものと違います
     🆀 これ注文していないです
+     
+<!-- <h> -->
+
+    🆀 Do you have any eggs in this dish?
+    🆀 I'm allergic to eggs, can you make it without them?
+    🆀 When would you like your drinks?
+    🆀 Before the meal, please
+    🆀 With the meal, please
+    🆀 After the meal, please
+    🆀 That's all
+    🆀 That would be all for now
+    🆀 Excuse me. My order hasn't come yet
+    🆀 Excuse me. This is not what I ordered
+    🆀 I didn't order this
+     
+<!-- <h> -->
+ 
     🆀 取り皿もらえますか
     🆀 お水もらえますか
     🆀 おしぼりもらえますか
@@ -12103,41 +12156,6 @@ reactable(
     
 <!-- <h> -->
 
-    🆀 How many people?
-    🆀 Two, person
-    🆀 We're sorry. We are full right now
-    🆀 How long is the wait time?
-    🆀 How long will I have to wait?
-    🆀 Do you have a reservation?
-    🆀 I have a reservation at 7:00
-    🆀 No, I don't have a reservation
-    🆀 Follow me, please
-    🆀 Please have a seat anywhere you like
-    🆀 Please have a seat anywhere you like
-    🆀 Can I have a menu?
-    🆀 Are you ready to order?
-    🆀 No, I haven't decided yet
-    🆀 I'll tell you later
-    🆀 Then I'll ask you again later
-    🆀 Tempura set meal, please 
-    🆀 Cheese hamburger, please  
-    🆀 Cheese hamburger and coffee
-    🆀 I'll have this one, please
-    🆀 What do you recommend?
-    🆀 What would you like to drink?
-    🆀 Coffee, please
-    🆀 No, I'm fine
-    🆀 Do you have any eggs in this dish?
-    🆀 I'm allergic to eggs, can you make it without them?
-    🆀 When would you like your drinks?
-    🆀 Before the meal, please
-    🆀 With the meal, please
-    🆀 After the meal, please
-    🆀 That's all
-    🆀 That would be all for now
-    🆀 Excuse me. My order hasn't come yet
-    🆀 Excuse me. This is not what I ordered
-    🆀 I didn't order this
     🆀 Can I have some small plates?
     🆀 Can I have a glass of water?
     🆀 Can I have a wet towel?
@@ -12150,6 +12168,84 @@ reactable(
     🆀 Do you accept credit cards?
     🆀 Can we pay separately?
     🆀 Can I get a receipt?
+
+------------------------------------------------------------------------
+
+### Travel
+
+###### **Flight**
+
+    🆀 この搭乗券の席はどちらにありますか
+    🆀 搭乗券を拝見してもよろしいでしょうか
+    🆀 荷物を棚に入れてくれませんか
+    🆀 すみません、ここは私の席です
+    🆀 他の席に移ってもいいですか
+    🆀 すみません、毛布もう一枚もらえますか
+    🆀 新聞がありますか
+    🆀 どうやってシートを倒すのですか
+    🆀 リモコンの使い方を知りたいのですが
+    🆀 イヤホンの調子が悪いのですが
+    🆀 違うものと交換していただけませんか
+    🆀 すみません、お水もらえますか
+    🆀 はい、すぐにお持ちいたします
+    🆀 入国カードの書き方を教えてもらえますか
+    🆀 税関申告書の用紙をください
+    🆀 ペンをお借りできますか
+    
+<!-- <h> -->
+
+    🆀 Where are the seats on this boarding pass?
+    🆀 May I see your boarding pass, please?
+    🆀 Could you please put my luggage on the shelf?
+    🆀 Excuse me, this is my seat.
+    🆀 May I move to another seat?
+    🆀 Excuse me, can I have another blanket?
+    🆀 Do you have a newspaper?
+    🆀 How do I fold down the seat?
+    🆀 I'd like to know how to use the remote control.
+    🆀 What's wrong with my earphones?
+    🆀 Can you replace the earphone with a different one?
+    🆀 Excuse me, can I have some water?
+    🆀 Yes, I'll bring it right away.
+    🆀 Can you teach me how to fill out the immigration card?
+    🆀 Can I have a customs declaration form?
+    🆀 Can I borrow a pen?
+    
+###### **In-Flight-Food**   
+
+    🆀 お食事は何なさいますか
+    🆀 日本の食事は和食と洋食のご用意があります
+    🆀 和食のメインは魚、洋食のメインは通り肉です
+    🆀 お食事はお済みでしょうか
+    🆀 お飲み物はいかがですか
+    🆀 紅茶はいかがですか
+    🆀 どんなジュースがありますか
+    🆀 ジュースはオレンジジュース、アップルジュースとトマトジュースがあります
+    🆀 コーラをください
+    🆀 赤ワインをお願いします
+    🆀 いいえ、結構です
+    🆀 コーヒーをいただけますか
+    🆀 砂糖とミルク入りますか
+    🆀 はい、両方お願いします
+    🆀 お暑いのでお気をつけください
+    
+<!-- <h> -->
+
+    🆀 What kind of meal will you have?
+    🆀 Japanese food is available in Japanese and Western style.
+    🆀 The main course of Japanese food is fish, while the main course of Western food is meat.
+    🆀 Have you eaten yet?
+    🆀 Would you like a drink?
+    🆀 Would you like a cup of tea?
+    🆀 What kind of juice do you have?
+    🆀 We have orange juice, apple juice and tomato juice.
+    🆀 Can I have a Coke, please?
+    🆀 Can I have a glass of red wine, please?
+    🆀 No, thank you.
+    🆀 Can I have a cup of coffee, please?
+    🆀 Can I have sugar and milk?
+    🆀 Yes, both please.
+    🆀 Please be careful, it's very hot.
 
 ------------------------------------------------------------------------
 
@@ -17184,7 +17280,7 @@ reactable(
     ・What would you like to order?  
     ・チキンのスプリング、グリーンサラダをください  
     ・Chicken springs, green salad, please  
-    ・かしこまりました。こちらのサラダにはスープが付つきます  
+    ・かしこまりました。こちらのサラダにはスープが付きます  
     ・Certainly. This salad is served with soup  
     ・クリーミー、トマトスープとミネストローネ、どちらになさいますか?  
     ・Would you like creamy tomato soup or minestrone?  
@@ -17258,7 +17354,97 @@ reactable(
     ・There is a small dent in the rear bumper. But other than that it looks fine  
     ・そうしよう  
     ・Let's do that  
-    
+
+------------------------------------------------------------------------
+
+#### Kitten
+
+    ・ちょっとこっちに来て、これを見て!  
+    ・Come here for a minute and look at this!
+    ・何を見つけたの?
+    ・What did you find?
+    ・子猫だよ! 
+    ・It's a kitten!
+    ・えー!かわいい!お母さん猫はどこにいるの?
+    ・Ew! So cute! Where's the mother cat? 
+    ・わからないんだ。とっても小さいな
+    ・I don't know. It's so small 
+    ・かわいそうに!お母さんを探してあげようよ 
+    ・Oh, you poor thing! Let's go find your mother 
+    ・そうだね。僕が子猫を抱くから、この辺りを探してみよう
+    ・That's right. I'll hold the kitten. We'll look around here.Okay.
+    ・そうね。あなたはあっちを探してみて
+    ・Right. You can look over there
+    ・私はこっちを探してみるから。15分後にここに戻ってきてね
+    ・I'm going to look this way, and I'll be back here in 15 minutes.
+    ・お母さん猫見つかった? 
+    ・Did you find the mother cat?
+    ・ううん。「迷子のねこ」のチラシを作って、近所に貼ってみようよ。 
+    ・No, I don't think so. Let's make flyers for "Lost Cat" and post them around the neighborhood
+    ・そうだね。ミラは字がきれいだよね。チラシ書いてみる? 
+    ・That's right. Mira has beautiful handwriting, doesn't she? Do you want to write a flyer? 
+    ・誰か猫がいなくなった人がいないかSNSを見てみるね 
+    ・I'll check social media to see if anyone's missing a cat 
+    ・じゃあ、私はチラシを作り始めるね
+    ・Okay, I'll start making flyers     
+    ・この子猫のお家を見つけてあげられるといいね 
+    ・I hope you can find a home for this kitty 
+    ・もし見つからなかったら、ダウンタウンにある動物保護センターに連れて行こう 
+    ・If we can't find them, we'll take them to the animal shelter downtown
+    ・私から名前をとって、「ミラ」っていう名前を付けてくれないかな
+    ・I hope they name her “Mira” after me.
+
+------------------------------------------------------------------------
+
+#### Pizza
+
+    ・私たちがニューヨークにいるなんて信じられない!
+    ・I can't believe we're in New York!
+    ・あちこち見回るの、わくわくしちゃう!
+    ・I'm so excited to look around!
+    ・僕も。今すごくハッピーだよ!
+    ・Me too. I'm so happy right now!
+    ・じゃあ、まず何がしたい?
+    ・So what do you want to do first?
+    ・とてもお腹が空いたな。何か食べない?
+    ・I'm very hungry. Do you want something to eat?
+    ・そうだね!何が食べたい?
+    ・Oh, yeah! What do you want to eat?
+    ・せっかくニューヨークにいるんだから、ピザを食べようよ!
+    ・Since we're in New York, let's have some pizza!
+    ・ニューヨークのピザは最 高だって聞いたことがある
+    ・I've heard that the pizza in New York is the best
+    ・道の向こうにあるレストランに 行い ってみようよ
+    ・Let's go to the restaurant across the street
+    ・ここまでピザの匂いがする!
+    ・It smells like pizza up here!
+    ・どれを注 文したらいいかな?
+    ・Which one should I order?
+    ・チーズピザがおいしそう
+    ・The cheese pizza looks delicious!
+    ・確かに。君は何を頼むの?
+    ・Certainly. What are you going to ask for?
+    ・ペパロニにしようかな
+    ・I think I'll have pepperoni
+    ・何枚頼もうか?
+    ・How many do you want?
+    ・チーズのスライス2枚とペパロニのスライスを2枚頼もうよ
+    ・I'll ask for two slices of cheese and two slices of pepperoni
+    ・いい考えだね!二人ともチーズピザとペパロニの両方を試せるね
+    ・That's a good idea! We can both try both cheese pizza and pepperoni
+    ・見て! 私 たちのオーダーが出来たよ!
+    ・Look! We've made our order!
+    ・一枚食べてみようかな
+    ・I think I'll try one
+    ・このピザ、すごく美味しい!
+    ・This pizza is so good!
+    ・本当、すごく美味しいね!
+    ・It's really very tasty!
+    ・今まで食べたピザで、一 番美味しい!
+    ・It's the best pizza I've ever had!
+    ・私もそう思う!このピザ最高!
+    ・I think so too! This pizza is the best!
+
 ------------------------------------------------------------------------
 
 ### Verbs
