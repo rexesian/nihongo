@@ -19,8 +19,10 @@ body{
   }
 </style>
 ```
+
+
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 
 ```{css, echo=FALSE}
@@ -2249,33 +2251,39 @@ reactable(
 <!--   wvbrb, -->
 <!--   columns = list( -->
 <!--     Kanji = colDef( -->
-<!--       # Show species under character names -->
 <!--       cell = function(value, index) { -->
 <!--         Meaning <- wvbrb$Meaning[index] -->
 <!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
 <!--         Reading <- wvbrb$Reading[index] -->
 <!--         Reading <- if (!is.na(Reading)) Reading else "Unknown" -->
-<!--         w1 <- wvbrb$w1[index] -->
-<!--         w1 <- if (!is.na(w1)) w1 else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 700), value), -->
+<!--           div(style = list(fontSize = 11), Reading), -->
+<!--           div(style = list(fontSize = 11), Meaning), -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center", -->
+<!--       minWidth = 40, -->
+<!--     ), -->
+
+<!--     Words = colDef( -->
+<!--       cell = function(value, index) { -->
 <!--         w2 <- wvbrb$w2[index] -->
 <!--         w2 <- if (!is.na(w2)) w2 else "Unknown" -->
 <!--         w3 <- wvbrb$w3[index] -->
 <!--         w3 <- if (!is.na(w3)) w3 else "Unknown" -->
 <!--         tagList( -->
-<!--           div(style = list(fontSize = 20, fontWeight = 700), value), -->
-<!--           div(style = list(fontSize = 11), Reading), -->
-<!--           div(style = list(fontSize = 11), Meaning), -->
-<!--           div(style = list(fontSize = 13), "・"), -->
-<!--           div(style = list(fontSize = 17, fontWeight = 500), w1), -->
-<!--           div(style = list(fontSize = 17, fontWeight = 500), w2), -->
-<!--           # div(style = list(fontSize = 17, fontWeight = 500), w3), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), value), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), w2), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), w3), -->
 <!--         ) -->
 <!--       }, -->
-<!--       align = "center" -->
-<!--     ), -->
+<!--       align = "left" -->
+<!--     ),    -->
+
+
 <!--     Reading = colDef(show = FALSE), -->
 <!--     Meaning = colDef(show = FALSE), -->
-<!--     w1 = colDef(show = FALSE), -->
 <!--     w2 = colDef(show = FALSE), -->
 <!--     w3 = colDef(show = FALSE) -->
 
@@ -2428,7 +2436,7 @@ reactable(
           div(style = list(fontSize = 13), Knj1, "・", Knj2),
           div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Reading),
-          div(style = list(fontSize = 13), Meaning)
+          div(style = list(fontSize = 12), Meaning)
         )
       },
       align = "center"
@@ -17726,6 +17734,104 @@ reactable(
 養成`training/education/development/cultivation`  
 造成`development of land/preparation/reclamation`  
 整備`maintenance/servicing`  
+
+------------------------------------------------------------------------
+
+#### AW {.tabset}
+
+##### A
+
+日本についての映画`a film about Japan`
+の上に`above`
+外国で`abroad`
+脱脂綿`absorbent cotton`
+受け取る`accept・receive・get`
+受け付ける`accept・receive・take up`
+事故`accident`
+口座`account`
+正確`accurate・correct`
+痛み`ache`
+道の向こう側`across the road`
+住所`address`
+住所録`address book`
+入場料`admission fee`
+大人`adult`
+前もって`advance・in advance・beforehand`
+飛行機`airplane`
+後で`afterwards`
+どうぞお先に`after you`
+昼食後に`after lunch`
+結局`after all`
+午後`afternoon`
+また`again`
+反対`against`
+代理人`agent`
+前`ago`
+1週間前`a week ago`
+1時間前`an hour ago`
+同感`agreement`
+空気`airair`
+エアコン`air condition`
+航空便よう`airmail`
+空港`airport`
+通路側の席`aise seat`
+目覚まし時計`alarm clock`
+アルコール`alcohol`
+お酒`alcohol drink`
+みんな`all・everyone`
+それ全部`all of it`
+全部`all`
+アレルギ`allergy`
+結構です`alright`
+大丈夫です`are you alright`
+ほとんど`almost・most`
+もう`already・again`
+全部で`altogether`
+いつも`always`
+驚くべき`amazing・astonishing`
+救急車`ambulance`
+中で`among`
+量`amount`
+そして`and`
+怒った`angry`
+動物`animal`
+足首`ankle`
+結婚記念日`anniversary`
+いらいらする`annoying`
+別の`another`
+抗生物質`antibiotics`
+骨董`antique`
+骨董品店`antique shop`
+消毒剤`antiseptic`
+予約`appointment・reservation`
+あんず`apricot`
+地域`area・region`
+市外局番`area code`
+腕`arm`
+手配します`arrangement・preparation`
+到着`arrival`
+着きます`arrive`
+美術`art`
+美術館`art gallery`
+芸術`art・fine arts`
+芸術家`artist`
+大至急`as soon as possible`
+成るべく`as (much) as possible・if possible`
+努めて`as much as possible・as far as possible`
+出来るだけ`as much as possible・as much as one can`
+出来るだけ早く`as soon as possible`
+頼む`ask`
+アスピリン`aspirin`
+喘息`asthma`
+ホテルで`at the hotel`
+駅で`at the station`
+魅力的`attractive`
+自動`automatic`
+秋`autumn`
+雪崩`avalanche`
+お踊り`avenue`
+平均的`average`
+ひどい`awful`
 
 ------------------------------------------------------------------------
 
