@@ -17504,6 +17504,94 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### Picnic
+
+    ・南カリフォルニアで暮らすのが大好きなの。ここの夏は本当にいいよね!
+    ・I love living in Southern California. The summers here are really nice!
+    ・そうだね。今日は天気がいいね
+    ・Yes, it is. It's a beautiful day
+    ・今日は外で何かしたいな。一 緒にどう?
+    ・I want to do something outside today. Would you like to join me?
+    ・ピクニックがしたいな。ピクニック用のバスケットとブランケットを持っているの
+    ・I'd like to have a picnic. I have a picnic basket and a blanket
+    ・それはいいね。公園に行こうか
+    ・That's a good idea. Let's go to the park
+    ・公園か、いいね!ピクニックで何を食べる?
+    ・Park, great! What to eat at the picnic?
+    ・サンドイッチがいいんじゃないかな
+    ・I think a sandwich would be good
+    ・パン屋さんで焼き立てのパンを買ってくる
+    ・I'll go to the bakery and get some fresh bread
+    ・僕のところにはハムとスライスしたターキーがあるよ。レタスとトマトもあるし
+    ・I have some ham and sliced turkey at my place. Lettuce I've got some lettuce and tomatoes
+    ・家にマスタードはある?
+    ・Do you have any mustard in the house?
+    ・ない。じゃあ、マスタードを買おう
+    ・I don't have any. Then let's get some mustard
+    ・マヨネーズは好き?
+    ・Do you like mayonnaise?
+    ・あるよ。マヨネーズを持って行くね
+    ・There is. I'll bring the mayonnaise
+    ・ピクニックで何か飲みたいものはある?
+    ・Do you want something to drink at the picnic?
+    ・そうだな。水とソーダでいいんじゃない?
+    ・Yeah, I guess so. Water and soda will do, right?
+    ・水はあるけど、ソーダはないな
+    ・I've got water, but no soda
+    ・うちにソーダはあるよ。じゃあ、水を持ってきてね。僕はソーダを持って行くから
+    ・I have soda at home. Then bring me some water. I'll bring the soda
+    ・何時に公園で会う?
+    ・What time do you want to meet at the park?
+    ・午前10時にしよう
+    ・Let's make it 10:00 a.m
+    ・いいよ。じゃあ、あとでね!
+    ・All right. I'll see you later!
+
+------------------------------------------------------------------------
+
+#### Trip
+
+    ・退屈だよ
+    ・I'm bored
+    ・何しようか?
+    ・What do we do?
+    ・どこかに行きたい
+    ・I want to go somewhere
+    ・わからない。でも、車でどこかに行きたいな
+    ・I don't know. But I'd love to take the car somewhere
+    ・いいね! 車で遠出しようよ!
+    ・Great! Let's go on a road trip!
+    ・いいね!どこに行こうか?
+    ・Great! Where do you want to go?
+    ・どこがいいかな。北の方に行ってみようよ
+    ・Where do you want to go? Let's go up north
+    ・いいよ。海沿いをずっと走って、サンフランシスコに行こうか
+    ・All right. Let's drive all the way along the coast to San Francisco
+    ・賛成。モントレーにも立ち寄れるし!
+    ・Agree. And we can stop in Monterey!
+    ・うん!モントレー・ベイ水族館に行ってみたい
+    ・Yeah! I want to go to the Monterey Bay Aquarium
+    ・僕も。モントレー・ベイ水族館でラッコが見たいんだ
+    ・Me too. I want to see the sea otters at the Monterey Bay Aquarium
+    ・ラッコってかわいいよね!
+    ・Otters are so cute!
+    ・今すぐ行きたい。今から出かけられる?
+    ・I want to go now. Can we go now?
+    ・もちろん!何かおやつが必要だね
+    ・Of course! I think I need a snack
+    ・どんなスナックが好き?
+    ・What kind of snacks do you like?
+    ・ビーフ・ジャーキーとポテトチップがいいな
+    ・I'll take beef jerky and potato chips
+    ・ビーフ・ジャーキーはドライブに最 高だよね!
+    ・Beef jerky is the best for driving!
+    ・楽しみだな!
+    ・I'm looking forward to it!
+    ・じゃあ、出発!
+    ・Let's go!
+
+------------------------------------------------------------------------
+
 ### Verbs
 
 三時にお得意さんと会う約束がある`I have an appointment with a client at 3:00`  
