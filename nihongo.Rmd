@@ -11847,7 +11847,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-## Daily Japanese {.tabset}
+## Daily {.tabset}
 
 ### Introduction
 
@@ -15268,6 +15268,211 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
+## Web {.tabset}
+
+### L1
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(2415)
+v1 <- v1[sample(1:nrow(na.omit(v1))),]
+
+reactable(
+  v1,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+        w2 <- v1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- v1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- v1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- v1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- v1$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- v1$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- v1$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+
+        )
+      },
+      align = "center"
+    ),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L2
+
+```{r, echo=FALSE, message=FALSE}
+
+v2 <- v2[sample(1:nrow(na.omit(v2))),]
+
+reactable(
+  v2,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+        w2 <- v2$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- v2$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- v2$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- v2$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- v2$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- v2$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- v2$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- v2$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        w10 <- v2$w10[index]
+        w10 <- if (!is.na(w10)) w10 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
+
+        )
+      },
+      align = "center"
+    ),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE),
+    w10 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### L3
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(2415)
+v3 <- v3[sample(1:nrow(na.omit(v3))),]
+
+reactable(
+  v3,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+        w2 <- v3$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- v3$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- v3$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- v3$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- v3$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- v3$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- v3$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- v3$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        w10 <- v3$w10[index]
+        w10 <- if (!is.na(w10)) w10 else "Unknown"
+        w11 <- v3$w11[index]
+        w11 <- if (!is.na(w11)) w11 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10, "・", w11),
+
+        )
+      },
+      align = "center"
+    ),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE),
+    w10 = colDef(show = FALSE),
+    w11 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Anime {.tabset}
 
 ### YURU-CAMP  {.tabset}
@@ -17400,7 +17605,7 @@ reactable(
     ・もし見つからなかったら、ダウンタウンにある動物保護センターに連れて行こう 
     ・If we can't find them, we'll take them to the animal shelter downtown
     ・私から名前をとって、「ミラ」っていう名前を付けてくれないかな
-    ・I hope they name her “Mira” after me.
+    ・I hope they name her “Mira” after me
 
 ------------------------------------------------------------------------
 
@@ -17484,7 +17689,7 @@ reactable(
     ・うーん、友 達のレベッカに聞いてみるよ
     ・Hmm, I'll ask my friend Rebecca
     ・町に近いところに住みたいって言ってたから。すぐ連絡するね
-    ・She said she wanted to live closer to town. I'll be in touch soon.
+    ・She said she wanted to live closer to town. I'll be in touch soon
     ・リズ、まだルームメイト探してる?
     ・Liz, are you still looking for a roommate?
     ・レベッカに聞いてみたけど、興味あるって言ってたよ
@@ -17597,6 +17802,47 @@ reactable(
     ・I'm looking forward to it!
     ・じゃあ、出発!
     ・Let's go!
+
+------------------------------------------------------------------------
+
+#### Beach
+
+    ・なんて素敵な日なんでしょう!
+    ・What a wonderful day!
+    ・そのとおりだね。浜辺を散歩するのに最高の日だね!
+    ・That's right. It's a perfect day for a walk on the beach!
+    ・浜辺の近くに住んでいる私たちはとてもラッキーね
+    ・We're so lucky to live so close to the beach
+    ・そうだね。もっと頻繁に来ようよ
+    ・That's right. We should come more often
+    ・そのとおりね。足に感じる砂の感触が大好き
+    ・That's right. I love the feel of the sand on my feet
+    ・僕も。でも、砂が熱いこともあるよね!
+    ・Me too. But the sand can be hot!
+    ・確かに。でも、今はちょうどいいよ。
+    ・Indeed. But right now, it's just fine
+    ・貝殻を集めてみようかな
+    ・Maybe I'll collect some shells
+    ・楽しそうだね。僕はちょっと泳いでこようかな。海が呼んでいるみたいだから
+    ・That sounds like fun. I think I'll go for a swim. It's like the ocean is calling me
+    ・わかった!気を付けてね!
+    ・All right! Be careful!
+    ・遠くへは行かないよ。ほんの数分泳ぎたいだけなんだ。それに、泳ぎは得意だし
+    ・I'm not going far. I just want to swim for a few minutes. And I'm a good swimmer
+    ・うん、いくつか。これ見て
+    ・Yeah, a few. Look at this
+    ・わー、きれいだね!とてもカラフルだね
+    ・Wow, it's beautiful! So colorful!
+    ・水は冷たかった?
+    ・Was the water cold?
+    ・最 初は冷たかったけれど、そのあとは気持ちよかった。波は少し強かったけどね
+    ・It was cold at first, but after that it felt good. The waves were a little strong, though
+    ・うん、強そうに見えた
+    ・Yeah, he looked strong
+    ・しばらく浜辺でゆっくりして、体を乾かすよ
+    ・I'm going to relax on the beach for a while, dry off
+    ・わかった。また貝 殻を探してくるね。すぐ戻るから!
+    ・Okay, I'll go look for more shells. I'll go look for more shells. I'll be right back!
 
 ------------------------------------------------------------------------
 
@@ -17832,6 +18078,29 @@ reactable(
 お踊り`avenue`
 平均的`average`
 ひどい`awful`
+
+------------------------------------------------------------------------
+
+##### B
+
+赤ちゃん`baby`
+哺乳瓶`baby bottle`
+戻る`back・go back・return`
+戻ってきます`back・come back`
+戻っていきます`back・go back`
+腰の痛み`backache`
+悪い`bad`
+かばん`bag`
+荷物`baggage`
+パン屋`bakers`
+ベランダ`balcony`
+ボール`ball`
+竹`bamboo`
+バナナ`banana`
+包帯`bandage`
+銀行`bank`
+床屋`barbers`
+野球`baseball`
 
 ------------------------------------------------------------------------
 
