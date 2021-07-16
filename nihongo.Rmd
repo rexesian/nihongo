@@ -138,6 +138,7 @@ vrn5 <- read_csv("rdata/Sheet 105-VRN5.csv")
 yrmp <- read_csv("rdata/Sheet 106-YRCMP.csv")
 vrnm <- read_csv("rdata/Sheet 107-MMWRD.csv")
 wvbrb <- read_csv("rdata/Sheet 108-WRDSVRB.csv")
+vbwbrb <- read_csv("rdata/Sheet 110-WBVRBX.csv")
 
 ```
 
@@ -2633,6 +2634,91 @@ reactable(
     w6 = colDef(show = FALSE),
     w7 = colDef(show = FALSE),
     w8 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### VN
+
+
+```{r, echo=FALSE, message=FALSE}
+
+vbwbrb <- vbwbrb[sample(1:nrow(na.omit(vbwbrb))),]
+
+reactable(
+  vbwbrb,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+
+        w2 <- vbwbrb$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- vbwbrb$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- vbwbrb$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- vbwbrb$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- vbwbrb$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- vbwbrb$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- vbwbrb$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- vbwbrb$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        w10 <- vbwbrb$w10[index]
+        w10 <- if (!is.na(w10)) w10 else "Unknown"
+        w11 <- vbwbrb$w11[index]
+        w11 <- if (!is.na(w11)) w11 else "Unknown"
+        w12 <- vbwbrb$w12[index]
+        w12 <- if (!is.na(w12)) w12 else "Unknown"
+        w13 <- vbwbrb$w13[index]
+        w13 <- if (!is.na(w13)) w13 else "Unknown"
+        w14 <- vbwbrb$w14[index]
+        w14 <- if (!is.na(w14)) w14 else "Unknown"
+        w15 <- vbwbrb$w15[index]
+        w15 <- if (!is.na(w15)) w15 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 25, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
+          div(style = list(fontSize = 25, fontWeight = 500), w11, "・", w12, "・", w13, "・", w4, "・", w15)
+        )
+      },
+      align = "center"
+    ),
+
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE),
+    w10 = colDef(show = FALSE),
+    w11 = colDef(show = FALSE),
+    w12 = colDef(show = FALSE),
+    w13 = colDef(show = FALSE),
+    w14 = colDef(show = FALSE),
+    w15 = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
