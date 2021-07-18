@@ -1,7 +1,13 @@
+/*
 .hljs {
   color: 	#505050;
   font-size: 13px;
   font-family: "Anonymous Pro", monospace, "Helvetica Neue";
+}*/
+.hljs {
+  color: 	#505050;
+  font-size: 12px;
+  font-family: 'Rounded Mplus 1c', 'M PLUS Rounded 1c', sans-serif;
 }
 .tocify {
   color: 	#505050;
