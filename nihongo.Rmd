@@ -4775,19 +4775,19 @@ reactable(
 
 ###### **Adjective Stem ⇢ Adverb**
 
-    ・うまい　　⇢ うまく　　◦ skillfully, well
-    ・やすい　　⇢ やすく　　◦ inexpensively, cheaply
-    ・ふかい　　⇢ ふかく　　◦ deeply, intimately
-    ・はやい　　⇢ はやく　　◦ early, soon, quickly
-    ・すごい　　⇢ すごく　　◦ awfully, very, immensely
-    ・みじかい　⇢ みじかく　◦ shortly, briefly
-    ・くわしい　⇢ くわしく　◦ in detail, fully
+    ・うまい　　⇢　うまく　　◦ skillfully, well
+    ・やすい　　⇢　やすく　　◦ inexpensively, cheaply
+    ・ふかい　　⇢　ふかく　　◦ deeply, intimately
+    ・はやい　　⇢　はやく　　◦ early, soon, quickly
+    ・すごい　　⇢　すごく　　◦ awfully, very, immensely
+    ・みじかい　⇢　みじかく　◦ shortly, briefly
+    ・くわしい　⇢　くわしく　◦ in detail, fully
 
 ###### **Na Adjective ⇢ Adverb**
 
-    ・きれい　　⇢ きれいに　　◦ neatly, carefully
-    ・とくべつ　⇢ とくべつに　◦ speacilly, particularlly
-    ・たいせつ　⇢ たいせつに　◦ carefully, with great care
+    ・きれい　　⇢　きれいに　　◦ neatly, carefully
+    ・とくべつ　⇢　とくべつに　◦ speacilly, particularlly
+    ・たいせつ　⇢　たいせつに　◦ carefully, with great care
 
 ###### **No Adjective ⇢ Adverb**
 
@@ -4795,44 +4795,44 @@ reactable(
 
 ###### **Onomatope ⇢ Adverb**
 
-    ・chanto   ⇢ chanto   ◦ properly, deligently, exactly
-    ・yoboyobo ⇢ yoboyobo ◦ shaky, unsteadily
-    ・sukkari  ⇢ sukkari  ◦ completely, entirely
+    ・ちゃんと　⇢　ちゃんと　◦ properly, deligently, exactly
+    ・ヨボヨボ　⇢　ヨボヨボ　◦ shaky, unsteadily
+    ・すっかり　⇢　すっかり　◦ completely, entirely
 
 <!-- <h> -->
 
-    ・yukkuri  ⇢ yukkuri(to)  ◦ slowly, leisurely
-    ・pikapika ⇢ pikapika(to) ◦ sparkly
-    ・furafura ⇢ furafura(to) ◦ shaky, unsteadily
+    ・ゆっくり　⇢　ゆっくり(と)　◦ slowly, leisurely
+    ・ピカピカ　⇢　ピカピカ(と)　◦ sparkly
+    ・ふらふら　⇢　ふらふら(と)　◦ shaky, unsteadily
 
 ###### **Verbs ⇢ Adverb**
 
-    ・hajimeru ⇢ hajime-te ◦ first time
-    ・kiwameru ⇢ kiwame-te ◦ extremely, exceedingly
-    ・sugureru ⇢ sugure-te ◦ exceedingly
+    ・はじめる　⇢　はきめて　◦ first time
+    ・きわめる　⇢　きわめて　◦ extremely, exceedingly
+    ・すぐれる　⇢　すぐれて　◦ exceedingly
 
 ###### **Verbs (Duplication) ⇢ Adverb**
 
-    ・osoreru ⇢ osoru-osoru ◦ timidly 
-    ・kawaru  ⇢ kawaru-gawa ◦ in-turn
-    ・miru    ⇢ miru-miru   ◦ as you look on
+    ・おそれる　⇢　おそる-おそる　◦ timidly 
+    ・かわる　　⇢　かわる-がわ　　◦ in-turn
+    ・みる　　　⇢　みる-みる　　　◦ as you look on
 
 ###### **Nouns (Adverbial Nouns) ⇢ Adverb**
 
 ###### These are used as an adeverb to express time
 
-    ・いま　　⇢ いま　　◦ now 
-    ・きょう　⇢ きょう　◦ today
-    ・きのう　⇢ きのう　◦ yesterday
-    ・あした　⇢ あした　◦ tomorrow
-    ・あさ　　⇢ あさ　　◦ morning
-    ・ひる　　⇢ ひる　　◦ noon
-    ・よる　　⇢ よる　　◦ night
-    ・はる　　⇢ はる　　◦ spring
-    ・なつ　　⇢ なつ　　◦ summer
-    ・あき　　⇢ あき　　◦ autumn
-    ・ふゆ　　⇢ ふゆ　　◦ winter
-    ・むかし　⇢ むかし　◦ old times
+    ・いま　　⇢　いま　　◦ now 
+    ・きょう　⇢　きょう　◦ today
+    ・きのう　⇢　きのう　◦ yesterday
+    ・あした　⇢　あした　◦ tomorrow
+    ・あさ　　⇢　あさ　　◦ morning
+    ・ひる　　⇢　ひる　　◦ noon
+    ・よる　　⇢　よる　　◦ night
+    ・はる　　⇢　はる　　◦ spring
+    ・なつ　　⇢　なつ　　◦ summer
+    ・あき　　⇢　あき　　◦ autumn
+    ・ふゆ　　⇢　ふゆ　　◦ winter
+    ・むかし　⇢　むかし　◦ old times
 
 ###### **Nouns/Verbs + Compound Particle (Pre-Verbal Form) ⇢ Adverbials**
 
