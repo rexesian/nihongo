@@ -139,6 +139,7 @@ yrmp <- read_csv("rdata/Sheet 106-YRCMP.csv")
 vrnm <- read_csv("rdata/Sheet 107-MMWRD.csv")
 wvbrb <- read_csv("rdata/Sheet 108-WRDSVRB.csv")
 vbwbrb <- read_csv("rdata/Sheet 110-WBVRBX.csv")
+knjra <- read_csv("rdata/Sheet 111-KNJDUA.csv")
 
 ```
 
@@ -2242,6 +2243,122 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### MWord
+
+```{r echo=FALSE, message=FALSE}
+
+knjra <- knjra[sample(1:nrow(knjra)),]
+
+reactable(
+  na.omit(knjra),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- na.omit(knjra)$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 800), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### NWord
+
+```{r echo=FALSE, message=FALSE}
+
+knjra <- knjra[sample(1:nrow(knjra)),]
+
+reactable(
+  na.omit(knjra),
+  columns = list(
+       Script = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Script') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- na.omit(knjra)$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 800), value)
+          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
 ### Usage {.tabset}
 
 <!-- #### WVerbs -->
@@ -2554,9 +2671,9 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 25, fontWeight = 500), w1, "・", w2, "・", w3),
-          div(style = list(fontSize = 25, fontWeight = 500), w4, "・", w5, "・", w6),
-          div(style = list(fontSize = 25, fontWeight = 500), w7, "・", w8, "・", w9),
+          div(style = list(fontSize = 22, fontWeight = 500), w1, "・", w2, "・", w3),
+          div(style = list(fontSize = 22, fontWeight = 500), w4, "・", w5, "・", w6),
+          div(style = list(fontSize = 22, fontWeight = 500), w7, "・", w8, "・", w9),
         )
       },
       align = "center"
@@ -2619,9 +2736,9 @@ reactable(
         w8 <- knjrn$w8[index]
         w8 <- if (!is.na(w8)) w8 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 500), value, "・", w1, "・", w2),
-          div(style = list(fontSize = 25, fontWeight = 500), w3, "・", w4, "・", w5),
-          div(style = list(fontSize = 25, fontWeight = 500), w6, "・", w7, "・", w8)
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2),
+          div(style = list(fontSize = 22, fontWeight = 500), w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8)
         )
       },
       align = "center"
@@ -2697,9 +2814,9 @@ reactable(
         w15 <- vbwbrb$w15[index]
         w15 <- if (!is.na(w15)) w15 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
-          div(style = list(fontSize = 25, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
-          div(style = list(fontSize = 25, fontWeight = 500), w11, "・", w12, "・", w13, "・", w4, "・", w15)
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
+          div(style = list(fontSize = 22, fontWeight = 500), w11, "・", w12, "・", w13, "・", w4, "・", w15)
         )
       },
       align = "center"
@@ -3246,55 +3363,55 @@ A more detailed explanations will be encountered along the way for each item.
 
 **① And**
 
-    shikamo  ◦ Moreover, Nevertheless             
-    soremo   ◦ In addition to that                
-    sarani   ◦ Furthermore, Moreover              
-    sonoue   ◦ In addition                        
-    soreni   ◦ Besides, In additon, Moreover      
-    mata     ◦ In addition, Too, Also, Likewise   
-    sorekara ◦ And then, After                      
-    soshite  ◦ And, And then                         
+    しかも　　◦ Moreover, Nevertheless             
+    それも　　◦ In addition to that                
+    さらに　　◦ Furthermore, Moreover              
+    そのうえ　◦ In addition                        
+    それに　　◦ Besides, In additon, Moreover      
+    また　　　◦ In addition, Too, Also, Likewise   
+    それから　◦ And then, After                      
+    そして　　◦ And, And then                         
 
 **② But**
 
-    demo     ◦ But             
-    shikashi ◦ But             
-    keredomo ◦ But, However     
+    でも　　　◦ But             
+    しかし　　◦ But             
+    けれども　◦ But, However     
 
 **③ Or**
 
-    mata wa  ◦ Or, Otherwise     
-    soretomo ◦ Or, Or else       
-    arui wa  ◦ Or, Either.. or    
+    または　　◦ Or, Otherwise     
+    それとも　◦ Or, Or else       
+    あるいは　◦ Or, Either.. or    
 
 **④ Cause & Reason, Effect & Result and Situation & Result**
 
-    sorede     ◦ Thereupon, Because of that, That's why
-    suruto     ◦ Thereupon, Hereupon        
-    dakara     ◦ So, Therefore              
-    sokode     ◦ So, Therefore               
-    shitagatte ◦ Therefore, Consequently    
-    sonokekka  ◦ As a result of that        
-    sonotameni ◦ Hence, For that reason         
+    それで　　　◦ Thereupon, Because of that, That's why
+    すると　　　◦ Thereupon, Hereupon        
+    だから　　　◦ So, Therefore              
+    そこで　　　◦ So, Therefore               
+    したがって　◦ Therefore, Consequently    
+    そのけっか　◦ As a result of that        
+    そのために　◦ Hence, For that reason         
 
 **⑤ Change the Subject**
 
-    tokorode ◦ By the way  
+    ところで　◦ By the way  
 
 **⑥ Reason for Something**
 
-    nazenara   ◦ The reason is  
+    なぜなら　◦ The reason is  
 
 **⑦ For Example**
 
-    tatoeba ◦ For example    
+    たとえば　◦ For example    
 
 **⑧ Paraphrasing**
 
-    tsumari     ◦ That is to say, In other words     
-    you suru ni ◦ In short, I a word, To sum up 
-    kekkyoku    ◦ After all, In the end                 
-    toiuka      ◦ Or..should I say              
+    つまり　　　◦ That is to say, In other words     
+    ようするに　◦ In short, I a word, To sum up 
+    けっきょく　◦ After all, In the end                 
+    というか　　◦ Or..should I say              
 
 ------------------------------------------------------------------------
 
@@ -4658,23 +4775,23 @@ reactable(
 
 ###### **Adjective Stem ⇢ Adverb**
 
-    ・uma-i     ⇢ uma-ku     ◦ skillfully, well
-    ・yasu-i    ⇢ yasu-ku    ◦ inexpensively, cheaply
-    ・fuka-i    ⇢ fuka-ku    ◦ deeply, intimately
-    ・haya-i    ⇢ haya-ku    ◦ early, soon, quickly
-    ・sugo-i    ⇢ sugo-ku    ◦ awfully, very, immensely
-    ・mijika-i  ⇢ mijika-ku  ◦ shortly, briefly
-    ・kuwashi-i ⇢ kuwashi-ku ◦ in detail, fully
+    ・うまい　　⇢ うまく　　◦ skillfully, well
+    ・やすい　　⇢ やすく　　◦ inexpensively, cheaply
+    ・ふかい　　⇢ ふかく　　◦ deeply, intimately
+    ・はやい　　⇢ はやく　　◦ early, soon, quickly
+    ・すごい　　⇢ すごく　　◦ awfully, very, immensely
+    ・みじかい　⇢ みじかく　◦ shortly, briefly
+    ・くわしい　⇢ くわしく　◦ in detail, fully
 
 ###### **Na Adjective ⇢ Adverb**
 
-    ・kirei     ⇢ kirei-ni     ◦ neatly, carefully
-    ・tokubetsu ⇢ tokubetsu-ni ◦ speacilly, particularlly
-    ・taisetsu  ⇢ taisetsu-ni  ◦ carefully, with great care
+    ・きれい　　⇢ きれいに　　◦ neatly, carefully
+    ・とくべつ　⇢ とくべつに　◦ speacilly, particularlly
+    ・たいせつ　⇢ たいせつに　◦ carefully, with great care
 
 ###### **No Adjective ⇢ Adverb**
 
-    ・hadaka ⇢   hadaka-de ◦ nakedly
+    ・はだか　⇢　はだかで　◦ nakedly
 
 ###### **Onomatope ⇢ Adverb**
 
@@ -4704,18 +4821,18 @@ reactable(
 
 ###### These are used as an adeverb to express time
 
-    ・ima     ⇢ ima     ◦ now 
-    ・kyou    ⇢ kyou    ◦ today
-    ・kinou   ⇢ kinou   ◦ yesterday
-    ・ashita  ⇢ ashita  ◦ tomorrow
-    ・asa     ⇢ asa     ◦ morning
-    ・hiru    ⇢ hiru    ◦ noon
-    ・yoru    ⇢ yoru    ◦ night
-    ・haru    ⇢ haru    ◦ spring
-    ・natsu   ⇢ natsu   ◦ summer
-    ・aki     ⇢ aki     ◦ autumn
-    ・fuyu    ⇢ fuyu    ◦ winter
-    ・mukashi ⇢ mukashi ◦ old times
+    ・いま　　⇢ いま　　◦ now 
+    ・きょう　⇢ きょう　◦ today
+    ・きのう　⇢ きのう　◦ yesterday
+    ・あした　⇢ あした　◦ tomorrow
+    ・あさ　　⇢ あさ　　◦ morning
+    ・ひる　　⇢ ひる　　◦ noon
+    ・よる　　⇢ よる　　◦ night
+    ・はる　　⇢ はる　　◦ spring
+    ・なつ　　⇢ なつ　　◦ summer
+    ・あき　　⇢ あき　　◦ autumn
+    ・ふゆ　　⇢ ふゆ　　◦ winter
+    ・むかし　⇢ むかし　◦ old times
 
 ###### **Nouns/Verbs + Compound Particle (Pre-Verbal Form) ⇢ Adverbials**
 
@@ -5478,9 +5595,9 @@ The two nominalizers are **no** and **koto**.
 
 A **prefix** is a short element that is attached to the beginning of a word to add an additional meaning to or to change the meaning of the word.  
 
-    ・お　　olite prefix        お手紙・letter・お上手・skillful・忙しい・busy
-    ・可　　able, ible          可燃物・flammable thing・可溶性・solubility
-    ・各　　each, several       各国・each country・各部屋・each room
+    ・お　　olite prefix　　　　お手紙・letter・お上手・skillful・忙しい・busy
+    ・可　　able, ible　　　　　可燃物・flammable thing・可溶性・solubility
+    ・各　　each, several　　　 各国・each country・各部屋・each room
     ・片　　one                 片手・one hand・片一方・one of the two・片時・a monent
     ・逆　　counter, reverse    逆効果・counter productive・逆コース・reverse course
     ・ご　　polite prefix       ご家族・your family・ご結婚・marriage
@@ -5573,9 +5690,9 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 **Nanji desu ka?**`What time is it`
 
-    ・１時　　　　　ichiji             1 o'clock
-    ・２時　　　　　niji               2 o'clock
-    ・３時　　　　　sanji              3 o'clock
+    ・１時　　　　　いちじ　　　　　　1 o'clock
+    ・２時　　　　　にじ　　　　　　　2 o'clock
+    ・３時　　　　　さんじ　　　　　　3 o'clock
     ・３時５分　　　sanjigofun         3:05
     ・３時半　　　　sanjihan           3:30
     ・午後３時５分　gogo sanjigofun    3:05 pm
@@ -6147,19 +6264,19 @@ Indicates that the past occurrence was done by someone and not by you.
 
 <p style="font-size:12px;">(❖) **Vnai-Form (Negative Non Past Casual)**</p>
 
-    ・kau     ⇢   kawanai
-    ・taberu  ⇢   tabenai
-    ・miru    ⇢   minai
-    ・kuru    ⇢   konai
-    ・suru    ⇢   shinai
+    ・買う　　⇢　買わない
+    ・食べる　⇢　食べない
+    ・見る　　⇢　見ない
+    ・来る　　⇢　来ない
+    ・する　　⇢　しない
 
 <p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past Casual)**</p>
 
-    ・kau     ⇢   kawanakatta
-    ・taberu  ⇢   tabenakatta
-    ・miru    ⇢   minakatta
-    ・kuru    ⇢   konakatta
-    ・suru    ⇢   shinakatta
+    ・買う　　⇢　買わなかった
+    ・食べる　⇢　食べなかった
+    ・見る　　⇢　見なかった
+    ・来る　　⇢　来なかった
+    ・する　　⇢　しなかった
     
 <p style="font-size:12px;">(❖) **Vmasu-Form (Non Past Polite)**</p>
 
@@ -8515,12 +8632,12 @@ reactable(
 #### Connective-Forms
 
 **①　Copula**
-`da → de`
+`da ⇢ de`
 
 ###### **⚭　Noun/Na-Adj + de**
 
-    ・doubutsu   ⇢   doubutsude 
-    ・kirei      ⇢   kireide
+    ・どうぶつ　⇢　どうぶつで 
+    ・きれい　　⇢　きれいで
 
 <!-- <h> -->
 
@@ -8533,12 +8650,12 @@ reactable(
     ・Rina-san is beautiful and kind
 
 **②　I-Adjective**
-`i → kute`
+`i ⇢ kute`
 
 ###### **⚭　I-Adj + kute**
 
-    ・yasui   ⇢   yasukute
-    ・okii    ⇢   okikute
+    ・やすい　　⇢　やすくて
+    ・おおきい　⇢　おおきくて
 
 <!-- <h> -->
 
@@ -8551,13 +8668,13 @@ reactable(
     ・That house is big and beautiful
 
 **③　Verb**
-`Verb → Noun-base form`
-`Verb → Te-form`
+`Verb ⇢ Noun-base form`
+`Verb ⇢ Te-form`
 
 ###### **⚭　Vnoun/Vte**
 
-    ・okiru     ⇢   oki
-    ・taberu    ⇢   tabete
+    ・おきる　⇢　おき
+    ・たべる　⇢　たべて
 
 <!-- <h> -->
 
@@ -10692,7 +10809,7 @@ reactable(
         Concept <- vnnexp1$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
           div(style = list(fontSize = 16, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
@@ -10756,7 +10873,7 @@ reactable(
         Concept <- adjexp1$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
           div(""),
           
@@ -10822,7 +10939,7 @@ reactable(
         Concept <- vrbexp1$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
           div(""),
           div(style = list(fontSize = 16, fontWeight = 700), Expression),
