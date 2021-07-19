@@ -2361,70 +2361,7 @@ reactable(
 
 ### Usage {.tabset}
 
-<!-- #### WVerbs -->
 
-<!-- ```{r, echo=FALSE, message=FALSE} -->
-
-<!-- reactable( -->
-<!--   wvbrb, -->
-<!--   columns = list( -->
-<!--     Kanji = colDef( -->
-<!--       cell = function(value, index) { -->
-<!--         Meaning <- wvbrb$Meaning[index] -->
-<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
-<!--         Reading <- wvbrb$Reading[index] -->
-<!--         Reading <- if (!is.na(Reading)) Reading else "Unknown" -->
-<!--         tagList( -->
-<!--           div(style = list(fontSize = 25, fontWeight = 700), value), -->
-<!--           div(style = list(fontSize = 11), Reading), -->
-<!--           div(style = list(fontSize = 11), Meaning), -->
-<!--         ) -->
-<!--       }, -->
-<!--       align = "center", -->
-<!--       minWidth = 40, -->
-<!--     ), -->
-
-<!--     Words = colDef( -->
-<!--       cell = function(value, index) { -->
-<!--         w2 <- wvbrb$w2[index] -->
-<!--         w2 <- if (!is.na(w2)) w2 else "Unknown" -->
-<!--         w3 <- wvbrb$w3[index] -->
-<!--         w3 <- if (!is.na(w3)) w3 else "Unknown" -->
-<!--         tagList( -->
-<!--           div(style = list(fontSize = 20, fontWeight = 500), value), -->
-<!--           div(style = list(fontSize = 20, fontWeight = 500), w2), -->
-<!--           div(style = list(fontSize = 20, fontWeight = 500), w3), -->
-<!--         ) -->
-<!--       }, -->
-<!--       align = "left" -->
-<!--     ),    -->
-
-
-<!--     Reading = colDef(show = FALSE), -->
-<!--     Meaning = colDef(show = FALSE), -->
-<!--     w2 = colDef(show = FALSE), -->
-<!--     w3 = colDef(show = FALSE) -->
-
-<!--   ), -->
-<!--   defaultPageSize = 1, -->
-<!--   theme = reactableTheme( -->
-<!--     # Vertically center cells -->
-<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
-<!--     searchInputStyle = list( -->
-<!--       paddingLeft = "8px", -->
-<!--       paddingTop = "8px", -->
-<!--       paddingBottom = "8px", -->
-<!--       width = "100%" -->
-<!--     ) -->
-<!--   ), -->
-<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
-
-<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
-<!-- ) -->
-
-<!-- ``` -->
-
-<!-- ------------------------------------------------------------------------ -->
 
 #### RVerbs
 
@@ -2521,6 +2458,66 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### WVerbs
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  wvbrb,
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        Meaning <- wvbrb$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- wvbrb$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning),
+        )
+      },
+      align = "center",
+      minWidth = 40,
+    ),
+
+    Words = colDef(
+      cell = function(value, index) {
+        Translation <- wvbrb$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 20, fontWeight = 700), value),
+          div(style = list(fontSize = 11, fontWeight = 500), Translation),
+        )
+      },
+      align = "center"
+    ),
+
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
@@ -4856,79 +4853,79 @@ reactable(
 
 ###### Indicates the way some action is being performed
 
-    ・kirei    ⇢  kireini  ◦ neatly
-    ・sukkari  ⇢  sukkari  ◦ completely
-    ・yukkuri  ⇢  yukkuri  ◦ well
-    ・massugu  ⇢  massugu  ◦ straightly
-    ・choudo   ⇢  choudo   ◦ exactly
-    ・hakkiri  ⇢  hakkiri  ◦ clearly
-    ・mattaku  ⇢  mattaku  ◦ really
-    ・chanto   ⇢  chanto   ◦ properly
-    ・kichinto ⇢  kichinto ◦ accurately
-    ・buji ni  ⇢  buji ni  ◦ safely
-    ・sassoku  ⇢  sassoku  ◦ immediately      
+    ・きれい　　⇢　きれいに　◦ neatly
+    ・すっかり　⇢　すっかり　◦ completely
+    ・ゆっくり　⇢　ゆっくり　◦ well
+    ・まっすぐ　⇢　まっすぐ　◦ straightly
+    ・ちょうど　⇢　ちょうど　◦ exactly
+    ・はっきり　⇢　はっきり　◦ clearly
+    ・まったく　⇢　まったく　◦ really
+    ・ちゃんと　⇢　ちゃんと　◦ properly
+    ・きちんと　⇢　きちんと　◦ accurately
+    ・ぶじ　　　⇢　ぶじに　　◦ safely
+    ・さっそく　⇢　さっそく　◦ immediately      
 
 ###### **Adverbs of Degree**
 
 ###### Indicates the degree to which the word it modifies
 
-    ・motto    ⇢  motto     ◦ more, even more, further
-    ・mottomo  ⇢  mottomo   ◦ extremely, most
-    ・ichiban  ⇢  ichiban   ◦ most, number one
-    ・daibu    ⇢  daibu     ◦ pretty, considerably
-    ・hijouni  ⇢  hijouni   ◦ very, extremely
-    ・hotondo  ⇢  hotondo   ◦ almost, mostly
-    ・issai    ⇢  issai     ◦ entirety, (not) at all, never
-    ・jitsuni  ⇢  jitsuni   ◦ really/very clever
-    ・kanari   ⇢  kanari    ◦ considerably, fairly
-    ・kekkou   ⇢  kekkou    ◦ quite, fairly, considerably
-    ・kiwamete ⇢  kiwamete  ◦ extremely, exceedingly
-    ・sukkari  ⇢  sukkari   ◦ completely, entirely
-    ・taihen   ⇢  taihen    ◦ very, greatly, terribly
-    ・totemo   ⇢  totemo    ◦ very, exceedingly
-    ・sugoku   ⇢  sugoku    ◦ very, immensely
-    ・takusan  ⇢  takusan   ◦ a lot, sufficiently
-    ・ooini    ⇢  ooini     ◦ a lot, much, greatly
-    ・wazukani ⇢  wazukani  ◦ a little, slightly
-    ・zuibun   ⇢  zuibun    ◦ very, etremely, terribly
-    ・sukoshi  ⇢  sukoshi   ◦ a little, a few
-    ・amari-nai⇢  amari-nai ◦ (not) very much
-    ・zenzen   ⇢  zenzen    ◦ (not) at all
-    ・nakanaka ⇢  nakanaka  ◦ pretty, fairly
-    ・maamaa   ⇢  maamaa    ◦ so-so
+    ・もっと　　⇢　もっと　　　◦ more, even more, further
+    ・もっとも　⇢　もっとも　　◦ extremely, most
+    ・いちばん　⇢　いちばん　　◦ most, number one
+    ・だいぶ　　⇢　だいぶ　　　◦ pretty, considerably
+    ・ひじょう　⇢　ひじょうに　◦ very, extremely
+    ・ほとんど　⇢　ほとんど　　◦ almost, mostly
+    ・いっさい　⇢　いっさい　　◦ entirety, (not) at all, never
+    ・じつ　　　⇢　じつに　　　◦ really/very clever
+    ・かなり　　⇢　かなり　　　◦ considerably, fairly
+    ・けっこう　⇢　けっこう　　◦ quite, fairly, considerably
+    ・きわめて　⇢　きわめて　　◦ extremely, exceedingly
+    ・すっかり　⇢　すっかり　　◦ completely, entirely
+    ・たいへん　⇢　たいへん　　◦ very, greatly, terribly
+    ・とても　　⇢　とても　　　◦ very, exceedingly
+    ・すごく　　⇢　すごく　　　◦ very, immensely
+    ・たくさん　⇢　たくさん　　◦ a lot, sufficiently
+    ・おおい　　⇢　おおいに　　◦ a lot, much, greatly
+    ・わずか　　⇢　わずかに　　◦ a little, slightly
+    ・ずいぶん　⇢　ずいぶん　　◦ very, etremely, terribly
+    ・すこし　　⇢　すこし　　　◦ a little, a few
+    ・あまり　　⇢　あまり　　　◦ (not) very much
+    ・ぜんぜん　⇢　ぜんぜん　　◦ (not) at all
+    ・なかなか　⇢　なかなか　　◦ pretty, fairly
+    ・まあまあ　⇢　まあまあ　　◦ so-so
 
 ###### **Adverbial Nouns of time and frequency**
 
 ###### Indicates the time and frequency to which the word it modifies
 
-    ・arakajime   ⇢ arakajime   ◦ beforehand, previously
-    ・hajimeni    ⇢ hajimeni    ◦ firstly, first of all
-    ・ima         ⇢ ima         ◦ now
-    ・imanimo     ⇢ imanimo     ◦ any moment
-    ・konoaida    ⇢ kono aida   ◦ the other day, lately
-    ・konotokoro  ⇢ kono tokoro ◦ lately, recently
-    ・mada        ⇢ mada        ◦ still, as yet, only
-    ・mamonaku    ⇢ mamonaku    ◦ soon, shortly, in a moment
-    ・mareni      ⇢ mareni      ◦ rarely
-    ・mata        ⇢ mata        ◦ again
-    ・mou         ⇢ mou         ◦ already
-    ・mukashi     ⇢ mukashi     ◦ in the past
-    ・saigoni     ⇢ saigoni     ◦ finally
-    ・saikin      ⇢ saikin      ◦ recently
-    ・saishoni    ⇢ saishoni    ◦ first, onset
-    ・sakini      ⇢ sakini      ◦ ahead (of), first
-    ・sakihodo    ⇢ sakihodo    ◦ a while ago
-    ・sakki       ⇢ sakki       ◦ a moment ago
-    ・suguni      ⇢ suguni      ◦ immediately
-    ・sukoshi     ⇢ sukoshi     ◦ a little, a bit
-    ・tabitabi    ⇢ tabitabi    ◦ often
-    ・shibashiba  ⇢ shibashiba  ◦ frequently
-    ・shocchuu    ⇢ shocchuu    ◦ always, frequently
-    ・sudeni      ⇢ sudeni      ◦ already, too late
-    ・tsugini     ⇢ tsugini     ◦ next to
-    ・yoku        ⇢ yoku        ◦ often
-    ・yagate      ⇢ yagate      ◦ shortly
-    ・zutto       ⇢ zutto       ◦ all along, throughout
+    ・あらかじめ　　⇢ あらかじめ　　◦ beforehand, previously
+    ・はじめ　　　　⇢ はじめに　　　◦ firstly, first of all
+    ・いま　　　　　⇢ いま　　　　　◦ now
+    ・いまにも　　　⇢ いまにも　　　◦ any moment
+    ・このあいだ　　⇢ このあいだ　　◦ the other day, lately
+    ・このところ　　⇢ このところ　　◦ lately, recently
+    ・まだ　　　　　⇢ まだ　　　　　◦ still, as yet, only
+    ・まもなく　　　⇢ まもなく　　　◦ soon, shortly, in a moment
+    ・まれ　　　　　⇢ まれに　　　　◦ rarely
+    ・また　　　　　⇢ また　　　　　◦ again
+    ・もう　　　　　⇢ もう　　　　　◦ already
+    ・むかし　　　　⇢ むかし　　　　◦ in the past
+    ・さいご　　　　⇢ さいごに　　　◦ finally
+    ・さいきん　　　⇢ さいきん　　　◦ recently
+    ・さいしょ　　　⇢ さいしょに　　◦ first, onset
+    ・さき　　　　　⇢ さきに　　　　◦ ahead (of), first
+    ・さきほど　　　⇢ さきほど　　　◦ a while ago
+    ・さっき　　　　⇢ さっき　　　　◦ a moment ago
+    ・すぐ　　　　　⇢ すぐに　　　　◦ immediately
+    ・すこし　　　　⇢ すこし　　　　◦ a little, a bit
+    ・たびたび　　　⇢ たびたび  　　◦ often
+    ・しばしば　　　⇢ しばしば　　　◦ frequently
+    ・しょっちゅう　⇢ しょっちゅう　◦ always, frequently
+    ・すで　　　　　⇢ すでに　　　　◦ already, too late
+    ・つぎ　　　　　⇢ つぎに　　　　◦ next to
+    ・よく　　　　　⇢ よく　　　　　◦ often
+    ・やがて　　　　⇢ やがて　　　　◦ shortly
+    ・ずっと　　　　⇢ ずっと　　　　◦ all along, throughout
 
 ------------------------------------------------------------------------
 
@@ -5044,43 +5041,53 @@ reactable(
 20.	グズグズしてるから、時間が無くなるんだよ。   
     You're goofing off, and you're running out of time.
 
-21.	*てきぱき仕事ができる人になりたいな。
+21.	てきぱき仕事ができる人になりたいな。  
+    I want to be a person who can work quickly.
 
-22.	*ブツブツ文句を言っても、しょうがない。
+22.	ブツブツ文句を言っても、しょうがない。  
+    I can't help it if I complain about it.
 
-23.	明日から日本だ。*ワクワクするなあ。
+23.	明日から日本だ。ワクワクするなあ。  
+    I'm going to Japan tomorrow. I'm so excited.
 
-24.	*アタフタしないように、準備しようっと。
+24.	アタフタしないように、準備しようっと。  
+    I'm going to get ready so I don't get caught off guard.
 
-25.	*さっさとやることやろう。
+25.	さっさとやることやろう。  
+    I'll do what I have to do.
 
-26.	このスーツケースは、*ずっしり重いね。
+26.	このスーツケースは、ずっしり重いね。  
+    This suitcase is very heavy.
 
-27.	*ヨイショ、ヨイショ。運ぶのが大変だよ。
+27.	ヨイショ、ヨイショ。運ぶのが大変だよ。  
+    Yosh, yosh. It's hard to carry
 
-28.	これぐらいだったら、*楽々持てるけどな。
+28.	これぐらいだったら、楽々持てるけどな。  
+    I could easily carry this much.
 
-29.	*ゴロゴロ転がしていくから、だいじょうぶ。
+29.	ゴロゴロ転がしていくから、だいじょうぶ。  
+    I'll just roll it over. It'll be fine.
 
-30.	*そろそろ寝ようかな。
+30.	そろそろ寝ようかな。  
+    I think I'll go to bed soon.
 
-31.	一日が*あっという間に終わっちゃったね。
+31.	一日があっという間に終わっちゃったね。
 
 32.	パスポートは*ちゃんと持った?
 
-33.	*しっかり家のカギも閉めて。
+33.	しっかり家のカギも閉めて。
 
 34.	まだ、時間は*たっぷりあるよ。
 
 35.	もうおなかが*ペコペコ。
 
-36.	*チャチャッとごはんを作ろうか。
+36.	チャチャッとごはんを作ろうか。
 
-37.	*パクパクよく食べるね。
+37.	パクパクよく食べるね。
 
-38.	うっ、食べすぎて、胃が*ムカムカする。
+38.	うっ、食べすぎて、胃がムカムカする。
 
-39.	頭が*ズキズキ痛い。
+39.	頭がズキズキ痛い。
 
 40.	*ブラブラ散歩(さんぽ)でもしようかな。
 
@@ -5138,19 +5145,19 @@ reactable(
 
 67.	なんだか、*ムシムシ暑いね。
 
-68.	*じっとり汗(あせ)が出てきた。
+68.	じっとり汗(あせ)が出てきた。
 
-69.	*ピカッ、ゴロゴロ。雷(かみなり)がなってる。
+69.	ピカッ、ゴロゴロ。雷(かみなり)がなってる。
 
-70.	*ザーザー雨が降ってきた。
+70.	ザーザー雨が降ってきた。
 
 71.	カサがなくて、*ビショビショになっちゃった。
 
-72.	*ハックション、くしゃみが出ちゃった。
+72.	ハックション、くしゃみが出ちゃった。
 
-73.	*プ～、おならも出ちゃった。
+73.	プ～、おならも出ちゃった。
 
-74.	*ズルズル鼻水も出る。
+74.	ズルズル鼻水も出る。
 
 75.	背中が*ゾクゾクする。カゼかな。
 
@@ -5160,9 +5167,9 @@ reactable(
 
 78.	今日の予定は中止だね。*ガッカリしないで。
 
-79.	彼はめずらしく、*しょんぼり落ち込んでた。
+79.	彼はめずらしく、しょんぼり落ち込んでた。
 
-80.	*よしよし。慰(なぐさ)めてあげよう。
+80.	よしよし。慰(なぐさ)めてあげよう。
 
 81.	あれ、地震? *ゆらゆら揺れてる。
 
@@ -5200,11 +5207,9 @@ reactable(
 
 98.	何*イライラしてるの?
 
-99.	*ニコニコ笑っていようよ。
+99.	ニコニコ笑っていようよ。
 
-100. *パーッと楽しいことしようね。
-
-https://nihongoswitch.com/podcast-transcripts/ep66-shadowing-2
+100. パーッと楽しいことしようね。
 
 ------------------------------------------------------------------------
 
@@ -5476,39 +5481,39 @@ The two nominalizers are **no** and **koto**.
 
 **Time**
 
-    ・秒　　byou         ◦ seconds
-    ・分　　fun/pun/bun  ◦ minutes
-    ・月　　kagetsu      ◦ number of months
-    ・月　　tsuki        ◦ number of months
-    ・年　　nen          ◦ number of years
-    ・時間　jikan        ◦ number of hours
-    ・週間　shuukan      ◦ number of weeks
+    ・秒　　びょう　　　　　◦ seconds
+    ・分　　ふん/ぷん/ぶん　◦ minutes
+    ・月　　かげつ　　　　　◦ number of months
+    ・月　　つき　　　　　　◦ number of months
+    ・年　　ねん　　　　　　◦ number of years
+    ・時間　じかん　　　　　◦ number of hours
+    ・週間　しゅうかん　　　◦ number of weeks
 
 **Numerical Value**
 
-    ・十　juu   ◦ tens
-    ・百　hyaku ◦ hundreds
-    ・千　sen   ◦ thousand
-    ・万　man   ◦ ten thousand
+    ・十　じゅう　◦ tens
+    ・百　ひゃく　◦ hundreds
+    ・千　せん　　◦ thousand
+    ・万　まん　　◦ ten thousand
 
 **Percentage**
 
-    ・割　wari ◦ percent
+    ・割　わり　◦ percent
 
 **Weight**
 
-    ・キロ　　　　kiro       ◦ kilo
-    ・グラム　　　guramu     ◦ gram
-    ・ミリグラム　miriguramu ◦ milligram
+    ・キロ　　　　キロ　　　　◦ kilo
+    ・グラム　　　グラム　　　◦ gram
+    ・ミリグラム　ミリグラム　◦ milligram
 
 **Distance**
 
-    ・メートル　　metoru ◦ meter
-    ・センチ　　　senchi ◦ centimeter
+    ・メートル　　メートル　◦ meter
+    ・センチ　　　センチ　　◦ centimeter
 
 **Volume**
 
-    ・リットル　　rittoru ◦ liter
+    ・リットル　　リットル　◦ liter
 
 ------------------------------------------------------------------------
 
@@ -5516,34 +5521,34 @@ The two nominalizers are **no** and **koto**.
 
 **Classification**
 
-    ・歳　sai            ◦ age
-    ・匹　piki/hiki/biki ◦ pets
-    ・頭　tou            ◦ big animals
-    ・羽　wa             ◦ birds
-    ・冊　satsu          ◦ books, album, magazine
-    ・枚　mai            ◦ flat things
-    ・回　kai            ◦ number of times
-    ・階　kai            ◦ building floors
-    ・個　ko             ◦ small objects, individual
-    ・缶　kan            ◦ cans
-    ・本　pon/hon/bon    ◦ cylindrical things
-    ・人　jin/ri         ◦ person
-    ・名　mei            ◦ person
-    ・台　dai            ◦ machines
-    ・日　ka/nichi       ◦ day
-    ・月　gatsu          ◦ month
-    ・年　nen            ◦ years
-    ・席　seki           ◦ numbers of seats
-    ・段　fudan          ◦ stairs, steps, drawers, layer
-    ・時　ji             ◦ o’clock
-    ・点　ten            ◦ points, mark
-    ・杯　pai/hai/bai    ◦ liquid in glasses, bowls
-    ・倍　bai            ◦ multiples, -fold as in “twofold"
-    ・泊　haku/pąku      ◦ night stay
-    ・軒　ken            ◦ buildings, houses
-    ・番　ban            ◦ number (ex. no. 2 - ni ban)
-    ・課　ka             ◦ chapter, lesson
-    ・次　ji             ◦ stage, order, times
+    ・歳　さい　　　　　　　◦ age
+    ・匹　ぴき・ひき・びき　◦ pets
+    ・頭　とう　　　　　　　◦ big animals
+    ・羽　わ　　　　　　　　◦ birds
+    ・冊　さつ　　　　　　　◦ books, album, magazine
+    ・枚　まい　　　　　　　◦ flat things
+    ・回　かい　　　　　　　◦ number of times
+    ・階　かい　　　　　　　◦ building floors
+    ・個　こ　　　　　　　　◦ small objects, individual
+    ・缶　かん　　　　　　　◦ cans
+    ・本　ぽん・ほん・ぼん　◦ cylindrical things
+    ・人　じん・り　　　　　◦ person
+    ・名　めい　　　　　　　◦ person
+    ・台　だい　　　　　　　◦ machines
+    ・日　か・にち　　　　　◦ day
+    ・月　がつ　　　　　　　◦ month
+    ・年　ねん　　　　　　　◦ years
+    ・席　せき　　　　　　　◦ numbers of seats
+    ・段　ふだん　　　　　　◦ stairs, steps, drawers, layer
+    ・時　じ　　　　　　　　◦ o’clock
+    ・点　てん　　　　　　　◦ points, mark
+    ・杯　ぱい・はい・ばい　◦ liquid in glasses, bowls
+    ・倍　ばい　　　　　　　◦ multiples, -fold as in “twofold"
+    ・泊　はく・ぱく　　　　◦ night stay
+    ・軒　けん　　　　　　　◦ buildings, houses
+    ・番　ばん　　　　　　　◦ number (ex. no. 2 - ni ban)
+    ・課　か　　　　　　　　◦ chapter, lesson
+    ・次　じ　　　　　　　　◦ stage, order, times
 
 ------------------------------------------------------------------------
 
@@ -5582,10 +5587,10 @@ The two nominalizers are **no** and **koto**.
 
 **Adverbs**
 
-    ・多い　　　ooi      ◦ many
-    ・少し　　　sukoshi  ◦ a few, a little
-    ・ちょっと　chotto   ◦ a few, a little
-    ・たくさん　takusan  ◦ a lot, plenty, many
+    ・多い　　　おおい　　◦ many
+    ・少し　　　すこし　　◦ a few, a little
+    ・ちょっと　ちょっと　◦ a few, a little
+    ・たくさん　たくさん　◦ a lot, plenty, many
 
 ------------------------------------------------------------------------
 
@@ -5595,17 +5600,31 @@ The two nominalizers are **no** and **koto**.
 
 A **prefix** is a short element that is attached to the beginning of a word to add an additional meaning to or to change the meaning of the word.  
 
-    ・お　　olite prefix　　　　お手紙・letter・お上手・skillful・忙しい・busy
-    ・可　　able, ible　　　　　可燃物・flammable thing・可溶性・solubility
-    ・各　　each, several　　　 各国・each country・各部屋・each room
-    ・片　　one                 片手・one hand・片一方・one of the two・片時・a monent
-    ・逆　　counter, reverse    逆効果・counter productive・逆コース・reverse course
-    ・ご　　polite prefix       ご家族・your family・ご結婚・marriage
-    ・準　　semi, quasi, assoc  準決勝・semi-final・準会員・associate member
-    ・諸　　many, various       諸設備・many facilities・諸物価・various prices
-    ・素　　bare                素足・bare foot・素焼き・unglazed pottery
-    ・全　　whole, entire       全国民・the whole nation・全人口・entire population
-    ・総　　grand, general      総選挙・general election・総合計・grand total
+    ・お　　olite prefix      
+    ・可　　able, ible        
+    ・各　　each, several     
+    ・片　　one               
+    ・逆　　counter, reverse  
+    ・ご　　polite prefix      
+    ・準　　semi, quasi, assoc 
+    ・諸　　many, various
+    ・素　　bare               
+    ・全　　whole, entire
+    ・総　　grand, general     
+
+<!-- <h> -->
+
+    ・お手紙・letter・お上手・skillful・お忙しい・busy
+    ・可燃物・flammable thing・可溶性・solubility
+    ・各国・each country・各部屋・each room
+    ・片手・one hand・片一方・one of the two・片時・a monent
+    ・逆効果・counter productive・逆コース・reverse course
+    ・ご家族・your family・ご結婚・marriage
+    ・準決勝・semi-final・準会員・associate member
+    ・諸設備・many facilities・諸物価・various prices
+    ・素足・bare foot・素焼き・unglazed pottery
+    ・全国民・the whole nation・全人口・entire population
+    ・総選挙・general election・総合計・grand total
 
 ------------------------------------------------------------------------
 
@@ -5613,15 +5632,27 @@ A **prefix** is a short element that is attached to the beginning of a word to a
 
 A **suffix** is a short element that is attached to the end of a word to change the meaning of or to add an additional meaning to the word.   
 
-    ・家　　er, ian, ist      音楽家・musician・専門家・specialist・資本家・capilist
-    ・可　　able, ible        可燃物・flammable thing・可溶性・solubility
-    ・限り　limited to, only  今週限り・limited to this week・一度限り・only once
-    ・方　　how to, a way of  読み方・how to read・way of reading
-    ・方　　plural marker     あなた方・you・先生方・the teachers
-    ・形　　shaped            卵形・egg-shaped・三日月形・cresent
-    ・型　　type, model       箱型・box type・A型・type A・1990年型・1990 model
-    ・がち　tend to, often    忘れがち・tend to・病気がち・often get ill
-    ・ぎみ　verging on        太りぎみ・verging on obesity・風邪ぎみ・have a slight cold
+    ・家　　er, ian, ist      
+    ・可　　able, ible        
+    ・限り　limited to, only  
+    ・方　　how to, a way of  
+    ・方　　plural marker     
+    ・形　　shaped            
+    ・型　　type, model       
+    ・がち　tend to, often    
+    ・ぎみ　verging on        
+
+<!-- <h> -->
+
+    ・音楽家・musician・専門家・specialist・資本家・capilist
+    ・可燃物・flammable thing・可溶性・solubility
+    ・今週限り・limited to this week・一度限り・only once
+    ・読み方・how to read・way of reading
+    ・あなた方・you・先生方・the teachers
+    ・卵形・egg-shaped・三日月形・cresent
+    ・箱型・box type・A型・type A・1990年型・1990 model
+    ・忘れがち・tend to・病気がち・often get ill
+    ・太りぎみ・verging on obesity・風邪ぎみ・have a slight cold
 
 ------------------------------------------------------------------------
 
@@ -5631,18 +5662,18 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 **Nanjikan desu ka?**`How many hours?`
 
-    ・一時間     ichijikan
-    ・二時間     nijikan
-    ・三時間     sanjikan
-    ・四時間     yojikan
-    ・五時間     gojikan
-    ・六時間     rokujikan
-    ・七時間     shichijikan
-    ・八時間     hachijikan
-    ・九時間     kujikan
-    ・十時間     juujikan
-    ・十一時間   juuichijikan
-    ・十二時間   juunijikan
+    ・一時間　　ichijikan
+    ・二時間　　nijikan
+    ・三時間　　sanjikan
+    ・四時間　　yojikan
+    ・五時間　　gojikan
+    ・六時間　　rokujikan
+    ・七時間　　shichijikan
+    ・八時間　　hachijikan
+    ・九時間　　kujikan
+    ・十時間　　juujikan
+    ・十一時間　juuichijikan
+    ・十二時間　juunijikan
 
 ------------------------------------------------------------------------
 
@@ -5690,13 +5721,13 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 **Nanji desu ka?**`What time is it`
 
-    ・１時　　　　　いちじ　　　　　　1 o'clock
-    ・２時　　　　　にじ　　　　　　　2 o'clock
-    ・３時　　　　　さんじ　　　　　　3 o'clock
-    ・３時５分　　　sanjigofun         3:05
-    ・３時半　　　　sanjihan           3:30
-    ・午後３時５分　gogo sanjigofun    3:05 pm
-    ・午前３時５分　gozen sanjigofun   3:05 am
+    ・１時　　　　　いちじ　　　　　　　　1 o'clock
+    ・２時　　　　　にじ　　　　　　　　　2 o'clock
+    ・３時　　　　　さんじ　　　　　　　　3 o'clock
+    ・３時５分　　　さんじごふん　　　　　3:05
+    ・３時半　　　　さんじはん　　　　　　3:30
+    ・午後３時５分　ごご　さんじごふん　　3:05 pm
+    ・午前３時５分　ごぜん　さんじごふん　3:05 am
 
 <!-- <h>  -->
     
@@ -6280,11 +6311,11 @@ Indicates that the past occurrence was done by someone and not by you.
     
 <p style="font-size:12px;">(❖) **Vmasu-Form (Non Past Polite)**</p>
 
-    ・kau     ⇢   kaimasu
-    ・taberu  ⇢   tabemasu
-    ・miru    ⇢   mimasu
-    ・kuru    ⇢   kimasu
-    ・suru    ⇢   shimasu
+    ・買う　　⇢　買います
+    ・食べる　⇢　食べます
+    ・見る　　⇢　見ます
+    ・来る　　⇢　きます
+    ・する　　⇢　します
 
 <p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past Polite)**</p>
 
@@ -16773,16 +16804,16 @@ reactable(
         s10 <- snvbp$s10[index]
         s10 <- if (!is.na(s10)) s10 else "Unknown"  
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", value),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s2),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s3),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s4),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s5),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s6),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s7),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s8),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s9),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s10)
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10)
         )
       },
       align = "left", minWidth = 400
@@ -17519,16 +17550,16 @@ reactable(
         s10 <- snptr$s10[index]
         s10 <- if (!is.na(s10)) s10 else "Unknown"  
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", value),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s2),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s3),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s4),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s5),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s6),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s7),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s8),
-          div(style = list(fontSize = 22, fontWeight = 500), "🅅 ", s9),
-          div(style = list(fontSize = 22, fontWeight = 500), "🆅 ", s10)
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8),
+          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9),
+          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10)
         )
       },
       align = "left", minWidth = 400
