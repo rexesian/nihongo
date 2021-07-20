@@ -1790,7 +1790,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -1840,7 +1840,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value)
+          div(style = list(fontSize = 30, fontWeight = 700), value)
           # div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -2813,7 +2813,7 @@ reactable(
         tagList(
           div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
           div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
-          div(style = list(fontSize = 22, fontWeight = 500), w11, "・", w12, "・", w13, "・", w4, "・", w15)
+          div(style = list(fontSize = 22, fontWeight = 500), w11, "・", w12, "・", w13, "・", w14, "・", w15)
         )
       },
       align = "center"
@@ -3119,7 +3119,7 @@ Initial carriage were introduced here as it sets the initial mood of the sentenc
     It does tell the kind of sentence on whether it is a nominal, adjectival, or verbal sentence 
     Includes either a verb, an adjective, a noun or noun phrase plus copula, auxiliaries, particles, etc
 
-![](/Users/yshancid/Documents/R/nihongo/stfg.jpg)
+![](stfg.jpg)
 
 ------------------------------------------------------------------------
 
