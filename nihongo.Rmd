@@ -16358,7 +16358,7 @@ reactable(
         Meaning.EP2 <- yrmp2$Meaning.EP2[index]
         Meaning.EP2 <- if (!is.na(Meaning.EP2)) Meaning.EP2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP2)
         )
       },
@@ -16401,7 +16401,7 @@ reactable(
         Meaning.EP3 <- yrmp3$Meaning.EP3[index]
         Meaning.EP3 <- if (!is.na(Meaning.EP3)) Meaning.EP3 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP3)
         )
       },
@@ -16444,7 +16444,7 @@ reactable(
         Meaning.EP4 <- yrmp4$Meaning.EP4[index]
         Meaning.EP4 <- if (!is.na(Meaning.EP4)) Meaning.EP4 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP4)
         )
       },
@@ -16487,7 +16487,7 @@ reactable(
         Meaning.EP5 <- yrmp5$Meaning.EP5[index]
         Meaning.EP5 <- if (!is.na(Meaning.EP5)) Meaning.EP5 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP5)
         )
       },
@@ -16530,7 +16530,7 @@ reactable(
         Meaning.EP6 <- yrmp6$Meaning.EP6[index]
         Meaning.EP6 <- if (!is.na(Meaning.EP6)) Meaning.EP6 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP6)
         )
       },
@@ -16573,7 +16573,7 @@ reactable(
         Meaning.EP7 <- yrmp7$Meaning.EP7[index]
         Meaning.EP7 <- if (!is.na(Meaning.EP7)) Meaning.EP7 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP7)
         )
       },
@@ -16616,7 +16616,7 @@ reactable(
         Meaning.EP8 <- yrmp8$Meaning.EP8[index]
         Meaning.EP8 <- if (!is.na(Meaning.EP8)) Meaning.EP8 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP8)
         )
       },
@@ -16659,7 +16659,7 @@ reactable(
         Meaning.EP9 <- yrmp9$Meaning.EP9[index]
         Meaning.EP9 <- if (!is.na(Meaning.EP9)) Meaning.EP9 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP9)
         )
       },
@@ -16702,7 +16702,7 @@ reactable(
         Meaning.EP10 <- yrmp10$Meaning.EP10[index]
         Meaning.EP10 <- if (!is.na(Meaning.EP10)) Meaning.EP10 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP10)
         )
       },
@@ -16745,7 +16745,7 @@ reactable(
         Meaning.EP11 <- yrmp11$Meaning.EP11[index]
         Meaning.EP11 <- if (!is.na(Meaning.EP11)) Meaning.EP11 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP11)
         )
       },
@@ -16788,7 +16788,7 @@ reactable(
         Meaning.EP12 <- yrmp12$Meaning.EP12[index]
         Meaning.EP12 <- if (!is.na(Meaning.EP12)) Meaning.EP12 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP12)
         )
       },
@@ -19802,47 +19802,57 @@ reactable(
 
 ###### C1
 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">今週、近くのスーパーがセール中だったので、友達と一緒に行きました。ほとんどの品物が三割引きで、肉や魚半額でした。私の家は家族が多いので、安く買えると嬉しいです。特に冷凍食品はお弁当の時に便利なので、安い時に必ず買います。</p> 
+    今週、近くのスーパーがセール中だったので、友達と一緒に行きました。ほとんどの品物が三割引きで、肉や魚半額でした。私の家は家族が多いので、安く買えると嬉しいです。特に冷凍食品はお弁当の時に便利なので、安い時に必ず買います。
 
-This week, a nearby supermarket was having a sale, so I went there with a friend. Most of the items were discounted by 30%, and meat and fish were half price. I have a large family, so I am happy when I can buy things at a discount. Frozen foods are especially convenient for lunch boxes, so I always buy them when they are cheap.
+<!-- <h> -->
+
+    This week, a nearby supermarket was having a sale, so I went there with a friend. Most of the items were discounted by 30%, and meat and fish were half price. I have a large family, so I am happy when I can buy things at a discount. Frozen foods are especially convenient for lunch boxes, so I always buy them when they are cheap.
 
 ------------------------------------------------------------------------
 
 ###### C2
 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">来月、会社の先輩の結婚式に行く。ちょうどいい服がないので、デパートへ買い物に行った。でも、スーツやドレスなどをいろいろ着てみても、全然決められない。ショッピングは楽しいけれど、少し疲れる。四季まであと一ヶ月あるから、ゆっくり探そう。</p> 
+    来月、会社の先輩の結婚式に行く。ちょうどいい服がないので、デパートへ買い物に行った。でも、スーツやドレスなどをいろいろ着てみても、全然決められない。ショッピングは楽しいけれど、少し疲れる。四季まであと一ヶ月あるから、ゆっくり探そう。
 
-I'm going to a senior colleague's wedding next month. I don't have just the right clothes, so I went shopping at a department store. But after trying on various suits and dresses, I couldn't decide at all. Shopping is fun, but it's a little tiring. There's still a month left before the four seasons, so I'll take my time.
+<!-- <h> -->
+
+    I'm going to a senior colleague's wedding next month. I don't have just the right clothes, so I went shopping at a department store. But after trying on various suits and dresses, I couldn't decide at all. Shopping is fun, but it's a little tiring. There's still a month left before the four seasons, so I'll take my time.
 
 ------------------------------------------------------------------------
 
 ###### C3
 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">となりの娘さんは結婚していますが、近くに住んでいるので、よく隣遊び来ています。そして、いつも私の家の駐車場のまいに車を止めて、挨拶もしません。
-短い時間ならかまいませんが、長い間止めていると、用事があって出かけたくても、車が出せません。とても困ります。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">どうして怒っているのか、わけは知りませんが、あまり大きな声でさわぐとあなたのほうが変な人と思われてしまいます。もう少し静かに話したほうがいいですよ。</p> 
+    となりの娘さんは結婚していますが、近くに住んでいるので、よく隣遊び来ています。そして、いつも私の家の駐車場のまいに車を止めて、挨拶もしません。
+    短い時間ならかまいませんが、長い間止めていると、用事があって出かけたくても、車が出せません。とても困ります。
+    どうして怒っているのか、わけは知りませんが、あまり大きな声でさわぐとあなたのほうが変な人と思われてしまいます。もう少し静かに話したほうがいいですよ。
 
-My next-door neighbor's daughter is married, but she lives nearby, so she often comes over to play next door. She always parks her car in my parking lot and doesn't even say hello.
-I don't mind if he parks his car for a short time, but if he parks his car for a long time, even if I want to go out for something, I can't get out of my car. It's very annoying!  
-I don't know why you're angry, but if you talk too loudly, people will think you're strange. You should speak more quietly.
+<!-- <h> -->
+
+    My next-door neighbor's daughter is married, but she lives nearby, so she often comes over to play next door. She always parks her car in my parking lot and doesn't even say hello.
+    I don't mind if he parks his car for a short time, but if he parks his car for a long time, even if I want to go out for something, I can't get out of my car. It's very annoying!  
+    I don't know why you're angry, but if you talk too loudly, people will think you're strange. You should speak more quietly.
 
 ------------------------------------------------------------------------
 
 ###### C4
 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：もしもし、セナですが。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：あ、セナさん、こんにちは。いつもお世話になっています。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：さっき子どもが学校から手紙を持ってきました。でも、漢字が多くて、よくわからないんです。教えていただきたいんですが..。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：手紙ですね。ちっと待ってください。えーと、来週の日曜日に、特別な授業があります。お母さんやお父さんに見てもらいます。日曜日に行うので、なるべく出席してください。かわりに、月曜日が休みになるそうですよ。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">木村：困ったがったら、遠慮しないで、何でも相談してくださいね。</p> 
-<p style="font-size:17px; font-family:Rounded Mplus 1c; font-weight: 400;line-height: 1.5">セナ：どうもありがとうございます。</p> 
+    セナ：もしもし、セナですが。
+    木村：あ、セナさん、こんにちは。いつもお世話になっています。
+    セナ：さっき子どもが学校から手紙を持ってきました。でも、漢字が多くて、よくわからないんです。教えていただきたいんですが..。
+    木村：手紙ですね。ちっと待ってください。えーと、来週の日曜日に、特別な授業があります。
+    木村：お母さんやお父さんに見てもらいます。日曜日に行うので、なるべく出席してください。かわりに、月曜日が休みになるそうですよ。 
+    木村：困ったがったら、遠慮しないで、何でも相談してくださいね。 
+    セナ：どうもありがとうございます。
 
-Senna: Hello, this is Senna.  
-Kimura: Oh, hello, Senna-san. Thank you for all your help.  
-Senna: My child just brought me a letter from school. But there are so many kanji characters in it that I don't understand it. I'd like you to tell me...  
-Kimura: It's a letter. Please wait a minute. Let's see, next Sunday, there will be a special class. I would to have the parents to watch the class. Since it will be held on a Sunday, please try to attend. In exchange for it, Monday will be a day off.  
-Kimura: If you need help, please don't hesitate to ask for anything!  
-Senna: Thank you very much!
+<!-- <h> -->
+
+    Senna: Hello, this is Senna.  
+    Kimura: Oh, hello, Senna-san. Thank you for all your help.  
+    Senna: My child just brought me a letter from school. But there are so many kanji characters in it that I don't understand it. I'd like you to tell me...  
+    Kimura: It's a letter. Please wait a minute. Let's see, next Sunday, there will be a special class. 
+    Kimura: I would to have the parents to watch the class. Since it will be held on a Sunday, please try to attend. In exchange for it, Monday will be a day off.  
+    Kimura: If you need help, please don't hesitate to ask for anything!  
+    Senna: Thank you very much!
 
 ------------------------------------------------------------------------
 
@@ -19866,42 +19876,42 @@ Senna: Thank you very much!
 
 ##### C1 
 
-1.1 **は**`indicates the topic`**⚭　N + wa**
+1.1 **は**`indicates the topic` **⚭ N + wa**
 
     ・私はカナダから来ました 
     ・I come from Canada.
     
-1.2 **は**`indicates comparison of topics`**⚭　N + wa .. ga .. N + wa**
+1.2 **は**`indicates comparison of topics` **⚭ N + wa .. ga .. N + wa**
 
     ・私は肉は食べますが魚は食べません 
     ・I eat meat, but not fish.
 
-1.3 **は**`indicates emphasis on the action or state`**⚭　N + wa ..  N + ga**
+1.3 **は**`indicates emphasis on the action or state` **⚭ N + wa ..  N + ga**
 
     ・東京は人が多いです 
     ・Tokyo is very crowded.  
 
-2.1 **が**`indicates and emphasize the subject`**⚭　N + ga**
+2.1 **が**`indicates and emphasize the subject` **⚭ N + ga**
 
     ・車が早いです 
     ・The car is fast.
 
-2.2 **が**`attached to a question word`**⚭　QW + ga**
+2.2 **が**`attached to a question word` **⚭ QW + ga**
 
     ・どれが田中さんのコップですか 
     ・Which one is Mr. Tanaka's cup?  
     
-3.1 **を**`leaving a place`**⚭　N + wo**
+3.1 **を**`leaving a place` **⚭ N + wo**
 
     ・東京駅で電車を降ります 
     ・Get off the train at Tokyo Station.   
 
-3.2 **を**`express place of passage`**⚭　N + wo**
+3.2 **を**`express place of passage` **⚭ N + wo**
 
     ・毎朝公園を散歩します 
     ・I take a walk in the park every morning.
 
-4.1 **と**`express beign together with someone`**⚭　N + to**
+4.1 **と**`express beign together with someone` **⚭ N + to**
 
     ・母と買い物をしました 
     ・I did some shopping with my mother.
@@ -19910,57 +19920,57 @@ Senna: Thank you very much!
 
 ##### C2
 
-5.1 **に**`indicates destination`**⚭　N + ni**
+5.1 **に**`indicates destination` **⚭ N + ni**
 
     ・友達誕生日パーティーに行きます 
     ・I'm going to a friend's birthday party.
     
-5.2 **に**`indicates a point in time`**⚭　N + ni**
+5.2 **に**`indicates a point in time` **⚭ N + ni**
 
     ・月曜日にきて下さい 
     ・Please come back on Monday.
 
-5.3 **に**`indicates the recepient of the action`**⚭　N + ni**
+5.3 **に**`indicates the recepient of the action` **⚭ N + ni**
 
     ・友達に会います 
     ・I'm meeting a friend.
     
-5.4 **に**`indicates place of existence`**⚭　N + ni**
+5.4 **に**`indicates place of existence` **⚭ N + ni**
 
     ・駅の前にデパートがあります 
     ・There is a department store in front of the station.
 
-6.1 **で**`indicates place of action`**⚭　N + de**
+6.1 **で**`indicates place of action` **⚭ N + de**
 
     ・図書館で勉強します 
     ・I'll study at the library. 
 
-6.2 **で**`indicates means, way or method`**⚭　N + de**
+6.2 **で**`indicates means, way or method` **⚭ N + de**
 
     ・電車で行きます 
     ・I'll go by train. 
 
-6.3 **で**`use as ingredient or material`**⚭　N + de**
+6.3 **で**`use as ingredient or material` **⚭ N + de**
 
     ・肉と野菜で料理を作りました 
     ・I cooked with meat and vegetables.
 
-6.4 **で**`termination of time`**⚭　N + de**
+6.4 **で**`termination of time` **⚭ N + de**
 
     ・もう二週間で夏休みになります 
     ・It will be summer vacation in two weeks.
 
-6.4 **で**`indicates range`**⚭　N + de**
+6.4 **で**`indicates range` **⚭ N + de**
 
     ・世界で一番長い川はナイル川です 
     ・The longest river in the world is the Nile.
     
-6.2 **で**`indicates reason`**⚭　N + de**
+6.2 **で**`indicates reason` **⚭ N + de**
 
     ・病気で学校を休みました
     ・I missed school because I was sick.
 
-7.1 **も**`express similar situation or things`**⚭　N + mo**
+7.1 **も**`express similar situation or things` **⚭ N + mo**
 
     ・私もパーティーに行きます 
     ・I'm going to the party too.
@@ -19969,52 +19979,52 @@ Senna: Thank you very much!
 
 ##### C3
 
-8.1 **か**`or`**⚭　N + ka + N (ka)**
+8.1 **か**`or` **⚭ N + ka + N (ka)**
 
     ・明日か明後日田中さんに電話します 
     ・I'll call Mr. Tanaka tomorrow or the next day.
     
-9.1 **や**`and`**⚭　N + ya + N**
+9.1 **や**`and` **⚭　N + ya + N**
 
     ・駅の前にはコンビニや銀行があります 
     ・There are convenience stores and banks in front of the station.
 
-9.2 **など**`etc`**⚭　N + ya + N  + nado**
+9.2 **など**`etc` **⚭ N + ya + N  + nado**
 
     ・駅の前にはコンビニや銀行などがあります 
     ・There are convenience stores, banks and etc in front of the station.
     
-10.1 **から~まで**`from~until`**⚭　N + kara + N + made**
+10.1 **から~まで**`from~until` **⚭ N + kara + N + made**
 
     ・テストは15日から18日までです 
     ・The test will be from the 15th to the 18th.
     
-11.1 **ごろ**`around (point in time)`**⚭　N + goro**
+11.1 **ごろ**`around (point in time)` **⚭ N + goro**
 
     ・明日の昼ごろ来てください 
     ・Please come back tomorrow around noon.
 
-12.1 **くらい・ぐらい**`about・around (approx. amount or degree)`**⚭　N +  kurai/gurai**
+12.1 **くらい・ぐらい**`about・around (approx. amount or degree)` **⚭ N +  kurai/gurai**
 
     ・駅までタクシーで1000円ぐらいかかります 
     ・It costs about 1,000 yen to take a cab to the station.
 
-13.1 **だけ**`only・just`**⚭　N + dake**
+13.1 **だけ**`only・just` **⚭ N + dake**
 
     ・10分だけ休みましょう 
     ・Let's just rest for ten minutes.
 
-14.1 **では**`location of action & emphasis`**⚭　N + de wa**
+14.1 **では**`location of action & emphasis` **⚭ N + de wa**
 
     ・会社の食堂で食べます
     ・I'll eat at the company cafeteria.
 
-14.2 **へは**`direction & emphasis`**⚭　N + e wa**
+14.2 **へは**`direction & emphasis` **⚭ N + e wa**
 
     ・東京駅へは何で行きますか
     ・Why do you go to Tokyo Station?
 
-14.3 **には**`place of existence & emphasis`**⚭　N + ni wa**
+14.3 **には**`place of existence & emphasis` **⚭ N + ni wa**
 
     ・この町には図書館がありません
     ・There is no library in this town.
@@ -20023,72 +20033,72 @@ Senna: Thank you very much!
 
 ##### C4
 
-15.1 **だれ・どなた**`who`**⚭　dare/donata**
+15.1 **だれ・どなた**`who` **⚭ dare/donata**
 
     ・これはだれのペンですか 
     ・Whose pen is this?
     
-15.2 **なに・なん**`what`**⚭　nani/nan*
+15.2 **なに・なん**`what` **⚭ nani/nan**
 
     ・これはなに本ですか 
     ・What book is this?
 
-15.3 **どこ**`where`**⚭　doko**
+15.3 **どこ**`where` **⚭ doko**
 
     ・駅の前にはコンビニや銀行などがあります 
     ・There are convenience stores, banks and etc in front of the station.
 
-15.4 **どちら**`which`**⚭　dochira**
+15.4 **どちら**`which` **⚭ dochira**
 
     ・お国はどちらですか？ 
     ・Which country are you from? 
     
-15.5 **どう**`how・what`**⚭　dou**
+15.5 **どう**`how・what` **⚭ dou**
 
     ・あなたの旅はどうでしたか？
     ・How was your trip?
 
-15.6 **どうやって**`how・in what way`**⚭　douyatte**
+15.6 **どうやって**`how・in what way` **⚭ douyatte**
 
     ・どうやってそれを知ったのですか？ 
     ・How do you know that?
 
-15.7 **何で**`how・why`**⚭　nande**
+15.7 **何で**`how・why` **⚭ nande**
 
     ・なんでもっと早く言ってくれなかったの？
     ・Why didn't you tell me earlier?
 
-15.8 **どうして**`how・why`**⚭　doushite**
+15.8 **どうして**`how・why` **⚭ doushite**
 
     ・その赤ちゃんはどうして泣くの？
     ・Why is that baby crying?
 
-15.9 **なぜ**`why`**⚭　naze**
+15.9 **なぜ**`why` **⚭ naze**
 
     ・なぜ今日は駅にタクシーが全く無いのだろう
     ・Why are there no taxis at the station today?
 
-15.10 **どんな**`what kind of`**⚭　donna + N**
+15.10 **どんな**`what kind of` **⚭ donna + N**
 
     ・どんな音楽が好きですか 
     ・What kind of music do you like?
 
-15.11 **どの**`which`**⚭　dono + N**
+15.11 **どの**`which` **⚭ dono + N**
 
     ・私にはどのサイズが合うでしょうか 
     ・What size do you think I take?
 
-15.12 **いくつ**`how many・how old`**⚭　ikutsu**
+15.12 **いくつ**`how many・how old` **⚭ ikutsu**
 
     ・帽子はいくつ持ってるんですか
     ・How many caps do you own?
 
-15.13 **どちら**`which・which one・which way・where`**⚭　dochira*
+15.13 **どちら**`which・which one・which way・where` **⚭ dochira**
 
     ・ジャイアンツとドラゴンズのどちらが好きですか
     ・Which do you like better, the Giants or the Dragons?
 
-15.14 **いつ**`when`**⚭　itsu**
+15.14 **いつ**`when` **⚭ itsu**
 
     ・いつ東京に行くの？
     ・When are you going to Tokyo?
@@ -20097,72 +20107,72 @@ Senna: Thank you very much!
 
 ##### C5
 
-16.1 **なにか**`something`**⚭　nanika**
+16.1 **なにか**`something` **⚭ nanika**
 
     ・お腹がすきましたね。何か食べましょう 
     ・I'm starving. Let's get something to eat. 
     
-16.2 **どこか**`somewher`**⚭　dokoka**
+16.2 **どこか**`somewher` **⚭ dokoka**
 
     ・明日どこかに行きますか 
     ・Are you going somewhere tomorrow?
 
-16.3 **だれか**`someone`**⚭　dareka**
+16.3 **だれか**`someone` **⚭ dareka**
 
     ・教室に誰かいますか 
     ・Is there someone in the classroom?
 
-16.4 **いつか**`sometime`**⚭　itsuka**
+16.4 **いつか**`sometime` **⚭ itsuka**
 
     ・いつかフランスに行きたいです？ 
     ・I want to go to France someday.
     
-17.1 **だれも~ません・ないです**`no one`**⚭　daremo~masen/nai desu**
+17.1 **だれも~ません・ないです**`no one` **⚭ daremo~masen/nai desu**
 
     ・誰もないです
     ・No one.
 
-17.2 **どこにも~ません・ないです**`nowhere・not anywhere`**⚭　dokonimo~masen・nai desu**
+17.2 **どこにも~ません・ないです**`nowhere・not anywhere` **⚭ dokonimo~masen・nai desu**
 
     ・どこにも行かなかったです 
     ・I didn't go anywhere.
 
-17.3 **なにも~ません・ないです**`nothing・won't anything`**⚭　nanimo~masen・nai desu**
+17.3 **なにも~ません・ないです**`nothing・won't anything` **⚭ nanimo~masen・nai desu**
 
     ・何も食べなかったです
     ・I did not eat anything.
 
-18.1 **どれでも**`whichever・any of them`**⚭　doredemo**
+18.1 **どれでも**`whichever・any of them` **⚭ doredemo**
 
     ・どれでも100円です？
     ・Any of them is 100 yen.
 
-18.2 **なんでも**`anything`**⚭　nandemo**
+18.2 **なんでも**`anything` **⚭ nandemo**
 
     ・私は何でも食べます
     ・I'll eat anything.
 
-18.3 **だれでも**`anyone・anybody`**⚭　daredemo**
+18.3 **だれでも**`anyone・anybody` **⚭ daredemo**
 
     ・この問題は誰でもできます 
     ・Anyone can do this problem.
 
-18.4 **いつでも**`anytime`**⚭　itsudemo**
+18.4 **いつでも**`anytime` **⚭ itsudemo**
 
     ・いつでも来てください 
     ・Come back anytime.
 
-18.5 **どこでも**`anywhere`**⚭　dokodemo**
+18.5 **どこでも**`anywhere` **⚭ dokodemo**
 
     ・どこでも行きます
     ・I'll go anywhere.
 
-19.1 **どうですか**`how・how about`**⚭　dou desu ka**
+19.1 **どうですか**`how・how about` **⚭ dou desu ka**
 
     ・コーヒーはどうですか
     ・How about some coffee?
 
-19.2 **いかがですか**`how・how about`**⚭　ikaga desu ka**
+19.2 **いかがですか**`how・how about` **⚭ ikaga desu ka**
 
     ・新しい会社はいかがですか
     ・How's the new company?
@@ -20171,42 +20181,42 @@ Senna: Thank you very much!
 
 ##### C6
 
-20.1 **で**`te-form (connective form)`**⚭　N/Na-Adj + de**
+20.1 **で**`te-form (connective form)` **⚭ N/Na-Adj + de**
 
     ・先生は綺麗で優しいです 
     ・The teacher is beautiful and kind.
 
-20.2 **なくて**`te-form (connective form - Negative)`**⚭　N/Na-Adj + jana~~i~~/dewana~~i~~ + nakute**
+20.2 **なくて**`te-form (connective form - Negative)` **⚭ N/Na-Adj + jana~~i~~/dewana~~i~~ + nakute**
 
     ・あの人は先生じゃなくて学生です 
     ・He is not a teacher, He is a student.
     
-20.3 **くて**`te-form (connective form)`**⚭　I-Adj-~~i~~ + de**
+20.3 **くて**`te-form (connective form)` **⚭ I-Adj-~~i~~ + de**
 
     ・このバッグは色もよくて形もいいです 
     ・This bag has a nice color and a nice shape.
 
-20.4 **なくて**`te-form (connective form - Negative)`**⚭　I-Adj-~~i~~+ku + nakute**
+20.4 **なくて**`te-form (connective form - Negative)` **⚭ I-Adj-~~i~~+ku + nakute**
 
     ・昨日のレストランはお美味しくなくて高かったです 
     ・Yesterday's restaurant was not good and expensive.
 
-21.1 **て**`te-form (connective form)`**⚭　Vte**
+21.1 **て**`te-form (connective form)` **⚭ Vte**
 
     ・朝起きて朝ごはんを食べて散歩に行きます 
     ・I wake up, eat breakfast, and go for a walk.
 
-22.1 **てから**`After doing`**⚭　Vte + kara**
+22.1 **てから**`After doing` **⚭ Vte + kara**
 
     ・手を洗ってからご飯を食べましょう
     ・After washing hands, Let's eat.
     
-23.1 **それから**`and then・after that`**⚭　sorekara**
+23.1 **それから**`and then・after that` **⚭ sorekara**
 
     ・ピザをお願いします。それからコーヒーもお願いします
     ・I'll have a pizza, please. And then some coffee, please.
 
-23.2 **そして**`and・and the`**⚭　soshite**
+23.2 **そして**`and・and the` **⚭ soshite**
 
     ・兄が頭がいいです。そして優しいです 
     ・My brother is very smart. And he's kind. 
@@ -20215,47 +20225,47 @@ Senna: Thank you very much!
 
 ##### C7
 
-24.1 **ほしい**`wants something`**⚭　N + ga + hoshii**
+24.1 **ほしい**`wants something` **⚭ N + ga + hoshii**
 
     ・私は猫が欲しい 
     ・I want a cat.
 
-25.1 **たい**`wants to do (tai-form)`**⚭　Vtai (desu)**
+25.1 **たい**`wants to do (tai-form)` **⚭ Vtai (desu)**
 
     ・ステーキが食べたいです 
     ・I want to eat steak.
     
-26.1 **ている**`progrssive-action (teiru-form)`**⚭　Vte + iru**
+26.1 **ている**`progrssive-action (teiru-form)` **⚭ Vte + iru**
 
     ・今妹はピアノを弾いています 
     ・Now my sister plays the piano.
 
-26.2 **ている**`continuous-state (teiru-form)`**⚭　Vte + iru**
+26.2 **ている**`continuous-state (teiru-form)` **⚭ Vte + iru**
 
     ・姉はアメリカに住んでいます 
     ・My sister lives in the United States.
 
-26.3 **ている**`habitual-state (teiru-form)`**⚭　Vte + iru**
+26.3 **ている**`habitual-state (teiru-form)` **⚭ Vte + iru**
 
     ・毎日あのお店は新鮮魚介類を売っている 
     ・Every day that store sells fresh seafood.
 
-27.1 **てください**`please do..`**⚭　Vte + kudasai**
+27.1 **てください**`please do..` **⚭ Vte + kudasai**
 
     ・ちょっと待ってください 
     ・Please wait a minute.
 
-27.2 **ないでください**`please do not`**⚭　Vnaide + kudasai**
+27.2 **ないでください**`please do not` **⚭ Vnaide + kudasai**
 
     ・タバコは吸わないでください 
     ・Please don't smoke.
 
-28.1 **ね**`ending particle (expresses agreement)`**⚭　S + ne**
+28.1 **ね**`ending particle (expresses agreement)` **⚭ S + ne**
 
     ・今日もまた雨ですね 
     ・It's raining again today.
 
-28.2 **よ**`ending particle (informning)`**⚭　S + yo**
+28.2 **よ**`ending particle (informning)` **⚭ S + yo**
 
     ・雨が降っていますよ 
     ・It's raining.
@@ -20264,37 +20274,37 @@ Senna: Thank you very much!
 
 ##### C8
 
-29.1 **~に もらいます**`receive from`**⚭　~ni.. + moraimasu**
+29.1 **~に もらいます**`receive from` **⚭ ~ni.. + moraimasu**
 
     ・クリスマスに母にセーターをもらいました 
     ・I received a sweater from my mother for Christmas.
 
-29.2 **~から もらいます**`receive from``**⚭　~kara.. + moraimasu**
+29.2 **~から もらいます**`receive from` **⚭ ~kara.. + moraimasu**
 
     ・父から時計をもらいました 
     ・I received a watch from my father.
     
-30.1 **が くれます**`give me`**⚭　ga.. + kuremasu**
+30.1 **が くれます**`give me` **⚭ ga.. + kuremasu**
 
     ・友達がチョコレートをくれました 
     ・My friend gave me some chocolates.
 
-31.1 **に あげます**`give to`**⚭　ni.. + agemasu**
+31.1 **に あげます**`give to` **⚭ ni.. + agemasu**
 
     ・妹にこのスカートをあげます 
     ・I'll give this skirt to my sister.
 
-32.1 **ましょう**`let's (volitional-polite-form)`**⚭　Vmashou**
+32.1 **ましょう**`let's (volitional-polite-form)` **⚭ Vmashou**
 
     ・近いから歩きましょう 
     ・It's close enough. Let's walk.
 
-32.2 **ましょうか**`shall (volitional-polite-question-form)`**⚭　Vmashou + ka**
+32.2 **ましょうか**`shall (volitional-polite-question-form)` **⚭ Vmashou + ka**
 
     ・明日どこで会いましょうか 
     ・Where shall we meet tomorrow?
 
-33.1 **ませんか**`why don't we/you do (masu-polite-negative-question-form)`**⚭　Vmasen + ka**
+33.1 **ませんか**`why don't we/you do (masu-polite-negative-question-form)` **⚭ Vmasen + ka**
 
     ・いい天気ですね。公園に行きませんか
     ・It's a beautiful day. Why don't we go to the park?
@@ -20303,27 +20313,27 @@ Senna: Thank you very much!
 
 ##### C9
 
-34.1 **い形容詞+名詞**`noun modification`**⚭　I-Adj + Noun**
+34.1 **い形容詞+名詞**`noun modification` **⚭ I-Adj + Noun**
 
     ・綺麗で優しい先生 
     ・Beautiful and kind teacher.
 
-34.2 **な形容詞+名詞**`noun modification`**⚭　Na-Adj+na + Noun**
+34.2 **な形容詞+名詞**`noun modification` **⚭ Na-Adj+na + Noun**
 
     ・優しくて綺麗な先生 
     ・A kind and beautiful teacher.
 
-34.3 **名詞+名詞**`noun modification`**⚭　Noun + no + Noun**
+34.3 **名詞+名詞**`noun modification` **⚭ Noun + no + Noun**
 
     ・駅の近くの本屋 
     ・A bookstore near the station
 
-34.4 **文節+名詞**`noun modification`**⚭　Relative Clause( [no/ga] Adjectival) + Noun**
+34.4 **文節+名詞**`noun modification` **⚭ Relative Clause([no/ga] Adjectival) + Noun**
 
     ・髪が長い人・髪の長い人 
     ・A person with long hair
 
-34.5 **動詞+名詞**`noun modification`**⚭　Relative Clause( Verbal-Non polite) + Noun**
+34.5 **動詞+名詞**`noun modification` **⚭ Relative Clause(Verbal-Non polite) + Noun**
 
     ・田中さんが働いている会社 
     ・The company where Mr. Tanaka works.
@@ -20450,57 +20460,57 @@ Senna: Thank you very much!
 
 ##### C1 
 
-1.1 **始める**`started to・begin to`**⚭　V~~masu~~ + hajimeru**
+1.1 **始める**`started to・begin to` **⚭ V~~masu~~ + hajimeru**
 
     ・日本語を習い始めたのは半年前です  
     ・I started learning Japanese six months ago.
     
-1.2 **終わる**`to end・done doing・finish doing`**⚭　V~~masu~~ + owaru**
+1.2 **終わる**`to end・done doing・finish doing` **⚭ V~~masu~~ + owaru**
 
     ・その本読み終わったら貸してもらえませんか  
     ・When you finish reading that book, can I borrow it?
 
-2.1 **ように言われる**`I get/got told・I was told`**⚭　Vru/Vnai+ you ni iwareru**
+2.1 **ように言われる**`I get/got told・I was told` **⚭ Vru/Vnai+ you ni iwareru**
 
     ・医者にお酒を飲まないように言われました
     ・The doctor told me not to drink alcohol
 
-2.2 **ように注意する**`I get/got cautioned・I was cautioned`**⚭　Vru/Vnai+ you ni chuui sareru**
+2.2 **ように注意する**`I get/got cautioned・I was cautioned` **⚭ Vru/Vnai+ you ni chuui sareru**
 
     ・先生に宿題を忘れないように注意された
     ・The teacher cautioned me not to forget my homework
     
-2.3 **ようにら飲まれる**`I get/got asked・I was asked`**⚭　Vru/Vnai+ you ni tanomareru**
+2.3 **ようにら飲まれる**`I get/got asked・I was asked` **⚭ Vru/Vnai+ you ni tanomareru**
 
     ・佐藤さんに会議の前に資料をコピーしておくように頼まれた
     ・Mr. Sato asked me to make copies of the documents before the meeting
 
-2.4 **ようにいう iu**`I tell/told`**⚭　Vru/Vnai+ you ni iu**
+2.4 **ようにいう iu**`I tell/told` **⚭ Vru/Vnai+ you ni iu**
 
     ・医者にお酒を飲まないように言った
     ・I told the doctor not to drink alcohol
 
-2.5 **ように注意する**`I caution/cautioned`**⚭　Vru/Vnai+ you ni chuui suru**
+2.5 **ように注意する**`I caution/cautioned` **⚭ Vru/Vnai+ you ni chuui suru**
 
     ・先生に宿題を忘れないように注意した
     ・I cautioned the teacher not to forget my homework
     
-2.6 **ように頼む**`I ask/asked`**⚭　Vru/Vnai+ you ni tanomu**
+2.6 **ように頼む**`I ask/asked` **⚭ Vru/Vnai+ you ni tanomu**
 
     ・佐藤さんに会議の前に資料をコピーしておくように頼んだ
     ・I asked Ms. Sato to make copies of the materials before the meeting
 
-3.1 **という**`describe something (external relative clause)`**⚭　Plain-From + toiu + N**
+3.1 **という**`describe something (external relative clause)` **⚭ Plain-From + toiu + N**
 
     ・最近は大学卒業しても就職が難しいという話を聞きました
     ・I've heard that it's difficult to find a job after graduating from college these days
 
-4.1 **だろうと思う**`I guess/think that it seems/probably`**⚭　Plain-From + darou + to omou **
+4.1 **だろうと思う**`I guess/think that it seems/probably` **⚭ Plain-From + darou + to omou **
 
     ・外国で一人暮らしをするのは寂しいだろうと思う
     ・I think it seems to be lonely to live alone in a foreign country
 
-5.1 **なさそうだ**`It looks/seems that its not`**⚭　I-Adj~~i~~/Na-Adj+ja/N+ja + nasasou da/datta**
+5.1 **なさそうだ**`It looks/seems that its not` **⚭ I-Adj~~i~~/Na-Adj+ja/N+ja + nasasou da/datta**
 
     ・この仕事はそんなに大変じゃなさそうだ
     ・This kind of a job doesn't seem so hard
@@ -20509,37 +20519,37 @@ Senna: Thank you very much!
 
 ##### C2
 
-6.1 **と**`if・when (noticed something you had not been aware until that time)`**⚭　Vru + to**
+6.1 **と**`if・when (noticed something you had not been aware until that time)` **⚭ Vru + to**
 
     ・待ち合わせの場所に着くと友達はもう来ていた  
     ・When I arrived at the meeting, my friend had already come
     
-6.2 **たら**`if・when (noticed something you had not been aware until that time)`**⚭　Vru + tara**
+6.2 **たら**`if・when (noticed something you had not been aware until that time)` **⚭ Vru + tara**
 
     ・屋上に上がったら東京スカイツリー見えた  
     ・I went up to the rooftop and saw the Tokyo Sky Tree
 
-7.1 **ほど**`to that extent (describe unusual condition/degree)`**⚭　Vru/Vnai/I-Adj/Na-Adj/N + hodo**
+7.1 **ほど**`to that extent (describe unusual condition/degree)` **⚭ Vru/Vnai/I-Adj/Na-Adj/N + hodo**
 
     ・富士山登って降りてきた時はもう一歩も歩けないほど疲れていた  
     ・When I climbed Mt. Fuji and came down, I was so tired I couldn't take another step
 
-8.1 **ていく**`go after doing・do go・go away・to keep(describe temporal and spatial changes/action)`**⚭　Vte + iku**
+8.1 **ていく**`go after doing・do go・go away・to keep (temporal and spatial changes/action)` **⚭ Vte + iku**
 
     ・冬になると渡り鳥は南の方へ飛んでいく  
     ・In the winter, migratory birds fly south
 
-8.2 **てくる**`come back after doing・do come・come in・to continue(describe temporal, spatial & perceptional changes)`**⚭　Vte + kuru**
+8.2 **てくる**`come back after doing・do come・come in・to continue (temporal, spatial & perceptional changes)` **⚭ Vte + kuru**
 
     ・日本じんは昔から魚を食べてきました  
     ・Japanese carrots have been eating fish for a long time
 
-9.1 **続ける**`action going on continuously`**⚭　V~~masu~~ + tsuzukeru**
+9.1 **続ける**`action going on continuously` **⚭ V~~masu~~ + tsuzukeru**
 
     ・この薬は途中でやめないで1週間飲み続けてください  
     ・Please do not stop taking this medicine halfway, but continue taking it for one week
     
-10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)`**⚭　Vru/N + nara**
+10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)` **⚭ Vru/N + nara**
 
     ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
     ・If you are going on a trip to Hokkaido, February is the best time to go.
@@ -20548,37 +20558,37 @@ Senna: Thank you very much!
 
 ##### C3
 
-11.1 **って**`called (give a name)`**⚭　N + tte +N**
+11.1 **って**`called (give a name) `**⚭ N + tte +N**
 
     ・長野県の戸隠ってとこる  
     ・A place called Togakushi in Nagano Prefecture
     
-12.1 **せてもらう**`I have/had someone let me (obtain permission from another person)`**⚭　Vsase~~ru~~+ te morau**
+12.1 **せてもらう**`I have/had someone let me (obtain permission from another person)` **⚭ Vsase~~ru~~+ te morau**
 
     ・ここに荷物を置かせてもらってもいいですか  
     ・Do you mind if I put my stuff here?
 
-12.2 **せてくれる**`Someone let me (someone give me permission)`**⚭　Vsase~~ru~~+ te kureru**
+12.2 **せてくれる**`Someone let me (someone give me permission)` **⚭ Vsase~~ru~~+ te kureru**
 
     ・この会社は自分の意見を自由に言わせてくれる  
     ・This company allows me to express my opinions freely
 
-8.1 **ていく**`go after doing・do go・go away・to keep(describe temporal and spatial changes/action)`**⚭　Vte + iku**
+8.1 **ていく**`go after doing・do go・go away・to keep (temporal and spatial changes/action)` **⚭ Vte + iku**
 
     ・冬になると渡り鳥は南の方へ飛んでいく  
     ・In the winter, migratory birds fly south
 
-8.2 **てくる**`come back after doing・do come・come in・to continue(describe temporal, spatial & perceptional changes)`**⚭　Vte+ kuru**
+8.2 **てくる**`come back after doing・do come・come in・to continue (temporal, spatial & perceptional changes) `**⚭ Vte+ kuru**
 
     ・日本じんは昔から魚を食べてきました  
     ・Japanese carrots have been eating fish for a long time
 
-9.1 **続ける**`action going on continuously`**⚭　V~~masu~~ + tsuzukeru**
+9.1 **続ける**`action going on continuously` **⚭ V~~masu~~ + tsuzukeru**
 
     ・この薬は途中でやめないで1週間飲み続けてください  
     ・Please do not stop taking this medicine halfway, but continue taking it for one week
     
-10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)`**⚭　Vru/N + nara**
+10.1 **なら**`if・when (clause sets limit and to provide advice, suggestion or course of action)` **⚭ Vru/N + nara**
 
     ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
     ・If you are going on a trip to Hokkaido, February is the best time to go.
@@ -20593,8 +20603,10 @@ Senna: Thank you very much!
 
     先週の日曜日、りんさんと富士山に登った。途中までバスで行って、そこから登り始めた。登る前に水を買った店で、酸素缶も持っていくように言われた。山上は空気ガ少ないから必要になるかもしれないそうだ。空気が薄いと病気になる人もいるということを思い出したが、富士山は小学生でも登れると聞いたので、大丈夫だろうと思った。だから買わなかった。私は富士山をしたことはないが、富士山は険しい山じゃないし、それほど大変じゃなさそうだった。
 
-Last Sunday, Rin and I climbed Mt. We took a bus to the halfway point and started climbing from there. At the store where we bought water before the climb, we were told to bring some oxygen cans with us. He said that we might need it because there is not much air on the mountain. I remembered that some people get sick when the air is too thin, but I had heard that even elementary school students can climb Mt. So I didn't buy one.
-I've never done Mt. Fuji before, but it's not a steep mountain and it didn't seem too hard.
+<!-- <h> -->
+
+    Last Sunday, Rin and I climbed Mt. We took a bus to the halfway point and started climbing from there. At the store where we bought water before the climb, we were told to bring some oxygen cans with us. He said that we might need it because there is not much air on the mountain. I remembered that some people get sick when the air is too thin, but I had heard that even elementary school students can climb Mt. So I didn't buy one.
+    I've never done Mt. Fuji before, but it's not a steep mountain and it didn't seem too hard.
 
 ------------------------------------------------------------------------
 
@@ -20604,11 +20616,13 @@ I've never done Mt. Fuji before, but it's not a steep mountain and it didn't see
     後で聞いたら、りんさんも途中でやめようと思ったけど、私は後ろから登ってくるのが見えたから頑張ったと言っていた。大変だったが、一番上までいけと本当によかった。だから、もしこれから富士山に登る人がいたら、上まで行きたいなら、友達と一緒に行くことをおすすめしたい。もちろん酸素缶も持っていった方がいい。
     でも、もう一度行きたいかと聞かれたら、もう二度とあんな大変なことはしたくないと答えるだろう。富士山は遠くからみる方がずっといいと思う。
 
-But it was a real challenge to climb it. Halfway up, my legs became so heavy that it was hard to even stand. I wanted to quit, but when I looked ahead, I saw Rin-san climbing higher and higher. I didn't want to give up on Rin's efforts, so I kept climbing.
+<!-- <h> -->
 
-When I asked her later, she said that she thought about quitting halfway up, but I could see her coming up behind me, so I kept going. It was a tough climb, but I'm really glad I made it to the top. So, if you are going to climb Mt. Fuji, I would recommend that you go with a friend if you want to make it to the top. Of course, you should also bring an oxygen can with you.
+    But it was a real challenge to climb it. Halfway up, my legs became so heavy that it was hard to even stand. I wanted to quit, but when I looked ahead, I saw Rin-san climbing higher and higher. I didn't want to give up on Rin's efforts, so I kept climbing.
 
-But if you were to ask me if I wanted to go up there again, I would say that I would not want to go through such a hard time again. I think Mt. Fuji is much better seen from a distance.
+    When I asked her later, she said that she thought about quitting halfway up, but I could see her coming up behind me, so I kept going. It was a tough climb, but I'm really glad I made it to the top. So, if you are going to climb Mt. Fuji, I would recommend that you go with a friend if you want to make it to the top. Of course, you should also bring an oxygen can with you.
+
+    But if you were to ask me if I wanted to go up there again, I would say that I would not want to go through such a hard time again. I think Mt. Fuji is much better seen from a distance.
 
 ------------------------------------------------------------------------
 
