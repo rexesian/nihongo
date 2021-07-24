@@ -6862,67 +6862,67 @@ Indicates that the past occurrence was done by someone and not by you.
 
 <p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past Polite)**</p>
 
-    ・kau     ⇢   kaimasen
-    ・taberu  ⇢   tabemasen
-    ・miru    ⇢   mimasen
-    ・kuru    ⇢   kurimasen
-    ・suru    ⇢   shirimasen
+    ・買う　　⇢　買いません
+    ・食べる　⇢　食べません
+    ・見る　　⇢　見ません
+    ・来る　　⇢　きません
+    ・する　　⇢　しません
 
 <p style="font-size:12px;">(❖) **Vmashita-Form (Past Polite)**</p>
 
-    ・kau     ⇢   kaimashita
-    ・taberu  ⇢   tabemashita
-    ・miru    ⇢   mimashita
-    ・kuru    ⇢   kimashita
-    ・suru    ⇢   shimashita
+    ・買う　　⇢　買いました
+    ・食べる　⇢　食べました
+    ・見る　　⇢　見ました
+    ・来る　　⇢　きました
+    ・する　　⇢　しました
 
 <p style="font-size:12px;">(❖) **Vmasen-Form (Negative Non Past Polite)**</p>
 
-    ・kau     ⇢   kaimasen deshita
-    ・taberu  ⇢   tabemasen deshita
-    ・miru    ⇢   mimasen deshita
-    ・kuru    ⇢   kurimasen deshita
-    ・suru    ⇢   shirimasen deshita
+    ・買う　　⇢　買いませんでした
+    ・食べる　⇢　食べませんでした
+    ・見る　　⇢　見ませんでした
+    ・来る　　⇢　きませんでした
+    ・する　　⇢　しませんでした
     
 <p style="font-size:12px;">(❖) **Vdict-Form (Dictionary Form)**</p>
 
-    ・kau     ⇢   kau
-    ・taberu  ⇢   taberu
-    ・miru    ⇢   miru
-    ・kuru    ⇢   kuru
-    ・suru    ⇢   suru
+    ・買う　　⇢　買う
+    ・食べる　⇢　食べる
+    ・見る　　⇢　見る
+    ・来る　　⇢　来る
+    ・する　　⇢　する
 
 <p style="font-size:12px;">(❖) **Vte-Form (Te Form)**</p>
 
-    ・kau     ⇢   katte
-    ・matsu   ⇢   matte
-    ・shiru   ⇢   shitte
-    ・kaku    ⇢   kaite
-    ・oyogu   ⇢   oyoide
-    ・hanasu  ⇢   hanashite
-    ・shinu   ⇢   shinde
-    ・yomu    ⇢   yonde
-    ・asobu   ⇢   asonde
-    ・taberu  ⇢   tabete
-    ・miru    ⇢   mite
-    ・kuru    ⇢   kite
-    ・suru    ⇢   shite
+    ・買う　　⇢   買って
+    ・待つ　　⇢   待って
+    ・知る　　⇢   知って
+    ・書く　　⇢   書いて
+    ・泳ぐ　　⇢   泳いで
+    ・話す　　⇢   話して
+    ・死ぬ　　⇢   死んで
+    ・読む　　⇢   読んで
+    ・遊ぶ　　⇢   遊んで
+    ・食べる　⇢   食べて
+    ・見る　　⇢   見て
+    ・来る　　⇢   来て
+    ・する　　⇢   して
 
 <p style="font-size:12px;">(❖) **Vta-Form (Ta Form)**</p>
 
-    ・kau     ⇢   katta
-    ・matsu   ⇢   matta
-    ・shiru   ⇢   shitta
-    ・kaku    ⇢   kaita
-    ・oyogu   ⇢   oyoida
-    ・hanasu  ⇢   hanashita
-    ・shinu   ⇢   shinda
-    ・yomu    ⇢   yonda
-    ・asobu   ⇢   asonda
-    ・taberu  ⇢   tabeta
-    ・miru    ⇢   mita
-    ・kuru    ⇢   kita
-    ・suru    ⇢   shita
+    ・買う　　⇢   買った
+    ・待つ　　⇢   待った
+    ・知る　　⇢   知った
+    ・書く　　⇢   書いた
+    ・泳ぐ　　⇢   泳いだ
+    ・話す　　⇢   話した
+    ・死ぬ　　⇢   死んだ
+    ・読む　　⇢   読んだ
+    ・遊ぶ　　⇢   遊んだ
+    ・食べる　⇢   食べた
+    ・見る　　⇢   見た
+    ・来る　　⇢   来た
+    ・する　　⇢   した
 
 ------------------------------------------------------------------------
 
