@@ -15313,6 +15313,138 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### Native Exp {.tabset}
+
+#### C1 
+
+C1.1 **楽勝**`No problem; a breeze`  
+Something that can be done easily with resources to spare. 
+
+    ・これ、悪いけど、明日までにやってくれないかな? 
+    ・わかりました。金曜日までなら楽勝です。
+    
+<!-- <h> -->
+
+    ・Sorry, but could you do this by tomorrow?
+    ・Understood. Doing this by Friday will be no problem.
+    
+<!-- <h> -->
+
+    ・バスだとわかりませんが、タクシーを使えば15分で楽勝ですよ。
+    ・そうですか。じゃあ、そうします。
+    
+<!-- <h> -->
+
+    ・I don't know about taking a bus, but you should be able to get there with no problem in fifteen minutes if you take a taxi.
+    ・Is that so. I'11 do that, then.
+
+C1.2 **朝飯前**`Piece of cake; a cinch`  
+Something that can be done easily. 
+
+    ・えっ、毎日キロ走ってるんですか。
+    ・はい。そのぐらい朝飯前ですよ。
+    
+<!-- <h> -->
+
+    ・What? You run twenty kilometers a day?
+    ・Yes. That much is a piece of cake.
+    
+<!-- <h> -->
+
+    ・この問題、解ける人、誰かいないかなあ。
+    ・関さんならきっと朝飯前だと思いますけど。
+    
+<!-- <h> -->
+
+    ・Can anyone solve this problem?
+    ・It's probably a piece of cake for Seki-san.
+
+C1.３ **棚ぼた**`Windfall; godsend`  
+A metaphor that means "To come across unexpected good fortune."
+
+    ・友だちからもらったくじでハワイ旅行が当たっちゃった!
+    ・すごい!まさに棚ほただね、それは。
+    
+<!-- <h> -->
+
+    ・I won a trip to Hawaii from the lottery ticket my friend gave me!
+    ・Wow! What a windfall.
+    
+<!-- <h> -->
+
+    ・今月の営業成績、随分いいねえ。
+    ・はい。ライバル店が閉店したので、棚ぼたで急に客が増えたんです。
+    
+<!-- <h> -->
+
+    ・This month's sales results are quite good.
+    ・Yes. Our rival store closed, and we had a windfall rush of customers.
+
+C1.4 **お安い御用**`No big deal; piece of cake`  
+To be able to accept someone's request without any difficulty to oneself. 
+
+    ・あのう、 この荷物、 5時頃まで預かってもらえませんか。
+    ・いいですよ。お安い御用です。
+    
+<!-- <h> -->
+
+    ・Um, could you please hold on to this luggage until around 5?
+    ・Sure. No big deal.
+    
+<!-- <h> -->
+
+    ・いつもすみません、無理なお願いばかりして。
+    ・大丈夫ですよ。このくらいお安い御用ですよ。
+    
+<!-- <h> -->
+
+    ・I'm sorry for always making these unreasonable requests.
+    ・It's fine. This is no big deal.
+
+C1.5 **トントン拍子**`Without a hitch; swimmingly`  
+For something to proceed smoothly. 
+
+    ・あれ?彼はもう部長になったの?
+    ・そうなんです。トントン拍子の出世ですよね。
+    
+<!-- <h> -->
+
+    ・Huh? He's already department chief?
+    ・That's right. His advancement up the ranks has been going smoothly.
+    
+<!-- <h> -->
+
+    ・あの二人はうまく行ってるんですか。
+    ・ええ、 交際を始めてからとんとん拍子で、来年には結婚するようです。
+    
+<!-- <h> -->
+
+    ・Are those two getting along well?
+    ・Yes, things have been going without a hitch ever since they started seeing one another, and it seems they'll be married next year.
+
+C1.6 **一番乗り**`First to arrive`  
+To be the first to arrive in a given location.
+
+    ・会場に一番乗りしたのは社長だって。
+    ・そうなんだ。
+    
+<!-- <h> -->
+
+    ・I heard the president was the first to arrive at the site.
+    ・Really?
+    
+<!-- <h> -->
+
+    ・サッカーの結果、どうだった?
+    ・日本、勝ったよ。ワールドカップの出場、一番乗りだって。
+    
+<!-- <h> -->
+
+    ・How did the soccer match go?
+    ・Japan won. I heard they're the first team to make it to the World Cup.
+
+------------------------------------------------------------------------
+
 ## Technical {.tabset}
 
 ### Electricity
