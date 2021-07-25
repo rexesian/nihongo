@@ -7730,25 +7730,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Te Form)**</p>
 
-    ・kau     ⇢   katte
-    ・matsu   ⇢   matte
-    ・shiru   ⇢   shite
-    ・kaku    ⇢   kaite
-    ・oyogu   ⇢   oyoide
-    ・hanasu  ⇢   hanashite
-    ・shinu   ⇢   shinde
-    ・yomu    ⇢   yonde
-    ・asobu   ⇢   asonde
+    ・買う　　⇢   買って
+    ・待つ　　⇢   待って
+    ・知る　　⇢   知って
+    ・書く　　⇢   書いて
+    ・泳ぐ　　⇢   泳いで
+    ・話す　　⇢   話して
+    ・死ぬ　　⇢   死んで
+    ・読む　　⇢   読んで
+    ・遊ぶ　　⇢   遊んで
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Te Form)**</p>
 
-    ・taberu  ⇢   tabete
-    ・miru    ⇢   mite
+    ・食べる　⇢   食べて
+    ・見る　　⇢   見て
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Te Form)**</p>
 
-    ・kuru    ⇢   kite
-    ・suru    ⇢   shite
+    ・来る　　⇢   来て
+    ・する　　⇢   して
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -7820,25 +7820,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Ta Form)**</p>
 
-    ・kau     ⇢   katta
-    ・matsu   ⇢   matta
-    ・shiru   ⇢   shita
-    ・kaku    ⇢   kaita
-    ・oyogu   ⇢   oyoida
-    ・hanasu  ⇢   hanashita
-    ・shinu   ⇢   shinda
-    ・yomu    ⇢   yonda
-    ・asobu   ⇢   asonda
+    ・買う　　⇢   買った
+    ・待つ　　⇢   待った
+    ・知る　　⇢   知った
+    ・書く　　⇢   書いた
+    ・泳ぐ　　⇢   泳いだ
+    ・話す　　⇢   話した
+    ・死ぬ　　⇢   死んだ
+    ・読む　　⇢   読んだ
+    ・遊ぶ　　⇢   遊んだ
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Ta Form)**</p>
 
-    ・taberu  ⇢   tabeta
-    ・miru    ⇢   mita
+    ・食べる　⇢   食べた
+    ・見る　　⇢   見た
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Ta Form)**</p>
 
-    ・kuru    ⇢   kita
-    ・suru    ⇢   shita
+    ・来る　　⇢   来た
+    ・する　　⇢   した
 
 ```{r, echo=FALSE, message=FALSE}
 
