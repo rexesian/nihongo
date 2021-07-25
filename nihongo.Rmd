@@ -147,6 +147,7 @@ knj4wb <- read_csv("rdata/Sheet 116-WBKNJ4.csv")
 knj5wb <- read_csv("rdata/Sheet 117-WBKNJ5.csv")
 knvlwb <- read_csv("rdata/Sheet 118-WBLVB.csv")
 wlbvl <- read_csv("rdata/Sheet 119-WBLWW.csv")
+izkyb <- read_csv("rdata/Sheet 120-BTKRI.csv")
 
 ```
 
@@ -15573,7 +15574,7 @@ reactable(
         Meaning <- vcb1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           # div(style = list(fontSize = 13, fontWeight = 600), Hiragana),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -15583,12 +15584,12 @@ reactable(
       Meaning = colDef(show = FALSE),
       Hiragana = colDef(show = FALSE)
   ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+    outlined = TRUE, defaultPageSize = 5, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15629,7 +15630,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -15638,10 +15639,10 @@ reactable(
     Transcript = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15673,7 +15674,7 @@ reactable(
         Translation <- s1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -15683,10 +15684,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15718,7 +15719,7 @@ reactable(
         Translation2 <- m1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -15729,10 +15730,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15764,7 +15765,7 @@ reactable(
         Translation <- j1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -15775,7 +15776,7 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
 
   theme = reactableTheme(
     # color = "hsl(233, 9%, 87%)", backgroundColor = "hsl(233, 9%, 19%)",
@@ -15784,7 +15785,7 @@ reactable(
     # selectStyle = list(backgroundColor = "hsl(233, 9%, 25%)"),
     # pageButtonHoverStyle = list(backgroundColor = "hsl(233, 9%, 25%)"),
     # pageButtonActiveStyle = list(backgroundColor = "hsl(233, 9%, 28%)"),
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15816,7 +15817,7 @@ reactable(
         Translation <- s2$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -15826,10 +15827,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15861,7 +15862,7 @@ reactable(
         Translation2 <- j2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -15872,10 +15873,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15909,9 +15910,9 @@ reactable(
         Translation2 <- z1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
-          div("HT:  ", style = list(fontSize = 11), Translation1),
-          div("MT:  ", style = list(fontSize = 11), Translation2)
+          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1)
+          # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
       },
       align = "center"
@@ -15921,10 +15922,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -15958,9 +15959,9 @@ reactable(
         Translation2 <- z2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
-          div("HT:  ", style = list(fontSize = 11), Translation1),
-          div("MT:  ", style = list(fontSize = 11), Translation2)
+          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1)
+          # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
       },
       align = "center"
@@ -15970,10 +15971,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16007,9 +16008,9 @@ reactable(
         Translation2 <- n1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
-          div("HT:  ", style = list(fontSize = 11), Translation1),
-          div("MT:  ", style = list(fontSize = 11), Translation2)
+          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1)
+          # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
       },
       align = "center"
@@ -16019,10 +16020,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16054,7 +16055,7 @@ reactable(
         Translation <- sws1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -16064,10 +16065,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16101,9 +16102,9 @@ reactable(
         Translation2 <- nwr1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 700), value),
-          div("HT:  ", style = list(fontSize = 11), Translation1),
-          div("MT:  ", style = list(fontSize = 11), Translation2)
+          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div("HT:  ", style = list(fontSize = 11), Translation1)
+          # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
       },
       align = "center"
@@ -16113,10 +16114,10 @@ reactable(
     Time = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16132,9 +16133,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### RN {.tabset}
-
-####  Words
+### RN
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16472,7 +16471,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-## Anime {.tabset}
+## Series {.tabset}
 
 ### YURU-CAMP  {.tabset}
 
@@ -16928,6 +16927,47 @@ reactable(
     ),
     Meaning.EP12 = colDef(show = FALSE)
 
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Izakaya
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(izkyb),
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Translation <- izkyb$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+   Translation = colDef(show = FALSE),
+   Time = colDef(show = FALSE)
   ),
   defaultPageSize = 5,
   theme = reactableTheme(
@@ -17619,69 +17659,6 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Exerpts {.tabset}
-
-###### Random
-
-```{r echo=FALSE, message=FALSE, error=FALSE}
-
-msntc <- msntc[sample(1:nrow(msntc)),]
-
-reactable(
-  na.omit(msntc),
-  columns = list(
-       Script = colDef(
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        Meaning <- msntc$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 17, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), value),
-          div(style = list(fontSize = 12, fontWeight = 500, fontFamily = "Anonymous Pro" ), Meaning),
-        )
-      },
-      align = "left", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 450),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### Notes
-
-------------------------------------------------------------------------
-
 ##### Snippets
 
 <!-- ###### RN1 -->
@@ -18315,7 +18292,7 @@ reactable(
 
 ```
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
 <!-- ###### RNC -->
 
@@ -18403,6 +18380,68 @@ reactable(
 <!-- ) -->
 
 <!-- ``` -->
+
+
+##### Exerpts {.tabset}
+
+###### Random
+
+```{r echo=FALSE, message=FALSE, error=FALSE}
+
+msntc <- msntc[sample(1:nrow(msntc)),]
+
+reactable(
+  na.omit(msntc),
+  columns = list(
+       Script = colDef(
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Expression') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Meaning <- msntc$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 17, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), value),
+          div(style = list(fontSize = 12, fontWeight = 500, fontFamily = "Anonymous Pro" ), Meaning),
+        )
+      },
+      align = "left", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 450),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### Notes
 
 ------------------------------------------------------------------------
 
