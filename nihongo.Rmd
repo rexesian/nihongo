@@ -16148,11 +16148,11 @@ reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
           showPageInfo = TRUE, defaultPageSize = 10,
           style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 200),
           
-          # columns = list(
-          #   Words = colDef(
-          #     align = "center"
-          #    )
-          # ),
+          columns = list(
+            Words = colDef(
+              align = "center"
+             )
+          ),
 
     theme = reactableTheme(
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 500),
@@ -16490,7 +16490,7 @@ reactable(
         Meaning.EP2 <- yrmp2$Meaning.EP2[index]
         Meaning.EP2 <- if (!is.na(Meaning.EP2)) Meaning.EP2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP2)
         )
       },
@@ -16499,10 +16499,10 @@ reactable(
     Meaning.EP2 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16533,7 +16533,7 @@ reactable(
         Meaning.EP3 <- yrmp3$Meaning.EP3[index]
         Meaning.EP3 <- if (!is.na(Meaning.EP3)) Meaning.EP3 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP3)
         )
       },
@@ -16542,10 +16542,10 @@ reactable(
     Meaning.EP3 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16576,7 +16576,7 @@ reactable(
         Meaning.EP4 <- yrmp4$Meaning.EP4[index]
         Meaning.EP4 <- if (!is.na(Meaning.EP4)) Meaning.EP4 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP4)
         )
       },
@@ -16585,10 +16585,10 @@ reactable(
     Meaning.EP4 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16619,7 +16619,7 @@ reactable(
         Meaning.EP5 <- yrmp5$Meaning.EP5[index]
         Meaning.EP5 <- if (!is.na(Meaning.EP5)) Meaning.EP5 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP5)
         )
       },
@@ -16628,10 +16628,10 @@ reactable(
     Meaning.EP5 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16662,7 +16662,7 @@ reactable(
         Meaning.EP6 <- yrmp6$Meaning.EP6[index]
         Meaning.EP6 <- if (!is.na(Meaning.EP6)) Meaning.EP6 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP6)
         )
       },
@@ -16671,10 +16671,10 @@ reactable(
     Meaning.EP6 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16705,7 +16705,7 @@ reactable(
         Meaning.EP7 <- yrmp7$Meaning.EP7[index]
         Meaning.EP7 <- if (!is.na(Meaning.EP7)) Meaning.EP7 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP7)
         )
       },
@@ -16714,10 +16714,10 @@ reactable(
     Meaning.EP7 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16748,7 +16748,7 @@ reactable(
         Meaning.EP8 <- yrmp8$Meaning.EP8[index]
         Meaning.EP8 <- if (!is.na(Meaning.EP8)) Meaning.EP8 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP8)
         )
       },
@@ -16757,10 +16757,10 @@ reactable(
     Meaning.EP8 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16791,7 +16791,7 @@ reactable(
         Meaning.EP9 <- yrmp9$Meaning.EP9[index]
         Meaning.EP9 <- if (!is.na(Meaning.EP9)) Meaning.EP9 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP9)
         )
       },
@@ -16800,10 +16800,10 @@ reactable(
     Meaning.EP9 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16834,7 +16834,7 @@ reactable(
         Meaning.EP10 <- yrmp10$Meaning.EP10[index]
         Meaning.EP10 <- if (!is.na(Meaning.EP10)) Meaning.EP10 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP10)
         )
       },
@@ -16843,10 +16843,10 @@ reactable(
     Meaning.EP10 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16877,7 +16877,7 @@ reactable(
         Meaning.EP11 <- yrmp11$Meaning.EP11[index]
         Meaning.EP11 <- if (!is.na(Meaning.EP11)) Meaning.EP11 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP11)
         )
       },
@@ -16886,10 +16886,10 @@ reactable(
     Meaning.EP11 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -16920,7 +16920,7 @@ reactable(
         Meaning.EP12 <- yrmp12$Meaning.EP12[index]
         Meaning.EP12 <- if (!is.na(Meaning.EP12)) Meaning.EP12 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Meaning.EP12)
         )
       },
@@ -16929,10 +16929,10 @@ reactable(
     Meaning.EP12 = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -17487,9 +17487,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Sentences {.tabset}
+##### Sentences
 
-###### RN
+<!-- ###### RN -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -17503,7 +17503,7 @@ reactable(
         Translation <- vbphr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
+          div(style = list(fontSize = 21, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -17511,10 +17511,10 @@ reactable(
     ),
     Translation = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -17530,92 +17530,92 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-###### RC
+<!-- ###### RC -->
 
-```{r echo=FALSE, message=FALSE, error=FALSE}
+<!-- ```{r echo=FALSE, message=FALSE, error=FALSE} -->
 
-reactable(
-  na.omit(snvbp),
-  columns = list(
-       Script = colDef(
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        s2 <- snvbp$s2[index]
-        s2 <- if (!is.na(s2)) s2 else "Unknown"
-        s3 <- snvbp$s3[index]
-        s3 <- if (!is.na(s3)) s3 else "Unknown"
-        s4 <- snvbp$s4[index]
-        s4 <- if (!is.na(s4)) s4 else "Unknown"
-        s5 <- snvbp$s5[index]
-        s5 <- if (!is.na(s5)) s5 else "Unknown"          
-        s6 <- snvbp$s6[index]
-        s6 <- if (!is.na(s6)) s6 else "Unknown"  
-        s7 <- snvbp$s7[index]
-        s7 <- if (!is.na(s7)) s7 else "Unknown"          
-        s8 <- snvbp$s8[index]
-        s8 <- if (!is.na(s8)) s8 else "Unknown" 
-        s9 <- snvbp$s9[index]
-        s9 <- if (!is.na(s9)) s9 else "Unknown"  
-        s10 <- snvbp$s10[index]
-        s10 <- if (!is.na(s10)) s10 else "Unknown"  
-        tagList(
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10)
-        )
-      },
-      align = "left", minWidth = 400
-      ),
-      s2 = colDef(show = FALSE),
-      s3 = colDef(show = FALSE),
-      s4 = colDef(show = FALSE),
-      s5 = colDef(show = FALSE),
-      s6 = colDef(show = FALSE),
-      s7 = colDef(show = FALSE),
-      s8 = colDef(show = FALSE),
-      s9 = colDef(show = FALSE),
-      s10 = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
+<!-- reactable( -->
+<!--   na.omit(snvbp), -->
+<!--   columns = list( -->
+<!--        Script = colDef( -->
+<!--         style = JS("function(rowInfo, colInfo, state) { -->
+<!--         var firstSorted = state.sorted[0] -->
+<!--         if (!firstSorted || firstSorted.id === 'Expression') { -->
+<!--           var prevRow = state.pageRows[rowInfo.viewIndex - 1] -->
+<!--           if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) { -->
+<!--             return { visibility: 'hidden' } -->
+<!--           } -->
+<!--         } -->
+<!--       }"), -->
+<!--       cell = function(value, index) { -->
+<!--         s2 <- snvbp$s2[index] -->
+<!--         s2 <- if (!is.na(s2)) s2 else "Unknown" -->
+<!--         s3 <- snvbp$s3[index] -->
+<!--         s3 <- if (!is.na(s3)) s3 else "Unknown" -->
+<!--         s4 <- snvbp$s4[index] -->
+<!--         s4 <- if (!is.na(s4)) s4 else "Unknown" -->
+<!--         s5 <- snvbp$s5[index] -->
+<!--         s5 <- if (!is.na(s5)) s5 else "Unknown"           -->
+<!--         s6 <- snvbp$s6[index] -->
+<!--         s6 <- if (!is.na(s6)) s6 else "Unknown"   -->
+<!--         s7 <- snvbp$s7[index] -->
+<!--         s7 <- if (!is.na(s7)) s7 else "Unknown"           -->
+<!--         s8 <- snvbp$s8[index] -->
+<!--         s8 <- if (!is.na(s8)) s8 else "Unknown"  -->
+<!--         s9 <- snvbp$s9[index] -->
+<!--         s9 <- if (!is.na(s9)) s9 else "Unknown"   -->
+<!--         s10 <- snvbp$s10[index] -->
+<!--         s10 <- if (!is.na(s10)) s10 else "Unknown"   -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "left", minWidth = 400 -->
+<!--       ), -->
+<!--       s2 = colDef(show = FALSE), -->
+<!--       s3 = colDef(show = FALSE), -->
+<!--       s4 = colDef(show = FALSE), -->
+<!--       s5 = colDef(show = FALSE), -->
+<!--       s6 = colDef(show = FALSE), -->
+<!--       s7 = colDef(show = FALSE), -->
+<!--       s8 = colDef(show = FALSE), -->
+<!--       s9 = colDef(show = FALSE), -->
+<!--       s10 = colDef(show = FALSE) -->
+<!--   ), -->
+<!--     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE, -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--     theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ), -->
+<!--     headerStyle = list( -->
+<!--       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # borderColor = "#555",  -->
+<!--       height = 30, fontSize = "11px" -->
+<!--     ) -->
+<!--   ) -->
+<!-- ) -->
 
-```
+<!-- ``` -->
 
 ------------------------------------------------------------------------
 
@@ -17682,39 +17682,613 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Snippets {.tabset}
+##### Snippets
 
-###### RN1
+<!-- ###### RN1 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- set.seed(1273) -->
+<!-- snpts <- snpts[sample(1:nrow(snpts)),] -->
+
+<!-- snpts1 <- snpts %>% slice(1:200) -->
+<!-- snpts2 <- snpts %>% slice(201:400) -->
+<!-- snpts3 <- snpts %>% slice(401:600) -->
+<!-- snpts4 <- snpts %>% slice(601:800) -->
+<!-- snpts5 <- snpts %>% slice(801:1000) -->
+<!-- snpts6 <- snpts %>% slice(1001:1200) -->
+<!-- snpts7 <- snpts %>% slice(1201:1400) -->
+<!-- snpts8 <- snpts %>% slice(1401:1600) -->
+<!-- snpts9 <- snpts %>% slice(1601:1800) -->
+<!-- snpts10 <- snpts %>% slice(1801:2000) -->
+<!-- snpts11 <- snpts %>% slice(2001:2200) -->
+<!-- snpts12 <- snpts %>% slice(2201:2400) -->
+<!-- snpts13 <- snpts %>% slice(2401:2600) -->
+<!-- snpts14 <- snpts %>% slice(2601:2800) -->
+
+<!-- reactable( -->
+<!--   snpts1, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts1$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN2 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts2, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts2$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN3 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts3, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts3$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN4 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts4, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts4$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN5 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts5, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts5$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN6 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts6, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts6$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN7 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts7, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts7$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN8 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts8, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts8$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN9 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts9, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts9$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN10 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts10, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts10$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN11 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts11, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts11$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN12 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts12, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts12$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN13 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts13, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts13$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RN14 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- reactable( -->
+<!--   snpts14, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- snpts14$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
+<!--           div(style = list(fontSize = 11), Meaning) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%", -->
+<!--       fontSize = "11px" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ###### RNT -->
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1273)
 snpts <- snpts[sample(1:nrow(snpts)),]
 
-snpts1 <- snpts %>% slice(1:200)
-snpts2 <- snpts %>% slice(201:400)
-snpts3 <- snpts %>% slice(401:600)
-snpts4 <- snpts %>% slice(601:800)
-snpts5 <- snpts %>% slice(801:1000)
-snpts6 <- snpts %>% slice(1001:1200)
-snpts7 <- snpts %>% slice(1201:1400)
-snpts8 <- snpts %>% slice(1401:1600)
-snpts9 <- snpts %>% slice(1601:1800)
-snpts10 <- snpts %>% slice(1801:2000)
-snpts11 <- snpts %>% slice(2001:2200)
-snpts12 <- snpts %>% slice(2201:2400)
-snpts13 <- snpts %>% slice(2401:2600)
-snpts14 <- snpts %>% slice(2601:2800)
-
 reactable(
-  snpts1,
+  na.omit(snpts),
   columns = list(
     Script = colDef(
       cell = function(value, index) {
-        Meaning <- snpts1$Meaning[index]
+        Meaning <- snpts$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
+          div(style = list(fontSize = 18, fontWeight = 600), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -17722,10 +18296,10 @@ reactable(
     ),
     Meaning = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -17741,627 +18315,94 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
-
-###### RN2
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts2,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts2$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN3
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts3,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts3$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN4
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts4,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts4$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN5
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts5,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts5$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN6
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts6,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts6$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN7
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts7,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts7$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN8
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts8,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts8$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN9
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts9,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts9$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN10
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts10,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts10$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN11
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts11,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts11$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN12
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts12,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts12$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN13
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts13,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts13$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RN14
-
-```{r, echo=FALSE, message=FALSE}
-
-reactable(
-  snpts14,
-  columns = list(
-    Script = colDef(
-      cell = function(value, index) {
-        Meaning <- snpts14$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
-          div(style = list(fontSize = 11), Meaning)
-        )
-      },
-      align = "center"
-    ),
-    Meaning = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### RNC
-
-```{r echo=FALSE, message=FALSE, error=FALSE}
-
-snptr <- snptr[sample(1:nrow(snptr)),]
-
-reactable(
-  na.omit(snptr),
-  columns = list(
-       Script = colDef(
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        s2 <- snptr$s2[index]
-        s2 <- if (!is.na(s2)) s2 else "Unknown"
-        s3 <- snptr$s3[index]
-        s3 <- if (!is.na(s3)) s3 else "Unknown"
-        s4 <- snptr$s4[index]
-        s4 <- if (!is.na(s4)) s4 else "Unknown"
-        s5 <- snptr$s5[index]
-        s5 <- if (!is.na(s5)) s5 else "Unknown"          
-        s6 <- snptr$s6[index]
-        s6 <- if (!is.na(s6)) s6 else "Unknown"  
-        s7 <- snptr$s7[index]
-        s7 <- if (!is.na(s7)) s7 else "Unknown"          
-        s8 <- snptr$s8[index]
-        s8 <- if (!is.na(s8)) s8 else "Unknown" 
-        s9 <- snptr$s9[index]
-        s9 <- if (!is.na(s9)) s9 else "Unknown"  
-        s10 <- snptr$s10[index]
-        s10 <- if (!is.na(s10)) s10 else "Unknown"  
-        tagList(
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8),
-          div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9),
-          div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10)
-        )
-      },
-      align = "left", minWidth = 400
-      ),
-      s2 = colDef(show = FALSE),
-      s3 = colDef(show = FALSE),
-      s4 = colDef(show = FALSE),
-      s5 = colDef(show = FALSE),
-      s6 = colDef(show = FALSE),
-      s7 = colDef(show = FALSE),
-      s8 = colDef(show = FALSE),
-      s9 = colDef(show = FALSE),
-      s10 = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
-
-```
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### RNC -->
+
+<!-- ```{r echo=FALSE, message=FALSE, error=FALSE} -->
+
+<!-- snptr <- snptr[sample(1:nrow(snptr)),] -->
+
+<!-- reactable( -->
+<!--   na.omit(snptr), -->
+<!--   columns = list( -->
+<!--        Script = colDef( -->
+<!--         style = JS("function(rowInfo, colInfo, state) { -->
+<!--         var firstSorted = state.sorted[0] -->
+<!--         if (!firstSorted || firstSorted.id === 'Expression') { -->
+<!--           var prevRow = state.pageRows[rowInfo.viewIndex - 1] -->
+<!--           if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) { -->
+<!--             return { visibility: 'hidden' } -->
+<!--           } -->
+<!--         } -->
+<!--       }"), -->
+<!--       cell = function(value, index) { -->
+<!--         s2 <- snptr$s2[index] -->
+<!--         s2 <- if (!is.na(s2)) s2 else "Unknown" -->
+<!--         s3 <- snptr$s3[index] -->
+<!--         s3 <- if (!is.na(s3)) s3 else "Unknown" -->
+<!--         s4 <- snptr$s4[index] -->
+<!--         s4 <- if (!is.na(s4)) s4 else "Unknown" -->
+<!--         s5 <- snptr$s5[index] -->
+<!--         s5 <- if (!is.na(s5)) s5 else "Unknown"           -->
+<!--         s6 <- snptr$s6[index] -->
+<!--         s6 <- if (!is.na(s6)) s6 else "Unknown"   -->
+<!--         s7 <- snptr$s7[index] -->
+<!--         s7 <- if (!is.na(s7)) s7 else "Unknown"           -->
+<!--         s8 <- snptr$s8[index] -->
+<!--         s8 <- if (!is.na(s8)) s8 else "Unknown"  -->
+<!--         s9 <- snptr$s9[index] -->
+<!--         s9 <- if (!is.na(s9)) s9 else "Unknown"   -->
+<!--         s10 <- snptr$s10[index] -->
+<!--         s10 <- if (!is.na(s10)) s10 else "Unknown"   -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", value), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s2), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s3), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s4), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s5), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s6), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s7), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s8), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🅅 ", s9), -->
+<!--           div(style = list(fontSize = 20, fontWeight = 500), "🆅 ", s10) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "left", minWidth = 400 -->
+<!--       ), -->
+<!--       s2 = colDef(show = FALSE), -->
+<!--       s3 = colDef(show = FALSE), -->
+<!--       s4 = colDef(show = FALSE), -->
+<!--       s5 = colDef(show = FALSE), -->
+<!--       s6 = colDef(show = FALSE), -->
+<!--       s7 = colDef(show = FALSE), -->
+<!--       s8 = colDef(show = FALSE), -->
+<!--       s9 = colDef(show = FALSE), -->
+<!--       s10 = colDef(show = FALSE) -->
+<!--   ), -->
+<!--     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE, -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--     theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ), -->
+<!--     headerStyle = list( -->
+<!--       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # borderColor = "#555",  -->
+<!--       height = 30, fontSize = "11px" -->
+<!--     ) -->
+<!--   ) -->
+<!-- ) -->
+
+<!-- ``` -->
 
 ------------------------------------------------------------------------
 
