@@ -16381,7 +16381,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### LW 
+### LR
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16389,7 +16389,7 @@ set.seed(1274)
 wlbvl <- wlbvl[sample(1:nrow(na.omit(wlbvl))),]
 
 reactable(
-  wlbvl,
+  na.omit(wlbvl),
   columns = list(
     Word = colDef(
       cell = function(value, index) {
@@ -16948,26 +16948,71 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Izakaya
+### Izakaya {.tabset}
+
+#### S1.EP1
 
 ```{r, echo=FALSE, message=FALSE}
 
+izkyb1 <- izkyb %>% select(Script.EP1, Translation.EP1)
+
 reactable(
-  na.omit(izkyb),
+  na.omit(izkyb1),
   columns = list(
-    Script = colDef(
+    Script.EP1 = colDef(
       cell = function(value, index) {
-        Translation <- izkyb$Translation[index]
-        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        Translation.EP1 <- izkyb1$Translation.EP1[index]
+        Translation.EP1 <- if (!is.na(Translation.EP1)) Translation.EP1 else "Unknown"
         tagList(
           div(style = list(fontSize = 19, fontWeight = 700), value),
-          div(style = list(fontSize = 11), Translation)
+          div(style = list(fontSize = 11), Translation.EP1)
         )
       },
       align = "center"
     ),
-   Translation = colDef(show = FALSE),
-   Time = colDef(show = FALSE)
+   Translation.EP1 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### S1.EP2
+
+```{r, echo=FALSE, message=FALSE}
+
+izkyb2 <- izkyb %>% select(Script.EP2, Translation.EP2)
+
+reactable(
+  na.omit(izkyb2),
+  columns = list(
+    Script.EP2 = colDef(
+      cell = function(value, index) {
+        Translation.EP2 <- izkyb2$Translation.EP2[index]
+        Translation.EP2 <- if (!is.na(Translation.EP2)) Translation.EP2 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation.EP2)
+        )
+      },
+      align = "center"
+    ),
+   Translation.EP2 = colDef(show = FALSE)
   ),
   defaultPageSize = 5,
   theme = reactableTheme(
