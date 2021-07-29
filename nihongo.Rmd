@@ -2812,7 +2812,7 @@ reactable(
         Meaning <- na.omit(knjra)$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
+          div(style = list(fontSize = 22, fontWeight = 800), value),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
@@ -2820,12 +2820,12 @@ reactable(
       ),
       Meaning = colDef(show = FALSE)
   ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+    outlined = TRUE, defaultPageSize = 5, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -2870,20 +2870,20 @@ reactable(
         Meaning <- na.omit(knjra)$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value)
-          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
       },
       align = "center", minWidth = 400
       ),
       Meaning = colDef(show = FALSE)
   ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+    outlined = TRUE, defaultPageSize = 5, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -3037,8 +3037,8 @@ reactable(
         Translation <- wvbrb$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 20, fontWeight = 700), value),
-          div(style = list(fontSize = 11, fontWeight = 500), Translation),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation),
         )
       },
       align = "center"
