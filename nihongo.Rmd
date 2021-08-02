@@ -148,6 +148,7 @@ knj5wb <- read_csv("rdata/Sheet 117-WBKNJ5.csv")
 knvlwb <- read_csv("rdata/Sheet 118-WBLVB.csv")
 wlbvl <- read_csv("rdata/Sheet 119-WBLWW.csv")
 izkyb <- read_csv("rdata/Sheet 120-BTKRI.csv")
+atlr <- read_csv("rdata/Sheet 121-ATLR.csv")
 
 ```
 
@@ -6931,45 +6932,45 @@ Indicates that the past occurrence was done by someone and not by you.
 
 **Negative-Base**
 
-<p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p>
-
-    ・kau     ⇢   kawa
-    ・matsu   ⇢   mata
-    ・shiru   ⇢   shira
-    ・kaku    ⇢   kaka
-    ・oyogu   ⇢   oyoga
-    ・hanasu  ⇢   hanasa
-    ・shinu   ⇢   shina
-    ・yomu    ⇢   yoma
-    ・asobu   ⇢   asoba
+<p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p
+   
+    ・買う　　⇢   買わ
+    ・待つ　　⇢   待た
+    ・知る　　⇢   知ら
+    ・書く　　⇢   書か
+    ・泳ぐ　　⇢   泳が
+    ・話す　　⇢   話さ
+    ・死ぬ　　⇢   死な
+    ・読む　　⇢   読ま
+    ・遊ぶ　　⇢   遊ば
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
 
-    ・taberu  ⇢   tabe
-    ・miru    ⇢   mi
+    ・食べる　⇢   食べ
+    ・見る　　⇢   見
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Negative Base)**</p>
 
-    ・kuru    ⇢   ko
-    ・suru    ⇢   shi
+    ・来る　　⇢   こ
+    ・する　　⇢   し
 
 **Forms**
 
 <p style="font-size:12px;">(❖) **Vnai-Form (Negative Non Past) ⚭ Vn + nai**</p>
 
-    ・kau     ⇢   kawanai
-    ・taberu  ⇢   tabenai
-    ・miru    ⇢   minai
-    ・kuru    ⇢   konai
-    ・suru    ⇢   shinai
+    ・買う　　⇢   買わない
+    ・食べる　⇢   食べない
+    ・見る　　⇢   見ない
+    ・来る　　⇢   来ない
+    ・する　　⇢   しない
 
 <p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past) ⚭ Vn + nakatta**</p>
 
-    ・kau     ⇢   kawanakatta
-    ・taberu  ⇢   tabenakatta
-    ・miru    ⇢   minakatta
-    ・kuru    ⇢   konakatta
-    ・suru    ⇢   shinakatta
+    ・買う　　⇢   買わなかった
+    ・食べる　⇢   食べなかった
+    ・見る　　⇢   見なかった
+    ・来る　　⇢   来なかった
+    ・する　　⇢   しなかった
 
 <p style="font-size:12px;">(❖) **More Endings/Forms**</p>
 
@@ -7043,25 +7044,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Passive・Receptive Form)**</p>
 
-    ・kau     ⇢   kawareru
-    ・matsu   ⇢   matareru
-    ・shiru   ⇢   shirareru
-    ・kaku    ⇢   kakareru
-    ・oyogu   ⇢   oyogareru
-    ・hanasu  ⇢   hanasareru
-    ・shinu   ⇢   shinareru
-    ・yomu    ⇢   yomareru
-    ・asobu   ⇢   asobareru
+    ・買う　　⇢   買われる
+    ・待つ　　⇢   待たれる
+    ・知る　　⇢   知られる
+    ・書く　　⇢   書かれる
+    ・泳ぐ　　⇢   泳がれる
+    ・話す　　⇢   話される
+    ・死ぬ　　⇢   死なれる
+    ・読む　　⇢   読まれる
+    ・遊ぶ　　⇢   遊ばれる
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Passive・Receptive Form)**</p>
 
-    ・taberu  ⇢   taberareru
-    ・miru    ⇢   mirareru
+    ・食べる　⇢   食べられる
+    ・見る　　⇢   見られる
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Passive・Receptive Form)**</p>
 
-    ・kuru    ⇢   korareru
-    ・suru    ⇢   sareru
+    ・来る　　⇢   来られる
+    ・する　　⇢   される
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -7133,25 +7134,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Causative Form)**</p>
 
-    ・kau     ⇢   kawaseru
-    ・matsu   ⇢   mataseru
-    ・shiru   ⇢   shiraseru
-    ・kaku    ⇢   kakaseru
-    ・oyogu   ⇢   oyogaseru
-    ・hanasu  ⇢   hanasaseru
-    ・shinu   ⇢   shinaseru
-    ・yomu    ⇢   yomaseru
-    ・asobu   ⇢   asobaseru
+    ・買う　　⇢   買わせる
+    ・待つ　　⇢   待たせる
+    ・知る　　⇢   知らせる
+    ・書く　　⇢   書かせる
+    ・泳ぐ　　⇢   泳がせる
+    ・話す　　⇢   話させる
+    ・死ぬ　　⇢   死なせる
+    ・読む　　⇢   読ませる
+    ・遊ぶ　　⇢   遊ばせる
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Causative Form)**</p>
 
-    ・taberu  ⇢   tabesaseru
-    ・miru    ⇢   misaseru
+    ・食べる　⇢   食べさせる
+    ・見る　　⇢   見させる
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Causative Form)**</p>
 
-    ・kuru    ⇢   kosaseru
-    ・suru    ⇢   saseru
+    ・来る　　⇢   来させる
+    ・する　　⇢   させる
 
 ------------------------------------------------------------------------
 
@@ -7161,25 +7162,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Causative Form)**</p>
 
-    ・kau     ⇢   kawaserareru
-    ・matsu   ⇢   mataserareru
-    ・shiru   ⇢   shiraserareru
-    ・kaku    ⇢   kakaserareru
-    ・oyogu   ⇢   oyogaserareru
-    ・hanasu  ⇢   hanasaserareru
-    ・shinu   ⇢   shinaserareru
-    ・yomu    ⇢   yomaserareru
-    ・asobu   ⇢   asobaserareru
+    ・買う　　⇢   買わせられる
+    ・待つ　　⇢   待たせられる
+    ・知る　　⇢   知らせられる
+    ・書く　　⇢   書かせられる
+    ・泳ぐ　　⇢   泳がせられる
+    ・話す　　⇢   話させられる
+    ・死ぬ　　⇢   死なせられる
+    ・読む　　⇢   読ませられる
+    ・遊ぶ　　⇢   遊ばせられる
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Causative Form)**</p>
 
-    ・taberu  ⇢   tabesaserareru
-    ・miru    ⇢   misaserareru
+    ・食べる　⇢   食べさせられる
+    ・見る　　⇢   見させられる
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Causative Form)**</p>
 
-    ・kuru    ⇢   kosaserareru
-    ・suru    ⇢   saserareru
+    ・来る　　⇢   来させられる
+    ・する　　⇢   させられる
 
 ------------------------------------------------------------------------
 
@@ -7189,59 +7190,59 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Noun Base)**</p>
 
-    ・kau     ⇢   kai
-    ・matsu   ⇢   machi
-    ・shiru   ⇢   shiri
-    ・kaku    ⇢   kaki
-    ・oyogu   ⇢   oyogi
-    ・hanasu  ⇢   hanashi
-    ・shinu   ⇢   shini
-    ・yomu    ⇢   yomi
-    ・asobu   ⇢   asobi
+    ・買う　　⇢   買い
+    ・待つ　　⇢   待ち
+    ・知る　　⇢   知り
+    ・書く　　⇢   書き
+    ・泳ぐ　　⇢   泳ぎ
+    ・話す　　⇢   話し
+    ・死ぬ　　⇢   死に
+    ・読む　　⇢   読み
+    ・遊ぶ　　⇢   遊び
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Noun Base)**</p>
 
-    ・taberu  ⇢   tabe
-    ・miru    ⇢   mi
+    ・食べる　⇢   食べ
+    ・見る　　⇢   見
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Noun Base)**</p>
 
-    ・kuru    ⇢   ki
-    ・suru    ⇢   shi
+    ・来る　　⇢   き
+    ・する　　⇢   し
 
 **Forms**
 
 <p style="font-size:12px;">(❖) **Vnagara-Form (Non Past) ⚭ Vnn + nagara**</p>
 
-    ・kau     ⇢   kainagara
-    ・taberu  ⇢   tabenagara
-    ・miru    ⇢   minagara
-    ・kuru    ⇢   kinagara
-    ・suru    ⇢   shinagara
+    ・買う　　⇢   買いながら
+    ・食べる　⇢   食べながら
+    ・見る　　⇢   見ながら
+    ・来る　　⇢   来ながら
+    ・する　　⇢   しながら
 
 <p style="font-size:12px;">(❖) **Vnikui-Form (Negative Non Past) ⚭ Vnn + nikui**</p>
 
-    ・kau     ⇢   kainikui
-    ・taberu  ⇢   tabenikui
-    ・miru    ⇢   minikui
-    ・kuru    ⇢   kinikui
-    ・suru    ⇢   shinikui
+    ・買う　　⇢   買いにくい
+    ・食べる　⇢   食べにくい
+    ・見る　　⇢   見にくい
+    ・来る　　⇢   来にくい
+    ・する　　⇢   しにくい
 
 <p style="font-size:12px;">(❖) **Vsugiru-Form (Negative Non Past) ⚭ Vnn + sugiru**</p>
 
-    ・kau     ⇢   kaisugiru
-    ・taberu  ⇢   tabesugiru
-    ・miru    ⇢   misugiru
-    ・kuru    ⇢   kisugiru
-    ・suru    ⇢   shisugiru
+    ・買う　　⇢   買いすぎる
+    ・食べる　⇢   食べすぎる
+    ・見る　　⇢   見すぎる
+    ・来る　　⇢   来すぎる
+    ・する　　⇢   しすぎる
 
 <p style="font-size:12px;">(❖) **Vta-Form (Negative Non Past) ⚭ Vnn + tai**</p>
 
-    ・kau     ⇢   kaitai
-    ・taberu  ⇢   tabetai
-    ・miru    ⇢   mitai
-    ・kuru    ⇢   kitai
-    ・suru    ⇢   shitai
+    ・買う　　⇢   買いたい
+    ・食べる　⇢   食べたい
+    ・見る　　⇢   見たい
+    ・来る　　⇢   来たい
+    ・する　　⇢   したい
 
 <p style="font-size:12px;">(❖) **More Endings/Forms**</p>
 
@@ -17027,6 +17028,98 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### Atelier {.tabset}
+
+#### EP1
+
+```{r, echo=FALSE, message=FALSE}
+
+atlr1 <- atlr %>% slice(1:507)
+
+reactable(
+  atlr1,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- atlr1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### EP2
+
+```{r, echo=FALSE, message=FALSE}
+
+atlr1 <- atlr %>% slice(508:1045)
+
+reactable(
+  atlr1,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- atlr1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
