@@ -6930,7 +6930,7 @@ Indicates that the past occurrence was done by someone and not by you.
 
 ###### V1
 
-**Negative-Base**
+**Negative-Stem**
 
 <p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p
    
@@ -7186,7 +7186,7 @@ reactable(
 
 ###### V2
 
-**Noun-Base**
+**Noun-Stem**
 
 <p style="font-size:12px;">(❖) **Godan Verb (Noun Base)**</p>
 
@@ -7316,51 +7316,51 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Masu Form)**</p>
 
-    ・kau     ⇢   kaimasu
-    ・matsu   ⇢   machimasu
-    ・shiru   ⇢   shirimasu
-    ・kaku    ⇢   kakimasu
-    ・oyogu   ⇢   oyogimasu
-    ・hanasu  ⇢   hanashimasu
-    ・shinu   ⇢   shinimasu
-    ・yomu    ⇢   yomimasu
-    ・asobu   ⇢   asobimasu
+    ・買う　　⇢   買います
+    ・待つ　　⇢   待ちます
+    ・知る　　⇢   知ります
+    ・書く　　⇢   書きます
+    ・泳ぐ　　⇢   泳ぎます
+    ・話す　　⇢   話します
+    ・死ぬ　　⇢   死にます
+    ・読む　　⇢   読みます
+    ・遊ぶ　　⇢   遊びます
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Masu Form)**</p>
 
-    ・taberu  ⇢   tabemasu
-    ・miru    ⇢   mimasu
+    ・食べる　⇢   食べます
+    ・見る　　⇢   見ます
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Masu Form)**</p>
 
-    ・kuru    ⇢   kimasu
-    ・suru    ⇢   shimasu
+    ・来る　　⇢   来ます
+    ・する　　⇢   します
 
 **Forms**
 
 <p style="font-size:12px;">(❖) **Vmashita-Form (Past) ⚭ Vnn + mashita**</p>
 
-    ・kau     ⇢   kaimashita
-    ・taberu  ⇢   tabemashita
-    ・miru    ⇢   mimashita
-    ・kuru    ⇢   kimashita
-    ・suru    ⇢   shimashita
+    ・買う　　⇢   買いました
+    ・食べる　⇢   食べました
+    ・見る　　⇢   見ました
+    ・来る　　⇢   来ました
+    ・する　　⇢   しました
 
 <p style="font-size:12px;">(❖) **Vnakatta-Form (Negative) ⚭ Vnn + masen**</p>
 
-    ・kau     ⇢   kaimasen
-    ・taberu  ⇢   tabemasen
-    ・miru    ⇢   mimasen
-    ・kuru    ⇢   kimasen
-    ・suru    ⇢   shimasen
+    ・買う　　⇢   買いません
+    ・食べる　⇢   食べません
+    ・見る　　⇢   見ません
+    ・来る　　⇢   来ません
+    ・する　　⇢   しません
 
 <p style="font-size:12px;">(❖) **Vnakatta-Form (Negative Past) ⚭ Vnn + masen deshita**</p>
 
-    ・kau     ⇢   kaimasen deshita
-    ・taberu  ⇢   tabemasen deshita
-    ・miru    ⇢   mimasen deshita
-    ・kuru    ⇢   kimasen deshita
-    ・suru    ⇢   shimasen deshita
+    ・買う　　⇢   買いませんでした
+    ・食べる　⇢   食べませんでした
+    ・見る　　⇢   見ませんでした
+    ・来る　　⇢   来ませんでした
+    ・する　　⇢   しませんでした
 
 ------------------------------------------------------------------------
 
@@ -7370,25 +7370,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Dictionary Form)**</p>
 
-    ・kau     ⇢   kau
-    ・matsu   ⇢   matsu
-    ・shiru   ⇢   shiru
-    ・kaku    ⇢   kaku
-    ・oyogu   ⇢   oyogu
-    ・hanasu  ⇢   hanasu
-    ・shinu   ⇢   shinu
-    ・yomu    ⇢   yomu
-    ・asobu   ⇢   asobu
+    ・買う　　⇢   買う
+    ・待つ　　⇢   待つ
+    ・知る　　⇢   知る
+    ・書く　　⇢   書く
+    ・泳ぐ　　⇢   泳ぐ
+    ・話す　　⇢   話す
+    ・死ぬ　　⇢   死ぬ
+    ・読む　　⇢   読む
+    ・遊ぶ　　⇢   遊ぶ
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Dictionary Form)**</p>
 
-    ・taberu  ⇢   taberu
-    ・miru    ⇢   miru
+    ・食べる　⇢   食べる
+    ・見る　　⇢   見る
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Dictionary Form)**</p>
 
-    ・kuru    ⇢   kuru
-    ・suru    ⇢   suru
+    ・来る　　⇢   来る
+    ・する　　⇢   する
 
 <p style="font-size:12px;">(❖) **More Endings/Forms**</p>
 
@@ -7458,29 +7458,29 @@ reactable(
 
 ###### V4.1
 
-**Command-Base**
+**Command-Stem**
 
 <p style="font-size:12px;">(❖) **Godan Verb (Negative Base)**</p>
 
-    ・kau     ⇢   kae
-    ・matsu   ⇢   mate
-    ・shiru   ⇢   shire
-    ・kaku    ⇢   kake
-    ・oyogu   ⇢   oyoge
-    ・hanasu  ⇢   hanase
-    ・shinu   ⇢   shine
-    ・yomu    ⇢   yome
-    ・asobu   ⇢   asobe
+    ・買う　　⇢   買え
+    ・待つ　　⇢   待て
+    ・知る　　⇢   知れ
+    ・書く　　⇢   書け
+    ・泳ぐ　　⇢   泳げ
+    ・話す　　⇢   話せ
+    ・死ぬ　　⇢   死ね
+    ・読む　　⇢   読め
+    ・遊ぶ　　⇢   遊べ
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
 
-    ・taberu  ⇢   tabere
-    ・miru    ⇢   mire
+    ・食べる　⇢   食べれ
+    ・見る　　⇢   見れ
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Negative Base)**</p>
 
-    ・kuru    ⇢   kure
-    ・suru    ⇢   sure
+    ・来る　　⇢   来れ
+    ・する　　⇢   すれ
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -7552,25 +7552,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Volitional Form)**</p>
 
-    ・kau     ⇢   kaeru
-    ・matsu   ⇢   materu
-    ・shiru   ⇢   shireru
-    ・kaku    ⇢   kakeru
-    ・oyogu   ⇢   oyogeru
-    ・hanasu  ⇢   hanaseru
-    ・shinu   ⇢   shineru
-    ・yomu    ⇢   yomeru
-    ・asobu   ⇢   asoberu
+    ・買う　　⇢   買える
+    ・待つ　　⇢   待てる
+    ・知る　　⇢   知れる
+    ・書く　　⇢   書ける
+    ・泳ぐ　　⇢   泳げる
+    ・話す　　⇢   話せる
+    ・死ぬ　　⇢   死ねる
+    ・読む　　⇢   読める
+    ・遊ぶ　　⇢   遊べる
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Volitional Form)**</p>
 
-    ・taberu  ⇢   taberareru
-    ・miru    ⇢   mirareru
+    ・食べる　⇢   食べられる
+    ・見る　　⇢   見られる
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Volitional Form)**</p>
 
-    ・kuru    ⇢   korareru
-    ・suru    ⇢   dekiru
+    ・来る　　⇢   来られる
+    ・する　　⇢   できる
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -7642,25 +7642,25 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Godan Verb (Volitional Form)**</p>
 
-    ・kau     ⇢   kaou
-    ・matsu   ⇢   matou
-    ・shiru   ⇢   shirou
-    ・kaku    ⇢   kakou
-    ・oyogu   ⇢   oyogou
-    ・hanasu  ⇢   hanasou
-    ・shinu   ⇢   shinou
-    ・yomu    ⇢   yomou
-    ・asobu   ⇢   asobou
+    ・買う　　⇢   買おう
+    ・待つ　　⇢   待おう
+    ・知る　　⇢   知ろう
+    ・書く　　⇢   書こう
+    ・泳ぐ　　⇢   泳ごう
+    ・話す　　⇢   話そう
+    ・死ぬ　　⇢   死のう
+    ・読む　　⇢   読もう
+    ・遊ぶ　　⇢   遊ぼう
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Volitional Form)**</p>
 
-    ・taberu  ⇢   taberou
-    ・miru    ⇢   mirou
+    ・食べる　⇢   食べろう
+    ・見る　　⇢   見ろう
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Volitional Form)**</p>
 
-    ・kuru    ⇢   koyou
-    ・suru    ⇢   shiyou
+    ・来る　　⇢   来よう
+    ・する　　⇢   しよう
 
 ```{r, echo=FALSE, message=FALSE}
 
