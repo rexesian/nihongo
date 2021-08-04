@@ -1785,6 +1785,7 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 cnx1 <- cnv1 %>% select(Script)
+cnx1 <- cnx1 %>% slice(1:559)
 cnx1 <- cnx1 %>% 
   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
   select(Script,Transcript)
@@ -1799,7 +1800,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -1808,10 +1809,58 @@ reactable(
     Transcript = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### SS
+
+```{r, echo=FALSE, message=FALSE}
+
+cnxa <- cnv1 %>% select(Script)
+cnxa <- cnxa %>% 
+  separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
+  select(Script,Transcript)
+cnx1 <- cnxa[sample(1:nrow(cnx1)),]
+
+reactable(
+  cnx1,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- cnx1$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
