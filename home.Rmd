@@ -63,6 +63,7 @@ ykrn1 <- read_csv("rdata/Sheet 63-YKRN1.csv")
 n3k3 <- read_csv("rdata/Sheet 79-N3KNJ3.csv")
 n2k2 <- read_csv("rdata/Sheet 80-N2KNJ2.csv")
 rnlv <- read_csv("rdata/Sheet 92-RNKNLV.csv")
+trhws <- read_csv("rdata/Sheet 124-TRHHW.csv")
 
 ```
 
@@ -2278,6 +2279,54 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
 )
 ```
+
+------------------------------------------------------------------------
+
+#### Hawai  {.tabset}
+
+##### P1:E1
+
+```{r, echo=FALSE, message=FALSE}
+
+trhws1 <- trhws %>% slice(1:593)
+
+reactable(
+  trhws1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- trhws1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
 
 ------------------------------------------------------------------------
 
