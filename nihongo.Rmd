@@ -149,6 +149,7 @@ knvlwb <- read_csv("rdata/Sheet 118-WBLVB.csv")
 wlbvl <- read_csv("rdata/Sheet 119-WBLWW.csv")
 izkyb <- read_csv("rdata/Sheet 120-BTKRI.csv")
 atlr <- read_csv("rdata/Sheet 121-ATLR.csv")
+dvrbs <- read_csv("rdata/Sheet 125-VBHS.csv")
 
 ```
 
@@ -2580,6 +2581,51 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+#### DVerbs
+
+```{r, echo=FALSE, message=FALSE}
+
+dvrbs <- dvrbs[sample(1:nrow(dvrbs)),]
+
+reactable(
+  dvrbs,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- dvrbs$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
 
 ------------------------------------------------------------------------
 

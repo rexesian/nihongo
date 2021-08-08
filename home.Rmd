@@ -2127,7 +2127,7 @@ reactable(
         Translation <- ths1a$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -2135,10 +2135,10 @@ reactable(
     ),
     Translation = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -2170,7 +2170,7 @@ reactable(
         Translation <- ths1b$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -2178,10 +2178,10 @@ reactable(
     ),
     Translation = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -2213,7 +2213,7 @@ reactable(
         Translation <- ths1d$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -2221,10 +2221,10 @@ reactable(
     ),
     Translation = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -2254,7 +2254,7 @@ reactable(
         Translation <- ths1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -2326,7 +2326,6 @@ reactable(
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
 )
 ```
-
 
 ------------------------------------------------------------------------
 
