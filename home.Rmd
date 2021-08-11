@@ -2329,6 +2329,141 @@ reactable(
 
 ------------------------------------------------------------------------
 
+##### P1:E2
+
+```{r, echo=FALSE, message=FALSE}
+
+trhws1 <- trhws %>% slice(594:1133)
+
+reactable(
+  trhws1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- trhws1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### P1:E3
+
+```{r, echo=FALSE, message=FALSE}
+
+trhws1 <- trhws %>% slice(1134:1618)
+
+reactable(
+  trhws1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- trhws1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
+##### P1:E4
+
+```{r, echo=FALSE, message=FALSE}
+
+trhws1 <- trhws %>% slice(1619:2069)
+
+reactable(
+  trhws1,
+  columns = list(
+    Subtitle = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- trhws1$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
+  
+  #style = list(fontFamily = "Anonymous Pro , Helvetica Neue")
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+)
+```
+
+------------------------------------------------------------------------
+
 ## Anime {.tabset}
 
 ### Teasing Master {.tabset}

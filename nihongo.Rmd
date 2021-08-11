@@ -588,9 +588,285 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### LR {.tabset}
+#### ET {.tabset}
 
-##### R1
+##### TB {.tabset}
+
+###### L1
+
+```{r, echo=FALSE, message=FALSE}
+
+# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
+
+knjtb1 <- knjtb %>% slice(1:8)
+
+reactable(
+  knjtb1,
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- knjtb1$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "Unknown"
+        w2 <- knjtb1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knjtb1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knjtb1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knjtb1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knjtb1$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knjtb1$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knjtb1$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knjtb1$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### L2
+
+```{r, echo=FALSE, message=FALSE}
+
+# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
+
+knjtb1 <- knjtb %>% slice(9:25)
+
+reactable(
+  knjtb1,
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- knjtb1$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "Unknown"
+        w2 <- knjtb1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knjtb1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knjtb1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knjtb1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knjtb1$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knjtb1$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knjtb1$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knjtb1$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### L3
+
+```{r, echo=FALSE, message=FALSE}
+
+# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
+
+knjtb1 <- knjtb %>% slice(26:55)
+
+reactable(
+  knjtb1,
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- knjtb1$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "Unknown"
+        w2 <- knjtb1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knjtb1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knjtb1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knjtb1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knjtb1$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knjtb1$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knjtb1$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knjtb1$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### L4
+
+```{r, echo=FALSE, message=FALSE}
+
+# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
+
+knjtb1 <- knjtb %>% slice(63:72)
+
+reactable(
+  knjtb1,
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- knjtb1$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "Unknown"
+        w2 <- knjtb1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knjtb1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knjtb1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knjtb1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knjtb1$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knjtb1$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knjtb1$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knjtb1$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        tagList(
+          # div(style = list(fontSize = 35, fontWeight = 700), value),
+          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### LR {.tabset}
+
+###### R1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -667,7 +943,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### R2
+###### R2
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -744,7 +1020,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### R3
+###### R3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -821,7 +1097,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### R4
+###### R4
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -898,7 +1174,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### R5
+###### R5
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -975,9 +1251,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### LF {.tabset}
+##### LF {.tabset}
 
-##### F1
+###### F1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1061,7 +1337,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### F2
+###### F2
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1138,7 +1414,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### F3
+###### F3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1215,7 +1491,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### F4
+###### F4
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1292,7 +1568,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### F5
+###### F5
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1432,9 +1708,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RN {.tabset}
+##### RN {.tabset}
 
-##### Words
+###### Words
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1498,7 +1774,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Meaning
+###### Meaning
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -1552,7 +1828,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Reading
+###### Reading
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -1606,7 +1882,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### W/Meaning
+###### W/Meaning
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1664,7 +1940,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### W/Reading
+###### W/Reading
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1721,7 +1997,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### W/Reading&Meaning
+###### W/Reading&Meaning
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -1781,9 +2057,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### SN {.tabset}
+##### SN {.tabset}
 
-##### S1
+###### S1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1832,7 +2108,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### SS
+###### SS
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1840,15 +2116,15 @@ cnxa <- cnv1 %>% select(Script)
 cnxa <- cnxa %>% 
   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
   select(Script,Transcript)
-cnx1 <- cnxa[sample(1:nrow(cnx1)),]
+cnxa <- cnxa[sample(1:nrow(cnxa)),]
 
 reactable(
-  cnx1,
+  cnxa,
   columns = list(
     Script = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Transcript <- cnx1$Transcript[index]
+        Transcript <- cnxa$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
           div(style = list(fontSize = 22, fontWeight = 600), value),
@@ -1880,9 +2156,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### SW {.tabset}
+##### SW {.tabset}
 
-##### S1
+###### S1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1901,7 +2177,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 700), value)
+          div(style = list(fontSize = 22, fontWeight = 600), value)
           # div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -1910,10 +2186,58 @@ reactable(
     Transcript = colDef(show = FALSE)
 
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 5,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### SS
+
+```{r, echo=FALSE, message=FALSE}
+
+# cnxa <- cnv1 %>% select(Script)
+# cnxa <- cnxa %>% 
+#   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
+#   select(Script,Transcript)
+cnxa <- cnxa[sample(1:nrow(cnxa)),]
+
+reactable(
+  cnxa,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Transcript <- cnxa$Transcript[index]
+        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        tagList(
+          div(style = list(fontSize = 22, fontWeight = 600), value)
+          # div(style = list(fontSize = 11), Transcript)
+        )
+      },
+      align = "center"
+    ),
+    Transcript = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -3479,280 +3803,6 @@ reactable(
   theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-### Table {.tabset}
-
-#### L1
-
-```{r, echo=FALSE, message=FALSE}
-
-# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
-
-knjtb1 <- knjtb %>% slice(1:8)
-
-reactable(
-  knjtb1,
-  columns = list(
-    Kanji = colDef(
-      cell = function(value, index) {
-        w1 <- knjtb1$w1[index]
-        w1 <- if (!is.na(w1)) w1 else "Unknown"
-        w2 <- knjtb1$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- knjtb1$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- knjtb1$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- knjtb1$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- knjtb1$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- knjtb1$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- knjtb1$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- knjtb1$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
-        )
-      },
-      align = "center"
-    ),
-    w1 = colDef(show = FALSE),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE)
-  ),
-  defaultPageSize = 10,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-#### L2
-
-```{r, echo=FALSE, message=FALSE}
-
-# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
-
-knjtb1 <- knjtb %>% slice(9:25)
-
-reactable(
-  knjtb1,
-  columns = list(
-    Kanji = colDef(
-      cell = function(value, index) {
-        w1 <- knjtb1$w1[index]
-        w1 <- if (!is.na(w1)) w1 else "Unknown"
-        w2 <- knjtb1$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- knjtb1$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- knjtb1$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- knjtb1$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- knjtb1$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- knjtb1$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- knjtb1$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- knjtb1$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
-        )
-      },
-      align = "center"
-    ),
-    w1 = colDef(show = FALSE),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE)
-  ),
-  defaultPageSize = 10,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-#### L3
-
-```{r, echo=FALSE, message=FALSE}
-
-# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
-
-knjtb1 <- knjtb %>% slice(26:55)
-
-reactable(
-  knjtb1,
-  columns = list(
-    Kanji = colDef(
-      cell = function(value, index) {
-        w1 <- knjtb1$w1[index]
-        w1 <- if (!is.na(w1)) w1 else "Unknown"
-        w2 <- knjtb1$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- knjtb1$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- knjtb1$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- knjtb1$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- knjtb1$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- knjtb1$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- knjtb1$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- knjtb1$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
-        )
-      },
-      align = "center"
-    ),
-    w1 = colDef(show = FALSE),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE)
-  ),
-  defaultPageSize = 10,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-#### L4
-
-```{r, echo=FALSE, message=FALSE}
-
-# knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
-
-knjtb1 <- knjtb %>% slice(63:72)
-
-reactable(
-  knjtb1,
-  columns = list(
-    Kanji = colDef(
-      cell = function(value, index) {
-        w1 <- knjtb1$w1[index]
-        w1 <- if (!is.na(w1)) w1 else "Unknown"
-        w2 <- knjtb1$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- knjtb1$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- knjtb1$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- knjtb1$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- knjtb1$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- knjtb1$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- knjtb1$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- knjtb1$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
-        )
-      },
-      align = "center"
-    ),
-    w1 = colDef(show = FALSE),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE)
-  ),
-  defaultPageSize = 10,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -17495,7 +17545,7 @@ reactable(
         Translation <- atlr1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -17540,7 +17590,7 @@ reactable(
         Translation <- atlr1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 700), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
