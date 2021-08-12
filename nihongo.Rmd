@@ -14578,7 +14578,7 @@ reactable(
 # vrn1 <- vrn1[sample(1:nrow(na.omit(vrn1))),]
 
 reactable(
-  vrn1 %>% slice(1:80),
+  vrn1 %>% slice(1:120),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14626,7 +14626,7 @@ reactable(
 # vrn1 <- vrn1[sample(1:nrow(na.omit(vrn1))),]
 
 reactable(
-  vrn1 %>% slice(1:80),
+  vrn1 %>% slice(1:120),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14676,7 +14676,7 @@ reactable(
 # vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
 
 reactable(
-  vrn2 %>% slice(1:115),
+  vrn2 %>% slice(1:180),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14724,7 +14724,7 @@ reactable(
 # vrn2 <- vrn2[sample(1:nrow(na.omit(vrn2))),]
 
 reactable(
-  vrn2 %>% slice(1:115),
+  vrn2 %>% slice(1:180),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14774,7 +14774,7 @@ reactable(
 # vrn3 <- vrn3[sample(1:nrow(na.omit(vrn3))),]
 
 reactable(
-  vrn3 %>% slice(1:30),
+  vrn3 %>% slice(1:100),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14822,7 +14822,7 @@ reactable(
 # vrn3 <- vrn3[sample(1:nrow(na.omit(vrn3))),]
 
 reactable(
-  vrn3 %>% slice(1:30),
+  vrn3 %>% slice(1:100),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14872,7 +14872,7 @@ reactable(
 # vrn4 <- vrn4[sample(1:nrow(na.omit(vrn4))),]
 
 reactable(
-  vrn4 %>% slice(1:81),
+  vrn4 %>% slice(1:152),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14920,7 +14920,7 @@ reactable(
 # vrn4 <- vrn4[sample(1:nrow(na.omit(vrn4))),]
 
 reactable(
-  vrn4 %>% slice(1:81),
+  vrn4 %>% slice(1:152),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -14971,7 +14971,7 @@ reactable(
 # vrn5 <- vrn5[sample(1:nrow(na.omit(vrn5))),]
 
 reactable(
-  vrn5 %>% slice(1:34),
+  vrn5 %>% slice(1:150),
   columns = list(
     Words = colDef(
       # Show species under character names
@@ -15019,7 +15019,7 @@ reactable(
 # vrn5 <- vrn5[sample(1:nrow(na.omit(vrn5))),]
 
 reactable(
-  vrn5 %>% slice(1:34),
+  vrn5 %>% slice(1:150),
   columns = list(
     Words = colDef(
       # Show species under character names
