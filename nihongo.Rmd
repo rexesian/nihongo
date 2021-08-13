@@ -16752,43 +16752,95 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### RN
+### 13
+
+```{r, echo=FALSE, message=FALSE}
+
+# rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
+# reactable(na.omit(rdngr),
+# 
+#     columns = list(
+#     Words = colDef(
+#       # Show species under character names
+#       cell = function(value, index) {
+#         Translation <- sws1$Translation[index]
+#         Translation <- if (!is.na(Translation)) Translation else "."
+#         tagList(
+#           div(style = list(fontSize = 19, fontWeight = 600), value),
+#           div(style = list(fontSize = 11), Translation)
+#         )
+#       },
+#       align = "center"
+#     ),
+#     Translation = colDef(show = FALSE)
+#   ),
+#           showPageSizeOptions = FALSE,
+#           striped = FALSE, compact = FALSE,
+#           bordered = TRUE, highlight = TRUE,
+#           # searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers", pagination = FALSE,
+#           # showPageInfo = TRUE, defaultPageSize = 10, height = 550,
+#           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
+#           showPageInfo = TRUE, defaultPageSize = 10,
+#           style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 200),
+# 
+# 
+#     theme = reactableTheme(
+#     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+# 
+#     # headerStyle = list(
+#     #   "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+#     #   "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+#     #   borderColor = "#555"
+#     # ),
+# 
+#     searchInputStyle = list(
+#       paddingLeft = "8px",
+#       paddingTop = "8px",
+#       paddingBottom = "8px",
+#       width = "100%",
+#       fontSize = "11px"
+#     )
+#   )
+# )
+
+```
 
 ```{r, echo=FALSE, message=FALSE}
 
 rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
-reactable(na.omit(rdngr), showPageSizeOptions = FALSE,
-          striped = FALSE, compact = FALSE,
-          bordered = TRUE, highlight = TRUE,
-          # searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers", pagination = FALSE,
-          # showPageInfo = TRUE, defaultPageSize = 10, height = 550,
-          searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
-          showPageInfo = TRUE, defaultPageSize = 10,
-          style = list(fontFamily =  "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 200),
-          
-          columns = list(
-            Words = colDef(
-              align = "center"
-             )
-          ),
 
-    theme = reactableTheme(
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "18px", fontWeight = 500),
-    
-    # headerStyle = list(
-    #   "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-    #   "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-    #   borderColor = "#555"
-    # ),
-    
+reactable(
+  rdngr,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- rdngr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "."
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
       paddingBottom = "8px",
-      width = "100%",
-      fontSize = "11px"
+      width = "100%"
     )
-  )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
