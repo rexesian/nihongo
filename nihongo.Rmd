@@ -2384,7 +2384,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(482:499)
+knjdu2 <-  knjdu  %>% slice(482:513)
 
 reactable(
   knjdu2,
@@ -2446,7 +2446,7 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-knjdu2 <-  knjdu  %>% slice(612:624)
+knjdu2 <-  knjdu  %>% slice(612:631)
 
 reactable(
   knjdu2,
@@ -2509,6 +2509,130 @@ reactable(
 ```{r echo=FALSE, message=FALSE}
 
 knjdu2 <-  knjdu  %>% slice(840:894)
+
+reactable(
+  knjdu2,
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- knjdu2$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Script <- knjdu2$Script[index]
+        Script <- if (!is.na(Script)) Script else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 13, fontWeight = 200), Reading),
+          div(style = list(fontSize = 22, fontWeight = 800), Script)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Reading = colDef(show = FALSE),
+      Script = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Culture
+
+```{r echo=FALSE, message=FALSE}
+
+knjdu2 <-  knjdu  %>% slice(3710:3715)
+
+reactable(
+  knjdu2,
+  columns = list(
+       Kanji = colDef(
+         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+         
+        style = JS("function(rowInfo, colInfo, state) {
+        var firstSorted = state.sorted[0]
+        if (!firstSorted || firstSorted.id === 'Kanji') {
+          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+          if (prevRow && rowInfo.row['Kanji'] === prevRow['Kanji']) {
+            return { visibility: 'hidden' }
+          }
+        }
+      }"),
+      cell = function(value, index) {
+        Reading <- knjdu2$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Script <- knjdu2$Script[index]
+        Script <- if (!is.na(Script)) Script else "Unknown"
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 800), value),
+          div(style = list(fontSize = 13, fontWeight = 200), Reading),
+          div(style = list(fontSize = 22, fontWeight = 800), Script)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Reading = colDef(show = FALSE),
+      Script = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Edu
+
+```{r echo=FALSE, message=FALSE}
+
+knjdu2 <-  knjdu  %>% slice(3840:3845)
 
 reactable(
   knjdu2,
@@ -5772,6 +5896,7 @@ reactable(
     ・はじめる　⇢　はきめて　◦ first time
     ・きわめる　⇢　きわめて　◦ extremely, exceedingly
     ・すぐれる　⇢　すぐれて　◦ exceedingly
+    ・追う　　　⇢　追って　　◦ later on, shortly, in due course
 
 ###### **Verbs (Duplication) ⇢ Adverb**
 
