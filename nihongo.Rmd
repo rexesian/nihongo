@@ -151,7 +151,7 @@ izkyb <- read_csv("rdata/Sheet 120-BTKRI.csv")
 atlr <- read_csv("rdata/Sheet 121-ATLR.csv")
 dvrbs <- read_csv("rdata/Sheet 125-VBHS.csv")
 knjtb <- read_csv("rdata/Sheet 126-KNJTB.csv")
-
+vbphg <- read_csv("rdata/Sheet 128-VBPRHS.csv")
 
 ```
 
@@ -16166,7 +16166,7 @@ reactable(
 
 ### 1
 
-**Words/Expressions**
+<!-- **Words/Expressions** -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16193,7 +16193,7 @@ reactable(
         Meaning <- vcb1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           # div(style = list(fontSize = 13, fontWeight = 600), Hiragana),
           div(style = list(fontSize = 11, fontWeight = 200), Meaning)
         )
@@ -16230,7 +16230,7 @@ reactable(
 
 ### 2
 
-**Sentences/Phrases/Clauses**
+<!-- **Sentences/Phrases/Clauses** -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16249,7 +16249,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -16280,7 +16280,7 @@ reactable(
 
 ### 3
 
-[**Sayuri Saying-Aquarium Trip**](https://www.youtube.com/watch?v=WozmuIV4ARA)
+<!-- [**Sayuri Saying-Aquarium Trip**](https://www.youtube.com/watch?v=WozmuIV4ARA) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16293,7 +16293,7 @@ reactable(
         Translation <- s1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -16325,7 +16325,7 @@ reactable(
 
 ### 4
 
-[**Kimono Mom-Japanese Stew-Oden**](https://www.youtube.com/watch?v=ccqw0Z_IWQs)
+<!-- [**Kimono Mom-Japanese Stew-Oden**](https://www.youtube.com/watch?v=ccqw0Z_IWQs) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16338,7 +16338,7 @@ reactable(
         Translation2 <- m1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -16371,7 +16371,7 @@ reactable(
 
 ### 5
 
-[**Meshclass Japanese-Sumimasen**](https://www.youtube.com/watch?v=jQhCrdms4bE)
+<!-- [**Meshclass Japanese-Sumimasen**](https://www.youtube.com/watch?v=jQhCrdms4bE) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16384,7 +16384,7 @@ reactable(
         Translation <- j1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -16423,7 +16423,7 @@ reactable(
 
 ### 6
 
-[**Sayuri Saying-Garden Ritsurin**](https://www.youtube.com/watch?v=-HuFge-7fbI)
+<!-- [**Sayuri Saying-Garden Ritsurin**](https://www.youtube.com/watch?v=-HuFge-7fbI) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16436,7 +16436,7 @@ reactable(
         Translation <- s2$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -16468,7 +16468,7 @@ reactable(
 
 ### 7
 
-[**Meshclass Japanese-You ni**](https://www.youtube.com/watch?v=PHthNzwbYXU)
+<!-- [**Meshclass Japanese-You ni**](https://www.youtube.com/watch?v=PHthNzwbYXU) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16481,7 +16481,7 @@ reactable(
         Translation2 <- j2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation2)
         )
       },
@@ -16514,7 +16514,7 @@ reactable(
 
 ### 8
 
-[**Tori&Izumi-Hot-Springs**](https://www.youtube.com/watch?v=zvkDGS3REwk)
+<!-- [**Tori&Izumi-Hot-Springs**](https://www.youtube.com/watch?v=zvkDGS3REwk) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16529,7 +16529,7 @@ reactable(
         Translation2 <- z1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div("HT:  ", style = list(fontSize = 11), Translation1)
           # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -16563,7 +16563,7 @@ reactable(
 
 ### 9
 
-[**Tori&Izumi-Foggy-Hotel**](https://www.youtube.com/watch?v=8WC1d3LcGQs)
+<!-- [**Tori&Izumi-Foggy-Hotel**](https://www.youtube.com/watch?v=8WC1d3LcGQs) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16578,7 +16578,7 @@ reactable(
         Translation2 <- z2$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div("HT:  ", style = list(fontSize = 11), Translation1)
           # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -16612,7 +16612,7 @@ reactable(
 
 ### 10
 
-[**Nihongo-No-Mori-Lemon**](https://www.youtube.com/watch?v=DdsFtjmSnak&t=166s)
+<!-- [**Nihongo-No-Mori-Lemon**](https://www.youtube.com/watch?v=DdsFtjmSnak&t=166s) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16627,7 +16627,7 @@ reactable(
         Translation2 <- n1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div("HT:  ", style = list(fontSize = 11), Translation1)
           # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -16661,7 +16661,7 @@ reactable(
 
 ### 11
 
-[**Nihongo-Switch-Morning-Motivation**](https://www.youtube.com/watch?v=YkPuUqhuQ3c)
+<!-- [**Nihongo-Switch-Morning-Motivation**](https://www.youtube.com/watch?v=YkPuUqhuQ3c) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16674,7 +16674,7 @@ reactable(
         Translation <- sws1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -16706,7 +16706,7 @@ reactable(
 
 ### 12
 
-[**Weather-News-Fans-Saya**](https://www.youtube.com/watch?v=Ydxc4Ewh8So)
+<!-- [**Weather-News-Fans-Saya**](https://www.youtube.com/watch?v=Ydxc4Ewh8So) -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -16721,7 +16721,7 @@ reactable(
         Translation2 <- nwr1$Translation2[index]
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div("HT:  ", style = list(fontSize = 11), Translation1)
           # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
@@ -16817,6 +16817,50 @@ reactable(
       cell = function(value, index) {
         Translation <- rdngr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "."
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### 14
+
+```{r, echo=FALSE, message=FALSE}
+
+vbphg  <- vbphg [sample(1:nrow(na.omit(vbphg ))),]
+
+reactable(
+  vbphg,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- vbphg$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
           div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
