@@ -3823,7 +3823,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1381)
+set.seed(1361)
 knj1wb <- knj1wb[sample(1:nrow(na.omit(knj1wb))),]
 
 reactable(
