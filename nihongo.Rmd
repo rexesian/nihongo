@@ -153,6 +153,8 @@ dvrbs <- read_csv("rdata/Sheet 125-VBHS.csv")
 knjtb <- read_csv("rdata/Sheet 126-KNJTB.csv")
 vbphg <- read_csv("rdata/Sheet 128-VBPRHS.csv")
 wbfg <- read_csv("rdata/Sheet 132-WBKNJN.csv")
+knj1wbx <- read_csv("rdata/Sheet 133-WBKNJ1X.csv")
+knj2wbx <- read_csv("rdata/Sheet 134-WBKNJ2X.csv")
 
 ```
 
@@ -4252,6 +4254,179 @@ reactable(
 
 ```
 
+------------------------------------------------------------------------
+
+##### N1
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(1361)
+knj1wbx <- knj1wbx[sample(1:nrow(na.omit(knj1wbx))),]
+
+reactable(
+  knj1wbx,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+
+        w2 <- knj1wbx$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knj1wbx$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knj1wbx$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knj1wbx$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knj1wbx$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knj1wbx$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knj1wbx$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knj1wbx$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        w10 <- knj1wbx$w10[index]
+        w10 <- if (!is.na(w10)) w10 else "Unknown"
+        w11 <- knj1wbx$w11[index]
+        w11 <- if (!is.na(w11)) w11 else "Unknown"
+        w12 <- knj1wbx$w12[index]
+        w12 <- if (!is.na(w12)) w12 else "Unknown"
+        w13 <- knj1wbx$w13[index]
+        w13 <- if (!is.na(w13)) w13 else "Unknown"
+        w14 <- knj1wbx$w14[index]
+        w14 <- if (!is.na(w14)) w14 else "Unknown"
+        w15 <- knj1wbx$w15[index]
+        w15 <- if (!is.na(w15)) w15 else "Unknown"
+        w16 <- knj1wbx$w16[index]
+        w16 <- if (!is.na(w16)) w16 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 16, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 16, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12, "・", w13, "・", w14, "・", w15, "・", w16)
+        )
+      },
+      align = "center"
+    ),
+
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE),
+    w10 = colDef(show = FALSE),
+    w11 = colDef(show = FALSE),
+    w12 = colDef(show = FALSE),
+    w13 = colDef(show = FALSE),
+    w14 = colDef(show = FALSE),
+    w15 = colDef(show = FALSE),
+    w16 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### N2
+
+```{r, echo=FALSE, message=FALSE}
+
+set.seed(1628)
+knj2wbx <- knj2wbx[sample(1:nrow(na.omit(knj2wbx))),]
+
+reactable(
+  knj2wbx,
+  columns = list(
+    Word = colDef(
+      cell = function(value, index) {
+
+        w2 <- knj2wbx$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "Unknown"
+        w3 <- knj2wbx$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "Unknown"
+        w4 <- knj2wbx$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "Unknown"
+        w5 <- knj2wbx$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "Unknown"
+        w6 <- knj2wbx$w6[index]
+        w6 <- if (!is.na(w6)) w6 else "Unknown"
+        w7 <- knj2wbx$w7[index]
+        w7 <- if (!is.na(w7)) w7 else "Unknown"
+        w8 <- knj2wbx$w8[index]
+        w8 <- if (!is.na(w8)) w8 else "Unknown"
+        w9 <- knj2wbx$w9[index]
+        w9 <- if (!is.na(w9)) w9 else "Unknown"
+        w10 <- knj2wbx$w10[index]
+        w10 <- if (!is.na(w10)) w10 else "Unknown"
+        w11 <- knj2wbx$w11[index]
+        w11 <- if (!is.na(w11)) w11 else "Unknown"
+        w12 <- knj2wbx$w12[index]
+        w12 <- if (!is.na(w12)) w12 else "Unknown"
+        w13 <- knj2wbx$w13[index]
+        w13 <- if (!is.na(w13)) w13 else "Unknown"
+        w14 <- knj2wbx$w14[index]
+        w14 <- if (!is.na(w14)) w14 else "Unknown"
+        w15 <- knj2wbx$w15[index]
+        w15 <- if (!is.na(w15)) w15 else "Unknown"
+        w16 <- knj2wbx$w16[index]
+        w16 <- if (!is.na(w16)) w16 else "Unknown"
+        tagList(
+          div(style = list(fontSize = 16, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 16, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12, "・", w13, "・", w14, "・", w15, "・", w16),
+        )
+      },
+      align = "center"
+    ),
+
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    w6 = colDef(show = FALSE),
+    w7 = colDef(show = FALSE),
+    w8 = colDef(show = FALSE),
+    w9 = colDef(show = FALSE),
+    w10 = colDef(show = FALSE),
+    w11 = colDef(show = FALSE),
+    w12 = colDef(show = FALSE),
+    w13 = colDef(show = FALSE),
+    w14 = colDef(show = FALSE),
+    w15 = colDef(show = FALSE),
+    w16 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
