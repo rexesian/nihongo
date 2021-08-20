@@ -19243,7 +19243,7 @@ reactable(
         Translation <- vbphr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 21, fontWeight = 600), value),
+          div(style = list(fontSize = 18, fontWeight = 600), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
