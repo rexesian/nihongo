@@ -155,6 +155,7 @@ vbphg <- read_csv("rdata/Sheet 128-VBPRHS.csv")
 wbfg <- read_csv("rdata/Sheet 132-WBKNJN.csv")
 knj1wbx <- read_csv("rdata/Sheet 133-WBKNJ1X.csv")
 knj2wbx <- read_csv("rdata/Sheet 134-WBKNJ2X.csv")
+wlbvlx <- read_csv("rdata/Sheet 135-WBLWWX.csv")
 
 ```
 
@@ -18126,43 +18127,43 @@ reactable(
 ```{r, echo=FALSE, message=FALSE}
 
 set.seed(1426)
-wlbvl <- wlbvl[sample(1:nrow(na.omit(wlbvl))),]
+wlbvlx <- wlbvlx[sample(1:nrow(na.omit(wlbvlx))),]
 
 reactable(
-  na.omit(wlbvl),
+  na.omit(wlbvlx),
   columns = list(
     Word = colDef(
       cell = function(value, index) {
 
-        w2 <- wlbvl$w2[index]
+        w2 <- wlbvlx$w2[index]
         w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- wlbvl$w3[index]
+        w3 <- wlbvlx$w3[index]
         w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- wlbvl$w4[index]
+        w4 <- wlbvlx$w4[index]
         w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- wlbvl$w5[index]
+        w5 <- wlbvlx$w5[index]
         w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- wlbvl$w6[index]
+        w6 <- wlbvlx$w6[index]
         w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- wlbvl$w7[index]
+        w7 <- wlbvlx$w7[index]
         w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- wlbvl$w8[index]
+        w8 <- wlbvlx$w8[index]
         w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- wlbvl$w9[index]
+        w9 <- wlbvlx$w9[index]
         w9 <- if (!is.na(w9)) w9 else "Unknown"
-        w10 <- wlbvl$w10[index]
+        w10 <- wlbvlx$w10[index]
         w10 <- if (!is.na(w10)) w10 else "Unknown"
-        w11 <- wlbvl$w11[index]
+        w11 <- wlbvlx$w11[index]
         w11 <- if (!is.na(w11)) w11 else "Unknown"
-        w12 <- wlbvl$w12[index]
+        w12 <- wlbvlx$w12[index]
         w12 <- if (!is.na(w12)) w12 else "Unknown"
-        w13 <- wlbvl$w13[index]
+        w13 <- wlbvlx$w13[index]
         w13 <- if (!is.na(w13)) w13 else "Unknown"
-        w14 <- wlbvl$w14[index]
+        w14 <- wlbvlx$w14[index]
         w14 <- if (!is.na(w14)) w14 else "Unknown"
-        w15 <- wlbvl$w15[index]
+        w15 <- wlbvlx$w15[index]
         w15 <- if (!is.na(w15)) w15 else "Unknown"
-        w16 <- wlbvl$w16[index]
+        w16 <- wlbvlx$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
           div(style = list(fontSize = 16, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8),
@@ -20934,6 +20935,42 @@ reactable(
 養成`training/education/development/cultivation`  
 造成`development of land/preparation/reclamation`  
 整備`maintenance/servicing`  
+
+------------------------------------------------------------------------
+
+#### RW
+
+`emergency` 非常  
+`emergency; first-aid` 応急    
+`urgency` 緊急  
+`if by some chance` 万一  
+`crisis` 危機  
+`criticism; blame` 非難  
+`taking refuge; finding shelter; evacuation` 避難  
+
+`expectation; anticipation` 期待  
+`expectation; anticipation; prediction` 予想  
+`expectation; anticipation; prediction; forecast` 思惑  
+`foresight; anticipation` 先見  
+
+`scattering; diffusion; spread` 拡散  
+`breaking up (e.g. meeting); dispersing (e.g. crowd)` 解散  
+`emission; emanation; radiation; diffusion` 発散  
+`dispersion; breakup; scattering; decentralization` 分散  
+
+`cost; expense` 費用  
+`price; cost` 値段  
+`price; cost; charge; payment; bill; fee` 代金  
+`price; value; cost` 価格  
+`expenses; expenditure; outgoings` 経費  
+
+`report; information` 報告  
+`report; return (e.g. tax); statement; declaration` 申告  
+`report (of news); reporting; news; informatio` 報道  
+`article; news story; report; account` 記事  
+`report; notification; tip; bulletin` 通報  
+`feature (e.g. newspaper); special edition; report` 特集  
+`information; news; intelligence; advices` 情報  
 
 ------------------------------------------------------------------------
 
