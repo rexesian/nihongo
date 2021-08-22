@@ -21017,6 +21017,7 @@ reactable(
 `(sudden) change; reversal; turn-around` 逆転  
 `change; conversion; transformation` 変換  
 `transition; change; progress; development; shift` 推移  
+`to exchange; to swap; to barter` 取り替える  
 
 `softly; gently; quietly; lightly` そっと  
 `stealthily; secretly; in secret` こっそり  
@@ -21031,6 +21032,7 @@ reactable(
 `increasingly; more and more; decreasingly (when declining); less and less​usually` ますます  
 `furthermore; again; after all; more and more` さらに  
 `(not) at all; (not) a bit; (not) in the least; (not) in the slightest` ちっとも  
+`unfortunately; sorry, but ...​` あいにく  
 
 ------------------------------------------------------------------------
 
