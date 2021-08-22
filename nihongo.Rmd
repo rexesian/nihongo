@@ -20972,6 +20972,66 @@ reactable(
 `feature (e.g. newspaper); special edition; report` 特集  
 `information; news; intelligence; advices` 情報  
 
+`cooking; cookery; cuisine; meal; food; dish` 料理  
+`cooking; food preparation` 調理  
+`cooking; kitchen work` 炊事  
+`cooking for oneself; cooking one's own food` 自炊  
+`cooking` 煮炊き  
+`cooking (esp. Japanese style); cuisine` 割烹  
+`Japanese cooking` 日本料理  
+`Chinese cooking; Chinese food` 中華料理  
+`cooking (rice, grains)` 炊さん  
+`home cooking` 手料理  
+
+`to bury; to embed; to implant` 埋め込む  
+`to take (be in) charge of` 受け持つ  
+`to drive in (e.g. nail, stake); to hammer in; to hit; to fire into; to input (data); to enter` 打ち込む  
+`to herd; to drive; to chase; to corral` 追い込む  
+`to push into; to cram into; to stuff into; to crowd into` 押し込む
+
+`characteristic; feature; idiosyncrasy` 特色  
+`characteristic; traditional; peculiar; inherent; native` 固有  
+`characteristic (of); peculiar (to)` 特有  
+`characteristic; feature; special quality` 特質  
+`peculiarity; uniqueness; characteristic` 独特  
+`original; unique; distinctive; characteristic; peculiar` 独自  
+`one's nature; characteristic; inherent; natural` 持ち前  
+`individuality; personality; quirk; character; individual characteristic` 個性  
+`special characteristic; special quality; trait` 特性  
+`special; particular; peculiar; unique` 特殊  
+`inborn; innate; inherent; congenital; hereditary` 先天的  
+
+`to change; to be transformed; to be altered; to vary` 変わる  
+`to succeed; to relieve; to replace` 代わる  
+`to succeed; to relieve; to replace` 替わる  
+`change; variation; alteration; mutation; transition` 変化  
+`change; modification; alteration; revision; amendment` 変更  
+`change; money exchange` 両替  
+`change; fluctuation` 変動  
+`change; transformation; innovation; reform; revolution` 変革  
+`change; transition; vicissitudes` 変遷  
+`transfer (trains, buses, etc.); change; connection` 乗り換え  
+`alternation; change; relief; relay; shift; substitution (sports, etc.)` 交代  
+`exchange; interchange; switching; reciprocity` 交換  
+`conversion (e.g. yen to dollars); change; exchange` 換算  
+`(sudden) change; reversal; turn-around` 逆転  
+`change; conversion; transformation` 変換  
+`transition; change; progress; development; shift` 推移  
+
+`softly; gently; quietly; lightly` そっと  
+`stealthily; secretly; in secret` こっそり  
+`carelessly; thoughtlessly; inadvertently` うっかり  
+`on purpose; deliberately; intentionally` わざと
+`to be disappointed; to be dejected; to be downhearted` がっかり  
+`dimly; faintly; indistinctly; vaguely; absentmindedly; vacantly;` ぼんやり  
+`tough; hard; severe; demanding; harsh` きつい  
+`abruptly; suddenly; all of a sudden; without warning` いきなり  
+`considerably; fairly; quite` かなり  
+`gradually; by degrees; little by little; more and more` だんだん  
+`increasingly; more and more; decreasingly (when declining); less and less​usually` ますます  
+`furthermore; again; after all; more and more` さらに  
+`(not) at all; (not) a bit; (not) in the least; (not) in the slightest` ちっとも  
+
 ------------------------------------------------------------------------
 
 #### AW {.tabset}
