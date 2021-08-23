@@ -21139,7 +21139,16 @@ reactable(
 `theory; doctrine; opinion; view` 説  
 `field of vision; visibility; view; visual field` 視界  
 `opinion; point of view` 見解  
-`unobstructed view; perspective; visibility; vista` 見通し
+`unobstructed view; perspective; visibility; vista` 見通し  
+
+`to take; to pick up; to grab; to catch; to pass; to hand; to give` 取る  
+`to take (a photo); to record (video, audio, etc.)` 撮る  
+`to take; to catch; to capture` 捕る  
+`to adopt (method, proposal, etc.); to take (measure); tp pick; to extract (e.g. juice);` 採る  
+`to have (e.g. lunch); to take (e.g. vitamins)` 摂る  
+`to take (trouble); to attend (to business); to command (army)` 執る  
+`to steal` 盗る  
+`to harvest (a crop)` 穫る  
 
 ------------------------------------------------------------------------
 
