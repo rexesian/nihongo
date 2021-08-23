@@ -156,6 +156,7 @@ wbfg <- read_csv("rdata/Sheet 132-WBKNJN.csv")
 knj1wbx <- read_csv("rdata/Sheet 133-WBKNJ1X.csv")
 knj2wbx <- read_csv("rdata/Sheet 134-WBKNJ2X.csv")
 wlbvlx <- read_csv("rdata/Sheet 135-WBLWWX.csv")
+mxknj <- read_csv("rdata/Sheet 136-NAKNJS.csv")
 
 ```
 
@@ -1789,7 +1790,7 @@ reactable(
 
 ##### SN {.tabset}
 
-###### S1
+<!-- ###### S1 -->
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1809,7 +1810,7 @@ reactable(
         Transcript <- cnx1$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -1838,7 +1839,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### SS
+##### SS
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -1857,7 +1858,7 @@ reactable(
         Transcript <- cnxa$Transcript[index]
         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Transcript)
         )
       },
@@ -1884,36 +1885,126 @@ reactable(
 
 ```
 
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ##### SW {.tabset} -->
+
+<!-- ###### S1 -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- # cnx1 <- cnv1 %>% select(Script) -->
+<!-- # cnx1 <- cnx1 %>%  -->
+<!-- #   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>% -->
+<!-- #   select(Script,Transcript) -->
+<!-- cnx1 <- cnx1[sample(1:nrow(cnx1)),] -->
+
+<!-- reactable( -->
+<!--   cnx1, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Transcript <- cnx1$Transcript[index] -->
+<!--         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 22, fontWeight = 600), value) -->
+<!--           # div(style = list(fontSize = 11), Transcript) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Transcript = colDef(show = FALSE) -->
+
+<!--   ), -->
+<!--   defaultPageSize = 5, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ###### SS -->
+
+<!-- ```{r, echo=FALSE, message=FALSE} -->
+
+<!-- # cnxa <- cnv1 %>% select(Script) -->
+<!-- # cnxa <- cnxa %>%  -->
+<!-- #   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>% -->
+<!-- #   select(Script,Transcript) -->
+<!-- cnxa <- cnxa[sample(1:nrow(cnxa)),] -->
+
+<!-- reactable( -->
+<!--   cnxa, -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Transcript <- cnxa$Transcript[index] -->
+<!--         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 22, fontWeight = 600), value) -->
+<!--           # div(style = list(fontSize = 11), Transcript) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Transcript = colDef(show = FALSE) -->
+
+<!--   ), -->
+<!--   defaultPageSize = 5, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
+
 ------------------------------------------------------------------------
 
-##### SW {.tabset}
-
-###### S1
+##### M3
 
 ```{r, echo=FALSE, message=FALSE}
 
-# cnx1 <- cnv1 %>% select(Script)
-# cnx1 <- cnx1 %>% 
-#   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
-#   select(Script,Transcript)
-cnx1 <- cnx1[sample(1:nrow(cnx1)),]
-
 reactable(
-  cnx1,
+  mxknj,
   columns = list(
-    Script = colDef(
+    Words = colDef(
       # Show species under character names
       cell = function(value, index) {
-        Transcript <- cnx1$Transcript[index]
-        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
+        Translation <- mxknj$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 600), value)
-          # div(style = list(fontSize = 11), Transcript)
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
         )
       },
       align = "center"
     ),
-    Transcript = colDef(show = FALSE)
+    Translation = colDef(show = FALSE)
 
   ),
   defaultPageSize = 5,
@@ -1928,55 +2019,7 @@ reactable(
     )
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### SS
-
-```{r, echo=FALSE, message=FALSE}
-
-# cnxa <- cnv1 %>% select(Script)
-# cnxa <- cnxa %>% 
-#   separate(Script, into = c('Script','Transcript'), sep = '\\#') %>%
-#   select(Script,Transcript)
-cnxa <- cnxa[sample(1:nrow(cnxa)),]
-
-reactable(
-  cnxa,
-  columns = list(
-    Script = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Transcript <- cnxa$Transcript[index]
-        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
-        tagList(
-          div(style = list(fontSize = 22, fontWeight = 600), value)
-          # div(style = list(fontSize = 11), Transcript)
-        )
-      },
-      align = "center"
-    ),
-    Transcript = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 5,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-
+  
   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
@@ -18869,8 +18912,6 @@ reactable(
 
 ### Reading {.tabset}
 
-####  Categories {.tabset}
-
 ##### Daily {.tabset}
 
 ###### Work
@@ -19149,7 +19190,7 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### Vocabulary {.tabset}
+##### VCB {.tabset}
 
 ###### L1
 
@@ -19356,7 +19397,7 @@ reactable(na.omit(kv5), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### Int
+###### LN
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19403,7 +19444,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Sentences
+##### VPH
 
 <!-- ###### RN -->
 
@@ -19419,7 +19460,7 @@ reactable(
         Translation <- vbphr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 18, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -19535,7 +19576,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Snippets
+##### SNT
 
 <!-- ###### RN1 -->
 
@@ -20141,7 +20182,7 @@ reactable(
         Meaning <- snpts$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 18, fontWeight = 600), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -20258,9 +20299,9 @@ reactable(
 <!-- ``` -->
 
 
-##### Exerpts {.tabset}
+##### SNP {.tabset}
 
-###### Random
+###### RND
 
 ```{r echo=FALSE, message=FALSE, error=FALSE}
 
@@ -20314,10 +20355,6 @@ reactable(
 )
 
 ```
-
-------------------------------------------------------------------------
-
-###### Notes
 
 ------------------------------------------------------------------------
 
@@ -20963,6 +21000,38 @@ reactable(
 `price; cost; charge; payment; bill; fee` 代金  
 `price; value; cost` 価格  
 `expenses; expenditure; outgoings` 経費  
+`prices of commodities; prices (in general); cost-of-living` 物価  
+`bill; job invoice` 請求書  
+`accounting; finance; account; reckoning; bill (at a restaurant); check` 会計  
+`calculation; computation; counting; bill; check; account; payment (of a bill)` 勘定  
+
+`consumption; expenditure` 消費  
+`waste; extravagance` 浪費  
+`expenses; expenditure; outgoings; outlays; costs` 経費  
+`expenses; disbursements` 出費  
+`consumption tax (incl. sales tax, VAT, excise duty, etc.)` 消費税  
+`tuition; school expenses` 学費  
+`fuel consumption; gas mileage` 燃費  
+`membership fee` 会費  
+`travel expenses` 旅費  
+`food expense` 食費
+`traveling expenses; travelling expenses; carfare` 交通費  
+`one's own expense; out-of-pocket expense` 自費  
+`living expenses` 生活費  
+`actual expenses; out-of-pocket expenses` 実費  
+`amount of consumption` 消費量  
+`production costs` 生産費  
+`medical expenses; doctor's bill` 医療費  
+`household expenses` 家計費  
+`advertising expenses` 広告費  
+`wedding expenses` 結婚費用  
+
+`(passenger) fare; freight rates; shipping expenses` 運賃  
+`fee; charge; fare` 料金  
+`half the amount (of money); half price; half fare` 半額  
+`ticket (for bus, train, etc.); passenger ticket` 乗車券  
+`admission fee` 入館料  
+`entrance fee; admission fee; admission; entrance charge` 入場料  
 
 `report; information` 報告  
 `report; return (e.g. tax); statement; declaration` 申告  
@@ -21034,6 +21103,44 @@ reactable(
 `(not) at all; (not) a bit; (not) in the least; (not) in the slightest` ちっとも  
 `unfortunately; sorry, but ...​` あいにく  
 
+`to visit; to call on; to arrive (season); to come; to appear` 訪れる  
+`to visit; to call on; to pay a visit to` 訪ねる  
+`call; visit` 訪問  
+`visit; call` 来訪  
+`visit (to a shrine, grave, etc.); worship` お参り  
+`meeting (face-to-face); seeing; visit; interview` 面会  
+`to ask after (someone's health); to visit` 見舞う  
+
+`scenery; scene; landscape` 景色  
+`scenery; scene; landscape; view; sight` 風景  
+`background; scenery; backdrop; setting` 背景  
+`scenery` 景観  
+`natural features; scenery` 風物  
+`(beautiful) scenery; natural beauty` 風光  
+`picturesque scenery; place of scenic beauty` 景勝   
+`superb view; picturesque scenery` 絶景  
+`autumn scenery; fall scenery` 秋色  
+`(beautiful) scenery of a garden; gardenscape` 庭景  
+`beautiful scenery` 美景  
+`scene; view; prospect; outlook` 眺め  
+`scene; spectacle; sight; view` 光景  
+`spectacle; sight; scene` 情景  
+
+`scene; setting; place (where something happens); scenario; case` 場面  
+`actual spot; scene (of a crime, accident, etc.)` 現場  
+`actual place; actual location; the spot; the scene; the field; (on) site` 現地  
+
+`view; outlook; prospect` 展望  
+`view; prospect; outlook; viewing platform; overlook​` 見晴らし  
+`opinion; view; comment` 意見  
+`field of vision; view; one's outlook (e.g. on life)` 視野  
+`view; opinion; finding; findings` 所見  
+`thinking; thought; view; opinion; concept` 考え  
+`theory; doctrine; opinion; view` 説  
+`field of vision; visibility; view; visual field` 視界  
+`opinion; point of view` 見解  
+`unobstructed view; perspective; visibility; vista` 見通し
+
 ------------------------------------------------------------------------
 
 #### AW {.tabset}
@@ -21069,11 +21176,11 @@ reactable(
 1週間前`a week ago`
 1時間前`an hour ago`
 同感`agreement`
-空気`airair`
+空気`air`
 エアコン`air condition`
 航空便よう`airmail`
 空港`airport`
-通路側の席`aise seat`
+通路側の席`aisle seat`
 目覚まし時計`alarm clock`
 アルコール`alcohol`
 お酒`alcohol drink`
@@ -22533,16 +22640,30 @@ reactable(
     
     ・田中さんが作るごはん 
     ・Food prepared by Mr. Tanaka
+    
+------------------------------------------------------------------------
+
+#### T4 {.tabset}
+
+##### C1
+
+1.1 **だ・です**`copula` **⚭ Na-Adj/N + da/desu**
+
+    ・それは非常に面白いコメントですね 
+    ・That's a very interesting comment. 
+
+2.1 **だけ**`only・just` **⚭　Vplain/I-Adj/Na-Adj+na/N + dake**
+
+    ・ほかに一つだけ可能性がある
+    ・There's only one other possibility.
 
 ------------------------------------------------------------------------
 
 #### AP {.tabset}
 
-##### 1
+##### C1
 
-**dake** `only, just`
-
-###### **⚭　Vplain/I-Adj/Na-Adj+da/N + dake**
+**dake** `only, just` **⚭　Vplain/I-Adj/Na-Adj+na/N + dake**
 
     ・朝はコーヒーをいっぱい飲むだけです 
     ・この本は高いだけでおもしりくない
@@ -22556,9 +22677,7 @@ reactable(
     ・I met that professor only once
     ・I just like tennis and I’m not good at it
 
-**darou** `probably`
-
-###### **⚭　Vplain/I-Adj/Na-Adj/N + darou**
+**darou** `probably` **⚭　Vplain/I-Adj/Na-Adj/N + darou**
 
     ・アンダーソンさんは日本へ行くだろう
     ・アンダーソンさんはたぶん日本へ行くだろう
@@ -22578,7 +22697,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### 2
+##### C2
 
 **kara** `because・since`
 
@@ -22744,7 +22863,7 @@ reactable(
 
 ##### C3
 
-11.1 **って**`called (give a name) `**⚭ N + tte +N**
+11.1 **って**`called (give a name) `**⚭ N + tte + N**
 
     ・長野県の戸隠ってとこる  
     ・A place called Togakushi in Nagano Prefecture
