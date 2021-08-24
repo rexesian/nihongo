@@ -7680,6 +7680,7 @@ A **prefix** is a short element that is attached to the beginning of a word to a
     ・素　　bare               
     ・全　　whole, entire
     ・総　　grand, general     
+    ・数　　several, a number of     
 
 <!-- <h> -->
 
@@ -7694,6 +7695,7 @@ A **prefix** is a short element that is attached to the beginning of a word to a
     ・素足・bare foot・素焼き・unglazed pottery
     ・全国民・the whole nation・全人口・entire population
     ・総選挙・general election・総合計・grand total
+    ・数多く・in large numbers・数校・several schools
 
 ------------------------------------------------------------------------
 
@@ -7702,7 +7704,6 @@ A **prefix** is a short element that is attached to the beginning of a word to a
 A **suffix** is a short element that is attached to the end of a word to change the meaning of or to add an additional meaning to the word.   
 
     ・家　　er, ian, ist      
-    ・可　　able, ible        
     ・限り　limited to, only  
     ・方　　how to, a way of  
     ・方　　plural marker     
@@ -7714,7 +7715,6 @@ A **suffix** is a short element that is attached to the end of a word to change 
 <!-- <h> -->
 
     ・音楽家・musician・専門家・specialist・資本家・capilist
-    ・可燃物・flammable thing・可溶性・solubility
     ・今週限り・limited to this week・一度限り・only once
     ・読み方・how to read・way of reading
     ・あなた方・you・先生方・the teachers
@@ -21004,6 +21004,7 @@ reactable(
 `bill; job invoice` 請求書  
 `accounting; finance; account; reckoning; bill (at a restaurant); check` 会計  
 `calculation; computation; counting; bill; check; account; payment (of a bill)` 勘定  
+`(handling) fee; charge (e.g. for a cancellation); commission; brokerage` 手数料  
 
 `consumption; expenditure` 消費  
 `waste; extravagance` 浪費  
@@ -21144,11 +21145,62 @@ reactable(
 `to take; to pick up; to grab; to catch; to pass; to hand; to give` 取る  
 `to take (a photo); to record (video, audio, etc.)` 撮る  
 `to take; to catch; to capture` 捕る  
-`to adopt (method, proposal, etc.); to take (measure); tp pick; to extract (e.g. juice);` 採る  
+`to adopt (method, proposal, etc.); to take (measure); tp pick; to extract (e.g. juice); to hire` 採る  
 `to have (e.g. lunch); to take (e.g. vitamins)` 摂る  
 `to take (trouble); to attend (to business); to command (army)` 執る  
 `to steal` 盗る  
 `to harvest (a crop)` 穫る  
+
+`to get torn; to tear; to rip; to break; to wear out; vi` 破れる  
+`to tear; to rip; to break; to destroy; to break through; vt` 破る  
+`to break; to be smashed; to split; to crack; to be divided; to split; vi` 割れる  
+`to divide; to cut; to halve; to separate; to split; to rip; to break; vt` 割る  
+`to branch; to fork; to diverge; to separate; to split; to divide; vi` 分かれる  
+`to divide (into); to split (into); to part; to separate; to share; vt` 分ける  
+`to part (usu. of people); to part from; to part with; to separate; vi` 別れる  
+`to divide (into); to split (into); to part; to separate; to share; vt` 別ける  
+`to break; to be broken; to snap; to fracture; to be folded; vi` 折れる  
+`to break; to fracture; to break off; to snap off; to pick (e.g. flowers); to fold; vt` 折る  
+`to be broken; to break; to fall through; to come to nothing; vi` 壊れる  
+`to break; to destroy; to demolish; to wreck; to ruin; to spoil; to damage; to break; vt` 壊す  
+`to demarcate; to delimit; to divide (an area); to mark off; to cut off; vt` 区切る  
+`to separate; to part; to divide; to keep apart` 離す  
+`to be separated; to be apart; to be distant; to leave; to drift away; vi` 離れる  
+`to separate (by distance, time, etc.); to isolate; to partition; to divide` 隔てる  
+`to be distant` 隔たる  
+
+`to insert; to put in (such that there is a snug fit); to button; to put on (gloves)` 嵌める  
+`to wear (in modern Japanese, from the shoulders down); to put on` 着る  
+`to put on (one's head); to wear; to have on; to pull over (one's head)` 被る  
+`to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear` 履く  
+`to put on (glasses, etc.); to wear (a necklace, etc.)` かける  
+`to wind; to coil; to roll; to wear (e.g. turban, scarf)` 巻く  
+`to wear; to put on (accessories)` つける  
+`to tie; to fasten; to tighten; to wear (necktie, belt); to put on` 締める  
+`to spread; to apply (cream, sunblock, etc.)` 塗る  
+`to take off (clothes, shoes, etc.); to undress` 脱ぐ  
+`to remove; to take off; to detach; to unfasten; to undo` 外す  
+`to clean off (dirt, makeup, paint, etc.); to remove (e.g. stains or facial hair)` 落とす  
+
+`to soak (in); to steep; to dip; to dunk; to pickle; to preserve; vt` 漬ける  
+`to be submerged; to be soaked; to be pickled; to be well seasoned` 漬かる  
+`to be submerged; to be soaked; to be pickled; to be well seasoned` 浸かる  
+`to soak; to dip; to steep; to immerse; to moisten; to wet` 浸す  
+`to be soaked in; to be flooded; to be submerged; to be immersed` 浸る  
+
+`to catch; to capture; to seize; to arrest; to grab; to grasp; vt` 捉える  
+`to be caught; to be captured; to be taken prisoner; to be arrested; vi` 捕らわれる  
+`to catch; to capture; to arrest; to seize; to restrain; to grab; to clutch; to grasp; vt` 捕まえる  
+`to be caught; to be arrested; to hold on to; to grasp; vi` 捕まる  
+
+`to turn towards; to point; vt` 向ける  
+`to peel off; to come off; to be taken off; vi` 剥ける  
+
+`to pile up; to stack; to load (car, ship, etc.); to pack; to acquire; to accumulate; vt` 積む  
+`to pile up; to accumulate; to estimate; vi` 積もる  
+`to stuff into; to jam; to cram; to pack; to fill; to plug; to stop up` 詰める  
+`to be packed (with); to be full (space, schedule, etc.); to be blocked; vi` 詰まる  
+`to become fine (of fabric); to be hard pressed; to be at a loss; vi` 詰む  
 
 ------------------------------------------------------------------------
 
