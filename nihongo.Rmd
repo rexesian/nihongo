@@ -21290,6 +21290,11 @@ reactable(
 `to be packed (with); to be full (space, schedule, etc.); to be blocked; vi` 詰まる  
 `to become fine (of fabric); to be hard pressed; to be at a loss; vi` 詰む  
 
+`to untie; to unfasten; to unwrap; to undo; to unbind; to unpack; to solve; vt` 解く  
+`to be solved; to be resolved; to loosen; to come untied; to come undone; vi` 解ける  
+`to undo; to untie; to unfasten; to unlace; to unravel; to loosen; to unpack; vt (hodoku)` 解く  
+`to come loose; to come untied; to come undone; to unravel; vi (hodokeru)` 解ける  
+
 ------------------------------------------------------------------------
 
 #### AW {.tabset}
