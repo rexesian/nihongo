@@ -21295,6 +21295,27 @@ reactable(
 `to undo; to untie; to unfasten; to unlace; to unravel; to loosen; to unpack; vt (hodoku)` 解く  
 `to come loose; to come untied; to come undone; to unravel; vi (hodokeru)` 解ける  
 
+`to deal with; to treat; to handle; to take care of; to entertain; to handle; to manage; to operate; vt` 扱う  
+`to handle; to operate (a machine, etc.); to use; to deal with (an issue); to manage; to treat; vt` 取り扱う  
+`to become weak; to decline; to wear; to abate; to decay; to wither; to waste away; vi` 衰える  
+`to garnish; to accompany; to add to as support; to prop up; to accompany (as an aid, guide,etc); to mimic; vt` 添える  
+
+`measure; step; countermeasure; counterplan; countermove; strategy` 対策  
+`measure; step; dealing with; medical treatment` 処置  
+`measure; step; action` 措置  
+`to measure; to weigh; to survey; to time (sound, gauge, estimate)` 計る  
+`to measure; to weigh; to survey; to time (sound, gauge, estimate)` 測る  
+`to measure; to weigh; to survey; to time (sound, gauge, estimate)` 量る  
+`gauge; standard; measure; criterion; index` 尺度  
+`measuring; measurement; Instrumentation​` 計測  
+`measuring; weighing; metric; distance function` 計量  
+
+`to place on (something); to give (someone) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 乗せる  
+`to place on (something); to give (someone) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 載せる   
+
+`to be placed on; to be set on; to be piled on; to be loaded on; to appear (in print); to be mentioned; to be recorded; vi` 載る  
+`to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark; to get on; vi` 乗る  
+
 ------------------------------------------------------------------------
 
 #### AW {.tabset}
