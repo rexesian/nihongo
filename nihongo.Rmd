@@ -17962,7 +17962,7 @@ reactable(
 ### 14
 
 ```{r, echo=FALSE, message=FALSE}
-
+set.seed(89274)
 vbphg  <- vbphg [sample(1:nrow(na.omit(vbphg ))),]
 
 reactable(
@@ -23024,12 +23024,27 @@ reactable(
     ・佐藤さんに会議の前に資料をコピーしておくように頼んだ
     ・I asked Ms. Sato to make copies of the materials before the meeting
 
-3.1 **という**`describe something (external relative clause)` **⚭ Plain-From + toiu + N**
+2.7 **ように言ってください**`Please tell him` **⚭ Vru/Vnai+ you ni itte kudasai**
+
+    ・彼にもっと勉強するように言ってください
+    ・Please, tell him to study harder
+
+2.8 **ようにお願いしてください**`Please ask him` **⚭ Vru/Vnai+ you ni onegaishite kudasai**
+
+    ・社長に残業を減らすようにお願いしてくださいよ
+    ・Please, ask the president to reduce overtime.
+
+2.9 **ように注意してください**`Please caution him` **⚭ Vru/Vnai+ you ni chuuishite kudasai**
+
+    ・彼にもっと時間を守るよう注意してください
+    ・Please, remind him to be more punctual
+
+3.1 **という**`describe something (external relative clause)` **⚭ Plain-form + toiu + N**
 
     ・最近は大学卒業しても就職が難しいという話を聞きました
     ・I've heard that it's difficult to find a job after graduating from college these days
 
-4.1 **だろうと思う**`I guess/think that it seems/probably` **⚭ Plain-From + darou + to omou **
+4.1 **だろうと思う**`I guess/think that it seems/probably` **⚭ Plain-form + darou + to omou **
 
     ・外国で一人暮らしをするのは寂しいだろうと思う
     ・I think it seems to be lonely to live alone in a foreign country
@@ -23038,6 +23053,11 @@ reactable(
 
     ・この仕事はそんなに大変じゃなさそうだ
     ・This kind of a job doesn't seem so hard
+
+5.2 **そうもない**`It looks/seems that its not` **⚭ V~~masu~~ + soumonai/souninai/sounimonai**
+
+    ・こんな難しそうな本１週間では読めそうもない
+    ・I don't think I can read such a difficult book in a week
 
 ------------------------------------------------------------------------
 
