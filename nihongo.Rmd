@@ -21310,8 +21310,8 @@ reactable(
 `measuring; measurement; Instrumentation​` 計測  
 `measuring; weighing; metric; distance function` 計量  
 
-`to place on (something); to give (someone) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 乗せる  
-`to place on (something); to give (someone) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 載せる   
+`to place on (st); to give (so) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 乗せる  
+`to place on (st); to give (so) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 載せる   
 
 `to be placed on; to be set on; to be piled on; to be loaded on; to appear (in print); to be mentioned; to be recorded; vi` 載る  
 `to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark; to get on; vi` 乗る  
