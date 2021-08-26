@@ -158,6 +158,7 @@ knj2wbx <- read_csv("rdata/Sheet 134-WBKNJ2X.csv")
 wlbvlx <- read_csv("rdata/Sheet 135-WBLWWX.csv")
 mxknj <- read_csv("rdata/Sheet 136-NAKNJS.csv")
 knj3wbx <- read_csv("rdata/Sheet 137-WBKNJ3X.csv")
+kj1w <- read_csv("rdata/Sheet 138-KJW1.csv")
 
 ```
 
@@ -2025,6 +2026,49 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+#### M1
+
+```{r, echo=FALSE, message=FALSE}
+kj1w <- kj1w[sample(1:nrow(kj1w)),]
+reactable(
+  kj1w,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- kj1w$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
@@ -19000,9 +19044,9 @@ reactable(
 
 ### Reading {.tabset}
 
-##### Daily {.tabset}
+#### Daily {.tabset}
 
-###### Work
+##### Work
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19049,7 +19093,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### Time
+##### Time
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19096,7 +19140,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### Usual
+##### Usual
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19143,9 +19187,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Kanji {.tabset}
+#### Kanji {.tabset}
 
-###### Kanji 1000++
+##### Kanji 1000++
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19186,7 +19230,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### Intermediate
+##### Intermediate
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19232,7 +19276,7 @@ reactable(na.omit(kc2), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### More
+##### More
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19278,9 +19322,9 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### VCB {.tabset}
+#### VCB {.tabset}
 
-###### L1
+##### L1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19321,7 +19365,7 @@ reactable(na.omit(kv1), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### L2
+##### L2
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19362,7 +19406,7 @@ reactable(na.omit(kv2), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### L3
+##### L3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19403,7 +19447,7 @@ reactable(na.omit(kv3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### L4
+##### L4
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19444,7 +19488,7 @@ reactable(na.omit(kv4), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### L5
+##### L5
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19485,7 +19529,7 @@ reactable(na.omit(kv5), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-###### LN
+##### LN
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19532,7 +19576,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### VPH
+#### VPH
 
 <!-- ###### RN -->
 
@@ -19664,7 +19708,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### SNT
+#### SNT
 
 <!-- ###### RN1 -->
 
@@ -20387,9 +20431,9 @@ reactable(
 <!-- ``` -->
 
 
-##### SNP {.tabset}
+#### SNP {.tabset}
 
-###### RND
+##### RND
 
 ```{r echo=FALSE, message=FALSE, error=FALSE}
 
