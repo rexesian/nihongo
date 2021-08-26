@@ -18403,7 +18403,7 @@ reactable(
         Meaning.EP2 <- yrmp2$Meaning.EP2[index]
         Meaning.EP2 <- if (!is.na(Meaning.EP2)) Meaning.EP2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP2)
         )
       },
@@ -18446,7 +18446,7 @@ reactable(
         Meaning.EP3 <- yrmp3$Meaning.EP3[index]
         Meaning.EP3 <- if (!is.na(Meaning.EP3)) Meaning.EP3 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP3)
         )
       },
@@ -18489,7 +18489,7 @@ reactable(
         Meaning.EP4 <- yrmp4$Meaning.EP4[index]
         Meaning.EP4 <- if (!is.na(Meaning.EP4)) Meaning.EP4 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP4)
         )
       },
@@ -18532,7 +18532,7 @@ reactable(
         Meaning.EP5 <- yrmp5$Meaning.EP5[index]
         Meaning.EP5 <- if (!is.na(Meaning.EP5)) Meaning.EP5 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP5)
         )
       },
@@ -18575,7 +18575,7 @@ reactable(
         Meaning.EP6 <- yrmp6$Meaning.EP6[index]
         Meaning.EP6 <- if (!is.na(Meaning.EP6)) Meaning.EP6 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP6)
         )
       },
@@ -18618,7 +18618,7 @@ reactable(
         Meaning.EP7 <- yrmp7$Meaning.EP7[index]
         Meaning.EP7 <- if (!is.na(Meaning.EP7)) Meaning.EP7 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP7)
         )
       },
@@ -18661,7 +18661,7 @@ reactable(
         Meaning.EP8 <- yrmp8$Meaning.EP8[index]
         Meaning.EP8 <- if (!is.na(Meaning.EP8)) Meaning.EP8 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP8)
         )
       },
@@ -18704,7 +18704,7 @@ reactable(
         Meaning.EP9 <- yrmp9$Meaning.EP9[index]
         Meaning.EP9 <- if (!is.na(Meaning.EP9)) Meaning.EP9 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP9)
         )
       },
@@ -18747,7 +18747,7 @@ reactable(
         Meaning.EP10 <- yrmp10$Meaning.EP10[index]
         Meaning.EP10 <- if (!is.na(Meaning.EP10)) Meaning.EP10 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP10)
         )
       },
@@ -18790,7 +18790,7 @@ reactable(
         Meaning.EP11 <- yrmp11$Meaning.EP11[index]
         Meaning.EP11 <- if (!is.na(Meaning.EP11)) Meaning.EP11 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP11)
         )
       },
@@ -18833,7 +18833,7 @@ reactable(
         Meaning.EP12 <- yrmp12$Meaning.EP12[index]
         Meaning.EP12 <- if (!is.na(Meaning.EP12)) Meaning.EP12 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Meaning.EP12)
         )
       },
@@ -18878,7 +18878,7 @@ reactable(
         Translation.EP1 <- izkyb1$Translation.EP1[index]
         Translation.EP1 <- if (!is.na(Translation.EP1)) Translation.EP1 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation.EP1)
         )
       },
@@ -18920,7 +18920,7 @@ reactable(
         Translation.EP2 <- izkyb2$Translation.EP2[index]
         Translation.EP2 <- if (!is.na(Translation.EP2)) Translation.EP2 else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation.EP2)
         )
       },
@@ -18965,7 +18965,7 @@ reactable(
         Translation <- atlr1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -19010,7 +19010,7 @@ reactable(
         Translation <- atlr1$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
-          div(style = list(fontSize = 19, fontWeight = 700), value),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11), Translation)
         )
       },
@@ -19042,11 +19042,11 @@ reactable(
 
 ## Learn {.tabset}
 
-### Reading {.tabset}
+<!-- ### Reading {.tabset} -->
 
-#### Daily {.tabset}
+### Daily {.tabset}
 
-##### Work
+#### Work
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19093,7 +19093,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Time
+#### Time
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19140,7 +19140,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Usual
+#### Usual
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19187,9 +19187,9 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### Kanji {.tabset}
+### Kanji {.tabset}
 
-##### Kanji 1000++
+#### Kanji 1000++
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19230,7 +19230,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Intermediate
+#### Intermediate
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19276,7 +19276,7 @@ reactable(na.omit(kc2), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### More
+#### More
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19322,9 +19322,9 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-#### VCB {.tabset}
+### VCB {.tabset}
 
-##### L1
+#### L1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19365,7 +19365,7 @@ reactable(na.omit(kv1), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### L2
+#### L2
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19406,7 +19406,7 @@ reactable(na.omit(kv2), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### L3
+#### L3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19447,7 +19447,7 @@ reactable(na.omit(kv3), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### L4
+#### L4
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19488,7 +19488,7 @@ reactable(na.omit(kv4), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### L5
+#### L5
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19529,7 +19529,7 @@ reactable(na.omit(kv5), showPageSizeOptions = FALSE,
 
 ------------------------------------------------------------------------
 
-##### LN
+#### LN
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -19576,7 +19576,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VPH
+### VPH
 
 <!-- ###### RN -->
 
@@ -19708,7 +19708,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### SNT
+### SNT
 
 <!-- ###### RN1 -->
 
@@ -20431,9 +20431,9 @@ reactable(
 <!-- ``` -->
 
 
-#### SNP {.tabset}
+### SNP
 
-##### RND
+<!-- #### RND -->
 
 ```{r echo=FALSE, message=FALSE, error=FALSE}
 
@@ -20488,110 +20488,110 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Listening {.tabset}
+<!-- ### Listening {.tabset} -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Speaking {.tabset}
+<!-- ### Speaking {.tabset} -->
 
-####  Categories {.tabset}
+<!-- ####  Categories {.tabset} -->
 
-#####  Kanji
+<!-- #####  Kanji -->
 
-```{r, echo=FALSE, message=FALSE}
+<!-- ```{r, echo=FALSE, message=FALSE} -->
 
-reactable(
-  na.omit(alv) ,
-  columns = list(
-    Words = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Hiragana <- alv$Hiragana[index]
-        Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown"
-        Meaning <- alv$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
+<!-- reactable( -->
+<!--   na.omit(alv) , -->
+<!--   columns = list( -->
+<!--     Words = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Hiragana <- alv$Hiragana[index] -->
+<!--         Hiragana <- if (!is.na(Hiragana)) Hiragana else "Unknown" -->
+<!--         Meaning <- alv$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
 
-          div(style = list(fontSize = 18, fontWeight = 700), Meaning),
-          div(style = list(fontSize = 13, fontWeight = 200), value)
-          # div(style = list(fontSize = 10, fontWeight = 200), Hiragana)
-        )
-      },
-      align = "center"
-    ),
-    Hiragana = colDef(show = FALSE),
-    Meaning = colDef(show = FALSE),
-    Core = colDef(show = FALSE),
-    Kanji = colDef(show = FALSE)
+<!--           div(style = list(fontSize = 18, fontWeight = 700), Meaning), -->
+<!--           div(style = list(fontSize = 13, fontWeight = 200), value) -->
+<!--           # div(style = list(fontSize = 10, fontWeight = 200), Hiragana) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Hiragana = colDef(show = FALSE), -->
+<!--     Meaning = colDef(show = FALSE), -->
+<!--     Core = colDef(show = FALSE), -->
+<!--     Kanji = colDef(show = FALSE) -->
 
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers", -->
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
 
-```
+<!-- ``` -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-#####  Vocabulary
+<!-- #####  Vocabulary -->
 
-```{r, echo=FALSE, message=FALSE}
+<!-- ```{r, echo=FALSE, message=FALSE} -->
 
-v1hmec <- v1hme %>% select(Categories) %>%
-  separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>%
-  select(Script,Transcript)
-# set.seed(5672)
-v1hmec  <- v1hmec [sample(1:nrow(na.omit(v1hmec ))),]
+<!-- v1hmec <- v1hme %>% select(Categories) %>% -->
+<!--   separate(Categories, into = c('Script','Transcript'), sep = '\\#') %>% -->
+<!--   select(Script,Transcript) -->
+<!-- # set.seed(5672) -->
+<!-- v1hmec  <- v1hmec [sample(1:nrow(na.omit(v1hmec ))),] -->
 
-reactable(
-  na.omit(v1hmec) ,
-  columns = list(
-    Script = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Transcript <- v1hmec$Transcript[index]
-        Transcript <- if (!is.na(Transcript)) Transcript else "Unknown"
-        tagList(
-          div(style = list(fontSize = 18, fontWeight = 700), Transcript),
-          div(style = list(fontSize = 13, fontWeight = 200), value)
-        )
-      },
-      align = "center"
-    ),
-    Transcript = colDef(show = FALSE)
+<!-- reactable( -->
+<!--   na.omit(v1hmec) , -->
+<!--   columns = list( -->
+<!--     Script = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Transcript <- v1hmec$Transcript[index] -->
+<!--         Transcript <- if (!is.na(Transcript)) Transcript else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 18, fontWeight = 700), Transcript), -->
+<!--           div(style = list(fontSize = 13, fontWeight = 200), value) -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
+<!--     Transcript = colDef(show = FALSE) -->
 
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers",
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = FALSE, sortable = FALSE, paginationType = "numbers", -->
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
 
-```
+<!-- ``` -->
 
 ------------------------------------------------------------------------
 
