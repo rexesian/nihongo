@@ -21356,9 +21356,15 @@ reactable(
 
 `to place on (st); to give (so) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 乗せる  
 `to place on (st); to give (so) a ride; to give a lift; to pick up; to help on board; to load (luggage); to carry; vt` 載せる   
-
 `to be placed on; to be set on; to be piled on; to be loaded on; to appear (in print); to be mentioned; to be recorded; vi` 載る  
 `to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark; to get on; vi` 乗る  
+
+`garments; attire; costume` 服装  
+`dress; attire; clothing; getup; outfit; personal appearance` 身なり  
+`clothing and accessories; attire` 服飾  
+`costume; dress; attire; interior decoration; landscaping; furnishing` 装束  
+`to dress (oneself in); to attire oneself in; to adorn; to decorate; to pretend; to feign` 装う  
+`ordinary clothes; everyday attire; plain clothes; civilian clothes` 平服
 
 ------------------------------------------------------------------------
 
