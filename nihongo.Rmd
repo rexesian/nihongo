@@ -14200,6 +14200,42 @@ The meaning and nuances are pretty exactly the same with slight difference
     ・I drink my coffee without sugar
     ・I went out without an umbrella
     ・Please answer without looking at the textbook
+    
+------------------------------------------------------------------------
+
+## Dictionary {.tabset}
+
+### A
+
+A.1 **あいだ** `throughout` **⚭ Na-Adj+na/N+no + aida**  
+`・Appends to expressions of time, i.e., “throughout the entire time.”`
+
+    ・わたしは夏の間、ずっと北海道にいました
+    ・両親が旅行をしている間、ぼくが毎日食事を作りました
+    ・兄がゲームをしている間、 弟 はそばで見ています
+    ・夏休みにとなりのうちがにぎやかな間は、わたしも楽しい気分になる
+    
+<!-- <h> -->
+
+    ・I was in Hokkaido for the whole summer.
+    ・While my parents were traveling, I cooked meals for them every day.
+    ・While the older brother is playing a game, the younger brother is watching nearby.
+    ・During the summer vacations, when my neighbor's house is bustling with activity, I feel happy too.
+
+A.2 **あいだに** `during; when` **⚭ Na-Adj+na/N+no + aida ni**
+`・Appends to expressions involving length of time meaning“before the time interval ends.”`
+
+    ・夏休みの間に引っ越ししたいです
+    ・わたしがいない間にだれか来たのでしょうか。門が少し開いています
+    ・日本にいる間に1度富士山に登りたい
+    ・暇な間に本だなをかたづけてしまおう
+    
+<!-- <h> -->
+
+    ・I want to move during the summer vacation.
+    ・I wondered if anyone had come while I was gone. The gate is slightly ajar.
+    ・I want to climb Mount Fuji once while I'm in Japan.
+    ・Let's clear out the bookshelf in our spare time.
 
 ------------------------------------------------------------------------
 
@@ -20431,62 +20467,110 @@ reactable(
 <!-- ``` -->
 
 
-### SNP
+### SNP {.tabset}
 
 <!-- #### RND -->
 
-```{r echo=FALSE, message=FALSE, error=FALSE}
+<!-- ```{r echo=FALSE, message=FALSE, error=FALSE} -->
 
-msntc <- msntc[sample(1:nrow(msntc)),]
+<!-- msntc <- msntc[sample(1:nrow(msntc)),] -->
 
-reactable(
-  na.omit(msntc),
-  columns = list(
-       Script = colDef(
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        Meaning <- msntc$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        tagList(
-          div(style = list(fontSize = 17, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), value),
-          div(style = list(fontSize = 12, fontWeight = 500, fontFamily = "Anonymous Pro" ), Meaning),
-        )
-      },
-      align = "left", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 450),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
+<!-- reactable( -->
+<!--   na.omit(msntc), -->
+<!--   columns = list( -->
+<!--        Script = colDef( -->
+<!--         style = JS("function(rowInfo, colInfo, state) { -->
+<!--         var firstSorted = state.sorted[0] -->
+<!--         if (!firstSorted || firstSorted.id === 'Expression') { -->
+<!--           var prevRow = state.pageRows[rowInfo.viewIndex - 1] -->
+<!--           if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) { -->
+<!--             return { visibility: 'hidden' } -->
+<!--           } -->
+<!--         } -->
+<!--       }"), -->
+<!--       cell = function(value, index) { -->
+<!--         Meaning <- msntc$Meaning[index] -->
+<!--         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 17, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), value), -->
+<!--           div(style = list(fontSize = 12, fontWeight = 500, fontFamily = "Anonymous Pro" ), Meaning), -->
+<!--         ) -->
+<!--       }, -->
+<!--       align = "left", minWidth = 400 -->
+<!--       ), -->
+<!--       Meaning = colDef(show = FALSE) -->
+<!--   ), -->
+<!--     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE, -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+<!--   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"), -->
+<!--     theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 450), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ), -->
+<!--     headerStyle = list( -->
+<!--       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"), -->
+<!--       # borderColor = "#555",  -->
+<!--       height = 30, fontSize = "11px" -->
+<!--     ) -->
+<!--   ) -->
+<!-- ) -->
 
-```
+<!-- ``` -->
+
+#### 1
+
+    春が訪れた京都。桜や新緑の季節は、京都をより美しく魅せてくれますよね。今回は、そんな京都で楽しむことができるお洒落な和食ランチをご紹介していきたいと思います。絶対に知っておいてほしい、またどこに行くか迷ってしまうくらい魅力的なお店ばかりを集めました！（なお情報は記事掲載時点のものになります。詳細は公式サイトなどから事前確認することをおすすめします。）
+
+<!-- <h> -->
+    
+    Spring has arrived in Kyoto. The season of cherry blossoms and fresh greenery makes Kyoto even more beautiful and enchanting. This time, I would like to introduce you to some stylish Japanese lunches that you can enjoy in Kyoto. I've gathered together some of the most charming restaurants that you should definitely know about, and that will make you wonder where to go! (Information is current at the time of publication. (Information is current as of the date of publication; it is recommended that you check the official website for details)
+
+------------------------------------------------------------------------ 
+
+#### 2
+
+    日本の"和"の雰囲気を1番堪能できることができる場所といっても過言ではない、京都府。そんな京都を訪れた際には、普段食べる家庭の和食よりワンランク上の和食ランチを楽しみたくはないですか？今回は、そんなあなたに京都に行く前に絶対に抑えておいてほしいスポットをご紹介します。
+
+<!-- <h> -->
+
+    It is no exaggeration to say that Kyoto Prefecture is the place where you can enjoy the Japanese "Wa" atmosphere the most. When you visit Kyoto, don't you want to enjoy a Japanese lunch that is a grade higher than the Japanese food you usually eat at home? In this article, I'll introduce you to some of the places you should definitely check out before you go to Kyoto.
+
+------------------------------------------------------------------------ 
+
+#### 3
+
+    はじめにご紹介するのは、JR宇治駅から徒歩4分ほどの場所にある「LovA（ロバ）」です。古民家を改装した、あたたかい雰囲気のカフェ・レストランです。こちらも大人気店なので、ランチでも予約して行くことをおすすめします。
+
+<!-- <h> -->
+
+    The first place I would like to introduce is LovA, located about a four-minute walk from JR Uji Station. It is a café/restaurant with a warm atmosphere in a renovated old house. This is also a very popular restaurant, so I recommend making a reservation even for lunch.
+
+------------------------------------------------------------------------ 
+
+#### 4
+
+    こちらで人気の和食ランチが、季節の野菜を使用した『天ぷら御膳』です。素材の旨みをいかして、シンプルにいただきます。米油で揚げられており、衣も玄米米粉を使用しているなど、体にもとっても優しいです。健康志向の女性たちには嬉しいですね！
+
+<!-- <h> -->
+
+    The most popular Japanese lunch here is the Tempura Gozen, which uses seasonal vegetables. The tempura is served simply, bringing out the best of the ingredients. The tempura is fried in rice oil and the batter is made of brown rice flour, making it very healthy. It's great for health-conscious women!
+    
+------------------------------------------------------------------------ 
+
+#### 5
+
+    続いてご紹介するのは、四条駅から徒歩1分ほどの場所にある「京菜味のむら 錦店」です。人気観光地である錦市場からすぐというアクセスしやすい場所にあります。名物の湯葉丼と、美しい器に盛られた12種類ものおばんざいをセットいただける、贅沢な京ランチが人気のお店です。
+
+<!-- <h> -->
+
+    The next restaurant I would like to introduce to you is "Kyo-na Ajino-mura Nishiki", located about a minute's walk from Shijo Station. It is easily accessible from Nishiki Market, a popular tourist spot. The restaurant is popular for its sumptuous Kyoto-style lunch, which includes its famous yuba rice bowl and 12 different types of obanzai served in a beautiful bowl.
 
 <!-- ------------------------------------------------------------------------ -->
 
