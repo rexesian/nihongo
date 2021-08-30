@@ -159,6 +159,7 @@ wlbvlx <- read_csv("rdata/Sheet 135-WBLWWX.csv")
 mxknj <- read_csv("rdata/Sheet 136-NAKNJS.csv")
 knj3wbx <- read_csv("rdata/Sheet 137-WBKNJ3X.csv")
 kj1w <- read_csv("rdata/Sheet 138-KJW1.csv")
+ktbjn <- read_csv("rdata/Sheet 140-KNJRNMX.csv")
 
 ```
 
@@ -3044,7 +3045,7 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
         )
       },
       align = "center"
@@ -3112,7 +3113,7 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
         )
       },
       align = "center"
@@ -3180,7 +3181,7 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
         )
       },
       align = "center"
@@ -3248,7 +3249,7 @@ reactable(
         w9 <- if (!is.na(w9)) w9 else "Unknown"
         tagList(
           # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w1, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8, "・", w9)
         )
       },
       align = "center"
@@ -3280,6 +3281,63 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+##### M1
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(ktbjn),
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- ktbjn$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "."
+        w2 <- ktbjn$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "."
+        w3 <- ktbjn$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "."
+        w4 <- ktbjn$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "."
+        w5 <- ktbjn$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "."
+        Base.Meaning <- ktbjn$Base.Meaning[index]
+        Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 500), Base.Meaning),
+          div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5)
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    Base.Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 3,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
@@ -3329,10 +3387,10 @@ reactable(
         w16 <- knj1wb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3418,10 +3476,10 @@ reactable(
         w16 <- knj2wb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3507,10 +3565,10 @@ reactable(
         w16 <- knj3wb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3596,10 +3654,10 @@ reactable(
         w16 <- knj4wb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3685,10 +3743,10 @@ reactable(
         w16 <- knj5wb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3774,10 +3832,10 @@ reactable(
         w16 <- wbfg$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
@@ -3863,10 +3921,10 @@ reactable(
         w16 <- knvlwb$w16[index]
         w16 <- if (!is.na(w16)) w16 else "Unknown"
         tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+          div(style = list(fontSize = 19, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+          div(style = list(fontSize = 19, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+          div(style = list(fontSize = 19, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
         )
       },
       align = "center"
