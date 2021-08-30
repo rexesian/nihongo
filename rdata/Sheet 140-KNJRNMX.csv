@@ -9,6 +9,9 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 時,"time, hour",時間,時計,時々,当時,時刻表
 川,"stream, river,",小川,川沿い,川岸,谷川,堀川
 東,east,東京,東部,東側,東方,北東
+言,"say, word",言葉,言語,言う,方言,助言
+合,"fit, suit, join",合図,組合,集合,待合室,試合
+軍,"army, force, troops, war, battle",軍隊,軍事,軍艦,軍備,軍縮
 根,"root, radical, head",根気,屋根,垣根,根回し,根拠
 修,"discipline, conduct oneself well, study, master",習得,修士,修理,修正,研修
 誤,"mistake, err, do wrong, mislead",誤り,誤解,誤差,誤る,誤植
@@ -16,3 +19,7 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 荒,"laid waste, rough, rude, wild",荒い,荒らす,荒廃,荒っぽい,荒れる
 鋭,"pointed, sharpness, edge, weapon, sharp, violent",鋭い,鋭利,新鋭,気鋭,精鋭
 沼,"marsh, lake, bog, swamp, pond",沼地,泥沼,湖沼,沼田,沼気
+集,"gather, meet, congregate, swarm, flock",集団,編集,集合,集結,特集
+結,"tie, bind, contract, join, organize, do up hair, fasten",結ぶ,結う,結婚,結果,結構
+服,"clothing, admit, obey, discharge",服装,洋服,和服,制服,衣服
+装,"attire, dress, pretend, disguise, profess",包装,装飾,服装,舗装,装置
