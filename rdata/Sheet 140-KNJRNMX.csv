@@ -9,9 +9,35 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 時,"time, hour",時間,時計,時々,当時,時刻表
 川,"stream, river,",小川,川沿い,川岸,谷川,堀川
 東,east,東京,東部,東側,東方,北東
+日,"day, sun, Japan, counter days",毎日,日記,日付,平日,祝日
+大,"large, big",大学,莫大,大変,大切,大勢
+何,what,何時も,何で,何しろ,何分,何となく
+来,"come, due, next, cause, become",未来,来週,将来,本来,来日
 言,"say, word",言葉,言語,言う,方言,助言
+手,hand,手紙,切手,手袋,握手,拍手
+主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
 合,"fit, suit, join",合図,組合,集合,待合室,試合
+部,"section, bureau, dept, class, copy, part, portion, counter for copies",部屋,全部,部分,部品,外部
 軍,"army, force, troops, war, battle",軍隊,軍事,軍艦,軍備,軍縮
+兵,"soldier, private, troops, army, warfare, strategy, tactics",兵器,兵隊,兵士,核兵器,兵役
+島,island,半島,島国,列島,島々,小島
+村,"village, town",村人,村民,村長,農村,漁村
+門,"gate, counter for cannons",学問,正門,部門,専門家,専門店
+戸,"door, counter for houses, door radical",井戸,戸籍,瀬戸物,戸棚,雨戸
+武,"warrior, military, chivalry, arms",武器,武士,武装,武力,核武装
+城,castle,城内,城下町,城壁,荒城,江戸城
+総,"general, whole, all, full, total",総会,総数,総額,総合的,総理
+団,"group, association",布団,集団,座布団,団体,公団
+郎,"son, counter for sons",郎女,郎子,郎党,郎君,下郎
+結,"tie, bind, contract, join, organize, do up hair, fasten",結婚,結果,結局,結論,結合
+氏,"family name, surname, clan",氏名,摂氏,彼氏,両氏,同氏
+衛,"defense, protection",衛星,衛生,防衛,護衛,守衛
+第,"number, residence",次第,落第,第三者,次第に,第一
+保,"protect, guarantee, keep, preserve, sustain, suppor",保証,保健,保険,保存,保つ
+義,"righteousness, justice, morality, honor, loyalty, meaning",講義,義務,定義,正義,義理
+吉,"good luck, joy, congratulations",不吉,吉報,吉兆,末吉,吉凶
+士,"gentleman, scholar, samurai",博士,武士,紳士,修士,同士
+藤,wisteria,葛藤,藤,藤棚,藤豆,藤灰
 根,"root, radical, head",根気,屋根,垣根,根回し,根拠
 修,"discipline, conduct oneself well, study, master",習得,修士,修理,修正,研修
 誤,"mistake, err, do wrong, mislead",誤り,誤解,誤差,誤る,誤植
@@ -24,3 +50,27 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 服,"clothing, admit, obey, discharge",服装,洋服,和服,制服,衣服
 装,"attire, dress, pretend, disguise, profess",包装,装飾,服装,舗装,装置
 添,"annexed, accompany, marry, suit, meet, satisfy, attach, append, garnish, imitate",添える,添付,添削,添加,添加物
+揃,"be complete, uniform, all present, collect, arrange",揃える,揃う,揃って,揃い,品揃え
+巻,"scroll, volume, book, part, roll up, wind up, tie, coil, counter for texts",巻く,取り巻く,渦巻き,巻き込む,寝巻き
+保,"protect, guarantee, keep, preserve, sustain, support, maintain",保証,保つ,保健,保険,保守
+険,"precipitous, inaccessible place, impregnable position, steep place, sharp eyes",危険,冒険,保険,険しい,険悪
+協,cooperation,妥協,協力,協定,協会,協調
+玉,"jewel, ball",目玉,替え玉,玉ねぎ,目玉焼き,目玉商品
+焼,"bake, burning",日焼け,燃焼,焼く,焼ける,夕焼け
+依,"reliant, depend on, consequently, therefore, due to",依頼,依然,依存,依願,依存症
+般,"carrier, carry, all, general, sort, kind",一般,全般,一般的,一般に,一般人
+普,"universal, wide(ly), generally",普通,普段,普及,普段着,普遍的
+及,"reach out, exert, exercise, cause",及ぼす,普及,及ぶ,追及,言及
+詳,"detailed, full, minute, accurate, well-informed",詳しい,詳細,詳述,詳報,詳報
+細,"dainty, get thin, taper, slender, narrow, detailed, precise",細い,細かい,細胞,詳細,細菌
+要,"need, main point, essence, pivot, key to",要る,要る,要る,要求,要望
+需,"demand, request, need",需要,必需品,需給,実需,必需
+素,"elementary, principle, naked, uncovered",酸素,水素,炭素,元素,要素
+激,"violent, get excited, enraged, chafe, incite",激しい,刺激,急激,感激,激励
+刺,"thorn, pierce, stab, prick, sting, calling card",刺身,名刺,刺す, 刺さる,刺激
+異,"uncommon, different, queerness, strangeness, wonderful, curious, unusual",異常,驚異,差異,異論,異性
+端,"edge, origin, end, point, border, verge, cape",途端,先端,半端,道端,端末
+常,"usual, ordinary, normal, common, regular, continually, always, long-lasting",常識,異常,常に,非常,日常
+経,"sutra, longitude, pass thru, expire, warp",経済,経験,経つ,経る,経由
+倍,"double, twice, times, fold",倍増,倍額,倍率,二倍,数倍
+増,"increase, add, augment, gain, promote",増える,増加,増やす,増す,増大
