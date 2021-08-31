@@ -16,8 +16,23 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 言,"say, word",言葉,言語,言う,方言,助言
 手,hand,手紙,切手,手袋,握手,拍手
 主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
+通,"traffic, pass through, avenue, commute",普通,交通,通る,通す,通り
+強,strong,強盗,勉強,強い,強化,強調
+使,"use, send on a mission, order, messenger, envoy, cause",大使館,使う,使用,使命,使い道
+社,"company, firm, office, association, shrine",会社,社会,神社,商社,社説
+知,"know, wisdom",知識,知恵,知る,知能,知らせる
+味,"flavor, taste",意味,趣味,味噌,興味,味覚
+界,"world, boundary",世界,限界,境界,政界,視界
 合,"fit, suit, join",合図,組合,集合,待合室,試合
 部,"section, bureau, dept, class, copy, part, portion, counter for copies",部屋,全部,部分,部品,外部
+彼,"he, that, the",彼,彼女,彼ら,彼方,彼奴
+内,"inside, within, between, among, house, home",以内,案内,内容,内部,内訳
+実,"reality, truth, seed, fruit, nut",事実,実験,現実,果実,実践
+当,"hit, right, appropriate, himself",弁当,本当,適当,当時,当たる
+能,"ability, talent, skill, capacity",知能,本能,能力,才能,可能
+葉,"leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece",言葉,紅葉,落ち葉,葉っぱ,合言葉
+流,"current, a sink, flow, forfeit",流れる,交流,流す,流通,流行
+然,"sort of thing, so, if so, in that case, well",偶然,自然,突然,全然,天然
 軍,"army, force, troops, war, battle",軍隊,軍事,軍艦,軍備,軍縮
 兵,"soldier, private, troops, army, warfare, strategy, tactics",兵器,兵隊,兵士,核兵器,兵役
 島,island,半島,島国,列島,島々,小島
@@ -74,3 +89,6 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 経,"sutra, longitude, pass thru, expire, warp",経済,経験,経つ,経る,経由
 倍,"double, twice, times, fold",倍増,倍額,倍率,二倍,数倍
 増,"increase, add, augment, gain, promote",増える,増加,増やす,増す,増大
+節,"node, season, period, occasion, verse, joint, knuckle, knob, knot, tune, melody",季節,節約,調節,関節,音節
+訳,"translate, reason, circumstance, case",翻訳,通訳,訳す,言い訳,内訳
+視,"inspection, regard as, see, look at",視野,視覚,近視,無視,監視
