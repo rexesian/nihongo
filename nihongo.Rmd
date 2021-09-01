@@ -3307,9 +3307,9 @@ reactable(
         Base.Meaning <- ktbjn$Base.Meaning[index]
         Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
         tagList(
+          div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5),
           div(style = list(fontSize = 19, fontWeight = 500), value),
           div(style = list(fontSize = 11, fontWeight = 500), Base.Meaning),
-          div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5)
         )
       },
       align = "center"
