@@ -43,6 +43,8 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 城,castle,城内,城下町,城壁,荒城,江戸城
 総,"general, whole, all, full, total",総会,総数,総額,総合的,総理
 団,"group, association",布団,集団,座布団,団体,公団
+線,"line, track",直線,光線,線路,電線,沿線
+設,"establishment, provision, prepare",建設,設定,設計,設備,設ける
 郎,"son, counter for sons",郎女,郎子,郎党,郎君,下郎
 結,"tie, bind, contract, join, organize, do up hair, fasten",結婚,結果,結局,結論,結合
 氏,"family name, surname, clan",氏名,摂氏,彼氏,両氏,同氏
@@ -92,3 +94,4 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 節,"node, season, period, occasion, verse, joint, knuckle, knob, knot, tune, melody",季節,節約,調節,関節,音節
 訳,"translate, reason, circumstance, case",翻訳,通訳,訳す,言い訳,内訳
 視,"inspection, regard as, see, look at",視野,視覚,近視,無視,監視
+沿,"run alongside, follow along, run along, lie along",沿岸,沿う,川沿い,沿海,沿道

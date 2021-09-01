@@ -160,6 +160,7 @@ mxknj <- read_csv("rdata/Sheet 136-NAKNJS.csv")
 knj3wbx <- read_csv("rdata/Sheet 137-WBKNJ3X.csv")
 kj1w <- read_csv("rdata/Sheet 138-KJW1.csv")
 ktbjn <- read_csv("rdata/Sheet 140-KNJRNMX.csv")
+ktlmn <- read_csv("rdata/Sheet 141-KNJRNMX.csv")
 
 ```
 
@@ -3321,6 +3322,97 @@ reactable(
     Base.Meaning = colDef(show = FALSE)
   ),
   defaultPageSize = 3,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+
+------------------------------------------------------------------------
+
+##### T1
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(ktlmn),
+  columns = list(
+    # Kanji = colDef(
+    #   cell = function(value, index) {
+    #     Base.Meaning <- ktlmn$Base.Meaning[index]
+    #     Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
+    #     tagList(
+    #       # div(style = list(fontSize = 19, fontWeight = 500), value),
+    #       # div(style = list(fontSize = 11, fontWeight = 500), Base.Meaning),
+    #     )
+    #   },
+    #   align = "center"
+    # ),
+    Sentences = colDef(
+      minWidth = 280,
+      cell = function(value, index) {
+        w2 <- ktlmn$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "."
+        w3 <- ktlmn$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "."
+        w4 <- ktlmn$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "."
+        w5 <- ktlmn$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "."
+        t1 <- ktlmn$t1[index]
+        t1 <- if (!is.na(t1)) t1 else "."
+        t2 <- ktlmn$t2[index]
+        t2 <- if (!is.na(t2)) t2 else "."
+        t3 <- ktlmn$t3[index]
+        t3 <- if (!is.na(t3)) t3 else "."
+        t4 <- ktlmn$t4[index]
+        t4 <- if (!is.na(t4)) t4 else "."
+        t5 <- ktlmn$t5[index]
+        t5 <- if (!is.na(t5)) t5 else "."
+        tagList(
+          div(style = list(fontSize = 18, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 500), t1),
+          div(style = list(fontSize = 3, fontWeight = 500), "."),
+          div(style = list(fontSize = 18, fontWeight = 500), w2),
+          div(style = list(fontSize = 11, fontWeight = 500), t2),
+          div(style = list(fontSize = 3, fontWeight = 500), "."),
+          div(style = list(fontSize = 18, fontWeight = 500), w3),
+          div(style = list(fontSize = 11, fontWeight = 500), t3),
+          div(style = list(fontSize = 3, fontWeight = 500), "."),
+          div(style = list(fontSize = 18, fontWeight = 500), w4),
+          div(style = list(fontSize = 11, fontWeight = 500), t4),
+          div(style = list(fontSize = 3, fontWeight = 500), "."),
+          div(style = list(fontSize = 18, fontWeight = 500), w5),
+          div(style = list(fontSize = 11, fontWeight = 500), t5),
+        )
+      },
+      align = "center"
+    ),    
+    Kanji = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    t1 = colDef(show = FALSE),
+    t2 = colDef(show = FALSE),
+    t3 = colDef(show = FALSE),
+    t4 = colDef(show = FALSE),
+    t5 = colDef(show = FALSE),
+    Base.Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
   theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),

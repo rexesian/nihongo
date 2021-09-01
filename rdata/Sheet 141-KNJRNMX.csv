@@ -1,2 +1,97 @@
-Word,Base.Meaning,w1,w2,w3,w4,w5
-修理,"repair, fixing, mending, to repar,  to fix, to mend",私は時計を修理してもらった,トラック修理サービス,修理部品,この車は修理が効かない,道路を修理する
+Kanji,Base.Meaning,Sentences,w2,w3,w4,w5,t1,t2,t3,t4,t5
+人,person,言うことだけはもういっぱしの大人だ,この町は人口が増えた,その結果として、彼は偉大な商人になった,人間の能力の限界に挑戦する,人生は彼にとってとても大切なものだ,He's a grown man with a lot to say.,This town's population has grown.,"And as a result, he became a great merchant.",Pushing the limits of human ability,Life is very important to him.
+一,one,一番に現場に駆けつける,その話は証拠と一致する,全部一緒にするといくらになりますか,今日は長い一日になりそうです,彼女は一言も言わないで、出て行った,I'll be first on the scene.,That story is consistent with the evidence.,How much does it all add up to?,It's going to be a long day.,She didn't say a word and left.
+学,"study, learning, science",学校では教わらないこと,私たちの最初の授業は数学です,彼は大学への入学が許可された,留学を終えて帰る,バスと電車を使って通学している,What they don't teach you in school,Our first class is math.,He's been admitted to the university.,Returning home after studying abroad,I use the bus and train to get to school.
+月,"month, moon",私は日給でなくて月給です,月末に近づいている,ネックレスの月賦がある,月並みなデザインの服,月謝は無料です,"I'm paid by the month, not the day.",We are approaching the end of the month.,There's a monthly installment for the necklace.,Monthly designed clothes,There's no monthly fee
+百,hundred,その八百屋は客にとても親切だ,百姓にとっては花より果が大切である,たいていの物は百貨店で買います,彼の勉強の本は何百とあります,広場には数百人の人がいた,That grocery store is very nice to its customers,Fruit is more important to a farmer than flowers.,I buy most of my things at department stores.,There are hundreds of books for his study,There were hundreds of people in the square
+休,"rest, day off, retire, sleep",夏休みを使って語学研修に行く,じゃ 10 分ほど休みましょう,休暇で海岸に行っている,昼食のため休憩する,仕事をやめて休息する,I'm going to use my summer vacation for language training,Let's take a break for ten minutes then.,They're on vacation at the beach.,Taking a break for lunch,I have to stop working and rest
+間,"interval, space",時間が過ぎ行くままにする,彼は一緒にいて楽しい人間だ,二人は出会った瞬間恋に落ちた,明日の時間割教えてくんない？,約束の時間に間に合わない,I'm going to let time pass me by.,He's a delight to be around.,They fell in love the moment they met.,Can you tell me tomorrow's timetable?,I'm not going to be on time for my appointment.
+時,"time, hour",まだだいぶ時間がある,君の時計では何時ですか,時々字を間違える,当時も今と同様だった,バスの時刻表をいただけませんか,I still have a lot of time left,What time is it according to your watch?,Sometimes I misspell things.,It was the same then as it is now.,"Can I have the bus schedule, please?"
+川,"stream, river,",私の家の近くを小川が流れている,川沿いに住む,川岸で数人の男が糸を垂れている,谷川の岸に小さな学校 がありました,堀川,There is a stream running near my house.,We live by the river.,A few men are hanging a line on the riverbank.,There was a small school on the banks of the valley river.,Horikawa River
+東,east,私はこの本を買いに東京に行った,日本はアジアの東部にあります,城は町の東側に立っている,市の東方10 キロの所に,北東方向に土地が低く横たわっていた,I went to Tokyo to buy this book.,Japan is in the eastern part of Asia.,The castle stands on the east side of the town.,Ten kilometers east of the city.,The land lay low to the northeast.
+日,"day, sun, Japan, counter days",毎日1 本牛乳を飲みましょう,これは彼女がつけた日記です,この書類は日付が間違っている,平日のこの時間帯はラッシュがすごい,今日が祝日だってこと完全に忘れてた,Let's drink a bottle of milk every day.,This is the diary she kept.,This document is dated incorrectly.,The rush hour is heavy at this time on weekdays.,I completely forgot that today is a holiday.
+大,"large, big",大学では教えてくれない知識,私の叔母は莫大な財産を相続した,あの発言で大変な問題を起こした,今日は午後から大切な会合がある,食事は大勢のほうが楽しい,Knowledge they don't teach you in college.,My aunt inherited a huge fortune.,He got himself into a lot of trouble with that remark.,I have an important meeting this afternoon.,Food is more fun in large groups.
+何,what,彼はいつも朝散歩する,なんでそんなことをしたんだろう,何しろやってみないことにはわからない,駅へはタクシーで何分くらいかかりますか,なんとなく泣きたいような気持ちだ,He always goes for a walk in the morning.,I wonder why she did that.,"After all, you never know until you try.",How long will it take you to get to the station by cab?,I feel like I want to cry.
+来,"come, due, next, cause, become",君たちには明るい未来がある,来週の日曜日に遊びに来てください,この子の将来が楽しみだ,それが彼本来の性格なのだ,４年前に１年の予定で来日しました,You have a bright future ahead of you.,Come and visit us next Sunday.,I can't wait to see what the future holds for this boy.,It's in his nature.,I came to Japan four years ago for a year.
+言,"say, word",日本語のほかにどんな言葉が話せますか,どの言語にも方言がある,思ったことをそのまま言う,大阪の方言は聞き取り難い,その株を買えと助言してくれた,What other languages do you speak besides Japanese?,Every language has its dialect.,I'll just say what I think.,Osaka dialect is hard to understand.,You advised me to buy that stock.
+手,hand,彼女には手紙がたくさん来る,彼女は私と同じくらい切手を持っている,手袋が大きすぎて指先が余る,握手した彼女の手の柔らかさが忘れられない,賛成の人は拍手してください,She gets a lot of letters.,She's got as many stamps as I do.,The glove is too big and the fingertips are too much.,I'll never forget the softness of her hand as I shook it.,"All those in favor, please clap."
+主,"lord, chief, master, main thing, principal",日本人は米を主食としている,主人公は、本の最後で死んだ,この研究では実験が主体になる,その地主は以前かなり裕福な暮らしをしていた,声高に主張する,Rice is the staple food of the Japanese people.,The protagonist died at the end of the book.,This study will be primarily an experiment.,The landowner used to be quite wealthy.,Make your point loudly.
+通,"traffic, pass through, avenue, commute",家を失った被災者はまだまだ普通の暮らしには戻れない,このあたりは交通が頻繁である,この道は商店街を通って駅に出る,朝の光がカーテンを通して差し込んだ,パレードがやってきたとき、通りには沢山の人がいた,The victims who lost their homes are still not able to return to a normal life.,Traffic is very frequent in this area.,This road goes through the shopping district and out to the station.,The morning light shone through the curtains.,"When the parade came, there were many people in the street."
+強,strong,ある夜その家に強盗が入った.,君もまだまだ勉強が足りないね,日本のサッカーは強くなった,新人を入れてチームを強化する,彼女は実験の安全性を大いに強調した,One night the house was robbed.,"You still have a lot to learn, don't you?",Japanese soccer is getting stronger.,I'm bringing in a new recruit to strengthen the team.,She greatly emphasized the safety of the experiment
+使,"use, send on a mission, order, messenger, envoy, cause",日本大使館はどこにありますか,これは何に使う物ですか,申し込みには所定の用紙をご使用ください,私の使命はその文章を写真にとることである,人にもそれぞれ使い道があるものだ,Where is the Japanese Embassy?,What is this for?,Please use the designated form to apply,My mission is to take a picture of that sentence.,People have their own uses.
+社,"company, firm, office, association, shrine",会社が私を技術者として育ててくれた,この社会で頭角を現すには相当の努力が必要だ,京都には多くの神社がある,私は商社で働いています,激越な社説　,The company trained me as a technician.,It takes a lot of effort to make a mark in this society.,There are many shrines in Kyoto.,I work for a trading company.,A fierce editorial　
+知,"know, wisdom",彼は知識も経験も持っている,年を取ると知恵がつく,この辺はよく知っている,あの子は大学生なみの知能を持っている,そのことはもっと広く世間に知らせるべきである,He has knowledge and experience.,With age comes wisdom.,I know this area well.,That girl has the intelligence of a college student.,This should be more widely known to the public.
+味,"flavor, taste",この単語にはたくさんの意味がある,彼とはいくつも共通の趣味がある,ご飯と味噌汁は合う,彼女はだんだん音楽に興味が出てきた,北海道の秋の味覚を楽しむ,There are many meanings to this word.,He and I have a number of hobbies in common.,Rice and miso soup go well together,She's getting more and more interested in music.,Enjoying the taste of autumn in Hokkaido
+界,"world, boundary",世界でも有数の地震国,大都市のゴミ処理能力は限界に達している,私の血圧は正常と高血圧症の境界にある,政界の事情に通じている,霧のため視界が悪くなった,One of the most earthquake-prone countries in the world.,The garbage disposal capacity of big cities is reaching its limit.,My blood pressure is on the border between normal and hypertensive.,She knows a lot about politics.,Foggy weather reduces visibility
+合,"fit, suit, join",合図,組合,集合,待合室,試合,,,,,
+部,"section, bureau, dept, class, copy, part, portion, counter for copies",部屋,全部,部分,部品,外部,,,,,
+彼,"he, that, the",彼,彼女,彼ら,彼方,彼奴,,,,,
+内,"inside, within, between, among, house, home",以内,案内,内容,内部,内訳,,,,,
+実,"reality, truth, seed, fruit, nut",事実,実験,現実,果実,実践,,,,,
+当,"hit, right, appropriate, himself",弁当,本当,適当,当時,当たる,,,,,
+能,"ability, talent, skill, capacity",知能,本能,能力,才能,可能,,,,,
+葉,"leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece",言葉,紅葉,落ち葉,葉っぱ,合言葉,,,,,
+流,"current, a sink, flow, forfeit",流れる,交流,流す,流通,流行,,,,,
+然,"sort of thing, so, if so, in that case, well",偶然,自然,突然,全然,天然,,,,,
+軍,"army, force, troops, war, battle",軍隊,軍事,軍艦,軍備,軍縮,,,,,
+兵,"soldier, private, troops, army, warfare, strategy, tactics",兵器,兵隊,兵士,核兵器,兵役,,,,,
+島,island,半島,島国,列島,島々,小島,,,,,
+村,"village, town",村人,村民,村長,農村,漁村,,,,,
+門,"gate, counter for cannons",学問,正門,部門,専門家,専門店,,,,,
+戸,"door, counter for houses, door radical",井戸,戸籍,瀬戸物,戸棚,雨戸,,,,,
+武,"warrior, military, chivalry, arms",武器,武士,武装,武力,核武装,,,,,
+城,castle,城内,城下町,城壁,荒城,江戸城,,,,,
+総,"general, whole, all, full, total",総会,総数,総額,総合的,総理,,,,,
+団,"group, association",布団,集団,座布団,団体,公団,,,,,
+線,"line, track",直線,光線,線路,電線,沿線,,,,,
+設,"establishment, provision, prepare",建設,設定,設計,設備,設ける,,,,,
+郎,"son, counter for sons",郎女,郎子,郎党,郎君,下郎,,,,,
+結,"tie, bind, contract, join, organize, do up hair, fasten",結婚,結果,結局,結論,結合,,,,,
+氏,"family name, surname, clan",氏名,摂氏,彼氏,両氏,同氏,,,,,
+衛,"defense, protection",衛星,衛生,防衛,護衛,守衛,,,,,
+第,"number, residence",次第,落第,第三者,次第に,第一,,,,,
+保,"protect, guarantee, keep, preserve, sustain, suppor",保証,保健,保険,保存,保つ,,,,,
+義,"righteousness, justice, morality, honor, loyalty, meaning",講義,義務,定義,正義,義理,,,,,
+吉,"good luck, joy, congratulations",不吉,吉報,吉兆,末吉,吉凶,,,,,
+士,"gentleman, scholar, samurai",博士,武士,紳士,修士,同士,,,,,
+藤,wisteria,葛藤,藤,藤棚,藤豆,藤灰,,,,,
+根,"root, radical, head",根気,屋根,垣根,根回し,根拠,,,,,
+修,"discipline, conduct oneself well, study, master",習得,修士,修理,修正,研修,,,,,
+誤,"mistake, err, do wrong, mislead",誤り,誤解,誤差,誤る,誤植,,,,,
+植,plant,植物,誤植,植える,植木,植物園,,,,,
+荒,"laid waste, rough, rude, wild",荒い,荒らす,荒廃,荒っぽい,荒れる,,,,,
+鋭,"pointed, sharpness, edge, weapon, sharp, violent",鋭い,鋭利,新鋭,気鋭,精鋭,,,,,
+沼,"marsh, lake, bog, swamp, pond",沼地,泥沼,湖沼,沼田,沼気,,,,,
+集,"gather, meet, congregate, swarm, flock",集団,編集,集合,集結,特集,,,,,
+結,"tie, bind, contract, join, organize, do up hair, fasten",結ぶ,結う,結婚,結果,結構,,,,,
+服,"clothing, admit, obey, discharge",服装,洋服,和服,制服,衣服,,,,,
+装,"attire, dress, pretend, disguise, profess",包装,装飾,服装,舗装,装置,,,,,
+添,"annexed, accompany, marry, suit, meet, satisfy, attach, append, garnish, imitate",添える,添付,添削,添加,添加物,,,,,
+揃,"be complete, uniform, all present, collect, arrange",揃える,揃う,揃って,揃い,品揃え,,,,,
+巻,"scroll, volume, book, part, roll up, wind up, tie, coil, counter for texts",巻く,取り巻く,渦巻き,巻き込む,寝巻き,,,,,
+保,"protect, guarantee, keep, preserve, sustain, support, maintain",保証,保つ,保健,保険,保守,,,,,
+険,"precipitous, inaccessible place, impregnable position, steep place, sharp eyes",危険,冒険,保険,険しい,険悪,,,,,
+協,cooperation,妥協,協力,協定,協会,協調,,,,,
+玉,"jewel, ball",目玉,替え玉,玉ねぎ,目玉焼き,目玉商品,,,,,
+焼,"bake, burning",日焼け,燃焼,焼く,焼ける,夕焼け,,,,,
+依,"reliant, depend on, consequently, therefore, due to",依頼,依然,依存,依願,依存症,,,,,
+般,"carrier, carry, all, general, sort, kind",一般,全般,一般的,一般に,一般人,,,,,
+普,"universal, wide(ly), generally",普通,普段,普及,普段着,普遍的,,,,,
+及,"reach out, exert, exercise, cause",及ぼす,普及,及ぶ,追及,言及,,,,,
+詳,"detailed, full, minute, accurate, well-informed",詳しい,詳細,詳述,詳報,詳報,,,,,
+細,"dainty, get thin, taper, slender, narrow, detailed, precise",細い,細かい,細胞,詳細,細菌,,,,,
+要,"need, main point, essence, pivot, key to",要る,要る,要る,要求,要望,,,,,
+需,"demand, request, need",需要,必需品,需給,実需,必需,,,,,
+素,"elementary, principle, naked, uncovered",酸素,水素,炭素,元素,要素,,,,,
+激,"violent, get excited, enraged, chafe, incite",激しい,刺激,急激,感激,激励,,,,,
+刺,"thorn, pierce, stab, prick, sting, calling card",刺身,名刺,刺す, 刺さる,刺激,,,,,
+異,"uncommon, different, queerness, strangeness, wonderful, curious, unusual",異常,驚異,差異,異論,異性,,,,,
+端,"edge, origin, end, point, border, verge, cape",途端,先端,半端,道端,端末,,,,,
+常,"usual, ordinary, normal, common, regular, continually, always, long-lasting",常識,異常,常に,非常,日常,,,,,
+経,"sutra, longitude, pass thru, expire, warp",経済,経験,経つ,経る,経由,,,,,
+倍,"double, twice, times, fold",倍増,倍額,倍率,二倍,数倍,,,,,
+増,"increase, add, augment, gain, promote",増える,増加,増やす,増す,増大,,,,,
+節,"node, season, period, occasion, verse, joint, knuckle, knob, knot, tune, melody",季節,節約,調節,関節,音節,,,,,
+訳,"translate, reason, circumstance, case",翻訳,通訳,訳す,言い訳,内訳,,,,,
+視,"inspection, regard as, see, look at",視野,視覚,近視,無視,監視,,,,,
+沿,"run alongside, follow along, run along, lie along",沿岸,沿う,川沿い,沿海,沿道,,,,,
