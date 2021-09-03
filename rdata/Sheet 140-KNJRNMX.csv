@@ -19,6 +19,16 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 十,ten,二十日,十分,十字路,二十歳,十日
 聞,"hear, ask, listen",新聞,聞く,聞こえる,聴聞,見聞
 語,"word, speech, language",英語,言語,物語,国語,略語
+年,"year, counter for years",少年,年寄り,青年,今年,去年
+出,"exit, leave, go out, come out, put out, protrude",出版,輸出,出る,出す,出血
+話,"tale, talk",電話,会話,話す,世話,話し合う
+山,mountain,登山,火山,山脈,山火事,氷山
+千,thousand,千里,何千,数千,千円札,千葉県
+下,"below, down, descend, give, low, inferior",靴下,地下鉄,下手,下がる,以下
+女,"woman, female",女性,少女,女の子,彼女,女子
+三,three,三つ,再三,三日,三振,第三者
+九,nine,九つ,九日,九州,九重,十九
+円,"circle, yen, round",円満,円滑,円柱,円高,円卓
 言,"say, word",言葉,言語,言う,方言,助言
 手,hand,手紙,切手,手袋,握手,拍手
 主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
@@ -138,3 +148,4 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 減,"dwindle, decrease, reduce, decline, curtail, get hungry",減る,減らす,加減,削減,減衰
 及,"reach out, exert, exercise, cause",普及,及ぶ,及ぼす,追及,言及
 望,"ambition, full moon, hope, desire, aspire to, expect",希望,望む,望み,失望,絶望
+廃,"abolish, obsolete, cessation, discarding, abandon",廃止,廃棄,廃絶,廃業,荒廃
