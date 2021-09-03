@@ -13,6 +13,12 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 大,"large, big",大学,莫大,大変,大切,大勢
 何,what,何時も,何で,何しろ,何分,何となく
 来,"come, due, next, cause, become",未来,来週,将来,本来,来日
+西,west,西洋,西暦,関西,東西,西日
+長,"long, leader, superior, senior",校長,議長,長い,社長,成長
+気,"spirit, mind, air, atmosphere, mood",病気,電気,気分,天気予報,気候
+十,ten,二十日,十分,十字路,二十歳,十日
+聞,"hear, ask, listen",新聞,聞く,聞こえる,聴聞,見聞
+語,"word, speech, language",英語,言語,物語,国語,略語
 言,"say, word",言葉,言語,言う,方言,助言
 手,hand,手紙,切手,手袋,握手,拍手
 主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
@@ -33,6 +39,10 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 葉,"leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece",言葉,紅葉,落ち葉,葉っぱ,合言葉
 流,"current, a sink, flow, forfeit",流れる,交流,流す,流通,流行
 然,"sort of thing, so, if so, in that case, well",偶然,自然,突然,全然,天然
+戦,"war, battle, match",戦争,戦闘,戦術,戦う,戦略
+性,"sex, gender, nature",女性,男性,性別,理性,性格
+対,"vis-a-vis, opposite, even, equal, versus, anti-, compare",対象,反対,絶対,対策,応対
+関,"connection, barrier, gateway, involve, concerning",玄関,関係,関税,関心,関連
 軍,"army, force, troops, war, battle",軍隊,軍事,軍艦,軍備,軍縮
 兵,"soldier, private, troops, army, warfare, strategy, tactics",兵器,兵隊,兵士,核兵器,兵役
 島,island,半島,島国,列島,島々,小島
@@ -55,6 +65,21 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 吉,"good luck, joy, congratulations",不吉,吉報,吉兆,末吉,吉凶
 士,"gentleman, scholar, samurai",博士,武士,紳士,修士,同士
 藤,wisteria,葛藤,藤,藤棚,藤豆,藤灰
+井,"well, well crib, town, community",井戸,天井,油井,井戸掘り,福井県
+江,"creek, inlet, bay",江戸,江戸川,江戸城,江戸前,入り江
+張,"lengthen, counter for bows & stringed instruments, stretch, spread, put up (tent)",張る,主張,緊張,引っ張る,出張
+松,pine tree,松明,松葉杖,松の木,赤松,松葉
+応,"apply, answer, yes, reply, accept, satisfy",反応,応じる,一応,応急,適応
+視,"inspection, regard as, see, look at",視野,視覚,監視,重視,視察
+態,"attitude, condition, figure, appearance",形態,態度,事態,状態,態と
+姿,"figure, form, shape",姿勢,容姿,後ろ姿,姿見,雄姿
+皇,emperor,天皇,皇居,皇帝,皇太子,皇位
+宮,"Shinto shrine, constellations, palace, princess",宮殿,子宮,迷宮,宮廷,天満宮
+離,"detach, separation, disjoin, digress",離婚,距離,離れる,離す,分離
+基,"fundamentals, radical (chem), counter for machines, foundation",基礎,基金,基本,基づく,基準
+隊,"regiment, party, company, squad",軍隊,兵隊,部隊,中隊,連隊
+素,"elementary, principle, naked, uncovered",酸素,水素,炭素,元素,要素
+価,"value, price",物価,価格,評価,価値,定価
 根,"root, radical, head",根気,屋根,垣根,根回し,根拠
 修,"discipline, conduct oneself well, study, master",習得,修士,修理,修正,研修
 誤,"mistake, err, do wrong, mislead",誤り,誤解,誤差,誤る,誤植
