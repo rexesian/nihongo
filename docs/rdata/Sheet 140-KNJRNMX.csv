@@ -59,6 +59,9 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 北,north,北側,北海道,東北,北東,北口
 読,read,読書,読む,購読,解読,読み方
 車,car,自動車,駐車場,発車,自転車,電車
+分,"part, minute of time, segment, share, degree",気分,分析,自分,半分,多分
+生,"life, genuine, birth",生活,生きる,生まれる,生む,生意気
+男,male,男性,男の子,男子,長男,男女
 言,"say, word",言葉,言語,言う,方言,助言
 手,hand,手紙,切手,手袋,握手,拍手
 主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
@@ -181,3 +184,4 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 廃,"abolish, obsolete, cessation, discarding, abandon",廃止,廃棄,廃絶,廃業,荒廃
 逃,"Escape, flee, shirk, evade, set free",逃げる,逃がす,逃れる,逃す,見逃す
 挑,"challenge, contend for, make love to",挑戦,挑む,挑発,初挑戦,挑発的
+購,"subscription, buy",購入,購買,購買力,購入品,購入先
