@@ -163,6 +163,7 @@ ktbjn <- read_csv("rdata/Sheet 140-KNJRNMX.csv")
 ktlmn <- read_csv("rdata/Sheet 141-KNJRNMX.csv")
 ktbjx <- read_csv("rdata/Sheet 142-KNJRNMX.csv")
 vxsnt <- read_csv("rdata/Sheet 143-VXDFG.csv")
+ktbs1 <- read_csv("rdata/Sheet 144-KNJRNMX.csv")
 
 ```
 
@@ -3291,6 +3292,65 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+ktbjn <- ktbjn %>% slice(1:80)
+ktbjn <- ktbjn[sample(1:nrow(na.omit(ktbjn))),]
+
+reactable(
+  na.omit(ktbjn),
+  columns = list(
+    Kanji = colDef(
+      cell = function(value, index) {
+        w1 <- ktbjn$w1[index]
+        w1 <- if (!is.na(w1)) w1 else "."
+        w2 <- ktbjn$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "."
+        w3 <- ktbjn$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "."
+        w4 <- ktbjn$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "."
+        w5 <- ktbjn$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "."
+        Base.Meaning <- ktbjn$Base.Meaning[index]
+        Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
+        tagList(
+          div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5),
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 500), Base.Meaning),
+        )
+      },
+      align = "center"
+    ),
+    w1 = colDef(show = FALSE),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE),
+    Base.Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 3,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### M2
+
+```{r, echo=FALSE, message=FALSE}
+
 ktbjn <- ktbjn[sample(1:nrow(na.omit(ktbjn))),]
 
 reactable(
@@ -3482,6 +3542,59 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+##### S1
+
+
+```{r, echo=FALSE, message=FALSE}
+
+ktbs1 <- ktbs1 %>% slice(1:80)
+set.seed(7634)
+ktbs1 <- ktbs1[sample(1:nrow(na.omit(ktbs1))),]
+reactable(
+  na.omit(ktbs1),
+  columns = list(
+    Words = colDef(
+      cell = function(value, index) {
+        w2 <- ktbs1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "."
+        w3 <- ktbs1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "."
+        w4 <- ktbs1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "."
+        w5 <- ktbs1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "."
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+        )
+      },
+      align = "center"
+    ),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
