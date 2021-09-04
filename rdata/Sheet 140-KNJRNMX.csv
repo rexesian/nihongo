@@ -29,6 +29,39 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 三,three,三つ,再三,三日,三振,第三者
 九,nine,九つ,九日,九州,九重,十九
 円,"circle, yen, round",円満,円滑,円柱,円高,円卓
+本,"book, present, main, origin, true, real",基本,本能,本質,本棚,本物
+中,"in, inside, middle, mean, center",夜中,中立,途中,中心,背中
+高,"tall, high, expensive",高速,高価,最高,高校,高い
+今,now,今週,今年,今日,今朝,今回
+右,right,右手,右側,右折,左右,右足
+母,mother,祖母,お母さん,母校,母親,乳母車
+前,"in front, before",午前,手前,前提,名前,以前
+入,"enter, insert",収入,輸入,入学,入れる,入る
+電,electricity,停電,電池,電気,電車,電話
+父,father,父親,祖父母,お父さん,伯父,祖父
+子,child,椅子,子供,息子,菓子,帽子
+見,"see, hopes, chances, idea, opinion, look at, visible",発見,見せる,花見,見る,見物
+書,write,教科書,書く,書店,図書館,書類
+五,five,五日,五分,五つ,五目,五感
+左,left,左手,左肩,左利き,左折,左側
+半,"half, middle, odd number, semi-, part-",半島,半分,大半,半端,半ば
+八,eight,八つ,八丁,十八番,八百屋,八日
+水,water,水泳,香水,淡水,水道,水分
+天,"heavens, sky, imperial",天才,天候,天気,天然,晴天
+木,"tree, wood",木材,植木,並木,木綿,木の葉
+国,country,国民,国語,外国,国籍,国際
+上,"above, up",上手,上る,上げる,上着,以上
+名,"name, noted, distinguished, reputation",署名,有名,名所,名刺,名物
+金,gold,金属,現金,金融,金庫,お金
+火,fire,火災,火山,花火,下火,火事
+毎,every,毎朝,毎晩,毎日,毎度,毎回
+土,"soil, earth, ground",土産,土地,土台,粘土,土手
+北,north,北側,北海道,東北,北東,北口
+読,read,読書,読む,購読,解読,読み方
+車,car,自動車,駐車場,発車,自転車,電車
+分,"part, minute of time, segment, share, degree",気分,分析,自分,半分,多分
+生,"life, genuine, birth",生活,生きる,生まれる,生む,生意気
+男,male,男性,男の子,男子,長男,男女
 言,"say, word",言葉,言語,言う,方言,助言
 手,hand,手紙,切手,手袋,握手,拍手
 主,"lord, chief, master, main thing, principal",主食,主人公,主体,地主,主張
@@ -149,3 +182,6 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 及,"reach out, exert, exercise, cause",普及,及ぶ,及ぼす,追及,言及
 望,"ambition, full moon, hope, desire, aspire to, expect",希望,望む,望み,失望,絶望
 廃,"abolish, obsolete, cessation, discarding, abandon",廃止,廃棄,廃絶,廃業,荒廃
+逃,"Escape, flee, shirk, evade, set free",逃げる,逃がす,逃れる,逃す,見逃す
+挑,"challenge, contend for, make love to",挑戦,挑む,挑発,初挑戦,挑発的
+購,"subscription, buy",購入,購買,購買力,購入品,購入先

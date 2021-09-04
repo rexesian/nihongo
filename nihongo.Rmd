@@ -3291,6 +3291,8 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+ktbjn <- ktbjn[sample(1:nrow(na.omit(ktbjn))),]
+
 reactable(
   na.omit(ktbjn),
   columns = list(
