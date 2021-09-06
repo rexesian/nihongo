@@ -163,7 +163,7 @@ ktbjn <- read_csv("rdata/Sheet 140-KNJRNMX.csv")
 ktlmn <- read_csv("rdata/Sheet 141-KNJRNMX.csv")
 ktbjx <- read_csv("rdata/Sheet 142-KNJRNMX.csv")
 vxsnt <- read_csv("rdata/Sheet 143-VXDFG.csv")
-ktbs1 <- read_csv("rdata/Sheet 144-KNJRNMX.csv")
+ktbs <- read_csv("rdata/Sheet 144-KNJRNMX.csv")
 
 ```
 
@@ -3550,7 +3550,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-ktbs1 <- ktbs1 %>% slice(1:80)
+ktbs1 <- ktbs %>% slice(1:80)
 set.seed(7634)
 ktbs1 <- ktbs1[sample(1:nrow(na.omit(ktbs1))),]
 reactable(
@@ -3595,6 +3595,56 @@ reactable(
 
 ```
 
+------------------------------------------------------------------------
+
+##### S2
+
+```{r, echo=FALSE, message=FALSE}
+
+ktbs1 <- ktbs %>% slice(81:90)
+set.seed(7634)
+ktbs1 <- ktbs1[sample(1:nrow(na.omit(ktbs1))),]
+reactable(
+  na.omit(ktbs1),
+  columns = list(
+    Words = colDef(
+      cell = function(value, index) {
+        w2 <- ktbs1$w2[index]
+        w2 <- if (!is.na(w2)) w2 else "."
+        w3 <- ktbs1$w3[index]
+        w3 <- if (!is.na(w3)) w3 else "."
+        w4 <- ktbs1$w4[index]
+        w4 <- if (!is.na(w4)) w4 else "."
+        w5 <- ktbs1$w5[index]
+        w5 <- if (!is.na(w5)) w5 else "."
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+        )
+      },
+      align = "center"
+    ),
+    w2 = colDef(show = FALSE),
+    w3 = colDef(show = FALSE),
+    w4 = colDef(show = FALSE),
+    w5 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
