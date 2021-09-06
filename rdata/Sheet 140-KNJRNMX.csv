@@ -89,6 +89,16 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 知,"know, wisdom",知識,知恵,知る,知能,知らせる
 味,"flavor, taste",意味,趣味,味噌,興味,味覚
 界,"world, boundary",世界,限界,境界,政界,視界
+自,oneself,自由,自然,自分,自信,自我
+者,"someone, person",患者,学者,医者,後者,著者
+文,"sentence, literature, style, art, decoration, figures, plan",作文,文化,文学,論文,文法
+屋,"roof, house, shop, dealer, seller",屋根,家屋,部屋,屋上,小屋
+朝,"morning, dynasty, regime, epoch, period",毎朝,朝霧,今朝,早朝,朝食
+題,"topic, subject",問題,宿題,難題,話題,題名
+理,"logic, arrangement, reason, justice, truth",料理,理解,理由,理想,代理
+同,"same, agree, equal",同情,同じ,同調,同志,混同
+無,"nothingness, none, ain't, nothing, nil, not",無料,無くす,無限,無理,無効
+少,"few, little",少年,少女,少し,少ない,多少
 合,"fit, suit, join",合図,組合,集合,待合室,試合
 部,"section, bureau, dept, class, copy, part, portion, counter for copies",部屋,全部,部分,部品,外部
 彼,"he, that, the",彼,彼女,彼ら,彼方,彼奴
@@ -208,3 +218,5 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 際,"occasion, side, edge, verge, dangerous, adventurous, indecent, time, when",実際,交際,国際,間際,際立つ
 絶,"discontinue, sever, cut off, abstain, interrupt, suppress, be beyond",絶滅,絶対,絶版,絶える,絶好
 好,"fond, pleasing, like something",好き,好む,格好,好み,好意
+理,"logic, arrangement, reason, justice, truth",修理,処理,管理,調理,整理
+無,"nothingness, none, ain't, nothing, nil, not",無駄,無視,無くなる,無知,無事
