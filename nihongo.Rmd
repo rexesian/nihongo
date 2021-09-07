@@ -22178,7 +22178,11 @@ reactable(
 `chores; odd jobs; miscellaneous affairs` 雑用  
 `misuse; incorrect use; abuse; malapropism` 誤用  
 `external use` 外用  
-`private automobile​` 飲用
+`drinking` 飲用  
+`official language` 公用語  
+`exclusive line (communications); dedicated line` 専用線  
+`making use of; application; practical use; effective management (e.g. of funds)` 運用  
+`customary use; common usage; general usage` 慣用  
 
 ------------------------------------------------------------------------
 
