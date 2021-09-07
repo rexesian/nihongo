@@ -6016,7 +6016,8 @@ A more detailed explanations will be encountered along the way for each item.
     つまり　　　◦ That is to say, In other words     
     ようするに　◦ In short, I a word, To sum up 
     けっきょく　◦ After all, In the end                 
-    というか　　◦ Or..should I say              
+    というか　　◦ Or..should I say     
+    ちなみに    ◦ By the way, in this connection, incidentally 
 
 ------------------------------------------------------------------------
 
@@ -6109,6 +6110,7 @@ A more detailed explanations will be encountered along the way for each item.
     ・要するに彼らは間違っている    
     ・結局は金の問題だ    
     ・そんなことをするなんて、ほんとに馬鹿というか、困った人だ
+    ・ちなみに、言わなくちゃいけないことがあるんだけどさ
 
 <!-- <h> -->
 
@@ -6116,6 +6118,7 @@ A more detailed explanations will be encountered along the way for each item.
     ・In a word, they are mistaken
     ・In the end, it's a question of money
     ・That he would do something like that means he's really a fool, or maybe I should say trouble maker
+    ・By the way, there's something I should tell you
 
 ------------------------------------------------------------------------
 
@@ -11252,9 +11255,18 @@ reactable(
 
 **①　da**`Informal`
 
+    このビーチはサーファーのパラダイスだ
+    This beach is a surfer's paradise
+
 **②　desu**`Formal`
 
+    ジャックダニエルはテネシーのウイスキーです
+    Jack Daniels is a Tennessee whiskey
+
 **③　dearu**`Literary`
+
+    スキーをすることは良いレクリエーションである
+    Skiing is a good recreation
 
 ------------------------------------------------------------------------
 
