@@ -32,27 +32,27 @@ Script,Meaning,Expression,Concept
 ご飯を食べなきゃ,I have to eat,⚭ Vn + nakya → Vnakya,"must, have to (obligation)"
 勉強しなくちゃ,I have to study,⚭ Vn + nakucha → Vnakucha,"must, have to (obligation)"
 学校に行かないと,I have to go to school,⚭ Vn + naito → Vnaito,"must, have to (obligation)"
-財布は泥棒に盗まれました,My wallet was stolen by a thief,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-彼はみんなに知られています,He is known by everyone,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-先生に質問されました,I was asked a question by the teacher,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-パンが誰かに食べられた,The bread was eaten by somebody,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-見られた！,Someone saw me,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-この本は多くの人に読まれている,This book is being read by a large number of people,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-窓は田中さんに開けられた,The window was opened by Mr. Tanaka,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-田中さんに窓を開けられた,Mr. Tanaka opened the window,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-田中さんに家を建てられた,Mr. Tanaka built a house,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-外国人に質問を聞かれた,I was asked a question by a foreigner,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-彼女に料理がまずかったって言われた,She told me that the food was bad,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-お母さんに変だと言われます,I am told by my mother that I am strange,⚭ Vn + reru/rareru → Vreru/rareru,I got/done by someone(passive form)
-ネタバレされた,Someone spoiled (the story),⚭ suru → sareru,I got/done by someone(passive form)
-彼女に浮気された,She cheated on me (and I’m upset),⚭ suru → sareru,I got/done by someone(passive form)
-,,⚭ Vn + seru/saseru → Vseru/saseru,let/made someone do (causative form)
-,,⚭ Vn + sete/sasete + ageru → Vsete/sasete ageru,I let someone do (causative form)
-,,⚭ Vn + sete/sasete + kureru → Vsete/saste kureru,someone let me do (causative form)
-,,⚭ Vn + sete/sasete + morau → Vsete/sasete morau,I have / had someone to let me do (causative form)
-,,⚭ Vn + serareru/saserareru → Vserareru/saserareru,I got let / made do it (causative-passive form)
-,,⚭ Vn + zuni → Vzuni,without doing 
-,,⚭ Vn + zuni wa irarenai → Vzuni wa irarenai,can’t help but do
+財布は泥棒に盗まれました,My wallet was stolen by a thief,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+彼はみんなに知られています,He is known by everyone,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+先生に質問されました,I was asked a question by the teacher,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+パンが誰かに食べられた,The bread was eaten by somebody,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+見られた！,Someone saw me,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+この本は多くの人に読まれている,This book is being read by a large number of people,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+窓は田中さんに開けられた,The window was opened by Mr. Tanaka,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+田中さんに窓を開けられた,Mr. Tanaka opened the window,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+田中さんに家を建てられた,Mr. Tanaka built a house,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+外国人に質問を聞かれた,I was asked a question by a foreigner,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+彼女に料理がまずかったって言われた,She told me that the food was bad,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+お母さんに変だと言われます,I am told by my mother that I am strange,⚭ Vn + reru/rareru → Vreru/rareru,(I) got / done by someone (passive form)
+ネタバレされた,Someone spoiled (the story),⚭ suru → sareru,(I) got / done by someone (passive form)
+彼女に浮気された,She cheated on me (and I’m upset),⚭ suru → sareru,(I) got / done by someone (passive form)
+先生が学生に宿題をたくさんさせた,Teacher made students do lots of homework,⚭ Vn + seru/saseru → Vseru/saseru,Let / made someone do (causative form)
+私は田中さんに運転させてあげる,I let Mr. Tanaka to drive,⚭ Vn + sete/sasete + ageru → Vsete/sasete ageru,I let someone do (causative form)
+田中さんは私に運転させてくれる,Mr. Tanaka let me drive,⚭ Vn + sete/sasete + kureru → Vsete/sasete kureru,Someone let me do (causative form)
+私は田中さんに運転させてもらう,I have Mr. Tanaka to let me drive,⚭ Vn + sete/sasete + morau → Vsete/sasete morau,I have / had someone to let me do (causative form)
+朝ご飯は食べたくなかったのに、食べさせられた,"Despite not wanting to eat breakfast, I was made to eat it",⚭ Vn + serareru/saserareru → Vserareru/saserareru,I got let / made do it (causative-passive form)
+明日忘れずに彼に会って下さい,Don't forget to see him tomorrow,⚭ Vn + zuni → Vzuni,without doing 
+彼女を愛さずにはいられないなあ,I can't help but love her,⚭ Vn + zuni wa irarenai → Vzuni wa irarenai,can’t help but do
 彼の話はちっち信じられません,I don't believe a word he's saying,⚭ Vnn → Vnoun,verb into noun
 小説の初めは一番大切です,The beginning of a novel is the most important,⚭ Vnn → Vnoun,verb into noun
 お手紙を読み、すぐに返事を書きました,I read your letter and wrote you back straight away,⚭ Vnn → Vnoun,connective form
