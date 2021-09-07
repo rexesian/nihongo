@@ -22108,6 +22108,78 @@ reactable(
 `logic` 論理  
 `reasoning; inference; deduction` 推理  
 
+`to leak; to run out; vi` 漏る  
+`to leak out; to escape; to come through; to shine through; to filter out;  to be disclosed; to be left out; vi` 漏れる  
+`to let leak; to let out (e.g. light); to leak; to disclose; to omit; to leave out; vt` 漏らす  
+`to serve (on a plate); to dish out; to pile up; to heap up; to administer; to put into (an info); to mark out; vt (moru)` 盛る  
+`to prosper; to flourish; vi (sakaru)` 盛る  
+`prosperous; flourishing; thriving; successful; popular; widespread` 盛ん  
+
+`cost; expense` 費用  
+`quotation; citation; reference` 引用  
+`practical use; application` 活用  
+`use; utilization; utilisation; application` 利用  
+`preparation; arrangements; provision; getting ready; laying out (e.g. a meal)` 用意  
+`abuse; misuse; misappropriation; using to excess` 乱用  
+`tasks; things to do; errand; business (to take care of); affairs; engagement` 用事  
+`confidence; trust; faith; reputation` 信用  
+`use; application; employment; utilization; utilisation` 使用  
+`applying (e.g. a technology); adoption` 適用  
+`on business; for business; business purpose` 商用  
+`care; precaution; guarding; caution` 用心  
+`skillful; skilful; adroit; dexterous; dextrous; deft; nimble; handy; clever` 器用  
+`(practical) application; putting to practical use` 応用  
+`term; terminology` 用語  
+`daily necessities` 日用品  
+`practical use; utility​` 実用  
+`use; service; purpose` 用途  
+`popular use; circulation` 通用  
+`use; adoption; acceptance` 採用  
+`blank form` 用紙  
+`employment (long term); hire` 雇用  
+`substitution` 代用  
+`(one's) exclusive use; private use; personal use; dedicated use` 専用  
+`useless; futile; unnecessary; needless` 無用  
+`articles; supplies; parts` 用品  
+`official business; government business; public business; company duties; public use; government use` 公用  
+`business; thing to be done; something that should be performed; information that should be conveyed` 用件  
+`employee; servant` 使用人  
+`personal use; private use` 私用  
+`directions; rules of use` 用法  
+`multi-use; combined use; combination; serving two purposes` 兼用  
+`side effect; adverse reaction` 副作用  
+`action; operation; effect; function` 作用  
+`full employment` 完全雇用  
+`interaction` 相互作用  
+`useful; helpful` 有用  
+`taking medicine; dosing` 服用  
+`wearing (e.g. uniform, seat belt); having on` 着用  
+`common use; communal use; sharing` 共用  
+`for use as food; edible` 食用  
+`unprepared` 不用意  
+`site` 用地  
+`user; end-user; consumer` 利用者  
+`habitual use; daily use` 常用  
+`tool; implement; instrument; equipment` 用具  
+`favorite; favourite; habitually used` 愛用  
+`user; consumer` 使用者  
+`using together (jointly); used at the same time` 併用  
+`appointment (to a position, job, etc.); being used for a role; promotion` 起用  
+`diversion; putting something to another use` 転用  
+`(passenger) car; automobile` 乗用車  
+`clumsy; awkward; unskillfulness; lack of ability` 不器用  
+`urgent business` 急用  
+`practical; useful; utilitarian; pragmatic` 実用的  
+`careful; cautious; wary; watchful; vigilant; prudent` 用心深い  
+`example; illustration` 用例  
+`writing implement; writing tool` 筆記用具  
+`abuse; misuse; perversion` 悪用  
+`for use by children; for children` 子供用  
+`chores; odd jobs; miscellaneous affairs` 雑用  
+`misuse; incorrect use; abuse; malapropism` 誤用  
+`external use` 外用  
+`private automobile​` 飲用
+
 ------------------------------------------------------------------------
 
 #### AW {.tabset}
