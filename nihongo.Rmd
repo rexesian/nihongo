@@ -21978,74 +21978,70 @@ reactable(
 
 #### RN
 
-発展`development/growth/expansion`  
-発達`development/growth`  
-展開`development/progression/unfolding/expansion`  
-開発`development/exploitation`  
-現像`development (of film)/photographic processing`  
-成長`growth/development/growing up`  
-進展`progress/development`  
+発展`development; growth; expansion`  
+発達`development; growth`  
+展開`development; progression; unfolding; expansion`  
+開発`development; exploitation`  
+現像`development (of film); photographic processing`  
+成長`growth; development; growing up`  
+進展`progress; development`  
 発育`(physical) growth/development`  
-進歩`progress/advance/improvement/development`  
-開拓`reclamation/cultivation/development`  
-生育`birth and growth/development/breeding`  
-養成`training/education/development/cultivation`  
-造成`development of land/preparation/reclamation`  
-整備`maintenance/servicing`  
+進歩`progress; advance; improvement; development`  
+開拓`reclamation; cultivation; development`  
+生育`birth and growth; development; breeding`  
+養成`training; education; development; cultivation`  
+造成`development of land; preparation; reclamation`  
+整備`maintenance; servicing`  
 
-------------------------------------------------------------------------
+非常`emergency`   
+応急`emergency; first-aid`     
+緊急`urgency`   
+万一`if by some chance`   
+危機`crisis`   
+非難`criticism; blame`   
+避難`taking refuge; finding shelter; evacuation`   
 
-#### RW
+期待`expectation; anticipation`   
+予想`expectation; anticipation; prediction`   
+思惑`expectation; anticipation; prediction; forecast`   
+先見`foresight; anticipation`   
 
-`emergency` 非常  
-`emergency; first-aid` 応急    
-`urgency` 緊急  
-`if by some chance` 万一  
-`crisis` 危機  
-`criticism; blame` 非難  
-`taking refuge; finding shelter; evacuation` 避難  
+拡散`scattering; diffusion; spread`   
+解散`breaking up (e.g. meeting); dispersing (e.g. crowd)`   
+発散`emission; emanation; radiation; diffusion`   
+分散`dispersion; breakup; scattering; decentralization`   
 
-`expectation; anticipation` 期待  
-`expectation; anticipation; prediction` 予想  
-`expectation; anticipation; prediction; forecast` 思惑  
-`foresight; anticipation` 先見  
+費用`cost; expense`   
+値段`price; cost`   
+代金`price; cost; charge; payment; bill; fee`   
+価格`price; value; cost`   
+経費`expenses; expenditure; outgoings`   
+物価`prices of commodities; prices (in general); cost-of-living`   
+会計`accounting; finance; account; reckoning; bill (at a restaurant); check`   
+勘定`calculation; computation; counting; bill; check; account; payment (of a bill)`   
+請求書`bill; job invoice`   
+手数料`(handling) fee; charge (e.g. for a cancellation); commission; brokerage`   
 
-`scattering; diffusion; spread` 拡散  
-`breaking up (e.g. meeting); dispersing (e.g. crowd)` 解散  
-`emission; emanation; radiation; diffusion` 発散  
-`dispersion; breakup; scattering; decentralization` 分散  
-
-`cost; expense` 費用  
-`price; cost` 値段  
-`price; cost; charge; payment; bill; fee` 代金  
-`price; value; cost` 価格  
-`expenses; expenditure; outgoings` 経費  
-`prices of commodities; prices (in general); cost-of-living` 物価  
-`bill; job invoice` 請求書  
-`accounting; finance; account; reckoning; bill (at a restaurant); check` 会計  
-`calculation; computation; counting; bill; check; account; payment (of a bill)` 勘定  
-`(handling) fee; charge (e.g. for a cancellation); commission; brokerage` 手数料  
-
-`consumption; expenditure` 消費  
-`waste; extravagance` 浪費  
-`expenses; expenditure; outgoings; outlays; costs` 経費  
-`expenses; disbursements` 出費  
-`consumption tax (incl. sales tax, VAT, excise duty, etc.)` 消費税  
-`tuition; school expenses` 学費  
-`fuel consumption; gas mileage` 燃費  
-`membership fee` 会費  
-`travel expenses` 旅費  
-`food expense` 食費
-`traveling expenses; travelling expenses; carfare` 交通費  
-`one's own expense; out-of-pocket expense` 自費  
-`living expenses` 生活費  
-`actual expenses; out-of-pocket expenses` 実費  
-`amount of consumption` 消費量  
-`production costs` 生産費  
-`medical expenses; doctor's bill` 医療費  
-`household expenses` 家計費  
-`advertising expenses` 広告費  
-`wedding expenses` 結婚費用  
+消費`consumption; expenditure`   
+浪費`waste; extravagance`   
+経費`expenses; expenditure; outgoings; outlays; costs`   
+出費`expenses; disbursements`   
+消費税`consumption tax (incl. sales tax, VAT, excise duty, etc.)`   
+学費`tuition; school expenses`   
+燃費`fuel consumption; gas mileage`   
+会費`membership fee`   
+旅費`travel expenses`   
+食費`food expense` 
+交通費`traveling expenses; travelling expenses; carfare`   
+自費`one's own expense; out-of-pocket expense`   
+生活費`living expenses`   
+実費`actual expenses; out-of-pocket expenses`   
+消費量`amount of consumption`   
+生産費`production costs`   
+医療費`medical expenses; doctor's bill`   
+家計費`household expenses`   
+広告費`advertising expenses`   
+結婚費用`wedding expenses`   
 
 `(passenger) fare; freight rates; shipping expenses` 運賃  
 `fee; charge; fare` 料金  
@@ -22358,124 +22354,144 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### AW {.tabset}
+#### AZ {.tabset}
 
 ##### A
 
-日本についての映画`a film about Japan`
-の上に`above`
-外国で`abroad`
-脱脂綿`absorbent cotton`
-受け取る`accept・receive・get`
-受け付ける`accept・receive・take up`
-事故`accident`
-口座`account`
-正確`accurate・correct`
-痛み`ache`
-道の向こう側`across the road`
-住所`address`
-住所録`address book`
-入場料`admission fee`
-大人`adult`
-前もって`advance・in advance・beforehand`
-飛行機`airplane`
-後で`afterwards`
-どうぞお先に`after you`
-昼食後に`after lunch`
-結局`after all`
-午後`afternoon`
-また`again`
-反対`against`
-代理人`agent`
-前`ago`
-1週間前`a week ago`
-1時間前`an hour ago`
-同感`agreement`
-空気`air`
-エアコン`air condition`
-航空便よう`airmail`
-空港`airport`
-通路側の席`aisle seat`
-目覚まし時計`alarm clock`
-アルコール`alcohol`
-お酒`alcohol drink`
-みんな`all・everyone`
-それ全部`all of it`
-全部`all`
-アレルギ`allergy`
-結構です`alright`
-大丈夫です`are you alright`
-ほとんど`almost・most`
-もう`already・again`
-全部で`altogether`
-いつも`always`
-驚くべき`amazing・astonishing`
-救急車`ambulance`
-中で`among`
-量`amount`
-そして`and`
-怒った`angry`
-動物`animal`
-足首`ankle`
-結婚記念日`anniversary`
-いらいらする`annoying`
-別の`another`
-抗生物質`antibiotics`
-骨董`antique`
-骨董品店`antique shop`
-消毒剤`antiseptic`
-予約`appointment・reservation`
-あんず`apricot`
-地域`area・region`
-市外局番`area code`
-腕`arm`
-手配します`arrangement・preparation`
-到着`arrival`
-着きます`arrive`
-美術`art`
-美術館`art gallery`
-芸術`art・fine arts`
-芸術家`artist`
-大至急`as soon as possible`
-成るべく`as (much) as possible・if possible`
-努めて`as much as possible・as far as possible`
-出来るだけ`as much as possible・as much as one can`
-出来るだけ早く`as soon as possible`
-頼む`ask`
-アスピリン`aspirin`
-喘息`asthma`
-ホテルで`at the hotel`
-駅で`at the station`
-魅力的`attractive`
-自動`automatic`
-秋`autumn`
-雪崩`avalanche`
-お踊り`avenue`
-平均的`average`
-ひどい`awful`
+日本についての映画`a film about Japan`  
+の上に`above`  
+外国で`abroad`  
+脱脂綿`absorbent cotton`  
+受け取る`accept・receive・get`  
+受け付ける`accept・receive・take up`  
+事故`accident`  
+口座`account`  
+正確`accurate・correct`  
+痛み`ache`  
+道の向こう側`across the road`  
+住所`address`  
+住所録`address book`  
+入場料`admission fee`  
+大人`adult`  
+前もって`advance・in advance・beforehand`  
+飛行機`airplane`  
+後で`afterwards`  
+どうぞお先に`after you`  
+昼食後に`after lunch`  
+結局`after all`  
+午後`afternoon`  
+また`again`  
+反対`against`  
+代理人`agent`  
+前`ago`  
+1週間前`a week ago`  
+1時間前`an hour ago`  
+同感`agreement`  
+空気`air`  
+エアコン`air condition`  
+航空便よう`airmail`  
+空港`airport`  
+通路側の席`aisle seat`  
+目覚まし時計`alarm clock`  
+アルコール`alcohol`    
+お酒`alcohol drink`  
+みんな`all・everyone`  
+それ全部`all of it`  
+全部`all`  
+アレルギ`allergy`  
+結構です`alright`  
+大丈夫です`are you alright`  
+ほとんど`almost・most`  
+もう`already・again`  
+全部で`altogether`  
+いつも`always`  
+驚くべき`amazing・astonishing`  
+救急車`ambulance`  
+中で`among`  
+量`amount`  
+そして`and`  
+怒った`angry`  
+動物`animal`  
+足首`ankle`  
+結婚記念日`anniversary`  
+いらいらする`annoying`  
+別の`another`  
+抗生物質`antibiotics`  
+骨董`antique`  
+骨董品店`antique shop`  
+消毒剤`antiseptic`  
+予約`appointment・reservation`  
+あんず`apricot`  
+地域`area・region`  
+市外局番`area code`  
+腕`arm`  
+手配します`arrangement・preparation`  
+到着`arrival`  
+着きます`arrive`  
+美術`art`  
+美術館`art gallery`  
+芸術`art・fine arts`  
+芸術家`artist`  
+大至急`as soon as possible`  
+成るべく`as (much) as possible・if possible`  
+努めて`as much as possible・as far as possible`  
+出来るだけ`as much as possible・as much as one can`  
+出来るだけ早く`as soon as possible`  
+頼む`ask`  
+アスピリン`aspirin`  
+喘息`asthma`  
+ホテルで`at the hotel`  
+駅で`at the station`  
+魅力的`attractive`  
+自動`automatic`  
+秋`autumn`  
+雪崩`avalanche`  
+お踊り`avenue`  
+平均的`average`  
+ひどい`awful`  
 
 ------------------------------------------------------------------------
 
 ##### B
 
-赤ちゃん`baby`
-哺乳瓶`baby bottle`
-戻る`back・go back・return`
-戻ってきます`back・come back`
-戻っていきます`back・go back`
-腰の痛み`backache`
-悪い`bad`
-かばん`bag`
-荷物`baggage`
-パン屋`bakers`
-ベランダ`balcony`
-ボール`ball`
-竹`bamboo`
-バナナ`banana`
-包帯`bandage`
-銀行`bank`
-床屋`barbers`
-野球`baseball`
+赤ちゃん`baby`  
+哺乳瓶`baby bottle`  
+戻る`back・go back・return`  
+戻ってきます`back・come back`  
+戻っていきます`back・go back`  
+腰の痛み`backache`  
+悪い`bad`  
+かばん`bag`  
+荷物`baggage`  
+パン屋`bakers`  
+ベランダ`balcony`  
+ボール`ball`  
+竹`bamboo`  
+バナナ`banana`  
+包帯`bandage`  
+銀行`bank`  
+床屋`barbers`  
+野球`baseball`  
+
+------------------------------------------------------------------------
+
+##### C
+
+船室`cabin(on ship)`  
+山小屋`cabin(on mountains)`  
+ケーブルかー`cable car`  
+喫茶店`cafe`  
+ケーキ`cake`  
+
+------------------------------------------------------------------------
+
+##### D
+
+毎日`daily`  
+壊します`damage`  
+壊れた`damaged`  
+ちくしょう`damn!`  
+湿った`damped・moisted`  
 
 ------------------------------------------------------------------------
 
