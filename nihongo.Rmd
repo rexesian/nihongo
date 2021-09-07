@@ -22015,12 +22015,17 @@ reactable(
 値段`price; cost`   
 代金`price; cost; charge; payment; bill; fee`   
 価格`price; value; cost`   
+定価`list price; regular price; established price`  
 経費`expenses; expenditure; outgoings`   
 物価`prices of commodities; prices (in general); cost-of-living`   
 会計`accounting; finance; account; reckoning; bill (at a restaurant); check`   
 勘定`calculation; computation; counting; bill; check; account; payment (of a bill)`   
+評価`valuation; appraisal; evaluation; assessment; estimation; rating;`  
+高価`highly priced; expensive; valuable; costly`  
+高騰`sudden price jump; steep price rise`  
+相場`market price`  
+時価`current value; price; market value`  
 請求書`bill; job invoice`   
-手数料`(handling) fee; charge (e.g. for a cancellation); commission; brokerage`   
 
 消費`consumption; expenditure`   
 浪費`waste; extravagance`   
@@ -22031,7 +22036,7 @@ reactable(
 燃費`fuel consumption; gas mileage`   
 会費`membership fee`   
 旅費`travel expenses`   
-食費`food expense` 
+食費`food expense`  
 交通費`traveling expenses; travelling expenses; carfare`   
 自費`one's own expense; out-of-pocket expense`   
 生活費`living expenses`   
@@ -22043,31 +22048,52 @@ reactable(
 広告費`advertising expenses`   
 結婚費用`wedding expenses`   
 
-`(passenger) fare; freight rates; shipping expenses` 運賃  
-`fee; charge; fare` 料金  
-`half the amount (of money); half price; half fare` 半額  
-`ticket (for bus, train, etc.); passenger ticket` 乗車券  
-`admission fee` 入館料  
-`entrance fee; admission fee; admission; entrance charge` 入場料  
+運賃`(passenger) fare; freight rates; shipping expenses`   
+料金`fee; charge; fare`   
+半額`half the amount (of money); half price; half fare`   
+乗車券`ticket (for bus, train, etc.); passenger ticket`   
+入館料`admission fee`   
+入場料`entrance fee; admission fee; admission; entrance charge`   
+授業料`tuition fee; course fee`  
+使用料`use fee; rent`  
+手数料`(handling) fee; charge (e.g. for a cancellation); commission; brokerage`   
 
-`report; information` 報告  
-`report; return (e.g. tax); statement; declaration` 申告  
-`report (of news); reporting; news; informatio` 報道  
-`article; news story; report; account` 記事  
-`report; notification; tip; bulletin` 通報  
-`feature (e.g. newspaper); special edition; report` 特集  
-`information; news; intelligence; advices` 情報  
+料金`fee; charge; fare`  
+無料`free (of charge); gratuitous`  
+有料`fee-charging; paid; not free`  
+給料`salary; wages; pay`  
+送料`postage; carriage; shipping charge`  
 
-`cooking; cookery; cuisine; meal; food; dish` 料理  
-`cooking; food preparation` 調理  
-`cooking; kitchen work` 炊事  
-`cooking for oneself; cooking one's own food` 自炊  
-`cooking` 煮炊き  
-`cooking (esp. Japanese style); cuisine` 割烹  
-`Japanese cooking` 日本料理  
-`Chinese cooking; Chinese food` 中華料理  
-`cooking (rice, grains)` 炊さん  
-`home cooking` 手料理  
+食料`food`  
+飲料`beverage; drink`  
+材料`materials; ingredients`  
+燃料`fuel`  
+資料`materials; data; document`  
+原料`raw materials`  
+衣料`clothing`  
+試料`sample; specimen; test piece`  
+食料品`foodstuff; groceries`  
+調味料`seasoning; flavoring; flavouring; condiment`  
+香辛料`spice; spices; condiment`  
+
+報告`report; information`   
+申告`report; return (e.g. tax); statement; declaration`   
+報道`report (of news); reporting; news; informatio`   
+記事`article; news story; report; account`   
+通報`report; notification; tip; bulletin`   
+特集`feature (e.g. newspaper); special edition; report`   
+情報`information; news; intelligence; advices`   
+
+料理`cooking; cookery; cuisine; meal; food; dish`   
+調理`cooking; food preparation`   
+炊事`cooking; kitchen work`   
+自炊`cooking for oneself; cooking one's own food`   
+煮炊き`cooking`   
+割烹`cooking (esp. Japanese style); cuisine`   
+日本料理`Japanese cooking`   
+中華料理`Chinese cooking; Chinese food`   
+炊さん`cooking (rice, grains)`   
+手料理`home cooking`   
 
 `to bury; to embed; to implant` 埋め込む  
 `to take (be in) charge of` 受け持つ  
@@ -22352,6 +22378,33 @@ reactable(
 `making use of; application; practical use; effective management (e.g. of funds)` 運用  
 `customary use; common usage; general usage` 慣用  
 
+伝統食`traditional food; ancestral food`  
+現代風`modern style; modernness`  
+造り手`maker; builder; creator; tenant farmer`
+拘り`obsession; fixation; hangup; determination; fastidiousness; pickiness about (trait, style, etc.)`  
+想い`thought; imagination; mind; heart; desire; wish; hope; love; affection; feelings`  
+詰まる`to be packed (with); to be full (space, schedule, etc.); filled with; to be blocked`  
+品々`various articles`  
+日本各地`all over Japan`  
+厳選`careful selection; careful screening; hand-picking`  
+届ける`to deliver; to forward; to send; to report; to notify;`  
+ご褒美`reward; prize`  
+食卓`dining table`  
+彩る`to colour; to color; to paint; to apply make-up; to decorate; to garnish; to adorn; to add flair`  
+地方`district; region; area; locality`  
+究極`ultimate; extreme; final; eventual`  
+親子丼`oyakodon; chicken and egg on rice`  
+お強`glutinous rice steamed with red beans or some other ingredient`  
+逸品`article of rare beauty; gem`  
+手毬`traditional Japanese handball game`  
+見た目`appearance`  
+零れる`to spill; to fall out of; to overflow; to peek through; to become visible; to escape (smile, etc)`  
+あでやか`glamorous; glamourous; charming; beguiling; bewitching; beautiful; fascinatingly elegant`   
+歓声`cheer; shout of joy`  
+拘る`to fuss over; to be particular about; to be obsessive about; to be fixated on; vi`  
+関わる`to be affected; to be influenced; to be concerned with; to have to do with; vi`  
+贅沢`luxury; extravagance; to live in luxury`  
+
 ------------------------------------------------------------------------
 
 #### AZ {.tabset}
@@ -22492,6 +22545,16 @@ reactable(
 壊れた`damaged`  
 ちくしょう`damn!`  
 湿った`damped・moisted`  
+
+------------------------------------------------------------------------
+
+##### E
+
+それぞれ`each・respectively`  
+みみ`ear`  
+早い`early`  
+朝早く`early in the morning`  
+地震`earthquake`  
 
 ------------------------------------------------------------------------
 
