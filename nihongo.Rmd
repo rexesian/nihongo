@@ -7231,8 +7231,8 @@ reactable(
         Meaning <- nadj1$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 700), value),
-          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 30, fontWeight = 700), value),
+          # div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -7554,7 +7554,7 @@ reactable(
         Reading <- if (!is.na(Reading)) Reading else "Unknown"
         tagList(
           div(style = list(fontSize = 30, fontWeight = 700), value),
-          div(style = list(fontSize = 13), Reading),
+          # div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning)
         )
       },
@@ -7590,235 +7590,255 @@ reactable(
 
 ##### NSW 
 
-1.	日本語がペラペラになるぞ。  
-    You will become fluent in Japanese.
+    1.	日本語がペラペラになるぞ。  
+        You will become fluent in Japanese.
 
-2.	漢字がすらすら読めた。  
-    I can read kanji easily.
+    2.	漢字がすらすら読めた。  
+        I can read kanji easily.
 
-3.	少しずつコツコツ勉強したからね。  
-    I've studied hard, little by little.
+    3.	少しずつコツコツ勉強したからね。  
+        I've studied hard, little by little.
 
-4.	これからも一生懸命練習しよう。  
-    Let's keep practicing hard from now on.
+    4.	これからも一生懸命練習しよう。  
+        Let's keep practicing hard from now on.
     
-5.	どんどん日本語で話してみるよ。  
-    Try to speak Japanese more and more
+    5.	どんどん日本語で話してみるよ。  
+        Try to speak Japanese more and more
 
-6.	間違えても、くよくよしないで。  
-    Don't worry if you make a mistake.
+    6.	間違えても、くよくよしないで。  
+        Don't worry if you make a mistake.
 
-7.	いやいや勉強しても、仕方がない。   
-    You can't help it if you study it reluctantly.
+    7.	いやいや勉強しても、仕方がない。   
+        You can't help it if you study it reluctantly.
 
-8.	だんだん上手になるからね。   
-    You'll get better and better at it gradually
+    8.	だんだん上手になるからね。   
+        You'll get better and better at it gradually
 
-9.	厳しい先生が、ビシビシ教えてくれるよ。   
-    A strict teacher will teach you hard
+    9.	厳しい先生が、ビシビシ教えてくれるよ。   
+        A strict teacher will teach you hard
 
-10.	学校の中はガヤガヤうるさかった。  
-    It was clamorously noisy in the school.
+    10.	学校の中はガヤガヤうるさかった。  
+        It was clamorously noisy in the school.
 
-11.	みんな、ペチャクチャしゃべっていたし。   
-    Everyone was chattering.
+    11.	みんな、ペチャクチャしゃべっていたし。   
+        Everyone was chattering.
 
-12.	先生が来たら、シーンと静かになった。   
-    When the teacher arrived, the scene became quiet.
+    12.	先生が来たら、シーンと静かになった。   
+        When the teacher arrived, the scene became quiet.
 
-13.	ソワソワして落ち着かないね。   
-    I'm so nervous and restless.
+    13.	ソワソワして落ち着かないね。   
+        I'm so nervous and restless.
 
-14.	デートなんだ。ドキドキするなあ。   
-    It's a date. I'm so excited
+    14.	デートなんだ。ドキドキするなあ。   
+        It's a date. I'm so excited
 
-15.	それでウキウキしてるんだ。   
-    That's what's making me so happy.
+    15.	それでウキウキしてるんだ。   
+        That's what's making me so happy.
 
-16.	もう行かなきゃ。バタバタだぁ。   
-    I have to go. I'm in a flurry.
+    16.	もう行かなきゃ。バタバタだぁ。   
+        I have to go. I'm in a flurry.
 
-17.	バタン！痛い、ドアに指をはさんだ。   
-    Bang! Ouch, I stuck my finger in the door.
+    17.	バタン！痛い、ドアに指をはさんだ。   
+        Bang! Ouch, I stuck my finger in the door.
 
-18.	危ない。あ～、ハラハラする。   
-    Dangerous. Oh, I'm on edge.
+    18.	危ない。あ～、ハラハラする。   
+        Dangerous. Oh, I'm on edge.
 
-19.	そんなにガミガミ言わないで。   
-    Don't be so nagging.
+    19.	そんなにガミガミ言わないで。   
+        Don't be so nagging.
 
-20.	グズグズしてるから、時間が無くなるんだよ。   
-    You're goofing off, and you're running out of time.
+    20.	グズグズしてるから、時間が無くなるんだよ。   
+        You're goofing off, and you're running out of time.
 
-21.	てきぱき仕事ができる人になりたいな。  
-    I want to be a person who can work quickly.
+    21.	てきぱき仕事ができる人になりたいな。  
+        I want to be a person who can work quickly.
 
-22.	ブツブツ文句を言っても、しょうがない。  
-    I can't help it if I complain about it.
+    22.	ブツブツ文句を言っても、しょうがない。  
+        I can't help it if I complain about it.
 
-23.	明日から日本だ。ワクワクするなあ。  
-    I'm going to Japan tomorrow. I'm so excited.
+    23.	明日から日本だ。ワクワクするなあ。  
+        I'm going to Japan tomorrow. I'm so excited.
 
-24.	アタフタしないように、準備しようっと。  
-    I'm going to get ready so I don't get caught off guard.
+    24.	アタフタしないように、準備しようっと。  
+        I'm going to get ready so I don't get caught off guard.
 
-25.	さっさとやることやろう。  
-    I'll do what I have to do.
+    25.	さっさとやることやろう。  
+        I'll do what I have to do.
 
-26.	このスーツケースは、ずっしり重いね。  
-    This suitcase is very heavy.
+    26.	このスーツケースは、ずっしり重いね。  
+        This suitcase is very heavy.
 
-27.	ヨイショ、ヨイショ。運ぶのが大変だよ。  
-    Yosh, yosh. It's hard to carry
+    27.	ヨイショ、ヨイショ。運ぶのが大変だよ。  
+        Yosh, yosh. It's hard to carry
 
-28.	これぐらいだったら、楽々持てるけどな。  
-    I could easily carry this much.
+    28.	これぐらいだったら、楽々持てるけどな。  
+        I could easily carry this much.
 
-29.	ゴロゴロ転がしていくから、だいじょうぶ。  
-    I'll just roll it over. It'll be fine.
+    29.	ゴロゴロ転がしていくから、だいじょうぶ。  
+        I'll just roll it over. It'll be fine.
 
-30.	そろそろ寝ようかな。  
-    I think I'll go to bed soon.
+    30.	そろそろ寝ようかな。  
+        I think I'll go to bed soon.
 
-31.	一日があっという間に終わっちゃったね。
+    31.	一日があっという間に終わっちゃったね。
+        The day just flew by, didn't it?
 
-32.	パスポートは*ちゃんと持った?
+    32.	パスポートはちゃんと持った?
+        I got my passport in order.
 
-33.	しっかり家のカギも閉めて。
+    33.	しっかり家のカギも閉めて。
+        Make sure the house is locked up.
 
-34.	まだ、時間は*たっぷりあるよ。
+    34.	まだ、時間はたっぷりあるよ。
+        There's still plenty of time.
 
-35.	もうおなかが*ペコペコ。
+    35.	もうおなかがペコペコ。
+        I'm already starving.
 
-36.	チャチャッとごはんを作ろうか。
+    36.	チャチャッとごはんを作ろうか。
+        I'll make you a quick meal.
 
-37.	パクパクよく食べるね。
+    37.	パクパクよく食べるね。
+        You eat a lot of food.
 
-38.	うっ、食べすぎて、胃がムカムカする。
+    38.	うっ、食べすぎて、胃がムカムカする。
+        Ugh, I ate too much. My stomach is upset.
 
-39.	頭がズキズキ痛い。
+    39.	頭がズキズキ痛い。
+        My head is throbbing.
 
-40.	*ブラブラ散歩(さんぽ)でもしようかな。
+    40.	ブラブラ散歩でもしようかな。
+        I think I'll go for a stroll.
 
-41.	*のんびりその辺を歩いてくるよ。
+    41.	のんびりその辺を歩いてくるよ。
+        I'm gonna take a leisurely walk around the block.
 
-42.	明日は、予定が*ぎっしり詰(つ)まってるよ。
+    42.	明日は、予定がぎっしり詰まってるよ。
+        I've got a jam-packed schedule tomorrow.
 
-43.	今日は、部屋で*まったり映画でも見る?
+    43.	今日は、部屋でまったり映画でも見る?
+        Do you want to sit in your room and watch a movie today?
 
-44.	映画を見ながら、*ウトウトねむっちゃった。
+    44.	映画を見ながら、ウトウトねむっちゃった。
+        I fell asleep while watching the movie.
 
-45.	朝まで、*ぐっすり眠れた?
+    45.	朝まで、ぐっすり眠れた?
+        Did you get a good night's sleep?
 
-46.	時差ボケで、*なかなか眠れなかった。
+    46.	時差ボケで、なかなか眠れなかった。
+        Jet lag made it hard to sleep.
 
-47.	トイレに行って*すっきりした。
+    47.	トイレに行ってすっきりした。
+        I went to the bathroom to clear my head.
 
-48.	新宿の街は*ごちゃごちゃしてるね。
+    48.	新宿の街はごちゃごちゃしてるね。
+        It's a messy town in Shinjuku.
 
-49.	ヤバそうな人も*ウロウロしてる。
+    49.	ヤバそうな人もウロウロしてる。
+        There are some dangerous people walking around.
 
-50.	*ぼんやりしてると、迷子(まいご)になりそう。
+    50.	ぼんやりしてると、迷子になりそう。
+        If you're in a daze, you'll get lost.
 
-51.	ゲームをしてたから、目が*チカチカする。
+<!-- 51.	ゲームをしてたから、目が*チカチカする。 -->
 
-52.	しまった。*うっかりサイフを忘れてきた。
+<!-- 52.	しまった。*うっかりサイフを忘れてきた。 -->
 
-53.	わっ、*びっくりした！驚かさないでよ。
+<!-- 53.	わっ、*びっくりした！驚かさないでよ。 -->
 
-54.	太って、服が*パツンパツン。
+<!-- 54.	太って、服が*パツンパツン。 -->
 
-55.	やせたら、パンツが*ぶかぶか。
+<!-- 55.	やせたら、パンツが*ぶかぶか。 -->
 
-56.	このサイズは*ぴったり。
+<!-- 56.	このサイズは*ぴったり。 -->
 
-57.	どうしたの、*むっつりして。つまらない?
+<!-- 57.	どうしたの、*むっつりして。つまらない? -->
 
-58.	たくさん歩いて、*くたくた。
+<!-- 58.	たくさん歩いて、*くたくた。 -->
 
-59.	ねえ、あのおじさん、*ジロジロ見てるよ。
+<!-- 59.	ねえ、あのおじさん、*ジロジロ見てるよ。 -->
 
-60.	あの人も、こっちを*チラチラ見てるよね。
+<!-- 60.	あの人も、こっちを*チラチラ見てるよね。 -->
 
-61.	向こうで*こそこそ話してるね。
+<!-- 61.	向こうで*こそこそ話してるね。 -->
 
-62.	あっ、チョコが顔に*ベッタリついてる。だからか！
+<!-- 62.	あっ、チョコが顔に*ベッタリついてる。だからか！ -->
 
-63.	あの人*キョロキョロしてる。道に迷ったんじゃない?
+<!-- 63.	あの人*キョロキョロしてる。道に迷ったんじゃない? -->
 
-64.	どの人? あの筋肉*モリモリの人?
+<!-- 64.	どの人? あの筋肉*モリモリの人? -->
 
-65.	首の骨を*ポキポキ鳴らしてるよ。こわっ!
+<!-- 65.	首の骨を*ポキポキ鳴らしてるよ。こわっ! -->
 
-66.	*びくびくしないで。だいじょうぶだよ。
+<!-- 66.	*びくびくしないで。だいじょうぶだよ。 -->
 
-67.	なんだか、*ムシムシ暑いね。
+<!-- 67.	なんだか、*ムシムシ暑いね。 -->
 
-68.	じっとり汗(あせ)が出てきた。
+<!-- 68.	じっとり汗(あせ)が出てきた。 -->
 
-69.	ピカッ、ゴロゴロ。雷(かみなり)がなってる。
+<!-- 69.	ピカッ、ゴロゴロ。雷(かみなり)がなってる。 -->
 
-70.	ザーザー雨が降ってきた。
+<!-- 70.	ザーザー雨が降ってきた。 -->
 
-71.	カサがなくて、*ビショビショになっちゃった。
+<!-- 71.	カサがなくて、*ビショビショになっちゃった。 -->
 
-72.	ハックション、くしゃみが出ちゃった。
+<!-- 72.	ハックション、くしゃみが出ちゃった。 -->
 
-73.	プ～、おならも出ちゃった。
+<!-- 73.	プ～、おならも出ちゃった。 -->
 
-74.	ズルズル鼻水も出る。
+<!-- 74.	ズルズル鼻水も出る。 -->
 
-75.	背中が*ゾクゾクする。カゼかな。
+<!-- 75.	背中が*ゾクゾクする。カゼかな。 -->
 
-76.	なんだか*くらくらして倒(たお)れそう。
+<!-- 76.	なんだか*くらくらして倒(たお)れそう。 -->
 
-77.	まだ予定が*はっきりしないんだ。
+<!-- 77.	まだ予定が*はっきりしないんだ。 -->
 
-78.	今日の予定は中止だね。*ガッカリしないで。
+<!-- 78.	今日の予定は中止だね。*ガッカリしないで。 -->
 
-79.	彼はめずらしく、しょんぼり落ち込んでた。
+<!-- 79.	彼はめずらしく、しょんぼり落ち込んでた。 -->
 
-80.	よしよし。慰(なぐさ)めてあげよう。
+<!-- 80.	よしよし。慰(なぐさ)めてあげよう。 -->
 
-81.	あれ、地震? *ゆらゆら揺れてる。
+<!-- 81.	あれ、地震? *ゆらゆら揺れてる。 -->
 
-82.	また!?　もう地震には*うんざり。
+<!-- 82.	また!?　もう地震には*うんざり。 -->
 
-83.	朝起きたばかりで、髪の毛が*ぼさぼさ。
+<!-- 83.	朝起きたばかりで、髪の毛が*ぼさぼさ。 -->
 
-84.	シャワーを浴びて、*さっぱりした。
+<!-- 84.	シャワーを浴びて、さっぱりした。 -->
 
-85.	髪の毛も肌も*ツヤツヤになったよ。
+<!-- 85.	髪の毛も肌も*ツヤツヤになったよ。 -->
 
-86.	ここのケーキは、*ふんわり*フワフワ柔らかいね。
+<!-- 86.	ここのケーキは、フワフワ柔らかいね。 -->
 
-87.	上にソースが*とろーりかかってて、最高。
+<!-- 87.	上にソースが*とろーりかかってて、最高。 -->
 
-88.	納豆(なっとう)って、*ネバネバしてるんだね。
+<!-- 88.	納豆(なっとう)って、*ネバネバしてるんだね。 -->
 
-89.	新鮮な野菜は、*パリパリしておいしい。
+<!-- 89.	新鮮な野菜は、パリパリしておいしい。 -->
 
-90.	今日はみんなで*ワイワイ遊ぼう。
+<!-- 90.	今日はみんなで*ワイワイ遊ぼう。 -->
 
-91.	マンガを読んで*ゲラゲラ笑った。
+<!-- 91.	マンガを読んで*ゲラゲラ笑った。 -->
 
-92.	この電車は*ガラガラに空いてるね。
+<!-- 92.	この電車は*ガラガラに空いてるね。 -->
 
-93.	いいじゃん。*のびのび座れるよ。
+<!-- 93.	いいじゃん。のびのび座れるよ。 -->
 
-94.	あの二人、*そっくり。双子(ふたご)みたい。
+<!-- 94.	あの二人、そっくり。双子みたい。 -->
 
-95.	ちょっと*ベタベタ触らないで。
+<!-- 95.	ちょっとベタベタ触らないで。 -->
 
-96.	そんなに*ずけずけ言ったら、きらわれるよ。
+<!-- 96.	そんなに*ずけずけ言ったら、きらわれるよ。 -->
 
-97.	もう恋なんて、*こりごりだ。
+<!-- 97.	もう恋なんて、*こりごりだ。 -->
 
-98.	何*イライラしてるの?
+<!-- 98.	何*イライラしてるの? -->
 
-99.	ニコニコ笑っていようよ。
+<!-- 99.	ニコニコ笑っていようよ。 -->
 
-100. パーッと楽しいことしようね。
+<!-- 100. パーッと楽しいことしようね。 -->
 
 ------------------------------------------------------------------------
 
@@ -8437,87 +8457,27 @@ A **suffix** is a short element that is attached to the end of a word to change 
 
 ------------------------------------------------------------------------
 
-##### Relative Position {.tabset}
+##### Relative Position
 
-###### 1
-
-**Relative position**
-
-    ・箱の中
-    ・箱の外
-    ・テーブルの上
-    ・テーブルの下
+    ・箱の中　　　　　・Inside the box
+    ・箱の外　　　　　・Outside the box
+    ・テーブルの上　　・On top of the table
+    ・テーブルの下　　・Under the table
 
 <!-- <h> -->
 
-    ・Inside the box
-    ・Outside the box
-    ・On top of the table
-    ・Under the table
-
-<!-- <h> -->
-
-    ・駅の前
-    ・駅の後ろ
-    ・道の左側
-    ・道の右側
-
-<!-- <h> -->
-
-    ・In front of the station
-    ・Behind the station
-    ・Left side of the road
-    ・Right side of the road
+    ・駅の前　　　　　・In front of the station
+    ・駅の後ろ　　　　・Behind the station
+    ・道の左側　　　　・Left side of the road
+    ・道の右側　　　　・Right side of the road
 
 <!-- <h> -->
    
-    ・箱の中の猫は眠っている
-    ・山の上の教会が美しい
-    ・隣の席の女の子が美しい
+    ・箱の中の猫は眠っている　・The cat inside the box is asleep 
+    ・山の上の教会が美しい　　・The church on top of the mountain is beautiful
+    ・隣の席の女の子が美しい　・The girl sitting next to me is beautiful
 
-<!-- <h> -->   
-
-    ・The cat inside the box is asleep   
-    ・The church on top of the mountain is beautiful
-    ・The girl sitting next to me is beautiful
-
-------------------------------------------------------------------------
-
-###### 2
-
-向こう: "beyond" or "other side"
-
-    ・海は木の向こうです
-    ・The ocean is beyond the trees
-
-ちかく: "near" or "close"
-
-    ・そのがっこうはいえのちかくです
-    ・That school is near the house
-    
-となり: "next" or "beside"
-
-    ・いえのとなりはきょうかいです
-    ・Next door to the house is the church
-    
-そば："near" or "beside"
-
-    ・いえのそばに川があります
-    ・There is a river near the house
-    
-よこ："beside"
-
-    ・いえのよこにでんちゅうがあります
-    ・There is a utility pole beside the house 
-
-反対側："other side" or "opposite side"
-
-    ・道路の反対側にお店があります
-    ・The store is on the other side of the road 
-    
-------------------------------------------------------------------------
-
-###### 3
+<!-- <h> -->
 
     ・表　　　　　　　front
     ・裏　　　　　　　back
@@ -8553,6 +8513,36 @@ A **suffix** is a short element that is attached to the end of a word to change 
     ・横切り　　　　　to cross
     ・沿って　　　　　to follow
     ・道に迷う　　　　to get lost
+
+向こう: "beyond" or "other side"
+
+    ・海は木の向こうです
+    ・The ocean is beyond the trees
+
+ちかく: "near" or "close"
+
+    ・そのがっこうはいえのちかくです
+    ・That school is near the house
+    
+となり: "next" or "beside"
+
+    ・いえのとなりはきょうかいです
+    ・Next door to the house is the church
+    
+そば："near" or "beside"
+
+    ・いえのそばに川があります
+    ・There is a river near the house
+    
+よこ："beside"
+
+    ・いえのよこにでんちゅうがあります
+    ・There is a utility pole beside the house 
+
+反対側："other side" or "opposite side"
+
+    ・道路の反対側にお店があります
+    ・The store is on the other side of the road 
 
 ------------------------------------------------------------------------
 
@@ -11716,7 +11706,7 @@ reactable(
 
 ###### **⚭　Vte + kara**
 
-###### After or since a point in tie at which something takes place
+###### After or since a point in time at which something takes place (happens almost immediately)
 
     ・雪子は晩御飯を食べてから映画に行った
     ・私は友達に電話してから家に出た
@@ -22111,7 +22101,7 @@ reactable(
 `to leak; to run out; vi` 漏る  
 `to leak out; to escape; to come through; to shine through; to filter out;  to be disclosed; to be left out; vi` 漏れる  
 `to let leak; to let out (e.g. light); to leak; to disclose; to omit; to leave out; vt` 漏らす  
-`to serve (on a plate); to dish out; to pile up; to heap up; to administer; to put into (an info); to mark out; vt (moru)` 盛る  
+`to serve (on a plate); to dish out; to pile up; to heap up; to administer; to put into (info); to mark out; vt (moru)` 盛る  
 `to prosper; to flourish; vi (sakaru)` 盛る  
 `prosperous; flourishing; thriving; successful; popular; widespread` 盛ん  
 
