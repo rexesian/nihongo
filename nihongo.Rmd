@@ -11327,6 +11327,88 @@ reactable(
 
 ------------------------------------------------------------------------
 
+##### More {.tabset}
+
+###### C1
+
+**保つ** たもつ `to keep; to preserve; to hold; to retain; to maintain; to sustain`
+
+    安定を保つ　　　　　　　　　　　　　maintain stability
+    調和を保つ　　　　　　　　　　　　　preserve harmony
+    秩序を保つ　　　　　　　　　　　　　keep order
+    記録を保つ　　　　　　　　　　　　　keep a record
+    体面を保つ　　　　　　　　　　　　　maintain appearances
+    潤いを保つ　　　　　　　　　　　　　retain moisture
+    温度を一定に保つ　　　　　　　　　　keep the temperature at a fixed level
+    彼は冷静さを保っていられなかった　　He wasn't able to maintain his composure
+
+------------------------------------------------------------------------
+
+###### C2
+
+**会う** あう `to meet; to encounter; to see`
+
+    彼女には全然会ったことがない　　　　　　　　I've never met her before
+    彼には会わないようにしなさい　　　　　　　　Avoid meeting him
+    直接本人に会わなければだめだ　　　　　　　　You should go and talk to her directly
+    ちょっとの時間なら木曜日の放課後に会えるよ　I can see you for a few minutes after class on Thursday
+
+**沿う** そう `to run along; to run beside; to stick to (a line); to follow (a plan, etc.); to act in accordance with`
+
+    川に沿って行く　　　　　　　　　　go along a river
+    通りに沿った店　　　　　　　　　　shops along a street
+    川に沿って走る　　　　　　　　　　run parallel to a river
+    海岸に沿って走る　　　　　　　　　skirt along the coast
+    尾根に沿って歩く　　　　　　　　　walk along the ridge of a mountain
+    陸地に沿って航行する　　　　　　　follow the coastline
+    点線に沿って紙を折る　　　　　　　fold a paper along the dotted line
+    川に沿って温泉宿が並んでいる　　　Hot-spring hotels line the river
+    この赤い線に沿って進んでください　Please follow the red line
+
+**浮く** うく `to float; to become merry; to become loose; to become unsteady; to feel out of it; to be cut off`
+
+    石は浮かない　　　　　　　　　　　　　　　　Stones don't float
+    歯が浮いて噛むと痛む　　　　　　　　　　　　My teeth feel loose and hurt when I chew
+    油は水に浮く性質がある　　　　　　　　　　　Oil has the property to float on water
+    白い雲が夏の青空に浮いている　　　　　　　　White clouds are floating in the blue summer sky
+    彼女は職場で浮いた存在になっている　　　　　She gets left out at work
+    石油の特質の一つは水に浮くということである　One of the qualities of oil is that it floats on water
+
+**咲く** さく `to bloom; to flower; to blossom; to open`
+
+    可憐に咲く　　　　　　　　　bloom sweetly
+    精一杯咲く　　　　　　　　　bloom vigorously
+    桜の咲くころ　　　　　　　　when cherry blossoms bloom
+    桜が咲いてるよ　　　　　　　The cherry blossoms are blooming
+    この花は咲いたばかりだ　　　This flower has just opened
+    春が来ると木の花が咲きます　When spring comes, the trees bloom
+
+**注ぐ** つぐ `to pour (into a vessel); to fill (a cup, bowl, etc.) with; to dish out (food or drink)`
+
+    茶をつぐ　　　　　　　　　　　　　pour tea
+    酒をつぐ　　　　　　　　　　　　　fill a cup with sake
+    盃に半分酒をつぐ　　　　　　　　　fill a halfway with sake
+    もう１杯つぎましょうか　　　　　　Do you want a refill?
+    もう少しついでください　　　　　　Please pour me some more
+    彼にビールをついであげてください　Could you pour him some beer?
+
+**注ぐ** そそぐ `to pour (into); to sprinkle; to water to pour onto; to spray; to flow into; to drain into; to devote to`
+
+    涙を注ぐ　　　　　　　　　　　　　　　　　　　shed tears
+    田畑に水を注ぐ　　　　　　　　　　　　　　　　spray a field with water
+    葉の上から水を注ぐ　　　　　　　　　　　　　　water the leaves (of a plant)
+    ボトルの中身を注ぎ出す　　　　　　　　　　　　pour the contents out of a bottle
+    彼女は洗面器に水を注いだ　　　　　　　　　　　She poured water into the basin
+    彼女はカップに熱湯を注いだ　　　　　　　　　　She poured boiling water into the cup
+    縁側に暖かい光が注いでいた　　　　　　　　　　The warm sun bathed the veranda
+    彼女はカップにミルクを注いだ　　　　　　　　　She poured milk into the cup
+    信濃川は新潟で海に注いでいる　　　　　　　　　The Shinano River flows into the sea at Niigata
+    彼は友人を助けることに全力を注いだ　　　　　　He put all his energy into helping his friend
+    いくつかの小さな流れがその湖に注いでいる　　　The lake is fed by several small streams
+    彼女はテーブルの上のカップにコーヒーを注いだ　She poured coffee into a cup on the table
+
+------------------------------------------------------------------------
+
 ##### Recall {.tabset}
 
 ###### Eng-Jap
@@ -24211,6 +24293,24 @@ reactable(
 
     ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
     ・If you are going on a trip to Hokkaido, February is the best time to go.
+
+------------------------------------------------------------------------
+
+### N2 {.tabset}
+
+#### T4 {.tabset}
+
+##### C1
+
+1.1 **あるいは**`or・possibly` **⚭ aruiwa + N/Phrase**
+
+    ・あるいは、あなたの言うとおりかもしれません 
+    ・Or maybe you're right.
+
+2.1 **もとに**`based on・derived from` **⚭ N + wo + motoni/motonishite**
+
+    ・試験の結果をもとにしてクラス分けを行います
+    ・Will be placed in classes based on the results of the exam.
 
 ------------------------------------------------------------------------
 
