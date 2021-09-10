@@ -11331,20 +11331,24 @@ reactable(
 
 ###### C1
 
-**保つ** たもつ `to keep; to preserve; to hold; to retain; to maintain; to sustain`
-
-    安定を保つ　　　　　　　　　　　　　maintain stability
-    調和を保つ　　　　　　　　　　　　　preserve harmony
-    秩序を保つ　　　　　　　　　　　　　keep order
-    記録を保つ　　　　　　　　　　　　　keep a record
-    体面を保つ　　　　　　　　　　　　　maintain appearances
-    潤いを保つ　　　　　　　　　　　　　retain moisture
-    温度を一定に保つ　　　　　　　　　　keep the temperature at a fixed level
-    彼は冷静さを保っていられなかった　　He wasn't able to maintain his composure
+**会う** あう `to meet; to encounter; to see`  
+**沿う** そう `to run along; to run beside; to stick to (a line); to follow (a plan, etc.); to act in accordance with`  
+**浮く** うく `to float; to become merry; to become loose; to become unsteady; to feel out of it; to be cut off`  
+**咲く** さく `to bloom; to flower; to blossom; to open`  
+**注ぐ** つぐ `to pour (into a vessel); to fill (a cup, bowl, etc.) with; to dish out (food or drink)`  
+**注ぐ** そそぐ `to pour (into); to sprinkle; to water to pour onto; to spray; to flow into; to drain into; to devote to`  
+**抜く** ぬく `to pull out; to draw out; to extract; to unplug; to omit; to leave out; to carry through; to let out`  
+**拭く** ふく `to wipe; to dry`  
+**押す** おす `to push; to press; to apply pressure from above; to press down; to stamp; to affix; to press`  
+**射す** さす `to shine`  
+**撃つ** うつ `to shoot (at); to attack; to defeat; to destroy; to avenge`  
+**持つ** もつ `to hold (in one's hand); to take; to carry; to possess; to have; to own; to maintain; to keep`  
+**酌む** くむ `to pour (sake); to serve; to drink together`  
+**揉む** もむ `to rub; to crumple; to massage; to argue; to have a heated discussion; to train; to coach; to jostle`  
+**入る** はいる `to enter; to go into; to break into; to join; to enroll`  
+**酔う** よう `to get drunk; to become intoxicated; to feel sick; to become nauseated; to be elated; to be exalted`  
 
 ------------------------------------------------------------------------
-
-###### C2
 
 **会う** あう `to meet; to encounter; to see`
 
@@ -11406,6 +11410,117 @@ reactable(
     彼は友人を助けることに全力を注いだ　　　　　　He put all his energy into helping his friend
     いくつかの小さな流れがその湖に注いでいる　　　The lake is fed by several small streams
     彼女はテーブルの上のカップにコーヒーを注いだ　She poured coffee into a cup on the table
+
+**抜く** ぬく `to pull out; to draw out; to extract; to unplug; to omit; to leave out; to carry through; to let out`
+
+    昼食を抜く　　　　　　　　　　skip lunch
+    大根を抜く　　　　　　　　　　pull up a white radish
+    白髪を抜く　　　　　　　　　　pull out a white hair
+    虫歯を抜く　　　　　　　　　　pull out a decayed tooth
+    電源を抜く　　　　　　　　　　pull out the plug
+    車のキーを抜く　　　　　　　　take the key out of the ignition
+    風呂の湯を抜く　　　　　　　　let the water out of the bathtub
+    ワインの栓を抜く　　　　　　　uncork a bottle of wine
+    バターを抜いたケーキ　　　　　a cake made without butter
+    豚肉をゆでて脂を抜く　　　　　boil pork to remove the fat
+    指に刺さったとげを抜く　　　　pull a thorn out of one's finger
+    引き出しを抜いてタンスを運ぶ　pull out the drawers and carry the chest of drawers
+    必要な書類をファイルから抜く　extract the necessary document from the files
+    重要な部分だけ抜いてメモする　extract the important points and note them down
+    いる物だけ抜いてあとは捨てた　I picked out the things I needed and threw away the rest
+
+**拭く** ふく `to wipe; to dry`
+
+    額を拭く　　　　　　　　　　　　　　　wipe one's forehead
+    汗を拭く　　　　　　　　　　　　　　　wipe the sweat off
+    涙を拭く　　　　　　　　　　　　　　　wipe one's tears
+    彼女はタオルで顔を拭いた　　　　　　　She wiped her face with a towel
+    テーブルを拭いてもらえる　　　　　　　Can you wipe the table for me?
+    私は窓の下枠をペーパータオルで拭いた　I wiped the bottom frame of the window with a paper towel
+
+**押す** おす `to push; to press; to apply pressure from above; to press down; to stamp; to affix; to press`
+
+    押さないでください　　　　　　　　　　　Don't push, please
+    押すとドアが開いた　　　　　　　　　　　I pushed and the door opened
+    彼は肩でドアを押して入ってきた　　　　　He pushed the door (open) with his shoulder and came in
+    私は後ろから押されて前につんのめった　　I was pushed from behind and tripped forward
+    何度もベルを押したがだれも出てこない　　I pressed the bell again and again but no one came out
+    この扉は押しても引いてもびくともしない　This door won't budge when I push or pull
+    ぬかるみにはまった車を押すのを手伝った　I helped to push the car out of the mud
+
+**射す** さす `to shine`
+
+**撃つ** うつ `to shoot (at); to attack; to defeat; to destroy; to avenge`
+
+**持つ** もつ `to hold (in one's hand); to take; to carry; to possess; to have; to own; to maintain; to keep`
+
+**酌む** くむ `to pour (sake); to serve; to drink together`
+
+**揉む** もむ `to rub; to crumple; to massage; to argue; to have a heated discussion; to train; to coach; to jostle`
+
+**入る** はいる `to enter; to go into; to break into; to join; to enroll`
+
+**酔う** よう `to get drunk; to become intoxicated; to feel sick; to become nauseated; to be elated; to be exalted`
+
+------------------------------------------------------------------------
+
+###### C2
+
+**合う** あう `to come together; to merge; to unite; to meet; to fit; to match; to suit; to agree with; to be correct`  
+**添う** そう `to meet (wishes, expectations, etc.); to satisfy; to comply with; to live up to; to accompany; to go with`  
+**置く** おく `to put; to place; to leave (behind); to establish; to set up; to appoint; to do something in advance`  
+**裂く** さく `to tear; to rip up; to cut up; to cleave; to cut open; to forcibly separate; to spare (time, money, etc.)`  
+**次ぐ** つぐ `to rank next to; to come after`  
+**脱ぐ** ぬぐ `to take off (clothes, shoes, etc.); to undress`  
+**巻く** まく `to wind; to coil; to roll; to wear (e.g. turban, scarf); to envelope; to shroud; to outflank; to skirt`  
+**貸す** かす `to lend; to loan; to rent out; to hire out`  
+**足す** たす `to add (numbers); to add (something); to top up (with something); to take care of (e.g. one's business)​`  
+**討つ** うつ `to shoot (at); to attack; to defeat; to destroy; to avenge`  
+**死ぬ** しぬ `to die; to pass away; to lose spirit; to lose vigor; to look dead; to cease; to stop`  
+**込む** こむ `to be crowded; to be packed; to be congested; to be thronged (with); to be complex; to be intricate; to go into`  
+**止む** やむ `to cease; to stop; to be over`  
+**売る** うる `to sell`  
+**解く** とく `to untie; to unfasten; to unwrap; to undo; to unbind; to unpack; to unstitch; to solve; to work out; to answer`  
+
+------------------------------------------------------------------------
+
+**合う** あう `to come together; to merge; to unite; to meet; to fit; to match; to suit; to agree with; to be correct`  
+
+    目と目が合った　　　　　　　　　　　　　Their eyes met
+    彼とは馬が合う　　　　　　　　　　　　　He's a good match
+    二人の話は合っている　　　　　　　　　　Their two accounts are consistent
+    視線が合ったので会釈した　　　　　　　　Our eyes met and I bowed slightly
+    血液型が合えば輸血できる　　　　　　　　If the blood types match, we can transfuse them
+    われわれの意見はいつも合わない　　　　　Our opinions always differ
+    それでは話が合わないじゃないか　　　　　Now you are saying something different
+    彼女は彼と性格が合わなくて離婚した　　　She divorced him because she and he didn't get along
+    私は彼女と趣味が合うので友だちになった　I became friends with her because we shared the same interests
+    
+**裂く** さく `to tear; to rip up; to cut up; to cleave; to cut open; to forcibly separate; to spare (time, money, etc.)`
+
+    袋の口を裂く　　　　　　　　　　　　　　　rip open a bag
+    この布はうまく裂けない　　　　　　　　　　This cloth is hard to tear
+    彼はその新聞を半分に裂いた　　　　　　　　He tore that newspaper in half
+    私は彼女との仲を父に裂かれた　　　　　　　My father made me split up with her
+    胸を裂かれるような思いだった　　　　　　　I felt as if my heart was being torn 
+    このチーズは裂いて食べるとよい　　　　　　This cheese should be ripped open and eaten
+    彼は本をばらばらに裂いてしまった　　　　　He tore the book to pieces
+    貴重なお時間の数分を裂いていただけますか　Can you spare a few minutes of your precious time?
+
+------------------------------------------------------------------------
+
+###### CX
+
+**保つ** たもつ `to keep; to preserve; to hold; to retain; to maintain; to sustain`
+
+    安定を保つ　　　　　　　　　　　　　maintain stability
+    調和を保つ　　　　　　　　　　　　　preserve harmony
+    秩序を保つ　　　　　　　　　　　　　keep order
+    記録を保つ　　　　　　　　　　　　　keep a record
+    体面を保つ　　　　　　　　　　　　　maintain appearances
+    潤いを保つ　　　　　　　　　　　　　retain moisture
+    温度を一定に保つ　　　　　　　　　　keep the temperature at a fixed level
+    彼は冷静さを保っていられなかった　　He wasn't able to maintain his composure
 
 ------------------------------------------------------------------------
 
