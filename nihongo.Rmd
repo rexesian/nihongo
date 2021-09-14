@@ -24515,6 +24515,52 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### SM {.tabset}
+
+##### C1
+
+1.1 **といえば**`speaking of (speaking one's mind)` **⚭ N + toieba**
+
+    ・日本料理といえばはやりお寿司が有名です
+    ・Speaking of Japanese cuisine, sushi is famous
+
+1.2 **にもかかわらず**`despite・inspite of (express surprise feelings due to unexpected result)` **⚭ Vplain/I-Adj/Na-Adj/N + nimokakawarazu**
+
+    ・大学生にもかかわらず基本的な漢字が書けない者もいる
+    ・Despite of being college studentes there are some who cannot write basic kanji
+
+1.3 **をめぐって**`concerning・inregard to (express a thing that is controvesial)` **⚭ N + wo + megutte**
+
+    ・環境の問題をめぐって多くの意見が出された
+    ・Many opinions were expressed concerning the issue of the environment
+    
+1.4 **にしては**`for・considering it's (express a differentiation between an image and a reality)` **⚭ Vplain/N + ni + shitewa**
+
+    ・初めてにしては上手上手ですね
+    ・You're pretty good for your first time
+
+1.5 **げ**`looks like・seems like・appears to (express superficial appearance)` **⚭ Na-Adj/I-Adj~~i~~ + ge**
+
+    ・学生たちは楽しげにおしゃべりしていた
+    ・It seems the students were chatting happily
+
+1.6 **からすると**`judging from・considering・by the look of (wants to judge something)` **⚭ N + kara + suruto/sureba/itte**
+
+    ・彼の症状からすると心臓の病気かもしれません
+    ・Judging from on his symptoms, he may have a heart condition
+
+1.7 **もしないで**`without even doing (express not ~at all, express discontent)` **⚭ V~~masu~~ + moshinaide**
+
+    ・食べもしないでまずいかどうかなんてわからないでしょ
+    ・You can't tell if it's bad or not without eating it
+
+1.8 **くせに**`although・despite the fact that・but (express discontent)` **⚭ Vplain/I-Adj/Na-Adj/N+no + kuseni**
+
+    ・元気なくせに病気のふりをしている
+    ・You're fine, but you're pretending to be sick
+
+------------------------------------------------------------------------
+
 ## Reading {.tabset}
 
 ### TR {.tabset}
