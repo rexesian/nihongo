@@ -11327,6 +11327,100 @@ reactable(
 
 ------------------------------------------------------------------------
 
+##### Recall {.tabset}
+
+###### Eng-Jap
+
+```{r, echo=FALSE, message=FALSE}
+
+srvb2a <- srvb2 %>% slice(1:879)
+srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
+
+reactable(
+  srvb2a,
+  columns = list(
+    Meaning = colDef(
+      cell = function(value, index) {
+        Verbs <- srvb2a$Verbs[index]
+        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
+        tagList(
+          div(style = list(fontSize = 18, fontWeight = 600), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Verbs)
+        )
+      },
+      align = "center"
+    ),
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+###### Jap-Eng
+
+```{r, echo=FALSE, message=FALSE}
+
+srvb2a <- srvb2 %>% slice(1:879)
+srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
+
+reactable(
+  srvb2a,
+  columns = list(
+    Meaning = colDef(
+      cell = function(value, index) {
+        Verbs <- srvb2a$Verbs[index]
+        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
+        tagList(
+          div(style = list(fontSize = 25, fontWeight = 600), Verbs),
+          # div(style = list(fontSize = 11, fontWeight = 200), value),
+        )
+      },
+      align = "center"
+    ),
+    Verbs = colDef(show = FALSE),
+    Orig = colDef(show = FALSE),
+    Reading = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
 ##### More {.tabset}
 
 ###### C1
@@ -11450,7 +11544,18 @@ reactable(
 
 **射す** さす `to shine`
 
+    雲間が開け光が射した　　　　　　The clouds opened up and the light shone
+    雲が切れて日がさしてきた　　　　The clouds have parted and the sun is shining
+    冬の日は部屋の奥までさす　　　　On a winter's day, the sun shines deep into the room
+    木が多すぎると家に光が射さない　If there are too many trees, there will be no light in the house
+
 **撃つ** うつ `to shoot (at); to attack; to defeat; to destroy; to avenge`
+
+    撃たないでください　　　　　　　　Please don't shoot
+    敵の不意を討つ　　　　　　　　　　Attack the enemy by surprise
+    彼女は左腕を撃たれた　　　　　　　She was shot in the left arm
+    彼は誤って鉄砲で撃たれた　　　　　He was accidentally shot with a gun
+    今までに銃を撃ったことあるですか　Have you ever fired a gun before?
 
 **持つ** もつ `to hold (in one's hand); to take; to carry; to possess; to have; to own; to maintain; to keep`
 
@@ -11509,6 +11614,36 @@ reactable(
 
 ------------------------------------------------------------------------
 
+###### C3
+
+**遭う** あう `to meet; to encounter; to see; to have an accident; to have a bad experience`  
+**問う** とう `to ask; to inquire; to blame (someone) for; to accuse of; to charge with; to care about; to call into question`  
+**書く** かく `to write; to compose; to pen; to draw; to paint`  
+**敷く** しく `to spread out; to lay out; to take a position; to impose widely (e.g. over a city)`  
+**接ぐ** つぐ `to join; to piece together; to set (bones); to graft (onto a tree)`  
+**履く** はく `to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear; to affix`  
+**蒔く** まく `to sow; to plant; to seed; to sprinkle`  
+**消す** けす `to erase; to delete; to cross out; to turn off (power); to switch off; to extinguish; to put out`  
+**出す** だす `to take out; to get out; to reveal; to show; to submit; to turn in; to publish; to send; to produce; to begin`  
+**勝つ** かつ `to win; to gain victory`  
+**飛ぶ** 飛ぶ `to fly; to soar; to jump; to leap; to spring; to bound; to hop; to scatter; to flee`  
+**混む** こむ `to be crowded; to be packed; to be congested; to be thronged (with)`  
+**病む** やむ `to fall ill; to suffer from (e.g. a disease); to have something wrong with (e.g. an inner organ)`  
+**得る** える `to get; to earn; to acquire; to gain; to secure; to attain; to obtain; to win; to comprehend; to be able to`  
+**打つ** うつ `to hit; to strike; to knock; to beat; to punch; to slap; to tap; to bang; to clap; to pound; to strike; to beat`  
+
+------------------------------------------------------------------------
+
+**遭う・会う** あう `to meet; to encounter; to see; to have an accident; to have a bad experience`  
+
+    ボストンで会った　　　　　　　　　　　　We met in Boston
+    また会いましょう　　　　　　　　　　　　I'll see you soon
+    君とは初めて会った気がしない　　　　　　I don't feel like I've never seen you before
+    ３時にお得意さんと会う約束がある　　　　I have an appointment with a client at 3:00
+    彼は彼女と土曜の午後に会う約束をした　　He'd arranged to meet her Saturday afternoon
+
+------------------------------------------------------------------------
+
 ###### CX
 
 **保つ** たもつ `to keep; to preserve; to hold; to retain; to maintain; to sustain`
@@ -11524,97 +11659,28 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### Recall {.tabset}
+###### SS
 
-###### Eng-Jap
+**差す** さす `to shine; to be visible; to be tinged with; to rise (of water levels); to flow in; to be felt`  
+**指す** さす `to point; to nominate; to select someone; to specify some person; to identify; to indicate; to point out`  
+**刺す** さす `to pierce; to stab; to prick; to stick; to thrust; to sting; to bite; to sew; to stitch; to embroider`  
+**注す** さす `to pour; to add; to serve (drinks); to put on (lipstick, etc.); to apply; to colour; to light (a fire)`  
+**射す** さす `to shine`  
+**挿す** さす `to insert; to put in; to plant (a cutting); to strike; to arrange (flowers); to shut; to close`  
 
-```{r, echo=FALSE, message=FALSE}
+**着る** きる `to wear (in modern Japanese, from the shoulders down); to put on; to bear`  
+**切る** きる `to cut; to cut through; to perform (surgery); to sever; to turn off; to terminate; to disconnect`  
+**斬る** きる `to kill (a human) using a blade (sword, machete, knife, etc.); to slice (off); to lop (off); to cut (off)`  
+**伐る** きる `to cut down (e.g. trees)`  
 
-srvb2a <- srvb2 %>% slice(1:879)
-srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
-
-reactable(
-  srvb2a,
-  columns = list(
-    Meaning = colDef(
-      cell = function(value, index) {
-        Verbs <- srvb2a$Verbs[index]
-        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
-        tagList(
-          div(style = list(fontSize = 18, fontWeight = 600), value),
-          div(style = list(fontSize = 11, fontWeight = 200), Verbs)
-        )
-      },
-      align = "center"
-    ),
-    Verbs = colDef(show = FALSE),
-    Orig = colDef(show = FALSE),
-    Reading = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
-
-------------------------------------------------------------------------
-
-###### Jap-Eng
-
-```{r, echo=FALSE, message=FALSE}
-
-srvb2a <- srvb2 %>% slice(1:879)
-srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
-
-reactable(
-  srvb2a,
-  columns = list(
-    Meaning = colDef(
-      cell = function(value, index) {
-        Verbs <- srvb2a$Verbs[index]
-        Verbs <- if (!is.na(Verbs)) Verbs else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), Verbs),
-          # div(style = list(fontSize = 11, fontWeight = 200), value),
-        )
-      },
-      align = "center"
-    ),
-    Verbs = colDef(show = FALSE),
-    Orig = colDef(show = FALSE),
-    Reading = colDef(show = FALSE)
-
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
-
-```
+**着く** つく `to arrive at; to reach; to sit on; to sit at (e.g. the table)`  
+**付く** つく `to be attached; to be connected with; to adhere; to stick; to cling; to scar; to stain; to bear`  
+**就く** つく `to take (seat, position, course, office, etc.); to assume; to be hired; to be employed`  
+**点く** つく `to be lit (e.g. electricity comes on); to be lighted; to catch fire​`  
+**突く** つく `to prick; to stab; to poke; to prod; to push; to thrust; to nudge; to hit; to strike; to press against`  
+**吐く** つく `to breathe out; to breathe; o tell (a lie); to use (foul language); to vomit; to throw up; to spit up`  
+**搗く** つく `to hull (rice, barley, etc.); to pound (rice); to polish (rice); to stamp (ore)`  
+**漬く** つく `to be immersed`  
 
 ------------------------------------------------------------------------
 
@@ -24408,6 +24474,26 @@ reactable(
 
     ・北海道へ旅行に行くなら2月が一番いいと思いますよ  
     ・If you are going on a trip to Hokkaido, February is the best time to go.
+
+------------------------------------------------------------------------
+
+#### PR {.tabset}
+
+##### C1
+
+1.1 **別に~ない**`ifn(Expressing that nothing is special)` **⚭ betsu ni + Vnai/N+dewanai/I-Adj~~i~~=kunai/Na-Adj+dewanai**
+
+    ・別にかまわないよ  
+    ・I dont really care
+
+------------------------------------------------------------------------
+
+##### C16
+
+16.1 **ようなら**`if (if something/someone in this situation, then)` **⚭ Vplain/I-Adj/N+no/Na-Adj+na + you nara**
+
+    ・体の調子が悪いようなら病院に行ってください  
+    ・if you feel bad, please go to the hospital
 
 ------------------------------------------------------------------------
 
