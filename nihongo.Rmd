@@ -24497,6 +24497,17 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### SK {.tabset}
+
+##### C1
+
+1.1 **うちに**`before・while (express a state before it change pr while it happens` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
+
+    ・溶けないうちに早く食べてください 
+    ・Eat quickly before it melts
+
+------------------------------------------------------------------------
+
 ### N2 {.tabset}
 
 #### T4 {.tabset}
@@ -24506,7 +24517,7 @@ reactable(
 1.1 **あるいは**`or・possibly` **⚭ aruiwa + N/Phrase**
 
     ・あるいは、あなたの言うとおりかもしれません 
-    ・Or maybe you're right.
+    ・Or maybe you're right
 
 2.1 **もとに**`based on・derived from` **⚭ N + wo + motoni/motonishite**
 
@@ -24524,7 +24535,7 @@ reactable(
     ・日本料理といえばはやりお寿司が有名です
     ・Speaking of Japanese cuisine, sushi is famous
 
-1.2 **にもかかわらず**`despite・inspite of (express surprise feelings due to unexpected result)` **⚭ Vplain/I-Adj/Na-Adj/N + nimokakawarazu**
+1.2 **にもかかわらず**`inspite of (express surprise feelings due to unexpected result)` **⚭ Vplain/I-Adj/Na-Adj/N + nimokakawarazu**
 
     ・大学生にもかかわらず基本的な漢字が書けない者もいる
     ・Despite of being college studentes there are some who cannot write basic kanji
