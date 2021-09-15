@@ -24693,10 +24693,25 @@ reactable(
 
 ##### C1
 
-1.1 **際(に)**`before・while (express a state before it change pr while it happens` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
+1.1 **際**`when・on the occasion of・at the time of・in the case of` **⚭ Vplain/Vta/N+no + sai (ni)(wa)** *⇔ ~toki ni*
 
-    ・溶けないうちに早く食べてください 
-    ・Eat quickly before it melts
+    ・この整理券は商品受け取りの際、必要です
+    ・こちらの会議室をご利用になる際は、受付で必要事項を記入ください
+    
+<!-- <h> -->
+
+    ・This numbered ticket is required in receiving the product
+    ・Please fill out the necessary information at the reception desk to use this meeting room
+
+1.2 **に際して**`when・on the occasion of・at the time of` **⚭ Vplain/N + nisaishite** *⇔ ~suru toki ni*
+
+    ・工場関係者は工場を始めるに際して近所の住民に挨拶をして回った
+    ・卒業式に際して市長からお祝いの言葉が卒業生に送られた
+    
+<!-- <h> -->
+
+    ・The factory officials went around to greet the residents of the neighborhood when they started the factory
+    ・Please fill out the necessary information at the reception desk to use this meeting room
 
 ------------------------------------------------------------------------
 
