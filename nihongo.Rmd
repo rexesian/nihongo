@@ -10143,7 +10143,7 @@ reactable(
 
 **③　ba**`if・when`
 
-**⚭　Vcmd-base + ba**
+**⚭　Vcmd-stem + ba**
 
 (1) When the result of the condition can be predicted naturally
 (2) When the result occurs generally and repeatedly 
@@ -12075,6 +12075,8 @@ reactable(
     ・I heard that Ms. Nagasawa speaks very good English
     ・I heard that Mr. King is a teacher of English
 
+------------------------------------------------------------------------
+
 ###### kamo
 
 **kamo**`might`
@@ -12100,7 +12102,9 @@ reactable(
     ・Mother might be sleeping rigth now
     ・I might have left my wallet at home
     ・There might be a sale going on right now
-    
+
+------------------------------------------------------------------------
+
 ###### darou
 
 **darou**`probably・guess`
@@ -12118,6 +12122,26 @@ reactable(
     ・That apartment probably expensive
     ・Kakocin-san is probably good at skiing
     ・That man is probably Korean
+
+------------------------------------------------------------------------
+
+###### noda
+
+**no da・nda**`the fact is that・It is that・The reason is that`
+
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj+(na/datta)/N+(na/datta) + noda/nda/nodesu/ndesu**</p>  
+
+<p style="font-size:12px;">(❖) Sentence ender which explains or asking some explanation about some information</p> 
+
+    ・どうしてお酒を飲まないんですか
+    ・私はまだ十七なんです
+    ・あなたと結婚したいんです
+
+<!-- <h> -->
+
+    ・Why don't you drink alcohol?
+    ・I'm only seventeen years old
+    ・I want to marry you
 
 ------------------------------------------------------------------------
 
@@ -13830,13 +13854,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 #### Must/Have 
 
-**①　nakeraba ikenai/naranai/dame desu** `Must do・Have to do`  
-**①　nakute ikenai/naranai/dame desu** `Must do・Have to do`  
-**①　naito ikenai/naranai/dame desu** `Must do・Have to do`  
+**①　nakeraba/nakute/naito ikenai/naranai/dame desu** `Must do・Have to do`  
 
-###### **⚭　Vnakereba + (ha) + ikenai/naranai/dame desu**
-###### **⚭　Vnakute + (ha) + ikenai/naranai/dame desu**
-###### **⚭　Vnaito + (ha) + ikenai/naranai/dame desu**
+###### **⚭　Vnakereba/Vnakute/Vnaito + (ha) + ikenai/naranai/dame desu**
 
     ・毎日学校に行かなくてはなりません
     ・宿題をしなくてはいけなかった
@@ -13846,13 +13866,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・I must to go to school every day
     ・I had to do my homework
 
-**②　nakucha** `Must do・Have to do`  
-**②　nakya** `Must do・Have to do`  
-**②　naito** `Must do・Have to do`  
+**②　nakucha/nakya/naito** `Must do・Have to do`  
 
-###### **⚭　Vn + nakucha**
-###### **⚭　Vn + nakya**
-###### **⚭　Vn + naito**
+###### **⚭　Vn + nakucha/nakya/naito**
 
 ------------------------------------------------------------------------
 
@@ -15047,7 +15063,9 @@ The meaning and nuances are pretty exactly the same with slight difference
 
 ## Dictionary {.tabset}
 
-### A
+### Pattern {.tabset}
+
+#### A {.tabset}
 
 A.1 **あいだ** `throughout` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida**  
 `・Appends to expressions of time, i.e., “throughout the entire time.”`
@@ -15078,6 +15096,14 @@ A.2 **あいだに** `during; when` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida ni**
     ・I wondered if anyone had come while I was gone. The gate is slightly ajar.
     ・I want to climb Mount Fuji once while I'm in Japan.
     ・Let's clear out the bookshelf in our spare time.
+
+------------------------------------------------------------------------
+
+### Basic {.tabset}
+
+------------------------------------------------------------------------
+
+### Inteemediate {.tabset}
 
 ------------------------------------------------------------------------
 
@@ -24310,9 +24336,39 @@ reactable(
 
 ### N4 {.tabset}
 
-#### TR {.tabset}
+#### AP {.tabset}
 
 ##### C1 
+
+1.1 **あまり ~ない**`not very・not much` **⚭ amari + Vnai/N+janai/I-Adj~~i~~+kunai/Na-Adj+janai**
+
+    ・鶏肉はあまり好きじゃないです  
+    ・I don't really like chicken
+
+1.2 **後で**`after・later` **⚭ Vta/N+no + atode**
+
+    ・昼ごはんの後で友達とお茶を飲みました  
+    ・After lunch, I had a cup of tea with a friend
+
+1.3 **ば**`if..then` **⚭ (Vcmd-stem + ba) → Vba**
+
+    ・このボタンを押せばドアが開きます  
+    ・If you press this button, the door wil open
+
+1.4 **場合(は)**`if・in the case・in the event of` **⚭ Vplain/N+no/Na-Adj+na + baai wa**
+
+    ・もし無理な場合は注文をキャンセルします 
+    ・If this is not possible, We will be cancel the order
+
+1.5 **場合(に)**`if・in the case・in the event of` **⚭ Vplain/N+no/Na-Adj+na + baai ni**
+
+    ・ロブスターは特別な場合にしか食べない
+    ・I only eat lobster on special occasions
+
+1.6 **だけで**`just by・just by doing` **⚭ Vplain/N + dakede**
+
+    ・一目見ただけで俺に必要なことは全てわかった
+    ・At first glance I knew everything I needed
 
 ------------------------------------------------------------------------
 
@@ -24325,7 +24381,7 @@ reactable(
 1.1 **始める**`started to・begin to` **⚭ V~~masu~~ + hajimeru**
 
     ・日本語を習い始めたのは半年前です  
-    ・I started learning Japanese six months ago.
+    ・I started learning Japanese six months ago
     
 1.2 **終わる**`to end・done doing・finish doing` **⚭ V~~masu~~ + owaru**
 
@@ -24508,6 +24564,67 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### SM {.tabset}
+
+##### C1
+
+1.1 **ないと**`have to (should or have to do)` **⚭ V~~nai~~ + nakya/nakucha/naito**
+
+    ・あ、もう８時だ。そろそろ出かけないと
+    ・Oh, it's 8 o'clock already. I have to go out soon
+
+1.2 **っけ**`what was it? (confirm an info that was forgotten)` **⚭ Vru(nda/ndatta)/Vta/I-Adj+katta/(Na-Adj/N)+da/datta+ kke**
+
+    ・これどうやって食べるんだったっけ
+    ・How should I eat this again?
+
+1.3 **疑問視 + か**`cite or refer to a question` **⚭ Question word ~　Vru + ka + (kiku/shitteiru/wakaru/oshieru/oboeteiru..)**
+
+    ・何を買うかわからない
+    ・I don't know what I'll buy
+
+1.4 **かどうか**`whether or not (cite or refer to a question)` **⚭ Vru + ka + (kiku/shitteiru/wakaru/oshieru/oboeteiru..)**
+
+    ・出かける前に鍵をかけるかどうか覚えていません
+    ・I can't remember if I lock the door before I leave
+
+1.5 **ている**`continuous action (progressive)` **⚭ Vte + iru**
+
+    ・あそこで新聞を読んでいる人知っている？
+    ・Do you know who's reading the newspaper over there?
+
+1.6 **ている**`continuous state (resultative)` **⚭ Vte + iru**
+
+    ・いい天気です。空が晴れています
+    ・It's a beautiful day. The sky is clear.
+
+1.7 **ている**`habitual・routine state (repeatitive)` **⚭ Vte + iru**
+
+    ・あの店では新しい野菜を売っています
+    ・That vegetable store sells fresh vegetables
+
+1.8 **てしまう・ちゃう**`whether or not (cite or refer to a question)` **⚭ Vte + shimau / V~~te/de~~ + chau/jau**
+
+    ・小遣いはもう使ってしまったの?
+    ・Have you spent your allowance already?
+
+1.9 **ておく・とく**`to do something in advance` **⚭ Vte + oku / V~~te~~ + toku**
+
+    ・このビールを冷蔵庫に入れといて
+    ・Put this beer in the fridge (in advance)
+
+1.10 **ようにいう**`says・tells (tells, cite or refer to an order, request, or piece of advice)` **⚭ Vru/Vnai + youni iu)**
+
+    ・先生はみんなにもっと勉強するよう言った
+    ・The teacher told everyone to study harder
+
+1.11 **ように言われる**`told by someone (tells, cite or refer to an order, request by someone)` **⚭ Vru/Vnai + youni iwareru)**
+
+    ・医者にお酒を飲まないように言われた
+    ・The doctor told me not to drink alcohol
+
+------------------------------------------------------------------------
+
 ### N2 {.tabset}
 
 #### T4 {.tabset}
@@ -24569,6 +24686,17 @@ reactable(
 
     ・元気なくせに病気のふりをしている
     ・You're fine, but you're pretending to be sick
+
+------------------------------------------------------------------------
+
+#### SK {.tabset}
+
+##### C1
+
+1.1 **際(に)**`before・while (express a state before it change pr while it happens` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
+
+    ・溶けないうちに早く食べてください 
+    ・Eat quickly before it melts
 
 ------------------------------------------------------------------------
 
