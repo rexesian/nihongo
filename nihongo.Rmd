@@ -3158,7 +3158,7 @@ reactable(
 
 # knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
 
-knjtb1 <- knjtb %>% slice(26:55)
+knjtb1 <- knjtb %>% slice(26:62)
 
 reactable(
   knjtb1,
