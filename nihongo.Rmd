@@ -13242,19 +13242,16 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・家を出た時に忘れ物気がついた
     ・韓国へ行く時成田ででカメラを買いました
     ・韓国へ行った時南山タワーの前で写真を撮りました
-
-<!-- <h> -->
-
-    ・When my mother read books, she wears glasses
-    ・When I got married, my grandmother cried
-    ・When I am happy or sad, I often listen to this music
-    ・When there is an earthquake, put out the fire immediately
-    ・When I was a child, I lived in a small village in the country
-    ・When it is your spare time, what do you do ?
-    ・When I was in Tokyo, I had a lot of fun experiences
-    ・When I left home, I realised I forgot something 
-    ・When I went to Korea, I bought a camera at Narita Airport
-    ・When I went to Korea, I took a picture in front of the Namsan Tower
+<!--     ・When my mother read books, she wears glasses -->
+<!--     ・When I got married, my grandmother cried -->
+<!--     ・When I am happy or sad, I often listen to this music -->
+<!--     ・When there is an earthquake, put out the fire immediately -->
+<!--     ・When I was a child, I lived in a small village in the country -->
+<!--     ・When it is your spare time, what do you do ? -->
+<!--     ・When I was in Tokyo, I had a lot of fun experiences -->
+<!--     ・When I left home, I realized I forgot something  -->
+<!--     ・When I went to Korea, I bought a camera at Narita Airport -->
+<!--     ・When I went to Korea, I took a picture in front of the Namsan Tower -->
 
 **②　ながら ◦ While doing (Verb)**
 
@@ -13442,18 +13439,16 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・僕はステーキより魚の方が好きだ
     ・今年の冬は昨年よりも寒い
     ・仕事は思ったよりも大変だった
-
 <!-- <h> -->
-
-    ・It's warmer today than yesterday
-    ・This apartment is more convenient than the last one
-    ・Water is heavier than air
-    ・Are words in katakana easier than words in kanji?
-    ・My father wakes up earlier than anyone else in the family
-    ・Human life is most important than anything else
-    ・I like fish better than steak
-    ・This winter is colder than last year
-    ・The job was harder than I thought it would be
+<!--     ・It's warmer today than yesterday -->
+<!--     ・This apartment is more convenient than the last one -->
+<!--     ・Water is heavier than air -->
+<!--     ・Are words in katakana easier than words in kanji? -->
+<!--     ・My father wakes up earlier than anyone else in the family -->
+<!--     ・Human life is most important than anything else -->
+<!--     ・I like fish better than steak -->
+<!--     ・This winter is colder than last year -->
+<!--     ・The job was harder than I thought it would be -->
 
 **②　より~の方が ◦ than ~ is better**
 
@@ -13473,17 +13468,41 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・一人で食べるよりみんなと一緒に食べる方が楽しいです
     ・東京駅に行く時はバスで行くより電車で行くほうが早いです
     ・このシャツの方がさっき見たより色がきれいだ
-
 <!-- <h> -->
+<!--     ・Supermarket goods are cheaper than department store goods -->
+<!--     ・I prefer the mountains to the sea -->
+<!--     ・I drink beer more often than sake -->
+<!--     ・This store has more customers on Mondays and Tuesdays than on Sundays -->
+<!--     ・It's better to force yourself to try than to not try and regret it -->
+<!--     ・It's more fun to eat with others than alone -->
+<!--     ・When I go to Tokyo Station, it's faster to go by train than by bus -->
+<!--     ・This shirt is more colorful than the one I saw earlier -->
 
-    ・Supermarket goods are cheaper than department store goods 
-    ・I prefer the mountains to the sea
-    ・I drink beer more often than sake
-    ・This store has more customers on Mondays and Tuesdays than on Sundays
-    ・It's better to force yourself to try than to not try and regret it
-    ・It's more fun to eat with others than alone
-    ・When I go to Tokyo Station, it's faster to go by train than by bus
-    ・This shirt is more colorful than the one I saw earlier
+**③　と~とどちら ◦ which is..?**
+
+###### **⚭　N1 + to + N2 to dochira**
+
+###### Comparison of two topical items
+
+    ・A:あなたは紅茶とコーヒーとどちらが好きですか　B:紅茶の方が好きです
+    ・A:土曜日と日曜日とどちらがつごうがいいですか　B:どちらでもいいですよ 
+    ・A:このセーターとあのセーターとどっちがいい?　 B:あっちの方がきれいよ
+    ・A:あなたはスポーツをするのと見るのとどちらが好きですか　B:どちらも好きです
+
+**④　ほど〜ない ◦ not as..as**
+
+###### **⚭　N1 + wa + N2 + hodo ~nai/masen**
+
+###### Two topics, N1 and N2, are not very different, but topic being taken up N1 is not same degree as N2
+
+###### Not used to compare completely different things
+
+    ・今日も風が強いです。でも、今日はきのうほど寒くないです
+    ・わたしはテイさんほど速く走れません 
+    ・この町は今も人が多いですが、むかしほどにぎやかではありません
+    ・A:今度の社長はきびしいですか B:ええ、でも、前の社長ほどではありません
+    ・この番組は思っていたほどおもしろくなかったです
+    ・このテスト問題はあなたが考えているほど易しくないです
 
 ------------------------------------------------------------------------
     
@@ -13493,9 +13512,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **①　について ◦ About**
 
-###### **⚭　N  + nitsuite**`pre-verbal form`
+###### **⚭　N  + nitsuite** `pre-verbal form`
 
-###### **⚭　N  + nitsuite + no + N**`pre-nominal form`
+###### **⚭　N  + nitsuite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘about or regarding something’
 
@@ -13507,25 +13526,24 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・その点については全面的に賛成は出来ない
     ・事故の原因について究明する
     ・将来についての夢を語った
-
 <!-- <h> -->
 
-    ・I'm going to do some research about the history of this town
-    ・I don't know anything about that man
-    ・I'm going to talk about this history of Japanese culture
-    ・Tonight, let's think about our country's education system
-    ・This report about the history of Japanese culture is very well done
-    ・I can't fully agree with you about that point
-    ・I will investigate about the cause of the accident
-    ・He talked about his dreams concerning his future
+<!--     ・I'm going to do some research about the history of this town -->
+<!--     ・I don't know anything about that man -->
+<!--     ・I'm going to talk about this history of Japanese culture -->
+<!--     ・Tonight, let's think about our country's education system -->
+<!--     ・This report about the history of Japanese culture is very well done -->
+<!--     ・I can't fully agree with you about that point -->
+<!--     ・I will investigate about the cause of the accident -->
+<!--     ・He talked about his dreams concerning his future -->
 
 **②　に関して ◦ About・Regarding・ In Relation to**
 
-###### **⚭　N  + nikanshite**`pre-verbal form`
+###### **⚭　N  + nikanshite** `pre-verbal form`
 
-###### **⚭　N  + nikansuru + N**`pre-nominal form`
+###### **⚭　N  + nikansuru + N** `pre-nominal form`
 
-###### **⚭　N  + nikanshite + no + N**`pre-nominal form`
+###### **⚭　N  + nikanshite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘concerning something’ or ‘as to something’
 
@@ -13537,25 +13555,23 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・その事件に関しての報告はまだ受けていない
     ・地質学に関しての本を読んでいる
     ・車の修理に関してどうしましたか
-
 <!-- <h> -->
-
-    ・I need to think about this issue some more
-    ・I got a report from the school about the incident
-    ・We are currently investigating in relation this matter
-    ・I'd like to ask you a few questions about that issue
-    ・His knowledge regarding computers is quite impressive
-    ・I haven't received a report in relation to that incident yet
-    ・I'm reading a book about geology
-    ・What did you do about repairing your car?
+<!--     ・I need to think about this issue some more -->
+<!--     ・I got a report from the school about the incident -->
+<!--     ・We are currently investigating in relation this matter -->
+<!--     ・I'd like to ask you a few questions about that issue -->
+<!--     ・His knowledge regarding computers is quite impressive -->
+<!--     ・I haven't received a report in relation to that incident yet -->
+<!--     ・I'm reading a book about geology -->
+<!--     ・What did you do about repairing your car? -->
 
 **③　に対して ◦ Towards・Against・Regarding**
 
-###### **⚭　N  + nitaishite**`pre-verbal form`
+###### **⚭　N  + nitaishite** `pre-verbal form`
 
-###### **⚭　N  + nitaisuru + N**`pre-nominal form`
+###### **⚭　N  + nitaisuru + N** `pre-nominal form`
 
-###### **⚭　N  + nitaishite + no + N**`pre-nominal form`
+###### **⚭　N  + nitaishite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘toward something/state/event’
 
@@ -13569,25 +13585,23 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・書画に対する造詣が深い
     ・店員さんはお客様に対して丁寧な言葉を使います
     ・お年寄りに対してもっと親切にするべきです
-
 <!-- <h> -->
-
-    ・He didn't answer in reagrds to any of my questions
-    ・He's a kind mentor towards women
-    ・He has been fiercely against my remarks
-    ・Mix the soil at a ratio of 1 to 3 sand
-    ・20 square meters of space is secured for each student
-    ・Don't lose your temper with your children
-    ・Answers to my questions are hard to come by
-    ・Profound knowledge regarding calligraphy
-    ・Shopkeepers use polite words towards the customers
-    ・We should be more kind towards the elderly
+<!--     ・He didn't answer in reagrds to any of my questions -->
+<!--     ・He's a kind mentor towards women -->
+<!--     ・He has been fiercely against my remarks -->
+<!--     ・Mix the soil at a ratio of 1 to 3 sand -->
+<!--     ・20 square meters of space is secured for each student -->
+<!--     ・Don't lose your temper with your children -->
+<!--     ・Answers to my questions are hard to come by -->
+<!--     ・Profound knowledge regarding calligraphy -->
+<!--     ・Shopkeepers use polite words towards the customers -->
+<!--     ・We should be more kind towards the elderly -->
 
 **④　に応えて ◦ In Response to・In Accordance with**
 
-###### **⚭　N  + nikotaete**`pre-verbal form`
+###### **⚭　N  + nikotaete** `pre-verbal form`
 
-###### **⚭　N  + nikotaeru + N**`pre-nominal form`
+###### **⚭　N  + nikotaeru + N** `pre-nominal form`
 
 ###### Taking action in accordance with nouns expressing question, expectation, hope
 
@@ -13597,13 +13611,60 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・社員の要求に応えて労働時間を短縮した
     ・消費者のニーズに応えてわが社は新製品を開発した
     ・私の要望に応えて父はお昼ご飯にラーメンを作った
-
 <!-- <h> -->
+<!--     ・In response to my parents' expectations, I went to England to study -->
+<!--     ・Reduced working hours in response to employees' demands -->
+<!--     ・In response to consumer needs, we have developed a new product -->
+<!--     ・In response to my request, my father made ramen noodles for lunch -->
 
-    ・In response to my parents' expectations, I went to England to study
-    ・Reduced working hours in response to employees' demands
-    ・In response to consumer needs, we have developed a new product
-    ・In response to my request, my father made ramen noodles for lunch
+**⑤　をめぐって ◦ Concerning・In regards to・Centering around**
+
+###### **⚭　N  + wo + megutte** `pre-verbal form`
+
+###### **⚭　N  + wo + meguru + N** `pre-nominal form`
+
+###### Debates and conflicts occurring around certain issue
+
+###### Often verbs with meanings of conflict in opinion, various debates, or struggles follow
+
+    ・この規則改正をめぐってまだ討論が続いている
+    ・土地の利用をめぐって二つの対立した意見が見られる
+    ・町の再開発をめぐり、住民が争っている
+    ・マンション建設をめぐる争いがようやく解決に向かった
+
+**⑥　向けに ◦ For・Intended for・To aim at**
+
+###### **⚭　N  + muke + (ni/da)** 
+
+###### **⚭　N  + muke + no + N** `N intended for N`
+
+###### Intended for the noun it is associated with 
+
+    ・これは幼児向けに書かれた本です
+    ・この文には専門家向けの用語が多いので一般の人にはわかりにくい
+    ・この説明書は外国人向けだが日本人が読んでもとてもおもしろくためになる
+
+**⑦　にかかわる ◦ To relate to・To have to do with・To concerned with**
+
+###### **⚭　N  + nikakawaru + N** `N to have to do with N`
+
+###### Something is not only related, but has great impact on what comes before pattern
+
+    ・人の名誉にかかわるようなことを言うな
+    ・プライバシーを守るということは人権にかかわる大切な問題です
+    ・教育こそは国の将来にかかわる重要なことではないでしょうか
+
+------------------------------------------------------------------------
+
+##### Purpose
+
+------------------------------------------------------------------------
+
+##### Means・Media
+
+------------------------------------------------------------------------
+
+##### Start・End・Limit・Range
 
 ------------------------------------------------------------------------
 
