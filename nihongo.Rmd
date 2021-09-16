@@ -13420,7 +13420,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Comparison
 
-**①　より ◦ than**
+**①　より ◦ is more or less.. than**
 
 ###### **⚭　N1 wa ~ N2 + yori + (mo)**
 
@@ -13512,9 +13512,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **①　について ◦ About**
 
-###### **⚭　N  + nitsuite** `pre-verbal form`
+###### **⚭　N + nitsuite** `pre-verbal form`
 
-###### **⚭　N  + nitsuite + no + N** `pre-nominal form`
+###### **⚭　N + nitsuite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘about or regarding something’
 
@@ -13539,11 +13539,11 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **②　に関して ◦ About・Regarding・ In Relation to**
 
-###### **⚭　N  + nikanshite** `pre-verbal form`
+###### **⚭　N + nikanshite** `pre-verbal form`
 
-###### **⚭　N  + nikansuru + N** `pre-nominal form`
+###### **⚭　N + nikansuru + N** `pre-nominal form`
 
-###### **⚭　N  + nikanshite + no + N** `pre-nominal form`
+###### **⚭　N + nikanshite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘concerning something’ or ‘as to something’
 
@@ -13567,11 +13567,11 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **③　に対して ◦ Towards・Against・Regarding**
 
-###### **⚭　N  + nitaishite** `pre-verbal form`
+###### **⚭　N + nitaishite** `pre-verbal form`
 
-###### **⚭　N  + nitaisuru + N** `pre-nominal form`
+###### **⚭　N + nitaisuru + N** `pre-nominal form`
 
-###### **⚭　N  + nitaishite + no + N** `pre-nominal form`
+###### **⚭　N + nitaishite + no + N** `pre-nominal form`
 
 ###### Express the meaning of ‘toward something/state/event’
 
@@ -13599,9 +13599,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **④　に応えて ◦ In Response to・In Accordance with**
 
-###### **⚭　N  + nikotaete** `pre-verbal form`
+###### **⚭　N + nikotaete** `pre-verbal form`
 
-###### **⚭　N  + nikotaeru + N** `pre-nominal form`
+###### **⚭　N + nikotaeru + N** `pre-nominal form`
 
 ###### Taking action in accordance with nouns expressing question, expectation, hope
 
@@ -13619,9 +13619,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **⑤　をめぐって ◦ Concerning・In regards to・Centering around**
 
-###### **⚭　N  + wo + megutte** `pre-verbal form`
+###### **⚭　N + wo + megutte** `pre-verbal form`
 
-###### **⚭　N  + wo + meguru + N** `pre-nominal form`
+###### **⚭　N + wo + meguru + N** `pre-nominal form`
 
 ###### Debates and conflicts occurring around certain issue
 
@@ -13634,9 +13634,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **⑥　向けに ◦ For・Intended for・To aim at**
 
-###### **⚭　N  + muke + (ni/da)** 
+###### **⚭　N + muke + (ni/da)** 
 
-###### **⚭　N  + muke + no + N** `N intended for N`
+###### **⚭　N + muke + no + N** `N intended for N`
 
 ###### Intended for the noun it is associated with 
 
@@ -13646,7 +13646,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **⑦　にかかわる ◦ To relate to・To have to do with・To concerned with**
 
-###### **⚭　N  + nikakawaru + N** `N to have to do with N`
+###### **⚭　N + nikakawaru + N** `N to have to do with N`
 
 ###### Something is not only related, but has great impact on what comes before pattern
 
@@ -13658,13 +13658,123 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Purpose
 
+**①　ように ◦ In order to・so that**
+
+###### **⚭　Vru/Vnai + youni**
+
+###### Expectation of realizing objective
+
+    ・風邪が早く治るように注射を打ってもらいました
+    ・黒板の字がよく見えるように前の席に座りましょう
+    ・だれにもわからないようにそっと家を出たのだが母に見つかってしまった
+    ・たくさんの人がバザーに参加するように広い会場を用意した
+
+**②　上で ◦ For・In order to**
+
+###### **⚭　Vru/N+no + uede**
+
+###### Indicates purpose and then explain on how to achieve it
+
+    ・今度の企画を成功させる上でぜひみんなの協力が必要なのだ
+    ・数学を学習する上で大切なことは基礎的な事項をしっかり身につけることだ
+    ・有意義な留学生活を送る上での注意点は下記のとおりです
+    ・テレビは外国語の勉強の上でかなり役に立ちます
+    ・食料品の保存の上で次のことに注意してください
+
+**③　べく ◦ For the purpose of・In order to・Thinking to**
+
+###### **⚭　Vru + beku**
+
+###### **⚭　Vsuru + beku → Vsubeku**
+
+###### Someone tries to achieve goal they set
+
+###### Clauses of requests, commands, or appeals do not follow
+
+    ・ひとこと鈴木さんに別れの言葉を言うべく彼のマンションを訪れたのですが彼はすでに出発した後でした
+    ・彼女は新しい気持ちで再出発するべく長野県の山村に引っ越して行った
+    ・田中氏は記者会見場に向かうべく上着を着て部屋を出た
+    ・ラムさんを迎えるべく空港まで行ったが会えなかった
+
+**④　んがため(に) ◦ In order to**
+
+###### **⚭　V~~nai~~ + ngatame(ni)** `pre-verbal form`
+
+###### **⚭　V~~nai~~ + ngatame + no + N** `pre-nominal form`
+
+###### **⚭　Vshinai + ngatame → Vsengatame**
+
+###### Person in question has proactive goal he truly wishes to accomplish
+
+###### Clauses containing requests, commands, or urgings do not follow
+
+    ・研究を完成させんがため彼は昼夜寝ずにがんばった
+    ・1日も早く自分の店を持たんがために必死で働いているのだ
+    ・これも勝たんがための練習だからがんばるしかない
+    ・災害から1週間たった。避難先のこの地で生きんがための方法をあれこれ考えて昨夜はよく眠れなかった
+
+**⑤　ため(に) ◦ In order to**
+
+###### **⚭　Vru/N+no + tame(ni)** `pre-verbal form`
+
+###### Objective of an action. Objective is given before ために and action to be taken follows
+
+###### ために appends to verbs that include volition
+
+    ・西洋美術を勉強するためにイタリア語を習っています
+    ・田中さんはサッカーの試合に勝つために毎日10キロ走っています
+    ・国際会議に出席のため、ドイツのフランクフルトへ行きました
+    ・人は何のために生きているのだろう
+
 ------------------------------------------------------------------------
 
 ##### Means・Media
 
+**①　によって ◦ By・By means of・Through**
+
+###### **⚭　N + niyotte**
+
+###### **⚭　N + niyoru + N**
+
+###### Describes methods or means
+
+###### Not used for familiar tools or means
+
+###### When followed by a noun, becomes による N
+
+    ・その問題は話し合いによって解決できると思います
+    ・アンケート調査によって学生たちの希望や不満を知る
+    ・ボランティア活動に参加することによって自分自身も多くのことを学んだ
+    ・彼は両親の死後、叔父の援助と励ましにより、自分の目指す道に進むことができた
+
+**②　によって ◦ By**
+
+###### **⚭　N + niyotte + .. (passive verb)**
+
+###### Subject of action of passive verb in a passive sentence
+
+###### In sentences in which subjects are not living, によって is often used where focus is on agent of action
+
+    ・「リア王」はシェークスピアによって書かれた三大悲劇の一つです
+    ・このボランティア活動はある宗教団体によって運営されている
+    ・地震予知の研究はアメリカ、中国、日本などの専門家によって進められてきた
+    ・この伝統文化はこの地方の民衆によって受け継がれてきた
+
 ------------------------------------------------------------------------
 
 ##### Start・End・Limit・Range
+
+**①　をはじめ ◦ Starting with・Including**
+
+###### **⚭　N + wo + hajime(toshite)**
+
+###### Takes up some representative item; indicates everything in same group is included
+
+###### Emphasizes breadth of range outside of representative element 
+
+    ・ご両親をはじめ、家族の皆さんによろしくお伝えください
+    ・アンケート調査によって学生たちの希望や不満を知る
+    ・わたしは日本に来てから保証人をはじめ多くの方のお世話になって暮らしています
 
 ------------------------------------------------------------------------
 

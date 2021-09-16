@@ -99,6 +99,10 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 同,"same, agree, equal",同情,同じ,同調,同志,混同
 無,"nothingness, none, ain't, nothing, nil, not",無料,無くす,無限,無理,無効
 少,"few, little",少年,少女,少し,少ない,多少
+事,"matter, thing, fact, business, reason, possibly",事故,事実,事件,事態,事情
+思,think,思考,思想,思う,思惑,思い描く
+業,"business, vocation, arts, performance",産業,企業,授業,職業,卒業
+持,"hold, have",気持ち,持つ,持てる,支持,維持
 合,"fit, suit, join",合図,組合,集合,待合室,試合
 部,"section, bureau, dept, class, copy, part, portion, counter for copies",部屋,全部,部分,部品,外部
 彼,"he, that, the",彼,彼女,彼ら,彼方,彼奴
@@ -221,3 +225,8 @@ Kanji,Base.Meaning,w1,w2,w3,w4,w5
 理,"logic, arrangement, reason, justice, truth",修理,処理,管理,調理,整理
 無,"nothingness, none, ain't, nothing, nil, not",無駄,無視,無くなる,無知,無事
 魅,"fascination, charm, bewitch",魅力,魅了,魅惑,魅する,魅力的
+媒,"mediator, go-between",媒体,媒介,媒酌,触媒,冷媒
+握,"grip, hold, mould sushi, bribe",握手,握る,握力,把握,掌握
+解,"unravel, notes, key, understanding, untie, undo, solve, answer, cancel, explain",理解,解決,解放,解除,誤解
+除,"exclude, division, remove, abolish, cancel, except",掃除,解除,除く,削除,免除
+級,"class, rank, grade",上級,初級,中級,高級,同級
