@@ -13778,6 +13778,80 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ------------------------------------------------------------------------
 
+##### Time・Place of action
+
+**①　折(に) ◦ Whenever there is an occasion・when・at the time・on the occasion**
+
+###### **⚭　Vplain/Na-Adj+na/N+no + ori(ni)(wa)**
+
+###### Favorable occasion; negative phrasing usually does not follow
+
+    ・このことは今度お目にかかった折に詳しくお話しいたします
+    ・先月北海道に行った折、偶然昔の友達に会った
+    ・何かの折にわたしのことを思い出したら手紙をくださいね
+    ・寒さ厳しい折から、くれぐれもお体を大切にしてください
+    ・次回、お目にかかった折に旅行の話を聞かせてくださいね
+    ・今度、東京に来る折にはお立ち寄りください
+    ・来日の折には、私がご案内します
+    ・お暇の折にはぜひ遊びに来てください
+    ・大阪に出張の折に大学時代の友人に会った
+
+**②　際(に) ◦ When・on the occasion of・at the time of・in the case of**
+
+###### **⚭ Vplain/Vta/Na-Adj+na/N+no + sai(ni)(wa)**
+
+###### To be in a special condition or when something has become a certain state
+
+###### Same meaning as ときに , but because it is a formal expression, is not usually used in everyday speech
+
+    ・非常の際はエレベーターを使わずに階段をご利用ください
+    ・これは昨年、ある大臣がアメリカを訪問した際に現地の子どもたちから受け取ったメッセージである
+    ・申込用紙は3月1日までにお送りください。その際、返信用封筒を忘れずに同封してください
+    ・昨年、わたしがボランティアセミナーを行った際の記録をお見せいたします
+    ・国を出る際に、友人、知人からたくさんのお金を借りたのです
+    ・あなたが日本へ来る際には連絡ください
+    ・お帰りの際には忘れ物のないようご注意ください
+    ・お困りの際は、いつでもご連絡ください
+    ・勉強の際には、静かな場所が勉強の効率を上げるのに最適である
+
+------------------------------------------------------------------------
+
+##### Concurrent action
+
+**①　たとたん(に) ◦ Just at the very moment・as soon as・ just as..**
+
+###### **⚭　Vta + tatotan(ni)**
+
+###### Some unanticipated event begins to occur almost simultaneously with the ending of another
+
+###### Describes actual events
+
+###### Sentence ending cannot take expressions of willful actions, volitional words such as よう or つもり, commands, or negatives
+
+    ・ずっと本を読んでいて急に立ち上がったとたん、めまいがしました
+    ・わたしが「さようなら」と言ったとたん、彼女は泣き出した
+    ・出かけようと思って家を出たとたんに、雨が降ってきた
+    ・電話のベルが鳴ったとたんに、みんなは急にシーンとなった。みんなが待っていた電話なのだ
+    ・窓を開けたとたん、強い風が入ってきた
+    ・彼女に会った途端、僕は恋に落ちた
+    ・講演者がそう言った途端、聴衆はどっと笑った
+    ・先生が教室から離れた途端、ガヤガヤと騒がしくなった
+    ・暗いトンネルに入った途端、私たちは何も見えなかった
+
+------------------------------------------------------------------------
+
+##### Sequential action
+
+------------------------------------------------------------------------
+
+##### Progressive action
+
+------------------------------------------------------------------------
+
+##### Correlations
+
+------------------------------------------------------------------------
+
 ### Situational  {.tabset}
 
 #### Request
@@ -15563,7 +15637,37 @@ reactable(
     🆂 I'll be 23 this year    
     🆂 I'm in my fourth year of universitygg
     🆂 My hobby is travelling around the world
+
+------------------------------------------------------------------------
+
+### Greetings
+
+###### **Meeting a person for the first time**
+
+    🅼 初めまして。マイクです。けいたのルームメイトです
+    🅵 初めまして。りんです。けいたの大学の友達です
+    🅼 こちらこそ、どうぞよろしく
     
+<!-- <h> -->
+
+    🅼 Nice to meet you. I'm Mike. I'm Keita's roommate.
+    🅵 Nice to meet you. I'm Rin. I'm Keita's friend from college.
+    🅼 Nice to meet you too.
+
+###### **Talking to a neighbor**
+
+    🅼 おはようございます
+    🅵 あ、マイクさん、おはようございます。お出かけますか
+    🅼 ええ、ちょっと出張で
+    🅵 そうですか。いっていらっしゃい。お気をつけて
+    
+<!-- <h> -->
+
+    🅼 Good morning.
+    🅵 Oh, Mike, good morning. Are you going out?
+    🅼 Yeah, just on a business trip.
+    🅵 Oh, I see. Have a good day. Take care.
+
 ------------------------------------------------------------------------
 
 ### Restaurant
@@ -15895,6 +15999,28 @@ reactable(
     🆀 Can I have sugar and milk?
     🆀 Yes, both please.
     🆀 Please be careful, it's very hot.
+
+###### **Immigration**   
+
+    🆀 パスポーととチケットを見せてください
+    🅰 はい、これです
+    🆀 観光ですか？
+    🅰 はい、観光です
+    🆀 どのぐらい滞在しますか？
+    🅰 ２ヶ月です
+    🆀 どこに宿泊の予定ですか？
+    🅰 富士旅館です
+    
+<!-- <h> -->
+
+    🆀 Please show me your passport and ticket.
+    🅰 Yes, here you go.
+    🆀 Are you sightseeing?
+    🅰 Yes, sightseeing.
+    🆀 How long will you be staying?
+    🅰 Two months.
+    🆀 Where do you plan to stay?
+    🅰 Fuji Ryokan.
 
 ------------------------------------------------------------------------
 
