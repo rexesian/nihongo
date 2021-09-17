@@ -13842,13 +13842,114 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Sequential action
 
+**①　てはじめて◦ It is/was not until.. that・not until・only after**
+
+###### **⚭　Vte + hajimete**
+
+###### After speaker does something, becomes an impetus that leads to realization or new development
+
+    ・入院してはじめて健康のありがたさがわかりました
+    ・スポーツは自分でやってみてはじめてそのおもしろさがわかるのです
+    ・大きな仕事は十分な準備があってはじめて成功するのだ
+    ・日本に来てはじめてラーメンを食べた
+    ・日本語を勉強してはじめて、勉強の楽しさが分かった
+    ・先生に教えていただいてはじめて、プログラミングの面白さが分かりました
+    ・働らくに入ってはじめて彼女と知り合いにになった
+    ・試験に落ちてはじめて、ちゃんと勉強しないといけないと思った
+
+**②　上で◦ After having・upon・after**
+
+###### **⚭ Vta/N+no + uede**
+
+###### After first doing one thing, another action based on the first will occur
+
+###### Verbs of volition precede or follow うえで
+
+    ・詳しいことはお目にかかった上で、説明いたします
+    ・申込書の書き方をよく読んだ上で、記入してください
+    ・どの大学を受験するか、両親との相談の上で、決めます
+    ・これは一晩考えた上での決心だから、気持ちが変わることはない
+    ・この薬は説明書をよく読んだ上で、ご使用ください
+    ・実物を見た上で買うかどうか決めるつもりだ
+    ・留学の件は家族と相談した上でご返事いたします
+    ・予約の時間を確認の上で、ご来店ください
+    ・この書類に署名の上で、窓口に提出してください
+
 ------------------------------------------------------------------------
 
 ##### Progressive action
 
+**①　一方だ◦ Will just continue・more and more・continue to**
+
+###### **⚭　Vru + ippouda**
+
+###### Change in condition will continue to proceed in one direction
+
+###### Connects to verbs expressing change
+
+    ・これからは寒くなる一方です。風邪をひかないよう、お体を大切に
+    ・ノップさんの日本語の成績は上がる一方です
+    ・この駅ビルのデパートは人気が出て、毎年客が増える一方だ
+    ・この10年ほどの間に、日本の海岸の砂浜は狭くなっていく一方だそうだ
+    ・私は全然勉強していないので、成績は下がる一方だ
+    ・広告を出しているのに、お客さんは減る一方だ
+    ・増税により、生活は苦しくなる一方だ
+    ・地球環境は、年々悪くなる一方だ
+    ・日本に来る外国人の数は増える一方のようだ
+
+**②　ばかりだ◦ Just continues to**
+
+###### **⚭ Vru + bakari da**
+
+###### Some change continues in bad direction
+
+###### Connects with verbs expressing change
+
+    ・このままではジムの日本語の成績は下がるばかりだ。なんとかしなくてはならない
+    ・最近の田中委員長の行動はよいとは言えない。彼への不信感は増すばかりだ
+    ・選挙のときの対立が原因で、党内の二つのグループの関係は悪くなるばかりだ
+
+**③　つつある◦ Be doing (progression)・to be in the process of doing**
+
+###### **⚭ V~~masu~~ + tsutsu aru**
+
+###### Some event progresses in a certain direction
+
+###### Specifically denotes something is in process of progression
+
+    ・わたしはホテルの窓から山の向こうに沈みつつある夕日を眺めながら、1杯のコーヒーをゆっくりと楽しんだ
+    ・わたしの会社では、休み時間が長くなり、明るい社員食堂もできた。職場の環境は改善されつつある
+    ・この国はこの 1 年ほどの間に政治的に安定した。経済も次第に安定しつつある
+    ・スマホの登場で、デジタルカメラの人気がなくなりつつある
+    ・事故から一週間が経ち、原因などが明らかになりつつある
+    ・新しいビルはどんどん建てられつつある
+    ・政府は景気が緩やかに回復しつつあると発表した
+    ・株式市場は、非常に低迷した月の後、持ち直しつつある
+
 ------------------------------------------------------------------------
 
 ##### Correlations
+
+------------------------------------------------------------------------
+
+##### With・Without
+
+**①　ついでに◦ While・incidentally・at the same time**
+
+###### **⚭　Vru/Vta/N+no + tsuideni**
+
+###### Uses opportunity of one event to conveniently accomplish something else as well
+
+###### Clause preceding ついでに contains originally planned action, while clause succeeding describes supplementary action
+
+    ・パリの国際会議に出席するついでに、パリ大学の森先生をお訪ねしてみよう
+    ・買い物のついでに図書館に寄って本を借りてきた
+    ・上野の美術館に行ったついでに久しぶりに公園を散歩した
+    ・林:森さん、悪いけど、立ったついでにお茶いれて
+    ・買い物のついでに、本屋に寄りました
+    ・引っ越しのついでに、新しい家具を買いたいです
+    ・実家に帰ったついでに昔の学校に行ってみた
+    ・出て行くついでに頼むのは悪いけど、ゴミを捨ててくれる？
 
 ------------------------------------------------------------------------
 
