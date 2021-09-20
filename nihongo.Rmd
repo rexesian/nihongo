@@ -164,6 +164,7 @@ ktlmn <- read_csv("rdata/Sheet 141-KNJRNMX.csv")
 ktbjx <- read_csv("rdata/Sheet 142-KNJRNMX.csv")
 vxsnt <- read_csv("rdata/Sheet 143-VXDFG.csv")
 ktbs <- read_csv("rdata/Sheet 144-KNJRNMX.csv")
+ctad <- read_csv("rdata/Sheet 147-CTADM.csv")
 
 ```
 
@@ -15128,7 +15129,7 @@ N(の) + いかんで `in accordance with; is contigent on`
     
 **③　Direct & Indirect Speech** `Says・Saying・Said`
 
-###### **⚭　Sentence + toiu **
+###### **⚭　Clause + toiu **
 
 ###### Quoting or reporting what other person says, saying or said
 
@@ -15162,7 +15163,7 @@ N(の) + いかんで `in accordance with; is contigent on`
 
 **④　Content** `that`
 
-###### **⚭　Sentence + toiu + N**
+###### **⚭　Clause + toiu + N**
 
 ###### Describes the content of the nominal or what it does represents
 
@@ -15187,7 +15188,61 @@ N(の) + いかんで `in accordance with; is contigent on`
     ・There is a rule in this company that you have to work until 5 o'clock
     ・Mr. Yamada says he's an artist, but there are rumours that he's really a company manager 
     ・A message came that she would be arriving a day late  
-    
+
+------------------------------------------------------------------------
+
+#### More
+
+**①　というか** `or rather・or perhaps I should say・I mean `
+
+###### **⚭　Vplain/I-Adj/Na-Adj/N + toiuka**
+
+###### Use to make a parenthetical statement of an impression or judgement about a person or event, etc.
+
+    ・そんなことをするなんて、ほんとにばかというか、困った人だ
+    ・本をなくした、というかどこかに置いてきたというのは確かですか
+    ・つまみ食いと言うか、完食していたように見えたが
+    ・たぶん行かないと思う。というか、お金がないから、行けない
+    ・それは、面白いというか、珍しいというか、とにかく変わったものだ
+
+<!-- <h> -->
+
+    ・He's really stupid or troubled to do such a thing
+    ・Are you sure you lost your book, or rather, left it somewhere?
+    ・I'd say he was nibbling, but it looked like he was finishing the meal
+    ・I probably won't go. I mean, I can't go because I don't have the money
+    ・That's interesting, or unusual, or just plain weird
+
+**②　というのは** `this means・the meaning of..is・because・that is to say`
+
+###### **⚭　Clause/N + toiu no wa + (reason/explanation/definition)**
+
+###### This expression links to the preceeding sentence and is used to explain the cause or reason
+
+###### This expression does not necessarily require a clear cause-effect relationship but
+
+###### Used to provide supplementary explanation
+
+    ・コンタクトを入れるというのはいかがでしょう？
+    ・あなたはそれをしようとしているというのは、本当ですか
+    ・彼女がアメリカで成長したというのは有名だ
+    ・わたしは肉は食べません。というのは、菜食主義だからです
+    ・未来を予測するというのは、まさに非常に難しいことですよ
+    ・僕は卵を食べないんです。というのは、アレルギーがあるんですよ
+    ・結婚しようと思う誰もが結婚できるというのは、とても大事なことです
+    ・お金を稼ぎ、それを貯めて何かを買うというのはすばらしいと思ったよ
+
+<!-- <h> -->
+
+    ・How about putting in a contact?
+    ・Is it true that you're going to do it?
+    ・It's well known that she grew up in America.
+    ・I don't eat meat. I don't eat meat, because I'm a vegetarian.
+    ・Predicting the future is indeed a very difficult thing to do.
+    ・I don't eat eggs, because I'm allergic to them. I don't eat eggs, because I'm allergic to them.
+    ・It's very important that everyone who wants to get married can get married.
+    ・I thought it was wonderful to earn money and save it to buy something.
+
 ------------------------------------------------------------------------
 
 ### なんか
@@ -19341,6 +19396,49 @@ reactable(
       align = "center"
     ),
     Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### 15
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  ctad,
+  columns = list(
+    Script = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- ctad$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE),
+    Time = colDef(show = FALSE)
 
   ),
   defaultPageSize = 5,
