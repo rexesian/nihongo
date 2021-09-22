@@ -13860,7 +13860,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **②　上で◦ After having・upon・after**
 
-###### **⚭ Vta/N+no + uede**
+###### **⚭ Vplain/Vta/N+no + uede**
 
 ###### After first doing one thing, another action based on the first will occur
 
@@ -14055,7 +14055,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ###### **⚭　N + nitotte**
 
-###### Mainly appends to nouns describing people; 
+###### Mainly appends to nouns describing people
 
 ###### Describes how someone in this position thinks of many ideas or inter- pretations
 
@@ -14069,10 +14069,42 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・スポーツ選手にとって、健康管理はとても重要です
     ・タバコの煙や匂いは、吸わない人にとっては苦痛だ
 
-**②　として◦ Only for**
+**②　として◦ As・in the role of**
 
-**③　の上で◦ Only for**
+###### **⚭　N + toahite**
 
+###### As stating a position, qualification, or name when doing something
+
+###### As when evaluating something
+
+    ・わたしは前に1度観光客として日本に来たことがある
+    ・わたしは卒業論文のテーマとして資源の再利用の問題を取り上げることにした
+    ・今回の事故につきましては、会社側としてもできるだけのことをさせていただきます
+    ・古代ギリシャで初めて学問としての数学が始まった
+    ・この問題についてわたしとしては特に意見はありません
+    ・S氏は医者としてよりも小説家として有名だ
+    ・彼は教師として働いている
+    ・デパートの店員として商品をきちんとお客様に説明できることは当たり前です
+    ・京都は歴史の古い町として知られている
+
+**③　の上で◦ In terms of・as far as..is concerned**
+
+###### **⚭　N + no + uede**
+
+###### **⚭　N + jou**
+
+###### Judgment based on seeing or thinking of what precedes pattern
+
+###### Other examples of relationships with what comes before pattern are: 
+
+###### 法律上 (in terms of the law), 習慣上 (in terms of customs)
+
+###### 都合上 (in terms of economics), 健康上 (in terms of health), and ~の関係上 (because of)
+
+    ・この機械は見かけの上では使い方が難しそうですが、実際はとても簡単なのです
+    ・この会に参加するには、形式上面倒な手続きを取らなければならない
+    ・お手元の決算報告書をごらんください。計算上のミスはないつもりですが
+    ・古代ギリシャで初めて学問としての数学が始まった
 
 ------------------------------------------------------------------------
 
