@@ -14110,6 +14110,37 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Viewpoint of evaluation
 
+**①　わりに(は)◦ Considering**
+
+###### **⚭　Vplain/Na-Adj+(na/dearu)/N+(no/dearu) + warini(wa)**
+
+###### Something is inappropriate considering what would be natural degree
+
+###### Similar in meaning and usage to にしては , but わりに(は)is unique in that it poses problem of inappropriateness
+
+    ・わたしの母は、年を取っているわりには新しいことに意欲的です
+    ・きのうの講演会は、思ったわりには人が集まらなかった
+    ・このくつは値段が高いわりによく売れる
+    ・彼女は年齢のわりには若く見えます
+    ・今日は休日のわりに人が少ないね
+    ・この寿司は高い割にまずい
+    ・テストの勉強をしなかった割にはよく出来た
+
+**②　にしては◦ For・considering**
+
+###### **⚭ Vplain/Na-Adj+dearu/N+dearu/N + nishitewa**
+
+###### Something can't be considered as matter of course considering the facts
+
+###### For criticizing or evaluating outsiders; not often used about speaker
+
+    ・あの人は新入社員にしては、客の応対がうまい
+    ・彼は力士にしては体が小さい
+    ・この作品は文学賞を取った彼が書いたにしては、おもしろくない
+    ・このレポートは時間をかけて調査したにしては、詳しいデータが集まっていない
+    ・あの人は５０歳にしては、ずいぶん若く見える
+    ・彼は勉強しなかったにしては、いい点が取れた
+
 ------------------------------------------------------------------------
 
 ### Situational  {.tabset}
