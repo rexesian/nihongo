@@ -13618,7 +13618,30 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 <!--     ・In response to consumer needs, we have developed a new product -->
 <!--     ・In response to my request, my father made ramen noodles for lunch -->
 
-**⑤　をめぐって ◦ Concerning・In regards to・Centering around**
+**⑤　に応じて ◦ For・depending on・in Accordance with**
+
+###### **⚭　N + nioujite** `pre-verbal form`
+
+###### **⚭　N + nioujita + N** `pre-nominal form`
+
+###### Appends mainly to words expressing difference in level or category
+
+###### Shows that if N changes, what follows will change accordingly
+
+###### When followed by a noun, becomes に応じた N
+
+    ・人は年齢に応じて社会性を身につけていくものだ
+    ・アルバイト料は労働時間に応じて計算される
+    ・当店ではお客さまのご予算に応じてお料理をご用意いたします
+    ・登山をするには、当日の天候に応じた服装をしてくること
+    ・予算に応じて、旅行のコースを決める
+    ・この店では、買った量に応じて商品の値段が安くなります
+    ・旅行のプランは、お客様のご希望に応じて変更できます
+    ・車の速さに応じてガソリンの消費量が変わる
+    ・君がする仕事の量に応じて給料を払おう
+    ・みなさんのご希望におうじて商品を生産していくつもりです
+
+**⑥　をめぐって ◦ Concerning・In regards to・Centering around**
 
 ###### **⚭　N + wo + megutte** `pre-verbal form`
 
@@ -13633,7 +13656,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・町の再開発をめぐり、住民が争っている
     ・マンション建設をめぐる争いがようやく解決に向かった
 
-**⑥　向けに ◦ For・Intended for・To aim at**
+**⑦　向けに ◦ For・Intended for・To aim at**
 
 ###### **⚭　N + muke + (ni/da)** 
 
@@ -13645,7 +13668,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・この文には専門家向けの用語が多いので一般の人にはわかりにくい
     ・この説明書は外国人向けだが日本人が読んでもとてもおもしろくためになる
 
-**⑦　にかかわる ◦ To relate to・To have to do with・To concerned with**
+**⑧　にかかわる ◦ To relate to・To have to do with・To concerned with**
 
 ###### **⚭　N + nikakawaru + N** `N to have to do with N`
 
@@ -13931,6 +13954,118 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Correlations
 
+**①　ば~ほど◦ The more..the more・the less..the less**
+
+###### **⚭　Vba+Vru/I-Adj+kereba+I-Adj/Na-Adj+nara+Na-Adj+na + hodo**
+
+###### As degree of one thing changes, so does another. ナ-adjectives become ~なら~なほど 
+
+###### Also used for results contrary to what is usually expected
+
+    ・山は登れば登るほど、気温が低くなる
+    ・お礼の手紙を出すのは早ければ早いほどいい
+    ・毎日使う道具の使い方は簡単なら簡単なほどいい
+    ・この ABC 社で仕事をするには、外国語が上手なら上手なほどいい
+    ・あの人の話は聞けば聞くほどわからなくなる
+    ・考えれば考えるほどわからなくなる
+    ・勉強すればするほど、日本語が上手になりますよ
+    ・日本語は話せば話すほど上手になります
+    ・日本語は勉強すれば勉強するほど面白くなります
+    ・そこに居れば居るほどその土地が好きになる
+    ・やればやるほど悪くなる
+
+**②　につれて◦ As・in proportion to・with**
+
+###### **⚭　Vru/N + nitsurete/nitsure**
+
+###### As level expressed before pattern changes, becomes reason for change arising after pattern
+
+###### Words expressing change come before and after pattern
+
+###### Phrases expressing speaker's intentions(つもり) or appeals to others (Vましょう , let's V) do not follow
+
+    ・時間がたつにつれてあのときのことを忘れてしまうから、今のうちに書いておこう
+    ・日本語が上手になるにつれて、友達が増え、日本での生活が楽しくなってきた
+    ・温度が上がるにつれて、水の分子の動きが活発になってくる
+    ・調査が進むにつれ、震災の被害のひどさが明らかになってきた
+    ・台風が近づくにつれて、どんどん風が強くなってきた
+    ・日本語が上手になるにつれて、日本での生活が楽しくなってきた
+    ・時がたつにつれて、愛が深くなる
+    ・試験が近づくにつれて彼は不安になってきた
+    ・夜がふけるにつれて、嵐はますます激しさを増した
+    ・興奮するにつれて、彼はますます早口になった
+    ・だから山は高くなるにつれて、気温が下がる
+    ・高く昇るにつれて大気は薄くなる
+    ・経験を積むにつれて更に知恵が身につく
+    ・時代の変化につれて結婚の形も変わってきた
+
+**③　にしにがって◦ As・in consequence・therefore・in accordance with・in proportion to**
+
+###### **⚭　Vru/N + nishitagatte/nishigai**
+
+###### Some change will occur as consequence of another
+
+###### Words expressing change both precede and follow pattern
+
+    ・警察の調べが進むに従って、次々と新しい疑問点が出てきた
+    ・今後、通勤客が増えるに従って、バスの本数を増やしていこうと思っている
+    ・ごみの問題が深刻になるに従い、リサイクル運動への関心が高まってきた
+    ・試験の日が近づくに従って、だんだん緊張してきた
+    ・高く登るに従って、見晴らしがよくなった
+    ・契約に従い、雇用期間を三年とする
+    ・契約に従い、雇用期間を三年とする
+    ・収入が増えるに従って、支出も増える
+    ・南に行くにしたがって気温が高くなる
+    ・経験を積むにしたがって給料があがる
+    ・医学が進歩するにしたがって平均寿命が延びた
+
+**④　に伴って◦ As・with・therefore・due to**
+
+###### **⚭　Vru/N + nitomonatte/nitomonai/nitomonau**
+
+###### Something changes in response to another change
+
+###### Words expressing change come before and after pattern
+
+    ・彼は成長するに伴って、だんだん無口になってきた
+    ・病気の回復に伴って、働く時間を少しずつ延ばしていくつもりだ
+    ・社会の情報化に伴い、数学的な考え方が重要性を増してきた
+    ・人口が増えるに伴って、いろいろな問題が起こってきた
+    ・インターネットの普及に伴って、ネットで買い物をする人が増えた
+    ・経済の不況に伴って、失業した人が増えている
+    ・人口の増加に伴い、資源の消費量も増える
+    ・秋が深まるに伴って、山の紅葉が進む
+    ・地震に伴って火災が発生することが多い
+    ・経済発展に伴う環境破壊が問題になっている
+    ・少子化に伴い高齢者が高齢者を介護するようになるだろう
+
+**⑤　とともに◦ As..gradually..**
+
+###### **⚭　Vru/N + totomoni**
+
+###### When one thing changes, another does, too
+
+###### Words expressing change appear both before and after
+
+    ・日差しが強まり、気温が高くなるとともに次々と花が開き始める
+    ・秋の深まりとともに今年も柿がおいしくなってきた
+    ・この国では内戦の拡大とともに、人々の生活の安定は次第に失われていった
+    ・体が慣れていくとともに、トレーニングの種類を増やそうと思っている
+
+**⑥　とともに◦ Together with・at the same time・as well as**
+
+###### **⚭　Vru/I-Adj/Na-Adj/N + totomoni**
+
+###### Two actions occur nearly simultaneously
+
+    ・ベルが鳴るとともに、子どもたちはいっせいに運動場へ飛び出し
+    ・彼は京都に転勤するとともに、結婚して家庭を持った
+    ・試合の終了とともに、観客は総立ちとなって勝者に盛大な拍手を送った
+    ・佐藤さんはわたしの親友であるとともに、人生の大先輩でもある
+    ・この賞をいただいて、うれしいとともに感謝の気持ちでいっぱいです
+    ・病気が回復すると共に食欲も出てきた
+    ・大阪は東京とともに日本経済の中心地である
+
 ------------------------------------------------------------------------
 
 ##### With・Without
@@ -13978,7 +14113,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ###### Put love, hopes, or other feelings into something
 
-###### Also often used in 心をこめて , 祈りをこめて , 思いをこめて , 恨みをこめて , or 力をこめて (with strength)
+###### Also often used in 心をこめて, 祈りをこめて, 思いをこめて, 恨みをこめて, or 力をこめて (with strength)
 
     ・先生、ありがとうございました。わたしたちの感謝を込めてこの文集を作りました
     ・あなたに、愛を込めてこの指輪を贈ります
@@ -14140,6 +14275,65 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・このレポートは時間をかけて調査したにしては、詳しいデータが集まっていない
     ・あの人は５０歳にしては、ずいぶん若く見える
     ・彼は勉強しなかったにしては、いい点が取れた
+
+------------------------------------------------------------------------
+
+##### Topics
+
+**①　とは◦ Is defined as**
+
+###### **⚭　N + towa**
+
+###### For meaning or definition of phrases
+
+###### Often found in patterns ~ とは..ことだ (N is), ものだ (is), という意味だ (has the meaning)
+
+###### Same meaning and usage as というのは , but とは is written form 
+
+###### In informal speech become って
+
+    ・水蒸気とは気体の状態に変わった水のことである
+    ・季語とは季節を表す言葉で、俳句の中で必ず使われるものです
+    ・赤字とは収入より支出が多いことです
+    ・ねえ、エンゲル係数って何?
+
+**②　というのは◦ A..is..**
+
+###### **⚭　N + toiunowa**
+
+###### Explains meaning or definition of phrase
+
+###### Often in patterns ~というのは..ことだ,..ものだ..という意味だ 
+
+###### More colloquial than とは, but has same meaning and usage
+
+###### In informal speech becomes っていうのは, or って
+
+    ・教育ママというのは自分の子どもの教育に熱心な母親のことです
+    ・「いたしかたがない」というのはどういう意味ですか
+    ・パソコンで「上書き保存」というのは訂正した文書を保存するという意味です
+    ・A:空梅雨って何ですか B:空梅雨っていうのは、ほとんど雨が降らない梅雨のことだよ
+
+**③　というものは・ということは◦ Is・are・that is to say・so that means**
+
+###### **⚭　N + toiumonowa**
+
+###### **⚭　Vplain + toiukotowa**
+
+###### Raises issues to describe with emotion essence or universal nature of something
+
+###### Words expressing speaker's impressions or deep-felt emotions follow
+
+###### When describing nouns, というものは is used. For phrases, ということは is used
+
+###### In informal speech, becomes ってことは or って
+
+    ・親というものはありがたいものだ
+    ・外国で一人で暮らす大変さというものは、経験しないとわからない
+    ・ふるさとというものは遠く離れるといっそう懐かしくなる
+    ・社会を変えるということは大変なことだ
+    ・体が丈夫だということはありがたいことだと思っています
+    ・自由時間が十分にあるってことはほんとうにいいことだ
 
 ------------------------------------------------------------------------
 
