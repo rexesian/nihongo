@@ -14428,7 +14428,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 #### Quick Reference {.tabset}
 
-##### **Tense/Situation**
+##### Tense・Situation
 
     とき　　　　　　・母は本を読むとき、めがねをかけます　　　　　　　　　　　　　　・When
     ながら　　　　　・わたしはいつも料理の本を見ながら料理を作ります　　　　　　　　・While         
@@ -14445,6 +14445,27 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     つつ　　　　　　・電車に揺られつつ、２時間ほどいい気持ちで眠った　　　　　　　　・While
     にあって　　　　・今、国は経済成長期にあって、人々の表情も生き生きとしている　　・In, At
 
+------------------------------------------------------------------------
+
+##### Time Order
+
+    まえに　　　　　　・食事の前に手を洗いましょう　　　　　　　　　　　　　　　　　　・Before
+    あとで　　　　　　・食事の後で、少し散歩しませんか　　　　　　　　　　　　　　　　・After        
+    て　　　　　　　　・電気を消して、部屋を出ます　　　　　　　　　　　　　　　　　　・Then 
+    てから　　　　　　・この仕事をぜんぶやってからビールを飲みます　　　　　　　　　　・After
+    てから　　　　　　・わたしが日本に来てから、もう４年たちました　　　　　　　　　　・Since
+    たばかりだ　　　　・今うちに帰ってきたばかりなのでもう見ましたか　　　　　　　　　・Just finished, Just did
+    たら　　　　　　　・夏休みになったら、国へ帰ります　　　　　　　　　　　　　　　　・After
+    うちに　　　　　　・独身のうちに、いろいろなことをやってみたいです　　　　　　　　・While
+    にさきだって　　　・出発に先立って、大きい荷物は全部送っておきました　　　　　　　・As a precursor to, Before
+    たとたん（に）　　・ずっと本を読んでいて急に立ち上がったとたん、めまいがしました　・Just at the very moment, As soon as
+    とともに　　　　　・ベルが鳴るとともに、子どもたちはいっせいに運動場へ飛び出した　・At the same time
+    とおもうと　　　　・急に空が暗くなったかと思うと、激しく雨が降り始めた　　　　　　・No sooner than, Just when
+    か〜ないかのうちに・授業が終わるか終わらないかのうちに彼は教室を出た　　　　　　　・Just barely when, As soon as
+    しだい　　　　　　・スケジュールが決まり次第、すぐ知らせてください　　　　　　　　・As soon as, the moment that
+    てからでないと　　・野菜を生で食べるなら、よく洗ってからでないと、農薬が心配だ　　・Not until after
+    てはじめて　　　　・入院してはじめて健康のありがたさがわかりました　　　　　　　　・It is・was not until...that
+    
 ------------------------------------------------------------------------
 
 ### Situational  {.tabset}
