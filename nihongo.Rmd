@@ -14337,6 +14337,116 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ------------------------------------------------------------------------
 
+##### Emphatic Expression
+
+**①　さえ・でさえ◦ Even・so much as**
+
+###### **⚭　N + sae/desae**
+
+###### Cites an extreme case to express that naturally there are other factors
+
+###### Often appends to the nominative as でさえ
+
+    ・ジムは日本に長くいるので会話は上手だが、文字はひらがなさえ読めない
+    ・彼女は親友の花子にさえ知らせずに一人で外国へ旅立った
+    ・息子を失った彼女は生きる希望さえなくしてしまった
+    ・の本は小学生でさえ読めるのだから高校生のあなたは簡単に読めるでしょう
+    ・山の上には夏でさえ雪が残っている
+    ・食べ過ぎてイチゴさえ食べられない
+    ・そんなこと子供でさえ知ってい
+    ・彼らは教室にいる時でさえも携帯を使う
+
+**②　として~ない◦ Not even**
+
+###### **⚭　1+counter + toshite + .. Vnai**
+
+###### Strong overall negation given by selecting some minimal unit as example
+
+    ・火事で焼けてしまったので、わたしの子どものころの写真は1枚として残っていない
+    ・ぼくは1日として君のことを考えない日はない。愛しているよ
+    ・犯人が通った出入り口の近くに人が何人かいたのだが、だれ一人として気がついた人はいなかった
+    ・僕は一日として学校を休んだことがない
+    ・彼女は一度として宿題を忘れたことがない
+
+------------------------------------------------------------------------
+
+##### Unrelated Exp・Exceptions
+
+**①　を問わず・は問わず◦ regardless of・irrespective of・no matter**
+
+###### **⚭　N + wo/wa + towazu**
+
+###### Regardless of how something was or what came before, what follows will occur
+
+###### Often appends to antonyms such as night and day, or rain or not rain
+
+###### Patterns にかかわらず and にかかわりなく have nearly same meaning and usage
+
+    ・この辺りは若者に人気がある町で、昼夜を問わずいつもにぎわっている
+    ・「オール・ウエザー・コート」というのは、天候を問わず使える運動場のことだ
+    ・近年、文化財保護の問題は、国の内外を問わず大きな関心を呼んでいる
+    ・この会には年齢、性別は問わず、いろいろな人を集めたいのです
+    ・この公園では季節を問わず美しい花が見られます
+    ・高い安いの値段を問わず、私はいいものを買いたいです
+    ・この島には、季節を問わず、多くの観光客が訪れ
+    ・その小説は、年齢や性別を問わず,多くの人々に読まれている
+
+**②　にかかわらず◦ regardless of・doesn't matter whether**
+
+###### **⚭　N + ni + kakawarazu**
+
+###### Whatever follows after pattern will occur no matter what happens before pattern
+
+###### Often used in contrasting relationships
+
+###### Same meaning and usage as にかかわりなく and をとわず
+
+    ・このデパートは、曜日にかかわらず、いつも込んでいる
+    ・金額の多少にかかわらず、寄付は大歓迎です
+    ・値段の高い安いにかかわらず、いい物は売れるという傾向があります
+    ・明日来る来ないにかかわらず、必ずわたしに電話してください
+    ・経験のあるなしにかかわらず、誰でも参加することができます
+    ・金額の多少にかかわらずいつでもご相談下さい
+    ・その計画は強い反対にもかかわらず続行された
+    ・ひどい渋滞にもかかわらず、私は定刻に間に合った
+
+**③　にかかわりなく◦  regardless of**
+
+###### **⚭　N + ni + kakawarinaku**
+
+###### Whatever follows after pattern will occur no matter what happens before pattern
+
+###### Often used in contrasting relationships
+
+###### Same meaning and usage as にかかわらず and をとわず
+
+    ・田中さんは相手の都合にかかわりなく仕事を頼んでくるので本当に困る
+    ・当社は学校の成績のいい悪いにかかわりなく、やる気のある人材を求めています
+    ・今回の研修旅行に参加するしないにかかわりなく、このアンケートに答えてください
+
+------------------------------------------------------------------------
+
+#### Quick Reference {.tabset}
+
+##### **Tense/Situation**
+
+    とき　　　　　　・母は本を読むとき、めがねをかけます　　　　　　　　　　　　　　・When
+    ながら　　　　　・わたしはいつも料理の本を見ながら料理を作ります　　　　　　　　・While         
+    あいだ　　　　　・わたしは夏の間、ずっと北海道にいました　　　　　　　　　　　　・Throughout the time 
+    あいだに　　　　・夏休みの間に引っ越ししたいです　　　　　　　　　　　　　　　　・During, When
+    ところだ　　　　・時刻は間もなく３時になるところです　　　　　　　　　　　　　　・About to
+    おり（に）　　　・このことは今度お目にかかった折に詳しくお話しいたします　　　　・Whenever there is an occasion
+    さい（に）　　　・非常の際はエレベーターを使わずに、階段をご利用ください　　　　・When, On the occasion of
+    にさいして　　　・来日に際していろいろな方のお世話になった　　　　　　　　　　　・When, On the occasion
+    において　　　　・式典は４あ会館において行われる予定　　　　　　　　　　　　　　・In, At
+    にあたって　　　・新学期にあたって、皆さんに言っておきたいことがあります　　　　・On the occasion of
+    うちに　　　　　・今は上手に話せなくても練習を重ねるうちに上手になります　　　　・Before you know it
+    さいちゅう（に）・新入社員の小林さんは、会議の最中にいねむりを始めてしまった　　・In the middle of
+    つつ　　　　　　・電車に揺られつつ、２時間ほどいい気持ちで眠った　　　　　　　　・While
+    にあって　　　　・今、国は経済成長期にあって、人々の表情も生き生きとしている　　・In, At
+
+------------------------------------------------------------------------
+
 ### Situational  {.tabset}
 
 #### Request
@@ -15949,9 +16059,11 @@ A.1.4 **あいだに** `[time]` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida(ni)**
 
 ------------------------------------------------------------------------
 
-## MeshClass {.tabset}
+## Others {.tabset}
 
-### QA-Pairs {.tabset}
+### MeshClass {.tabset}
+
+#### QA-Pairs {.tabset}
 
 **遠慮なく** `without hesitation・without reservation・freely・frankly` **⚭ Adverb**  
 `・Expression・Adverb`
@@ -15986,6 +16098,34 @@ A.1.4 **あいだに** `[time]` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida(ni)**
     ・May I smoke? Yes, you may
     ・You are welcome to come whenever it is convenient for you
     ・May I have a moment? "Yes, of course. What's going on?
+
+------------------------------------------------------------------------
+
+### M&DGrammar {.tabset}
+
+#### 抜く
+
+**抜く** `do something to the end・extremely・completely・thoroughly・very` **⚭ V~~masu~~ + nuku**  
+・苦しくても最後まで頑張って~する・完了する **V**: `やる・頑張る・生きる・走る・守る・耐える・戦う`  
+・徹底的・そごく・非常に~する　**V**: `考える・悩む・困る・苦しむ・知る・選ぶ`
+
+    ・最後まで走り抜いたね
+    ・マラトン大会で最後まで走り抜いた
+    ・考え抜いた結果、イギリスに留学することにしたよ
+    ・辛い苛めに耐え抜いて卒業した
+    ・最後まで戦い抜いて勝った
+    ・悩み抜いて仕事を辞めることにしました
+    ・娘のことは知り抜いている
+    
+<!-- <h> -->
+
+    ・You ran all the way to the end
+    ・I ran the marathon to the end
+    ・After much thought, I decided to study in England
+    ・I survived the torment and graduated
+    ・I fought to the end and won
+    ・After much thought, I decided to quit my job
+    ・I know my daughter very well
 
 ------------------------------------------------------------------------
 
