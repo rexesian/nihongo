@@ -14431,13 +14431,12 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 ##### Tense・Situation
 
     とき　　　　　　　・母は本を読むとき、めがねをかけます　　　　　　　　　　　　　　・When
-    ながら　　　　　　・わたしはいつも料理の本を見ながら料理を作ります　　　　　　　　・While         
-    あいだ　　　　　　・わたしは夏の間、ずっと北海道にいました　　　　　　　　　　　　・Throughout the time 
+    ながら　　　　　　・わたしはいつも料理の本を見ながら料理を作ります　　　　　　　　・While
+    あいだ　　　　　　・わたしは夏の間、ずっと北海道にいました　　　　　　　　　　　　・Throughout the time
     あいだに　　　　　・夏休みの間に引っ越ししたいです　　　　　　　　　　　　　　　　・During, When
     ところだ　　　　　・時刻は間もなく３時になるところです　　　　　　　　　　　　　　・About to
     おり（に）　　　　・このことは今度お目にかかった折に詳しくお話しいたします　　　　・Whenever there is an occasion
     さい（に）　　　　・非常の際はエレベーターを使わずに、階段をご利用ください　　　　・When, On the occasion of
-    にさいして　　　　・来日に際していろいろな方のお世話になった　　　　　　　　　　　・When, On the occasion
     において　　　　　・式典は４あ会館において行われる予定　　　　　　　　　　　　　　・In, At
     にあたって　　　　・新学期にあたって、皆さんに言っておきたいことがあります　　　　・On the occasion of
     うちに　　　　　　・今は上手に話せなくても練習を重ねるうちに上手になります　　　　・Before you know it
@@ -14458,14 +14457,22 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     たら　　　　　　　・夏休みになったら、国へ帰ります　　　　　　　　　　　　　　　　・After
     うちに　　　　　　・独身のうちに、いろいろなことをやってみたいです　　　　　　　　・While
     にさきだって　　　・出発に先立って、大きい荷物は全部送っておきました　　　　　　　・As a precursor to, Before
-    たとたん（に）　　・ずっと本を読んでいて急に立ち上がったとたん、めまいがしました　・Just at the very moment, As soon as
+    たとたん（に）　　・ずっと本を読んでいて急に立ち上がったとたん、めまいがしました　・At the very moment, As soon as
     とともに　　　　　・ベルが鳴るとともに、子どもたちはいっせいに運動場へ飛び出した　・At the same time
     とおもうと　　　　・急に空が暗くなったかと思うと、激しく雨が降り始めた　　　　　　・No sooner than, Just when
     か〜ないかのうちに・授業が終わるか終わらないかのうちに彼は教室を出た　　　　　　　・Just barely when, As soon as
     しだい　　　　　　・スケジュールが決まり次第、すぐ知らせてください　　　　　　　　・As soon as, the moment that
     てからでないと　　・野菜を生で食べるなら、よく洗ってからでないと、農薬が心配だ　　・Not until after
-    てはじめて　　　　・入院してはじめて健康のありがたさがわかりました　　　　　　　　・It is・was not until...that
-    
+    てはじめて　　　　・入院してはじめて健康のありがたさがわかりました　　　　　　　　・It is/was not until..that, Only after
+    うえで　　　　　　・詳しいことはお目にかかった上で、説明いたします　　　　　　　　・After having
+    ていらい　　　　　・大学を卒業して以来、田中さんには１度も会っていません　　　　　・Ever since
+    てからは　　　　　・先月、禁煙してからは、１度もたばこを吸っていません　　　　　　・Ever since
+    がはやいか　　　　・小田先生はチャイムが鳴るが早いか、教室に入ってきます　　　　　・No sooner than, As soon as
+    やいなや　　　　　・ドアを開けるやいなやその猫は飛び出していった　　　　　　　　　・No sooner than, As soon as, themoment that
+    なり　　　　　　　・子どもは母親の顔を見るなり、ワッと泣き出しました　　　　　　　・As soon as
+    そばから　　　　　・私は聞いたそばから人の名前を忘れてしまう　　　　　　　　　　　・As soon as
+    てからというもの　・たばこを止めてからというもの、食欲が出て体の調子がとてもいい　・From the time.., After, Since
+
 ------------------------------------------------------------------------
 
 ### Situational  {.tabset}
