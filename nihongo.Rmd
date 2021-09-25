@@ -14430,11 +14430,11 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Tense・Situation
 
-    とき　　　　　　　・母は本を読むとき、めがねをかけます　　　　　　　　　　　　　　・When
+    とき　　　　　　　・母は本を読むとき、めがねをかけます　　　　　　　　　　　　　　・When ⚭ Vp.I.Na+na.N
     ながら　　　　　　・わたしはいつも料理の本を見ながら料理を作ります　　　　　　　　・While
     あいだ　　　　　　・わたしは夏の間、ずっと北海道にいました　　　　　　　　　　　　・Throughout the time
     あいだに　　　　　・夏休みの間に引っ越ししたいです　　　　　　　　　　　　　　　　・During, When
-    ところだ　　　　　・時刻は間もなく３時になるところです　　　　　　　　　　　　　　・About to
+    ところだ　　　　　・時刻は間もなく３時になるところです　　　　　　　　　　　　　　・About to, In the midst of, Just
     おり（に）　　　　・このことは今度お目にかかった折に詳しくお話しいたします　　　　・Whenever there is an occasion
     さい（に）　　　　・非常の際はエレベーターを使わずに、階段をご利用ください　　　　・When, On the occasion of
     において　　　　　・式典は４あ会館において行われる予定　　　　　　　　　　　　　　・In, At
@@ -14443,6 +14443,22 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     さいちゅう（に）　・新入社員の小林さんは、会議の最中にいねむりを始めてしまった　　・In the middle of
     つつ　　　　　　　・電車に揺られつつ、２時間ほどいい気持ちで眠った　　　　　　　　・While
     にあって　　　　　・今、国は経済成長期にあって、人々の表情も生き生きとしている　　・In, At
+
+<!-- <h> -->
+
+    とき　　　　　　　・地震のときは、すぐに火を消しなさい　　　　　　　　　　　　　　・⚭ Vp.I.Na+na.N+no
+    ながら　　　　　　・発音のテープを聞きながら、日本語の勉強をした　　　　　　　　　・⚭ Vn
+    あいだ　　　　　　・両親が旅行をしている間、ぼくが毎日食事を作りました　　　　　　・⚭ Vru.Vteiru.I.Na+na.N+no
+    あいだに　　　　　・暇な間に本だなをかたづけてしまおう　　　　　　　　　　　　　　・⚭ Vru.Vteiru.I.Na+na.N+no
+    ところだ　　　　　・ご飯を食べているところに電話がかかってきた　　　　　　　　　　・⚭ Vru.Vteiru.Vta.Vteita
+    おり（に）　　　　・このことは今度お目にかかった折に詳しくお話しいたします　　　　・⚭ Vp.I.Na+na.N+no
+    さい（に）　　　　・非常の際はエレベーターを使わずに、階段をご利用ください　　　　・⚭ Vp.I.Na+na.N+no
+    において　　　　　・この植物は、ある一定の環境においてしか花を咲かせない　　　　　・⚭ N
+    にあたって　　　　・研究発表をするにあたって、しっかり準備をすることが必要だ　　　・⚭ Vru.N
+    うちに　　　　　　・ふと外を見ると、気がつかないうちに雨が降り出していた　　　　　・⚭ Vru.Vteiru.Vnai.N+no
+    さいちゅう（に）　・今考えごとをしている最中だから、少し静かにしてください　　　　・⚭ Vteiru.N+no
+    つつ　　　　　　　・山に登りつつ、人は人生についてさまざまなことを考える　　　　　・⚭ Vn
+    にあって　　　　　・数学は高度情報社会にあって、必要な学問的教養となっている　　　・⚭ N
 
 ------------------------------------------------------------------------
 
@@ -15156,78 +15172,78 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### Essential Expression {.tabset}
+<!-- ### Essential Expression {.tabset} -->
 
-#### A
+<!-- #### A -->
 
-ナAな/Nの + 間 `throughout; during`
+<!-- ナAな/Nの + 間 `throughout; during` -->
 
-    わたしは夏の間、ずっと北海道にいました。
-    両親が旅行をしている間、ぼくが毎日食事を作りました。
-    兄がゲームをしている間、 弟 はそばで見ています。
-    夏休みにとなりのうちがにぎやかな間は、わたしも楽しい気分になる。
+<!--     わたしは夏の間、ずっと北海道にいました。 -->
+<!--     両親が旅行をしている間、ぼくが毎日食事を作りました。 -->
+<!--     兄がゲームをしている間、 弟 はそばで見ています。 -->
+<!--     夏休みにとなりのうちがにぎやかな間は、わたしも楽しい気分になる。 -->
 
-ナAな/Nの + 間に `during; when`
+<!-- ナAな/Nの + 間に `during; when` -->
 
-    夏休みの間に引っ越ししたいです。
-    わたしがいない間にだれか来たのでしょうか。門が少し開いています。
-    日本にいる間に1度富士山に登りたい。
-    暇な間に本だなをかたづけてしまおう。
-    
-Vta/Nの + あげく `after much; ended up; in the end; after all`
+<!--     夏休みの間に引っ越ししたいです。 -->
+<!--     わたしがいない間にだれか来たのでしょうか。門が少し開いています。 -->
+<!--     日本にいる間に1度富士山に登りたい。 -->
+<!--     暇な間に本だなをかたづけてしまおう。 -->
 
-    さんざん道に迷ったあげく、結局、駅前に戻って交番で道を聞かなければならなかった。
-    太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。
-    この問題については、長時間にわたる議論のあげく、結論は先送りされた。
-    何日間も協議を続けたあげくの果ての結論として、今回は残念ながらわれわれの会としては代表を送らないことにした。
-    
-Nを + あげる `give`
+<!-- Vta/Nの + あげく `after much; ended up; in the end; after all` -->
 
-    姉はあい子さんの誕生日にケーキをあげた。
-    A:わあ、たくさんおみやげを買いましたね。B:ええ、会社の人たちにあげるんです。
-    この人形は部長の奥さまにさしあげようと思って買いました。
-    先生の受賞のお祝いに何かさしあげましょうよ。
-    わたしの旅行中、花に水をやるのを忘れないでね。
-    A:森さんはお正月に、お子さんにお年玉をあげますか。B:いいえ、自分の子どもたちにはやりませんよ。
+<!--     さんざん道に迷ったあげく、結局、駅前に戻って交番で道を聞かなければならなかった。 -->
+<!--     太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。 -->
+<!--     この問題については、長時間にわたる議論のあげく、結論は先送りされた。 -->
+<!--     何日間も協議を続けたあげくの果ての結論として、今回は残念ながらわれわれの会としては代表を送らないことにした。 -->
 
-N + あっての `comprised of; dispensable to`
+<!-- Nを + あげる `give` -->
 
-    愛あっての結婚生活だ。愛がなければ、いっしょに暮らす意味がない。
-    わたしたちはお客さまあっての仕事ですから、お客さまを何より大切にしています。
-    交渉は相手あってのことですから、自分の都合だけ主張してもうまくいかない。
+<!--     姉はあい子さんの誕生日にケーキをあげた。 -->
+<!--     A:わあ、たくさんおみやげを買いましたね。B:ええ、会社の人たちにあげるんです。 -->
+<!--     この人形は部長の奥さまにさしあげようと思って買いました。 -->
+<!--     先生の受賞のお祝いに何かさしあげましょうよ。 -->
+<!--     わたしの旅行中、花に水をやるのを忘れないでね。 -->
+<!--     A:森さんはお正月に、お子さんにお年玉をあげますか。B:いいえ、自分の子どもたちにはやりませんよ。 -->
 
-Vta/Nの + 後で `after`
+<!-- N + あっての `comprised of; dispensable to` -->
 
-    食事の後で、少し散歩しませんか。
-    この薬はご飯を食べる前に飲みますか、食べた後で飲みますか。
-    このビデオ、あなたが見た後で、わたしにも貸してください。
-    祭りの後、ごみがいっぱいだった。
-    祖父はみんなとお茶を飲んだ後、ずっと部屋で本を読んでいます。
+<!--     愛あっての結婚生活だ。愛がなければ、いっしょに暮らす意味がない。 -->
+<!--     わたしたちはお客さまあっての仕事ですから、お客さまを何より大切にしています。 -->
+<!--     交渉は相手あってのことですから、自分の都合だけ主張してもうまくいかない。 -->
 
-Vplain/ナAな/Nの + あまり `so much.. that`
+<!-- Vta/Nの + 後で `after` -->
 
-    のオリンピックは勝ち負けを気にするあまり、スポーツマンシップという大切なものをなくしているのではないか。
-    試験の問題は易しかったのに、考えすぎたあまり、間違えてしまった。
-    合格の知らせを聞いて、彼女はうれしさのあまり泣き出した。
-    夫が突然の事故で亡くなった。彼女は悲しみのあまり心の病になってしまった。
-    K市は開発を優先するあまり、市民の生活の安全を軽視しているのではないか。
+<!--     食事の後で、少し散歩しませんか。 -->
+<!--     この薬はご飯を食べる前に飲みますか、食べた後で飲みますか。 -->
+<!--     このビデオ、あなたが見た後で、わたしにも貸してください。 -->
+<!--     祭りの後、ごみがいっぱいだった。 -->
+<!--     祖父はみんなとお茶を飲んだ後、ずっと部屋で本を読んでいます。 -->
 
-あまりの + Nに `so.. that`
+<!-- Vplain/ナAな/Nの + あまり `so much.. that` -->
 
-    今年の夏はあまりの暑さに食欲もなくなってしまった。
-    今のわたしの仕事はきつい。あまりの大変さに時々会社を辞めたくなる。
-    父はデジタルカメラの講習を受けに行ったが、あまりの難しさにびっくりしたようだ。
+<!--     のオリンピックは勝ち負けを気にするあまり、スポーツマンシップという大切なものをなくしているのではないか。 -->
+<!--     試験の問題は易しかったのに、考えすぎたあまり、間違えてしまった。 -->
+<!--     合格の知らせを聞いて、彼女はうれしさのあまり泣き出した。 -->
+<!--     夫が突然の事故で亡くなった。彼女は悲しみのあまり心の病になってしまった。 -->
+<!--     K市は開発を優先するあまり、市民の生活の安全を軽視しているのではないか。 -->
 
-#### I
+<!-- あまりの + Nに `so.. that` -->
 
-N(の) + いかんで `in accordance with; is contigent on`
+<!--     今年の夏はあまりの暑さに食欲もなくなってしまった。 -->
+<!--     今のわたしの仕事はきつい。あまりの大変さに時々会社を辞めたくなる。 -->
+<!--     父はデジタルカメラの講習を受けに行ったが、あまりの難しさにびっくりしたようだ。 -->
 
-    商品の説明のし方いかんで、売れ行きに大きく差が出てきてしまう。
-    このごろとても疲れやすいので、当日の体調いかんでその会に出席するかどうか決めたい。
-    国の援助のいかんによって、高齢者や身体障害者の暮らし方が変わると思う。
-    今度の事件をどう扱うかは校長の考え方いかんです。
+<!-- #### I -->
 
-------------------------------------------------------------------------
+<!-- N(の) + いかんで `in accordance with; is contigent on` -->
+
+<!--     商品の説明のし方いかんで、売れ行きに大きく差が出てきてしまう。 -->
+<!--     このごろとても疲れやすいので、当日の体調いかんでその会に出席するかどうか決めたい。 -->
+<!--     国の援助のいかんによって、高齢者や身体障害者の暮らし方が変わると思う。 -->
+<!--     今度の事件をどう扱うかは校長の考え方いかんです。 -->
+
+<!-- ------------------------------------------------------------------------ -->
 
 ## Special Topics {.tabset}
 
@@ -16206,11 +16222,19 @@ The meaning and nuances are pretty exactly the same with slight difference
 
 ## Dictionary {.tabset}
 
-### Pattern {.tabset}
+### Basic {.tabset}
+
+------------------------------------------------------------------------
+
+### Intermediate {.tabset}
+
+------------------------------------------------------------------------
+
+### Essential {.tabset}
 
 #### A {.tabset}
 
-A.1 **あいだ** `throughout` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida**  
+A.1 **あいだ** `throughout` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida**  
 `・Appends to expressions of time, i.e., “throughout the entire time.”`
 
     ・わたしは夏の間、ずっと北海道にいました
@@ -16225,7 +16249,7 @@ A.1 **あいだ** `throughout` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida**
     ・While the older brother is playing a game, the younger brother is watching nearby.
     ・During the summer vacations, when my neighbor's house is bustling with activity, I feel happy too.
 
-A.2 **あいだに** `during; when` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida ni**
+A.2 **あいだに** `during; when` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida ni**
 `・Appends to expressions involving length of time meaning“before the time interval ends.”`
 
     ・夏休みの間に引っ越ししたいです
@@ -16240,14 +16264,85 @@ A.2 **あいだに** `during; when` **⚭ Vru/Vteiru/NNa-Adj+na/N+no + aida ni**
     ・I want to climb Mount Fuji once while I'm in Japan.
     ・Let's clear out the bookshelf in our spare time.
 
+A.3 **あげく** `after much; ended up; in the end; after all` **⚭ Vta/N+no + ageku**
+
+    ・さんざん道に迷ったあげく、結局、駅前に戻って交番で道を聞かなければならなかった
+    ・太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった
+    ・この問題については、長時間にわたる議論のあげく、結論は先送りされた
+    ・何日間も協議を続けたあげくの果ての結論として、今回は残念ながらわれわれの会としては代表を送らないことにした
+    
+<!-- <h> -->
+
+    ・After getting lost for a long time, he finally had to go back to the station and ask for directions at the police station.
+    ・After worrying his parents a lot about money and friends, Taro finally left home.
+    ・After a long discussion on this issue, the conclusion was postponed.
+    ・After many days of discussion, we decided not to send a representative this time.
+
+A.4 **あげる** `give` **⚭ N + wo + ageru**
+
+    ・姉はあい子さんの誕生日にケーキをあげた
+    ・A:わあ、たくさんおみやげを買いましたね  B:ええ、会社の人たちにあげるんです
+    ・この人形は部長の奥さまにさしあげようと思って買いました
+    ・先生の受賞のお祝いに何かさしあげましょうよ
+    ・わたしの旅行中、花に水をやるのを忘れないでね
+    ・A:森さんはお正月に、お子さんにお年玉をあげますか B:いいえ、自分の子どもたちにはやりませんよ
+    
+<!-- <h> -->
+    
+    ・My sister gave Aiko a cake for her birthday.
+    ・A: Wow, you bought a lot of souvenirs. B: Yes, I'm giving them to the people at work.
+    ・I bought this doll to give to the director's wife.
+    ・Let's give her something to celebrate her award.
+    ・Don't forget to water the flowers during my trip.
+    ・A: Do you give New Year's gifts to your children at New Year's? B: No, I wouldn't do it to my own children.
+    
+N + あっての `comprised of; dispensable to`
+
+    愛あっての結婚生活だ。愛がなければ、いっしょに暮らす意味がない。
+    わたしたちはお客さまあっての仕事ですから、お客さまを何より大切にしています。
+    交渉は相手あってのことですから、自分の都合だけ主張してもうまくいかない。
+
+Vta/Nの + 後で `after`
+
+    食事の後で、少し散歩しませんか。
+    この薬はご飯を食べる前に飲みますか、食べた後で飲みますか。
+    このビデオ、あなたが見た後で、わたしにも貸してください。
+    祭りの後、ごみがいっぱいだった。
+    祖父はみんなとお茶を飲んだ後、ずっと部屋で本を読んでいます。
+
+Vplain/ナAな/Nの + あまり `so much.. that`
+
+    のオリンピックは勝ち負けを気にするあまり、スポーツマンシップという大切なものをなくしているのではないか。
+    試験の問題は易しかったのに、考えすぎたあまり、間違えてしまった。
+    合格の知らせを聞いて、彼女はうれしさのあまり泣き出した。
+    夫が突然の事故で亡くなった。彼女は悲しみのあまり心の病になってしまった。
+    K市は開発を優先するあまり、市民の生活の安全を軽視しているのではないか。
+
+あまりの + Nに `so.. that`
+
+    今年の夏はあまりの暑さに食欲もなくなってしまった。
+    今のわたしの仕事はきつい。あまりの大変さに時々会社を辞めたくなる。
+    父はデジタルカメラの講習を受けに行ったが、あまりの難しさにびっくりしたようだ。
+
 ------------------------------------------------------------------------
 
-### Basic {.tabset}
+#### I {.tabset}
 
-------------------------------------------------------------------------
+I.1 **いかんで** `in accordance with・is contingent on` **⚭ N+(no) + ikande**  
+`・Mainly appends to expressions of difference in level or type`
+`・Indicates that something will change or be decided depending on N`
 
-### Inteemediate {.tabset}
+    ・商品の説明のし方いかんで、売れ行きに大きく差が出てきてしまう
+    ・このごろとても疲れやすいので、当日の体調いかんでその会に出席するかどうか決めたい
+    ・国の援助のいかんによって、高齢者や身体障害者の暮らし方が変わると思う
+    ・今度の事件をどう扱うかは校長の考え方いかんです
+    
+<!-- <h> -->
 
+    ・I want to decide whether or not to attend the meeting depending on how I feel.
+    ・I am very tired these days, so I would like to decide whether or not to attend the meeting depending on how I feel on the day.
+    ・I think the way of life of the elderly and disabled will change depending on how the government helps them.
+    ・It's up to the principal to decide how to handle this incident.
 ------------------------------------------------------------------------
 
 ## Handbook {.tabset}
