@@ -14521,6 +14521,16 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
     は～が、～は　　　・この本はもう読みましたが、あの本はまだです　　　　　　　　　　・(Does) this, but not that
     どころか　　　　　・専門家どころか小学生がこの難しいゲームソフトを作ったのだそうだ・(Exact opposite) hardly the case that, Far from
+    どころか　　　　　・この製品はアジア諸国どころか南米やアフリカにまで輸出されている・(Contrast in level) of course.., but also.. can’t even
+    いっぽう（で）　　・いい親は厳しくしかる一方で、ほめることも忘れない　　　　　　　・On the one hand
+    にたいして　　　　・活発な姉に対して、妹は静かなタイプです　　　　　　　　　　　　・(Contrast) as opposed to, In contrast to
+    にはんして　　　　・予想に反して試験はとても易しかったです　　　　　　　　　　　　・Contrary to    
+    はんめん　　　　　・彼女はいつもは明るい反面、寂しがりやでもあります　　　　　　　・At the same time, On the other hand
+    というより　　　　・にぎやかというより、人通りや車の音でうるさいくらいなんです　　・More than calling it.., Rather than calling it..
+    かわりに　　　　　・この辺は買い物などに不便な代わりに、自然が豊かで気持ちがいい　・The other side is, In exchange, In lieu of
+    かわりに　　　　　・出張中の課長の代わりに、わたしが会議に出ます　　　　　　　　　・In place of
+    にかわって　　　　・来週の出張は大阪にかわって、京都に行くことになりました　　　　・Instead of, In place of
+    にひきかえ　　　　・ひどい米不足だった去年にひきかえ、今年は豊作のようです　　　　・In contrast to
 
 ------------------------------------------------------------------------
 
@@ -16296,13 +16306,13 @@ A.4 **あげる** `give` **⚭ N + wo + ageru**
     ・Don't forget to water the flowers during my trip.
     ・A: Do you give New Year's gifts to your children at New Year's? B: No, I wouldn't do it to my own children.
     
-N + あっての `comprised of; dispensable to`
+A.5 **あっての** `comprised of; dispensable to` **⚭ N + atteno**
 
     愛あっての結婚生活だ。愛がなければ、いっしょに暮らす意味がない。
     わたしたちはお客さまあっての仕事ですから、お客さまを何より大切にしています。
     交渉は相手あってのことですから、自分の都合だけ主張してもうまくいかない。
 
-Vta/Nの + 後で `after`
+A.6 **後で** `after` **⚭ Vta/N+no + atode**
 
     食事の後で、少し散歩しませんか。
     この薬はご飯を食べる前に飲みますか、食べた後で飲みますか。
@@ -16310,7 +16320,7 @@ Vta/Nの + 後で `after`
     祭りの後、ごみがいっぱいだった。
     祖父はみんなとお茶を飲んだ後、ずっと部屋で本を読んでいます。
 
-Vplain/ナAな/Nの + あまり `so much.. that`
+A.7 **あまり** `so much.. that` **⚭ Vplain/Na-Adj+na/N+no + amari**
 
     のオリンピックは勝ち負けを気にするあまり、スポーツマンシップという大切なものをなくしているのではないか。
     試験の問題は易しかったのに、考えすぎたあまり、間違えてしまった。
@@ -16318,7 +16328,7 @@ Vplain/ナAな/Nの + あまり `so much.. that`
     夫が突然の事故で亡くなった。彼女は悲しみのあまり心の病になってしまった。
     K市は開発を優先するあまり、市民の生活の安全を軽視しているのではないか。
 
-あまりの + Nに `so.. that`
+A.8 **あまりの** `so.. that` **⚭ amari + no + N + ni**
 
     今年の夏はあまりの暑さに食欲もなくなってしまった。
     今のわたしの仕事はきつい。あまりの大変さに時々会社を辞めたくなる。
@@ -16450,8 +16460,8 @@ A.1.4 **あいだに** `[time]` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida(ni)**
 #### 抜く
 
 **抜く** `do something to the end・extremely・completely・thoroughly・very` **⚭ V~~masu~~ + nuku**  
-・苦しくても最後まで頑張って~する・完了する **V**: `やる・頑張る・生きる・走る・守る・耐える・戦う`  
-・徹底的・そごく・非常に~する　**V**: `考える・悩む・困る・苦しむ・知る・選ぶ`
+`① 苦しくても最後まで頑張って~する・完了する　V: やる・頑張る・生きる・走る・守る・耐える・戦う`    
+`② 徹底的・そごく・非常に~する　　　　　　　　V: 考える・悩む・困る・苦しむ・知る・選ぶ`
 
     ・最後まで走り抜いたね
     ・マラトン大会で最後まで走り抜いた
