@@ -14536,6 +14536,28 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Cause・Reason
 
+    から　　　　　　　・スープが熱いから、気をつけて持っていきなさい　　　　　　　　　・So, Since, Because
+    て　　　　　　　　・用事があって会には参加できません　　　　　　　　　　　　　　　・For, Because
+    なくて　　　　　　・きのうは夜遅くまで仕事が終わらなくて、大変でした　　　　　　　・Since, The fact that
+    ので　　　　　　　・すみません。ちょっと寒いので、窓を閉めてくださいませんか　　　・So, Since, Because
+    し　　　　　　　　・きょうは雨も降っているし、ジョギングはやめよう　　　　　　　　・And, Besides
+    ため（に）　　　　・大雪のため、電車が遅れています　　　　　　　　　　　　　　　　・Because of, Due to
+    によって　　　　　・支店は一昨年からの不景気によって、ついに店を閉めることとなった・Because of, Owing to
+    から　　　　　　　・たばこの火の不始末から火事になった　　　　　　　　　　　　　　・From, On account of
+    ことだし　　　　　・時間もあることだし、お茶でも飲みましょうよ　　　　　　　　　　・Since, Because
+    ものだから　　　　・目覚まし時計が壊れたものだから、遅刻してしまった　　　　　　　・Because
+    もの　　　　　　　・今日は早く帰ってきたんです。体調がよくないんだもの　　　　　　・Because
+    からこそ　　　　　・あなただからこそお話しするのです。ほかの人には言いません　　　・It is precisely because, That
+    につき　　　　　　・店内改装中につき、しばらく休業いたします　　　　　　　　　　　・Because of, On account of
+    おかげで　　　　　・薬を飲んだおかげで、すっかり元気になりました　　　　　　　　　・Thanks to, Owing to
+    せいで　　　　　　・兄さんが今日晩ご飯を全然食べなかったのは病気のせいだと思う　　・On account of
+    ばかりに　　　　　・うっかり生水を飲んだばかりに、おなかを悪くしてしまった　　　　・Simply because
+    あまり　　　　　　・試験の問題は易しかったのに、考えすぎたあまり、間違えてしまった・So..that
+    あまりの〜に　　　・今年の夏はあまりの暑さに食欲もなくなってしまった　　　　　　　・So..that
+    が〜だけに　　　　・期待が大きかっただけに、落選とわかったときの失望も大きかった　・On account of
+    だけに　　　　　　・快晴の大型連休だけに、道路は行楽地へ向かう車でいっぱいだ　　　・As befitting
+    だけに　　　　　　・この品物は品質がよいだけに値段も高い　　　　　　　　　　　　　・Precisely because, Contrary to expectations
+    
 ------------------------------------------------------------------------
 
 ##### Change・Irregularity
