@@ -14600,6 +14600,14 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Objectives
 
+    に　　　　　　　　・あした、デパートへくつを買いに行きます　　　　　　　　　　　　・To, For the purpose of
+    のに　　　　　　　・電子辞書は言葉の意味を急いで調べるのに役に立ちます　　　　　　・For
+    ため（に）　　　　・西洋美術を勉強するために、イタリア語を習っています　　　　　　・In order to
+    うえで　　　　　　・今度の企画を成功させる上で、ぜひみんなの協力が必要なのだ　　　・For, In order to
+    ように　　　　　　・風邪が早く治るように注射を打ってもらいました　　　　　　　　　・In order to, So that
+    んがため（に）　　・研究を完成させんがため、彼は昼夜寝ずにがんばった　　　　　　　・In order to
+    べく　　　　　　　・田中氏は記者会見場に向かうべく、上着を着て部屋を出た　　　　　・Thinking to, For the purpose of
+
 ------------------------------------------------------------------------
 
 ##### Experiences
@@ -14754,11 +14762,11 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ------------------------------------------------------------------------
 
-##### Emphasiss・conclusion
+##### Emphasis・conclusion
 
 ------------------------------------------------------------------------
 
-##### Emotional emphasis
+##### Emotional
 
 ------------------------------------------------------------------------
 
