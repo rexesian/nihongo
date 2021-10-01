@@ -9058,9 +9058,9 @@ reactable(
         Concept <- vrbena$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9148,9 +9148,9 @@ reactable(
         Concept <- vrbenp$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9238,9 +9238,9 @@ reactable(
         Concept <- vrbens$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9328,9 +9328,9 @@ reactable(
         Concept <- vrbensp$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9454,9 +9454,9 @@ reactable(
         Concept <- vrbenb$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9600,9 +9600,9 @@ reactable(
         Concept <- vrbenc$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9690,9 +9690,9 @@ reactable(
         Concept <- vrbcmd$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9780,9 +9780,9 @@ reactable(
         Concept <- vrbptn$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9870,9 +9870,9 @@ reactable(
         Concept <- vrbvl$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -9960,9 +9960,9 @@ reactable(
         Concept <- vrbvl$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -10050,9 +10050,9 @@ reactable(
         Concept <- vrbta$Concept[index]
         Concept <- if (!is.na(Concept)) Concept else "Unknown"
         tagList(
-          div(style = list(fontSize = 30, fontWeight = 800), value),
+          div(style = list(fontSize = 25, fontWeight = 800), value),
           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
+          div(style = list(fontSize = 13, fontWeight = 700), Expression),
           div(style = list(fontSize = 11, fontWeight = 200), Concept),
         )
       },
@@ -15070,63 +15070,235 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ```{r echo=FALSE, message=FALSE}
 
-reactable(
-  na.omit(vnnexp1),
-  columns = list(
-       Script = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Script') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        Meaning <- vnnexp1$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Expression <- vnnexp1$Expression[index]
-        Expression <- if (!is.na(Expression)) Expression else "Unknown"
-        Concept <- vnnexp1$Concept[index]
-        Concept <- if (!is.na(Concept)) Concept else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
-          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
-          div(style = list(fontSize = 11, fontWeight = 200), Concept),
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE),
-      Expression = colDef(show = FALSE),
-      Concept = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
+# reactable(
+#   na.omit(vnnexp1),
+#   columns = list(
+#        Script = colDef(
+#          #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+#          
+#         style = JS("function(rowInfo, colInfo, state) {
+#         var firstSorted = state.sorted[0]
+#         if (!firstSorted || firstSorted.id === 'Script') {
+#           var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+#           if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+#             return { visibility: 'hidden' }
+#           }
+#         }
+#       }"),
+#       cell = function(value, index) {
+#         Meaning <- vnnexp1$Meaning[index]
+#         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+#         Expression <- vnnexp1$Expression[index]
+#         Expression <- if (!is.na(Expression)) Expression else "Unknown"
+#         Concept <- vnnexp1$Concept[index]
+#         Concept <- if (!is.na(Concept)) Concept else "Unknown"
+#         tagList(
+#           div(style = list(fontSize = 25, fontWeight = 800), value),
+#           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+#           div(style = list(fontSize = 16, fontWeight = 700), Expression),
+#           div(style = list(fontSize = 11, fontWeight = 200), Concept),
+#         )
+#       },
+#       align = "center", minWidth = 400
+#       ),
+#       Meaning = colDef(show = FALSE),
+#       Expression = colDef(show = FALSE),
+#       Concept = colDef(show = FALSE)
+#   ),
+#     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+#   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+#   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+#     theme = reactableTheme(
+#     # Vertically center cells
+#     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+#     searchInputStyle = list(
+#       paddingLeft = "8px",
+#       paddingTop = "8px",
+#       paddingBottom = "8px",
+#       width = "100%"
+#     ),
+#     headerStyle = list(
+#       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+#       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+#       # borderColor = "#555", 
+#       height = 30, fontSize = "11px"
+#     )
+#   )
+# )
 
 ```
+
+<!-- **⚭ Noun + bakari**	`only` -->
+
+<!--     うえの棚には辞書ばかり置いてあります -->
+<!--     There are only dictionaries on the top shelf -->
+
+<!-- **⚭ Noun + dake**	`only` -->
+
+    うえの棚には辞書ばかり置いてあります　　　　　　　　　　　　　　・⚭ Noun + bakari only
+    りんごだけを買いました　　　　　　　　　　　　　　　　　　　　　・⚭ Noun + dake only
+    花ばかりでなく花瓶も売っています　　　　　　　　　　　　　　　　・⚭ Noun + bakari de naku not only
+    洋服だけでなく靴も必要ですう　　　　　　　　　　　　　　　　　　・⚭ Noun + dake de naku not only
+    社長さんでも行きました　　　　　　　　　　　　　　　　　　　　　・⚭ Noun + demo	even
+    なおこほど上手ではありません　　　　　　　　　　　　　　　　　　・⚭ Noun + hodo	as much as
+    コーラを三本ほど飲みました　　　　　　　　　　　　　　　　　　　・⚭ Noun + hodo	about, approximately
+    歴史上の重要さを考えておきましょう　　　　　　　　　　　　　　　・⚭ Noun + jou from the standpoint of
+    台所は魚くさいです　　　　　　　　　　　　　　　　　　　　　　　・⚭ Noun + kusai smell of
+    お医者さんは外人みたいです　　　　　　　　　　　　　　　　　　　・⚭ Noun + mitai look like, appear to be, (noun)-like
+    鈴木さんの主人はとてもおとこらしい人です　　　　　　　　　　　　・⚭ Noun + rashii look like, appear to be
+    セーターなしで出かけてしまいました　　　　　　　　　　　　　　　・⚭ Noun + nashi (de) without
+    コンピューターなんてわからないのです　　　　　　　　　　　　　　・⚭ Noun + nante such (things) as
+    その問題に関する正確な資料が得られない　　　　　　　　　　　　　・⚭ Noun + ni kansuru as far as, related to, concerning, about
+    鈴木さんは日本の歴史に関して話しました　　　　　　　　　　　　　・⚭ Noun + ni kanshite as far as, related to, concerning, about
+    経済に対する報告書はまだ読んでいません　　　　　　　　　　　　　・⚭ Noun + ni taisuru towards, against, regarding, in contrast with
+    彼の意見に対して反対の人は手をあげてください　　　　　　　　　　・⚭ Noun + ni taishite towards, against, regarding, in contrast with
+<!-- ⚭ Noun + ni tsuite	about -->
+<!-- ⚭ Noun + ni ki ga tsuku	notice, take notice of -->
+<!-- ⚭ Noun + ni ki wo tsukeru	pay attention to, be careful of, watch (out for) -->
+<!-- ⚭ Noun + ni okeru	in, at, on (a specific area) -->
+<!-- ⚭ Noun + ni suru	decide on -->
+<!-- ⚭ Noun + ni totte	(as) for, from the standpoint of -->
+<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
+<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
+<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
+<!-- ⚭ Noun + no kawari (ni)	instead of, in place of -->
+<!-- ⚭ Noun + no kawari (ni)	instead of, in place of -->
+<!-- ⚭ Noun + no koto	about (little things of) -->
+<!-- ⚭ Noun + no koto	about (little things of) -->
+<!-- ⚭ Noun + no naka	among, (with) in -->
+<!-- ⚭ Noun + no uchi	among, (with) in -->
+<!-- ⚭ Noun + no tame ni	for, in behalf of, for the sake of, because of -->
+<!-- ⚭ Noun + no ue (ni)	in addition to, on top of -->
+<!-- ⚭ Noun + no you ni	like -->
+<!-- ⚭ Noun + wo moto ni shite	based on -->
+<!-- ⚭ Noun + o toshite	through, with (by means of, by way of) -->
+<!-- ⚭ Noun + shika	(nothing / anything) except -->
+<!-- ⚭ Noun + teki	-like, -ish, having the qualities of, -ical, ically -->
+<!-- ⚭ Noun + to chigatte	unike, differing from -->
+<!-- ⚭ Noun + to iu	called, so-called -->
+<!-- ⚭ Noun + to iu you (na)	such(things) as, like -->
+<!-- ⚭ Noun + to shite	as, in the capacity of -->
+<!-- ⚭ Noun + to tomo ni	(along) with, in the company of -->
+<!-- ⚭ Noun + de aru koto de	because someone is (noun) -->
+<!-- ⚭ Noun + shidai de	instead of, in place of, in exchange for -->
+<!-- ⚭ Noun + to gyaku ni	against, contrast to, reverse, opposite -->
+<!-- ⚭ Noun + to gyaku no Noun	against, contrast to, reverse, opposite -->
+<!-- ⚭ Noun + to kurabete	compared with/to, in comparison to -->
+<!-- ⚭ Noun + to shite	as, in the capacity of -->
+<!-- ⚭ Noun + to shite wa	for -->
+<!-- ⚭ Noun + to chigatte	Unlike, different from -->
+<!-- ⚭ Noun + to chigai	Unlike, different from -->
+<!-- ⚭ Noun + to chigau Noun	Unlike, different from -->
+<!-- ⚭ Noun + to chigatta Noun	Unlike, different from -->
+<!-- ⚭ Noun + to douji ni	at the (same) time, when, as , while, as well as -->
+<!-- ⚭ Noun + to tomo ni	as well as, with, along with, at the same time, when -->
+<!-- ⚭ Noun + to narande 	as well as -->
+<!-- ⚭ Noun + to narabi	as well as -->
+<!-- ⚭ Noun + to narabu Noun	as well as -->
+<!-- ⚭ Noun + to heikoushite	parallel to -->
+<!-- ⚭ Noun + nashide (wa)	without -->
+<!-- ⚭ Noun + nashini (wa)	without -->
+<!-- ⚭ Noun + ni attate	when, at , in the occasion of, before, prior to -->
+<!-- ⚭ Noun + ni atari	when, at , in the occasion of, before, prior to -->
+<!-- ⚭ Noun + ni attate no Noun	when, at , in the occasion of, before, prior to -->
+<!-- ⚭ Noun + ni awasete	according to, to -->
+<!-- ⚭ Noun + ni oite	at, on, in, during -->
+<!-- ⚭ Noun + ni okeru Noun	at, on, in, during -->
+<!-- ⚭ Noun + ni oite no Noun	at, on, in, during -->
+<!-- ⚭ Noun + ni ouji(te)	in proportion to, in accordance with, in compliance with -->
+<!-- ⚭ Noun + ni oujita Noun	in proportion to, in accordance with, in compliance with -->
+<!-- ⚭ Noun + ni oujite no Noun	in proportion to, in accordance with, in compliance with -->
+<!-- ⚭ Noun + ni kakawarazu	regardless of, independently of, whether or not -->
+<!-- ⚭ Noun + ni kakawaru Noun	related to, concerning -->
+<!-- ⚭ Noun + ni kagirazu	not limited, not only -->
+<!-- ⚭ Noun + ni kagitte	the last, particular only -->
+<!-- ⚭ Noun + ni kakete (wa)	to, over, when it comes to, in, at, in the matter of -->
+<!-- ⚭ Noun + ni kawatte	for, in place of, instead of -->
+<!-- ⚭ Noun + ni kawari	for, in place of, instead of -->
+<!-- ⚭ Noun + ni kawaru Noun	for, in place of, instead of -->
+<!-- ⚭ Noun + ni kawatte no Noun	for, in place of, instead of -->
+<!-- ⚭ Noun + ni kanshite (wa)	concerning, with -->
+<!-- ⚭ Noun + ni kansuru Noun	concerning, with -->
+<!-- ⚭ Noun + ni kanshite no Noun	concerning, with -->
+<!-- ⚭ Noun + ni kansuru kagiri	as far as ~is concerned -->
+<!-- ⚭ Noun + ni kurabe(te)	compared with / to, in comparison to -->
+<!-- ⚭ Noun + ni kuwae(te)	in addition to -->
+<!-- ⚭ Noun + ni saishi(te)	in case of, on, when, at, in -->
+<!-- ⚭ Noun + ni saishite no Noun	in case of, on, when, at, in -->
+<!-- ⚭ Noun + ni shitagatte	as, with, in accordance with, in proportion to, following -->
+<!-- ⚭ Noun + ni shitagai	as, with, in accordance with, in proportion to, following -->
+<!-- ⚭ Noun + ni shitewa	for, considering that -->
+<!-- ⚭ Noun + ni sotte	along, by, parallel to, in accordance with -->
+<!-- ⚭ Noun + ni sotta Noun	along, by, parallel to, in accordance with -->
+<!-- ⚭ Noun + ni sotte no Noun	along, by, parallel to, in accordance with -->
+<!-- ⚭ Noun + ni taishite (wa)	toward, to, for, against, in contrast with, with regard to -->
+<!-- ⚭ Noun + ni taisuru Noun	toward, to, for, against, in contrast with, with regard to -->
+<!-- ⚭ Noun + ni tashite no Noun	toward, to, for, against, in contrast with, with regard to -->
+<!-- ⚭ Noun + ni tsuite (wa)	about, on, over, concerning, regarding, with respect to -->
+<!-- ⚭ Noun + ni tsuite no Noun	about, on, over, concerning, regarding, with respect to -->
+<!-- ⚭ Noun + ni tsuki	a, per, for, on, to -->
+<!-- ⚭ Noun + ni tsure(te)	as, with, in proportion to, accompanied by -->
+<!-- ⚭ Noun + ni totte	to, for -->
+<!-- ⚭ Noun + ni hanshite	contrary to, in contrast to, against, in violation of, whereas -->
+<!-- ⚭ Noun + ni hansuru Noun	contrary to, in contrast to, against, in violation of, whereas -->
+<!-- ⚭ Noun + ni tomonatte	as, along, with, accompanying, attendant upon -->
+<!-- ⚭ Noun + ni tomonai	as, along, with, accompanying, attendant upon -->
+<!-- ⚭ Noun + ni tomonau Noun	as, along, with, accompanying, attendant upon -->
+<!-- ⚭ Noun + ni wa	for, to, inorder to -->
+<!-- ⚭ Noun + ni mukatte	toward, to, at, heading for -->
+<!-- ⚭ Noun + ni muke(te)	toward, for, aimed for -->
+<!-- ⚭ Noun + ni mukete no oun	toward, for, aimed for -->
+<!-- ⚭ Noun + ni mo kakawarazu	inspire of, despite, although, though -->
+<!-- ⚭ Noun + ni moto dzuite	based on -->
+<!-- ⚭ Noun + ni moto dzuki	based on -->
+<!-- ⚭ Noun + ni moto dzuku Noun	based on -->
+<!-- ⚭ Noun + ni moto dzuita Noun	based on -->
+<!-- ⚭ Noun + ni yotte	due to, because of, according to, depending on, by means of -->
+<!-- ⚭ Noun + ni yori	due to, because of, according to, depending on, by means of -->
+<!-- ⚭ Noun + ni yoru Noun	due to, because of, according to, depending on, by means of -->
+<!-- ⚭ Noun + ni yorazu	regardless of, independently of, whether or not -->
+<!-- ⚭ Noun + ni yoru to	according to -->
+<!-- ⚭ Noun + ni watatte	extending for / over / through, for, over -->
+<!-- ⚭ Noun + ni watari	extending for / over / through, for, over -->
+<!-- ⚭ Noun + ni wataru Noun	extending for / over / through, for, over -->
+<!-- ⚭ Noun + ni watatte no Noun	extending for / over / through, for, over -->
+<!-- ⚭ Noun + no ue de (wa)	upon, after -->
+<!-- ⚭ Noun + no kawarini	for, in place of, instead of -->
+<!-- ⚭ Noun + no kawarino Noun	for, in place of, instead of -->
+<!-- ⚭ Noun + no kekka	as a result of, after, upon -->
+<!-- ⚭ Noun + no sai (ni)	at the time of, when -->
+<!-- ⚭ Noun + no sei de	because of, due to -->
+<!-- ⚭ Noun + no tabi ni	every time, each time -->
+<!-- ⚭ Noun + no tame (ni)	for the purpose of, in order to, because of, for the benefit, on behalf of -->
+<!-- ⚭ Noun + no tameno Noun	for the purpose of, in order to, because of, for the benefit, on behalf of -->
+<!-- ⚭ Noun + no hoka  ni	besides, other than -->
+<!-- ⚭ Noun + no moto de	in, with, under -->
+<!-- ⚭ Noun + wo oite	except, but, other than -->
+<!-- ⚭ Noun + wo kaishi(te)	by way of, through -->
+<!-- ⚭ Noun + wo kaishita Noun	by way of, through -->
+<!-- ⚭ Noun + wo kaisuru Noun	by way of, through -->
+<!-- ⚭ Noun + wo kaishite no Noun	by way of, through -->
+<!-- ⚭ Noun + wo chuushin ni	around, with ~as the center -->
+<!-- ⚭ Noun + wo tsuuji(te)	through, throughout -->
+<!-- ⚭ Noun + wo tsuujite no Noun	through, throughout -->
+<!-- ⚭ Noun + wo tooshi(te)	through, throughout, by means of, via -->
+<!-- ⚭ Noun + wo tooshita Noun	through, throughout, by means of, via -->
+<!-- ⚭ Noun + wo tooshite no Noun	through, throughout, by means of, via -->
+<!-- ⚭ Noun + wo nozoite	excluding, except (for), but -->
+<!-- ⚭ Noun + wo nozoki	excluding, except (for), but -->
+<!-- ⚭ Noun + wo nozoku Noun	excluding, except (for), but -->
+<!-- ⚭ Noun + wo nozoita Noun	excluding, except (for), but -->
+<!-- ⚭ Noun + wo hajime(toshite)	including, and other, starting with -->
+<!-- ⚭ Noun + wo hajimetosuru Noun	including, and other, starting with -->
+<!-- ⚭ Noun + wo hajimetoshita Noun	including, and other, starting with -->
+<!-- ⚭ Noun + wo hete	by way of , via , through -->
+<!-- ⚭ Noun + wo mezashi(te)	aiming at, heading for, toward, for -->
+<!-- ⚭ Noun ⚭ Noun + wo mezashita Noun	aiming at, heading for, toward, for -->
+<!-- ⚭ Noun + wo mezashite no  Noun	aiming at, heading for, toward, for -->
+<!-- ⚭ Noun + wo motte	with, by means of, using, as of -->
+<!-- ⚭ Noun + wo motoni(shite)	based on -->
+<!-- ⚭ Noun + wo motonishita Noun	based on -->
+<!-- ⚭ Noun + wo motonishite no Noun	based on -->
 
 ------------------------------------------------------------------------
 
@@ -26125,206 +26297,207 @@ reactable(
 
     あるいは　　　　　　　　　　・あるいはそれは本当かもしれない　　　　　　　　　　　　　　　　・or, possibly
     ばかり　　　　　　　　　　　・十マイルばかり歩いたあとで、彼らは立ち止まった　　　　　　　　・about, approximately
+    ばかりだ　　　　　　　　　　・私の不満は募るばかりだった　　　　　　　　　　　　　　　　　　・continue to
+    ばかりに　　　　　　　　　　・ちょっとした油断をしたばかりに、大怪我をしてしまった　　　　　・because, on account of
+    ぶりに　　　　　　　　　　　・彼は三日ぶりに意識を回復した　　　　　　　　　　　　　　　　　・for the first time in
+    ちっとも～ない　　　　　　　・彼女は、彼氏と別れたことをちっとも気にかけていない様子だ　　　・not at all, not in the least
+    だけあって　　　　　　　　　・彼はスポーツの選手だけあって、体格がいい　　　　　　　　　　　・being the case, precisely because
+    だけでなく　　　　　　　　　・彼女は日本語が上手なだけでなく、英語もペラペラだ　　　　　　　・not only..but also
+    だけましだ　　　　　　　　　・今日は暑いが、湿度が高くないだけましだ　　　　　　　　　　　　・one should feel grateful for
+    だけに　　　　　　　　　　　・この品物は品質がよいだけに値段も高い　　　　　　　　　　　　　・being the case, precisely because
+    だけのことはある　　　　　　・君は慎み深い人だ。彼が気に入っているだけのことはある　　　　　・no wonder, it’s not surprising that
+    だけは　　　　　　　　　　　・覚えるだけは覚えたのだから、後は試験の日を待つだけだ　　　　　・to do all that one can
+    だって　　　　　　　　　　　・何を怒ってるの？　だって、約束を破ったじゃん　　　　　　　　　・because, but
+    だって　　　　　　　　　　　・誰だってそんなことは知っているさ　　　　　　　　　　　　　　　・even, too
 
-ばかりだ (bakari da)	continue to
-ばかりに (bakari ni)	because, on account of
-ぶりに (buri ni)	for the first time in
-ちっとも～ない (chitto mo~nai)	not at all, not in the least
-だけあって (dake atte)	…being the case, precisely because
-だけでなく (dake de naku)	not only… but also
-だけましだ (dake mashi da)	one should feel grateful for
-だけに (dake ni)	…being the case, precisely because
-だけのことはある (dake no koto wa aru)	no wonder, it’s not surprising that
-だけは (dake wa)	to do all that one can
-だって (datte)	because, but
-(で)すら (de sura)	even
-ではないか (dewa nai ka)	let’s do something, why don’t we
-でしかない (de shika nai)	merely, nothing but, no more than
-どころではない (dokoro dewa nai)	this is not the time for…
-どうせ (douse)	anyway, anyhow
-どうやら (dou yara)	it seems like, it appears that
-える / うる (eru/uru)	can, is possible
-えない (enai)	unable to, cannot
-ふたたび (futatabi)	again, once more
-ふうに (fuu ni)	in a way (this way/that way/what way)
-げ (ge)	[giving the appearance of]
-ごとに (goto ni)	each, every, at intervals of
-逆に (gyaku ni)	on the contrary
-いよいよ (iyoiyo)	at last, finally
-反面 (hanmen)	on the other hand
-果たして (hatashite)	sure enough, really
-以上 (ijou)	because, now that
-以上に (ijou ni)	more than, no less than
-いきなり (ikinari)	suddenly, all of a sudden
-いわゆる (iwayuru)	so-called, so to speak
-上 (jou)	from the standpoint of
-か～ないかのうちに (ka~nai ka no uchi ni)	right after, as soon as
-かえって (kaette)	on the contrary, rather, surprisingly
-かいがある(kai ga aru)	it’s worth one’s effort to do something
-か何か (ka nanika)	or something
-かねない (kanenai)	might happen, might do something
-かねる (kaneru)	unable to do something
-かのよう (ka no you)	as if, just like
-から言うと (kara iu to)	in terms of, from the point of view of
-からこそ (kara koso)	precisely because
-から見ると (kara miru to)	from the point of view of, by the look of
-からには (kara niwa)	now that, since, so long as
-からして (kara shite)	judging from, based on
-からすると / からすれば (kara suru to/kara sureba)	judging from, considering
-からといって (kara to itte)	just because
-かと思ったら / かと思うと (ka to omottara/ka to omou to)	then again, just when, no sooner than
-限り (kagiri)	as long as, while… is the case
-気 (ki)	feel like
-っこない (kkonai)	no chance of, … is definitely not possible
-ことだから (koto dakara)	it is exactly because
-ことから (koto kara)	from the fact that
-ことなく (koto naku)	without doing something even once
-ことになっている (koto ni natte iru)	to be expected to, to be scheduled to
-ことにはならない (koto niwa naranai)	just because… doesn’t mean…
-ことは～が (koto wa~ga)	although, but
-まい (mai)	won’t, intend not to
-まったく～ない (mattaku~nai)	not~at all
-も～ば～も (mo~ba~mo)	…and…
-もかまわず (mo kamawazu)	without worrying about
-ものだから (mono dakara)	because, the reason is
-ものではない (mono dewa nai)	shouldn’t do something, it’s impossible to do something
-ものがある (mono ga aru)	[sentence-ending expression of strong judgement]
-ものか (mono ka)	as if
-ものなら (mono nara)	if one can do something
-ものの (mono no)	but, although
-もっとも (motto mo)	but then, although
-もう少しで (mou sukoshi de)	almost, nearly
-むしろ (mushiro)	rather, instead
-んだって (ndatte)	I heard that
-中を (naka o)	in, on
-なお (nao)	furthermore, still, yet [used to add more information to the sentence]
-ないではいられない (nai dewa irarenai)	can’t help but feel, can’t help but do
-ないことには～ない (nai koto niwa~nai)	unless you do something
-なくはない (naku wa nai)	it’s not that…, can, may be
-なにも～ない (nani mo~nai)	no need to
-ねばならない (neba naranai)	have to, must
-にあたり (ni atari)	at the time, on the occasion of
-に反して (ni han shite)	against, contrary to
-にほかならない (ni hoka naranai)	nothing but, none other than
-に限って (ni kagitte)	only, particularly when
-に限らず (ni kagirazu)	not just, not only… but also
-に限る (ni kagiru)	nothing better than, there’s nothing like
-にかかわる (ni kakawaru)	to relate to, to have to do with
-にかかわらず (ni kakawarazu)	regardless of
-に決まっている (ni kimatte iru)	I’m sure that…
-に越したことはない (ni koshita koto wa nai)	it’s best that, there’s nothing better than
-に応えて (ni kotaete)	in response to
-に加えて (ni kuwaete)	in addition to
-に基づいて (ni motozuite)	based on
-にもかかわらず (nimo kakawarazu)	despite, in spite of, although
-に向かって (ni mukatte)	towards, to face, to head to
-に応じて (ni oujite)	depending on, in accordance with
-に際して (ni sai shite)	on the occasion of, at the time of
-に先立ち (ni sakidachi)	before, prior to
-にしろ / にせよ (ni shiro/ni seyo)	though, even if, whether… or
-にしろ～にしろ (ni shiro~ni shiro)	whether… or
-に従って (ni shitagatte)	as, therefore
-にしたら (ni shitara)	from the point of view of
-にしても～にしても (ni shite mo~ni shite mo)	regardless of whether
-に相違ない (ni soui nai)	without a doubt, certain, sure
-に沿って (ni sotte)	along with, in accordance with
-に過ぎない (ni suginai)	no more than, just, merely
-にて (nite)	in, at
-に伴って (ni tomonatte)	as, due to
-につけ (ni tsuke)	both… and…, every time something happens
-につき (ni tsuki)	due to, because, per, each
-には (niwa)	in order to, for
-にわたって (ni watatte)	throughout, over (a period of time)
-のももっともだ (no mo mottomo da)	no wonder, … is only natural
-のも当然だ (no mo touzen da)	it’s only natural that, no wonder
-のもとで (no moto de)	under
-のみならず (nominarazu)	not only, besides, as well
-抜きで/抜きにして (nuki de/nuki ni shite)	leaving out, cutting out
-抜く (nuku)	to do something to the end
-お～願う (o~negau)	could you please
-を～として (o~to shite)	as
-をこめて (o komete)	filled with
-をきっかけに (o kikkake ni)	with… as a start, as a result of
-を契機に (o keiki ni)	as a good opportunity to, as a result of
-をめぐって (o megutte)	concerning, in regard to
-をもとに (o moto ni)	based on, from
-を除いて (o nozoite)	except, with the exception of
-を問わず (o towazu)	regardless of
-を通じて/ を通して (o tsuujite/o tooshite)	via, through
-おまけに (omake ni)	to make matters worse
-恐れがある (osore ga aru)	there are fears that
-ろくに～ない (roku ni~nai)	 not doing something properly
-際に (sai ni)	at the time, in case of
-幸い (saiwai)	luckily, fortunately
-さらに (sara ni)	furthermore, again, more and more
-せいぜい (seizei)	at the most, at best
-せめて (semete)	at least, at most
-次第 (shidai)	as soon as
-次第だ/ 次第で (shidai da/shidai de)	depending on, so
-しかも (shikamo)	moreover, furthermore
-したがって (shitagatte)	therefore, accordingly
-その上 (sono ue)	besides, in addition, furthermore
-それなのに (sore na noni)	and yet, despite this
-それなら (sore nara)	then, if that’s the case
-それにしても (sore ni shite mo)	nevertheless, even so
-それとも (sore tomo)	or, or else
-そういえば (sou ieba)	come to think of it
-そうにない (sou ni nai)	extremely unlikely to, showing no signs of
-そうすると (sou suru to)	having done that
-少しも～ない (sukoshi mo~nai)	not one bit, not even a little
-すなわち (sunawachi)	in other words
-たあげく (ta ageku)	to end up, finally
-直ちに (tadachi ni)	at once, immediately
-たまえ (tamae)	[order somebody to do something]
-た末 / の末 (ta sue/no sue)	as a conclusion of
-たって (tatte)	even if, even though, no matter how
-てばかりはいられない (te bakari wa irarenai)	can’t keep doing something
-てでも (te demo)	even if one has to, by all means
-て以来 (te irai)	since
-ていては (te ite wa)	if one keeps doing something
-てからでないと (te kara denai to)	unless, until
-てこそ (te koso)	now that, since
-手前 (temae)	before, in front of, from one’s standpoint
-てならない (te naranai)	very, extremely
-てしょうがない (te shou ga nai)	very, extremely
-てたまらない (te tamaranai)	very, extremely, can’t help but do
-て当然だ (te touzen da)	natural, as a matter of course
-ては (tewa)	if, since, one after another
-てはいられない (tewa irarenai)	can’t afford to, unable to
-てはならない (tewa naranai)	must not, cannot, should not
-と同時に (to douji ni)	at the same time as
-というふうに (to iu fuu ni)	in such a way that
-ということは (to iu koto wa)	that is to say
-というものだ (to iu mono da)	something like…, something called…
-というものでもない (to iu mono demo nai)	there is no guarantee that…, not necessarily
-といった (to itta)	such… as
-とか (toka)	I heard that…
-と考えられる (to kangaerareru)	one can think that…
-ところだった (tokoro datta)	was just about to do something
-ところに/ところへ (tokoro ni/tokoro e)	at the time
-ところを見ると (tokoro o miru to)	judging from, seeing that
-とっくに (tokku ni)	already, long ago
-とも (tomo)	even if, no matter
-としても (to shite mo)	assuming, even if
-としては (toshite wa)	as for
-つもりで (tsumori de)	with the intention of doing
-つつ (tsutsu)	while, although
-つつある (tsutsu aru)	to be doing
-上で (ue de)	after
-上に (ue ni)	as well, besides, in addition to
-上は (ue wa)	now that, since
-は別として (wa betsu to shite)	aside from
-はもとより (wa moto yori)	also, let alone
-はともかく (wa tomokaku)	whether or not
-わずかに (wazuka ni)	slightly
-やがて (yagate)	soon, before long, eventually
-やら～やら (yara~yara)	such things as
-よりほかない (yori hoka nai)	to have no choice but
-ようでは (you dewa)	if
-ようがない/ようもない (you ga nai/you mo nai)	there’s no way to, it’s impossible to
-要するに (you suru ni)	the point is
-ざるを得ない (zaru o enai)	can’t help doing, have no choice but
-ずに済む (zu ni sumu)	get by without doing something
+<!-- (で)すら (de sura)	even -->
+<!-- ではないか (dewa nai ka)	let’s do something, why don’t we -->
+<!-- でしかない (de shika nai)	merely, nothing but, no more than -->
+<!-- どころではない (dokoro dewa nai)	this is not the time for… -->
+<!-- どうせ (douse)	anyway, anyhow -->
+<!-- どうやら (dou yara)	it seems like, it appears that -->
+<!-- える / うる (eru/uru)	can, is possible -->
+<!-- えない (enai)	unable to, cannot -->
+<!-- ふたたび (futatabi)	again, once more -->
+<!-- ふうに (fuu ni)	in a way (this way/that way/what way) -->
+<!-- げ (ge)	[giving the appearance of] -->
+<!-- ごとに (goto ni)	each, every, at intervals of -->
+<!-- 逆に (gyaku ni)	on the contrary -->
+<!-- いよいよ (iyoiyo)	at last, finally -->
+<!-- 反面 (hanmen)	on the other hand -->
+<!-- 果たして (hatashite)	sure enough, really -->
+<!-- 以上 (ijou)	because, now that -->
+<!-- 以上に (ijou ni)	more than, no less than -->
+<!-- いきなり (ikinari)	suddenly, all of a sudden -->
+<!-- いわゆる (iwayuru)	so-called, so to speak -->
+<!-- 上 (jou)	from the standpoint of -->
+<!-- か～ないかのうちに (ka~nai ka no uchi ni)	right after, as soon as -->
+<!-- かえって (kaette)	on the contrary, rather, surprisingly -->
+<!-- かいがある(kai ga aru)	it’s worth one’s effort to do something -->
+<!-- か何か (ka nanika)	or something -->
+<!-- かねない (kanenai)	might happen, might do something -->
+<!-- かねる (kaneru)	unable to do something -->
+<!-- かのよう (ka no you)	as if, just like -->
+<!-- から言うと (kara iu to)	in terms of, from the point of view of -->
+<!-- からこそ (kara koso)	precisely because -->
+<!-- から見ると (kara miru to)	from the point of view of, by the look of -->
+<!-- からには (kara niwa)	now that, since, so long as -->
+<!-- からして (kara shite)	judging from, based on -->
+<!-- からすると / からすれば (kara suru to/kara sureba)	judging from, considering -->
+<!-- からといって (kara to itte)	just because -->
+<!-- かと思ったら / かと思うと (ka to omottara/ka to omou to)	then again, just when, no sooner than -->
+<!-- 限り (kagiri)	as long as, while… is the case -->
+<!-- 気 (ki)	feel like -->
+<!-- っこない (kkonai)	no chance of, … is definitely not possible -->
+<!-- ことだから (koto dakara)	it is exactly because -->
+<!-- ことから (koto kara)	from the fact that -->
+<!-- ことなく (koto naku)	without doing something even once -->
+<!-- ことになっている (koto ni natte iru)	to be expected to, to be scheduled to -->
+<!-- ことにはならない (koto niwa naranai)	just because… doesn’t mean… -->
+<!-- ことは～が (koto wa~ga)	although, but -->
+<!-- まい (mai)	won’t, intend not to -->
+<!-- まったく～ない (mattaku~nai)	not~at all -->
+<!-- も～ば～も (mo~ba~mo)	…and… -->
+<!-- もかまわず (mo kamawazu)	without worrying about -->
+<!-- ものだから (mono dakara)	because, the reason is -->
+<!-- ものではない (mono dewa nai)	shouldn’t do something, it’s impossible to do something -->
+<!-- ものがある (mono ga aru)	[sentence-ending expression of strong judgement] -->
+<!-- ものか (mono ka)	as if -->
+<!-- ものなら (mono nara)	if one can do something -->
+<!-- ものの (mono no)	but, although -->
+<!-- もっとも (motto mo)	but then, although -->
+<!-- もう少しで (mou sukoshi de)	almost, nearly -->
+<!-- むしろ (mushiro)	rather, instead -->
+<!-- んだって (ndatte)	I heard that -->
+<!-- 中を (naka o)	in, on -->
+<!-- なお (nao)	furthermore, still, yet [used to add more information to the sentence] -->
+<!-- ないではいられない (nai dewa irarenai)	can’t help but feel, can’t help but do -->
+<!-- ないことには～ない (nai koto niwa~nai)	unless you do something -->
+<!-- なくはない (naku wa nai)	it’s not that…, can, may be -->
+<!-- なにも～ない (nani mo~nai)	no need to -->
+<!-- ねばならない (neba naranai)	have to, must -->
+<!-- にあたり (ni atari)	at the time, on the occasion of -->
+<!-- に反して (ni han shite)	against, contrary to -->
+<!-- にほかならない (ni hoka naranai)	nothing but, none other than -->
+<!-- に限って (ni kagitte)	only, particularly when -->
+<!-- に限らず (ni kagirazu)	not just, not only… but also -->
+<!-- に限る (ni kagiru)	nothing better than, there’s nothing like -->
+<!-- にかかわる (ni kakawaru)	to relate to, to have to do with -->
+<!-- にかかわらず (ni kakawarazu)	regardless of -->
+<!-- に決まっている (ni kimatte iru)	I’m sure that… -->
+<!-- に越したことはない (ni koshita koto wa nai)	it’s best that, there’s nothing better than -->
+<!-- に応えて (ni kotaete)	in response to -->
+<!-- に加えて (ni kuwaete)	in addition to -->
+<!-- に基づいて (ni motozuite)	based on -->
+<!-- にもかかわらず (nimo kakawarazu)	despite, in spite of, although -->
+<!-- に向かって (ni mukatte)	towards, to face, to head to -->
+<!-- に応じて (ni oujite)	depending on, in accordance with -->
+<!-- に際して (ni sai shite)	on the occasion of, at the time of -->
+<!-- に先立ち (ni sakidachi)	before, prior to -->
+<!-- にしろ / にせよ (ni shiro/ni seyo)	though, even if, whether… or -->
+<!-- にしろ～にしろ (ni shiro~ni shiro)	whether… or -->
+<!-- に従って (ni shitagatte)	as, therefore -->
+<!-- にしたら (ni shitara)	from the point of view of -->
+<!-- にしても～にしても (ni shite mo~ni shite mo)	regardless of whether -->
+<!-- に相違ない (ni soui nai)	without a doubt, certain, sure -->
+<!-- に沿って (ni sotte)	along with, in accordance with -->
+<!-- に過ぎない (ni suginai)	no more than, just, merely -->
+<!-- にて (nite)	in, at -->
+<!-- に伴って (ni tomonatte)	as, due to -->
+<!-- につけ (ni tsuke)	both… and…, every time something happens -->
+<!-- につき (ni tsuki)	due to, because, per, each -->
+<!-- には (niwa)	in order to, for -->
+<!-- にわたって (ni watatte)	throughout, over (a period of time) -->
+<!-- のももっともだ (no mo mottomo da)	no wonder, … is only natural -->
+<!-- のも当然だ (no mo touzen da)	it’s only natural that, no wonder -->
+<!-- のもとで (no moto de)	under -->
+<!-- のみならず (nominarazu)	not only, besides, as well -->
+<!-- 抜きで/抜きにして (nuki de/nuki ni shite)	leaving out, cutting out -->
+<!-- 抜く (nuku)	to do something to the end -->
+<!-- お～願う (o~negau)	could you please -->
+<!-- を～として (o~to shite)	as -->
+<!-- をこめて (o komete)	filled with -->
+<!-- をきっかけに (o kikkake ni)	with… as a start, as a result of -->
+<!-- を契機に (o keiki ni)	as a good opportunity to, as a result of -->
+<!-- をめぐって (o megutte)	concerning, in regard to -->
+<!-- をもとに (o moto ni)	based on, from -->
+<!-- を除いて (o nozoite)	except, with the exception of -->
+<!-- を問わず (o towazu)	regardless of -->
+<!-- を通じて/ を通して (o tsuujite/o tooshite)	via, through -->
+<!-- おまけに (omake ni)	to make matters worse -->
+<!-- 恐れがある (osore ga aru)	there are fears that -->
+<!-- ろくに～ない (roku ni~nai)	 not doing something properly -->
+<!-- 際に (sai ni)	at the time, in case of -->
+<!-- 幸い (saiwai)	luckily, fortunately -->
+<!-- さらに (sara ni)	furthermore, again, more and more -->
+<!-- せいぜい (seizei)	at the most, at best -->
+<!-- せめて (semete)	at least, at most -->
+<!-- 次第 (shidai)	as soon as -->
+<!-- 次第だ/ 次第で (shidai da/shidai de)	depending on, so -->
+<!-- しかも (shikamo)	moreover, furthermore -->
+<!-- したがって (shitagatte)	therefore, accordingly -->
+<!-- その上 (sono ue)	besides, in addition, furthermore -->
+<!-- それなのに (sore na noni)	and yet, despite this -->
+<!-- それなら (sore nara)	then, if that’s the case -->
+<!-- それにしても (sore ni shite mo)	nevertheless, even so -->
+<!-- それとも (sore tomo)	or, or else -->
+<!-- そういえば (sou ieba)	come to think of it -->
+<!-- そうにない (sou ni nai)	extremely unlikely to, showing no signs of -->
+<!-- そうすると (sou suru to)	having done that -->
+<!-- 少しも～ない (sukoshi mo~nai)	not one bit, not even a little -->
+<!-- すなわち (sunawachi)	in other words -->
+<!-- たあげく (ta ageku)	to end up, finally -->
+<!-- 直ちに (tadachi ni)	at once, immediately -->
+<!-- たまえ (tamae)	[order somebody to do something] -->
+<!-- た末 / の末 (ta sue/no sue)	as a conclusion of -->
+<!-- たって (tatte)	even if, even though, no matter how -->
+<!-- てばかりはいられない (te bakari wa irarenai)	can’t keep doing something -->
+<!-- てでも (te demo)	even if one has to, by all means -->
+<!-- て以来 (te irai)	since -->
+<!-- ていては (te ite wa)	if one keeps doing something -->
+<!-- てからでないと (te kara denai to)	unless, until -->
+<!-- てこそ (te koso)	now that, since -->
+<!-- 手前 (temae)	before, in front of, from one’s standpoint -->
+<!-- てならない (te naranai)	very, extremely -->
+<!-- てしょうがない (te shou ga nai)	very, extremely -->
+<!-- てたまらない (te tamaranai)	very, extremely, can’t help but do -->
+<!-- て当然だ (te touzen da)	natural, as a matter of course -->
+<!-- ては (tewa)	if, since, one after another -->
+<!-- てはいられない (tewa irarenai)	can’t afford to, unable to -->
+<!-- てはならない (tewa naranai)	must not, cannot, should not -->
+<!-- と同時に (to douji ni)	at the same time as -->
+<!-- というふうに (to iu fuu ni)	in such a way that -->
+<!-- ということは (to iu koto wa)	that is to say -->
+<!-- というものだ (to iu mono da)	something like…, something called… -->
+<!-- というものでもない (to iu mono demo nai)	there is no guarantee that…, not necessarily -->
+<!-- といった (to itta)	such… as -->
+<!-- とか (toka)	I heard that… -->
+<!-- と考えられる (to kangaerareru)	one can think that… -->
+<!-- ところだった (tokoro datta)	was just about to do something -->
+<!-- ところに/ところへ (tokoro ni/tokoro e)	at the time -->
+<!-- ところを見ると (tokoro o miru to)	judging from, seeing that -->
+<!-- とっくに (tokku ni)	already, long ago -->
+<!-- とも (tomo)	even if, no matter -->
+<!-- としても (to shite mo)	assuming, even if -->
+<!-- としては (toshite wa)	as for -->
+<!-- つもりで (tsumori de)	with the intention of doing -->
+<!-- つつ (tsutsu)	while, although -->
+<!-- つつある (tsutsu aru)	to be doing -->
+<!-- 上で (ue de)	after -->
+<!-- 上に (ue ni)	as well, besides, in addition to -->
+<!-- 上は (ue wa)	now that, since -->
+<!-- は別として (wa betsu to shite)	aside from -->
+<!-- はもとより (wa moto yori)	also, let alone -->
+<!-- はともかく (wa tomokaku)	whether or not -->
+<!-- わずかに (wazuka ni)	slightly -->
+<!-- やがて (yagate)	soon, before long, eventually -->
+<!-- やら～やら (yara~yara)	such things as -->
+<!-- よりほかない (yori hoka nai)	to have no choice but -->
+<!-- ようでは (you dewa)	if -->
+<!-- ようがない/ようもない (you ga nai/you mo nai)	there’s no way to, it’s impossible to -->
+<!-- 要するに (you suru ni)	the point is -->
+<!-- ざるを得ない (zaru o enai)	can’t help doing, have no choice but -->
+<!-- ずに済む (zu ni sumu)	get by without doing something -->
 
 ------------------------------------------------------------------------
 
