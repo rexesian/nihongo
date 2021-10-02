@@ -15152,19 +15152,19 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     鈴木さんは日本の歴史に関して話しました　　　　　　　　　　　　　・⚭ Noun + ni kanshite as far as, related to, concerning, about
     経済に対する報告書はまだ読んでいません　　　　　　　　　　　　　・⚭ Noun + ni taisuru towards, against, regarding, in contrast with
     彼の意見に対して反対の人は手をあげてください　　　　　　　　　　・⚭ Noun + ni taishite towards, against, regarding, in contrast with
-<!-- ⚭ Noun + ni tsuite	about -->
-<!-- ⚭ Noun + ni ki ga tsuku	notice, take notice of -->
-<!-- ⚭ Noun + ni ki wo tsukeru	pay attention to, be careful of, watch (out for) -->
-<!-- ⚭ Noun + ni okeru	in, at, on (a specific area) -->
-<!-- ⚭ Noun + ni suru	decide on -->
-<!-- ⚭ Noun + ni totte	(as) for, from the standpoint of -->
-<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
-<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
-<!-- ⚭ Noun + ni yotte	through, by the way of, by means of, depending on -->
-<!-- ⚭ Noun + no kawari (ni)	instead of, in place of -->
-<!-- ⚭ Noun + no kawari (ni)	instead of, in place of -->
-<!-- ⚭ Noun + no koto	about (little things of) -->
-<!-- ⚭ Noun + no koto	about (little things of) -->
+    試験の結果について先生に聞いてください　　　　　　　　　　　　　・⚭ Noun + ni tsuite	about
+    とても好きだったので値段に気がづきませんでした　　　　　　　　　・⚭ Noun + ni ki ga tsuku	notice, take notice of
+    足元に気をつけてください　　　　　　　　　　　　　　　　　　　　・⚭ Noun + ni ki wo tsukeru	pay attention to, be careful of, watch out for
+    日本における最も有名な歌手です　　　　　　　　　　　　　　　　　・⚭ Noun + ni okeru	in, at, on (a specific area)
+    飲み物はアイスコーヒーにします　　　　　　　　　　　　　　　　　・⚭ Noun + ni suru	decide on
+    私にとってゴルフは一番楽しいです　　　　　　　　　　　　　　　　・⚭ Noun + ni totte	(as) for, from the standpoint of
+    みんなの協力によってできました　　　　　　　　　　　　　　　　　・⚭ Noun + ni yotte	through, by the way of, by means of, depending on
+    新聞によって世界の出来事をなります　　　　　　　　　　　　　　　・⚭ Noun + ni yotte	through, by the way of, by means of, depending on
+    人によって違います　　　　　　　　　　　　　　　　　　　　　　　・⚭ Noun + ni yotte	through, by the way of, by means of, depending on
+    自転車の代わりにオートバイを借りました　　　　　　　　　　　　　・⚭ Noun + no kawari (ni)	instead of, in place of
+    お父さんお代わりにお兄さんが行ってもいいです　　　　　　　　　　・⚭ Noun + no kawari (ni)	instead of, in place of
+    今日一日中お姉さんのことを考えていました　　　　　　　　　　　　・⚭ Noun + no koto about (little things of)
+    男性のことがわからないのです　　　　　　　　　　　　　　　　　　・⚭ Noun + no koto about (little things of)
 <!-- ⚭ Noun + no naka	among, (with) in -->
 <!-- ⚭ Noun + no uchi	among, (with) in -->
 <!-- ⚭ Noun + no tame ni	for, in behalf of, for the sake of, because of -->
@@ -22203,6 +22203,51 @@ reactable(
 ------------------------------------------------------------------------
 
 ### VPH
+
+<!-- ###### RN -->
+
+```{r, echo=FALSE, message=FALSE}
+
+# vbphr <- vbphr[sample(1:nrow(vbphr)),]
+reactable(
+  vbphr,
+  columns = list(
+    Phrase = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- vbphr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 5,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### VPR
 
 <!-- ###### RN -->
 
