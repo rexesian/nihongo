@@ -15156,7 +15156,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     とても好きだったので値段に気がづきませんでした　　　　　　　　　・⚭ Noun + ni ki ga tsuku	notice, take notice of
     足元に気をつけてください　　　　　　　　　　　　　　　　　　　　・⚭ Noun + ni ki wo tsukeru	pay attention to, be careful of, watch out for
     日本における最も有名な歌手です　　　　　　　　　　　　　　　　　・⚭ Noun + ni okeru	in, at, on (a specific area)
-    飲み物はアイスコーヒーにします　　　　　　　　　　　　　　　　　・⚭ Noun + ni suru	decide on
+    飲み物はアイスコーヒーにします　　　　　　　　　　　　　　　　　・⚭ Noun + ni suru decide on
     私にとってゴルフは一番楽しいです　　　　　　　　　　　　　　　　・⚭ Noun + ni totte	(as) for, from the standpoint of
     みんなの協力によってできました　　　　　　　　　　　　　　　　　・⚭ Noun + ni yotte	through, by the way of, by means of, depending on
     新聞によって世界の出来事をなります　　　　　　　　　　　　　　　・⚭ Noun + ni yotte	through, by the way of, by means of, depending on
@@ -15306,65 +15306,77 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ```{r echo=FALSE, message=FALSE}
 
-reactable(
-  na.omit(adjexp1),
-  columns = list(
-       Script = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Script') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        Meaning <- adjexp1$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Expression <- adjexp1$Expression[index]
-        Expression <- if (!is.na(Expression)) Expression else "Unknown"
-        Concept <- adjexp1$Concept[index]
-        Concept <- if (!is.na(Concept)) Concept else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
-          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(""),
-          
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
-          div(style = list(fontSize = 11, fontWeight = 200), Concept),
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE),
-      Expression = colDef(show = FALSE),
-      Concept = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
+# reactable(
+#   na.omit(adjexp1),
+#   columns = list(
+#        Script = colDef(
+#          #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+#          
+#         style = JS("function(rowInfo, colInfo, state) {
+#         var firstSorted = state.sorted[0]
+#         if (!firstSorted || firstSorted.id === 'Script') {
+#           var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+#           if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+#             return { visibility: 'hidden' }
+#           }
+#         }
+#       }"),
+#       cell = function(value, index) {
+#         Meaning <- adjexp1$Meaning[index]
+#         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+#         Expression <- adjexp1$Expression[index]
+#         Expression <- if (!is.na(Expression)) Expression else "Unknown"
+#         Concept <- adjexp1$Concept[index]
+#         Concept <- if (!is.na(Concept)) Concept else "Unknown"
+#         tagList(
+#           div(style = list(fontSize = 25, fontWeight = 800), value),
+#           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+#           div(""),
+#           
+#           div(style = list(fontSize = 16, fontWeight = 700), Expression),
+#           div(style = list(fontSize = 11, fontWeight = 200), Concept),
+#         )
+#       },
+#       align = "center", minWidth = 400
+#       ),
+#       Meaning = colDef(show = FALSE),
+#       Expression = colDef(show = FALSE),
+#       Concept = colDef(show = FALSE)
+#   ),
+#     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+#   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+#   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+#     theme = reactableTheme(
+#     # Vertically center cells
+#     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+#     searchInputStyle = list(
+#       paddingLeft = "8px",
+#       paddingTop = "8px",
+#       paddingBottom = "8px",
+#       width = "100%"
+#     ),
+#     headerStyle = list(
+#       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+#       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+#       # borderColor = "#555", 
+#       height = 30, fontSize = "11px"
+#     )
+#   )
+# )
 
 ```
+
+    高かったら、買いません　　　　　　　　　　　　　　　・⚭ I-Adj-i + kattara	if, if it were, if it is
+    欲しかったら、差し上げます　　　　　　　　　　　　　・⚭ I-Adj-i + kattara	if, if it were, if it is
+    よかったら、明日電話をします　　　　　　　　　　　　・⚭ Yokattara	if it’s okay (with you)
+    金持ちだったら、よかったと思います　　　　　　　　　・⚭ No/Na-Adj + dattara	if, if it were, if it is
+    明日暑ければ、泳ぎに行きましょうか　　　　　　　　　・⚭ I-Adj-i + kereba	if it is
+    静かであれば、昼寝ができるでしょう　　　　　　　　　・⚭ No/Na-Adj + de areba	if it is
+    病気ならば、休んだ方がいいと思います　　　　　　　　・⚭ No/Na-Adj + naraba if it is
+    コーヒーは暑ければ、暑いほどいいと思います　　　　　・⚭ I-Adj-i + kereba + adj + hodo	the more adj the better
+    便利なんらば、便利なほどいいです　　　　　　　　　　・⚭ No/Na-Adj + naraba + adj + na + hodo	the more adj the better
+    コーヒーが暑ければ、よかったです　　　　　　　　　　・⚭ I-Adj-i + kereba + yokatta desu	it would be better if it were, i wish it were
+    駅に便利ならば、よかったです　　　　　　　　　　　　・⚭ No/Na-Adj + naraba + yokatta desu	it would be better if it were, i wish it were
 
 ------------------------------------------------------------------------
 
@@ -15372,64 +15384,139 @@ reactable(
 
 ```{r echo=FALSE, message=FALSE}
 
-reactable(
-  vrbexp1,
-  columns = list(
-       Script = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Script') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
-        Meaning <- vrbexp1$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
-        Expression <- vrbexp1$Expression[index]
-        Expression <- if (!is.na(Expression)) Expression else "Unknown"
-        Concept <- vrbexp1$Concept[index]
-        Concept <- if (!is.na(Concept)) Concept else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 800), value),
-          div(style = list(fontSize = 12, fontWeight = 200), Meaning),
-          div(""),
-          div(style = list(fontSize = 16, fontWeight = 700), Expression),
-          div(style = list(fontSize = 11, fontWeight = 200), Concept),
-        )
-      },
-      align = "center", minWidth = 400
-      ),
-      Meaning = colDef(show = FALSE),
-      Expression = colDef(show = FALSE),
-      Concept = colDef(show = FALSE)
-  ),
-    outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-    theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    ),
-    headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
-      height = 30, fontSize = "11px"
-    )
-  )
-)
+# reactable(
+#   vrbexp1,
+#   columns = list(
+#        Script = colDef(
+#          #style = list(fontSize = "50px", fontWeight = 700), align = "center"
+#          
+#         style = JS("function(rowInfo, colInfo, state) {
+#         var firstSorted = state.sorted[0]
+#         if (!firstSorted || firstSorted.id === 'Script') {
+#           var prevRow = state.pageRows[rowInfo.viewIndex - 1]
+#           if (prevRow && rowInfo.row['Script'] === prevRow['Script']) {
+#             return { visibility: 'hidden' }
+#           }
+#         }
+#       }"),
+#       cell = function(value, index) {
+#         Meaning <- vrbexp1$Meaning[index]
+#         Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+#         Expression <- vrbexp1$Expression[index]
+#         Expression <- if (!is.na(Expression)) Expression else "Unknown"
+#         Concept <- vrbexp1$Concept[index]
+#         Concept <- if (!is.na(Concept)) Concept else "Unknown"
+#         tagList(
+#           div(style = list(fontSize = 25, fontWeight = 800), value),
+#           div(style = list(fontSize = 12, fontWeight = 200), Meaning),
+#           div(""),
+#           div(style = list(fontSize = 16, fontWeight = 700), Expression),
+#           div(style = list(fontSize = 11, fontWeight = 200), Concept),
+#         )
+#       },
+#       align = "center", minWidth = 400
+#       ),
+#       Meaning = colDef(show = FALSE),
+#       Expression = colDef(show = FALSE),
+#       Concept = colDef(show = FALSE)
+#   ),
+#     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+#   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+#   style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+#     theme = reactableTheme(
+#     # Vertically center cells
+#     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+#     searchInputStyle = list(
+#       paddingLeft = "8px",
+#       paddingTop = "8px",
+#       paddingBottom = "8px",
+#       width = "100%"
+#     ),
+#     headerStyle = list(
+#       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+#       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+#       # borderColor = "#555", 
+#       height = 30, fontSize = "11px"
+#     )
+#   )
+# )
 
 ```
+
+    サッカーを見るのが好きです　　　　　　　　　　　　　　・⚭ Vdict + no ga suki desu I like to
+    自転車に乗るのが嫌いです　　　　　　　　　　　　　　　・⚭ Vdict + no ga kirai desu I don’t like to
+    ピアノを弾くのが得意です　　　　　　　　　　　　　　　・⚭ Vdict + no ga tokui desu I am good at (one’s forte)
+    ピアノを弾くのが上手です　　　　　　　　　　　　　　　・⚭ Vdict + no ga jouzu desu I am good at
+    絵を描くのが苦手です　　　　　　　　　　　　　　　　　・⚭ Vdict + no ga nigate desu	I am not good at
+    絵を描くのが下手です　　　　　　　　　　　　　　　　　・⚭ Vdict + no ga heta desu	I am bad at
+    パーティーに行くつもりです　　　　　　　　　　　　　　・⚭ Vdict + tsumori	I intend to
+    寝る前に本を読みます　　　　　　　　　　　　　　　　　・⚭ Vdict + mae ni Before doing
+    荷物を持ちましょうか　　　　　　　　　　　　　　　　　・⚭ Vnoun + mashouka Shall I / Shall we
+    新宿に映画を見に行きます　　　　　　　　　　　　　　　・⚭ Vnoun + ni ikimasu Go to do
+    昨日ケーキを食べすぎました　　　　　　　　　　　　　　・⚭ Vnoun + sugiru Too much
+    ラーメンが食べたいです　　　　　　　　　　　　　　　　・⚭ Vnoun + tai	I want to
+    ラーメンが食べて欲しいです　　　　　　　　　　　　　　・⚭ Vte + hoshii I want you to
+    ゆっくり話してください　　　　　　　　　　　　　　　　・⚭ Vte + kudasai	Please do
+    ひらがなで書いてもらえませんか　　　　　　　　　　　　・⚭ Vte + moraemasen ka	Could I have you
+    渋谷に行ってご飯を食べる　　　　　　　　　　　　　　　・⚭ Vte + .. Verb	do and do
+    今日早く帰ってもいいですか　　　　　　　　　　　　　　・⚭ Vte + mo ii desu ka May I
+    充電器を借りってもいいですか　　　　　　　　　　　　　・⚭ Vte + mo ii desu ka	Is it ok to
+    今日本語を勉強している　　　　　　　　　　　　　　　　・⚭ Vte + iru	-ing (continuous action)
+    埼玉に住んでいる　　　　　　　　　　　　　　　　　　　・⚭ Vte + iru	-ing (continuous state)
+    昨日の夜８時ごろお風呂に入っていた　　　　　　　　　　・⚭ Vte + ita	I was -ing (continuous action in the past) 
+    １０年前パリに住んでいた　　　　　　　　　　　　　　　・⚭ Vte + ita	I used to (continuous state in the past)
+    まだ昼ごはんを食べていません　　　　　　　　　　　　　・⚭ mada ~ Vte + imasen	I haven’t yet
+    富士山位登ったことがあります　　　　　　　　　　　　　・⚭ Vta + koto ga arimasu	I have been to / have done
+    駅まではバス行ったほうがいいですよ　　　　　　　　　　・⚭ Vta + hou ga ii desu Its better to
+    映画を見たり、買い物をしたりします　　　　　　　　　　・⚭ Vtari + .. Vtari shimasu I do things like -ing, -ing
+    お金があったら、世界中旅行します　　　　　　　　　　　・⚭ Vtara If I Verb (conditional form)
+    駅に着いたら、電話して下さい　　　　　　　　　　　　　・⚭ Vtara When you Verb (conditional form)
+    時間に遅れないでください　　　　　　　　　　　　　　　・⚭ Vnai + de kudasai	Please do not
+    今日は早めに帰らなきゃいけません　　　　　　　　　　　・⚭ Vnakya + ikemasen	I should / must / have to
+    無理しないほうがいいです　　　　　　　　　　　　　　　・⚭ Vnai + hou ga ii desu	It's better not to
+    日本語で書きなくてもいいです　　　　　　　　　　　　　・⚭ Vnakute + mo ii desu You don’t have to
+    いいえ、予約しなくてもいいです　　　　　　　　　　　　・⚭ Vnakute + mo ii desu It’ok not to
+    田中さんは会社にいると思います　　　　　　　　　　　　・⚭ Vplain-nonpast + to omou / to omoimasu I think..
+    明日は雨が降るかもしれません　　　　　　　　　　　　　・⚭ Vplain-nonpast + kamoshiremasen	It might..
+    この曲は人気があるみたいです　　　　　　　　　　　　　・⚭ Vplain-nonpast + mitai desu	Seems to be..
+    部長はもう帰ったと思います　　　　　　　　　　　　　　・⚭ Vplain-past + to omou / to omoimasu	I think..
+    セールは昨日までだったかもしれません　　　　　　　　　・⚭ Vplain-past + kamoshiremasen Might have been…
+    じょんさんは恣意ごとを辞めたみたいです　　　　　　　　・⚭ Vplain-past + mitai desu Seems to have been..
+    ギターが弾けます　　　　　　　　　　　　　　　　　　　・⚭ Vpot I can (potential form)
+    まいにちれんしゅうすれば、およげるようになります　　　・⚭ Vpot + you ni naru To be able to
+    漢字が読めるようになりました　　　　　　　　　　　　　・⚭ Vpot + you ni narimashita	I became able to
+    ここから富士山が見えます　　　　　　　　　　　　　　　・⚭ Vpot Can be seen / heard (potential form - see / hear)
+    部長はまだ会議室にいるはずです　　　　　　　　　　　　・⚭ Vplain + hazu desu Should Verb (expectation)
+    仕事が遺書がしのでレッスンを休みます　　　　　　　　　・⚭ Vplain + node	Since / Because
+    これは沖縄で撮った写真です　　　　　　　　　　　　　　・⚭ Vplain + Noun	(Noun modifation)
+    試験を受けるかどうかわかりません　　　　　　　　　　　・⚭ Vplain + kadouka wakaranai I don’t know whether or not to
+    近藤さんの送別会に行くかどうかまだ決めていません　　　・⚭ Vplain + kadouka kimeteinai	I haven’t decided whether or not to
+    出かける前に鍵をかけましたかどうか覚えていない　　　　・⚭ Vplain + kadouka oboeteinai	I don’t remember whether or not
+    何時に来るか分からない　　　　　　　　　　　　　　　　・⚭ Vplain + ka wakaranai	I don't know (what / where / who)
+    いつ帰るかまだ決めていません　　　　　　　　　　　　　・⚭ Vplain + ka (mada) kimeteimasen	I haven’t decided to (yet) (QW)
+    ここまでどうやって来ましたか覚えていません　　　　　　・⚭ Vplain + ka oboeteimasen　I don’t remember (QW)
+    自分で作ってみます　　　　　　　　　　　　　　　　　　・⚭ Vte + miru / mimasu	Try to
+    予約しておきます　　　　　　　　　　　　　　　　　　　・⚭ Vte + oku / okimasu	Do in advance
+    桜が咲いています　　　　　　　　　　　　　　　　　　　・⚭ Vte + iru / imasu	Has been -ing
+    財布を落としてしました　　　　　　　　　　　　　　　　・⚭ Vte + shimaishita / chatta / jatta	Ended up / Unfortunately doing
+    タクシーに乗れば、間に合います　　　　　　　　　　　　・⚭ Vconditional If (conditional form)
+    もっと勉強すればよかった　　　　　　　　　　　　　　　・⚭ Vconditional + yokatta	I should / must / have to
+    どうやって注文すればいいですか　　　　　　　　　　　　・⚭ Vconditional + ii desu ka	How / when / what should I 
+    私は友達に花をあげました　　　　　　　　　　　　　　　・⚭ Ageru	I give (give to someone)
+    友達が私にお菓子をくれました　　　　　　　　　　　　　・⚭ Kureru Gives me (someone gives me )
+    友達に映画のチケットをもらいました　　　　　　　　　　・⚭ Morau	I receive (receive from someone)
+    私は友達に英語教えてあげました　　　　　　　　　　　　・⚭ Vte + ageru	I do (to someone)
+    友達が私に日本語教えてくれました　　　　　　　　　　　・⚭ Vte + kureru Someone do (to me)
+    友達に宿題を手伝ってもらいました　　　　　　　　　　　・⚭ Vte + morau	I have someone do
+    今週は行こうと思っています　　　　　　　　　　　　　　・⚭ Vvolitional + to omotteiru I am thinking of..
+    予約しようと思ったら、いっぱいでした　　　　　　　　　・⚭ Vvolitional + to omottara	When I tried to do..
+    外に行きましょうか・外に行こう　　　　　　　　　　　　・⚭ Vvolitional	Shall / Let’s / I will (volitional form)
+    ポリッジが誰かに食べられた　　　　　　　　　　　　　　・⚭ Vpassive Get / done by (passive - reru / rareru)
+    先生が学生に宿題をたくさんさせた　　　　　　　　　　　・⚭ Vcausative Let / Made someone (causative - seru / saseru)
+    私は田中さんに運転させてあげる　　　　　　　　　　　　・⚭ Vcausative + ageru I let someone (causative - seru / saseru)
+    田中さんは私に運転させてくれる　　　　　　　　　　　　・⚭ Vcausative + kureru	Someone let me (causative - seru / saseru)
+    私は田中さんに運転させてもらう　　　　　　　　　　　　・⚭ Vcausative + morau I have/had someone let me (causative - seru / saseru)
+    朝ご飯は食べたくなかったのに、食べさせられた　　　　　・⚭ Vcausative-passive Get / got made to (causative-passive)
 
 ------------------------------------------------------------------------
 
