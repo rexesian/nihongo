@@ -14628,6 +14628,19 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Intentional action
 
+    てみる　　　　　　・この新しいボールペンを使ってみました。とても書きやすいですよ　・Try doing
+    てしまう　　　　　・ええ、もうぜんぶ読んでしまいましたから、どうぞ　　　　　　　　・Do the whole thing, End up
+    ておく　　　　　　・山田君、コピー用紙がないから、買っておいてください　　　　　　・In advance, Leave
+    ないでおく　　　　・午後から会議の続きをするので、資料はかたづけないでおきました　・Refrain from
+    はじめる　　　　　・もう７時だから、そろそろ食べ始めましょう　　　　　　　　　　　・Begin to
+    つづける　　　　　・わたしは小学校から高校まで 12 年間もこの学校に通い続けました　・Keep on, Do on and on
+    おわる　　　　　　・作文を書き終わった人は、この箱に入れてください　　　　　　　　・Finished
+    だす　　　　　　　・雨がやんだら、たくさんの鳥が鳴き出しました　　　　　　　　　　・Suddenly begin to
+    てみせる　　　　　・ぼくはあしたの柔道の試合で必ず勝ってみせる。がんばるぞ　　　　・Determined to accomplish
+    きる　　　　　　　・３巻から成る小説を夏休み中に全部読みきった　　　　　　　　　　・Completely, Finish the whole..
+    ぬく　　　　　　　・マラソンの精神というのは、試合に負けても最後まで走りぬくことだ・From beginning to end
+    かける　　　　　　・母は夕食を作りかけて、長電話をしている　　　　　　　　　　　　・Partially, In the process of
+
 ------------------------------------------------------------------------
 
 ##### Appearance
