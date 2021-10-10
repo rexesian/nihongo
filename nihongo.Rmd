@@ -14612,9 +14612,33 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Experiences
 
+    たことがある　　　・わたしは３年前に１度日本へ来たことがあります　　　　　　　　　・Have the experience of, Have..
+    たことがある　　　・５年前にこの地方で山火事が起こったことがあります　　　　　　　・Have the situation of..in the past
+    ている　　　　　　・アポロ１１号は１９６９年に月に着陸している　　　　　　　　　　・Narrative present tense
+
 ------------------------------------------------------------------------
 
 ##### Adversative conjuctions・consession
+
+    が　　　　　　　　・１０月になりましたが、毎日暑い日が続いています　　　　　　　　・But
+    けれど（も）　　　・この道具、説明書を読んだけれど使い方がよくわかりませんでした　・Although, Nevertheless, But
+    のに　　　　　　　・わたしが３時間もかけてケーキを焼いたのに、だれも食べません　　・In spite of the fact
+    ても　　　　　　　・この仕事は日本語が上手に話せなくても、できますよ　　　　　　　・Even if
+    ながら　　　　　　・松下さんは本当のことを知りながら、知らないふりをしている　　　・Even while, Although
+    くせに　　　　　　・竹内さんは本当はテニスが上手なくせに、わざと負けたんだ　　　　・Despite the fact that
+    つつ　　　　　　　・悪いと知りつつ、友達の宿題の答えを書いてそのまま出してしまった・Even though
+    ものの　　　　　　・新しい服を買ったものの、なかなか着ていく機会がない　　　　　　・Although, Not withstanding
+    とはいうものの　　・立春とはいうものの、春はまだ遠い　　　　　　　　　　　　　　　・Granted that, It’s true, But
+    にもかかわらず　　・交通問題の深刻化にもかかわらず、改善される見込みが全然ない　　・Even though
+    にしても　　　　　・いくら忙しかったにしても、電話をかける時間くらいはあったと思う・No matter how (concession), Even if
+    といっても　　　　・旅費は高いといっても払えない額ではなかった　　　　　　　　　　・May be, But..in name only
+    からといって　　　・大学を出たからといって、必ずしも教養があるわけではない　　　　・Just because..doesn’t necessarily mean
+    といえども　　　　・高齢者といえども、まだまだ意欲的な人が大勢いる　　　　　　　　・Even though
+    とはいえ　　　　　・彼は留学生とはいえ、日本語を読む力は普通の日本人以上です　　　・Nevertheless, Be that as it may
+    ながらも　　　　　・彼は金持ちでありながらも、とても地味な生活をしている　　　　　・Even though
+    ところを　　　　　・お忙しいところをご出席くださり、ありがとうございました　　　　・Even though
+    ものを　　　　　　・知っていれば教えてあげたものを。わたしも知らなかったんです　　・Even though..how could
+    とおもいきや　　　・このレストランは安いと思いきや、会計は５千円以上だった　　　　・Though (I) thought.., It wasn’t the case
 
 ------------------------------------------------------------------------
 
