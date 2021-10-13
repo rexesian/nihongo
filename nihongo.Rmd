@@ -26485,15 +26485,17 @@ reactable(
 
 **Cohesive Patterns**
 
-2.1 **ている** `Words that express time and verb forms must agree`
+2.1 **まもなく・もうすぐ・やがて・来年 + ..Vru** `Words that express time and verb forms must agree`
 
-    ・世界にはいろいろな文化を持った国がある 
-    ・この計画には問題点が多い
+    ・来年この子は５歳になる 
 
-2.2 **ている**
+2.2 **今・現在 + ..Vteiru** `Words that express time and verb forms must agree`
 
-    ・世界にはいろいろな文化を持った国がある 
-    ・この計画には問題点が多い
+    ・現在雪が降っている 
+
+2.3 **去年・先週 + ..Vta** `Words that express time and verb forms must agree`
+
+    ・去年私は日本に来た 
 
 ------------------------------------------------------------------------
 
