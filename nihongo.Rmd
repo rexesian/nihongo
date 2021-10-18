@@ -16657,17 +16657,17 @@ The meaning and nuances are pretty exactly the same with slight difference
 
 ## Dictionary {.tabset}
 
-### Basic {.tabset}
+<!-- ### Basic {.tabset} -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Intermediate {.tabset}
+<!-- ### Intermediate {.tabset} -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Essential {.tabset}
+<!-- ### Essential {.tabset} -->
 
-#### A {.tabset}
+### A {.tabset}
 
 A.1 **あいだ** `throughout` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida**  
 `・Appends to expressions of time, i.e., “throughout the entire time.”`
@@ -16761,7 +16761,7 @@ A.8 **あまりの** `so.. that` **⚭ amari + no + N + ni**
 
 ------------------------------------------------------------------------
 
-#### I {.tabset}
+### I {.tabset}
 
 I.1 **いかんで** `in accordance with・is contingent on` **⚭ N+(no) + ikande**  
 `・Mainly appends to expressions of difference in level or type`
@@ -24577,6 +24577,8 @@ reactable(
 関わる`to be affected; to be influenced; to be concerned with; to have to do with; vi`  
 贅沢`luxury; extravagance; to live in luxury`  
 
+手先が器用`being skilled with one's hands`
+
 ------------------------------------------------------------------------
 
 #### AZ {.tabset}
@@ -24772,6 +24774,28 @@ reactable(
     理由のいかんにかかわらず、いったん払い込まれた受講料は返金できないことになっています
     調査の結果いかんにかかわらず、かならず連絡してください
     この区では、場所のいかんにかかわらず路上喫煙は禁止です
+
+------------------------------------------------------------------------
+
+### Dictionary {.tabset}
+
+#### A
+
+    あいかわらず　　　・相変わらず　　　・父はあいかわらず、毎日２箱タバコを吸っている　　　　　　・As before, as usual
+    あいきょう　　　　・愛嬌　　　　　　・このパンダの縫いぐるみはあいきょうがある　　　　　　　　・Charming, Cute
+    あいさつ　　　　　・挨拶　　　　　　・彼は道で会っても挨拶さえしてくれない　　　　　　　　　　・A greeting
+    あいじょう　　　　・愛情　　　　　　・先生の学生たちへの愛情は深い　　　　　　　　　　　　　　・Love, Affection
+    あいず　　　　　　・合図　　　　　　・彼女に座るように手で合図した　　　　　　　　　　　　　　・A signal, A sign
+    あいする　　　　　・愛する　　　　　・愛する人とはいつもー緒にいたいと思うものだ　　　　　　　・Love, Care for
+
+------------------------------------------------------------------------
+
+#### I
+
+    いにそう　　　　　・意に沿う　　　　・注文した客の意にそうように家を設計する　　　　　　　　　・Go along with a person's desire
+    いにはんする　　　・意に反する　　　・むかしは自分の意に反する結婚をする人も多かった　　　　　・Act against a person's will
+    いのまま　　　　　・意のまま　　　　・やっと意のままに運転できるようになった　　　　　　　　　・At will
+    いあわせる　　　　・居合わせる　　　・その場に居合わせた人は多くはなかった　　　　　　　　　　・Happen to be present
 
 ------------------------------------------------------------------------
 
