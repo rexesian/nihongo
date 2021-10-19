@@ -9831,8 +9831,8 @@ reactable(
 
 <p style="font-size:12px;">(❖) **Ichidan Verb (Volitional Form)**</p>
 
-    ・食べる　⇢   食べろう
-    ・見る　　⇢   見ろう
+    ・食べる　⇢   食べよう
+    ・見る　　⇢   見よう
 
 <p style="font-size:12px;">(❖) **Irregular Verb (Volitional Form)**</p>
 
@@ -14487,7 +14487,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 <!-- <h> -->
 
-    まえに　　　　　　・寝る前に歯をみがきなさい　　　　　　　　　　　　　　　　　　　・⚭ Vru,N+no
+    まえに　　　　　　・寝る前に歯をみがきなさい　　　　　　　　　　　　　　　　　　　・⚭ Vru.N+no
     あとで　　　　　　・この薬はご飯を食べる前に飲みますか、食べた後で飲みますか　　　・⚭ Vta.N+no      
     て　　　　　　　　・スーパーへ行って、たまごを買った　　　　　　　　　　　　　　　・⚭ Vte
     てから　　　　　　・新しい家を買うときは、よく調べてから買いましょう　　　　　　　・⚭ Vte
@@ -14667,6 +14667,22 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Conditions
 
+    たら　　　　　　　・もし、おもしろい本があったら、買ってきてください　　　　　　　・If
+    ば　　　　　　　　・よく読めば、わかります　　　　　　　　　　　　　　　　　　　　・If
+    なら　　　　　　　・図書館に行くなら、わたしも返したい本があるんですが　　　　　　・If, If in case
+    と　　　　　　　　・暖かくなると、桜の花が咲きます　　　　　　　　　　　　　　　　・If, Once, When
+    と〜た　　　　　　・ドアを開けると、大きい犬がいました　　　　　　　　　　　　　　・When, Whenever
+    と　　　　　　　　・兄は上着を着ると、だまって出ていきました　　　　　　　　　　　・When (conditions) 
+
+<!-- <h> -->
+
+    たら　　　　　　　・気分が悪かったら、帰ってもいいんですよ　　　　　　　　　　　　・⚭ Vtara.I+kattara.Na+dattara.N+datttara
+    ば　　　　　　　　・部屋が静かでなければ、わたしは勉強できません　　　　　　　　　・⚭ Vba.I+kereba.Na+naraba.N+naraba
+    なら　　　　　　　・まだ仕事があるなら、お弁当と熱いお茶を買ってきましょうか　　　・⚭ Vplain.I.Na.N
+    と　　　　　　　　・ここを強く押さないと、電気はつきません　　　　　　　　　　　　・⚭ Vru.Vnai.I.I+kunai.Na+da.Na+denai.N+da.N+denai
+    と〜た　　　　　　・部屋に入ると、会議はもう始まっていた　　　　　　　　　　　　　・⚭ Vru+..~ta
+    と　　　　　　　　・次郎は手紙を読み終わると、すぐに返事を書き始めました　　　　　・⚭ Vru
+
 ------------------------------------------------------------------------
 
 ##### Conditions for Adversative conjuctions
@@ -14699,6 +14715,20 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 ------------------------------------------------------------------------
 
 ##### Tendency
+
+    がち　　　　　　　・田中さんは留守がちだから、電話してもいないことが多い　　　　　・Liable to, Prone to, Tend to
+    っぽい　　　　　　・きみ子はもう２０歳なのに話すことが子どもっぽい　　　　　　　　・-ish, Somewhat
+    ぎみ　　　　　　　・今日はちょっと風邪気味なので、早めに帰らせてください　　　　　・Be a little, Have a touch of, -looking
+    きらいがある　　　・あの人の話はいつも大げさになるきらいがある　　　　　　　　　　・Be liable to, Be inclined to, Have a tendency to
+    めく　　　　　　　・まゆみはいつも謎めいたことを言って周りの人を困らせる　　　　　・Take on the air of, Seems, Show signs of
+
+<!-- <h> -->
+
+    がち　　　　　　　・パソコンの使いすぎで目が疲れがちです　　　　　　　　　　　　　・⚭ Vn.N
+    っぽい　　　　　　・花子は飽きっぽくて何をやってもすぐやめてしまう　　　　　　　　・⚭ Vn.N
+    ぎみ　　　　　　　・最近、忙しい仕事が続いたので少し疲れ気味です　　　　　　　　　・⚭ Vn.N
+    きらいがある　　　・最近の選挙では投票率低下のきらいがある　　　　　　　　　　　　・⚭ Vru.N+no
+    めく　　　　　　　・暑くなって、ずいぶん夏めいてきましたね　　　　　　　　　　　　・⚭ N
 
 ------------------------------------------------------------------------
 
@@ -24578,6 +24608,7 @@ reactable(
 贅沢`luxury; extravagance; to live in luxury`  
 
 手先が器用`being skilled with one's hands`
+なんかこういう`something like this`
 
 ------------------------------------------------------------------------
 
