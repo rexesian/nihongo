@@ -14749,6 +14749,28 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ##### Volition
 
+    つもりだ　　　　　・今度のレポートで、君は何について書くつもりですか　　　　　　　・Intends to
+    よう　　　　　　　・熱があるから、今日は早く帰ろう　　　　　　　　　　　　　　　　・I think I will, I'll do, Let’s do
+    ようとおもう　　　・会社をやめて、１年ぐらい留学しようと思っています　　　　　　　・I think I will
+    ようとする　　　　・おふろに入ろうとしたとき、電話のベルが鳴った　　　　　　　　　・Just when about to, Try to, Attempt to
+    ようにする　　　　・人に会うときは、約束の時間を守るようにしましょう　　　　　　　・Make a point of. Try to 
+    ようとしない　　　・リーさんは病気のときでも、医者に行こうとしません　　　　　　　・Doesn’t even think about, Not make an effort to
+    つもりだ　　　　　・食べたつもりになって、がまんしなさい　　　　　　　　　　　　　・Supposed to be, But
+    まい　　　　　　　・鈴木さんは無責任な人だ。もう２度とあんな人に仕事を頼むまい　　・I (we) will never, Will not, Will probably not
+    ようか〜まいか　　・この季節には、かさを持っていこうかいくまいかと毎朝迷ってしまう・Whether to..or not
+
+<!-- <h> -->
+
+    つもりだ　　　　　・弟は東京で仕事を探すつもりらしい　　　　　　　　　　　　　　　・⚭ Vru.Vnai
+    よう　　　　　　　・田中君のうちへ行く前に、ちょっと電話をしよう　　　　　　　　　・⚭ Vvol
+    ようとおもう　　　・そうですね、今日はまっすぐ帰ろうと思います　　　　　　　　　　・⚭ Vvol+to+omou
+    ようとする　　　　・けさ、6 時に起きようとしましたが、起きられませんでした　　　　・⚭ Vvol+to+suru
+    ようにする　　　　・わたしは健康のために、毎晩、１時間ぐらい歩くようにしている　　・⚭ Vvol+ni+suru
+    ようとしない　　　・あの子はしかられても、決してあやまろうとしない　　　　　　　　・⚭ Vvol+to+shinai
+    つもりだ　　　　　・父は元気なつもりでいるけれど、やはり年を取りましたね　　　　　・⚭ Vplain.Na+na.N+no
+    まい　　　　　　　・もう決して戦争を起こすまいと、わが国は固く決心したはずです　　・⚭ Vru(Grp1).Vn(Grp2).Suru->sumai.Kuru->komai
+    ようか〜まいか　　・今晩９時からのテレビの特別番組を見ようか見まいか、迷っています・⚭ Vvol+ka+..Vru+mai+ka
+
 ------------------------------------------------------------------------
 
 ##### Persuasion・proposal・advice
@@ -14926,13 +14948,13 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ###### to receive, to take
 
-###### **⚭　Vte + itadakitai n desuga**
+###### **⚭　Vte + itadakitai ndesu ga **
 
-###### **⚭　Vte + itadakemasen **
+###### **⚭　Vte + itadakemasen ka**
 
 ###### **⚭　Vte + itadakemasu ka **
 
-###### **⚭　Vte + moraitai n desuga **
+###### **⚭　Vte + moraitai ndesu ga **
 
 ###### **⚭　Vte + moraemasen ka **
 
@@ -14954,7 +14976,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ###### to give, to let (one) have
 
-###### **⚭　Vte + kudaimasenka **
+###### **⚭　Vte + kudaimasen ka **
 
 ###### **⚭　Vte + kuremasen ka **
 
@@ -15148,22 +15170,42 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・I heard that Oscar wants it, too
     ・Pamela wants a pair of earrings
     ・It seems like Francis wants a watch
+ 
+------------------------------------------------------------------------
+
+#### Desire
+
+**①　beki** `Should・Must`  
+
+###### **⚭　Vru + beki (da)**
+
+###### Expresses a person desire to do something
+
+    ・約束は守るべきだ
+    ・早く帰宅すべきだ
+
+<!-- <h> -->
+  
+    ・You should keep your promises
+    ・You should go home early
+
+**②　bayokatta** `Should have・I wish`  
+
+###### **⚭　Vba + yokatta**
+
+###### Expresses a person wish to do something or should have done
+
+    ・傘を持ってくればよかった
+    ・いまは電話があればよかったと思っている
+
+<!-- <h> -->
+  
+    ・I should have brought an umbrella
+    ・Now I wish I had my phone
 
 ------------------------------------------------------------------------
 
-#### Wish
-
-**①　tai** `I want to・I would like to`  
-
-------------------------------------------------------------------------
-
-#### Should
-
-**①　tai** `I want to・I would like to`  
-
-------------------------------------------------------------------------
-
-#### Must/Have 
+#### Obligation
 
 **①　nakeraba/nakute/naito ikenai/naranai/dame desu** `Must do・Have to do`  
 
@@ -15180,6 +15222,67 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 **②　nakucha/nakya/naito** `Must do・Have to do`  
 
 ###### **⚭　Vn + nakucha/nakya/naito**
+
+------------------------------------------------------------------------
+
+#### Ordering
+
+**①　Verb command stem** `Do`  
+
+###### **⚭　Vcmd**
+
+    ・英語で書け(よ)
+    ・Write it in English
+
+**②　Verb noun stem (Grp2)** `Do`  
+
+###### **⚭　Vn + ro**
+
+    ・これを見ろ(よ)
+    ・Look at this
+
+**③　Verb noun stem (Grp2)** `Do`  
+
+###### **⚭　Vn + yo**
+
+    ・図１を見よ
+    ・See Figure 1
+
+------------------------------------------------------------------------
+
+#### Prohibit
+
+**①　Verb dictionary form** `Don't`  
+
+###### **⚭　Vru + na**
+
+    ・食べるな
+    ・Don't eat it
+
+**②　tewaikenai** `Must not・Should not・Don't do`  
+
+###### **⚭　Vte + wa + ikenai/naranai/dame da**
+
+    ・窓を開けてはいけない
+    ・Don't open the window
+
+------------------------------------------------------------------------
+
+#### Your-Welcome
+
+**①　Zen-zen iiyou** `No problem・Not at all`  
+
+###### **⚭　Zenzen iiyou**
+
+    ・家まで送ってくれてありがとう。全然いいよー
+    ・Thanks for the ride home. No problem at all
+
+**②　O-yakunitatete ureshii desu** `Im glad I could help`  
+
+###### **⚭　Oyakunitatete + ureshii/kouei/saiwai desu**
+
+    ・昨日は助かったよ。ありがとう。いえ、お役に立てて嬉しいです
+    ・Thank you for your help yesterday. Thank you. No, I'm glad I could help
 
 ------------------------------------------------------------------------
 
