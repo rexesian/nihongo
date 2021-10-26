@@ -347,7 +347,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -424,7 +424,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -501,7 +501,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -578,7 +578,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -659,7 +659,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -736,7 +736,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -813,7 +813,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -890,7 +890,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -967,7 +967,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1053,7 +1053,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1130,7 +1130,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1207,7 +1207,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1284,7 +1284,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1361,7 +1361,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1490,7 +1490,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1544,7 +1544,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1598,7 +1598,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1656,7 +1656,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1713,7 +1713,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1773,7 +1773,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -1840,7 +1840,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -1888,7 +1888,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -2028,7 +2028,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -2070,7 +2070,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -2119,7 +2119,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2181,7 +2181,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2243,7 +2243,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2305,7 +2305,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2367,7 +2367,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2429,7 +2429,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2491,7 +2491,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2553,7 +2553,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -2738,7 +2738,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -2949,7 +2949,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3003,7 +3003,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3144,7 +3144,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3212,7 +3212,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3280,7 +3280,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3339,7 +3339,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3397,7 +3397,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3487,7 +3487,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3537,7 +3537,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3589,7 +3589,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3640,7 +3640,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3731,7 +3731,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3820,7 +3820,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3909,7 +3909,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -3998,7 +3998,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4087,7 +4087,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4176,7 +4176,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4354,7 +4354,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4441,7 +4441,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4528,7 +4528,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4615,7 +4615,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4702,7 +4702,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4789,7 +4789,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4876,7 +4876,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -4963,7 +4963,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5050,7 +5050,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5112,7 +5112,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5196,7 +5196,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5264,7 +5264,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5328,7 +5328,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5412,7 +5412,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -5454,7 +5454,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -17081,7 +17081,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px")
 )
 ```
 
@@ -17124,7 +17124,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -17187,7 +17187,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18740,7 +18740,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18788,7 +18788,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18838,7 +18838,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18886,7 +18886,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18936,7 +18936,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -18984,7 +18984,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19034,7 +19034,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19082,7 +19082,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19133,7 +19133,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19181,7 +19181,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19231,7 +19231,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19279,7 +19279,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19328,7 +19328,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19375,7 +19375,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19422,7 +19422,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19476,7 +19476,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -19552,7 +19552,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
@@ -19654,7 +19654,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
@@ -19752,7 +19752,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
@@ -19850,7 +19850,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
   # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
@@ -19913,7 +19913,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -20110,7 +20110,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -20157,7 +20157,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -22020,7 +22020,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -22067,7 +22067,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -22114,7 +22114,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -22141,7 +22141,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
@@ -22177,7 +22177,7 @@ reactable(na.omit(kc2), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22223,7 +22223,7 @@ reactable(na.omit(kc3), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22271,7 +22271,7 @@ reactable(na.omit(kv1), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22312,7 +22312,7 @@ reactable(na.omit(kv2), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22353,7 +22353,7 @@ reactable(na.omit(kv3), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22394,7 +22394,7 @@ reactable(na.omit(kv4), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22435,7 +22435,7 @@ reactable(na.omit(kv5), showPageSizeOptions = FALSE,
           bordered = TRUE, highlight = TRUE, 
           searchable = TRUE, showSortIcon = FALSE, sortable = FALSE, paginationType = "numbers",
           showPageInfo = FALSE, defaultPageSize = 1,
-          style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
+          style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , Helvetica Neue", fontSize = "11px", fontWeight = 350),
           columns = list(
                 Kanji = colDef(
                 cell = function(value, index) {
@@ -22548,7 +22548,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -22593,7 +22593,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -23315,7 +23315,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -25021,7 +25021,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25098,7 +25098,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25175,7 +25175,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25251,7 +25251,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25328,7 +25328,7 @@ reactable(
   ),
   outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25393,7 +25393,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25454,7 +25454,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25516,7 +25516,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25577,7 +25577,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25638,7 +25638,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25699,7 +25699,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -25760,7 +25760,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -27170,7 +27170,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
