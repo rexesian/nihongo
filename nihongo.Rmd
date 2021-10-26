@@ -20810,6 +20810,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+set.seed(89231)
 rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
 
 reactable(
@@ -20853,7 +20854,7 @@ reactable(
 ### 14
 
 ```{r, echo=FALSE, message=FALSE}
-set.seed(89274)
+set.seed(82354)
 vbphg  <- vbphg [sample(1:nrow(na.omit(vbphg ))),]
 
 reactable(
