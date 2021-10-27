@@ -10476,20 +10476,24 @@ A **compound verb** is a verb that consists of two verbs creating a specific mea
 
 **iku/kuru**`perceptional (change)`  
 
-<p style="font-size:12px;">**⚭　Vte + kuru ** `started to`</p>
+<p style="font-size:12px;">**⚭　Vte + kuru ** `started to・(I'm/It's) getting`</p>
 
 <p style="font-size:12px;">(❖) Indicates a beginning of a change perceive through senses</p>
 
 <p style="font-size:12px;">(❖) Indicates an appearance or a beginning of change </p>
 
-    ・雨が降っていきた
+    ・雨が降ってきた
+    ・暗くなってきた
+    ・お腹が空いてきた
     ・頭が痛くなってきた
     ・左に方に山が見えてくるでしょう
     ・寒いと思ったら、ほら、雪が降ってきましたよ
 
 <!-- <h> -->
 
-    ・It's going to rain
+    ・It's starting to rain
+    ・It's getting dark
+    ・I'm getting hungry
     ・My head is starting to hurt
     ・You will see a mountain to the left
     ・If you think it's cold, look, it's snowing!
@@ -14452,7 +14456,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     あいだに　　　　　・暇な間に本だなをかたづけてしまおう　　　　　　　　　　　　　　・⚭ Vru.Vteiru.I.Na+na.N+no
     ところだ　　　　　・ご飯を食べているところに電話がかかってきた　　　　　　　　　　・⚭ Vru.Vteiru.Vta.Vteita
     おり（に）　　　　・このことは今度お目にかかった折に詳しくお話しいたします　　　　・⚭ Vplain.I.Na+na.N+no
-    さい（に）　　　　・非常の際はエレベーターを使わずに、階段をご利用ください　　　　・⚭ Vplain.I.Na+na.N+no
+    さい（に）　　　　・国を出る際に、友人、知人からたくさんのお金を借りたのです　　　・⚭ Vplain.I.Na+na.N+no
     において　　　　　・この植物は、ある一定の環境においてしか花を咲かせない　　　　　・⚭ N
     にあたって　　　　・研究発表をするにあたって、しっかり準備をすることが必要だ　　　・⚭ Vru.N
     うちに　　　　　　・ふと外を見ると、気がつかないうちに雨が降り出していた　　　　　・⚭ Vru.Vteiru.Vnai.N+no
@@ -15262,14 +15266,14 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 **②　Verb noun stem (Grp2)** `Do`  
 
-###### **⚭　Vn + ro**
+###### **⚭　Vnn + ro**
 
     ・これを見ろ(よ)
     ・Look at this
 
 **③　Verb noun stem (Grp2)** `Do`  
 
-###### **⚭　Vn + yo**
+###### **⚭　Vnn + yo**
 
     ・図１を見よ
     ・See Figure 1
@@ -15612,17 +15616,17 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 ```
 
-    高かったら、買いません　　　　　　　　　　　　　　　・⚭ I-Adj-i + kattara	if, if it were, if it is
-    欲しかったら、差し上げます　　　　　　　　　　　　　・⚭ I-Adj-i + kattara	if, if it were, if it is
-    よかったら、明日電話をします　　　　　　　　　　　　・⚭ Yokattara	if it’s okay (with you)
-    金持ちだったら、よかったと思います　　　　　　　　　・⚭ No/Na-Adj + dattara	if, if it were, if it is
-    明日暑ければ、泳ぎに行きましょうか　　　　　　　　　・⚭ I-Adj-i + kereba	if it is
-    静かであれば、昼寝ができるでしょう　　　　　　　　　・⚭ No/Na-Adj + de areba	if it is
-    病気ならば、休んだ方がいいと思います　　　　　　　　・⚭ No/Na-Adj + naraba if it is
-    コーヒーは暑ければ、暑いほどいいと思います　　　　　・⚭ I-Adj-i + kereba + adj + hodo	the more adj the better
-    便利なんらば、便利なほどいいです　　　　　　　　　　・⚭ No/Na-Adj + naraba + adj + na + hodo	the more adj the better
-    コーヒーが暑ければ、よかったです　　　　　　　　　　・⚭ I-Adj-i + kereba + yokatta desu	it would be better if it were, i wish it were
-    駅に便利ならば、よかったです　　　　　　　　　　　　・⚭ No/Na-Adj + naraba + yokatta desu	it would be better if it were, i wish it were
+    高かったら、買いません　　　　　　　　　　　　　　　・⚭ I-Adj-i + kattara・if, if it were, if it is
+    欲しかったら、差し上げます　　　　　　　　　　　　　・⚭ I-Adj-i + kattara・if, if it were, if it is
+    よかったら、明日電話をします　　　　　　　　　　　　・⚭ Yokattara・if it’s okay (with you)
+    金持ちだったら、よかったと思います　　　　　　　　　・⚭ No/Na-Adj + dattara・if, if it were, if it is
+    明日暑ければ、泳ぎに行きましょうか　　　　　　　　　・⚭ I-Adj-i + kereba・if it is
+    静かであれば、昼寝ができるでしょう　　　　　　　　　・⚭ No/Na-Adj + de areba・if it is
+    病気ならば、休んだ方がいいと思います　　　　　　　　・⚭ No/Na-Adj + naraba・if it is
+    コーヒーは暑ければ、暑いほどいいと思います　　　　　・⚭ I-Adj-i + kereba + adj + hodo・the more adj the better
+    便利なんらば、便利なほどいいです　　　　　　　　　　・⚭ No/Na-Adj + naraba + adj + na + hodo・the more adj the better
+    コーヒーが暑ければ、よかったです　　　　　　　　　　・⚭ I-Adj-i + kereba + yokatta desu・it would be better if it were, i wish it were
+    駅に便利ならば、よかったです　　　　　　　　　　　　・⚭ No/Na-Adj + naraba + yokatta desu・it would be better if it were, i wish it were
 
 ------------------------------------------------------------------------
 
