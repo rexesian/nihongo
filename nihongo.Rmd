@@ -13788,6 +13788,52 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     ・地震予知の研究はアメリカ、中国、日本などの専門家によって進められてきた
     ・この伝統文化はこの地方の民衆によって受け継がれてきた
 
+**③　によると◦ According to**
+
+###### **⚭　N + niyoruto**
+
+###### **⚭　N + niyoreba**
+
+###### Source of information of hearsay
+
+###### Pattern によると is interchangeable with によれば.
+
+    ・レビの長期予報によると、今年の夏は特に東北地方において冷夏が予想されるそうです
+    ・経済専門家の予想によると、円高傾向は今後も続くということだ
+    ・妹からの手紙によれば、 弟 は今年、オーストラリアの自転車旅行を計画しているそうだ
+
+**③　を通じて◦ Through**
+
+###### **⚭　N + wo + tsuujite**
+
+###### Person who acts as intermediary, or something that serves as means to cause some event to happen
+
+###### Often patterns をつうじて and をとおして can be used same way, but 
+
+###### をつうじて is understood as intermediary or means when something occurs
+
+###### をとおして often has proactive meaning of acting as intermediary for doing
+
+    ・わたしはそのことをテレビのニュースを通じて知りました
+    ・彼とは共通の友人を通じて知り合った
+    ・このような民間レベルの国際交流を通じて、両国の相互理解が少しずつでも進んねがでいくことを願っています
+
+**④　を通じて◦ Through**
+
+###### **⚭　N + wo + tooshite**
+
+###### Person or thing is used as intermediary to cause something to happen
+
+###### Often can be used same way as をつうじて, but
+
+###### をつうじて means something is taken to be intermediary or means for some development
+
+###### をとおして often has proactive meaning of acting as intermediary for doing something
+
+    ・社長に会うときは、秘書を通してアポイントメントを取ってください
+    ・田中さんを通しての就職の話は残念ながらうまくいかなかった
+    ・業務に関するお問い合わせは、事務局を通して行ってください
+
 ------------------------------------------------------------------------
 
 ##### Start・End・Limit・Range
