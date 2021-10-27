@@ -165,6 +165,9 @@ ktbjx <- read_csv("rdata/Sheet 142-KNJRNMX.csv")
 vxsnt <- read_csv("rdata/Sheet 143-VXDFG.csv")
 ktbs <- read_csv("rdata/Sheet 144-KNJRNMX.csv")
 ctad <- read_csv("rdata/Sheet 147-CTADM.csv")
+blgmr <- read_csv("rdata/Sheet 148-SSTNC.csv")
+ilgmr <- read_csv("rdata/Sheet 149-SSTNC.csv")
+algmr <- read_csv("rdata/Sheet 150-SSTNC.csv")
 
 ```
 
@@ -9210,7 +9213,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbens <- vrben %>% slice(48:52)
+vrbens <- vrben %>% slice(48:51)
 
 reactable(
   na.omit(vrbens),
@@ -9300,7 +9303,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-vrbensp <- vrben %>% slice(53:53)
+vrbensp <- vrben %>% slice(52:52)
 
 reactable(
   na.omit(vrbensp),
@@ -14444,7 +14447,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 <!-- <h> -->
 
     とき　　　　　　　・地震のときは、すぐに火を消しなさい　　　　　　　　　　　　　　・⚭ Vplain.I.Na+na.N+no
-    ながら　　　　　　・発音のテープを聞きながら、日本語の勉強をした　　　　　　　　　・⚭ Vn
+    ながら　　　　　　・発音のテープを聞きながら、日本語の勉強をした　　　　　　　　　・⚭ Vnn
     あいだ　　　　　　・両親が旅行をしている間、ぼくが毎日食事を作りました　　　　　　・⚭ Vru.Vteiru.I.Na+na.N+no
     あいだに　　　　　・暇な間に本だなをかたづけてしまおう　　　　　　　　　　　　　　・⚭ Vru.Vteiru.I.Na+na.N+no
     ところだ　　　　　・ご飯を食べているところに電話がかかってきた　　　　　　　　　　・⚭ Vru.Vteiru.Vta.Vteita
@@ -14454,7 +14457,7 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
     にあたって　　　　・研究発表をするにあたって、しっかり準備をすることが必要だ　　　・⚭ Vru.N
     うちに　　　　　　・ふと外を見ると、気がつかないうちに雨が降り出していた　　　　　・⚭ Vru.Vteiru.Vnai.N+no
     さいちゅう（に）　・今考えごとをしている最中だから、少し静かにしてください　　　　・⚭ Vteiru.N+no
-    つつ　　　　　　　・山に登りつつ、人は人生についてさまざまなことを考える　　　　　・⚭ Vn
+    つつ　　　　　　　・山に登りつつ、人は人生についてさまざまなことを考える　　　　　・⚭ Vnn
     にあって　　　　　・数学は高度情報社会にあって、必要な学問的教養となっている　　　・⚭ N
 
 ------------------------------------------------------------------------
@@ -14725,9 +14728,9 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 
 <!-- <h> -->
 
-    がち　　　　　　　・パソコンの使いすぎで目が疲れがちです　　　　　　　　　　　　　・⚭ Vn.N
-    っぽい　　　　　　・花子は飽きっぽくて何をやってもすぐやめてしまう　　　　　　　　・⚭ Vn.N
-    ぎみ　　　　　　　・最近、忙しい仕事が続いたので少し疲れ気味です　　　　　　　　　・⚭ Vn.N
+    がち　　　　　　　・パソコンの使いすぎで目が疲れがちです　　　　　　　　　　　　　・⚭ Vnn.N
+    っぽい　　　　　　・花子は飽きっぽくて何をやってもすぐやめてしまう　　　　　　　　・⚭ Vnn.N
+    ぎみ　　　　　　　・最近、忙しい仕事が続いたので少し疲れ気味です　　　　　　　　　・⚭ Vnn.N
     きらいがある　　　・最近の選挙では投票率低下のきらいがある　　　　　　　　　　　　・⚭ Vru.N+no
     めく　　　　　　　・暑くなって、ずいぶん夏めいてきましたね　　　　　　　　　　　　・⚭ N
 
@@ -14923,6 +14926,28 @@ The **general concept** of **de** is setting a **limit** or a **boundary**.
 ------------------------------------------------------------------------
 
 ##### Compulsion
+
+    ないわけにはいかない　・明日はお客さんが来るから掃除をしないわけにはいかない　　　　　・Can’t avoid, Can’t help, Must
+    ざるをえない　　　　　・会社が倒産したのは社長に責任があると言わざるをえない　　　　　・Cannot avoid, Have no choice but
+    ないではいられない　　・動物園のサルを見ると、いつもわたしは笑わないではいられない　　・Can’t help but, Feel must
+    ずにはいられない　　　・おなかが痛くて声を出さずにはいられなかった　　　　　　　　　　・Just had to
+    ずにはすまない　　　　・検査の結果によっては、手術せずにはすまないだろう　　　　　　　・Must certainly
+    ずにはおかない　　　　・あの泣ける映画は見る人を感動させずにはおかない　　　　　　　　・Can’t help but
+    をきんじえない　　　　・兄の建てたばかりの家が地震で壊れてしまった。同情を禁じ得ない　・Can’t help but
+    をよぎなくされる　　　・津波で家を失った人々は公園でのテント暮らしを余儀なくされた　　・Be compelled to, Forced to
+    をよぎなくさせる　　　・人件費の高騰が新しい支店開設の中止を余儀なくさせた　　　　　　・Compel
+
+<!-- <h> -->
+
+    ないわけにはいかない　・あんなに面白そうな映画を、見に行かないわけにはいかない　　　　・⚭ Vnai+wakeniwaikanai
+    ざるをえない　　　　　・化学は好きではないが、必修だから取らざるをえない　　　　　　　・⚭ Vn+zaru+wo+enai
+    ないではいられない　　・会議中だったが、気分が悪くて体を横にしないではいられなかった　・⚭ Vnaide+wa+irarenai
+    ずにはいられない　　　・私はいらだちを覚えずにはいられなかった　　　　　　　　　　　　・⚭ Vn+zuni+wa+irarenai
+    ずにはすまない　　　　・彼はかなり怒っているよ。ぼくらが謝らないではすまないと思う　　・⚭ Vn+zuni+wa+sumanai
+    ずにはおかない　　　　・彼の美しく繊細な詩は、人々の心を揺さぶらずにはおかない　　　　・⚭ Vn+zuni+wa+okanai
+    をきんじえない　　　　・部長の冗談に、失笑を禁じえなかった　　　　　　　　　　　　　　・⚭ N+wo+kinjienai
+    をよぎなくされる　　　・台風によって交通機関が止まってしまい旅行の中止を余儀なくされた・⚭ N+wo+yoginakusareru
+    をよぎなくさせる　　　・試合中の怪我は彼に２６の若さで現役引退を余儀なくさせた　　　　・⚭ N+wo+yoginakusaseru
 
 ------------------------------------------------------------------------
 
@@ -17039,6 +17064,149 @@ A.1.4 **あいだに** `[time]` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida(ni)**
     ・I fought to the end and won
     ・After much thought, I decided to quit my job
     ・I know my daughter very well
+
+------------------------------------------------------------------------
+
+### Sentences {.tabset}
+
+#### Basic
+
+```{r, echo=FALSE, message=FALSE}
+
+blgmr <- blgmr[sample(1:nrow(blgmr)),]
+
+reactable(
+  blgmr,
+  columns = list(
+       Sentence = colDef(
+       cell = function(value, index) {
+        Translation <- blgmr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Translation = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 7, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Intermediate
+
+```{r, echo=FALSE, message=FALSE}
+
+ilgmr <- ilgmr[sample(1:nrow(ilgmr)),]
+
+reactable(
+  ilgmr,
+  columns = list(
+       Sentence = colDef(
+       cell = function(value, index) {
+        Translation <- ilgmr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Translation = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 7, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Advance
+
+```{r, echo=FALSE, message=FALSE}
+
+algmr <- algmr[sample(1:nrow(algmr)),]
+
+reactable(
+  algmr,
+  columns = list(
+       Sentence = colDef(
+       cell = function(value, index) {
+        Translation <- algmr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Translation = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 7, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
@@ -20810,7 +20978,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(89231)
+set.seed(82588)
 rdngr  <- rdngr [sample(1:nrow(na.omit(rdngr ))),]
 
 reactable(
