@@ -8876,12 +8876,16 @@ Transitive verbs are being used in this case.
 Indicates that the past occurrence was done by someone and not by you.
 
     ・戸が開けてある
-    ・壁にカレンダーがかけてありますよ    
+    ・ビールはもう冷やしてありますよ
+    ・壁にカレンダーがかけてありますよ  
+    ・冷蔵庫に昼ごはんは用意してあるから、チンして食べてね
     
 <!-- <h>  -->
 
     ・The door has been opened (by someone)
+    ・The beer is already chilled
     ・The calendar has been changed on the wall
+    ・The lunch have been prepared in the fridge, so just chill and eat
 
 ------------------------------------------------------------------------
 
