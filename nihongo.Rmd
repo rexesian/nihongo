@@ -3296,25 +3296,25 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-ktbjn <- ktbjn %>% slice(1:80)
-ktbjn <- ktbjn[sample(1:nrow(na.omit(ktbjn))),]
+ktbjn1 <- ktbjn %>% slice(1:80)
+ktbjn1 <- ktbjn1[sample(1:nrow(na.omit(ktbjn1))),]
 
 reactable(
-  na.omit(ktbjn),
+  na.omit(ktbjn1),
   columns = list(
     Kanji = colDef(
       cell = function(value, index) {
-        w1 <- ktbjn$w1[index]
+        w1 <- ktbjn1$w1[index]
         w1 <- if (!is.na(w1)) w1 else "."
-        w2 <- ktbjn$w2[index]
+        w2 <- ktbjn1$w2[index]
         w2 <- if (!is.na(w2)) w2 else "."
-        w3 <- ktbjn$w3[index]
+        w3 <- ktbjn1$w3[index]
         w3 <- if (!is.na(w3)) w3 else "."
-        w4 <- ktbjn$w4[index]
+        w4 <- ktbjn1$w4[index]
         w4 <- if (!is.na(w4)) w4 else "."
-        w5 <- ktbjn$w5[index]
+        w5 <- ktbjn1$w5[index]
         w5 <- if (!is.na(w5)) w5 else "."
-        Base.Meaning <- ktbjn$Base.Meaning[index]
+        Base.Meaning <- ktbjn1$Base.Meaning[index]
         Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
         tagList(
           div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5),
@@ -3355,24 +3355,25 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-ktbjn <- ktbjn[sample(1:nrow(na.omit(ktbjn))),]
+ktbjn2 <- ktbjn %>% slice(81:110)
+ktbjn2 <- ktbjn2[sample(1:nrow(na.omit(ktbjn2))),]
 
 reactable(
-  na.omit(ktbjn),
+  na.omit(ktbjn2),
   columns = list(
     Kanji = colDef(
       cell = function(value, index) {
-        w1 <- ktbjn$w1[index]
+        w1 <- ktbjn2$w1[index]
         w1 <- if (!is.na(w1)) w1 else "."
-        w2 <- ktbjn$w2[index]
+        w2 <- ktbjn2$w2[index]
         w2 <- if (!is.na(w2)) w2 else "."
-        w3 <- ktbjn$w3[index]
+        w3 <- ktbjn2$w3[index]
         w3 <- if (!is.na(w3)) w3 else "."
-        w4 <- ktbjn$w4[index]
+        w4 <- ktbjn2$w4[index]
         w4 <- if (!is.na(w4)) w4 else "."
-        w5 <- ktbjn$w5[index]
+        w5 <- ktbjn2$w5[index]
         w5 <- if (!is.na(w5)) w5 else "."
-        Base.Meaning <- ktbjn$Base.Meaning[index]
+        Base.Meaning <- ktbjn2$Base.Meaning[index]
         Base.Meaning <- if (!is.na(Base.Meaning)) Base.Meaning else "."
         tagList(
           div(style = list(fontSize = 13, fontWeight = 500), w1, "・", w2, "・", w3, "・", w4, "・", w5),
