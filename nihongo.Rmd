@@ -3088,6 +3088,7 @@ reactable(
 
 ##### L2
 
+![](LK2.jpg)
 ```{r, echo=FALSE, message=FALSE}
 
 # knjtb <- knjtb[sample(1:nrow(na.omit(knjtb))),]
