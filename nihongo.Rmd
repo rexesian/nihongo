@@ -26909,14 +26909,29 @@ reactable(
 
 ##### C1
 
-1.1 **うちに**`before・while (express a state before it change pr while it happens` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
+1.1 **うちに**`before・while (do something before a state or a situation changes)` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
 
     ・溶けないうちに早く食べてください 
     ・Eat quickly before it melts
 
+1.2 **うちに**`while (express a process or action is happening a change also happens)` **⚭ Vplain/I-Adj/Na-Adj/N+no + uchini**
+
+    ・音楽を聞いているうちに眠ってしまった 
+    ・I fell asleep while listening to the music
+
+3.1 **てからでないと**`until・unless (until or unless something happens/done, it cannot happens/be done)` **⚭ Vte + tekaradenaito**
+
+    ・高いものなので、家族と相談してからでないと買うかどうか決められませんね
+    ・It's an expensive item, so I'll have to discuss it with my family before deciding whether or not to buy it
+
+3.2 **てからでなければ**`until・unless (unless something happens/done, it cannot happen/be done)` **⚭ Vte + tekaradenakereba**
+
+    ・運転免許を取ってからでなければ車を運転しては行けません
+    ・You must have a driver's license before you can drive a car
+
 ------------------------------------------------------------------------
 
-##### NT
+##### NT {.tabset}
 
 ###### 1
 
@@ -26944,7 +26959,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-###### 2
+###### 2 {.tabset}
 
 **Cohesive Patterns**
 
