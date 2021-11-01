@@ -215,7 +215,7 @@ Sentence,Translation
 ・なんでそんなに怯えてるの？まるでお化けでも見たかのようだよ。,Why are you so frightened? You look as if you've seen a ghost.
 ・何その格好。ちょっと海へ行くだけなのに、まるでセレブかのような格好だよ。,What's with the outfit? We're just going to the beach and you're dressed like a celebrity.
 ・部屋の雰囲気から言うと、最初に見た家の方が好きです。,"In terms of the atmosphere of the room, I prefer the first house I saw."
-・値段から言えば、こっちのパソコンの方がいいけど、性能で言えばあっちの方がいいんだよな。,"In terms of price, this computer is better, but in terms of performance, that one is better."
+・値段から言えばこっちのパソコンの方がいいけど性能で言えばあっちの方がいいんだよな。,"In terms of price, this computer is better, but in terms of performance, that one is better."
 ・年齢から言えば、彼女はもう結婚してもいい年頃だ。,"From the standpoint of age, she is old enough to get married."
 ・自分の経験から言うと、仕事を辞める前に、次の就職先を探しておいた方がいい。,"From my own experience, it is better to look for a new job before quitting your job."
 ・能力から言って、彼がこの仕事に一番適切だと思います。,"Based on his abilities, I think he's the most qualified for this job."
@@ -227,9 +227,54 @@ Sentence,Translation
 ・やっぱり高級レストランは、食器からして違うね。,The tableware is different from that of a high-class restaurant.
 ・この会社は挨拶からして、きちんとできていない。,This company is not well organized from the greeting.
 ・他の人を馬鹿にしたような口調からして、彼を好きにはなれない。,I don't like him because of his ridiculous tone of voice.
-・このホテルは従業員の接客態度からして、全然ダメだ。,I don't like him because of his ridiculous tone. - This hotel is not good at all because of the attitude of its employees.
+・このホテルは従業員の接客態度からして、全然ダメだ。,This hotel is not good at all because of the attitude of its employees.
 ・彼は服装からして、お金をたくさん持っていそうだ。,"He seems to have a lot of money, judging from his clothes."
 ・新しい部署の上司は、表情からして怖そうだ。,The boss of the new department looks scary from the look on his face.
 ・JLPTの結果を聞こうとしたが、彼らの表情からして受かったことがわかる。,"I tried to ask him about his JLPT results, but I could tell from their expressions that he had passed."
 ・彼の話し方からして、少し怒っているのがわかる。,I could tell from the way he was talking that he was a little angry.
 ・このレストランは雰囲気からして、美味しそうだ。,This restaurant looks good from the atmosphere.
+・宿題がないことは親からすると心配なことです。,The lack of homework is a concern for parents.
+・ジョンさんの日本語は上手ですが、ネイティブからするとまだまだ不自然です。,"John's Japanese is good, but it is still unnatural for a native speaker."
+・タワポンさんの実力からすると、次のJLPTは余裕で合格できるでしょう。,"I'm sure you can pass the next JLPT with ease, given your ability."
+・彼の症状からすると、心臓の病気かもしれません。,"Based on his symptoms, he may have a heart condition."
+・周りの態度からすると、あの人が有名人ではないでしょうか。,"From the attitude of the people around me, I think that person is a celebrity."
+・話しぶりからすると、このへんの出身じゃないみたい。,"From the way he talked, he didn't seem to be from around here."
+・教師の観点からすると、すべての生徒は平等に扱われるべきだ。,"From a teacher's point of view, all students should be treated equally."
+・彼女の能力からすれば、東大に十分合格できるだろう。,"Based on her ability, she should be able to pass Tokyo University."
+・契約書の内容をきちんと確認してからでなければ、サインすることはできません。,You can't sign a contract unless you've read it carefully.
+・現物を見てからでないと、買うかどうか決めることはできません。,You can't decide whether to buy it or not until you see the actual product.
+・このダイエット薬は、飲み始めて１ヶ月以上経ってからでないと効果は出ません。,This diet pill will not be effective until you have been taking it for more than a month.
+・実際に故障した商品を見てからでないと、修理費用がいくらになるかわかりません。,You can't know how much the repair cost will be until you actually see the broken product.
+・今日は楽しい飲み会があるが、この仕事が終わってからでないと行けない。,"I have a fun drinking party today, but I can't go until after this work is done."
+・日本では２０歳になってからでないと、お酒を飲んではいけない。,"In Japan, you are not allowed to drink alcohol until you are 20 years old."
+・部長に承認をもらってからでないと、見積書を提示することはできません。,You can't present a quotation until you get approval from the general manager.
+・きちんと証拠を掴んでからでないと、あの男を逮捕することはできない。,You can't arrest the man until you have the proper evidence.
+・日本語の先生だからといって、何でも知っているわけではない。,Just because you're a Japanese teacher doesn't mean you know everything.
+・ゴールド免許を持っているからといって、事故を起こさないとは限らない。,Just because you have a gold driver's license doesn't mean you won't cause an accident.
+・有名大学を卒業したからといって、仕事ができるとは限らない。,Just because you graduated from a famous university does not mean you can do a good job.
+・初心者だからといって、優しくするつもりはありません。,Just because you are a beginner doesn't mean you are going to be gentle.
+・寒いのには慣れているからといって、薄着で富士山に登るのは無茶だよ。,"I'm used to cold weather, but climbing Mt. Fuji in light clothing is a fool's errand."
+・いくら忙しいからといって、家族との時間を大切にしないのはよくないよ。,"No matter how busy you are, it's not good not to spend time with your family."
+・暑いからといって、毎日エアコンが効いた部屋にこもっていると病気になるよ。,"If you stay in an air-conditioned room every day because it's hot, you will get sick."
+・明日は午後から夕方にかけて雨が降るでしょう。,It will rain tomorrow afternoon and evening.
+・肩から背中にかけてすごくかゆい。,My shoulders and back are very itchy.
+・成田から東京にかけて渋滞が続いている。,The traffic jam is continuing from Narita to Tokyo.
+・日本では大学入試は2月から３月にかけて行われる。,"In Japan, university entrance examinations are held in February and March."
+・６月から７月にかけてよく雨が降る。,It rains a lot in June and July.
+・今日から明日にかけて大型の台風が上陸する見込みです。,A large typhoon is expected to hit Japan from today to tomorrow.
+・３月の中旬から５月にかけて桜が見られるでしょう。,The cherry blossoms will be seen from the middle of March to May.
+・「私にやらせてください」と言ったからには、途中でやめるわけにはいかない。,"I've said, ""Let me do it,"" and I can't stop halfway."
+・やるからには全力でやるつもりだ。,I'm going to give it my all.
+・親にお金を出してもらって試験を受けるからには、絶対に合格してみせるつもりだ。,I'm going to do my best. I'm going to pass the exam because my parents paid for it.
+・海外に住んでいるからには、その国の法律に従わなければならない。,I have to obey the laws of the country I'm living in.
+・約束したからには、ちゃんと守ってもらわないと困ります。,"I've made a promise, and I need you to keep it."
+・パーティーに参加すると言ったからには、当日に「やっぱり行けない」なんて言えない。,"I can't say ""I can't go"" on the day of the party because I said I would attend the party."
+・日本へ留学するからには、たくさん日本語を勉強して、いい会社に就職するつもりです。,I will study a lot of Japanese and get a job at a good company because I am going to study in Japan.
+・部長は出張で来られないので、私が代わりに呼ばれました。,"The director was unable to come due to a business trip, so I was called in his place."
+・佐藤先生は今日、熱でお休みなので、私が先生の代わりに教えます。,"Sato-sensei is absent today due to fever, so I will teach in her place."
+・私は夜早く寝る代わりに、朝早く起きで勉強している。,"Instead of going to bed early at night, I wake up early in the morning to study."
+・スクールは高いので、代わりに参考書を買って自分で勉強した。,"Schools are expensive, so I bought reference books and studied by myself instead."
+・私が日本語を教える代わりに、ジョンさんは英語を教えてよ。,"Instead of me teaching you Japanese, John, you should teach me English."
+・今晩、泊めてあげる代わりに、部屋の掃除と洗濯をしてね。,"In exchange for letting me stay here tonight, you'll clean my room and do my laundry."
+・宿題を手伝ってくれたら、その代わりに晩ご飯をご馳走するよ。,"If you help me with my homework, I'll treat you to dinner in return."
+・エドワード・エルリックは弟の命を助ける代わりに片腕、片足を失った。,"Instead of saving his brother's life, Edward Elric lost one arm and one leg."
