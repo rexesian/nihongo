@@ -168,6 +168,7 @@ ctad <- read_csv("rdata/Sheet 147-CTADM.csv")
 blgmr <- read_csv("rdata/Sheet 148-SSTNC.csv")
 ilgmr <- read_csv("rdata/Sheet 149-SSTNC.csv")
 algmr <- read_csv("rdata/Sheet 150-SSTNC.csv")
+blgnn <- read_csv("rdata/Sheet 151-SSTNC.csv")
 
 ```
 
@@ -12071,7 +12072,7 @@ reactable(
 
 **souda**`I hear that・I heard that`
 
-<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj/N + sou da/sou desu**</p> 
+<p style="font-size:12px;">**⚭　V/I-Adj/Na-Adj+da/N+da + sou da/desu**</p> 
 
 <p style="font-size:12px;">(❖) Indicates that the information expressed by the preceding sentence is what the speaker heard</p> 
 
@@ -17131,6 +17132,75 @@ A.1.4 **あいだに** `[time]` **⚭ Vru/Vteiru/Na-Adj+na/N+no + aida(ni)**
     ・I fought to the end and won
     ・After much thought, I decided to quit my job
     ・I know my daughter very well
+
+------------------------------------------------------------------------
+
+### Quick-Guide {.tabset}
+
+#### Basic
+
+```{r, echo=FALSE, message=FALSE}
+
+# blgmr <- blgmr[sample(1:nrow(blgmr)),]
+
+reactable(
+  blgnn,
+  columns = list(
+      Item = colDef(
+       cell = function(value, index) {
+        Meaning <- blgnn$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Definition <- blgnn$Definition[index]
+        Definition <- if (!is.na(Definition)) Definition else "Unknown"
+        Pattern <- blgnn$Pattern[index]
+        Pattern <- if (!is.na(Pattern)) Pattern else "Unknown"
+        tagList(
+          div(style = list(fontSize = 17, fontWeight = 500), value),
+          div(style = list(fontSize = 10, fontWeight = 200), Meaning),
+          div(style = list(fontSize = 10, fontWeight = 200), Definition),
+          div(style = list(fontSize = 10, fontWeight = 200), Pattern)
+        )
+      },
+      align = "center", minWidth = 300
+      ),
+       Sentence = colDef(
+       cell = function(value, index) {
+        Translation <- blgnn$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 17, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation)
+        )
+      },
+      align = "center", minWidth = 500
+      ),
+      Meaning = colDef(show = FALSE),
+      Definition = colDef(show = FALSE),
+      Pattern = colDef(show = FALSE),
+      Translation = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 3, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 110),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
 
 ------------------------------------------------------------------------
 
