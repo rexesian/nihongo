@@ -169,6 +169,7 @@ blgmr <- read_csv("rdata/Sheet 148-SSTNC.csv")
 ilgmr <- read_csv("rdata/Sheet 149-SSTNC.csv")
 algmr <- read_csv("rdata/Sheet 150-SSTNC.csv")
 blgnn <- read_csv("rdata/Sheet 151-SSTNC.csv")
+cmpdv <- read_csv("rdata/Sheet 154-CMPMD.csv")
 
 ```
 
@@ -19591,6 +19592,57 @@ reactable(
 
 ------------------------------------------------------------------------
 
+#### CMP
+
+```{r, echo=FALSE, message=FALSE}
+
+cmpdv <- cmpdv[sample(1:nrow(cmpdv)),]
+
+reactable(
+  cmpdv,
+  columns = list(
+      Word = colDef(
+      cell = function(value, index) {
+        Reading <- cmpdv$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- cmpdv$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 600), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Reading),
+          div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Reading = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 5, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height =80),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Usage {.tabset}
 
 ### Verbs
@@ -21159,7 +21211,7 @@ reactable(
 ### 14
 
 ```{r, echo=FALSE, message=FALSE}
-set.seed(82354)
+set.seed(2674)
 vbphg  <- vbphg [sample(1:nrow(na.omit(vbphg ))),]
 
 reactable(
