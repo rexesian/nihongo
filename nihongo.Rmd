@@ -17156,7 +17156,7 @@ reactable(
         Pattern <- if (!is.na(Pattern)) Pattern else "Unknown"
         tagList(
           div(style = list(fontSize = 17, fontWeight = 500), value),
-          div(style = list(fontSize = 10, fontWeight = 200), Meaning),
+          # div(style = list(fontSize = 10, fontWeight = 200), Meaning),
           div(style = list(fontSize = 10, fontWeight = 200), Definition),
           div(style = list(fontSize = 10, fontWeight = 200), Pattern)
         )
