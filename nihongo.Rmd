@@ -21184,7 +21184,7 @@ reactable(
         Translation2 <- if (!is.na(Translation2)) Translation2 else "Unknown"
         tagList(
           div(style = list(fontSize = 19, fontWeight = 500), value),
-          div("HT:  ", style = list(fontSize = 11), Translation1)
+          div(style = list(fontSize = 11), Translation1)
           # div("MT:  ", style = list(fontSize = 11), Translation2)
         )
       },
