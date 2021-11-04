@@ -21494,49 +21494,61 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(2415)
-v1 <- v1[sample(1:nrow(na.omit(v1))),]
+# set.seed(2415)
+# v1 <- v1[sample(1:nrow(na.omit(v1))),]
 
 reactable(
   v1,
-  columns = list(
-    Word = colDef(
-      cell = function(value, index) {
-        w2 <- v1$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- v1$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- v1$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- v1$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- v1$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- v1$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- v1$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+  # columns = list(
+  #   Word = colDef(
+  #     cell = function(value, index) {
+  #       w2 <- v1$w2[index]
+  #       w2 <- if (!is.na(w2)) w2 else "Unknown"
+  #       w3 <- v1$w3[index]
+  #       w3 <- if (!is.na(w3)) w3 else "Unknown"
+  #       w4 <- v1$w4[index]
+  #       w4 <- if (!is.na(w4)) w4 else "Unknown"
+  #       w5 <- v1$w5[index]
+  #       w5 <- if (!is.na(w5)) w5 else "Unknown"
+  #       w6 <- v1$w6[index]
+  #       w6 <- if (!is.na(w6)) w6 else "Unknown"
+  #       w7 <- v1$w7[index]
+  #       w7 <- if (!is.na(w7)) w7 else "Unknown"
+  #       w8 <- v1$w8[index]
+  #       w8 <- if (!is.na(w8)) w8 else "Unknown"
+  #       tagList(
+  #         # div(style = list(fontSize = 35, fontWeight = 700), value),
+  #         div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+  # 
+  #       )
+  #     },
+  #     align = "center"
+  #   ),
+  #   w2 = colDef(show = FALSE),
+  #   w3 = colDef(show = FALSE),
+  #   w4 = colDef(show = FALSE),
+  #   w5 = colDef(show = FALSE),
+  #   w6 = colDef(show = FALSE),
+  #   w7 = colDef(show = FALSE),
+  #   w8 = colDef(show = FALSE)
+  # ),
+  
+    columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
 
-        )
-      },
-      align = "center"
-    ),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 8,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 35),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -21556,55 +21568,67 @@ reactable(
 ### L2
 
 ```{r, echo=FALSE, message=FALSE}
-
-v2 <- v2[sample(1:nrow(na.omit(v2))),]
+# 
+# v2 <- v2[sample(1:nrow(na.omit(v2))),]
 
 reactable(
   v2,
-  columns = list(
-    Word = colDef(
-      cell = function(value, index) {
-        w2 <- v2$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- v2$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- v2$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- v2$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- v2$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- v2$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- v2$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- v2$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        w10 <- v2$w10[index]
-        w10 <- if (!is.na(w10)) w10 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
-          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
-
-        )
-      },
-      align = "center"
-    ),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE),
-    w10 = colDef(show = FALSE)
+  # columns = list(
+  #   Word = colDef(
+  #     cell = function(value, index) {
+  #       w2 <- v2$w2[index]
+  #       w2 <- if (!is.na(w2)) w2 else "Unknown"
+  #       w3 <- v2$w3[index]
+  #       w3 <- if (!is.na(w3)) w3 else "Unknown"
+  #       w4 <- v2$w4[index]
+  #       w4 <- if (!is.na(w4)) w4 else "Unknown"
+  #       w5 <- v2$w5[index]
+  #       w5 <- if (!is.na(w5)) w5 else "Unknown"
+  #       w6 <- v2$w6[index]
+  #       w6 <- if (!is.na(w6)) w6 else "Unknown"
+  #       w7 <- v2$w7[index]
+  #       w7 <- if (!is.na(w7)) w7 else "Unknown"
+  #       w8 <- v2$w8[index]
+  #       w8 <- if (!is.na(w8)) w8 else "Unknown"
+  #       w9 <- v2$w9[index]
+  #       w9 <- if (!is.na(w9)) w9 else "Unknown"
+  #       w10 <- v2$w10[index]
+  #       w10 <- if (!is.na(w10)) w10 else "Unknown"
+  #       tagList(
+  #         # div(style = list(fontSize = 35, fontWeight = 700), value),
+  #         div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10),
+  # 
+  #       )
+  #     },
+  #     align = "center"
+  #   ),
+  #   w2 = colDef(show = FALSE),
+  #   w3 = colDef(show = FALSE),
+  #   w4 = colDef(show = FALSE),
+  #   w5 = colDef(show = FALSE),
+  #   w6 = colDef(show = FALSE),
+  #   w7 = colDef(show = FALSE),
+  #   w8 = colDef(show = FALSE),
+  #   w9 = colDef(show = FALSE),
+  #   w10 = colDef(show = FALSE)
+  # ),
+    columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 10,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 35),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -21625,58 +21649,70 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(2415)
-v3 <- v3[sample(1:nrow(na.omit(v3))),]
+# set.seed(2415)
+# v3 <- v3[sample(1:nrow(na.omit(v3))),]
 
 reactable(
   v3,
-  columns = list(
-    Word = colDef(
-      cell = function(value, index) {
-        w2 <- v3$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- v3$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- v3$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- v3$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- v3$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- v3$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- v3$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- v3$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        w10 <- v3$w10[index]
-        w10 <- if (!is.na(w10)) w10 else "Unknown"
-        w11 <- v3$w11[index]
-        w11 <- if (!is.na(w11)) w11 else "Unknown"
-        tagList(
-          # div(style = list(fontSize = 35, fontWeight = 700), value),
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
-          div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10, "・", w11),
-
-        )
-      },
-      align = "center"
-    ),
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE),
-    w10 = colDef(show = FALSE),
-    w11 = colDef(show = FALSE)
+  # columns = list(
+  #   Word = colDef(
+  #     cell = function(value, index) {
+  #       w2 <- v3$w2[index]
+  #       w2 <- if (!is.na(w2)) w2 else "Unknown"
+  #       w3 <- v3$w3[index]
+  #       w3 <- if (!is.na(w3)) w3 else "Unknown"
+  #       w4 <- v3$w4[index]
+  #       w4 <- if (!is.na(w4)) w4 else "Unknown"
+  #       w5 <- v3$w5[index]
+  #       w5 <- if (!is.na(w5)) w5 else "Unknown"
+  #       w6 <- v3$w6[index]
+  #       w6 <- if (!is.na(w6)) w6 else "Unknown"
+  #       w7 <- v3$w7[index]
+  #       w7 <- if (!is.na(w7)) w7 else "Unknown"
+  #       w8 <- v3$w8[index]
+  #       w8 <- if (!is.na(w8)) w8 else "Unknown"
+  #       w9 <- v3$w9[index]
+  #       w9 <- if (!is.na(w9)) w9 else "Unknown"
+  #       w10 <- v3$w10[index]
+  #       w10 <- if (!is.na(w10)) w10 else "Unknown"
+  #       w11 <- v3$w11[index]
+  #       w11 <- if (!is.na(w11)) w11 else "Unknown"
+  #       tagList(
+  #         # div(style = list(fontSize = 35, fontWeight = 700), value),
+  #         div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w6, "・", w7, "・", w8, "・", w9, "・", w10, "・", w11),
+  # 
+  #       )
+  #     },
+  #     align = "center"
+  #   ),
+  #   w2 = colDef(show = FALSE),
+  #   w3 = colDef(show = FALSE),
+  #   w4 = colDef(show = FALSE),
+  #   w5 = colDef(show = FALSE),
+  #   w6 = colDef(show = FALSE),
+  #   w7 = colDef(show = FALSE),
+  #   w8 = colDef(show = FALSE),
+  #   w9 = colDef(show = FALSE),
+  #   w10 = colDef(show = FALSE),
+  #   w11 = colDef(show = FALSE)
+  # ),
+    columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 10,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 35),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -21693,79 +21729,91 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### LR
+### R1
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1274)
-wlbvl <- wlbvl[sample(1:nrow(na.omit(wlbvl))),]
+# set.seed(1274)
+# wlbvl <- wlbvl[sample(1:nrow(na.omit(wlbvl))),]
 
 reactable(
   na.omit(wlbvl),
-  columns = list(
-    Word = colDef(
-      cell = function(value, index) {
+  # columns = list(
+  #   Word = colDef(
+  #     cell = function(value, index) {
+  # 
+  #       w2 <- wlbvl$w2[index]
+  #       w2 <- if (!is.na(w2)) w2 else "Unknown"
+  #       w3 <- wlbvl$w3[index]
+  #       w3 <- if (!is.na(w3)) w3 else "Unknown"
+  #       w4 <- wlbvl$w4[index]
+  #       w4 <- if (!is.na(w4)) w4 else "Unknown"
+  #       w5 <- wlbvl$w5[index]
+  #       w5 <- if (!is.na(w5)) w5 else "Unknown"
+  #       w6 <- wlbvl$w6[index]
+  #       w6 <- if (!is.na(w6)) w6 else "Unknown"
+  #       w7 <- wlbvl$w7[index]
+  #       w7 <- if (!is.na(w7)) w7 else "Unknown"
+  #       w8 <- wlbvl$w8[index]
+  #       w8 <- if (!is.na(w8)) w8 else "Unknown"
+  #       w9 <- wlbvl$w9[index]
+  #       w9 <- if (!is.na(w9)) w9 else "Unknown"
+  #       w10 <- wlbvl$w10[index]
+  #       w10 <- if (!is.na(w10)) w10 else "Unknown"
+  #       w11 <- wlbvl$w11[index]
+  #       w11 <- if (!is.na(w11)) w11 else "Unknown"
+  #       w12 <- wlbvl$w12[index]
+  #       w12 <- if (!is.na(w12)) w12 else "Unknown"
+  #       w13 <- wlbvl$w13[index]
+  #       w13 <- if (!is.na(w13)) w13 else "Unknown"
+  #       w14 <- wlbvl$w14[index]
+  #       w14 <- if (!is.na(w14)) w14 else "Unknown"
+  #       w15 <- wlbvl$w15[index]
+  #       w15 <- if (!is.na(w15)) w15 else "Unknown"
+  #       w16 <- wlbvl$w16[index]
+  #       w16 <- if (!is.na(w16)) w16 else "Unknown"
+  #       tagList(
+  #         div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
+  #         div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
+  #       )
+  #     },
+  #     align = "center"
+  #   ),
+  # 
+  #   w2 = colDef(show = FALSE),
+  #   w3 = colDef(show = FALSE),
+  #   w4 = colDef(show = FALSE),
+  #   w5 = colDef(show = FALSE),
+  #   w6 = colDef(show = FALSE),
+  #   w7 = colDef(show = FALSE),
+  #   w8 = colDef(show = FALSE),
+  #   w9 = colDef(show = FALSE),
+  #   w10 = colDef(show = FALSE),
+  #   w11 = colDef(show = FALSE),
+  #   w12 = colDef(show = FALSE),
+  #   w13 = colDef(show = FALSE),
+  #   w14 = colDef(show = FALSE),
+  #   w15 = colDef(show = FALSE),
+  #   w16 = colDef(show = FALSE)
+  # ),
+    
+    columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
 
-        w2 <- wlbvl$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- wlbvl$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- wlbvl$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- wlbvl$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- wlbvl$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- wlbvl$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- wlbvl$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- wlbvl$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        w10 <- wlbvl$w10[index]
-        w10 <- if (!is.na(w10)) w10 else "Unknown"
-        w11 <- wlbvl$w11[index]
-        w11 <- if (!is.na(w11)) w11 else "Unknown"
-        w12 <- wlbvl$w12[index]
-        w12 <- if (!is.na(w12)) w12 else "Unknown"
-        w13 <- wlbvl$w13[index]
-        w13 <- if (!is.na(w13)) w13 else "Unknown"
-        w14 <- wlbvl$w14[index]
-        w14 <- if (!is.na(w14)) w14 else "Unknown"
-        w15 <- wlbvl$w15[index]
-        w15 <- if (!is.na(w15)) w15 else "Unknown"
-        w16 <- wlbvl$w16[index]
-        w16 <- if (!is.na(w16)) w16 else "Unknown"
-        tagList(
-          div(style = list(fontSize = 22, fontWeight = 500), value, "・", w2, "・", w3, "・", w4),
-          div(style = list(fontSize = 22, fontWeight = 500), w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 22, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12),
-          div(style = list(fontSize = 22, fontWeight = 500), w13, "・", w14, "・", w15, "・", w16),
-        )
-      },
-      align = "center"
-    ),
-
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE),
-    w10 = colDef(show = FALSE),
-    w11 = colDef(show = FALSE),
-    w12 = colDef(show = FALSE),
-    w13 = colDef(show = FALSE),
-    w14 = colDef(show = FALSE),
-    w15 = colDef(show = FALSE),
-    w16 = colDef(show = FALSE)
   ),
-  defaultPageSize = 1,
+  defaultPageSize = 8,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 35),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -21782,77 +21830,89 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### RL
+### R2
 
 ```{r, echo=FALSE, message=FALSE}
 
-set.seed(1426)
-wlbvlx <- wlbvlx[sample(1:nrow(na.omit(wlbvlx))),]
+# set.seed(1426)
+# wlbvlx <- wlbvlx[sample(1:nrow(na.omit(wlbvlx))),]
 
 reactable(
   na.omit(wlbvlx),
-  columns = list(
-    Word = colDef(
-      cell = function(value, index) {
+  # columns = list(
+  #   Word = colDef(
+  #     cell = function(value, index) {
+  # 
+  #       w2 <- wlbvlx$w2[index]
+  #       w2 <- if (!is.na(w2)) w2 else "Unknown"
+  #       w3 <- wlbvlx$w3[index]
+  #       w3 <- if (!is.na(w3)) w3 else "Unknown"
+  #       w4 <- wlbvlx$w4[index]
+  #       w4 <- if (!is.na(w4)) w4 else "Unknown"
+  #       w5 <- wlbvlx$w5[index]
+  #       w5 <- if (!is.na(w5)) w5 else "Unknown"
+  #       w6 <- wlbvlx$w6[index]
+  #       w6 <- if (!is.na(w6)) w6 else "Unknown"
+  #       w7 <- wlbvlx$w7[index]
+  #       w7 <- if (!is.na(w7)) w7 else "Unknown"
+  #       w8 <- wlbvlx$w8[index]
+  #       w8 <- if (!is.na(w8)) w8 else "Unknown"
+  #       w9 <- wlbvlx$w9[index]
+  #       w9 <- if (!is.na(w9)) w9 else "Unknown"
+  #       w10 <- wlbvlx$w10[index]
+  #       w10 <- if (!is.na(w10)) w10 else "Unknown"
+  #       w11 <- wlbvlx$w11[index]
+  #       w11 <- if (!is.na(w11)) w11 else "Unknown"
+  #       w12 <- wlbvlx$w12[index]
+  #       w12 <- if (!is.na(w12)) w12 else "Unknown"
+  #       w13 <- wlbvlx$w13[index]
+  #       w13 <- if (!is.na(w13)) w13 else "Unknown"
+  #       w14 <- wlbvlx$w14[index]
+  #       w14 <- if (!is.na(w14)) w14 else "Unknown"
+  #       w15 <- wlbvlx$w15[index]
+  #       w15 <- if (!is.na(w15)) w15 else "Unknown"
+  #       w16 <- wlbvlx$w16[index]
+  #       w16 <- if (!is.na(w16)) w16 else "Unknown"
+  #       tagList(
+  #         div(style = list(fontSize = 16, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8),
+  #         div(style = list(fontSize = 16, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12, "・", w13, "・", w14, "・", w15, "・", w16),
+  #       )
+  #     },
+  #     align = "center"
+  #   ),
+  # 
+  #   w2 = colDef(show = FALSE),
+  #   w3 = colDef(show = FALSE),
+  #   w4 = colDef(show = FALSE),
+  #   w5 = colDef(show = FALSE),
+  #   w6 = colDef(show = FALSE),
+  #   w7 = colDef(show = FALSE),
+  #   w8 = colDef(show = FALSE),
+  #   w9 = colDef(show = FALSE),
+  #   w10 = colDef(show = FALSE),
+  #   w11 = colDef(show = FALSE),
+  #   w12 = colDef(show = FALSE),
+  #   w13 = colDef(show = FALSE),
+  #   w14 = colDef(show = FALSE),
+  #   w15 = colDef(show = FALSE),
+  #   w16 = colDef(show = FALSE)
+  # ),
+    
+    columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
 
-        w2 <- wlbvlx$w2[index]
-        w2 <- if (!is.na(w2)) w2 else "Unknown"
-        w3 <- wlbvlx$w3[index]
-        w3 <- if (!is.na(w3)) w3 else "Unknown"
-        w4 <- wlbvlx$w4[index]
-        w4 <- if (!is.na(w4)) w4 else "Unknown"
-        w5 <- wlbvlx$w5[index]
-        w5 <- if (!is.na(w5)) w5 else "Unknown"
-        w6 <- wlbvlx$w6[index]
-        w6 <- if (!is.na(w6)) w6 else "Unknown"
-        w7 <- wlbvlx$w7[index]
-        w7 <- if (!is.na(w7)) w7 else "Unknown"
-        w8 <- wlbvlx$w8[index]
-        w8 <- if (!is.na(w8)) w8 else "Unknown"
-        w9 <- wlbvlx$w9[index]
-        w9 <- if (!is.na(w9)) w9 else "Unknown"
-        w10 <- wlbvlx$w10[index]
-        w10 <- if (!is.na(w10)) w10 else "Unknown"
-        w11 <- wlbvlx$w11[index]
-        w11 <- if (!is.na(w11)) w11 else "Unknown"
-        w12 <- wlbvlx$w12[index]
-        w12 <- if (!is.na(w12)) w12 else "Unknown"
-        w13 <- wlbvlx$w13[index]
-        w13 <- if (!is.na(w13)) w13 else "Unknown"
-        w14 <- wlbvlx$w14[index]
-        w14 <- if (!is.na(w14)) w14 else "Unknown"
-        w15 <- wlbvlx$w15[index]
-        w15 <- if (!is.na(w15)) w15 else "Unknown"
-        w16 <- wlbvlx$w16[index]
-        w16 <- if (!is.na(w16)) w16 else "Unknown"
-        tagList(
-          div(style = list(fontSize = 16, fontWeight = 500), value, "・", w2, "・", w3, "・", w4, "・", w5, "・", w6, "・", w7, "・", w8),
-          div(style = list(fontSize = 16, fontWeight = 500), w9, "・", w10, "・", w11, "・", w12, "・", w13, "・", w14, "・", w15, "・", w16),
-        )
-      },
-      align = "center"
-    ),
-
-    w2 = colDef(show = FALSE),
-    w3 = colDef(show = FALSE),
-    w4 = colDef(show = FALSE),
-    w5 = colDef(show = FALSE),
-    w6 = colDef(show = FALSE),
-    w7 = colDef(show = FALSE),
-    w8 = colDef(show = FALSE),
-    w9 = colDef(show = FALSE),
-    w10 = colDef(show = FALSE),
-    w11 = colDef(show = FALSE),
-    w12 = colDef(show = FALSE),
-    w13 = colDef(show = FALSE),
-    w14 = colDef(show = FALSE),
-    w15 = colDef(show = FALSE),
-    w16 = colDef(show = FALSE)
   ),
-  defaultPageSize = 5,
+  defaultPageSize = 8,
   theme = reactableTheme(
     # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 35),
     searchInputStyle = list(
       paddingLeft = "8px",
       paddingTop = "8px",
@@ -21869,7 +21929,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-### RN
+### R3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -21879,16 +21939,16 @@ reactable(
   na.omit(wrdmm),
   defaultPageSize = 10, 
   columns = list(
-    w1 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w2 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w3 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w4 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w5 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w6 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w7 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w8 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w9 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
-    w10 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center")
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
   ),
   theme = reactableTheme(
     # Vertically center cells
