@@ -170,6 +170,7 @@ ilgmr <- read_csv("rdata/Sheet 149-SSTNC.csv")
 algmr <- read_csv("rdata/Sheet 150-SSTNC.csv")
 blgnn <- read_csv("rdata/Sheet 151-SSTNC.csv")
 cmpdv <- read_csv("rdata/Sheet 154-CMPMD.csv")
+wrdmm <- read_csv("rdata/Sheet 155-TBL.csv")
 
 ```
 
@@ -21866,6 +21867,45 @@ reactable(
 
 ```
 
+------------------------------------------------------------------------
+
+### RN
+
+```{r, echo=FALSE, message=FALSE}
+
+wrdmm <- wrdmm[sample(1:nrow(na.omit(wrdmm))),]
+
+reactable(
+  na.omit(wrdmm),
+  defaultPageSize = 10, 
+  columns = list(
+    w1 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 75, style = list(fontSize = 13, fontWeight = 500), align = "center")
+  ),
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 32),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
