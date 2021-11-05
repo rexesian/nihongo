@@ -176,6 +176,8 @@ wlbvlr <- read_csv("rdata/Sheet 157-WBLWWX.csv")
 vnr <- read_csv("rdata/Sheet 158-VNR.csv")
 tn1 <- read_csv("rdata/Sheet 159-TN1.csv")
 tnr <- read_csv("rdata/Sheet 160-TNR.csv")
+vrb1v <- read_csv("rdata/Sheet 161-VRB1.csv")
+vrbrv <- read_csv("rdata/Sheet 162-VRBR.csv")
 
 ```
 
@@ -22144,6 +22146,86 @@ tnr <- tnr[sample(1:nrow(na.omit(tnr))),]
 
 reactable(
   na.omit(tnr),
+  defaultPageSize = 10, 
+  columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
+  ),
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 32),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### V1
+
+```{r, echo=FALSE, message=FALSE}
+
+# vrb1v <- vrb1v[sample(1:nrow(na.omit(vrb1v))),]
+
+reactable(
+  na.omit(vrb1v),
+  defaultPageSize = 10, 
+  columns = list(
+    w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w6 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w7 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
+    w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
+  ),
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 32),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### VN
+
+```{r, echo=FALSE, message=FALSE}
+
+vrbrv <- vrbrv[sample(1:nrow(na.omit(vrbrv))),]
+
+reactable(
+  na.omit(vrbrv),
   defaultPageSize = 10, 
   columns = list(
     w1 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
