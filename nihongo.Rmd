@@ -180,6 +180,7 @@ vrb1v <- read_csv("rdata/Sheet 161-VRB1.csv")
 vrbrv <- read_csv("rdata/Sheet 162-VRBR.csv")
 ulb1v <- read_csv("rdata/Sheet 163-UL1.csv")
 ulbrv <- read_csv("rdata/Sheet 164-ULR.csv")
+phrss <- read_csv("rdata/Sheet 153-PHRS.csv")
 
 ```
 
@@ -17403,6 +17404,12 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### Create {.tabset}
+
+#### Create {.tabset}
+
+------------------------------------------------------------------------
+
 ### Basic Words
 
 ```{r, echo=FALSE, message=FALSE}
@@ -22316,6 +22323,39 @@ reactable(
     w8 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
     w9 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center"), 
     w10 = colDef(minWidth = 83, style = list(fontSize = 13, fontWeight = 500), align = "center")
+  ),
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 32),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+### PH
+
+```{r, echo=FALSE, message=FALSE}
+
+# phrss <- phrss[sample(1:nrow(na.omit(phrss))),]
+
+reactable(
+  na.omit(phrss),
+  defaultPageSize = 10, 
+  columns = list(
+    P1 = colDef(minWidth = 83, style = list(fontSize = 14, fontWeight = 500), align = "center"), 
+    P2 = colDef(minWidth = 83, style = list(fontSize = 14, fontWeight = 500), align = "center"), 
+    P3 = colDef(minWidth = 83, style = list(fontSize = 14, fontWeight = 500), align = "center")
   ),
   theme = reactableTheme(
     # Vertically center cells
