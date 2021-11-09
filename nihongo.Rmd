@@ -24679,6 +24679,96 @@ reactable(
 
 ------------------------------------------------------------------------
 
+### VPR
+
+<!-- ###### RN -->
+
+```{r, echo=FALSE, message=FALSE}
+
+vbphr <- vbphr[sample(1:nrow(vbphr)),]
+reactable(
+  vbphr,
+  columns = list(
+    Phrase = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- vbphr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 18, fontWeight = 500), value),
+          # div(style = list(fontSize = 11), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+  ),
+  defaultPageSize = 8,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+
+```
+
+------------------------------------------------------------------------
+
+### SNR
+
+```{r, echo=FALSE, message=FALSE}
+
+snpts <- snpts[sample(1:nrow(snpts)),]
+
+reactable(
+  na.omit(snpts),
+  columns = list(
+    Script = colDef(
+      cell = function(value, index) {
+        Meaning <- snpts$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 18, fontWeight = 500), value),
+          # div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 8,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%",
+      fontSize = "11px"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+
+------------------------------------------------------------------------
+
 ## Notes {.tabset}
 
 ### Dialouge {.tabset}
