@@ -2711,6 +2711,7 @@ reactable(
 
 ### Usage {.tabset}
 
+
 #### Verbs
 
 ```{r, echo=FALSE, message=FALSE}
@@ -2734,6 +2735,57 @@ reactable(
           div(style = list(fontSize = 30, fontWeight = 700), value),
           div(style = list(fontSize = 11), Reading),
           div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### RVR
+
+```{r, echo=FALSE, message=FALSE}
+
+srvb2b <- srvb2 %>% slice(65:1300)
+# srvb2a <- na.omit(srvb2a)
+# set.seed(2463)
+# srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
+
+reactable(
+  srvb2b,
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- srvb2a$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- srvb2a$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        tagList(
+          div(style = list(fontSize = 80, fontWeight = 800), value),
+          # div(style = list(fontSize = 11), Reading),
+          # div(style = list(fontSize = 11), Meaning)
         )
       },
       align = "center"
