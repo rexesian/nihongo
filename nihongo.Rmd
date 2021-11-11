@@ -184,6 +184,7 @@ phrss <- read_csv("rdata/Sheet 153-PHRS.csv")
 vrbrp <- read_csv("rdata/Sheet 165-PHRS.csv")
 srvb2c <- read_csv("rdata/Sheet 166-VRBS1.csv")
 srvb2d <- read_csv("rdata/Sheet 167-VRBS1.csv")
+vpht1 <- read_csv("rdata/Sheet 168-PVBTL.csv")
 
 ```
 
@@ -3092,6 +3093,92 @@ reactable(
     Reading = colDef(show = FALSE),
     Meaning = colDef(show = FALSE),
     Orig = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### VPH1
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(vpht1),
+  columns = list(
+    Phrase = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Sentence <- vpht1$Sentence[index]
+        Sentence <- if (!is.na(Sentence)) Sentence else "Unknown"
+        tagList(
+          div(style = list(fontSize = 23, fontWeight = 600), value),
+
+        )
+      },
+      align = "center"
+    ),
+
+    Sentence = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### VPH2
+
+```{r, echo=FALSE, message=FALSE}
+
+vpht1 <- vpht1[sample(1:nrow(na.omit(vpht1))),]
+
+reactable(
+  na.omit(vpht1),
+  columns = list(
+    Sentence = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Phrase <- vpht1$Phrase[index]
+        Phrase <- if (!is.na(Phrase)) Phrase else "Unknown"
+        tagList(
+          div(style = list(fontSize = 23, fontWeight = 600), value),
+
+        )
+      },
+      align = "center"
+    ),
+
+    Phrase = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
