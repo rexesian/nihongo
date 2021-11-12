@@ -3212,11 +3212,11 @@ reactable(
   na.omit(kwrds),
   defaultPageSize = 10, 
   columns = list(
-    w1 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w2 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w3 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w4 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w5 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center")
+    w1 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center")
   ),
   theme = reactableTheme(
     # Vertically center cells
@@ -3237,7 +3237,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### KWRD
+#### KWRE
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3247,11 +3247,11 @@ reactable(
   na.omit(kwrdt),
   defaultPageSize = 10, 
   columns = list(
-    w1 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w2 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w3 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w4 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center"), 
-    w5 = colDef(minWidth = 83, style = list(fontSize = 20, fontWeight = 600), align = "center")
+    w1 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w2 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w3 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w4 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center"), 
+    w5 = colDef(minWidth = 83, style = list(fontSize = 19, fontWeight = 500), align = "center")
   ),
   theme = reactableTheme(
     # Vertically center cells
