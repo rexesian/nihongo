@@ -187,6 +187,7 @@ srvb2d <- read_csv("rdata/Sheet 167-VRBS1.csv")
 vpht1 <- read_csv("rdata/Sheet 168-PVBTL.csv")
 kwrds <- read_csv("rdata/Sheet 169-KWRDS.csv")
 kwrdt <- read_csv("rdata/Sheet 170-KWRDS.csv")
+srvb2f <- read_csv("rdata/Sheet 173-VRBS1.csv")
 
 ```
 
@@ -2771,7 +2772,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-srvb2e <- srvb2 %>% slice(65:1300)
+srvb2e <- srvb2 %>% slice(65:1415)
 # srvb2e <- na.omit(srvb2e)
 # set.seed(2463)
 # srvb2a <- srvb2a[sample(1:nrow(srvb2a)),]
@@ -3087,6 +3088,157 @@ reactable(
         tagList(
           div(style = list(fontSize = 80, fontWeight = 800), value),
           # div(style = list(fontSize = 11), Reading),
+          # div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### RVE
+
+```{r, echo=FALSE, message=FALSE}
+
+srvb2d <- srvb2d[sample(1:nrow(na.omit(srvb2d))),]
+
+reactable(
+  na.omit(srvb2d),
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- srvb2d$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        Reading <- srvb2d$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        tagList(
+          div(style = list(fontSize = 80, fontWeight = 800), value),
+          # div(style = list(fontSize = 11), Reading),
+          # div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### RVF
+
+```{r, echo=FALSE, message=FALSE}
+
+# srvb2f <- srvb2 %>% slice(65:1430)
+# # srvb2a <- na.omit(srvb2a)
+# # set.seed(2463)
+srvb2f <- srvb2f[sample(1:nrow(srvb2f)),]
+
+reactable(
+  srvb2f,
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- srvb2f$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "."
+        Reading <- srvb2f$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Orig = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### RVF
+
+```{r, echo=FALSE, message=FALSE}
+
+# srvb2f <- srvb2 %>% slice(65:1430)
+# # srvb2a <- na.omit(srvb2a)
+# # set.seed(2463)
+srvb2g <- srvb2f
+srvb2g <- srvb2g[sample(1:nrow(srvb2g)),]
+
+reactable(
+  srvb2g,
+  columns = list(
+    Verbs = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- srvb2g$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "."
+        Reading <- srvb2g$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          # div(style = list(fontSize = 13), Reading),
           # div(style = list(fontSize = 11), Meaning)
         )
       },
