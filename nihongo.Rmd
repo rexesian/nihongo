@@ -188,6 +188,7 @@ vpht1 <- read_csv("rdata/Sheet 168-PVBTL.csv")
 kwrds <- read_csv("rdata/Sheet 169-KWRDS.csv")
 kwrdt <- read_csv("rdata/Sheet 170-KWRDS.csv")
 srvb2f <- read_csv("rdata/Sheet 173-VRBS1.csv")
+rlgmr <- read_csv("rdata/Sheet 175-SSTNC.csv")
 
 ```
 
@@ -17730,7 +17731,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-blgmr <- blgmr[sample(1:nrow(blgmr)),]
+# blgmr <- blgmr[sample(1:nrow(blgmr)),]
 
 reactable(
   blgmr,
@@ -17777,7 +17778,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-ilgmr <- ilgmr[sample(1:nrow(ilgmr)),]
+# ilgmr <- ilgmr[sample(1:nrow(ilgmr)),]
 
 reactable(
   ilgmr,
@@ -17824,7 +17825,7 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
-algmr <- algmr[sample(1:nrow(algmr)),]
+# algmr <- algmr[sample(1:nrow(algmr)),]
 
 reactable(
   algmr,
@@ -17832,6 +17833,53 @@ reactable(
        Sentence = colDef(
        cell = function(value, index) {
         Translation <- algmr$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 11, fontWeight = 200), Translation)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Translation = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 7, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### Random
+
+```{r, echo=FALSE, message=FALSE}
+
+rlgmr <- rlgmr[sample(1:nrow(rlgmr)),]
+
+reactable(
+  rlgmr,
+  columns = list(
+       Sentence = colDef(
+       cell = function(value, index) {
+        Translation <- rlgmr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
         tagList(
           div(style = list(fontSize = 19, fontWeight = 500), value),
