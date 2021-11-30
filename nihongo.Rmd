@@ -190,6 +190,7 @@ kwrdt <- read_csv("rdata/Sheet 170-KWRDS.csv")
 srvb2f <- read_csv("rdata/Sheet 173-VRBS1.csv")
 rlgmr <- read_csv("rdata/Sheet 175-SSTNC.csv")
 vnstl <- read_csv("rdata/Sheet 176-VNLST.csv")
+vnstx <- read_csv("rdata/Sheet 178-VNLST.csv")
 
 ```
 
@@ -3343,6 +3344,68 @@ reactable(
     ),
     Reading = colDef(show = FALSE),
     Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### VNT
+
+```{r, echo=FALSE, message=FALSE}
+
+# vnstx <- vnstx[sample(1:nrow(vnstx)),]
+
+reactable(
+  vnstx,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vnstx$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "."
+        Reading <- vnstx$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
+        Tag1 <- vnstx$Tag1[index]
+        Tag1 <- if (!is.na(Tag1)) Tag1 else "."
+        Tag2 <- vnstx$Tag2[index]
+        Tag2 <- if (!is.na(Tag2)) Tag2 else "."
+        Tag3 <- vnstx$Tag3[index]
+        Tag3 <- if (!is.na(Tag3)) Tag3 else "."
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning),
+          div(style = list(fontSize = 13), "---"),
+          div(style = list(fontSize = 14), Tag1),
+          div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), Tag2),
+          div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), Tag3),
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Tag1 = colDef(show = FALSE),
+    Tag2 = colDef(show = FALSE),
+    Tag3 = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
