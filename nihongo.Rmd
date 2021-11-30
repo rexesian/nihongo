@@ -191,6 +191,7 @@ srvb2f <- read_csv("rdata/Sheet 173-VRBS1.csv")
 rlgmr <- read_csv("rdata/Sheet 175-SSTNC.csv")
 vnstl <- read_csv("rdata/Sheet 176-VNLST.csv")
 vnstx <- read_csv("rdata/Sheet 178-VNLST.csv")
+sntt <- read_csv("rdata/Sheet 180-SNTT.csv")
 
 ```
 
@@ -22215,6 +22216,51 @@ reactable(
 )
 
 ```
+
+------------------------------------------------------------------------
+
+### 18
+
+```{r, echo=FALSE, message=FALSE}
+# set.seed(2674)
+sntt  <- sntt [sample(1:nrow(na.omit(sntt ))),]
+
+reactable(
+  sntt,
+  columns = list(
+    Sentences = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Translation <- sntt$Translation[index]
+        Translation <- if (!is.na(Translation)) Translation else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          div(style = list(fontSize = 12), Translation)
+        )
+      },
+      align = "center"
+    ),
+    Translation = colDef(show = FALSE)
+
+  ),
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 52),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
 
 ------------------------------------------------------------------------
 
