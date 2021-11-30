@@ -173,3 +173,1393 @@ Words,Reading,Meaning
 訪ねる,たずねる,"to visit, to call, to pay a visit"
 比べる,くらべる,"to compare, to make a comparison, to compete, to vie"
 疲れる,つかれる,"to get tired, to tire, to be worn out, to starve"
+犯す,おかす,"to commit (crime), to perpetrate, to make (mistake), to break (rule), to violate"
+倒れる,たおれる,"to fall (over, down), to collapse, to take a fall, to topple, to be destroyed, to crumble"
+越える,こえる,"to cross over, to cross, to pass through, to pass over, to go beyond, to go past, to exceed, to surpass, to be more than"
+向ける,むける,"to turn towards, to point"
+抱く,いだく,"to embrace, to hold in arms, to hug, to harbour, to bear"
+たがる,たがる,"to seem, to eager, to want to, to be anxious to"
+消す,けす,"to erase, to delete, to cross out, to turn off power, to extinguish, to put out"
+望む,のぞむ,"to desire, to wish for, to expect, to see, to command (a view of)"
+洗う,あらう,"to wash, to cleanse to rinse, to inquire into"
+尋ねる,たずねる,"to ask, to inquire, to search, to look for, to look into"
+含む,ふくむ,"to contain, to comprise, to have, to hold, to include, to embrace, to hold in the  mouth, to bear in mind, to express emotion"
+支払う,しはらう,to pay
+述べる,のべる,"to state, to express, to mention"
+行われる,おこなわれる,"to be done, to be practiced, to take place, to be held, to be in fashion, to be current, to come into use"
+違う,ちがう,"to differ, to vary, to be in the unusual condition"
+引く,ひく,"to pull, to tug, to lead, to draw (attention, card, line), catch a cold, to look up (dictionary)"
+迎える,むかえる,"to go out to meet, to receive, to welcome, to greet, to salute, to accept, to call for, to summon, to invite, to approach"
+覆う,おおう,"to cover, to hide, to conceal, to wrap, to disguise"
+集まる,あつまる,"to gather, to collect, to assemble"
+貸す,かす,"to lead, to loan, to rent out, to hire out"
+愛する,あいする,to love
+苦しむ,くるしむ,"to suffer, to gran, to be worried"
+騙す,だます,"to trick, to cheat, to deceive, to coax"
+呼ばれる,よばれる,"to be called, to be referred, to be treated to something (meal), to be invited to"
+曲がる,まがる,"to bend, to curve, to warp, to wind, to test, to turn, to be awry, to be askew, to be crooked"
+勤める,つとめる,"to work for, to be employed, to serve in, to serve as, to act as, to play the role of"
+好む,このむ,"to like, to prefer"
+流れる,ながれる,"to stream, to flow, to be washed away, to be carried, to drift, to float, to wander, to stray, to sweep, to spread"
+描く,えがく,"to draw, to paint, to sketch, to depict, to describe, to imagine"
+隠す,かくす,"to hide, to conceal"
+痛む,いたむ,"to hurt, to ache, to feel a pain,  to be injured"
+壊れる,こわれる,"to be broken, to break, to fall through, to come to nothing"
+塗る,ぬる,"to paint, to plaster, to varnish, to spread, to smear, to put up (wallpaper)"
+尽くす,つくす,"to exhaust, to run out, to devote, to serve (a person), to do to exhaustion"
+断る,ことわる,"to refuse, to reject, to dismiss, to turn down, to decline"
+焼く,やく,"to roast, to broil, to grill, to bake, to toast, to barbecue, to heat, to heat uo, to tan"
+叩く,たたく,"to strike, to clap, to knock, to beat tap, to pat, to abuse, to bash, to brag"
+亡くなる,なくなる,to die
+沈む,しずむ,"to sink, to go under, to set, to descend, to go down"
+遭う,あう,"to meet, to encounter (undesirable nuance) "
+追う,おう,"to chase, to run after, to follow, to drive out, to be pressed (e.g. for time)"
+負う,おう,"to bear, to carry on one's back, to take responsibility, to owe, to be injured"
+飼う,かう,"to keep, to raise, to feed"
+請う,こう,"to ask, to request, to beg, to invite "
+吸う,すう,"to smoke, to suck, to breathe in, to inhale "
+沿う,そう,"to run along, to follow, to comply with"
+添う,そう,"to accompany, to become married, to comply with "
+問う,とう,"to ask, to inquire, to question, to charge, to accuse, without regard to (neg) "
+縫う,ぬう,"to sew, to stitch, to weave one's way (e.g. through a crowd) "
+這う,はう,"to creep, to crawl"
+舞う,まう,"to dance, to flutter about, to revolve "
+酔う,よう,"to get drunk, to become"
+開く,あく,"to open, to become open"
+空く,あく,"to open, to become empty"
+行く,いく,to go
+浮く,うく,"to float, to become merry, to become loose"
+置く,おく,to put
+書く,かく,to write
+描く,かく,"to draw, to paint, to sketch, to depict, to describe "
+掻く,かく,"to scratch, to perspire"
+欠く,かく,"to lack, to break, to crack, to chip "
+嗅ぐ,かぐ,"to sniff, to smell"
+聞く,きく,"to hear, to listen to, to ask"
+漕ぐ,こぐ,"to row, to scull, to pedal"
+咲く,さく,to bloom
+裂く,さく,"to tear, to split"
+敷く,しく,"to spread out, to lay out"
+炊く,たく,"to boil, to cook"
+焚く,たく,"to burn, to kindle, to build a fire "
+就く,つく,"to take (seat, position), to get (a job) "
+点く,つく,"to catch fire, (electricity) comes on "
+突く,つく,"to thrust, to strike, to poke "
+注ぐ,つぐ,"to pour (into), to irrigate, to pay "
+次ぐ,つぐ,"to rank next to, to come after "
+接ぐ,つぐ,"to join, to pice together, to set (bones), to graft (tress)"
+継ぐ,つぐ,to succeed
+解く,とく,"to unfasten, to solve"
+溶く,とく,to dissolve (paint)
+説く,とく,"to explain, to advocate, to preach, to persuade "
+退く,どく,"to retreat, to recede, to withdraw "
+研ぐ,とぐ,"to sharpen, to grind, to scour, to hone, to polish, to wash(rice) "
+泣く,なく,"to weep, to cry"
+抜く,ぬく,"to extract, to omit, to surpass, to draw out, to unplug "
+脱ぐ,ぬぐ,to take off clothes
+履く,はく,"to wear, to put on (lower body) "
+吐く,はく,"to breathe out, to breathe, to tell (lies), to vomit, to disgorge "
+掃く,はく,"to sweep, to brush, to gather up "
+剥ぐ,はぐ,"to tear off, to peel off, to rip off, to strip off, to skin, to flay, to disrobe, to deprive of "
+弾く,ひく,"to play an instrument with strings, including piano "
+轢く,ひく,"to run somebody over (with vehicle), to knock someone down "
+吹く,ふく,to blow
+拭く,ふく,"to wipe, to dry"
+巻く,まく,"to wind, to coil, to roll"
+蒔く,まく,to sow (seeds)
+撒く,まく,"to scatter, to sprinkle, to sow "
+剥く,むく,"to peel, to skin, to pare, to hull "
+焼く,やく,"to bake, to grill"
+沸く,わく,"to boil, to grow hot, to get excited "
+湧く,わく,"to boil, to grow hot, to get excited, to gush forth "
+押す,おす,"to push, to stamp something "
+貸す,かす,to lend
+消す,けす,"to erase, to turn off power"
+越す,こす,"to go over (e.g. with audience), to cross over (e.g. mountain), to pass time (e.g. a winter)"
+超す,こす,"to cross, to pass, to tide over, to surpass"
+差す,さす,"to stretch out hands, to raise an umbrella"
+指す,さす,"to point, to nominate, to select someone, to identify, to indicate, to play a game, to move a piece"
+刺す,さす,"to pierce, to stab, to prick, to thrust "
+挿す,さす,"to insert, to put in, to graft, to wear in belt "
+注す,さす,"to pour (drink), to serve (drinks) "
+射す,さす,"to shine, to strike"
+足す,たす,"to add numbers, to add something, to top up with something"
+出す,だす,"to put out, to take out, to get out, to show, to submit, to publish, to send"
+為す,なす,"to accomplish, to do, to build up, to establish, to form"
+干す,ほす,"to air, to dry, to desiccate, to drain (off), to drink up "
+増す,ます,"to increase, to grow"
+蒸す,むす,"to steam, to poultice, to be sultry "
+召す,めす,"to call, to send for, to put on, to wear, to take (a bath), to ride in, to buy, to eat, to drink"
+止す,よす,"to cease, to abolish, to resign, to give up "
+打つ,うつ,to hit
+撃つ,うつ,"to attack, to defeat, to destroy "
+討つ,うつ,"to attack, to avenge"
+勝つ,かつ,to win
+立つ,たつ,to stand
+経つ,たつ,"to pass, to lapse"
+建つ,たつ,"to erect, to be erected, to be built "
+発つ,たつ,"to depart (on a plane, train, etc.) "
+絶つ,たつ,"to sever, to cut off, to suppress, to abstain (from) "
+打つ,ぶつ,"to hit, to strike"
+死ぬ,しぬ,to die
+飛ぶ,とぶ,"to fly, to hop"
+跳ぶ,とぶ,"to jump, to fly, to leap"
+呼ぶ,よぶ,"to call out, to invite"
+編む,あむ,to knit
+産む,うむ,"to give birth, to deliver, to produce "
+噛む,かむ,"to bite, to chew"
+組む,くむ,to put together
+汲む,くむ,"to draw (water), to dip, to scoop, to pump"
+酌む,くむ,to serve sake
+込む,こむ,to include
+混む,こむ,to be crowded
+住む,すむ,to live in
+済む,すむ,to finish
+澄む,すむ,"to clear (e.g. weather), to become transparent"
+積む,つむ,"to pile up, to stack"
+富む,とむ,"to be rich, to become rich"
+飲む,のむ,to drink
+踏む,ふむ,to step on
+揉む,もむ,"to rub, to crumple (up), to wrinkle "
+止む,やむ,to stop
+病む,やむ,"to fall ill, to be ill"
+有る,ある,"to be, to have(used for inanimate objects)"
+在る,ある,"to live, to be"
+居る,いる,"to be, to have (used for people and animals)"
+要る,いる,to need
+煎る,いる,"to parch, to fry"
+炒る,いる,"to roast, to parch, to toast, to boil down​"
+入る,いる,"to get in, to go in, to come in, to flow into, to set, to set in "
+売る,うる,to sell
+得る,うる,"to get, to gain, to win"
+得る,える,"to get, to gain, to win"
+折る,おる,to break or to fold
+居る,おる,"to be (animate), to be, to exist "
+織る,おる,to weave
+刈る,かる,"to cut (hair), to mow (grass), to harvest"
+来る,くる,to come
+蹴る,ける,to kick
+去る,さる,"to leave, to go away"
+為る,する,to do
+為す,なす,to print
+剃る,する,to shave
+剃る,そる,to shave
+散る,ちる,"to fall, to scatter (e.g.blossoms)"
+釣る,つる,to fish
+吊る,つる,to hang
+照る,てる,to shine
+取る,とる,to take something
+撮る,とる,to take a photo or record a film 
+採る,とる,"to adopt (measure, proposal), to pick (fruit)"
+捕る,とる,"to take, to catch (fish), to capture "
+鳴る,なる,to sound
+為る,なる,"to change, to be of use, to reach to "
+成る,なる,to become
+生る,なる,to bear fruit
+似る,にる,to be similar
+煮る,にる,"to boil, to cook, to simmer, to stew"
+塗る,ぬる,"to paint, to colour, to plaster "
+寝る,ねる,"to go to bed, to sleep"
+練る,ねる,"to knead, to work over, to polish up "
+乗る,のる,"to get on, to ride"
+載る,のる,"to appear (in print), to be recorded "
+貼る,はる,to stick
+張る,はる,"to stick, to paste, to affix"
+降る,ふる,"to fall, e.g. rain or snow"
+振る,ふる,"to wave, to shake, to swing, to sprinkle, to cast (actor), to allocate (work)"
+減る,へる,"to decrease (in size or number), to diminish, to abate "
+経る,へる,"to pass, to elapse, to experience "
+掘る,ほる,"to dig, to excavate"
+彫る,ほる,"to carve, to engrave, to sculpture, to chisel"
+観る,みる,"to see, to watch"
+見る,みる,"to see, to watch"
+診る,みる,to examine (medical)
+盛る,もる,"to serve (food, etc.), to fill up, to prescribe "
+漏る,もる,"to leak, to run out"
+寄る,よる,to visit
+因る,よる,"to be based on, to come from, to be due to, be caused by, to depend on"
+遣る,やる,"to do, to have sexual intercourse, to kill, to give inferiors animals etc.), to dispatch"
+割る,わる,"to divide, to cut, to break, to halve "
+覆う,おおう,"to cover, to hide, to conceal, to wrap, to disguise "
+匂う,におう,"to be fragrant, to smell, to stink "
+誓う,ちかう,"to swear, to vow, to take an oath, to pledge "
+使う,つかう,to use
+違う,ちがう,to differ
+願う,ねがう,"to desire, to wish, to request "
+救う,すくう,"to rescue from, to help out of "
+掬う,すくう,"to scoop, to ladle out"
+襲う,おそう,to attack
+誘う,さそう,"to invite, to ask, to tempt, to lure, to induce"
+歌う,うたう,to sing
+慕う,したう,"to yearn for, to miss, to adore, to love dearly "
+雇う,やとう,"to employ, to hire"
+叶う,かなう,to come true (wish)
+担う,になう,"to carry on shoulder, to bear (burden), to shoulder (gun) "
+奪う,うばう,to snatch away
+構う,かまう,"to mind, to care about, to be concerned about "
+給う,たまう,"to receive, to grant"
+思う,おもう,"to think, to feel"
+通う,かよう,to commute
+洗う,あらう,to wash
+嫌う,きらう,"to hate, to dislike, to loathe "
+拐う,さらう,"to carry off, to run away with, to kidnap, to abduct"
+習う,ならう,to learn
+倣う,ならう,"to imitate, to follow, to emulate"
+狙う,ねらう,to aim at
+払う,はらう,to pay
+貰う,もらう,to receive
+笑う,わらう,"to laugh, to smile"
+狂う,くるう,"to go mad, to get out of order "
+揃う,そろう,"to become complete, to be equal, to be all present, to gather"
+拾う,ひろう,"o pick up, to gather"
+祝う,いわう,"to congratulate, to celebrate "
+扇ぐ,あおぐ,"to fan, to flap"
+仰ぐ,あおぐ,"to look up (to), to respect, to depend on, to ask for, to eek, to revere, to drink, to take "
+描く,えがく,"to draw, to paint, to sketch, to depict, to describe "
+磨く,みがく,"to brush teeth, to polish"
+嘆く,なげく,"to sigh, to lament, to grieve "
+動く,うごく,to move
+塞ぐ,ふさぐ,"to stop up, to close up, to block (up)"
+築く,きずく,"to build, to pile up, to amass "
+濯ぐ,すすぐ,"to rinse, to wash out"
+弾く,はじく,"to flip, to snap"
+稼ぐ,かせぐ,"to earn income, to labor "
+防ぐ,ふせぐ,"to defend (against), to protect, to prevent"
+急ぐ,いそぐ,to hurry
+注ぐ,そそぐ,"to pour (into), to irrigate, to pay, to fill, to feed (e.g. a fire) "
+除く,のぞく,"to remove, to exclude, to except "
+覗く,のぞく,"to peep in, to look in, to peek in, to stick out"
+叩く,たたく,"to strike, to clap, to dust, to beat "
+砕く,くだく,"to break, to smash"
+跨ぐ,またぐ,to straddle
+突く,つつく,"1. to thrust, to strike, to attack2. to poke, to nudge, to pick at "
+懐く,なつく,to become emotionally attached 
+続く,つづく,to be continued
+担ぐ,かつぐ,"to shoulder, to carry on shoulder "
+届く,とどく,to reach
+解く,ほどく,to unfasten
+繋ぐ,つなぐ,"to tie, to fasten, to connect, to transfer (phone call) "
+招く,まねく,to invite
+凌ぐ,しのぐ,"to outdo, to surpass, to endure, to keep out (rain), to stave off, to tide over, to pull through, to defy"
+裁く,さばく,to judge
+響く,ひびく,to resound
+省く,はぶく,"to omit, to eliminate, to curtail, to economize "
+背く,そむく,"to run counter to, to go against, to disobey, to infringe "
+泳ぐ,およぐ,to swim
+乾く,かわく,to get dry
+渇く,かわく,to be thirsty
+騒ぐ,さわぐ,"to make noise, to be excited "
+開く,ひらく,to open an event
+歩く,あるく,to walk
+返す,かえす,to return something
+帰す,かえす,to send back
+倒す,たおす,"to throw down, to beat, to bring down, to blow down "
+通す,とおす,"to let pass, to overlook, to continue "
+直す,なおす,"to fix, to repair"
+治す,なおす,"to cure, to heal, to fix, to correct, to repair "
+犯す,おかす,"to commit, to perpetrate, to violate, to rape "
+侵す,おかす,"to invade, to raid, to trespass, to violate, to intrude on "
+任す,まかす,"to entrust, to leave to a person "
+汚す,けがす,"to disgrace, to dishonour "
+探す,さがす,to look for
+捜す,さがす,"to search, to seek, to look for "
+流す,ながす,"to drain, to float, to shed (blood, tears), to cruise (e.g. taxi)"
+逃す,のがす,"to let loose, to set free, to let escape "
+隠す,かくす,"to hide, to conceal"
+訳す,やくす,to translate
+略す,りゃくす,to abbreviate
+起す,おこす,to wake
+残す,のこす,"to leave (behind, over), to bequeath, to save, to reserve "
+汚す,よごす,"(1) to disgrace, to dishonour,(2) to pollute, to contaminate, to soil, to make dirty, to stain "
+崩す,くずす,"to destroy, to pull down, to make change (money)"
+外す,はずす,"to unfasten, to remove"
+浸す,ひたす,"to soak, to dip, to drench"
+渡す,わたす,to hand over
+乱す,みだす,"to throw out of order, to disarrange, to disturb"
+写す,うつす,to copy or photograph
+移す,うつす,"to remove, to transfer, to infect"
+映す,うつす,"to project, to reflect, to cast (shadow)"
+落す,おとす,to drop
+脅す,おどす,"to threaten, to menace"
+戻す,もどす,"to restore, to put back, to return"
+貶す,けなす,to speak ill of
+話す,はなす,to speak
+離す,はなす,"to part, divide, separate"
+放す,はなす,"to separate, to set free"
+潰す,つぶす,"to smash, to waste"
+零す,こぼす,to spill
+騙す,だます,"to trick, to cheat, to deceive"
+示す,しめす,"to denote, to show, to point out, to indicate"
+試す,ためす,"to attempt, to test"
+記す,しるす,"to note, to write down"
+吊す,つるす,to hang
+許す,ゆるす,"to permit, to allow, to approve, to forgive"
+下す,おろす,"to lower, to let go down"
+卸す,おろす,"to sell wholesale, grated (vegetables)"
+殺す,ころす,to kill
+壊す,こわす,to break
+回す,まわす,"to turn, to revolve"
+育つ,そだつ,"to raise (child), to be brought up, to grow (up)"
+保つ,たもつ,"to keep, to preserve, to hold, to retain, to maintain, to support, to sustain, to last, to endure"
+浮ぶ,うかぶ,"to float, to rise to surface, to come to mind"
+叫ぶ,さけぶ,"to shout, to cry"
+運ぶ,はこぶ,to transport
+結ぶ,むすぶ,"to tie, to bind, to link"
+遊ぶ,あそぶ,"to play, to make a visit"
+学ぶ,まなぶ,"to study (in depth), to learn, to take lessons in"
+及ぶ,およぶ,"to reach, to come up to, to amount to, to befall, to happen to, to extend, to match, to equal"
+選ぶ,えらぶ,to choose
+並ぶ,ならぶ,"to line up, to stand in a line"
+転ぶ,ころぶ,"to fall down, to fall over"
+掴む,つかむ,"to seize, to catch, to grasp"
+歪む,いがむ,"to warp, to swerve, to deflect, to be crooked, to be distorted, to be bent, to incline, to slant"
+拝む,おがむ,"to worship, to beg, to make a supplication"
+含む,ふくむ,"to hold in the mouth, to bear in mind"
+恵む,めぐむ,"to bless, to show mercy to"
+励む,はげむ,"to be zealous, to brace oneself, to endeavour, to strive, to make an effort "
+囲む,かこむ,"to surround, to encircle"
+凹む,へこむ,"to be dented, to be indented, to yield to, to give, to sink, to collapse,, to cave in, to be snubbed"
+嵩む,かさむ,"to pile up, to increase"
+憎む,にくむ,"to hate, to detest"
+挟む,はさむ,"to interpose, to hold between, to insert"
+刻む,きざむ,"to mince, to carve, to engrave"
+惜しむ,おしむ,"to be frugal, to value, to regret"
+軋む,きしむ,"to jar, to creak, to grate"
+滲む,にじむ,"to run, to blur, to spread, to blot, to ooze"
+霞む,かすむ,"to grow hazy, to be misty"
+進む,すすむ,to make progress
+盗む,ぬすむ,to steal
+休む,やすむ,to rest
+沈む,しずむ,"to sink, to feel depressed"
+涼む,すずむ,"to cool oneself, to cool off, to enjoy evening cool"
+弾む,はずむ,"to spring, to bound, to bounce, to be stimulated, to be encourage, to get lively, to treat oneself to"
+望む,のぞむ,"to desire, to wish for, to see, to command (a view of)"
+臨む,のぞむ,"to look out on, to face, to deal with, to attend (function)"
+痛む,いたむ,"to hurt, to feel a pain, to be injured"
+畳む,たたむ,to fold (clothes)
+妬む,ねたむ,"to be jealous, to be envious"
+縮む,ちぢむ,"to shrink, to be contracted"
+包む,つつむ,to wrap
+挑む,いどむ,"to challenge, to contend for, to make love to"
+好む,このむ,"to like, to prefer"
+頼む,たのむ,to ask (a favour)
+阻む,はばむ,"to keep someone from doing, to stop, to prevent, to check, to hinder, to obstruct, to oppose, to thwart "
+萎む,しぼむ,"to wither, to fade (away), to shrivel, to wilt"
+摘む,つまむ,"to pinch, to hold, to pick up"
+悩む,なやむ,"to be worried, to be troubled"
+歩む,あゆむ,"to walk, to go on foot"
+恨む,うらむ,"to curse, to feel bitter"
+絡む,からむ,"to entangle, to entwine"
+睨む,にらむ,"to glare at, to scowl at, to keep an eye on"
+弛む,たるむ,"to slacken, to loosen, to relax"
+緩む,ゆるむ,"to become loose, to slacken "
+入る,はいる,"to enter, to contain"
+放る,ほうる,to let go
+帰る,かえる,to go back
+反る,かえる,"to warp, to be warped, to curve"
+返る,かえる,"to return, to come back, to go back"
+凍る,こおる,"to freeze, to be frozen over, to congeal"
+通る,とおる,to go through
+直る,なおる,"to be fixed, to be repaired"
+治る,なおる,"to be cured, to heal"
+怒る,いかる,"to get angry, to be angry"
+罹る,かかる,to suffer from
+盛る,さかる,"to prosper, to flourish, to copulate (animals)"
+叱る,しかる,to scold
+計る,はかる,"to measure, to weigh, to survey"
+量る,はかる,"to measure, to weigh, to survey"
+測る,はかる,"to measure, to weigh, to survey"
+諮る,はかる,"to consult with, to confer"
+図る,はかる,"to plot, to attempt, to plan, to take in, to deceive, to devise, to design"
+光る,ひかる,"to shine, to glitter"
+上る,あがる,to rise
+尖る,とがる,"to taper to a point, to become sharp, to be sour, to look displeased (vi)"
+限る,かぎる,"to restrict, to limit, to confine"
+契る,ちぎる,"to pledge, to promise, to swear "
+握る,にぎる,"to grasp, to hold a (thing) in one’s hand, grip"
+送る,おくる,to send
+贈る,おくる,"to send, to give to, to award to, to confer on"
+作る,つくる,to make
+造る,つくる,"to make, to create, to manufacture, to draw up, to write, to compose, to build, to coin, to cultivate, to org "
+潜る,くぐる,"to drive, to pass through, to evade, to hide, to dive (into or under water), to go underground"
+探る,さぐる,"to search, to look for, to sound out "
+殴る,なぐる,"to strike, to hit"
+巡る,めぐる,to go around
+潜る,もぐる,"to drive, to pass through, to evade, to hide, to dive (into or under water), to go underground"
+茂る,しげる,"to grow thick, to luxuriate, to be luxurious"
+怒る,おこる,"to get angry, to be angry "
+残る,のこる,to remain
+誇る,ほこる,"to boast of, to be proud of"
+傲る,おごる,to be proud
+凝る,こごる,"to congeal, to freeze"
+濁る,にごる,"to become muddy, to get impure "
+腐る,くさる,"to rot, to go bad"
+勝る,まさる,"to excel, to surpass, to outrival "
+飾る,かざる,to decorate
+走る,はしる,to run
+毟る,むしる,"to pluck, to pick, to tear "
+弄る,いじる,"to touch, to tamper with"
+噛る,かじる,"to chew, to bite (at), to gnaw, to nibble, to munch, to crunch"
+詰る,なじる,"to rebuke, to scold, to tell off"
+捩る,ねじる,to twist
+擦る,かする,"to touch lightly, to take a percentage (from)"
+擦る,こする,"to rub, to chafe, to file, to frost (glass), to strike (match)"
+削る,けずる,"to cut down little by little, to take percentage"
+譲る,ゆずる,"to turn over, to assign, to hand over"
+焦る,あせる,"to be in a hurry, to be impatient"
+至る,いたる,"to come, to arrive"
+語る,かたる,"to talk, to tell, to recite"
+来る,きたる,"to come, to arrive, to due to, to be next, to be forthcoming"
+渡る,わたる,to go across
+下る,くだる,"to get down, to descend"
+移る,うつる,to move house or transfer
+写る,うつる,"to be photographed, to be projected"
+映る,うつる,"to be reflected, to harmonise with, to come out (photo)"
+祭る,まつる,"to deify, to enshrine"
+劣る,おとる,"to fall behind, to be inferior to"
+悟る,さとる,"to attain enlightenment, to perceive, to understand, to discern"
+太る,ふとる,to become fat
+踊る,おどる,to dance
+辿る,たどる,"to follow (road), to pursue (course), to follow up"
+戻る,もどる,to turn back
+唸る,うなる,"to groan, to moan, to roar, to howl, to growl, to hum, to buzz, to sough "
+抓る,つねる,to pinch
+捻る,ひねる,"to turn (a switch) on or off, to twist, to puzzle over"
+祈る,いのる,to pray
+募る,つのる,"to invite, to solicit help participation etc "
+実る,みのる,"to bear fruit, to ripen"
+配る,くばる,"to distribute, to deliver"
+縛る,しばる,"to tie, to bind"
+粘る,ねばる,"to be sticky, to be adhesive, to persevere, to persist, to stick to "
+炙る,あぶる,to scorch
+被る,かぶる,"to put on , wear, cover (one’s) head"
+瞑る,つぶる,to close the eyes
+破る,やぶる,"o tear, to violate, to defeat, to smash, to destroy"
+滑る,すべる,"to slide, to slip"
+絞る,しぼる,"to press, to wring, to squeeze "
+登る,のぼる,to climb
+昇る,のぼる,"to arise, to ascend, to go up"
+上る,のぼる,"to ascend, to go up, to climb"
+余る,あまる,"to remain, to be left over, to be in excess, to be too many"
+困る,こまる,to be worried
+迫る,せまる,"to draw near, to press"
+黙る,だまる,to be silent
+鈍る,なまる,"to become less capable, to grow dull, to become blunt, to weaken"
+煙る,けむる,to smoke (e.g. fire)
+眠る,ねむる,to sleep
+湿る,しめる,"to be wet, to become wet, to be dump"
+篭る,こもる,"to seclude oneself, to be confined in, to be implied, to be stuffy"
+守る,まもる,"to protect, to obey, to guard, to abide (by the rules)"
+曇る,くもる,"to become cloudy, to become dim"
+頼る,たよる,"to rely on, to have recourse to, to depend on "
+触る,さわる,to touch
+障る,さわる,"to hinder, to interfere with, to affect, to do one harm, to be harmful to"
+座る,すわる,to sit
+回る,まわる,to go around
+弱る,よわる,"to weaken, to be troubled, to be downcast, to be emaciated, to be dejected, to be perplexed, to impair"
+すれ違う,すれちがう,"to pass by one another, to disagree, to miss each other"
+あざ笑う,あざわらう,"to sneer at, to ridicule "
+潤う,うるおう,"to be moist, to be damp, to get wet, to profit by, to be watered, to receive benefits, to favor, to charm "
+戦う,たたかう,"to fight, to battle, to combat"
+扱う,あつかう,"to handle, to deal with, to treat"
+疑う,うたがう,"to doubt, to distrust, to be suspicious of, to suspect "
+従う,したがう,"o abide (by the rules), to obey, to follow, to accompany"
+争う,あらそう,"to dispute, to argue, to be at variance, to compete"
+賄う,まかなう,"to give board to, to provide meals, to pay"
+補う,おぎなう,to compensate for
+行う,おこなう,to do
+失う,うしなう,"to lose, to part with"
+養う,やしなう,"to rear, to maintain, to cultivate"
+伴う,ともなう,"to accompany, to bring with, to be accompanied by, to be involved in"
+占う,うらなう,"to forecast, to predict"
+整う,ととのう,"to be prepared, to be in order, to be put in order, to be arranged"
+敬う,うやまう,"to show respect, to honour"
+漂う,ただよう,"to drift about, to float, to hang in air"
+繕う,つくろう,"to mend, to repair, to fix, to patch up, to darn, to tidy up, to adjust, to trim "
+躓く,つまずく,"to stumble, to trip"
+退く,しりぞく,"to retreat, to recede, to withdraw"
+頂く,いただく,"to receive, to take food or drink"
+貫く,つらぬく,to go through
+導く,みちびく,"to be guided, to be shown"
+傾く,かたぶく,"to incline toward, to slant, to lurch, to heel over, to be disposed to, to trend toward, to be prone to"
+欺く,あざむく,to deceive
+赴く,おもむく,"to go, to proceed, to repair to, to become"
+傾く,かたむく,"to incline toward, to slant, to lurch "
+輝く,かがやく,"to shine, to glitter, to sparkle"
+囁く,ささやく,"to whisper, to murmur "
+呟く,つぶやく,"to mutter, to murmur"
+働く,はたらく,to work
+驚く,おどろく,to be surprised
+催す,もよおす,"to hold (a meeting), to give (a dinner), to feel, to show signs of, to develop symptoms of, to feel (sick)"
+促す,うながす,"to urge, to press, to suggest, to demand, to stimulate, to quicken, to incite, to invite (attention to)"
+施す,ほどこす,"to donate, to give, to conduct, to apply, to perform"
+表す,あらわす,"to express, to show, to reveal"
+現す,あらわす,"to show, to indicate, to display"
+著す,あらわす,"to write, to publish"
+耕す,たがやす,"to till, to plow, to cultivate "
+楽む,たのしむ,to enjoy oneself 
+慎む,つつしむ,"to be careful, to be chaste or discreet, to abstain or refrain"
+営む,いとなむ,"to carry on (e.g. in ceremony), to run a business"
+羨む,うらやむ,to envy
+喜ぶ,よろこぶ,to be delighted
+尊ぶ,たっとぶ,"to value, to prize, to esteem"
+遮る,さえぎる,"to interrupt, to intercept, to obstruct"
+罵る,ののしる,"to speak ill of, to abuse"
+囀る,さえずる,"to sing, to chirp, to twitter"
+怠る,おこたる,"to neglect, to be off guard, to be feeling better"
+操る,あやつる,"to manipulate, to operate, to pull strings"
+捗る,はかどる,"to make progress, to move right ahead (with the work), to advance"
+喋る,しゃべる,"to talk, to chat, to chatter "
+謝る,あやまる,to apologize
+誤る,あやまる,to make a mistake
+葬る,ほうむる,"to bury, to inter, to entomb, to consign to oblivion, to shelve "
+偏る,かたよる,"to be one-sided, to incline, to be partial, to be prejudiced, to lean, to be biased"
+労る,いたわる,"to pity, to sympathize with, to console, to care for, to be kind to"
+断る,ことわる,"to refuse, to decline, to dismiss"
+賜る,たまわる,"to grant, to bestow"
+覆す,くつがえす,"to overturn, to upset, to overthrow, to undermine"
+志す,こころざす,"to plan, to intend, to aspire to, to set aims (sights on)"
+蘇る,よみがえる,"to be resurrected, to be revived, to be resuscitated, to be rehabilitated"
+滞る,とどこおる,"to stagnate, to be delayed"
+謙る,へりくだる,to deprecate oneself and praise the listener
+奉る,たてまつる,"to offer, to present, to revere, to do respectfully"
+司る,つかさどる,"to rule, to govern, to administer"
+遡る,さかのぼる,"to go back, to go upstream, to make retroactive"
+向かう,むかう,to face
+揺らぐ,ゆらぐ,"to swing, to sway, to shake, to tremble"
+基づく,もとづく,"to be grounded on, to be based on, to be due to, to originate from "
+明かす,あかす,"to pass, spend, to reveal, to divulge"
+生かす,いかす,"to revive, to resuscitate, to make use of"
+急かす,せかす,"to hurry, to urge on"
+溶かす,とかす,"to melt, to dissolve"
+抜かす,ぬかす,"to omit, to leave out"
+負かす,まかす,to defeat
+沸かす,わかす,"to boil, to heat"
+焦がす,こがす,"to burn, to scorch, to singe, to char"
+逃がす,にがす,"to let loose, to set free, to let escape"
+剥がす,はがす,"to tear off, to peel off, to rip off, to strip off, to skin, to flay, to disrobe, to deprive of, to detach"
+尽くす,つくす,"to exhaust, to run out, to serve (a person), to befriend"
+無くす,なくす,to lose something
+亡くす,なくす,to lose someone
+起こす,おこす,"to raise, to cause, to wake someone"
+寄こす,よこす,"to send, to forward"
+過ごす,すごす,"to pass, to spend, to go through, to tide over"
+果たす,はたす,"to accomplish, to fulfill, to carry out, to achieve"
+満たす,みたす,"to satisfy, to ingratiate, to fill, to fulfill"
+落とす,おとす,"to drop, to lose, to let fall "
+飛ばす,とばす,"to skip over, to omit"
+伸ばす,のばす,"to lengthen, to stretch, to reach out, to grow (beard)"
+延ばす,のばす,"to lengthen, to stretch, to reach out, to grow (beard)"
+覚ます,さます,to awaken
+冷ます,さます,"to cool, to dampen, to let cool"
+済ます,すます,"to finish, to get it over with, to settle, to conclude, to pay back"
+澄ます,すます,"to clear, to make clear, to be unruffled, to look unconcerned, to look demure, look prim, put on airs"
+生やす,はやす,"to grow, to cultivate, to wear beard"
+冷やす,ひやす,"to cool, to refrigerate"
+増やす,ふやす,"to increase, to add to, to augment "
+殖やす,ふやす,"to increase, to add to, to augment "
+燃やす,もやす,to burn
+荒らす,あらす,"to lay waste, to devastate, to damage, to invade, to break into "
+暮らす,くらす,"to live, to get along"
+逸らす,そらす,"to turn away, to avert "
+散らす,ちらす,"to scatter, to disperse, to distribute"
+照らす,てらす,"to shine on, to illuminate"
+鳴らす,ならす,"to ring, to sound, to chime, to beat, to snort (nose)"
+慣らす,ならす,to accustom
+馴らす,ならす,"to domesticate, to tame"
+濡らす,ぬらす,"to wet, to soak, to dip"
+減らす,へらす,"to abate, to decrease, to diminish, to shorten "
+漏らす,もらす,"to let leak, to reveal"
+ずらす,ずらす,"to put off, to delay"
+降ろす,おろす,"to take down, to launch, to drop "
+合わす,あわす,"to join together, to face, to unite, to be opposite, to combine, to connect"
+交わす,かわす,"to exchange (messages), to dodge, to parry, to avoid, to turn aside"
+浮かぶ,うかぶ,"to float, to rise to surface, to come to mind"
+悔やむ,くやむ,to mourn
+老いる,おいる,"to age, to grow old"
+強いる,しいる,"to force, to compel, to coerce"
+植える,うえる,"to plant, to grow"
+飢える,うえる,to starve
+終える,おえる,to finish
+変える,かえる,to change
+替える,かえる,"to exchange, to interchange, to substitute, to replace"
+換える,かえる,"to exchange, to interchange, to substitute, to replace"
+代える,かえる,"to exchange, to interchange, to substitute, to replace"
+消える,きえる,to disappear
+越える,こえる,"to exceed, to cross over, to cross "
+超える,こえる,"to exceed, to cross over, to cross "
+冴える,さえる,"to be clear, to br serene, to be cold, to be skillful"
+据える,すえる,"to set (table), to lay (foundation), to place (gun), to apply (moxa)"
+添える,そえる,"to add to, to attach, to append, to accompany, to garnish, to imitate, to annex"
+耐える,たえる,"to bear, to endure"
+絶える,たえる,"to die out, to peter out, to become extinct "
+堪える,たえる,"to bear, to stand, to endure, to put up with, to support, to withstand, to resist, to brave, to be fit for"
+煮える,にえる,"to boil, to cook, to be cooked"
+生える,はえる,"to grow, to spring up, to cut (teeth)"
+映える,はえる,"to shine, to look attractive, to look pretty"
+冷える,ひえる,to grow cold
+増える,ふえる,to increase
+殖える,ふえる,"to increase, to multiply"
+吠える,ほえる,"to bark, to bay, to howl, to bellow, to roar, to cry"
+見える,みえる,to be in sight
+燃える,もえる,"to burn, to get fired up"
+受かる,うかる,to pass (examination)
+掛かる,かかる,"to take (e.g. time, only, etc), to hang"
+分かる,わかる,to be understood
+上がる,あがる,"to enter, to go up, to rise, to climb up, to advance, to appreciate, to be promoted, to improve "
+下がる,さがる,"to hang down, to abate, to retire, to fall, to step back"
+曲がる,まがる,"to turn, to bend"
+飽きる,あきる,"to get tired of, to lose interest in, to have enough"
+生きる,いきる,to live
+起きる,おきる,to get up
+尽きる,つきる,"to be used up, to be　run out, to be exhausted, to be consumed, to come to an end "
+過ぎる,すぎる,to exceed
+開ける,あける,to open
+明ける,あける,"to dawn, to become　daylight"
+活ける,いける,to arrange (flowers)
+受ける,うける,to take a lesson or test
+掛ける,かける,to hang something
+欠ける,かける,to be lacking
+駆ける,かける,"to run (race esp. horse), to gallop, to canter "
+賭ける,かける,"to wager, to bet, to risk, to stake, to gamble "
+避ける,さける,"to avoid (physical contact), o ward off, to avert "
+裂ける,さける,"to split, to tear, to burst"
+漬ける,つける,"to soak, to pickle "
+付ける,つける,"to attach, to join, to add, to append"
+着ける,つける,"to attach, to join, to add, to append"
+点ける,つける,"to turn on, to switch on, to light up"
+浸ける,つける,"to dip, to soak"
+解ける,とける,"to come untied, to come apart"
+溶ける,とける,"to melt, to thaw, to fuse, to dissolve"
+退ける,どける,"to remove, to take away, to dislodge, to put something out of the way"
+抜ける,ぬける,"to come out, to fall out, to be omitted"
+化ける,ばける,"o appear in disguise, to take the form of, to change for the worse"
+更ける,ふける,"to get late, to advance, to wear on"
+老ける,ふける,to age
+負ける,まける,to lose
+向ける,むける,"to turn towards, to point"
+焼ける,やける,"to burn, to be roasted"
+分ける,わける,"to divide, to separate"
+上げる,あげる,to give
+揚げる,あげる,"to lift, to fry"
+挙げる,あげる,"to raise, to fly"
+焦げる,こげる,"to burn, to be burned"
+下げる,さげる,"to hang, to lower, to move back"
+告げる,つげる,to inform
+遂げる,とげる,"to accomplish, to achieve, to carry out"
+投げる,なげる,to throw or cast away 
+逃げる,にげる,to escape
+剥げる,はげる,"to come off, to be worn off, to fade, to discolor"
+曲げる,まげる,"to bend, to crook, to lean"
+起こる,おこる,"to occur, to happen"
+刺さる,ささる,"to stick, to be stuck"
+為さる,なさる,to do
+混ざる,まざる,"to associate with, to mingle with, to join"
+交ざる,まざる,"to be mixed, to be blended with, to associate with, to mingle with, to join"
+閉じる,とじる,"to close (e.g. book, eyes), to shut "
+綴じる,とじる,"to bind, to file"
+恥じる,はじる,to feel ashamed
+混じる,まじる,"to be mixed, to be blended with, to associate with "
+交じる,まじる,"to be mixed, to be blended with, to associate with"
+化する,かする,"to change into, to convert into, to transform, to be"
+着せる,きせる,"to put clothes on (someone), to dress, to clothe, to cover, to coat"
+乗せる,のせる,"to take on board, to give a ride "
+載せる,のせる,"to place on (something), to take on board. to give a ride"
+見せる,みせる,to show
+痩せる,やせる,to become thin
+寄せる,よせる,"to collect, to gather, to add, to put aside "
+混ぜる,まぜる,"to mix, to stir"
+交ぜる,まぜる,"to be mixed, to be blended with "
+当たる,あたる,"to be hit, to be successful, to be equivalent to"
+落ちる,おちる,to fall or drop
+落ちる,おちる,"to fail (e.g. exam), to fall down, to drop"
+朽ちる,くちる,to rot
+満ちる,みちる,"to be full, to rise (tide), to mature, to expire"
+当てる,あてる,"to hit, to apply a patch"
+宛てる,あてる,to address
+捨てる,すてる,to throw away 
+立てる,たてる,to stand something up
+建てる,たてる,to build
+果てる,はてる,"to end, to be finished, to be exhausted, to die, to perish"
+持てる,もてる,"to be able to possess s (hold, get, etc.), to be well liked, to be popular, to endure"
+撫でる,なでる,"to brush gently, to stroke"
+茹でる,ゆでる,to boil 
+兼ねる,かねる,"to hold (position), to serve, to be unable"
+跳ねる,はねる,"to jump, to leap"
+浴びる,あびる,"to bathe, to bask in he sun, to shower "
+帯びる,おびる,"to wear (sword, decoration, etc.), to carry, to be entrusted (e.g. with a mission), to take on"
+錆びる,さびる,"to rust, to become rusty"
+伸びる,のびる,"to stretch, to extend, to make progress, to grow (beard, body height) "
+延びる,のびる,to be prolonged
+詫びる,わびる,to apologize
+食べる,たべる,to eat
+述べる,のべる,"to state, to express, to mention "
+決まる,きまる,"to be decided, to be settled, to look good in (clothes)"
+閉まる,しまる,"to close, to be closed"
+染まる,そまる,to dye
+溜まる,たまる,"to collect, to gather, to save"
+詰まる,つまる,"to be blocked, to be packed"
+止まる,とまる,to come to a halt
+泊まる,とまる,to lodge at
+留まる,とまる,"to be fixed, to abide, to stay"
+填まる,はまる,"to get into, to go into, to fit, to be fit for, to suit, to fall into, to plunge into, to be deceived, to be"
+染みる,しみる,"to pierce, to permeate"
+埋める,うめる,"to bury, to fill up, to fill (a seat, a vacant position)"
+決める,きめる,to decide
+込める,こめる,"to include, to put into"
+覚める,さめる,"to wake, to wake up"
+冷める,さめる,"to become cool, to wear off, to abate, to subside"
+閉める,しめる,to close something
+締める,しめる,to tie
+占める,しめる,"to comprise, to account for, to make up, to hold, to occupy "
+責める,せめる,"to condemn, to blame, to criticize"
+攻める,せめる,"to attack, to assault"
+染める,そめる,"to dye, to colour"
+溜める,ためる,"to amass, to accumulate"
+詰める,つめる,"to pack, to shorten, to work out (details)"
+留める,とめる,"to fasten, to turn off, to detain "
+止める,とめる,to stop something
+泊める,とめる,"to give shelter to, to lodge "
+嘗める,なめる,"to lick, to taste, to experience, to make fun of,  to make light of, to put down"
+填める,はめる,"to get in, to insert, to put on, to make love"
+褒める,ほめる,"to praise, to admire, to speak well"
+揉める,もめる,"to disagree, to dispute"
+止める,やめる,to stop
+辞める,やめる,to retire
+ほめる,ほめる,to praise
+積もる,つもる,to pile up
+降りる,おりる,"to get off, to descend"
+下りる,おりる,"to get off, to descend"
+借りる,かりる,to borrow
+懲りる,こりる,"to to learn by experience, to be disgusted with"
+足りる,たりる,to enough
+入れる,いれる,to put in
+売れる,うれる,to be sold
+折れる,おれる,to break or be folded
+枯れる,かれる,"to wither, to die (plant), to be blasted (plant)"
+涸れる,かれる,"to dry up, to run out"
+切れる,きれる,"to cut well, to be sharp, to break off"
+暮れる,くれる,"to get dark, to come to an end"
+呉れる,くれる,"to give, to let one have, to do for one, to be given"
+擦れる,すれる,"to rub, to chafe, to wear, to become sophisticated"
+逸れる,それる,"to stray (turn) from subject, to get lost, to go astray"
+垂れる,たれる,"to hang, to droop, to drop, to lower, to pull down, to dangle, to sag, to drip, to ooze, to trickle, to leave "
+取れる,とれる,"to come off, to be taken off, to be removed"
+慣れる,なれる,to grow accustomed to
+馴れる,なれる,"to become domesticated, to become tame"
+濡れる,ぬれる,to get wet
+晴れる,はれる,to be sunny
+腫れる,はれる,"to swell (from inflammation), to be become swollen"
+触れる,ふれる,"to touch, to be touched, to touch on a subject, to feel, to violate (law, copyright, etc.), to perceive, t"
+漏れる,もれる,"to leak out, to escape, to come through, to shine through, to filter out, to be omitted"
+揺れる,ゆれる,"to shake, to sway"
+割れる,われる,to break
+植わる,うわる,to be planted
+終わる,おわる,"to finish, to close"
+変わる,かわる,to change
+代わる,かわる,"to take the place of, to relieve, to be substituted for, to be exchanged, to change places with, to take "
+やっ付ける,やっつける,to beat
+ぶら下げる,ぶらさげる,"to hang, to suspend, to dangle, to swing"
+やり遂げる,やりとげる,to accomplish
+損なう,そこなう,"to harm, to hurt, to injure, to damage, to fail in doing"
+逆らう,さからう,"to go against, to oppose, to disobey, to defy"
+味わう,あじわう,"to taste, to savor, to relish"
+賑わう,にぎわう,"to prosper, to flourish, to do thriving business, to be crowded with people"
+動かす,うごかす,"to move, to shift"
+脅かす,おどかす,"to threaten, to coerce "
+乾かす,かわかす,"to dry (clothes, etc), to desiccate"
+転がす,ころがす,to roll
+及ぼす,およぼす,"to exert, to cause, to exercise"
+滅ぼす,ほろぼす,"to destroy, to overthrow, to wreck, to ruin "
+悩ます,なやます,"to afflict, to torment, to harass, to molest"
+励ます,はげます,"to encourage, to cheer, to raise (the voice)"
+費やす,ついやす,"to spend, to devote, to waste "
+遅らす,おくらす,"to retard, to delay "
+凝らす,こごらす,"to freeze, to congeal"
+齎らす,もたらす,"to bring, to take, to bring about"
+悲しむ,かなしむ,"to be sad, to mourn for, to regret"
+苦しむ,くるしむ,"to suffer, to grain, to be worried"
+親しむ,したしむ,"to be intimate with, to befriend"
+楽しむ,たのしむ,to enjoy oneself
+赤らむ,あからむ,"to become red, to redden, to blush"
+危ぶむ,あやぶむ,"to fear, to have misgivings, to be doubtful to mistrust"
+膨らむ,ふくらむ,"to expand, to swell (out), to get big, to become inflated"
+率いる,ひきいる,"to lead, to spearhead (a group), to command (troops)"
+用いる,もちいる,"to use, to make use of"
+与える,あたえる,"to give, to present, to award"
+甘える,あまえる,"to behave like a spoiled child, to fawn on"
+押える,おさえる,"to stop, to restrain, to seize, to repress, to suppress, to press down"
+教える,おしえる,"to teach, to tell"
+怯える,おびえる,"to become frightened, to have a nightmare"
+覚える,おぼえる,to remember
+抱える,かかえる,to hold or carry under or in the arms
+数える,かぞえる,to count
+叶える,かなえる,"to grant (request, wish)"
+構える,かまえる,to set up
+鍛える,きたえる,"to forge, to drill, to temper, to train, to discipline"
+加える,くわえる,"to append, to sum up, to add up"
+栄える,さかえる,"to prosper, to flourish"
+凍える,こごえる,"to freeze, to be chilled, to be frozen"
+支える,ささえる,"to support, to hold, to maintain"
+答える,こたえる,to answer
+備える,そなえる,"to furnish, to provide for, to equip, to install"
+具える,そなえる,to be furnished with
+聳える,そびえる,"to rise, to tower, to soar"
+揃える,そろえる,"to put things in order, to arrange, to make uniform, to get something ready"
+例える,たとえる,"to compare, to liken, to speak figuratively, to illustrate, to use a simile"
+違える,ちがえる,to change
+仕える,つかえる,"to serve, to work for"
+伝える,つたえる,to report
+唱える,となえる,"to recite, to chant, to call upon"
+捕える,とらえる,"to seize, to grasp, to capture, to arrest"
+控える,ひかえる,"to draw in, to hold back, to make notes, to be temperate in"
+震える,ふるえる,"to shiver, to shake, to quake"
+交える,まじえる,"to mix, to converse with, to cross"
+迎える,むかえる,to go out to meet
+預かる,あずかる,"to keep in custody, to receive on deposit, to take charge of"
+助かる,たすかる,"to be saved, to be rescued, to survive, to be helpful"
+儲かる,もうかる,"to be profitable, to yield a profit"
+嫌がる,いやがる,"to hate, to dislike"
+転がる,ころがる,"to roll, to tumble"
+繋がる,つながる,"to be tied together, to be connected, to be related to"
+広がる,ひろがる,"to spread (out), to extend, to stretch, to reach to, to get around"
+塞がる,ふさがる,"to be plugged up, to be shut up"
+跨がる,またがる,"to extend over or into, to straddle"
+群がる,むらがる,"to swarm, to gather"
+預ける,あずける,"to give into custody, to entrust, to deposit"
+砕ける,くだける,"to break, to be broken, to be smashed, to collapse, to crumble"
+授ける,さずける,"to grant, to give, to confer, to award, to teach, to instruct"
+助ける,たすける,"to save, to rescue, to help, to assist, to support, to facilitate, to stimulate, to promote"
+続ける,つづける,"to continue, to keep up, to keep on"
+届ける,とどける,"to deliver, to forward, to send, to deliver, to forward, to send"
+蕩ける,とろける,"to melt (and become soft or liquid), to be enchanted (by), to be charmed"
+怠ける,なまける,"to be idle; to slacken, to neglect (e.g. one's work)"
+儲ける,もうける,"to profit, to get, to earn, to gain, to have"
+設ける,もうける,"to prepare, to provide, to set up; to establish; to organize"
+掲げる,かかげる,.
+捧げる,ささげる,.
+繋げる,つなげる,.
+広げる,ひろげる,.
+案じる,あんじる,.
+演じる,えんじる,.
+応じる,おうじる,.
+感じる,かんじる,.
+禁じる,きんじる,.
+信じる,しんじる,.
+通じる,つうじる,.
+転じる,てんじる,.
+報じる,ほうじる,.
+命じる,めいじる,.
+論じる,ろんじる,.
+愛する,あいする,.
+害する,がいする,.
+関する,かんする,.
+恋する,こいする,.
+察する,さっする,.
+制する,せいする,.
+接する,せっする,.
+即する,そくする,.
+属する,ぞくする,.
+対する,たいする,.
+達する,たっする,.
+脱する,だっする,.
+適する,てきする,.
+徹する,てっする,.
+熱する,ねっする,.
+罰する,ばっする,.
+反する,はんする,.
+面する,めんする,.
+有する,ゆうする,.
+要する,ようする,.
+演ずる,えんずる,.
+応ずる,おうずる,.
+感ずる,かんずる,.
+禁ずる,きんずる,.
+信ずる,しんずる,.
+報ずる,ほうずる,.
+命ずる,めいずる,.
+論ずる,ろんずる,.
+被せる,かぶせる,.
+任せる,まかせる,.
+隔たる,へだたる,.
+慌てる,あわてる,.
+煽てる,おだてる,.
+育てる,そだてる,.
+隔てる,へだてる,.
+重なる,かさなる,.
+異なる,ことなる,.
+連なる,つらなる,.
+重ねる,かさねる,.
+訪ねる,たずねる,.
+尋ねる,たずねる,.
+連ねる,つらねる,.
+萎びる,しなびる,.
+滅びる,ほろびる,.
+比べる,くらべる,.
+調べる,しらべる,.
+並べる,ならべる,.
+集まる,あつまる,.
+埋まる,うずまる,.
+収まる,おさまる,.
+納まる,おさまる,.
+治まる,おさまる,.
+固まる,かたまる,.
+定まる,さだまる,.
+静まる,しずまる,.
+高まる,たかまる,.
+縮まる,ちぢまる,.
+捕まる,つかまる,.
+勤まる,つとまる,.
+強まる,つよまる,.
+留まる,とどまる,.
+止まる,とどまる,.
+挟まる,はさまる,.
+始まる,はじまる,.
+広まる,ひろまる,.
+深まる,ふかまる,.
+纏まる,まとまる,.
+弱まる,よわまる,.
+集める,あつめる,.
+苛める,いじめる,.
+痛める,いためる,.
+炒める,いためる,.
+薄める,うすめる,.
+収める,おさめる,.
+納める,おさめる,.
+治める,おさめる,.
+固める,かためる,.
+定める,さだめる,.
+沈める,しずめる,.
+進める,すすめる,.
+勧める,すすめる,.
+高める,たかめる,.
+縮める,ちぢめる,.
+勤める,つとめる,.
+務める,つとめる,.
+努める,つとめる,.
+強める,つよめる,.
+咎める,とがめる,.
+留める,とどめる,.
+止める,とどめる,.
+始める,はじめる,.
+眺める,ながめる,.
+広める,ひろめる,.
+深める,ふかめる,.
+含める,ふくめる,.
+纏める,まとめる,.
+丸める,まるめる,.
+認める,みとめる,.
+求める,もとめる,.
+休める,やすめる,.
+緩める,ゆるめる,.
+弱める,よわめる,.
+早める,はやめる,.
+呆れる,あきれる,.
+暴れる,あばれる,.
+溢れる,あふれる,.
+遅れる,おくれる,.
+恐れる,おそれる,.
+溺れる,おぼれる,.
+隠れる,かくれる,.
+崩れる,くずれる,.
+汚れる,けがれる,.
+拗れる,こじれる,.
+零れる,こぼれる,.
+壊れる,こわれる,.
+痺れる,しびれる,.
+優れる,すぐれる,.
+廃れる,すたれる,.
+倒れる,たおれる,.
+縮れる,ちぢれる,.
+疲れる,つかれる,.
+潰れる,つぶれる,.
+流れる,ながれる,.
+逃れる,のがれる,.
+外れる,はずれる,.
+離れる,はなれる,.
+放れる,はなれる,.
+膨れる,ふくれる,.
+紛れる,まぎれる,.
+乱れる,みだれる,.
+凭れる,もたれる,.
+破れる,やぶれる,.
+汚れる,よごれる,.
+別れる,わかれる,.
+忘れる,わすれる,.
+教わる,おそわる,.
+係わる,かかわる,.
+加わる,くわわる,.
+備わる,そなわる,.
+伝わる,つたわる,.
+交わる,まじわる,.
+出会う,であう,"to meet by chance, to come across, to happen to encounter"
+出合う,であう,"to meet by chance, to come across, to happen to encounter, to hold a rendezvous, to have a date"
+似合う,にあう,"to suit, to match, to become, to be like"
+背負う,せおう,"to be burdened with, to carry on back or shoulder"
+仕舞う,しまう,"to finish, to close, to do something completely, to put away, to put an end to"
+見舞う,みまう,"to ask after (health), to visit"
+藻掻く,もがく,"to struggle, to wriggle, to be impatient"
+気付く,きづく,"to notice, to recognize, to become aware of"
+目指す,めざす,"to aim at, to have an eye on"
+目立つ,めだつ,"to be conspicuous, to stand out"
+仕切る,しきる,"to partition, to divide, to mark off, to settle accounts, to toe the mark"
+出切る,できる,"to be out of, to have no more at hand"
+区切る,くぎる,"to punctuate, to cut off, to mark off, to stop, to put an end to "
+湿気る,しける,"to be damp, to be moist"
+強請る,ねだる,"te tease, to coax, to solicit, to demand"
+怒鳴る,どなる,"to shout, to yell"
+真似る,まねる,"to mimic, to imitate"
+威張る,いばる,"to be proud, to swagger"
+流行る,はやる,"to flourish, to thrive, to be popular, to come into fashion"
+付合う,つきあう,"to associate with, to keep company with, to get on with"
+揶揄う,からかう,"to ridicule, to tease, to banter with, to make fun of"
+間違う,まちがう,"to make a mistake, to be incorrect, to be mistaken"
+手伝う,てつだう,to assist
+振舞う,ふるまう,"to behave, to conduct oneself, to entertain (vt)"
+似通う,にかよう,to resemble closely
+支払う,しはらう,to pay
+躊躇う,ためらう,to hesitate
+落着く,おちつく,"to calm down, to settle down"
+傷付く,きずつく,"to be hurt, to be wounded, to get injured"
+片付く,かたづく,"to put in order, to dispose of, to solve"
+近付く,ちかづく,"to approach, to get near, to get acquainted with, to get closer"
+長引く,ながびく,"to be prolonged, to drag on"
+散蒔く,ばらまく,"to disseminate, yo scatter, to give money freely"
+見直す,みなおす,"to look again, to get a better opinion of"
+見逃す,みのがす,"to miss, to overlook, to leave at large"
+指差す,ゆびさす,to point at
+見渡す,みわたす,"to look out over, to survey (scene), to take an extensive view of "
+引出す,ひきだす,"to pull out, to take out, to draw out, to withdraw"
+役立つ,やくだつ,"to be useful, to be helpful, to serve the purpose"
+微笑む,ほほえむ,to smile
+裏切る,うらぎる,"to betray, to turn traitor to, to double-cross"
+横切る,よこぎる,"to cross (e.g. arms), to traverse"
+見送る,みおくる,"(1) to see off, to farewell,(2) to escort,(3) to let pass"
+着飾る,きかざる,to dress up
+嵩張る,かさばる,"to be bulky, to be unwieldy, to grow voluminous "
+片寄る,かたよる,"to be one-sided, to incline, to be partial"
+近寄る,ちかよる,"to approach, to draw near"
+洒落る,しゃれる,"to joke, to play on words, to dress stylishly"
+引返す,ひきかえす,"to repeat, to send back, to bring back "
+裏返す,うらがえす,"to turn inside out, to turn (something) over"
+心得る,こころえる,"to be informed, to have thorough knowledge"
+引受る,ひきうける,"to undertake, to take up, to take over"
+物語る,ものがたる,"to tell, to indicate"
+逆上る,さかのぼる,"to go back, to go upstream, to make retroactive"
+上回る,うわまわる,to exceed
+見落とす,みおとす,"to overlook, to fail to notice"
+蹴飛ばす,けとばす,"to kick away, to kick off, to kick (someone), to refuse, to reject"
+見下ろす,みおろす,"to overlook, to command a view of, to look down on something"
+途絶える,とだえる,"to stop, to cease, to come to an end"
+見付かる,みつかる,"to be found, to be discovered"
+仕上がる,しあがる,to be finished
+打付ける,ぶつける,"to knock, to run into, to nail on, to strike hard, to hit and attack"
+仕掛ける,しかける,"to commence, to lay (mines), to set (traps), to wage (war), to challenge"
+付き合う,つきあう,"to associate with, to keep company with, to get on with"
+釣り合う,つりあう,"to balance, to be in harmony, to suit "
+間に合う,まにあう,to be in time for
+引っ掻く,ひっかく,to scratch
+追い付く,おいつく,"to overtake, to catchup (with)"
+受け継ぐ,うけつぐ,"to inherit, to succeed, to take over"
+取り次ぐ,とりつぐ,"to act as an agent for, to announce (someone), to convey (a message)"
+差し引く,さしひく,to deduct
+取り巻く,とりまく,"to surround, to circle, to enclose"
+言い出す,いいだす,"to start talking to speak, to tell, to propose, to suggest, to break the ice "
+売り出す,うりだす,"to put on sale, to market, to become popular"
+愛用する,あいよう,"to use regularly, patronize"
+アクセスする,アクセスする,to access (for Internet)
+案内する,あんないする,"to guide, lead"
+安心する,あんしんする,"to be relieved, feel secure"
+安定する,あんていする,"to be steady, stable"
+アップする,アップする,to upload (for Internet)
+アレンジする,アレンジする,to arrange
+爆発する,ばくはつする,"to explode, burst, blow up"
+弁護する,べんごする,"to defend, testify for"
+勉強する,べんきょうする,"to study, to give a discount"
+弁償する,べんしょうする,"to compensate, repay for loss"
+防止する,ぼうしする,"to prevent, keep in check"
+募集する,ぼしゅうする,"to recruit, collect"
+分析する,ぶんせきする,"to analyze, break down"
+チャレンジする,チャレンジする,to challenge
+遅刻する,chikoku,"to be late, tardy"
+貯金する,chokin,to save money
+調査する,chōsa,"to investigate, inquire into, examine"
+調整する,chōsei,"to regulate, adjust"
+ちゅうちょする,chūcho,"to hesitate, waver, vacillate"
+注意する,chūi,"to be careful of, pay attention to"
+中継する,chūkei,to relay (a broadcast)
+忠告する,chūkoku,to warn
+注目する,chūmoku,"to observe, take notice of"
+注文する,chūmon,"to order (food, goods)"
+中止する,chūshi,"to stop, discontinue, call off"
+ダウンロードする,daunrōdo,to download (for Internet)
+妥協する,dakyō,to compromise
+ダンスする,dansu,to dance
+電話する,denwa,to make a telephone call
+独立する,dokuritsu,to become independent
+同意する,dōi,"to agree, approve"
+導入する,dōnyū,"to bring in, introduce"
+ドラッグする,doraggu,to drag with a (computer) mouse
+努力する,doryoku,"to make an effort, work hard"
+営業する,eigyō,"to do business, be open"
+影響する,eikyō,"to influence, affect"
+延長する,enchō,"to extend, lengthen"
+演技する,engi,"to act, perform"
+援助する,enjo,"to assist, help, support, aid"
+延期する,enki,"to postpone, put off"
+遠慮する,enryo,"to refrain, hold back"
+ファックスする,fakkusu,to fax
+フォローする,forō,to follow on line
+復活する,fukkatsu,"to revive, restore"
+復習する,fukushū,"to review, go over"
+復讐する,fukushū,to revenge
+普及する,fukyū,"to spread, diffuse"
+赴任する,funin,to leave for one’s new post
+不足する,fusoku,"to be short of, be lacking"
+負担する,futan,to bear the weight of
+我慢する,gaman,"to be patient, endure"
+減少する,genshō,to decrease
+限定する,gentei,"to limit, restrict"
+議論する,giron,"to argue, discuss,debate"
+誤解する,gokai,to misunderstand
+合格する,gōkaku,to pass an examination
+合計する,gōkei,"to add up, total"
+ハグする,hagu,to hug
+廃止する,haishi,"to abolish, do away with, repeal"
+配達する,haitatsu,to deliver
+破壊する,hakai,"to destroy, break, ruin"
+発行する,hakkō,"to publish, issue, bring out"
+反映する,han’ei,to reflect
+繁栄する,han’ei,"to prosper, flourish"
+判断する,handan,"to judge, conclude"
+反省する,hansei,"to reflect on oneself,reconsider"
+反対する,hantai,"to be against, be opposed"
+発売する,hatsubai,"to begin selling, put on the market"
+発明する,hatsumei,to invent
+発展する,hatten,"to develop, expand"
+平均する,heikin,"to average, balance"
+変化する,henka,"to change, alter, be transformed"
+編集する,henshū,"to edit, compile"
+批判する,hihan,to criticize
+否定する,hitei,"to deny, negate"
+翻訳する,hon’yaku,to translate
+報告する,hōkoku,"to report, inform"
+訪問する,hōmon,"to visit, call on, pay a visit"
+保証する,hoshō,"to guarantee, warrant"
+補償する,hoshō,"to compensate, make up for"
+評価する,hyōka,"to appraise, value"
+移動する,idou,"to move, transfer, migrate"
+違反する,ihan,to violate
+維持する,iji,"to maintain, support, keep"
+移行する,ikou,"to switch over to, migrate, transit"
+引退する,intai,"to retire, give up one’s position"
+依頼する,irai,"to request, ask"
+一致する,itchi,"to agree with, be in unison"
+意図する,ito,"to intend to do, make a goal"
+ジャンプする,janpu,to jump
+実験する,jikken,to experiment
+実行する,jikkō,"to carry out, execute"
+自慢する,jiman,"to be proud, boast of, take pride in"
+自立する,jiritsu,to become independent
+辞職する,jishoku,to resign
+実現する,jitsugen,"to be realized, come true"
+ジョギングする,jogingu,to jog
+上映する,jōei,to show a film
+譲歩する,jōho,"to concede, give way to"
+上昇する,jōshō,"to go up, rise, ascend"
+準備する,junbi,to prepare
+回復する,kaifuku,"to restore, recuperate"
+開発する,kaihatsu,"to develop, exploit"
+開放する,kaihō,to open a place to the public
+解放する,kaihō,"to release, set a prisoner free"
+改革する,kaikaku,"to reform, improve"
+解決する,kaiketsu,"to settle, resolve"
+開催する,kaisai,to hold (an event)
+改正する,kaisei,"to revise, amend, improve"
+解釈する,kaishaku,"to interpret, explain"
+開拓する,kaitaku,"to reclaim, exploit, develop"
+下降する,kakō,"to come down, descend, drop"
+加工する,kakō,"to process, manufacture"
+拡大する,kakudai,"to magnify, enlarge, expand"
+確認する,kakunin,"to confirm, ascertain, verify, validate"
+関係する,kankei,"to be related, have a relationship"
+管理する,kanri,"to manage, control, administer"
+観察する,kansatsu,"to observe, watch closely"
+完成する,kansei,"to finish, complete"
+感心する,kanshin,"to admire, be impressed"
+観賞する,kanshō,to appreciate
+仮定する,katei,"to assume, suppose"
+活動する,katsudō,to be active
+活躍する,katsuyaku,"be active in, take an active part"
+カットする,katto,to cut
+経営する,keiei,"to manage, conduct, run (a business)"
+経過する,keika,"to pass, elapse, expire"
+計画する,keikaku,to plan
+経験する,keiken,"to experience, undergo"
+計算する,keisan,"to count, calculate, sum up"
+契約する,keiyaku,"to contract, make a contract with"
+結婚する,kekkon,to marry
+見物する,kenbutsu,to go sightseeing
+けんかする,kenka,"to quarrel, fight"
+研究する,kenkyū,"to study, research"
+研修する,kenshū,"to study, train, intern"
+検討する,kentō,"to examine, investigate, think over"
+欠席する,kesseki,to be absent
+決心する,kesshin,"to make up one’s mind, decide"
+決定する,kettei,"to decide, determine"
+キープする,キープする,to keep
+キックする,キックする,to kick
+緊張する,kinchō,"to be tense, nervous"
+記念する,kinen,to commemorate
+記録する,kiroku,"to record, write down"
+キスする,kisu,to kiss
+期待する,kitai,"to expect, hope"
+攻撃する,kōgeki,"to attack, charge, criticize"
+工事する,kōji,to construct
+後悔する,kōkai,"to regret, repent, be sorry"
+交換する,kōkan,to exchange
+混乱する,konran,"to be confused, be in disorder"
+コントロールする,コントロールする,to control
+コピーする,コピーする,to make a copy
+考慮する,kōryo,"to consider, think over"
+交流する,kōryū,"to exchange (ideas, culture)"
+故障する,koshō,to break down
+交渉する,kōshō,to negotiate
+交代する,kōtai,"to take turns, take a person’s place"
+クリックする,クリックする,to click with a mouse
+キャンセルする,キャンセルする,to cancel
+拒否する,kyohi,"to refuse, reject, deny"
+教育する,kyōiku,to educate
+許可する,kyoka,to permit
+供給する,kyōkyū,"to supply, furnish, provide"
+強制する,kyōsei,"to compel, force a person to do"
+競争する,kyōsō,to compete
+救助する,kyūjo,"to rescue, help"
+休憩する,kyūkei,"to rest, take a break"
+吸収する,kyūshū,to absorb
+メールする,mēru,to send an email
+迷惑する,meiwaku,to be troubled/annoyed
+面接する,mensetsu,to interview
+ミックスする,mikkusu,to mix
+ミスする,misu,"to make a mistake, to miss"
+黙認する,mokunin,to permit or approve tacitly
+矛盾する,mujun,"to be contradictory, to conflict"
+無視する,mushi,"to ignore, disregard"
+納得する,nattoku,to be convinced
+認識する,ninshiki,to recognize realize understand
+入学する,nyūgaku,to enter a school
+入院する,nyūin,to be hospitalized
+応援する,ōen,"to aid, support, encourage, cheer"
+往復する,ōfuku,to go and return
+応用する,ōyō,"to apply, put into practice"
+パスする,pasu,to pass (mainly used in sports)
+落第する,rakudai,"to fail an exam, be rejected"
+落選する,rakusen,to be defeated in an election
+連絡する,renraku,"to contact, get in touch"
+練習する,renshū,"to practice, exercise"
+リードする,riido,to lead
+理解する,rikai,"to understand, comprehend"
+離婚する,rikon,to divorce
+利用する,riyō,to make use of
+ロックする,rokku,to lock
+録音する,rokuon,to record (sound)
+浪費する,rōhi,"to waste (money or time), throw away"
+旅行する,ryokō,to travel
+料理する,ryōri,to cook
+留学する,ryūgaku,to study abroad
+裁判する,saiban,to hold a trial
+採用する,saiyō,"to employ, adopt (measures)"
+参加する,sanka,"to join, take part in"
+散歩する,sanpo,to take a walk
+賛成する,sansei,"to agree, approve"
+生活する,seikatsu,"to make a living, support oneself"
+成功する,seikō,to succeed
+生産する,seisan,"to produce, manufacture"
+専攻する,senkō,"to specialize, major in"
+選挙する,senkyo,to elect
+戦争する,sensō,to make war
+選択する,sentaku,"to choose, select"
+洗濯する,sentaku,to wash (clothes)
+説明する,setsumei,to explain
+節約する,setsuyaku,"to economize, skimp, save"
+セットする,setto,to set
+説得する,settoku,to persuade
+世話する,sewa,"to take care of, look after (someone)"
+指導する,shidō,to lead guide
+刺激する,shigeki,"to stimulate, irritate, excite"
+支配する,shihai,"to control, dominate"
+指示する,shiji,"to instruct, to indicate, to denote"
+指名する,shimei,"to nominate, designate"
+心配する,shinpai,"to be anxious, feel uneasy"
+進歩する,shinpo,"to make progress, advance"
+侵略する,shinryaku,to invade
+申請する,shinsei,to make out an application
+信用する,shinyō,"to trust, believe, place confidence in"
+失敗する,shippai,to fail
+支出する,shishutsu,to spend (expenditures)
+指摘する,shiteki,to point out
+質問する,shitsumon,to ask a question
+使用する,shiyō,"to use, employ, to apply"
+食事する,shokuji,to take a meal
+消費する,shōhi,"to consume, expend"
+紹介する,shōkai,"to introduce, present"
+証明する,shōmei,"to prove, testify, certify"
+昇進する,shōshin,to be promoted
+招待する,shōtai,to invite
+所有する,shoyū,"to own, possess"
+所属する,shozoku,to belong to
+主張する,shuchō,"to insist on, assert, emphasize, claim"
+集中する,shūchū,"to concentrate, centralize"
+縮小する,shukushō,"to reduce, cut, curtail"
+出版する,shuppan,"to publish, issue"
+出発する,shuppatsu,"to leave for, depart"
+修理する,shūri,"to repair, mend, fix, to service"
+就職する,shūshoku,to find employment
+出席する,shusseki,to attend
+出張する,shutchō,to go on a business trip
+相談する,sōdan,"to consult, discuss"
+掃除する,sōji,to clean
+存在する,sonzai,to exist
+操作する,sōsa,"to operate, handle, manage"
+組織する,soshiki,"to organize, form"
+卒業する,sotsugyō,to graduate from
+想像する,sōzō,"to imagine, guess"
+推薦する,suisen,to recommend
+スタートする,スタートする,to start
+逮捕する,taiho,"to arrest, apprehend"
+退院する,taiin,to be released from a hospital
+対立する,tairitsu,to be opposed
+探検する,tanken,to explore
+担当する,tantō,to take charge of
+達成する,tassei,"to achieve, attain, accomplish"
+タッチする,tacchi,to touch
+提案する,teian,"to propose, suggest"
+提出する,teishutsu,"to submit, present"
+徹夜する,tetsuya,to work all night
+到着する,tōchaku,to arrive
+投票する,tōhyō,"to vote, cast a ballot"
+統一する,tōitsu,"to unify, unite"
+取り引きする,torihiki,to have dealings with
+当選する,tōsen,to be elected
+投資する,tōshi,to invest
+通知する,tsūchi,"to inform, give notice"
+追加する,tsuika,"to supplement, add"
+通過する,tsūka,"to pass, go through without stopping"
+運営する,un’ei,"to manage, run, administer"
+運転する,unten,"to drive, to manage (money)"
+和解する,wakai,to be reconciled with
+約束する,yakusoku,to promise
+予防する,yobō,"to prevent, protect"
+要求する,yōkyū,"to demand, claim"
+養成する,yōsei,"to train, develop (a person)"
+予習する,yoshū,to study beforehand
+予想する,yosō,"to predict, anticipate"
+予約する,yoyaku,"to reserve, book"
+誘拐する,yūkai,to kidnap
+輸入する,yunyū,to import
+優勝する,yūshō,to win a contest or championship
+輸出する,yushutsu,to export
+郵送する,yūsō,to send by mail
+誘惑する,yūwaku,"to tempt, lure, entice"
+絶望する,zetsubō,"to have no hope, be in despair"
+増加する,zōka,"to increase, grow, augment"

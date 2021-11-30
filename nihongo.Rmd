@@ -3315,6 +3315,52 @@ reactable(
 
 ```
 
+------------------------------------------------------------------------
+
+#### VNR
+
+```{r, echo=FALSE, message=FALSE}
+
+vnstl <- vnstl[sample(1:nrow(vnstl)),]
+
+reactable(
+  vnstl,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vnstl$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "."
+        Reading <- vnstl$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "."
+        tagList(
+          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
 
 ------------------------------------------------------------------------
 
