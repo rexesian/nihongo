@@ -1,15 +1,15 @@
 Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 だ,だ,"be, is",,彼は野球選手だ,今日は暑いですね,昨日はとてもきれいな日だった,,,
 である,である,"be, is",,彼女は教師である,彼は大阪大学の学生である,トムはアルコールアレルギーである,,,
-言う,いう,"to say, to utter, to declare, to name, to call",,もう一度言ってくださいませんか,彼女は言いたいことを言った,あの子はまだものが言えない,助言,助言,予言
+言う,いう,"to say, to utter, to declare, to name, to call",godan,もう一度言ってくださいませんか,彼女は言いたいことを言った,あの子はまだものが言えない,助言,助言,予言
 行く,いく,"to go, to move, to head towards, to proceed, to take place, to do in a specific way",intrans.,一緒に行きます,私は明朝大阪へ行きます,学校へは歩いて行きます,行政,急行,発行
 見る,みる,"to see, to look, to watch, to view, to observe, to examine, to look over, to look after",trans.,じろじろ見る,子供たちは蝶々をよく見た,語の授業を見に行った,発見,見物,見事
 来る,くる,"to come, to approach, to arrive, to come back",intrans.,バスが来ましたよ,夏が例年より早く来た,いつ来るか来るかと待っていたんだ,未来,以来,本来
 思う,おもう,"to think, to consider, to believe",trans.,それを思うとわくわくした,まっすぐ家に帰ろうと思った,彼が本当に理解するかしらと思った,思考,思惑,意思
-持つ,もつ,"to hold, to take, to carry, to possess, to have, to own, to maintain, to keep, to last, to be durable",,,,,,,
-取る,とる,"to take, to pick up, to harvest, to earn, to choose, to have",,,,,,,
-受ける,うける,"to receive, to get, to catch a ball, to struck by, to sustain damage, to incur loss, to suffer injury, to undergo, to take, to accept (challenge)",,,,,,,
-考える,かんがえる,"to think about, to think over, to ponder, to reflect, to consider, to bear in mind",,,,,,,
+持つ,もつ,"to hold, to take, to carry, to possess, to have, to own, to maintain, to keep, to last, to be durable",trans.,彼は本を手に持っている,このすばらしい収集物はだれが持っているの,彼は激しい気質を持っている,維持,持参,支持
+取る,とる,"to take, to pick up, to harvest, to earn, to choose, to have",trans.,お手に取ってご覧ください,紙を取ってくださいますか,箱のふたを取る,取引,取り消す,取っ手
+受ける,うける,"to receive, to get, to catch a ball, to struck by, to sustain damage, to incur loss, to suffer injury, to undergo, to take, to accept (challenge)",trans.,彼は大学から奨学金を受けている,彼は帽子でその球を受けた,家の修理代金の請求を受けた,受験,受付,受身
+考える,かんがえる,"to think about, to think over, to ponder, to reflect, to consider, to bear in mind",trans.,そんな発言をしたらどうなるか考えてみなさい,この問題はもっとよく考える必要がある,もっと気楽に考えなさい,思考,考慮,参考
 過ぎる,すぎる,"to pass through, to pass by, to go beyond, to pass (time), to elapse. to have expired, to exceed, to surpass, to be excessive",,,,,,,
 始める,はじめる,"to start, to begin, to commence, to initiate, to originate, to start up, to establish",,,,,,,
 与える,あたえる,"to give someone (to lower status), to grant, to bestow, to present, to award, to provide, to afford, to supply, to assign, to cause",,,,,,,
@@ -300,14 +300,14 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 登録する,とうろくする,"to register, be registered (with), put on record",,,,,,,
 通じる,つうじる,"to be open (to traffic), to lead to, to communicate (with), to flow (liquid, current). to pass, to get through to, to be understood, to be honoured, to be well versed",,,,,,,
 解除する,かいじょする,"to cancel, te rescind, to release, to call off, to lift (sanctions), delisting",,,,,,,
-泣き出す,なきだす,"to burst into tears, to begin to cry",,今にも泣き出しそうな様子をしていた,今にも泣き出しそうな空模様だ,彼女はすぐに泣き出す,泣き虫,泣き声,泣き叫ぶ
-気がする,きがする,"to have a certain feeling or mood, to have a haunch",,今晩は夕食をとる気がしない,彼女は今日来るような気がする,それを聞いて彼女は泣きたい気がした,勇気,気候,吐き気
-思える,おもえる,"to seem, to appear likely",,とても面倒な問いに思えた,一層難しくなるようにおもえた,まさか彼女がそんな事をやるとはおもえない,思惑,思想,意思
-割る,わる,"to divide, to cut, to halve, to separate, to split, to break, to crack, to smash, to dilute, to fall below, to discount, to step over (a line, etc.)",,誰かがこの皿を割りました,竹を細く割ってかごを作った,ボールをぶつけて窓ガラスを割ってしまった,役割,割合,割引
-満ちる,満ちる,"to be full, be filled (with), to wax (moon), to rise (tide), to mature, to expire",,希望に満ちている,月が満ちている,若者はたいてい活気に満ちている,満足,不満,満場
-応じる,おうじる,"to respond, to satisfy, to accept, to comply with, to apply for",,先方の条件に応じる,収入に応じて税金が課される,あなたの要求に応じることはできない,反応,一応,応援
-下げる,さげる,"to hang, to suspend, to wear (decoration), to lower, to reduce, to bring down, to demote, to move back, to pull back, to clear (plates), to remove (food)",,機長は機首を下げた,窓にカーテンを下げる,温度を下げる,靴下,地下,廊下
-片付ける,かたずける,"to tidy up, to put in order, to straighten up, to clan, to settle, to clear, to bring something to an end",,部屋を片付ける,いすを部屋の隅に片付けた,彼女はてきぱきと仕事を片付けた,破片,片道,片隅
+泣き出す,なきだす,"to burst into tears, to begin to cry",intrans.,今にも泣き出しそうな様子をしていた,今にも泣き出しそうな空模様だ,彼女はすぐに泣き出す,泣き虫,泣き声,泣き叫ぶ
+気がする,きがする,"to have a certain feeling or mood, to have a haunch",suru,今晩は夕食をとる気がしない,彼女は今日来るような気がする,それを聞いて彼女は泣きたい気がした,勇気,気候,吐き気
+思える,おもえる,"to seem, to appear likely",ichidan,とても面倒な問いに思えた,一層難しくなるようにおもえた,まさか彼女がそんな事をやるとはおもえない,思惑,思想,意思
+割る,わる,"to divide, to cut, to halve, to separate, to split, to break, to crack, to smash, to dilute, to fall below, to discount, to step over (a line, etc.)",trans.,誰かがこの皿を割りました,竹を細く割ってかごを作った,ボールをぶつけて窓ガラスを割ってしまった,役割,割合,割引
+満ちる,みちる,"to be full, be filled (with), to wax (moon), to rise (tide), to mature, to expire",intrans.,希望に満ちている,月が満ちている,若者はたいてい活気に満ちている,満足,不満,満場
+応じる,おうじる,"to respond, to satisfy, to accept, to comply with, to apply for",intrans.,先方の条件に応じる,収入に応じて税金が課される,あなたの要求に応じることはできない,反応,一応,応援
+下げる,さげる,"to hang, to suspend, to wear (decoration), to lower, to reduce, to bring down, to demote, to move back, to pull back, to clear (plates), to remove (food)",trans.,機長は機首を下げた,窓にカーテンを下げる,温度を下げる,靴下,地下,廊下
+片付ける,かたずける,"to tidy up, to put in order, to straighten up, to clan, to settle, to clear, to bring something to an end",trans.,部屋を片付ける,いすを部屋の隅に片付けた,彼女はてきぱきと仕事を片付けた,破片,片道,片隅
 救う,すくう,"to rescue from, to help out of, to save",,,,,,,
 減る,へる,"to decrease, to diminish, to abate",,,,,,,
 減らす,へらす,"to abate, to decrease, to diminish, to shorten",,,,,,,
@@ -322,9 +322,9 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 腹を立てる,はらをたてる,"to take offense, to take offense, to get angry, to lose one’s temper",,,,,,,
 似合う,にあう,"to suit, to match, to become, to be like",,,,,,,
 打つ,うつ,"to hit, to strike, to knock, to beat, to punch, to slap, to tap, to bang, to clap, tp pound, to move, to impress, to touch, to drive in, to inject, to type, to send",,,,,,,
-押さえる,おさえる,"to pin down, to hold down, to press down, to cover, to press (a body part), to get a hold of, to contain, to grasp (a point), to subdue",,,,,,,
-結ぶ,むすぶ,"to tie, to bind, to link, to bear (fruit), to close (a deal), to connect, to close tightly, to unite, to ally",,,,,,,
-呼び捨てにする,よびすてにする,"addressing (someone) without using a suffix such as ""-san"" or ""-chan""",suru,,,,,,
+押さえる,おさえる,"to pin down, to hold down, to press down, to cover, to press (a body part), to get a hold of, to obtain, to contain, to grasp (a point), to subdue",trans.,チケットを２枚押さえておいてください,耳を押さえる,風に飛ばされないように戸をしっかりと押さえていた,押収,押入れ,押し込む
+結ぶ,むすぶ,"to tie, to bind, to link, to bear (fruit), to close (a deal), to connect, to close tightly, to unite, to ally",trans.,靴ひもを結ぶ,このバス路線は２都市を結んでいる,彼らは愛情によって結ばれた,結婚,結果,結構
+呼び捨てにする,よびすてにする,"addressing (someone) without using a suffix such as ""san"" or ""chan""",suru,,,,,,
 遭う,あう,"to meet, to encounter (undesirable nuance) ",,,,,,,
 追う,おう,"to chase, to run after, to follow, to drive out, to be pressed (e.g. for time)",,,,,,,
 負う,おう,"to bear, to carry on one's back, to take responsibility, to owe, to be injured",,,,,,,
@@ -1377,10 +1377,10 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 取り次ぐ,とりつぐ,"to act as an agent for, to announce (someone), to convey (a message)",,,,,,,
 差し引く,さしひく,to deduct,,,,,,,
 取り巻く,とりまく,"to surround, to circle, to enclose",,,,,,,
-言い出す,いいだす,"to start talking to speak, to tell, to propose, to suggest, to break the ice ",,,,,,,
-売り出す,うりだす,"to put on sale, to market, to become popular",,,,,,,
+言い出す,いいだす,"to start talking to speak, to tell, to propose, to suggest, to break the ice ",trans.,言い出し渋る,彼女は言い出したら後へ引かない,だれかがそれを言い出しはしないかと心配した,言葉,助言,予言
+売り出す,うりだす,"to put on sale, to market, to become popular",trans.,あの会社は建て売り住宅を売り出す予定だ,最近めきめきと売り出した歌手,彼はこの作品で売り出した,売買,商売,発売
 愛用する,あいよう,"to use regularly, patronize",suru,"愛 - love, affection, care, to love","用 - use, errand, task, to use",愛用のかばん,one's favorite bag,,
-アクセスする,アクセスする,to access (for Internet),suru,・,・,ホストコンピューターにアクセスする,access the host computer,,
+アクセスする,アクセスする,to access (for Internet),suru,,,ホストコンピューターにアクセスする,access the host computer,,
 案内する,あんないする,"to guide, lead",suru,"案 - idea, plan, proposal, expectation, to be anxious","内 - inside, among, within",先に立って案内してくれ,"Lead the way, will you?",,
 安心する,あんしんする,"to be relieved, feel secure",suru,"安 - cheap, relax, contented","心 - mind, heart, spirit",きっと合格すると安心している,I am confident that you'll pass the examination,,
 安定する,あんていする,"to be steady, stable",suru,"安 - cheap, relax, contented","定 - determine, fix, establish, to decide",,,,
@@ -1676,25 +1676,21 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 輸出する,yushutsu,to export,suru,"輸 - transport, send, be inferior ","出 - exit, leave, go out, come out, put out, protrude",,,,
 郵送する,yūsō,to send by mail,suru,"郵 - mail, stagecoach stop ","送 - escort, send ",,,,
 誘惑する,yūwaku,"to tempt, lure, entice",suru,"誘 - entice, lead, tempt, invite, ask","惑 - beguile, delusion, perplexity",,,,
-絶望する,zetsubō,"to have no hope, be in despair",suru,"絶 - discontinue, sever, cut off, abstain, interrupt","望 - ambition, full moon, hope, desire, aspire to",,,,
-増加する,zōka,"to increase, grow, augment",suru,"増 - increase, add, augment, gain, promote ","加 - add, addition, increase, join, include",,,,
-罵る,nonoshiru,abuse verbally,trans.,彼女はさんざん私の事をののしった。,She called me many terrible things.,,,,
-馴染む,najimu,adapt to,intrans.,旧弊な人は新しい事になじめない。,You can’t teach an old dog new tricks.,,,,
-足す,tasu,add,trans.,砂糖を少し足して下さい。,"Add a bit of sugar, please.",,,,
-加える,kuwaeru,add to,,"それに私も加えておいて。
+絶望する,zetsubō,"to have no hope, be in despair",suru,"絶 - discontinue, sever, cut off, abstain, interrupt","望 - ambition, full moon, hope, desire, aspire to",私を絶望させないでくれ,Don't disappoint me,,
+増加する,zōka,"to increase, grow, augment",suru,"増 - increase, add, augment, gain, promote ","加 - add, addition, increase, join, include",それは昨年に比して３割の増加である,It shows an increase of 30 percent over last year.,,
+罵る,nonoshiru,abuse verbally,trans.,彼女はさんざん私の事をののしった,She called me many terrible things.,,,,
+馴染む,najimu,adapt to,intrans.,旧弊な人は新しい事になじめない,You can’t teach an old dog new tricks.,,,,
+足す,tasu,add,trans.,砂糖を少し足して下さい,"Add a bit of sugar, please.",,,,
+加える,kuwaeru,add to,trans.,"それに私も加えておいて
 ",Count me in.,,,,
-答える,kotaeru,answer,,"私は質問に答えたでしょうか。
-Have I answered your question?",,,,,
-着く,tsuku,arrive,,あなたがロンドンに着くころ頃には晩秋となっているだろう。It will be late autumn when you get to London.,,,,,
-志す,kokorozasu,aspire to,,"彼はやろうと志すものは、何でもやり遂げる。
-He accomplishes whatever he sets out to do.",,,,,
-襲う,osou,attack,,"台風が東京を襲った。
-The typhoon hit Tokyo.",,,,,
+答える,kotaeru,answer,intrans.,私は質問に答えたでしょうか,Have I answered your question?,,,,
+着く,tsuku,arrive,intrans.,あなたがロンドンに着くころ頃には晩秋となっているだろう,It will be late autumn when you get to London.,,,,
+志す,kokorozasu,aspire to,intrans.,彼はやろうと志すものは、何でもやり遂げる,He accomplishes whatever he sets out to do.,,,,
+襲う,osou,attack,trans.,台風が東京を襲った,The typhoon hit Tokyo.,,,,
 "目立つ
-めだつ",medatsu,"attract attention, stand out",,"林に竹が目立つ。
-Bamboo stands out in the woods.",,,,,
-避ける,sakeru,"avoid, dodge",,揚げ物はしばらく避けなさい。 Avoid fried foods for a while.,,,,,
-焼く,yaku,"bake, grill",,母は日曜日にはクッキーを焼く。 Mother bakes cookies on Sundays. ▾,,,,,
+めだつ",medatsu,"attract attention, stand out",intrans.,林に竹が目立つ,Bamboo stands out in the woods.,,,,
+避ける,sakeru,"avoid, dodge",trans.,揚げ物はしばらく避けなさい,Avoid fried foods for a while.,,,,
+焼く,yaku,"bake, grill",trans.,母は日曜日にはクッキーを焼く,Mother bakes cookies on Sundays. ,,,,
 禁じる,kinjiru,"ban, prohibit",,彼女は喫煙を禁じられた。 She was prohibited from smoking.,,,,,
 いる,iru,be,,田中さんはいないです。Mr. Tanaka isn’t here.,,,,,
 ふける,fukeru,be absorbed in/obsessed by,,彼女は飲酒にふけった。 She abandoned herself to drinking.,,,,,
@@ -2471,12 +2467,10 @@ Where do you work?",,,,,
 She has anxiety for your safety.",,,,,
 祀る,matsuru,worship,,この記念碑は祖国に命を捧げた兵士を祭っている。 This monument is dedicated to the soldiers who gave their lives to their country.,,,,,
 傷つける,kizutsukeru,"wound, damage, harm",,他人を傷つけることはよくない。 It is bad to hurt others.,,,,,
-包む,tsutsumu,wrap,,美しい包装紙に包んでもらえますか。 Could you gift wrap it?,,,,,
-書く,kaku,write,,脚本を書いていて、行き詰まった時はどうする？ What do you do when you get writer’s block while writing a script?,,,,,
-あくびする,akubi wo suru,yawn,,"大あくびをして。
-Yawn a big long yawn.",,,,,
-怒鳴る,donaru,yell,,"私に怒鳴ったりしないでよ。
-Don’t yell at me",,,,,
+包む,tsutsumu,wrap,trans.,美しい包装紙に包んでもらえますか, Could you gift wrap it?,,,,
+書く,kaku,write,trans.,脚本を書いていて、行き詰まった時はどうする,What do you do when you get writer’s block while writing a script?,,,,
+あくびする,akubi wo suru,yawn,suru,大あくびをして,Yawn a big long yawn.,,,,
+怒鳴る,donaru,yell,intrans.,私に怒鳴ったりしないでよ,Don’t yell at me,,,,
 溢れていた,あふれていた,It was overflowing.,,,,,,,
 憩しょう,いこいしょう,Let’s rest.,,,,,,,
 出ていた,でていた,I was out.,,,,,,,

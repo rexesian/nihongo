@@ -3524,6 +3524,156 @@ reactable(
 
 ```{r, echo=FALSE, message=FALSE}
 
+vnstx <- vnstx[sample(1:nrow(vnstx)),]
+
+reactable(
+  vnstx,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vnstx$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else ""
+        Reading <- vnstx$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else ""
+        W1 <- vnstx$W1[index]
+        W1 <- if (!is.na(W1)) W1 else ""
+        W2 <- vnstx$W2[index]
+        W2 <- if (!is.na(W2)) W2 else ""
+        W3 <- vnstx$W3[index]
+        W3 <- if (!is.na(W3)) W3 else ""
+        S1 <- vnstx$S1[index]
+        S1 <- if (!is.na(S1)) S1 else ""
+        S2 <- vnstx$S2[index]
+        S2 <- if (!is.na(S2)) S2 else ""
+        S3 <- vnstx$S3[index]
+        S3 <- if (!is.na(S3)) S3 else ""
+        Type <- vnstx$Type[index]
+        Type <- if (!is.na(Type)) Type else ""
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 600), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning),
+          div(style = list(fontSize = 14), S1),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S2),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S3),
+          div(style = list(fontSize = 11), Type),
+          div(style = list(fontSize = 14), W1," ", W2," ", W3),
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Type = colDef(show = FALSE),
+    S1 = colDef(show = FALSE),
+    S2 = colDef(show = FALSE),
+    S3 = colDef(show = FALSE),
+    W1 = colDef(show = FALSE),
+    W2 = colDef(show = FALSE),
+    W3 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### 14
+
+```{r, echo=FALSE, message=FALSE}
+
+vnstx <- vnstx[sample(1:nrow(vnstx)),]
+
+reactable(
+  vnstx,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vnstx$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else ""
+        Reading <- vnstx$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else ""
+        W1 <- vnstx$W1[index]
+        W1 <- if (!is.na(W1)) W1 else ""
+        W2 <- vnstx$W2[index]
+        W2 <- if (!is.na(W2)) W2 else ""
+        W3 <- vnstx$W3[index]
+        W3 <- if (!is.na(W3)) W3 else ""
+        S1 <- vnstx$S1[index]
+        S1 <- if (!is.na(S1)) S1 else ""
+        S2 <- vnstx$S2[index]
+        S2 <- if (!is.na(S2)) S2 else ""
+        S3 <- vnstx$S3[index]
+        S3 <- if (!is.na(S3)) S3 else ""
+        Type <- vnstx$Type[index]
+        Type <- if (!is.na(Type)) Type else ""
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 600), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning),
+          div(style = list(fontSize = 14), S1),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S2),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S3),
+          div(style = list(fontSize = 11), Type),
+          div(style = list(fontSize = 14), W1," ", W2," ", W3),
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Type = colDef(show = FALSE),
+    S1 = colDef(show = FALSE),
+    S2 = colDef(show = FALSE),
+    S3 = colDef(show = FALSE),
+    W1 = colDef(show = FALSE),
+    W2 = colDef(show = FALSE),
+    W3 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### 15
+
+```{r, echo=FALSE, message=FALSE}
+
 reactable(
   na.omit(vbls),
   columns = list(
@@ -3569,7 +3719,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### 14
+##### 16
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3611,7 +3761,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### 15
+##### 17
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3655,7 +3805,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### 16
+##### 18
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3690,7 +3840,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-##### 17
+##### 19
 
 ```{r, echo=FALSE, message=FALSE}
 
