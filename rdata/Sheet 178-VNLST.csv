@@ -308,10 +308,10 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 応じる,おうじる,"to respond, to satisfy, to accept, to comply with, to apply for",intrans.,先方の条件に応じる,収入に応じて税金が課される,あなたの要求に応じることはできない,反応,一応,応援
 下げる,さげる,"to hang, to suspend, to wear (decoration), to lower, to reduce, to bring down, to demote, to move back, to pull back, to clear (plates), to remove (food)",trans.,機長は機首を下げた,窓にカーテンを下げる,温度を下げる,靴下,地下,廊下
 片付ける,かたずける,"to tidy up, to put in order, to straighten up, to clan, to settle, to clear, to bring something to an end",trans.,部屋を片付ける,いすを部屋の隅に片付けた,彼女はてきぱきと仕事を片付けた,破片,片道,片隅
-救う,すくう,"to rescue from, to help out of, to save",,,,,,,
-減る,へる,"to decrease, to diminish, to abate",,,,,,,
-減らす,へらす,"to abate, to decrease, to diminish, to shorten",,,,,,,
-伺う,うかがう,"to ask, to inquire, to hear, to be told, to seek direction, to visit, to speak to",,,,,,,
+救う,すくう,"to rescue from, to help out of, to save",trans.,頭は悪いが性格がよいので救われる,この犬は山の遭難者を救うように訓練されている,困難にぶつかるといつも兄が救ってくれた,救済,救助,救急車
+減る,へる,"to decrease, to diminish, to abate",intrans.,会員数が減った,体重が５キロ減った,灯油の貯えが減ってきた,加減,減少する,削減する
+減らす,へらす,"to abate, to decrease, to diminish, to shorten",trans.,出費を減らす,医者に酒を減らせと言われた,減食して体重を減らしているところだ,減量する,減税する,激減
+伺う,うかがう,"to ask, to inquire, to hear, to be told, to seek direction, to visit, to speak to",trans.,この問題についてご意見を伺いたい,ちょっと伺いますが駅はどっちでしょう,おうわさはかねがね伺っております,伺い書,経伺,機嫌伺い
 祈る,いのる,"to pray, to wish",,,,,,,
 頑張る,がんばる,"to persevere, to persist, to keep at it, to hang on, to hold out, to do one’s best",,,,,,,
 晒す,さらす,"to expose (sun, public, danger, etc.), to bleach, to refine, to rinse (vegetables), to soak",,,,,,,
@@ -834,7 +834,7 @@ Words,Reading,Meaning,Type,S1,S2,S3,W1,W2,W3
 志す,こころざす,"to plan, to intend, to aspire to, to set aims (sights on)",,,,,,,
 蘇る,よみがえる,"to be resurrected, to be revived, to be resuscitated, to be rehabilitated",,,,,,,
 滞る,とどこおる,"to stagnate, to be delayed",,,,,,,
-謙る,へりくだる,to deprecate oneself and praise the listener,,,,,,,
+謙る,へりくだる,to deprecate oneself and praise the listener,intrans.,へりくだった態度,へりくだった物の言い方,自分をへりくだる,謙虚,謙遜する,謙譲語
 奉る,たてまつる,"to offer, to present, to revere, to do respectfully",,,,,,,
 司る,つかさどる,"to rule, to govern, to administer",,,,,,,
 遡る,さかのぼる,"to go back, to go upstream, to make retroactive",,,,,,,
