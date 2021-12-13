@@ -192,6 +192,8 @@ rlgmr <- read_csv("rdata/Sheet 175-SSTNC.csv")
 vnstl <- read_csv("rdata/Sheet 176-VNLST.csv")
 vnstx <- read_csv("rdata/Sheet 178-VNLST.csv")
 sntt <- read_csv("rdata/Sheet 180-SNTT.csv")
+ankn <- read_csv("rdata/Sheet 172-ANKI.csv")
+vbls <- read_csv("rdata/Sheet 183-VBLS.csv")
 
 ```
 
@@ -2721,7 +2723,9 @@ reactable(
 
 ### Usage {.tabset}
 
-#### Verbs
+#### Verbs {.tabset}
+
+##### 1
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -2772,7 +2776,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VRB
+##### 2
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -2823,7 +2827,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVR
+##### 3
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3029,7 +3033,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVC
+##### 4
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3075,7 +3079,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVD
+##### 5
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3121,7 +3125,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVE
+##### 6
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3169,7 +3173,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVF
+##### 7
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3220,7 +3224,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### RVG
+##### 8
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3272,7 +3276,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VNS
+##### 9
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3319,7 +3323,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VNR
+##### 10
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3366,7 +3370,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VNT
+##### 11
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3379,34 +3383,47 @@ reactable(
       # Show species under character names
       cell = function(value, index) {
         Meaning <- vnstx$Meaning[index]
-        Meaning <- if (!is.na(Meaning)) Meaning else "."
+        Meaning <- if (!is.na(Meaning)) Meaning else ""
         Reading <- vnstx$Reading[index]
-        Reading <- if (!is.na(Reading)) Reading else "."
-        Tag1 <- vnstx$Tag1[index]
-        Tag1 <- if (!is.na(Tag1)) Tag1 else "."
-        Tag2 <- vnstx$Tag2[index]
-        Tag2 <- if (!is.na(Tag2)) Tag2 else "."
-        Tag3 <- vnstx$Tag3[index]
-        Tag3 <- if (!is.na(Tag3)) Tag3 else "."
+        Reading <- if (!is.na(Reading)) Reading else ""
+        W1 <- vnstx$W1[index]
+        W1 <- if (!is.na(W1)) W1 else ""
+        W2 <- vnstx$W2[index]
+        W2 <- if (!is.na(W2)) W2 else ""
+        W3 <- vnstx$W3[index]
+        W3 <- if (!is.na(W3)) W3 else ""
+        S1 <- vnstx$S1[index]
+        S1 <- if (!is.na(S1)) S1 else ""
+        S2 <- vnstx$S2[index]
+        S2 <- if (!is.na(S2)) S2 else ""
+        S3 <- vnstx$S3[index]
+        S3 <- if (!is.na(S3)) S3 else ""
+        Type <- vnstx$Type[index]
+        Type <- if (!is.na(Type)) Type else ""
         tagList(
-          div(style = list(fontSize = 40, fontWeight = 800), value),
+          div(style = list(fontSize = 30, fontWeight = 600), value),
           div(style = list(fontSize = 13), Reading),
           div(style = list(fontSize = 11), Meaning),
-          div(style = list(fontSize = 13), "---"),
-          div(style = list(fontSize = 14), Tag1),
-          div(style = list(fontSize = 1), "."),
-          div(style = list(fontSize = 14), Tag2),
-          div(style = list(fontSize = 1), "."),
-          div(style = list(fontSize = 14), Tag3),
+          div(style = list(fontSize = 14), S1),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S2),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S3),
+          div(style = list(fontSize = 11), Type),
+          div(style = list(fontSize = 14), W1," ", W2," ", W3),
         )
       },
       align = "center"
     ),
     Reading = colDef(show = FALSE),
     Meaning = colDef(show = FALSE),
-    Tag1 = colDef(show = FALSE),
-    Tag2 = colDef(show = FALSE),
-    Tag3 = colDef(show = FALSE)
+    Type = colDef(show = FALSE),
+    S1 = colDef(show = FALSE),
+    S2 = colDef(show = FALSE),
+    S3 = colDef(show = FALSE),
+    W1 = colDef(show = FALSE),
+    W2 = colDef(show = FALSE),
+    W3 = colDef(show = FALSE)
   ),
   defaultPageSize = 1,
   theme = reactableTheme(
@@ -3428,7 +3445,131 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VPH1
+##### 12
+
+```{r, echo=FALSE, message=FALSE}
+
+vnstx <- vnstx[sample(1:nrow(vnstx)),]
+
+reactable(
+  vnstx,
+  columns = list(
+    Words = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vnstx$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else ""
+        Reading <- vnstx$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else ""
+        W1 <- vnstx$W1[index]
+        W1 <- if (!is.na(W1)) W1 else ""
+        W2 <- vnstx$W2[index]
+        W2 <- if (!is.na(W2)) W2 else ""
+        W3 <- vnstx$W3[index]
+        W3 <- if (!is.na(W3)) W3 else ""
+        S1 <- vnstx$S1[index]
+        S1 <- if (!is.na(S1)) S1 else ""
+        S2 <- vnstx$S2[index]
+        S2 <- if (!is.na(S2)) S2 else ""
+        S3 <- vnstx$S3[index]
+        S3 <- if (!is.na(S3)) S3 else ""
+        Type <- vnstx$Type[index]
+        Type <- if (!is.na(Type)) Type else ""
+        tagList(
+          div(style = list(fontSize = 30, fontWeight = 600), value),
+          div(style = list(fontSize = 13), Reading),
+          div(style = list(fontSize = 11), Meaning),
+          div(style = list(fontSize = 14), S1),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S2),
+          # div(style = list(fontSize = 1), "."),
+          div(style = list(fontSize = 14), S3),
+          div(style = list(fontSize = 11), Type),
+          div(style = list(fontSize = 14), W1," ", W2," ", W3),
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Type = colDef(show = FALSE),
+    S1 = colDef(show = FALSE),
+    S2 = colDef(show = FALSE),
+    S3 = colDef(show = FALSE),
+    W1 = colDef(show = FALSE),
+    W2 = colDef(show = FALSE),
+    W3 = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### 13
+
+```{r, echo=FALSE, message=FALSE}
+
+reactable(
+  na.omit(vbls),
+  columns = list(
+    Verb = colDef(
+      # Show species under character names
+      cell = function(value, index) {
+        Meaning <- vbls$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else ""
+        Reading <- vbls$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else ""
+        Words <- vbls$Words[index]
+        Words <- if (!is.na(Words)) Words else ""
+        tagList(
+          div(style = list(fontSize = 35, fontWeight = 600), value),
+          div(style = list(fontSize = 11), Reading),
+          div(style = list(fontSize = 11), Meaning),
+          div(style = list(fontSize = 11), Words)
+        )
+      },
+      align = "center"
+    ),
+    Reading = colDef(show = FALSE),
+    Meaning = colDef(show = FALSE),
+    Words = colDef(show = FALSE)
+  ),
+  defaultPageSize = 1,
+  theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    )
+  ),
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+)
+
+```
+
+------------------------------------------------------------------------
+
+##### 14
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3470,7 +3611,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### VPH2
+##### 15
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3514,7 +3655,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### KWRD
+##### 16
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -3549,7 +3690,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### KWRE
+##### 17
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -20374,7 +20515,58 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### CMP  {.tabset}
+#### NX  {.tabset}
+
+```{r, echo=FALSE, message=FALSE}
+
+ankn <- ankn[sample(1:nrow(ankn)),]
+
+reactable(
+  ankn,
+  columns = list(
+      Words = colDef(
+      cell = function(value, index) {
+        Reading <- ankn$Reading[index]
+        Reading <- if (!is.na(Reading)) Reading else "Unknown"
+        Meaning <- ankn$Meaning[index]
+        Meaning <- if (!is.na(Meaning)) Meaning else "Unknown"
+        tagList(
+          div(style = list(fontSize = 19, fontWeight = 500), value),
+          # div(style = list(fontSize = 11, fontWeight = 200), Reading),
+          # div(style = list(fontSize = 11, fontWeight = 200), Meaning)
+        )
+      },
+      align = "center", minWidth = 400
+      ),
+      Meaning = colDef(show = FALSE),
+      Reading = colDef(show = FALSE)
+  ),
+    outlined = TRUE, defaultPageSize = 7, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
+  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
+  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+    theme = reactableTheme(
+    # Vertically center cells
+    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height =50),
+    searchInputStyle = list(
+      paddingLeft = "8px",
+      paddingTop = "8px",
+      paddingBottom = "8px",
+      width = "100%"
+    ),
+    headerStyle = list(
+      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+      # borderColor = "#555", 
+      height = 30, fontSize = "11px"
+    )
+  )
+)
+
+```
+
+------------------------------------------------------------------------
+
+#### CP  {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -20425,7 +20617,7 @@ reactable(
 
 ------------------------------------------------------------------------
 
-#### CMR  {.tabset}
+#### CR  {.tabset}
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -20473,6 +20665,8 @@ reactable(
 )
 
 ```
+
+
 
 ------------------------------------------------------------------------
 
