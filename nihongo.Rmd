@@ -69,7 +69,6 @@ library(purrr)
 ```{r, echo=FALSE, message=FALSE, error=FALSE}
 da <- read_csv("rdata/Sheet 1-ADJ1.csv")
 db <- read_csv("rdata/Sheet 2-EXP1.csv")
-kn <- read_csv("rdata/Sheet 3-KNJL1.csv")
 jl <- read_csv("rdata/Sheet 4-jlpt.csv")
 wd <- read_csv("rdata/Sheet 6-WRD.csv")
 k1 <- read_csv("rdata/Sheet 7-KNJ1K.csv")
@@ -3717,91 +3716,91 @@ reactable(
 
 ```
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-##### 16
+<!-- ##### 16 -->
 
-```{r, echo=FALSE, message=FALSE}
+<!-- ```{r, echo=FALSE, message=FALSE} -->
 
-reactable(
-  na.omit(vpht1),
-  columns = list(
-    Phrase = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Sentence <- vpht1$Sentence[index]
-        Sentence <- if (!is.na(Sentence)) Sentence else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
+<!-- reactable( -->
+<!--   na.omit(vpht1), -->
+<!--   columns = list( -->
+<!--     Phrase = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Sentence <- vpht1$Sentence[index] -->
+<!--         Sentence <- if (!is.na(Sentence)) Sentence else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
 
-        )
-      },
-      align = "center"
-    ),
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
 
-    Sentence = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
+<!--     Sentence = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
 
-```
+<!--   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
 
-------------------------------------------------------------------------
+<!-- ``` -->
 
-##### 17
+<!-- ------------------------------------------------------------------------ -->
 
-```{r, echo=FALSE, message=FALSE}
+<!-- ##### 17 -->
 
-vpht1 <- vpht1[sample(1:nrow(na.omit(vpht1))),]
+<!-- ```{r, echo=FALSE, message=FALSE} -->
 
-reactable(
-  na.omit(vpht1),
-  columns = list(
-    Sentence = colDef(
-      # Show species under character names
-      cell = function(value, index) {
-        Phrase <- vpht1$Phrase[index]
-        Phrase <- if (!is.na(Phrase)) Phrase else "Unknown"
-        tagList(
-          div(style = list(fontSize = 25, fontWeight = 600), value),
+<!-- vpht1 <- vpht1[sample(1:nrow(na.omit(vpht1))),] -->
 
-        )
-      },
-      align = "center"
-    ),
+<!-- reactable( -->
+<!--   na.omit(vpht1), -->
+<!--   columns = list( -->
+<!--     Sentence = colDef( -->
+<!--       # Show species under character names -->
+<!--       cell = function(value, index) { -->
+<!--         Phrase <- vpht1$Phrase[index] -->
+<!--         Phrase <- if (!is.na(Phrase)) Phrase else "Unknown" -->
+<!--         tagList( -->
+<!--           div(style = list(fontSize = 25, fontWeight = 600), value), -->
 
-    Phrase = colDef(show = FALSE)
-  ),
-  defaultPageSize = 1,
-  theme = reactableTheme(
-    # Vertically center cells
-    cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
-    searchInputStyle = list(
-      paddingLeft = "8px",
-      paddingTop = "8px",
-      paddingBottom = "8px",
-      width = "100%"
-    )
-  ),
-  showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  
-  style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
-)
+<!--         ) -->
+<!--       }, -->
+<!--       align = "center" -->
+<!--     ), -->
 
-```
+<!--     Phrase = colDef(show = FALSE) -->
+<!--   ), -->
+<!--   defaultPageSize = 1, -->
+<!--   theme = reactableTheme( -->
+<!--     # Vertically center cells -->
+<!--     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300), -->
+<!--     searchInputStyle = list( -->
+<!--       paddingLeft = "8px", -->
+<!--       paddingTop = "8px", -->
+<!--       paddingBottom = "8px", -->
+<!--       width = "100%" -->
+<!--     ) -->
+<!--   ), -->
+<!--   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers", -->
+
+<!--   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px") -->
+<!-- ) -->
+
+<!-- ``` -->
 
 <!-- ------------------------------------------------------------------------ -->
 
@@ -3960,7 +3959,6 @@ reactable(
   vnstx,
   columns = list(
     Words = colDef(
-      # Show species under character names
       cell = function(value, index) {
         Meaning <- vnstx$Meaning[index]
         Meaning <- if (!is.na(Meaning)) Meaning else ""
@@ -3982,15 +3980,6 @@ reactable(
         Type <- if (!is.na(Type)) Type else ""
         tagList(
           div(style = list(fontSize = 20, fontWeight = 600), value),
-          # div(style = list(fontSize = 13), Reading),
-          # div(style = list(fontSize = 11), Meaning),
-          # div(style = list(fontSize = 14), S1),
-          # # div(style = list(fontSize = 1), "."),
-          # div(style = list(fontSize = 14), S2),
-          # # div(style = list(fontSize = 1), "."),
-          # div(style = list(fontSize = 14), S3),
-          # div(style = list(fontSize = 11), Type),
-          # div(style = list(fontSize = 14), W1," ", W2," ", W3),
         )
       },
       align = "center"
@@ -4007,7 +3996,6 @@ reactable(
   ),
   defaultPageSize = 7,
   theme = reactableTheme(
-    # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center"),
     searchInputStyle = list(
       paddingLeft = "8px",
@@ -10576,7 +10564,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -10666,7 +10654,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -10756,7 +10744,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -10846,7 +10834,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -10972,7 +10960,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11118,7 +11106,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11208,7 +11196,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11298,7 +11286,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11388,7 +11376,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11478,7 +11466,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -11568,7 +11556,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300),
@@ -12045,7 +12033,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12091,7 +12079,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12137,7 +12125,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12183,7 +12171,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12229,7 +12217,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12275,7 +12263,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12321,7 +12309,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12367,7 +12355,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12413,7 +12401,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12459,7 +12447,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12505,7 +12493,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12559,7 +12547,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
@@ -12637,7 +12625,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
@@ -12697,7 +12685,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
@@ -12771,7 +12759,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
 
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12813,7 +12801,7 @@ reactable(
   ),
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 300, fontSize = "11px"),
@@ -12877,7 +12865,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -12923,7 +12911,7 @@ reactable(
   ),
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   
-  style = list(fontFamily = "Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
+  style = list(fontFamily = "Heiti SC,Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px")
 )
 
 ```
@@ -21551,37 +21539,26 @@ reactable(
 reactable(
   na.omit(smexp),
   columns = list(
-       Expression = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
+    Expression = colDef(
       cell = function(value, index) {
         Expn <- smexp$Expn[index]
-        Expn <- if (!is.na(Expn)) Expn else "Unknown"
+        Expn <- if (!is.na(Expn)) Expn else ""
         Trans <- smexp$Trans[index]
-        Trans <- if (!is.na(Expn)) Trans else "Unknown"
+        Trans <- if (!is.na(Expn)) Trans else ""
         Usage <- smexp$Usage[index]
-        Usage <- if (!is.na(Expn)) Usage else "Unknown"       
+        Usage <- if (!is.na(Expn)) Usage else ""       
         Remark <- smexp$Remark[index]
-        Remark <- if (!is.na(Expn)) Remark else "Unknown"           
+        Remark <- if (!is.na(Expn)) Remark else ""           
         State <- smexp$State[index]
-        State <- if (!is.na(Expn)) State else "Unknown"        
+        State <- if (!is.na(Expn)) State else ""        
         Convo1 <- smexp$Convo1[index]
-        Convo1 <- if (!is.na(Expn)) Convo1 else "Unknown"          
+        Convo1 <- if (!is.na(Expn)) Convo1 else ""          
         Convo2 <- smexp$Convo2[index]
-        Convo2 <- if (!is.na(Expn)) Convo2 else "Unknown"  
+        Convo2 <- if (!is.na(Expn)) Convo2 else ""  
         Tconvo1 <- smexp$Tconvo1[index]
-        Tconvo1 <- if (!is.na(Expn)) Tconvo1 else "Unknown"  
+        Tconvo1 <- if (!is.na(Expn)) Tconvo1 else ""  
         Tconvo2 <- smexp$Tconvo2[index]
-        Tconvo2 <- if (!is.na(Expn)) Tconvo2 else "Unknown"  
+        Tconvo2 <- if (!is.na(Expn)) Tconvo2 else ""  
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
@@ -21613,7 +21590,6 @@ reactable(
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
-    # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
     searchInputStyle = list(
       paddingLeft = "8px",
@@ -21622,9 +21598,6 @@ reactable(
       width = "100%"
     ),
     headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
       height = 30, fontSize = "11px"
     )
   )
@@ -21639,45 +21612,34 @@ reactable(
 ```{r echo=FALSE, message=FALSE}
 
 reactable(
-  na.omit(extexp),
+  extexp,
   columns = list(
-       Expression = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
+    Expression = colDef(
       cell = function(value, index) {
         Expn <- extexp$Expn[index]
-        Expn <- if (!is.na(Expn)) Expn else "Unknown"
+        Expn <- if (!is.na(Expn)) Expn else ""
         Trans <- extexp$Trans[index]
-        Trans <- if (!is.na(Expn)) Trans else "Unknown"
+        Trans <- if (!is.na(Trans)) Trans else ""
         Usage <- extexp$Usage[index]
-        Usage <- if (!is.na(Expn)) Usage else "Unknown"       
+        Usage <- if (!is.na(Usage)) Usage else ""       
         Pattern <- extexp$Pattern[index]
-        Pattern <- if (!is.na(Expn)) Pattern else "Unknown"           
+        Pattern <- if (!is.na(Pattern)) Pattern else ""           
         Convo1 <- extexp$Convo1[index]
-        Convo1 <- if (!is.na(Expn)) Convo1 else "Unknown"          
+        Convo1 <- if (!is.na(Convo1)) Convo1 else ""          
         Convo2 <- extexp$Convo2[index]
-        Convo2 <- if (!is.na(Expn)) Convo2 else "Unknown"  
+        Convo2 <- if (!is.na(Convo2)) Convo2 else ""  
         Convo3 <- extexp$Convo3[index]
-        Convo3 <- if (!is.na(Expn)) Convo3 else "Unknown"          
+        Convo3 <- if (!is.na(Convo3)) Convo3 else ""          
         Convo4 <- extexp$Convo4[index]
-        Convo4 <- if (!is.na(Expn)) Convo4 else "Unknown" 
+        Convo4 <- if (!is.na(Convo4)) Convo4 else "" 
         Tconvo1 <- extexp$Tconvo1[index]
-        Tconvo1 <- if (!is.na(Expn)) Tconvo1 else "Unknown"  
+        Tconvo1 <- if (!is.na(Tconvo1)) Tconvo1 else ""  
         Tconvo2 <- extexp$Tconvo2[index]
-        Tconvo2 <- if (!is.na(Expn)) Tconvo2 else "Unknown"  
+        Tconvo2 <- if (!is.na(Tconvo2)) Tconvo2 else ""  
         Tconvo3 <- extexp$Tconvo3[index]
-        Tconvo3 <- if (!is.na(Expn)) Tconvo3 else "Unknown"  
+        Tconvo3 <- if (!is.na(Tconvo3)) Tconvo3 else ""  
         Tconvo4 <- extexp$Tconvo4[index]
-        Tconvo4 <- if (!is.na(Expn)) Tconvo4 else "Unknown"  
+        Tconvo4 <- if (!is.na(Tconvo4)) Tconvo4 else ""  
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
@@ -21715,7 +21677,6 @@ reactable(
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
-    # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
     searchInputStyle = list(
       paddingLeft = "8px",
@@ -21724,9 +21685,6 @@ reactable(
       width = "100%"
     ),
     headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
       height = 30, fontSize = "11px"
     )
   )
@@ -21741,57 +21699,46 @@ reactable(
 ```{r echo=FALSE, message=FALSE}
 
 reactable(
-  na.omit(esnexp),
+  esnexp,
   columns = list(
-       Expression = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
-      cell = function(value, index) {
+      Expression = colDef(
+       cell = function(value, index) {
         Expn <- esnexp$Expn[index]
-        Expn <- if (!is.na(Expn)) Expn else "Unknown"
+        Expn <- if (!is.na(Expn)) Expn else ""
         Trans <- esnexp$Trans[index]
-        Trans <- if (!is.na(Expn)) Trans else "Unknown"
+        Trans <- if (!is.na(Trans)) Trans else ""
         Convo1 <- esnexp$Convo1[index]
-        Convo1 <- if (!is.na(Expn)) Convo1 else "Unknown"          
+        Convo1 <- if (!is.na(Convo1)) Convo1 else ""
         Convo2 <- esnexp$Convo2[index]
-        Convo2 <- if (!is.na(Expn)) Convo2 else "Unknown"  
+        Convo2 <- if (!is.na(Convo2)) Convo2 else ""
         Convo3 <- esnexp$Convo3[index]
-        Convo3 <- if (!is.na(Expn)) Convo3 else "Unknown"          
+        Convo3 <- if (!is.na(Convo3)) Convo3 else ""
         Convo4 <- esnexp$Convo4[index]
-        Convo4 <- if (!is.na(Expn)) Convo4 else "Unknown" 
+        Convo4 <- if (!is.na(Convo4)) Convo4 else ""
         Convo5 <- esnexp$Convo5[index]
-        Convo5 <- if (!is.na(Expn)) Convo5 else "Unknown"  
+        Convo5 <- if (!is.na(Convo5)) Convo5 else ""
         Convo6 <- esnexp$Convo6[index]
-        Convo6 <- if (!is.na(Expn)) Convo6 else "Unknown"  
+        Convo6 <- if (!is.na(Convo6)) Convo6 else ""
         Convo7 <- esnexp$Convo7[index]
-        Convo7 <- if (!is.na(Expn)) Convo7 else "Unknown"  
+        Convo7 <- if (!is.na(Convo7)) Convo7 else ""
         Convo8 <- esnexp$Convo8[index]
-        Convo8 <- if (!is.na(Expn)) Convo8 else "Unknown"  
+        Convo8 <- if (!is.na(Convo8)) Convo8 else ""
         Convo9 <- esnexp$Convo9[index]
-        Convo9 <- if (!is.na(Expn)) Convo9 else "Unknown"  
+        Convo9 <- if (!is.na(Convo9)) Convo9 else ""
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
           div(style = list(fontSize = 11, fontWeight = 200), Trans),
           div("•"),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo1),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo2),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo3),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo4),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo5),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo6),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo7),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo8),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo9),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo1),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo2),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo3),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo4),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo5),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo6),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo7),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo8),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo9),
         )
       },
       align = "left", minWidth = 400
@@ -21812,7 +21759,6 @@ reactable(
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
     # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
@@ -21825,11 +21771,12 @@ reactable(
     headerStyle = list(
       # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
       # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
+      # borderColor = "#555",
       height = 30, fontSize = "11px"
     )
   )
 )
+
 
 ```
 
@@ -21842,55 +21789,44 @@ reactable(
 reactable(
   na.omit(cstexp),
   columns = list(
-       Expression = colDef(
-         #style = list(fontSize = "50px", fontWeight = 700), align = "center"
-         
-        style = JS("function(rowInfo, colInfo, state) {
-        var firstSorted = state.sorted[0]
-        if (!firstSorted || firstSorted.id === 'Expression') {
-          var prevRow = state.pageRows[rowInfo.viewIndex - 1]
-          if (prevRow && rowInfo.row['Expression'] === prevRow['Expression']) {
-            return { visibility: 'hidden' }
-          }
-        }
-      }"),
+    Expression = colDef(
       cell = function(value, index) {
         Expn <- cstexp$Expn[index]
-        Expn <- if (!is.na(Expn)) Expn else "Unknown"
+        Expn <- if (!is.na(Expn)) Expn else ""
         Trans <- cstexp$Trans[index]
-        Trans <- if (!is.na(Expn)) Trans else "Unknown"
+        Trans <- if (!is.na(Trans)) Trans else ""
         Notice <- cstexp$Notice[index]
-        Notice <- if (!is.na(Expn)) Notice else "Unknown"
+        Notice <- if (!is.na(Notice)) Notice else ""
         Convo1 <- cstexp$Convo1[index]
-        Convo1 <- if (!is.na(Expn)) Convo1 else "Unknown"          
+        Convo1 <- if (!is.na(Convo1)) Convo1 else ""          
         Convo2 <- cstexp$Convo2[index]
-        Convo2 <- if (!is.na(Expn)) Convo2 else "Unknown"  
+        Convo2 <- if (!is.na(Convo2)) Convo2 else ""  
         Convo3 <- cstexp$Convo3[index]
-        Convo3 <- if (!is.na(Expn)) Convo3 else "Unknown"          
+        Convo3 <- if (!is.na(Convo3)) Convo3 else ""          
         Convo4 <- cstexp$Convo4[index]
-        Convo4 <- if (!is.na(Expn)) Convo4 else "Unknown" 
+        Convo4 <- if (!is.na(Convo4)) Convo4 else "" 
         Convo5 <- cstexp$Convo5[index]
-        Convo5 <- if (!is.na(Expn)) Convo5 else "Unknown"  
+        Convo5 <- if (!is.na(Convo5)) Convo5 else ""  
         Convo6 <- cstexp$Convo6[index]
-        Convo6 <- if (!is.na(Expn)) Convo6 else "Unknown"  
+        Convo6 <- if (!is.na(Convo6)) Convo6 else ""  
         Convo7 <- cstexp$Convo7[index]
-        Convo7 <- if (!is.na(Expn)) Convo7 else "Unknown"  
+        Convo7 <- if (!is.na(Convo7)) Convo7 else ""  
         Convo8 <- cstexp$Convo8[index]
-        Convo8 <- if (!is.na(Expn)) Convo8 else "Unknown"  
+        Convo8 <- if (!is.na(Convo8)) Convo8 else ""  
         tagList(
           div(style = list(fontSize = 30, fontWeight = 800), value),
           div(style = list(fontSize = 15, fontWeight = 700), Expn),
           div(style = list(fontSize = 14, fontWeight = 700), Trans),
           div(style = list(fontSize = 11, fontWeight = 200), Notice),
           div("•"),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo1),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo2),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo3),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo4),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo5),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo6),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo7),
-          div(style = list(fontSize = 19, fontWeight = 500, fontFamily = "Rounded Mplus 1c" ), Convo8),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo1),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo2),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo3),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo4),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo5),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo6),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo7),
+          div(style = list(fontSize = 19, fontWeight = 500), Convo8),
         )
       },
       align = "left", minWidth = 400
@@ -21910,9 +21846,7 @@ reactable(
     outlined = TRUE, defaultPageSize = 1, compact = FALSE, highlight = TRUE, fullWidth = TRUE,
   showPageInfo = FALSE, bordered = TRUE, searchable = TRUE, sortable = FALSE, paginationType = "numbers",
   style = list(fontFamily = "Heiti SC, Hiragino Maru Gothic ProN, Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
-  # style = list(fontFamily = "Anonymous Pro , monospace, Helvetica Neue", fontSize = "11px"),
     theme = reactableTheme(
-    # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", height = 400),
     searchInputStyle = list(
       paddingLeft = "8px",
@@ -21921,9 +21855,6 @@ reactable(
       width = "100%"
     ),
     headerStyle = list(
-      # "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
-      # "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
-      # borderColor = "#555", 
       height = 30, fontSize = "11px"
     )
   )
@@ -25240,7 +25171,6 @@ reactable(
   vbphr,
   columns = list(
     Phrase = colDef(
-      # Show species under character names
       cell = function(value, index) {
         Translation <- vbphr$Translation[index]
         Translation <- if (!is.na(Translation)) Translation else "Unknown"
@@ -25255,7 +25185,6 @@ reactable(
   ),
   defaultPageSize = 5,
   theme = reactableTheme(
-    # Vertically center cells
     cellStyle = list(display = "flex", flexDirection = "column", justifyContent = "center", fontSize = "11px"),
     searchInputStyle = list(
       paddingLeft = "8px",
